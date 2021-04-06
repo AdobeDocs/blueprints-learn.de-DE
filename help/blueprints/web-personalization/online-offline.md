@@ -3,15 +3,14 @@ title: Online-/Offline-Web-Personalisierung
 description: Synchronisieren Sie die Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanälen.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
+exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9b6c220a515c5abae22b58fe33558d7d2fed375d
+source-git-commit: 2daba1965d6dce011bcce924f8e7471d7dfd42fb
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
-
-
 
 # Online-/Offline-Web-Personalisierung
 
@@ -36,10 +35,10 @@ Synchronisieren Sie die Web-Personalisierung mit E-Mail und anderen bekannten un
 
 ## Guardraht
 
-* Segmente, die von Experience Platform zu Audience Manager freigegeben werden, werden innerhalb von Minuten nach der Segmentrealisierung freigegeben - sei es über die Streaming- oder Batch-Evaluierungsmethode. Es gibt eine anfängliche Segmentkonfigurationssynchronisierung zwischen AEP und AAM von etwa 4 Stunden, damit die AEP-Segmentmitgliedschaften in AAM Profilen realisiert werden können. In den AAM Profilen sind die AEP-Segmentmitgliedschaften für dieselbe Seitenpersonalisierung über Adobe Target verfügbar.
-* Beachten Sie, dass bei Segmentrealisierungen, die innerhalb der 4-Stunden-Segmentkonfigurationssynchronisierung zwischen AEP und AAM auftreten, diese Segmentrealisierungen beim nachfolgenden Stapelsegmentauftrag als &quot;vorhandene&quot;Segmente in AAM umgesetzt werden.
-* Freigabe von Stapelsegmenten über AEP - einmal pro Tag oder manuell über API initiiert. Sobald diese Segmentmitgliedschaften realisiert sind, werden sie innerhalb von Minuten AAM freigegeben und stehen für die Personalisierung der gleichen/nächsten Seite in der Zielgruppe zur Verfügung.
-* Die Streaming-Segmentierung erfolgt innerhalb von ca. 95 Minuten. Sobald diese Segmentrealisierungen auftreten, werden sie innerhalb von Minuten für AAM freigegeben und für die Personalisierung der gleichen/nächsten Seite in der Zielgruppe verfügbar gemacht.
+* Segmente, die von Experience Platform zu Audience Manager freigegeben werden, werden innerhalb von Minuten nach der Segmentrealisierung freigegeben - sei es über die Streaming- oder Batch-Evaluierungsmethode. Es gibt eine anfängliche Segmentkonfigurationssynchronisierung zwischen Experience Platform und Audience Manager von etwa 4 Stunden, damit die Segmentmitgliedschaften der Experience Platform in Audience Manager-Profilen realisiert werden. Sobald die Audience Manager-Profil vorhanden sind, können die Experience Platformen-Segmentmitgliedschaften über Adobe Target für dieselbe Seitenpersonalisierung genutzt werden.
+* Beachten Sie, dass bei Segmentrealisierungen, die innerhalb der 4-Stunden-Segmentkonfigurationssynchronisierung zwischen Experience Platform und Audience Manager stattfinden, diese Segmentrealisierungen beim nachfolgenden Stapelsegmentauftrag als &quot;vorhandene&quot;Segmente in Audience Manager implementiert werden.
+* Segmentfreigabe per Batch von der Experience Platform - einmal pro Tag oder manuell über die API initiiert. Sobald diese Segmentmitgliedschaften realisiert sind, werden sie innerhalb von Minuten für den Audience Manager freigegeben und stehen für die Personalisierung der gleichen/nächsten Seite in der Zielgruppe zur Verfügung.
+* Die Streaming-Segmentierung wird innerhalb von etwa 5 Minuten durchgeführt. Sobald diese Segmentrealisierungen auftreten, werden sie innerhalb von Minuten für den Audience Manager freigegeben und für die Personalisierung der gleichen/nächsten Seite in der Zielgruppe verfügbar gemacht.
 * Standardmäßig ermöglicht der Segmentfreigabedienst die Freigabe von maximal 75 Audiencen für jede Adobe Analytics Report Suite. Wenn der Kunde über eine Audience Manager-Lizenz verfügt, ist die Anzahl der Audiencen, die zwischen Adobe Analytics und Adobe Target oder Audience Manager und Adobe Target freigegeben werden können, unbegrenzt.
 
 ## Voraussetzungen für die Implementierung
@@ -102,5 +101,3 @@ Der Web/Mobile-Personalisierungsentwurf kann entweder mit herkömmlichen anwendu
 * [Wie Adobe Experience Platform Kunden dabei unterstützen kann, ihre Mobile Messaging in Echtzeit mit Journey Orchestration Service und einem Anbieter von Mobile Messaging zu personalisieren](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
 * [Segmentierung in Sekunden: Wie Adobe Experience Platform Kundendaten in Echtzeit zur Realität gemacht hat](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Erstellen Sie ein optimales Online-Erlebnis: Verbesserung des einheitlichen Profils mit dem Abfrage-Dienst](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
-

@@ -5,10 +5,10 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen zur Lös
 product: adobe experience platform
 role: Architektur, Entwickler, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: c867a2956363ae495492a8ad33fd6c2aee9f5f5c
+source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform und Anwendungen](/help/blueprints/experience-platform/platform-applications.md)
    + [Datenfluss der Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Aktivierung von Audiencen und Profilen{#audience-activation}
++ Aktivierung von Audience und Profil{#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
    + [Anonyme Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + [Online-/Offline-Audience Activation](/help/blueprints/audience-activation/online-offline.md)
@@ -32,7 +32,7 @@ ht-degree: 2%
 + Datenerfassung und -vorbereitung{#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Serverseitige Erfassung von Unternehmensdaten](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Data Analyse und Custom Data Science{#data-exploration}
++ Data Analyse &amp; Custom Data Science{#data-exploration}
    + [Übersicht](/help/blueprints/data-insights/overview.md)
    + [Benutzerspezifische Datenwissenschaft für die Anreicherung von Profilen](/help/blueprints/data-insights/data-science.md)
 + Multi-Kanal Message Orchestration{#multi-channel-message-orchestration}

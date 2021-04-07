@@ -3,12 +3,12 @@ user-guide-title: Digital Experience Blueprints
 breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints sind wiederholbare Implementierungen zur Lösung festgestellter Geschäftsprobleme und enthalten Architekturdiagramme, technische Überlegungen und relevante Links zur Dokumentation.
 product: adobe experience platform
-role: Architektur, Entwickler, Geschäftspraktiker
+role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '120'
+ht-degree: 2%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 0%
    + [Aufruf-Deflation](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Datenerfassung und -vorbereitung{#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
+   + [Datenaufbereitung und Vorbereitung auf die Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
    + [Serverseitige Erfassung von Unternehmensdaten](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Data Analyse &amp; Custom Data Science{#data-exploration}
++ Data Analyse, Intelligence &amp; AI/ML{#data-exploration}
    + [Übersicht](/help/blueprints/data-insights/overview.md)
+   + [Data Analyse &amp; Intelligence](/help/blueprints/data-insights/analysis.md)
    + [Benutzerspezifische Datenwissenschaft für die Anreicherung von Profilen](/help/blueprints/data-insights/data-science.md)
 + Multi-Kanal Message Orchestration{#multi-channel-message-orchestration}
    + [Übersicht](/help/blueprints/multi-channel-message-orchestration/overview.md)

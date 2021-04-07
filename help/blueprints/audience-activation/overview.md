@@ -1,26 +1,26 @@
 ---
-title: Profil- und Audience Activation-Blueprint
-description: Stellen Sie Audience-aktivierte Cross-Kanal-Werbung mit Echtzeit-​ der Kundendatenplattform bereit.
+title: Aktivierung von Audience und Profil
+description: Stellen Sie Audience-aktivierte und Profil-orientierte Kundenerlebnisse mit Echtzeit-​ der Kundendatenplattform bereit.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 
-# Profil- und Audience Activation-Blueprint
+# Audience und Audience Activation
 
-Profil- und Audience-first-Aktivierung ist der Schlüssel zum Erfolg in einer datengesteuerten Marketingwelt. Viele Marken konzentrieren ihre Bemühungen jedoch immer noch auf die Kanal-first-Aktivierung, was oft zu inkonsistenter Reichweite und Personalisierung führt. Bei einem Kanal-first-Ansatz agiert jeder Kanal als Silo, bei dem Personalisierungsanstrengungen nur die Kunden mit der Marke auf diesem Kanal interagieren. Dieser Ansatz spiegelt nicht die Realität wider, dass Kunden mit Marken über viele verschiedene Touchpoints hinweg interagieren. Audience-first-Aktivierung ermöglicht es Marken, Kundeninteraktionen über mehrere Kanal hinweg zu verbinden und eine zentralisierte Audience zu liefern, die für alle Kanal aktiviert werden kann.
+Profil- und Audience-first-Aktivierung ist der Schlüssel zum Erfolg in einer datengesteuerten Marketingwelt. Viele Marken konzentrieren ihre Bemühungen jedoch immer noch auf die Kanal-first-Aktivierung, was oft zu inkonsistenter Reichweite und Personalisierung führt. Bei einem Kanal-first-Ansatz agiert jeder Kanal als Silo, bei dem Personalisierungsanstrengungen nur die Kunden mit der Marke auf diesem Kanal interagieren. Dieser Ansatz spiegelt nicht die Realität wider, dass Kunden mit Marken über viele verschiedene Touchpoints hinweg interagieren. Profil- und Audience-first-Aktivierung ermöglicht es Marken, Kundeninteraktionen über mehrere Kanal hinweg zu verbinden und ein zentralisiertes Profil und eine Audience zu liefern, die für alle Kanal aktiviert werden können.
 
-## Szenarien
+## Blueprints
 
-| Szenario | Beschreibung | Experience Cloud-Anwendungen |
+| Blueprint | Beschreibung | Experience Cloud-Anwendungen |
 |---|---|---|
 | **[Anonyme Web- und Advertising-Audience Activation](anonymous.md)** | <ul><li>Zielgruppe von Audiencen über Web- und Anzeigen-Kanal hinweg für anonyme und verhaltensbezogene Kundendaten.</li><li>Integration mit Daten zur Audience von Drittanbietern zur besseren Personalisierung.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Online/Offline + PII-Profil und -Audience Activation](online-offline.md)** | <ul><li>Aktivieren Sie bekannte Profil-basierte Ziele wie E-Mail-Anbieter, soziale Netzwerke und Werbeziele. </li><li>Verwenden Sie Offline-Attribute und Ereignis wie Offline-Bestellungen, Transaktionen, CRM-Daten oder Treuedaten zusammen mit Online-Verhalten für Online-Targeting und Personalisierung.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Echtzeit-Kundendatenplattform</li><li>Adobe Audience Manager (optional)</li></ul> |

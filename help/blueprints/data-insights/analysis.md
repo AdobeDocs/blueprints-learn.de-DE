@@ -1,21 +1,21 @@
 ---
-title: Enterprise Data Exploration and Berichte Blueprint
+title: Data Analyse and Intelligence Blueprint
 description: Dieser Plan zeigt, wie in Adobe Experience Platform erforscht werden kann, wie Abfrage und Analyse der Daten, die im Datensee vorhanden sind, durchgeführt werden können.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# Enterprise Data Exploration and Berichte Blueprint
+# Data Analyse and Intelligence Blueprint
 
-Enterprise Data Exploration and Berichte umfasst die Fähigkeit innerhalb von Adobe Experience Platform, erforsche Abfrage und Analyse der Daten durchzuführen, die im Datensee vorhanden sind.
+Data Analyse and Intelligence umfasst die Fähigkeit innerhalb von Adobe Experience Platform, die Abfrage und Analyse der Daten, die im Datensee vorhanden sind, zu untersuchen.
 
 Der Abfrage Service der Experience Platform ermöglicht die Ausführung von SQL-Abfragen an den Daten. Der Data Science Workspace ermöglicht die Durchführung von Datenforschungs-, Datenwissenschaft- und maschinellem Lernaufwand für die Daten.
 

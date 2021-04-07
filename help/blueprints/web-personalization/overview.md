@@ -1,25 +1,26 @@
 ---
-title: Web- und Mobile-Personalisierungskonzept
+title: Web- und Mobilpersonalisierung
 description: Stellen Sie personalisierte Web- und Mobilinhalte mit dem Echtzeit-Profil von Kunden bereit.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
+exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-# Web- und Mobile-Personalisierungskonzept
+# Web- und Mobilpersonalisierung
 
 
-Web- und Mobile-Personalisierungskonzept befasst sich mit der Möglichkeit, die Segmentierung von Audiencen in mehreren Anwendungen zu verwenden, um Kundenerlebnisse zu personalisieren und zu optimieren. Sie können Kundenverhalten, Demografie, Treuestufe und vorherige Transaktionen verwenden, um Layouts, Aktionsaufrufe und Inhalte zu personalisieren.
+Web- und Mobile-Personalisierung bezieht sich auf die Möglichkeit, die Segmentierung von Audiencen in mehreren Anwendungen zu verwenden, um Kundenerlebnisse zu personalisieren und zu optimieren. Sie können Kundenverhalten, Demografie, Treuestufe und vorherige Transaktionen verwenden, um Layouts, Aktionsaufrufe und Inhalte zu personalisieren.
 
-## Szenarien
+## Blueprints
 
-| Szenario | Beschreibung | Experience Cloud-Anwendungen |
+| Blueprint | Beschreibung | Experience Cloud-Anwendungen |
 |---|---|---|
 | **[Verhaltensbasierte Personalisierung](behavioral.md)** | <ul><li>Personalisieren auf Basis von Online-Verhaltensdaten und Audiencen</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 | **[Online-/Offline-Web-Personalisierung](online-offline.md)** | <ul><li>Personalisieren mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisieren Sie die Personalisierung über das Web, E-Mail und andere bekannte Kanal hinweg.</li></ul> | <ul><li>Echtzeit-Kundendatenplattform</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
@@ -40,4 +41,3 @@ Web- und Mobile-Personalisierungskonzept befasst sich mit der Möglichkeit, die 
 * [Segmentierung in Sekunden: Wie Adobe Experience Platform Kundendaten in Echtzeit zur Realität gemacht hat](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Analytische Arbeitslasten und Echtzeit-Profil von Kunden — Zwei Seiten desselben Gehirns mit einem einzigen Zweck](https://medium.com/adobetech/analytical-workloads-and-real-time-customer-profile-two-sides-of-the-same-brain-with-a-cdfac85ce8c1)
 * [Erstellen Sie ein optimales Online-Erlebnis: Verbesserung des einheitlichen Profils mit dem Abfrage-Dienst](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-

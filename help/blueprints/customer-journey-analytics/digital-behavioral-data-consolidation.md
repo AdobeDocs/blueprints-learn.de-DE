@@ -1,18 +1,18 @@
 ---
-title: Szenario zur Konsolidierung digitaler Verhaltensdaten
+title: Konzept zur Konsolidierung digitaler Verhaltensdaten
 description: Analysieren und extrahieren Sie Einblicke aus Kundeninteraktionen über die Journey.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
+exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
-
-# Szenario zur Konsolidierung digitaler Verhaltensdaten
+# Konzept zur Konsolidierung digitaler Verhaltensdaten
 
 Sie erhalten eine konsolidierte Ansicht des Kundenverhaltens über verschiedene Kanal hinweg, indem Sie Daten aus verschiedenen Web-, Mobil- und Offlineeigenschaften zusammenführen.
 
@@ -82,7 +82,3 @@ Die Daten müssen vor der Verarbeitung zu Customer Journey Analytics in Platform
 * [Produktbeschreibung für Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [Dokumentation zum Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
 * [Customer Journey Analytics-Lernprogramme](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
-
-
-
-

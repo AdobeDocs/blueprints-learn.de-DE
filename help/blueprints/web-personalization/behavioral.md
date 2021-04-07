@@ -1,18 +1,18 @@
 ---
-title: Szenario zur verhaltensbasierten Web-Personalisierung
+title: Verhaltensbasiertes Web-Personalisierungskonzept
 description: Personalisieren Sie diese auf Grundlage von Online-Verhaltensdaten und Daten zur Audience.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
+exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
-
-# Szenario zur verhaltensbasierten Web-Personalisierung
+# Verhaltensbasiertes Web-Personalisierungskonzept
 
 Personalisieren Sie diese auf Grundlage von Online-Verhaltensdaten und Daten zur Audience.
 

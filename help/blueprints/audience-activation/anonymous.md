@@ -1,19 +1,19 @@
 ---
-title: Anonyme Audience Activation
+title: Blueprint zur anonymen Audience Activation
 description: Anonyme Audience Activation.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
+exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-
-# Szenario für anonyme Audience Activationen
+# Blueprint zur anonymen Audience Activation
 
 Sie können Audiencen über Web- und Anzeigen-Kanal hinweg auf der Grundlage anonymer und verhaltensbezogener Kundendaten erstellen. Diese Funktion ermöglicht personalisierte und konsistente Echtzeit-Kundenerlebnisse auf allen Geräten.
 
@@ -46,18 +46,3 @@ Sie können Audiencen über Web- und Anzeigen-Kanal hinweg auf der Grundlage ano
 * [Experience Cloud-Audiencen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Audience Manager in Zielgruppe integrieren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Analytics-Segmentfreigabe durch Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

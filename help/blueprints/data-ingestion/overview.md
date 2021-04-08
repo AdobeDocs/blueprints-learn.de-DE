@@ -6,16 +6,16 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
 # Datenerfassung und -vorbereitung
 
-Die Datenerfassung und -vorbereitung umfasst alle Methoden, mit denen Daten vorbereitet und in Adobe Experience Platform aufgenommen werden können. Neben der Möglichkeit, Daten an Adobe Experience Platform Edge Network zu erfassen, um serverseitige Weiterleitungen an Unternehmensziele zu ermöglichen.
+Die Datenerfassung und -vorbereitung umfasst alle Methoden, mit denen Daten vorbereitet und in Adobe Experience Platform aufgenommen werden können. Neben der Möglichkeit, Daten an das Adobe Experience Platform Edge Network zu erfassen und anschließend Daten über die Seitenweiterleitung an Unternehmensziele zu übermitteln.
 
 Die Datenvorbereitung umfasst die Zuordnung von Quelldaten zum Experience Data Model (XDM)-Schema. Dazu gehören auch die Durchführung von Datentransformationen, einschließlich Datumsformatierung, Feldteilungs-/Verkettungs-/Konvertierungen und das Verbinden/Zusammenführen/erneute Keying von Datensätzen. Die Datenvorbereitung hilft bei der Vereinheitlichung von Kundendaten, um eine aggregierte/gefilterte Analyse bereitzustellen, einschließlich Berichte oder der Vorbereitung von Daten für die Zusammenstellung/Datenwissenschaft/Aktivierung von Profilen.
 

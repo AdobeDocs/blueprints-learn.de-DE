@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,24 @@ Personalisieren Sie diese auf Grundlage von Online-Verhaltensdaten und Daten zur
 
 Der Segmentfreigabedienst ermöglicht standardmäßig die Freigabe von maximal 75 Audiencen für jede Adobe Analytics Report Suite. Wenn Audience Manager für die Freigabe von Audiencen verwendet wird, gibt es keine Beschränkung für die Anzahl der Audiencen, die freigegeben werden können. 
 
+## Implementierungsmuster
+
+Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementieren:
+
+1. Verwenden des Platform Web SDK/Mobile SDK und Edge Network.
+1. Verwenden herkömmlicher anwendungsspezifischer SDKs (z. B. AppMeasurement.js)
+
+### 1. Plattform-Web/Mobile-SDK und Edge-Ansatz
+
+<img src="assets/websdkflow.svg" alt="Referenzarchitektur für das Platform Web SDK/Mobile SDK und den Edge Network Approach" style="border:1px solid #4a4a4a" />
+
+### 2. Anwendungsspezifischer SDK-Ansatz
+
+<img src="assets/appsdkflow.png" alt="Referenzarchitektur für den anwendungsspezifischen SDK-Ansatz" style="border:1px solid #4a4a4a" />
+
+
+
+
 ## Voraussetzungen für die Implementierung
 
 | Anwendung/Dienst | Erforderliche Bibliothek | Hinweise |
@@ -65,21 +83,6 @@ Der Segmentfreigabedienst ermöglicht standardmäßig die Freigabe von maximal 7
 1. [Anfordern der Bereitstellung für die Freigabe von Personen und Audiencen (Freigegebene Audiencen)](https://www.adobe.com/go/audiences)
 1. Erstellen Sie Segmente in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) oder [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) und [konfigurieren Sie diese Audiencen für die Freigabe für das Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) (bei Audience Manager oder Adobe Analytics).
 1. Sobald die Audiencen in Adobe Target verfügbar sind, können sie für [Targeting-Erlebnisse mit Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html) verwendet werden
-
-
-## Diagramme zu Implementierungsdatenströmen
-
-Das Web/Mobile Personalization Blueprint kann entweder mit dem Platform Web SDK oder dem Mobile SDK und dem Edge-Netzwerk oder mit herkömmlichen anwendungsspezifischen SDKs (z. B. AppMeasurement.js) implementiert werden.
-
-### Plattform-Web/Mobile-SDK und Edge-Netzwerkansatz
-
-<img src="assets/websdkflow.svg" alt="Referenzarchitektur für das Platform Web SDK/Mobile SDK und den Edge Network Approach" style="border:1px solid #4a4a4a" />
-
-
-### Anwendungsspezifischer SDK-Ansatz
-
-<img src="assets/appsdkflow.png" alt="Referenzarchitektur für den anwendungsspezifischen SDK-Ansatz" style="border:1px solid #4a4a4a" />
-
 
 ## Verwandte Dokumentation
 

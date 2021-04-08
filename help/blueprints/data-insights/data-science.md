@@ -5,29 +5,22 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Custom Data Science for Profil Anreicherung Blueprint
 
-In diesem Blueprint wird gezeigt, wie die Daten in Adobe Experience Platform von Data Science Workspace verwendet werden, um Modelle für maschinelles Lernen zu schulen, bereitzustellen und zu bewerten. Diese Modelle können direkt in einen Datensatz ausgegeben werden, der für Echtzeit-Kundendaten aktiviert ist. Beispiele für Einblicke in das maschinelle Lernen sind Lebenszeitwert, Produkt- und Kategorie-Affinität, Konversionneigung oder Absturzneigung.
+Custom Data Science for Profil Anreicherung Blueprint zeigt, wie Daten in Adobe Experience Platform in Data Science Workspace verwendet werden können, um Modelle für maschinelles Lernen zu schulen, bereitzustellen und zu bewerten. Diese Modelle können direkt in einen Datensatz ausgegeben werden, der für Echtzeit-Kundendaten-Profil aktiviert wurde, um die Profil der Kunden noch weiter zu bereichern. Diese Einblicke können dann für die Personalisierung verwendet werden. Beispiele für Einblicke in das maschinelle Lernen sind die Bewertung des Lebenszeitwerts, die Affinität von Produkten und Kategorien, die Neigung zu Konversionen oder die Neigung zum Absturz.
 
 ## Anwendungsfälle
 
 * Extrahieren Sie Einblicke und entdecken Sie Muster aus Kundendaten in der Experience Platform. Zug- und Score-Modelle aus diesen Daten.
-* Erweitern Sie das Echtzeit-Kundenerlebnis mit modellbasierten Einblicken und Attributen für eine granulärere Personalisierung und optimierte Journey-Optimierung.
+* Erweitern Sie das Echtzeit-Kundenerlebnis mit modellbasierten Einblicken und Attributen für eine granulärere Personalisierung und optimierte Journey.
 * Train- und Score-Modelle zur Ermittlung von Kundeneinblicken wie Lebenszeitwert, Konversions- oder Abstoßungsneigung, Produkt- und Content-Affinitäten und Interaktionswerte.
-
-## Szenarien
-
-| Szenario | Szenariobeschreibung | Experience Cloud-Anwendungen |
-|---|---|---|
-| Forschungsdatenwissenschaften | <ul><li>Discover-Signale, Vollständigkeit, Richtigkeit der Daten</li><li>Entdecken Sie neue Erkenntnisse mithilfe der Werkzeuge der Datenwissenschaft</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
-| Profil-Anreicherung mit AI/ML<br> - Batch | <ul><li>Modelle für Discover, Autor, Schulung, Bereitstellung, Bewertung und Operationalisierung</li><li>Push-Modellvorhersage an Profil oder an den Datensee zur Batch-basierten Aktivierung.</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
 
 ## Architektur
 

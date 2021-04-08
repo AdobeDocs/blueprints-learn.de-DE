@@ -1,21 +1,21 @@
 ---
-title: Blueprint für Profil und Audience Activation zu Unternehmenszielen
-description: Profil und Audience Activation zu Unternehmenszielen
-solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
-kt: 7086
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
+title: Blueprint für die Aktivierung von Audiencen und Profilen zu Unternehmenszielen
+description: Aktivierung von Audience und Profil zu Unternehmenszielen
+solution: Experience Platform,Real-time Customer Data Platform
+kt: 7475
+exl-id: null
 translation-type: tm+mt
-source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 
-# Blueprint für Profil und Audience Activation zu Unternehmenszielen
+# Blueprint für die Aktivierung von Audiencen und Profilen zu Unternehmenszielen
 
-Replikation und Aktualisierung von Profil-Änderungen an Enterprise Data Stores für Aktivierungen- und Berichte-Anwendungsfälle.
+Replikation und Aktualisierung von Profil- und Audience-Änderungen an Unternehmensdatenspeichern für Aktivierung- und Berichte-Anwendungsfälle.
 
 Starten Sie eine Verkaufs- oder Supportaktion für den Kunden durch Benachrichtigung über eine Kundenaktion von der Echtzeit-Kundendatenplattform zu Unternehmenssystemen und -anwendungen.
 
@@ -79,10 +79,12 @@ Aktivierung von Experience Ereignisses
 
 ## Verwandte Dokumentation
 
+* [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Enterprise Cloud-Datenspeicherung-Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [HTTP-Ziel](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [Produktbeschreibung der Echtzeit-Kundendatenplattform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profil- und Segmentierungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## Verwandte Videos und Tutorials
 

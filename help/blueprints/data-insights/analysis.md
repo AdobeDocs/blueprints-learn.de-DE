@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Bestimmte Garantien gelten für die Zeitüberschreitung der Abfrage und für die
 ## Anwendungen
 
 * Adobe Experience Platform
-
-## Szenarien
-
-| Szenario | Beschreibung | Experience Cloud Applications/Services |
-|---|---|---|
-| **Datenforschung - Rohdaten-Abfrage** | <ul><li>Schreiben und führen Sie SQL-Abfragen im Datensee mithilfe der interaktiven Abfrage-Benutzeroberfläche oder eines angeschlossenen SQL-Clients durch. Data Science Workspace kann auch zur Abfrage und zum Einblick in die Rohdaten in die Experience Platform verwendet werden.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **Enterprise Dashboard** | <ul><li>Verbinden Sie Business Intelligencen-Tools mit Experience Platformen, um Daten für Dashboards und Berichte-Anwendungsfälle zu visualisieren.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Architektur
 

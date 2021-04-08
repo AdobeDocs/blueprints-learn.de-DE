@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,21 @@ Synchronisieren Sie die Web-Personalisierung mit E-Mail und anderen bekannten un
 * Die Streaming-Segmentierung wird innerhalb von etwa 5 Minuten durchgeführt. Sobald diese Segmentrealisierungen auftreten, werden sie innerhalb von Minuten für den Audience Manager freigegeben und für die Personalisierung der gleichen/nächsten Seite in der Zielgruppe verfügbar gemacht.
 * Standardmäßig ermöglicht der Segmentfreigabedienst die Freigabe von maximal 75 Audiencen für jede Adobe Analytics Report Suite. Wenn der Kunde über eine Audience Manager-Lizenz verfügt, ist die Anzahl der Audiencen, die zwischen Adobe Analytics und Adobe Target oder Audience Manager und Adobe Target freigegeben werden können, unbegrenzt.
 
+## Implementierungsmuster
+
+Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementieren:
+
+1. Verwenden des Platform Web SDK/Mobile SDK und Edge Network.
+1. Verwenden herkömmlicher anwendungsspezifischer SDKs (z. B. AppMeasurement.js)
+
+### 1. Plattform-Web/Mobile-SDK und Edge-Ansatz
+
+<img src="assets/websdkflow.svg" alt="Referenzarchitektur für das Platform Web SDK/Mobile SDK und den Edge Network Approach" style="border:1px solid #4a4a4a" />
+
+### 2. Anwendungsspezifischer SDK-Ansatz
+
+<img src="assets/appsdkflow.png" alt="Referenzarchitektur für den anwendungsspezifischen SDK-Ansatz" style="border:1px solid #4a4a4a" />
+
 ## Voraussetzungen für die Implementierung
 
 | Anwendung/Dienst | Erforderliche Bibliothek | Hinweise |
@@ -64,18 +79,6 @@ Synchronisieren Sie die Web-Personalisierung mit E-Mail und anderen bekannten un
    >
    >Jede Anwendung muss die Experience Cloud-ID verwenden und zum selben Experience Cloud-Org gehören, damit die Audience zwischen den Anwendungen freigegeben werden kann.
 1. [Anfordern der Bereitstellung für die Freigabe von Audiencen zwischen Experience Platform und Adobe Target (Freigegebene Audiencen)](https://www.adobe.com/go/audiences)
-
-## Diagramme zu Implementierungsdatenströmen
-
-Der Web/Mobile-Personalisierungsentwurf kann entweder mit herkömmlichen anwendungsspezifischen SDKs (z. B. AppMeasurement.js) oder mit dem Platform Web SDK/Mobile SDK und Edge Network implementiert werden.
-
-### Plattform-Web/Mobile-SDK und Edge-Ansatz
-
-<img src="assets/websdkflow.svg" alt="Referenzarchitektur für das Platform Web SDK/Mobile SDK und den Edge Network Approach" style="border:1px solid #4a4a4a" />
-
-### Anwendungsspezifischer SDK-Ansatz
-
-<img src="assets/appsdkflow.png" alt="Referenzarchitektur für den anwendungsspezifischen SDK-Ansatz" style="border:1px solid #4a4a4a" />
 
 ## Verwandte Dokumentation
 

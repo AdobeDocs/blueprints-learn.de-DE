@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentral
 * Offer decisioning wird derzeit nicht unterstützt
 * Siehe [Profil- und Datenerfassungsgarantien für Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 * Kann nur 14 tps (50 k/h) als Durchsatz unterstützen
 * Von der Segmentmitgliedschaft initiierte Journey werden nicht unterstützt
@@ -69,7 +69,7 @@ Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentral
 #### Schema/Datensätze
 
 1. Konfigurieren Sie individuelle Profil-, Erlebnis-Ereignis- und Multi-Entität-Schema in Experience Platform auf der Grundlage von vom Kunden bereitgestellten Daten.
-1. Erstellen Sie Kampagne-Schema für Folgendes: wideLog, trackingLog, nicht bereitstellbare Adressen und Voreinstellungen für Profile (optional).
+1. Erstellen Sie Adobe Campaign-Schema für Folgendes: wideLog, trackingLog, nicht bereitstellbare Adressen und Voreinstellungen für Profile (optional).
 1. hinzufügen die Datenverwendungsbeschriftungen zum Dataset für Governance.
 1. Erstellen Sie Richtlinien, um die Verwaltung von Zielen durchzusetzen.
 
@@ -79,16 +79,16 @@ Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentral
 1. hinzufügen Identitäten mit Schemas.
 1. Aktivieren Sie Schema und Datensätze zum Profil.
 1. Richten Sie Zusammenführungsregeln für verschiedene Ansichten von [!UICONTROL Echtzeit-Kundenkonto] ein (optional).
-1. Erstellen Sie Segmente zur Kampagne.
+1. Erstellen Sie Segmente für die Verwendung von Adobe Campaignen.
 
 #### Quellen/Ziele
 
 1. Daten mithilfe von Streaming-APIs und Quell-Connectors in die Experience Platform aufnehmen
-1. Konfigurieren Sie das Ziel für die Blob-Datenspeicherung für die Verwendung mit der Kampagne.[!DNL Azure]
+1. Konfigurieren Sie das Ziel für die Blob-Datenspeicherung für die Verwendung mit Adobe Campaign.[!DNL Azure]
 
 #### Bereitstellung mobiler Apps
 
-1. Implementieren Sie Kampagne SDK für Campaign Classic oder Experience Platform SDK für Campaign Standard. Wenn Experience Platform Launch vorhanden ist, wird empfohlen, die Campaign Classic/Standard-Erweiterung mit Experience Platform SDK zu verwenden.
+1. Implementieren Sie Adobe Campaign SDK für Adobe Campaign Classic oder Experience Platform SDK für Adobe Campaign Standard. Wenn Experience Platform Launch vorhanden ist, wird empfohlen, die Adobe Campaign Classic- oder Adobe Campaign Standard-Erweiterung mit Experience Platform SDK zu verwenden.
 
 
 ### Journey Orchestration
@@ -97,7 +97,7 @@ Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentral
 1. Konfigurieren Sie externe Datenquellen.
 1. Konfigurieren Sie benutzerdefinierte Aktionen.
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 1. Konfigurieren Sie Messaging-Vorlagen mit entsprechenden Personalisierungseinstellungen.
 1. Konfigurieren Sie Export Workflows Export-Transaktionsnachrichtenprotokolle. Die Empfehlung soll höchstens alle vier Stunden ausgeführt werden.
@@ -107,7 +107,7 @@ Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentral
 
 * [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Dokumentation zur Journey Orchestration](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
-* [Dokumentation zum Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Dokumentation zum Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Adobe Campaign Classic-Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Adobe Campaign Standard-Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
 * [Dokumentation zum Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Dokumentation zum Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)

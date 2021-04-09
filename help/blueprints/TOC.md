@@ -1,18 +1,18 @@
 ---
-user-guide-title: Digital Experience Blueprints
+user-guide-title: Blueprints für digitale Erlebnisse
 breadcrumb-title: 'Blueprints '
-user-guide-description: Blueprints sind wiederholbare Implementierungen zur Lösung festgestellter Geschäftsprobleme und enthalten Architekturdiagramme, technische Überlegungen und relevante Links zur Dokumentation.
+user-guide-description: Blueprints sind wiederholbare Implementierungen zur Lösung festgestellter Geschäftsprobleme. Sie enthalten Architekturdiagramme, technische Überlegungen und relevante Links zur Dokumentation.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 2%
+source-wordcount: '115'
+ht-degree: 25%
 
 ---
 
-# Digital Experience Blueprints {#architecture}
+# Blueprints für digitale Erlebnisse  {#architecture}
 
 + [Übersicht](/help/blueprints/overview.md)
 + Architekturübersichtdiagramme{#architecture-overview}
@@ -31,7 +31,7 @@ ht-degree: 2%
    + [Aufruf-Deflation](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Datenerfassung und -vorbereitung{#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
-   + [Datenaufbereitung und Vorbereitung auf die Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
+   + [Datenaufbereitung und Ingestion](/help/blueprints/data-ingestion/ingestion.md)
    + [Serverseitige Erfassung von Unternehmensdaten](/help/blueprints/data-ingestion/server-side-collection.md)
 + Data Analyse, Intelligence &amp; AI/ML{#data-exploration}
    + [Übersicht](/help/blueprints/data-insights/overview.md)
@@ -43,6 +43,6 @@ ht-degree: 2%
    + [Ausgelöste Nachrichten und Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Web- und Mobilpersonalisierung{#web-personalization}
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
-   + [Verhaltensbasierte Web-Personalisierung](/help/blueprints/web-personalization/behavioral.md)
-   + [Online-/Offline-Web-Personalisierung](/help/blueprints/web-personalization/online-offline.md)
+   + [Verhaltensbasierte Personalisierung](/help/blueprints/web-personalization/behavioral.md)
+   + [Online-/Offline-Personalisierung](/help/blueprints/web-personalization/online-offline.md)
 

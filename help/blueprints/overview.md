@@ -1,17 +1,17 @@
 ---
-title: Digital Experience Blueprints
+title: Blueprints für digitale Erlebnisse
 description: Digital Experience Blueprints sind wiederholbare Implementierungen, um Strategien zu entwickeln und bestehende Geschäftsprobleme zu lösen. Sie beschleunigen die Time-to-Value und bieten einen schnellen Weg zum Erfolg.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 2%
 
 ---
 
-# Digital Experience Blueprints
+# Blueprints für digitale Erlebnisse
 
 Digital Experience Blueprints sind wiederholbare Implementierungen, um Strategien zu entwickeln und bestehende Geschäftsprobleme zu lösen. Blueprints beschleunigen die Time-to-Value und bieten einen schnellen Weg zum Erfolg.
 
@@ -19,15 +19,15 @@ Jede Blueprint Angebots Adobe bietet eine Reihe von Artefakten, die das hochwert
 
 ## Neue Funktionen
 
+* **[Blueprint für die Aktivierung von Audiencen und Profilen zu Unternehmenszielen](/help/blueprints/audience-activation/enterprise-destinations.md)**
+
+   *Halten Sie die Profil Ihrer Kunden über alle Systeme auf dem Laufenden, um Ihre Vertriebs- und Supportteams zu unterstützen. &#x200B;*
 * **[Hub-Blueprint zur Aktivität von Kunden](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Stellen Sie einen Kontext für Support und Vertrieb durch Mitarbeiter bereit.*
-* **[Data Analyse and Intelligence Blueprint](/help/blueprints/data-insights/overview.md)**
+* **[Data Analyse and Intelligence Blueprint](/help/blueprints/data-insights/analysis.md)**
 
    *Führen Sie die Abfrage und Analyse der Daten im Datensee durch.*
-* **[Customer Journey Analytics-Blueprint](/help/blueprints/customer-journey-analytics/overview.md)**
-
-   *Vereinheitlichung und Analyse von Daten und Kundenverhalten aus der gesamten Journey. &#x200B;*
 
 ## Vorgestellte Blueprints
 
@@ -54,7 +54,7 @@ Jede Blueprint Angebots Adobe bietet eine Reihe von Artefakten, die das hochwert
 
 ## Blog-Beiträge
 
-* [Die neuen Konzepte für digitale Erlebnisse in Adobe Experience Platform](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
-* [Konzept für die Audience Activation in Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
-* [Blueprint für die Web-Personalisierung mit Adobe Experience Platform Real-Time Customer Profil](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [Blueprint für Multi-Kanal-Orchestrierung in Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
+* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)

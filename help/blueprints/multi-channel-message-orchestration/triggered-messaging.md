@@ -1,20 +1,20 @@
 ---
 title: Ausgelöste Nachrichten und Adobe Experience Platform-Blueprint
-description: Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentraler Hub-Streaming-Daten, Profilen und Segmentierung ausführen.
+description: Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentraler Hub für Streaming-Daten, Kundendaten und Segmentierung ausführen.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
 
 # Ausgelöste Nachrichten und Adobe Experience Platform-Blueprint
 
-Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentraler Hub-Streaming-Daten, Profilen und Segmentierung ausführen.
+Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentraler Hub für Streaming-Daten, Kundendaten und Segmentierung ausführen.
 
 ## Anwendungsfälle
 
@@ -25,7 +25,7 @@ Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentral
 
 ## Architektur
 
-<img src="assets/triggered.svg" alt="Referenzarchitektur für das Szenario "Ausgelöste Nachrichten"und "Adobe Experience Platform"" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="Referenzarchitektur für die Auslösung von Messaging und Adobe Experience Platform-Blaupausen" style="border:1px solid #4a4a4a" />
 
 ## Integrationsmuster
 

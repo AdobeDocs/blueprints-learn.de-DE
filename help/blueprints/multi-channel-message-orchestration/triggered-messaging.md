@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als zentral
 1. Erstellen Sie kundenspezifische Namensraum.
 1. hinzufügen Identitäten mit Schemas.
 1. Aktivieren Sie Schema und Datensätze zum Profil.
-1. Richten Sie Zusammenführungsregeln für verschiedene Ansichten des Echtzeit-Kundendiensts ein (optional).
+1. Richten Sie Zusammenführungsregeln für verschiedene Ansichten von [!UICONTROL Echtzeit-Kundenkonto] ein (optional).
 1. Erstellen Sie Segmente zur Kampagne.
 
 #### Quellen/Ziele

@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ Häufige Analysen:
 | Blueprint | Beschreibung | Experience Cloud-Anwendungen |
 |---|---|---|
 | **[Konsolidierung digitaler Verhaltensdaten](digital-behavioral-data-consolidation.md)** | <ul><li>Sie erhalten eine konsolidierte Ansicht des Kundenverhaltens über verschiedene Kanal hinweg, indem Sie Daten aus verschiedenen Web-, Mobil- und Offlineeigenschaften zusammenführen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul> |
-| **[Call-Center-Ablenkung](call-deflect.md)** | <ul><li>Stellen Sie fest, welche Verhaltensweisen am deutlichsten zu agentenunterstützten Aufrufen führen, indem Sie Call-Center-Daten mit Web-, Mobil- und anderen Interaktionsdaten verbinden.</li><li>Diese Einblicke können dann verwendet werden, um das Kundenerlebnis zu optimieren und den Pfad zu agentengestützten Interaktionen durch optimierte Selbstbedienungsinhalte und -werkzeuge zu reduzieren.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Journey-Analyse der Aufrufdeflection](call-deflect.md)** | <ul><li>Stellen Sie fest, welche Verhaltensweisen am deutlichsten zu agentenunterstützten Aufrufen führen, indem Sie Call-Center-Daten mit Web-, Mobil- und anderen Interaktionsdaten verbinden.</li><li>Diese Einblicke können dann verwendet werden, um das Kundenerlebnis zu optimieren und den Pfad zu agentengestützten Interaktionen durch optimierte Selbstbedienungsinhalte und -werkzeuge zu reduzieren.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Verwandte Blog-Beiträge
 

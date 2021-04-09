@@ -5,7 +5,7 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: 8bcd82eac5e8837c3cd84524174cf5792d73ac6e
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Replikation und Aktualisierung von Profil- und Audience-Änderungen an Unternehmensdatenspeichern für Aktivierung- und Berichte-Anwendungsfälle.
 
-Starten Sie eine Verkaufs- oder Supportaktion für den Kunden durch Benachrichtigung über eine Kundenaktion von der Echtzeit-Kundendatenplattform zu Unternehmenssystemen und -anwendungen.
+Starten Sie eine Verkaufs- oder Supportaktion für den Kunden durch Benachrichtigung über eine Kundenaktion von der [!UICONTROL Echtzeit-Kundendatenplattform] zu Unternehmenssystemen und -anwendungen.
 
 ## Anwendungsfälle
 
@@ -79,14 +79,14 @@ Aktivierung von Experience Ereignisses
 ## Verwandte Dokumentation
 
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
-* [Enterprise Cloud-Datenspeicherung-Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [Übersicht über die Ziele der Cloud-Datenspeicherung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
 * [HTTP-Ziel](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
-* [Produktbeschreibung der Echtzeit-Kundendatenplattform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Echtzeit-Datenplattform ] für KundenProduktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profil- und Segmentierungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 
 ## Verwandte Videos und Tutorials
 
-* [Übersicht über die Echtzeit-Kundendatenplattform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demo der Echtzeit-Kundendatenplattform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [[!UICONTROL Echtzeit-] Plattform für Kundendaten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [Demo der  [!UICONTROL Echtzeit-Kundendatenplattform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
 * [Segmente erstellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

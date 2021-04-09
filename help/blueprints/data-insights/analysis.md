@@ -6,7 +6,7 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Der [!UICONTROL Abfrage-Dienst] der Experience Platform ermöglicht die Ausführ
 
 Darüber hinaus ermöglicht die Experience Platform Verbindungen mit SQL-Clients, Schnittstellen und Business Intelligence-Tools von Drittanbietern, eine direkte Verbindung zu den Daten innerhalb der Experience Platform herzustellen, auf diese zuzugreifen und sie mit dem Protokoll [!DNL PostgreSQL] Abfrage.
 
-Bestimmte Garantien gelten für die Zeitüberschreitung der Abfrage und für die Datenmenge, die im Ergebnis der Abfrage enthalten ist, wie in den Szenariodetails angegeben.
+Bestimmte Garantien gelten für die Zeitüberschreitung der Abfrage und die Datenmenge, die im Ergebnis der Abfrage enthalten ist, wie in den Details des Entwurfs angegeben.
 
 ## Anwendungsfälle
 

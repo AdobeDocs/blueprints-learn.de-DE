@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,9 @@ Die Datenvorbereitung umfasst die Zuordnung von Quelldaten zum Experience Data M
 | Methoden der Datenaufbereitung | Beschreibung |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Data Science Workspace]  - Datenvorbereitung | Modellgesteuerte Transformation, skriptgesteuerte Transformation.<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
->[!NOTE]
->
->| Externes ETL-Tool ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] usw.) | Durchführen komplexer Transformationen in der ETL-Tooling und Verwenden von Standard-Experience Platform-Source-APIs oder Connectors zum Erfassen der resultierenden Daten.                                                                                                                                                               |
-
-| [!UICONTROL Abfrage Service] - Datenvorgabe                                  | Verbinden, Teilen, Zusammenführen, Transformieren, Abfrage und Filtern von Daten in einem neuen Datensatz. Tabelle als Auswahl erstellen (CTAS) <br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
-| XDM Mapper- und Data Prep-Funktionen (Streaming und Batch)     | Ordnen Sie Quellattribute im CSV- oder JSON-Format während der Experience Platform XDM-Attributen zu.<br>Funktionen auf Daten während der Erfassung berechnen; d. h. Datenformatierung, Aufteilung, Verkettung usw.<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| Externes ETL-Tool ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] usw.) | Führen Sie komplexe Transformationen in der ETL-Werkzeuge durch und verwenden Sie Standard-Experience Platform [!UICONTROL Flow-Dienst]-APIs oder Quell-Connectors, um die resultierenden Daten zu erfassen. |
+| [!UICONTROL Abfrage Service]  - Data Prep | Daten verbinden, teilen, zusammenführen, transformieren, Abfrage und filtern in einem neuen Datensatz. Tabelle als Auswahl erstellen (CTAS) <br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
+| XDM Mapper- und Datenvorgabefunktionen (Streaming und Batch) | Ordnen Sie Quellattribute im CSV- oder JSON-Format während der Experience Platform XDM-Attributen zu.<br>Funktionen auf Daten während der Erfassung berechnen; d. h. Datenformatierung, Aufteilung, Verkettung usw.<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## Verwandte Blog-Beiträge
 

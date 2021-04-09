@@ -1,15 +1,15 @@
 ---
 title: Customer Journey Analytics
-description: Vereinheitlichung und Analyse von Daten und Kundenverhalten aus der gesamten Journey
+description: Vereinheitlichung und Analyse von Daten und Kundenverhalten aus der gesamten Customer Journey
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 4%
+source-wordcount: '233'
+ht-degree: 10%
 
 ---
 
@@ -25,8 +25,6 @@ Häufige Analysen:
 * Welche Kampagnen führten zu Konversion und erhöhtem Einsatz?
 * Analyse der Tool-Nutzung zur Optimierung von Self-Service-Erlebnissen
 
-## Blueprints
-
 | Blueprint | Beschreibung | Experience Cloud-Anwendungen |
 |---|---|---|
 | **[Konsolidierung digitaler Verhaltensdaten](digital-behavioral-data-consolidation.md)** | <ul><li>Sie erhalten eine konsolidierte Ansicht des Kundenverhaltens über verschiedene Kanal hinweg, indem Sie Daten aus verschiedenen Web-, Mobil- und Offlineeigenschaften zusammenführen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul> |
@@ -34,9 +32,9 @@ Häufige Analysen:
 
 ## Verwandte Blog-Beiträge
 
-* [Blueprint für Multi-Kanal-Orchestrierung in Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
-* [Nutzung externer Datenplattformen in der Adobe Experience Platform-Journey Orchestration](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
-* [Ereignis-basierte Auslösung auf Adobe Experience Platform Orchestration Service mit Apache Airflow](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1)
-* [Integration von Adobe Campaign Classic in Journey Orchestration](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281)
-* [Demonstration der Leistungsfähigkeit des Dienstes Neue Journey Orchestration der Adobe, personalisierte Omnnel-Erlebnisse in Echtzeit zu erstellen](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
-* [Journey Orchestration in einer Omnichannel-Welt](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9)
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
+* [[!DNL Event-Based Triggering on Adobe Experience Platform Orchestration Service using Apache Airflow]](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1)
+* [[!DNL Adobe Campaign Classic Integration with Journey Orchestration]](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281)
+* [[!DNL Demonstrating the Power of Adobe’s New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
+* [[!DNL Journey Orchestration in an Omnichannel World]](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9)

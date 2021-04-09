@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ Die Datenvorbereitung umfasst die Zuordnung von Quelldaten zum Experience Data M
 
 | Blueprint | Beschreibung | Experience Cloud-Anwendungen |
 |---|---|---|
-| **[Datenaufbereitung und Einbindung in die Experience Platform](ingestion.md)** | <ul><li>Datenaufbereitung und Ingestion Blueprint umfassen alle Methoden, mit denen Daten in Adobe Experience Platform vorbereitet und aufgenommen werden können.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Serverseitige Weiterleitung - Enterprise Collection](server-side-collection.md)** | <ul><li>Aktivieren Sie bekannte Profil-basierte Ziele wie E-Mail-Anbieter, soziale Netzwerke und Werbeziele. </li><li>Verwenden Sie Offline-Attribute und Ereignis wie Offline-Bestellungen, Transaktionen, CRM-Daten oder Treuedaten zusammen mit Online-Verhalten für Online-Targeting und Personalisierung.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Echtzeit-Kundendatenplattform]</li><li>Adobe Audience Manager (optional)</li></ul> |
+| **[Datenaufbereitung und Ingestion](ingestion.md)** | <ul><li>Datenaufbereitung und Ingestion Blueprint umfassen alle Methoden, mit denen Daten in Adobe Experience Platform vorbereitet und aufgenommen werden können.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Serverseitige Erfassung von Unternehmensdaten](server-side-collection.md)** | <ul><li>Aktivieren Sie bekannte Profil-basierte Ziele wie E-Mail-Anbieter, soziale Netzwerke und Werbeziele. </li><li>Verwenden Sie Offline-Attribute und Ereignis wie Offline-Bestellungen, Transaktionen, CRM-Daten oder Treuedaten zusammen mit Online-Verhalten für Online-Targeting und Personalisierung.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Echtzeit-Kundendatenplattform]</li><li>Adobe Audience Manager (optional)</li></ul> |

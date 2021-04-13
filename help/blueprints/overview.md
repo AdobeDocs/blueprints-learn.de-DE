@@ -4,18 +4,16 @@ description: Digital Experience Blueprints sind wiederholbare Implementierungen,
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
+source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '265'
 ht-degree: 2%
 
 ---
 
 # Blueprints für digitale Erlebnisse
 
-Digital Experience Blueprints sind wiederholbare Implementierungen, um Strategien zu entwickeln und bestehende Geschäftsprobleme zu lösen. Blueprints beschleunigen die Time-to-Value und bieten einen schnellen Weg zum Erfolg.
-
-Jede Blueprint Angebots Adobe bietet eine Reihe von Artefakten, die das hochwertige Geschäftsproblem, Architekturen, Implementierungsschritte, technische Überlegungen und Links zur entsprechenden Dokumentation erklären.
+Digital Experience Blueprints sind wiederholbare Implementierungen, mit denen Sie Strategien ansprechen und etablierte Geschäftsprobleme schnell lösen können. Jedes Blueprint enthält eine Reihe von Artefakten, die das hochwertige Geschäftsproblem, Architekturen, Implementierungsschritte, technische Überlegungen und Links zur entsprechenden Dokumentation erklären.
 
 ## Neue Funktionen
 

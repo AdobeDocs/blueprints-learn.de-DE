@@ -1,18 +1,18 @@
 ---
-title: Konzept zur Konsolidierung digitaler Verhaltensdaten
-description: Analysieren und extrahieren Sie Einblicke aus Kundeninteraktionen über die Journey.
+title: Cross-Kanal Journey Analyse
+description: Analysieren und extrahieren Sie Einblicke aus Kundeninteraktionen über die Customer Journey.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 2%
 
 ---
 
-# Konzept zur Konsolidierung digitaler Verhaltensdaten
+# Blueprint für Kanal-Journey-Analyse
 
 Sie erhalten eine konsolidierte Ansicht des Kundenverhaltens über verschiedene Kanal hinweg, indem Sie Daten aus verschiedenen Web-, Mobil- und Offlineeigenschaften zusammenführen.
 

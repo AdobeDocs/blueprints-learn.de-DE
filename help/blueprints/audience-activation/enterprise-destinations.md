@@ -5,18 +5,16 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: a63da7d5da3038cf66b5f2c99e117d4aa5b21cc1
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Blueprint für die Aktivierung von Audiencen und Profilen zu Unternehmenszielen
 
-Replikation und Aktualisierung von Profil- und Audience-Änderungen an Unternehmensdatenspeichern für Aktivierung- und Berichte-Anwendungsfälle. <!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
-
-Starten Sie eine Verkaufs- oder Supportaktion für den Kunden durch Benachrichtigung über eine Kundenaktion von der [!UICONTROL Echtzeit-Kundendatenplattform] zu Unternehmenssystemen und -anwendungen. <!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
+Geben Sie Profil- und Audiencen-Änderungen und Ereignis im Streaming- oder Batch-Format von [!UICONTROL Kundendatenplattform in Echtzeit] in Unternehmensdatenspeicher und -anwendungen frei. Diese Profil- und Audience-Ereignis können verwendet werden, um eine Verkaufs- oder Supportaktion für den Kunden einzuleiten, z. B. im Anschluss an einen abgebrochenen Antragsprozess oder eine Webinar-Registrierung, oder um Unternehmensanwendungen mit den neuesten Kundenattributen und Informationen von [!UICONTROL Kundendatenplattform in Echtzeit] zu aktualisieren.
 
 ## Anwendungsfälle
 
@@ -49,7 +47,7 @@ Einmal pro Tag oder manuell über API initiiert.
 
 ## Implementierungsschritte
 
-1. Erstellen Sie Schema für die Datenerfassung. <!-- Cross-references to these topics would be helpful -->
+1. Erstellen Sie Schema für die Datenerfassung.
 1. Erstellen Sie Datensätze, damit Daten erfasst werden.
 1. Konfigurieren Sie die richtigen Identitäten und Identitäts-Namensraum auf dem Schema, um sicherzustellen, dass erfasste Daten zu einem einheitlichen Profil gehören können.
 1. Aktivieren Sie die Schema und Datensätze für die Verarbeitung von Profilen.

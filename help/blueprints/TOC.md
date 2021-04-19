@@ -45,4 +45,3 @@ ht-degree: 33%
    + [Überblick](/help/blueprints/web-personalization/overview.md)
    + [Verhaltensbasierte Personalisierung](/help/blueprints/web-personalization/behavioral.md)
    + [Online-/Offline-Personalisierung](/help/blueprints/web-personalization/online-offline.md)
-

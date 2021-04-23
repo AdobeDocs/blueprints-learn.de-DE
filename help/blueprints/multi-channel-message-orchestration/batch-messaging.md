@@ -1,6 +1,6 @@
 ---
 title: Batch Messaging und Adobe Experience Platform Blueprint
-description: Führen Sie terminierte und Batch-Nachrichten-Kampagnen mit Adobe Experience Platform als zentraler Hub für Profil und Segmentierung aus.
+description: Ausführen von geplanten und Batch-Messaging-Kampagnen mit Adobe Experience Platform als Zentrale für Kundenprofile und Segmentierung.
 solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
@@ -8,20 +8,20 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
 # Batch Messaging und Adobe Experience Platform Blueprint
 
-Führen Sie terminierte und Batch-Nachrichten-Kampagnen mit Adobe Experience Platform als zentraler Hub für Profil und Segmentierung aus.
+Ausführen von geplanten und Batch-Messaging-Kampagnen mit Adobe Experience Platform als Zentrale für Kundenprofile und Segmentierung.
 
 ## Anwendungsfälle
 
 * Geplante E-Mail-Kampagnen
-* Kampagnen des An- und Weiterverkaufs
+* Onboarding- und Re-Marketing-Kampagnen
 
-## Anwendungen
+## Programme
 
 * Adobe Experience Platform
 * Adobe Campaign Classic oder Standard
@@ -35,76 +35,76 @@ Führen Sie terminierte und Batch-Nachrichten-Kampagnen mit Adobe Experience Pla
 
 <img src="assets/aepbatch.svg" alt="Referenzarchitektur für Batch Messaging und Adobe Experience Platform Blueprint" style="border:1px solid #4a4a4a" />
 
-## Guardraht
+## Leitlinien
 
 * Unterstützt nur organisatorische Einsätze von Adobe Campaignen
 * Adobe Campaign ist eine Wahrheitsquelle für alle aktiven Profil, d.h. Profil müssen in Adobe Campaign vorhanden sein, und neue Profil sollten nicht auf der Grundlage von Experience Platformen erstellt werden.
-* Die Realisierung der Segmentmitgliedschaft aus der Experience Platform ist für Batch (1 pro Tag) und Streaming (~5 Minuten) latent.
+* Die Umsetzung von Segmentzugehörigkeit aus Experience Platform ist sowohl für Batch (1 pro Tag) als auch für Streaming (~5 Minuten) latent
 
 **[!UICONTROL Freigabe von ] Segmenten für Kundendaten in Echtzeit für Adobe Campaign:**
 
-* Empfehlung einer Beschränkung auf 20 Segmente
-* Die Aktivierung ist auf alle 24 Stunden beschränkt
-* Nur für die Aktivierung verfügbare Vereinigung-Schema-Attribute (keine Unterstützung für Array-/Maps-/Erlebnis-Ereignis).
-* Empfehlung von höchstens 20 Attributen pro Segment
-* Eine Datei pro Segment aller Profil mit &quot;realisierter&quot;Segmentmitgliedschaft ODER wenn die Segmentmitgliedschaft als Attribut in der Datei sowohl &quot;realisiert&quot;als auch &quot;Ausstiegsdatei&quot;hinzugefügt wird
-* Inkrementelle oder vollständige Segmentexporte werden unterstützt
-* Dateiverschlüsselung wird nicht unterstützt
+* Begrenzung auf 20 Segmente empfohlen
+* Die Aktivierung ist auf einmal pro 24 Stunden begrenzt
+* Nur Vereinigungsschema-Attribute sind für die Aktivierung verfügbar (keine Unterstützung von Array/Karten/Erlebnisereignisse)
+* Begrenzung auf 20 Attribute pro Segment empfohlen
+* Eine Datei pro Segment von allen Profilen mit „realisierter“ Segmentzugehörigkeit ODER, wenn Segmentzugehörigkeit als Attribut in der Datei hinzugefügt wird, sowohl „realisierte“ als auch „verlassene“ Profile
+* Schrittweise oder vollständige Segment-Exporte werden unterstützt
+* Datei-Verschlüsselung wird nicht unterstützt
 * Workflows des Adobe Campaign-Exports wird maximal alle 4 Stunden ausgeführt
-* Siehe [Profil- und Datenerfassungsgarantien für Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* Siehe [Leitlinien für Profil- und Datenaufnahme für Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 ## Implementierungsschritte
 
 ### Adobe Experience Platform
 
-#### Schema/Datensätze
+#### Schemas/Datensätze
 
-1. Konfigurieren Sie individuelle Profil-, Erlebnis-Ereignis- und Multi-Entität-Schema in der Experience Platform, basierend auf vom Kunden bereitgestellten Daten.
+1. Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten in Experience Platform basierend auf vom Kunden angegebenen Daten.
 1. Erstellen Sie Adobe Campaign-Schema für &quot;wideLog&quot;, &quot;trackingLog&quot;, &quot;non-delivery&quot;-Adressen und Profil-Voreinstellungen (optional).
-1. hinzufügen die Datenverwendungsbeschriftungen zum Dataset für Governance.
-1. Erstellen Sie Richtlinien, die die Verwaltung von Zielen erzwingen.
+1. Fügen Sie Datennutzungs-Labels für die Governance zum Datensatz hinzu.
+1. Erstellen Sie Richtlinien, um die Governance an den Zielen umzusetzen.
 
 #### Profil/Identität
 
-1. Erstellen Sie kundenspezifische Namensraum.
-1. hinzufügen Identitäten mit Schemas.
-1. Aktivieren Sie Schema und Datensätze zum Profil.
+1. Erstellen Sie sämtliche kundenspezifischen Namespaces.
+1. Fügen Sie Identitäten zu Schemas hinzu.
+1. Aktivieren Sie Schemas und Datensätze für Profile.
 1. Richten Sie Zusammenführungsregeln für verschiedene Ansichten von [!UICONTROL Echtzeit-Kundenkonto] ein (optional).
 1. Erstellen Sie Segmente für die Verwendung von Adobe Campaignen.
 
 #### Quellen/Ziele
 
-1. Daten mithilfe von Streaming-APIs und Quell-Connectors in die Experience Platform aufnehmen
+1. Nehmen Sie Daten mit Streaming-APIs und Quellen-Connectoren in Experience Platform auf.
 1. Konfigurieren Sie das Ziel für die Blob-Datenspeicherung für die Verwendung mit Adobe Campaign.[!DNL Azure]
 
-#### Bereitstellung mobiler Apps
+#### Bereitstellung für Mobile App
 
 1. Implementieren Sie Adobe Campaign SDK für Adobe Campaign Classic oder Experience Platform SDK für Adobe Campaign Standard. Wenn Experience Platform Launch vorhanden ist, wird empfohlen, die Adobe Campaign Classic- oder Adobe Campaign Standard-Erweiterung mit Experience Platform SDK zu verwenden.
 
 #### Adobe Campaign
 
-1. Konfigurieren von Schemas für Profil, Nachschlagedaten und relevante Personalisierungsdaten für Versand.
+1. Konfigurieren Sie Schemas für das Profil, Suchdaten und relevante Personalisierungsdaten für die Bereitstellung.
 
 >[!IMPORTANT]
 >
 >Es ist äußerst wichtig, an dieser Stelle zu verstehen, welches Datenmodell in der Experience Platform für Profil- und Ereignis-Daten liegt, damit Sie wissen, welche Daten in Adobe Campaign benötigt werden.
 
-#### Workflows importieren
+#### Workflows für den Import
 
 1. Vereinfachte Profil-Daten werden auf Adobe Campaign sFTP geladen und erfasst.
 1. Laden und erfassen Sie Orchester- und Messaging-Personalisierungsdaten auf Adobe Campaign sFTP.
-1. Erfassen Sie Experience Platformen von [!DNL Azure] blob über Workflows.
+1. Nehmen Sie Experience Platform-Segmenten aus dem [!DNL Azure]-Blob über Workflows auf.
 
-#### Workflows
+#### Workflows für den Export
 
 1. Senden Sie Adobe Campaign-Logs alle vier Stunden über Workflows an die Experience Platform zurück (wideLog, trackingLog, nicht lieferbare Adressen).
-1. Schicken Sie Profil-Präferenzen alle vier Stunden per Consulting-Workflows zurück in die Experience Platform (optional).
+1. Senden Sie Profileinstellungen über Consulting-Workflows alle vier Stunden an Experience Platform (optional).
 
 
 ## Verwandte Dokumentation
 
-* [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Dokumentation zum Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Dokumentation zum Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
-* [Dokumentation zum Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Dokumentation zum Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
+* [Dokumentation zu Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=de)
+* [Dokumentation zu Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=de)
+* [Dokumentation zu Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=de)
+* [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)

@@ -1,6 +1,6 @@
 ---
 title: Verhaltensbasiertes Web-Personalisierungskonzept
-description: Personalisieren Sie diese auf Grundlage von Online-Verhaltensdaten und Daten zur Audience.
+description: Personalisierung basierend auf Daten zu Online-Verhalten und Zielgruppen.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
@@ -8,21 +8,21 @@ translation-type: tm+mt
 source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 # Verhaltensbasiertes Web/Mobile Personalization Blueprint
 
-Personalisieren Sie diese auf Grundlage von Online-Verhaltensdaten und Daten zur Audience.
+Personalisierung basierend auf Daten zu Online-Verhalten und Zielgruppen.
 
 ## Anwendungsfälle
 
-* Optimierung der Landingpage
-* Verhaltensbasiertes Targeting
-* Personalisierung basierend auf früheren Ansichten von Produkten/Inhalten, Affinität von Produkten/Inhalten, Umweltattributen, Daten zur Audience von Drittanbieterdaten und demografischen 
+* Landingpage-Optimierung
+* Behavioral Targeting
+* Personalisierung basierend auf früheren Produkt-/Content-Ansichten, Produkt-/Content-Affinität, Umgebungsattributen, Third-Party-Zielgruppendaten und demografischen Daten
 
-## Anwendungen
+## Programme
 
 * Adobe Target
 * Adobe Analytics (optional)
@@ -33,9 +33,9 @@ Personalisieren Sie diese auf Grundlage von Online-Verhaltensdaten und Daten zur
 <img src="assets/personalization.svg" alt="Referenzarchitektur für das Konzept der verhaltensbasierten Web-Personalisierung" style="border:1px solid #4a4a4a" />
 
 
-## Guardraht
+## Leitlinien
 
-Der Segmentfreigabedienst ermöglicht standardmäßig die Freigabe von maximal 75 Audiencen für jede Adobe Analytics Report Suite. Wenn Audience Manager für die Freigabe von Audiencen verwendet wird, gibt es keine Beschränkung für die Anzahl der Audiencen, die freigegeben werden können. 
+Standardmäßig ermöglicht der Segmentfreigabe-Service die Freigabe von maximal 75 Zielgruppen pro Adobe Analytics-Report-Suite. Wenn Audience Manager für die Zielgruppenfreigabe verwendet wird, ist die Anzahl der Zielgruppen, die geteilt werden kann, nicht begrenzt. 
 
 ## Implementierungsmuster
 
@@ -50,48 +50,48 @@ Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementiere
 
 ### 2. Anwendungsspezifischer SDK-Ansatz
 
-<img src="assets/appsdkflow.png" alt="Referenzarchitektur für den anwendungsspezifischen SDK-Ansatz" style="border:1px solid #4a4a4a" />
+<img src="assets/appsdkflow.png" alt="Referenzarchitektur für die Herangehensweise für anwendungsspezifische SDKs" style="border:1px solid #4a4a4a" />
 
 
 
 
 ## Voraussetzungen für die Implementierung
 
-| Anwendung/Dienst | Erforderliche Bibliothek | Hinweise |
+| Anwendung/Service | Erforderliche Bibliothek | Hinweise |
 |---|---|---|
-| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+ oder mbox.js 61+ | &quot;at.js&quot;wird bevorzugt, da &quot;mbox.js&quot;nicht mehr entwickelt wird. |
+| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+ oder mbox.js 61+ | at.js wird bevorzugt, da mbox.js nicht mehr entwickelt wird. |
 | Adobe Audience Manager (optional) | [!UICONTROL Platform Web SDK]* oder dil.js 5.0+ |  |
 | Adobe Analytics (optional) | [!UICONTROL Platform Web SDK]* oder AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud-Identitätsdienst | [!UICONTROL Platform Web SDK]* oder VisitorAPI.js 2.0+ |  |
+| Experience Cloud Identity Service | [!UICONTROL Platform Web SDK]* oder VisitorAPI.js 2.0+ |  |
 | Experience Platform Mobile SDK (optional) | 4.11 oder höher für iOS und Android™ |  |
-| Experience Platform Web SDK | 1.0, aktuelle Experience Platform SDK-Version hat [verschiedene Anwendungsfälle, die noch nicht für Experience Cloud-Anwendungen](https://github.com/adobe/alloy/projects/5) unterstützt werden |  |
+| Experience Platform Web SDK | 1.0, die aktuelle Experience Platform SDK-Version verfügt über [diverse Anwendungsfälle, die noch nicht für die Experience Cloud-Programme unterstützt werden](https://github.com/adobe/alloy/projects/5) |  |
 
 ## Implementierungsschritte
 
-1. [Implementieren Sie Adobe ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) Target für Ihre Web- oder Mobilanwendungen.
+1. [Implementieren Sie Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=de) für Ihre Web-Anwendungen oder Mobile Apps
 
    Bei Verwendung von Audience Manager oder Adobe Analytics:
 
-1. [Implementierung von Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
-1. [Implementierung von Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
-1. [Experience Cloud-Identitätsdienst implementieren](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)
+1. [Implementieren Sie Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de)
+1. [Implementieren Sie Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=de)
+1. [Implementieren Sie Experience Cloud Identity Service ](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=de)
 
    >[!NOTE]
    >
-   >Jede Anwendung muss die Experience Cloud-ID verwenden und zum selben Experience Cloud-Org gehören, damit die Audience zwischen den Anwendungen freigegeben werden kann.
+   >Jedes Programm muss die Experience Cloud-ID nutzen und Teil derselben Experience Cloud-Organisation sein, damit die Zielgruppenfreigabe zwischen Programmen möglich ist.
 
-1. [Anfordern der Bereitstellung für die Freigabe von Personen und Audiencen (Freigegebene Audiencen)](https://www.adobe.com/go/audiences)
-1. Erstellen Sie Segmente in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) oder [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) und [konfigurieren Sie diese Audiencen für die Freigabe für das Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) (bei Audience Manager oder Adobe Analytics).
-1. Sobald die Audiencen in Adobe Target verfügbar sind, können sie für [Targeting-Erlebnisse mit Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html) verwendet werden
+1. [Fordern Sie die Bereitstellung für die Services „People“ und „Audience Sharing“ an (Freigegebene Zielgruppen)](https://www.adobe.com/go/audiences)
+1. Erstellen Sie Segmente in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de) oder [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=de) und [konfigurieren Sie diese Zielgruppen für die Freigabe in Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de) (bei Verwendung von Audience Manager oder Adobe Analytics)
+1. Sobald die Zielgruppen in Adobe Target verfügbar sind, können sie für das [Erlebnis-Targeting mit Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=de) verwendet werden
 
 ## Verwandte Dokumentation
 
-* [Experience Cloud-Audiencen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [Audience Manager mit Adobe Target integrieren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
+* [Integration von Audience Manager mit Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=de)
 * [Adobe Analytics-Segmentfreigabe über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
-## Verwandte Blog-Beiträge
+## Verwandte Blog-Posts
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)

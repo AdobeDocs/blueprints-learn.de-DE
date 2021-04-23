@@ -1,7 +1,7 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Die Projektbetreuer haben das Recht und die Verantwortung, Kommentare, Commits, 
 
 ## Geltungsbereich
 
-Dieser Verhaltenskodex gilt sowohl innerhalb des Projektbereichs als auch in öffentlichen Bereichen, wenn eine Person das Projekt oder seine Gemeinschaft repräsentiert. Beispiele für die Repräsentation eines Projektes oder der Community beinhalten die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Versenden von Nachrichten über ein öffentliches Social-Media-Konto oder das Handeln als Repräsentant während einer Online- oder Offline-Veranstaltung. Der Begriff „Repräsentation des Projektes“ kann durch die Projektenbetreuer weiter ausformuliert und präzisiert werden.
+Dieser Verhaltenskodex gilt sowohl innerhalb des Projektbereichs als auch in öffentlichen Bereichen, wenn eine Person das Projekt oder seine Gemeinschaft repräsentiert. Beispiele für die Repräsentation eines Projektes oder der Community beinhalten die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Versenden von Nachrichten über ein öffentliches Social-Media-Konto oder das Handeln als Repräsentant während einer Online- oder Offline-Veranstaltung. Der Begriff „Repräsentation des Projektes“ kann durch die Projektbetreuer weiter ausformuliert und präzisiert werden.
 
 ## Umsetzung
 

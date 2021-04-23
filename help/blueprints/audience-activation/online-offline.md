@@ -8,67 +8,67 @@ translation-type: tm+mt
 source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
 # Blueprint zur Online-/Offline-Audience Activation
 
-Verwenden Sie Offline-Attribute und Ereignis wie Offline-Bestellungen, Transaktionen, CRM-Daten oder Treuedaten sowie Online-Verhalten für Online-Targeting und Personalisierung.
+Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treue-Daten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.
 
-Aktivieren Sie Audiencen zu bekannten Profil-basierten Zielen wie E-Mail-Anbietern, sozialen Netzwerken und Werbezielen.
+Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele.
 
 ## Anwendungsfälle
 
-* Audience-Targeting für bekannte Audiencen an Social- und Werbezielen.
+* Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.
 * Online-Personalisierung mit Online- und Offline-Attributen.
-* Aktivieren Sie Audiencen für bekannte Kanal wie E-Mail und SMS.
+* Aktivierung von Zielgruppen für bekannte Kanäle, wie E-Mail und SMS.
 
-## Anwendungen
+## Programme
 
 * Adobe Experience Platform
-* [!UICONTROL Echtzeit-Kundendatenplattform]
+* [!UICONTROL Real-Time Customer Data Platform]
 
 ## Architektur
 
 <img src="assets/onoff.svg" alt="Referenzarchitektur für das Konzept der Online-/Offline-Audience Activation" style="border:1px solid #4a4a4a" />
 
-## Guardraht
+## Leitlinien
 
-* [Profil- und Segmentierungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* Stapelsegmentaufträge werden einmal pro Tag basierend auf dem vorab festgelegten Zeitplan ausgeführt. Segmentexportaufträge werden dann vor dem geplanten Versand ausgeführt. Beachten Sie, dass Stapelsegmentaufträge und Ziel-Versand-Aufträge separat ausgeführt werden. Stapelsegmentaufträge und die Exportauftragsleistung hängen von der Anzahl der Profil, der Größe der Profil und der Anzahl der zu evaluierenden Segmente ab.
-* Streaming-Segmentaufträge werden innerhalb weniger Minuten nach dem Eintreffen der Streaming-Daten in Profil ausgewertet. Die Segmentmitgliedschaft wird dann sofort in das Profil geschrieben und ein Ereignis gesendet, in dem Anwendungen abonniert werden können.
-* Die Streaming-Segmentmitgliedschaft wird für Streaming-Ziele sofort ausgeführt und entweder in einzelnen Segmentmitgliedschaftsmodellen oder in einem Mikrostapel mehrerer Profil-Ereignis bereitgestellt, die von den Erfassungsmustern des Ziels abhängig sind. Geplante Ziele starten vor dem Versand einen Segmentexportauftrag aus Profil für alle im Streaming ausgewerteten Segmente, die über den geplanten Batch-Segment-Versand bereitgestellt werden.
+* [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+* Batch-Segmentaufträge werden einmal täglich basierend auf dem festgelegten Zeitplan ausgeführt. Segmentexportaufträge werden dann vor der geplanten Zielbereitstellung ausgeführt. Beachten Sie, das Batch-Segment-Aufträge und Zielbereitstellungsaufträge separat ausgeführt werden. Batch-Segmentaufträge und die Performance von Exportaufträgen hängen von der Anzahl der Profile, deren Größe und der Anzahl der zu evaluierenden Segmente ab.
+* Streaming-Segmentaufträge werden innerhalb von Minuten nach der Ankunft von Streaming-Daten im Profile evaluiert. die Segmentzugehörigkeit wird sofort in das Profil geschrieben und ein Ereignis für das Abonnieren von Programmen wird gesendet.
+* Auf die Streaming-Segmentzugehörigkeit wird sofort bezüglich Streaming-Zielen reagiert. Sie wird abhängig von den Aufnahmemustern des Ziels entweder in einzelnen Segmentzugehörigkeitsereignissen oder als Mikro-Batch mit mehreren Profilereignissen bereitgestellt. Die geplanten Ziele lösen vor der Bereitstellung einen Segmentexport-Auftrag vom Profil vor der Lieferung aus. Dies gilt für alle im Streaming evaluierten Segmente, die über eine geplante Batch-Segmentbereitstellung bereitgestellt werden.
 * Für die Freigabe der Segmentmitgliedschaft für [!UICONTROL Echtzeit-Kundendatenplattform] für Audience Manager erfolgt dies innerhalb von Minuten für Streaming-Segmente und innerhalb von Minuten nach Abschluss der Batch-Segmentbewertung für die Stapelsegmentierung.
-* Segmente, die von Experience Platform zu Audience Manager freigegeben werden, werden innerhalb von Minuten nach der Segmentrealisierung freigegeben - sei es über die Streaming- oder Batch-Evaluierungsmethode. Es gibt eine anfängliche Segmentkonfigurationssynchronisierung zwischen Experience Platform und Audience Manager, sobald das Segment erstellt wurde. Nach ca. 4 Stunden können die Segmentmitgliedschaften der Experience Platform beginnen, in Audience Manager-Profilen realisiert zu werden. Audience Die Mitgliedschaft, die vor der Konfiguration der Freigabe von Experience Platformen und Audience Managern oder vor der Synchronisierung der Audience-Metadaten von Experience Platform zu Audience Manager durchgeführt wird, wird erst im Audience Manager ausgeführt, wenn der folgende Segmentauftrag, bei dem &quot;bestehende&quot;Segmentmitgliedschaften freigegeben werden, im folgenden Segment-Auftrag ausgeführt wird.
-* Für Batch- oder Streaming-Zielaufträge aus Stapelsegmentaufträgen können Profil-Attributaktualisierungen sowie Segmentmitgliedschaften freigegeben werden.
-* Beim Streaming von Segmentierungsaufträgen auf Streaming-Ziele werden nur die Aktualisierungen der Segmentmitgliedschaft freigegeben.
+* Segmente, die von Experience Platform an Audience Manager freigegeben werden, werden innerhalb von Minuten nach der Segmentrealisierung freigegeben - entweder über Streaming- oder Batch-Evaluierung. Es gibt eine anfängliche Segmentkonfigurationssynchronisierung zwischen Experience Platform und Audience Manager, sobald das Segment erstellt wurde. Nach ca. 4 Stunden können die Segmentmitgliedschaften der Experience Platform beginnen, in Audience Manager-Profilen realisiert zu werden. Die Zielgruppenzugehörigkeit, die vor der Konfiguration der Zielgruppenfreigabe zwischen Experience Platform und der Audience Manager-Zielgruppe oder vor dem Synchronisieren der Zielgruppen-Metadaten von Experience Platform mit Audience Manager realisiert wird, wird erst im nächsten Segmentauftrag in Audience Manager realisiert, in dem „vorhandene“ Segmentzugehörigkeiten freigegeben werden.
+* Batch- oder Streaming-Zielaufträge aus Batch-Segmentaufträgen können Aktualisierungen von Profilattributen sowie Segmentzugehörigkeiten teilen.
+* Beim Streamen von Segmentierungsaufträgen an Streaming-Ziele werden nur Aktualisierungen der Segmentzugehörigkeit geteilt.
 
 ## Implementierungsschritte
 
-1. Schema und Datensätze in Experience Platform konfigurieren.
-1. Konfigurieren Sie die richtigen Identitäten und Identitäts-Namensraum auf dem Schema, um sicherzustellen, dass erfasste Daten zu einem einheitlichen Profil gehören können.
-1. Aktivieren Sie das Schema und die Datensätze zum Profil.
-1. Daten in Plattform aufnehmen
+1. Konfigurier Sie Schemas und Datensätze in Experience Platform.
+1. Konfigurieren Sie die korrekten Identitäten und Identitäts-Namespaces im Schema, um sicherzustellen, dass aufgenommene Daten zu einem einheitlichen Profil zusammengefügt werden können.
+1. Aktivieren Sie das Schema und Datensätze für Profile.
+1. Nehmen Sie Daten in Platform auf.
 1. Bereitstellung der Segmentfreigabe zwischen Experience Platform und Audience Manager für in der Experience Platform definierte Audiencen, die für Audience Manager freigegeben werden sollen.
-1. Autorensegmente in Experience Platform, die im Batch- oder Streaming-Verfahren ausgewertet werden sollen. Das System ermittelt automatisch, ob das Segment als Stapel oder Streaming ausgewertet wird.
-1. Konfigurieren Sie Ziele für die Freigabe von Profil-Attributen und die Audience-Mitgliedschaft für die gewünschten Ziele.
+1. Erstellen Sie in Experience Platform Segmente, die per Batch oder Streaming evaluiert werden sollen. Das System stellt automatisch fest, ob das Segment per Batch oder Streaming evaluiert wird.
+1. Konfigurieren Sie Ziele für die Freigabe von Profilattributen Zielgruppenzugehörigkeiten zu gewünschten Zielen.
 
-## Überlegungen zur Implementierung
+## Überlegungen bei der Implementierung
 
-* Die Freigabe von Profil-Daten an Ziele erfordert, dass Sie den vom Ziel verwendeten spezifischen Identitätswert in die Ziel-Payload aufnehmen. Jede für ein Zielgruppen-Ziel erforderliche Identität muss in Platform integriert und als Identitätsdatei für das [!UICONTROL Echtzeit-Profil des Kunden] konfiguriert werden.
+* Die Freigabe von Profildaten an Ziele erfordert, dass der spezifische Identitätswert, der vom Ziel in der Ziel-Payload verwendet wird, mit eingeschlossen wird. Jede für ein Zielgruppen-Ziel erforderliche Identität muss in Platform integriert und als Identitätsdatei für das [!UICONTROL Echtzeit-Profil des Kunden] konfiguriert werden.
 
-* Bei Aktivierungen, bei denen Audiencen von Experience Platform zu Audience Manager freigegeben werden, werden alle im [!UICONTROL Echtzeit-Kundenstamm] enthaltenen Identitäten für Audience Manager freigegeben. Die Audiencen aus der Experience Platform können über Audience Manager-Ziele freigegeben werden, wenn die erforderlichen Ziel-IDs im [!UICONTROL Echtzeit-Kundenstamm] enthalten sind oder wenn Identitäten im [!UICONTROL Echtzeit-Kundenstamm] mit den erforderlichen Ziel-IDs verknüpft werden können, die in Audience Manager verknüpft sind.
+* Für Aktivierungsszenarien, in denen Zielgruppen über Experience Platform für Audience Manager freigegeben werden, werden alle im [!UICONTROL Echtzeit-Kundenprofil] enthaltenen Identitäten für Audience Manager freigegeben. Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele freigegeben werden, wenn die erforderlichen Zielidentitäten im [!UICONTROL Echtzeit-Kundenprofil] enthalten sind oder wenn Identitäten im [!UICONTROL Echtzeit-Kundenprofil] mit den erforderlichen Zielidentitäten verbunden werden können, die in Audience Manager verknüpft sind.
 
 ## Verwandte Dokumentation
 
-* [[!UICONTROL Echtzeit-Datenplattform ] für KundenProduktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Produktbeschreibung zu Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profil- und Segmentierungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
+* [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 
 ## Verwandte Videos und Tutorials
 
-* [[!UICONTROL Echtzeit-] Plattform für Kundendaten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demo der  [!UICONTROL Echtzeit-Kundendatenplattform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
-* [Segmente erstellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Überblick über Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* [[!UICONTROL Demo zu Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)

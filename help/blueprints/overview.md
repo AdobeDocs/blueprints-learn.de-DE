@@ -1,17 +1,17 @@
 ---
-title: Blueprints für digitale Erlebnisse
-description: Digital Experience Blueprints sind wiederholbare Implementierungen, um Strategien zu entwickeln und bestehende Geschäftsprobleme zu lösen. Sie beschleunigen die Time-to-Value und bieten einen schnellen Weg zum Erfolg.
+title: 'Blueprints: Digitale Erlebnisse'
+description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
 source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 2%
+ht-degree: 37%
 
 ---
 
-# Blueprints für digitale Erlebnisse
+# Blueprints: Digitale Erlebnisse
 
 Digital Experience Blueprints sind wiederholbare Implementierungen, mit denen Sie Strategien ansprechen und etablierte Geschäftsprobleme schnell lösen können. Jedes Blueprint enthält eine Reihe von Artefakten, die das hochwertige Geschäftsproblem, Architekturen, Implementierungsschritte, technische Überlegungen und Links zur entsprechenden Dokumentation erklären.
 
@@ -20,12 +20,12 @@ Digital Experience Blueprints sind wiederholbare Implementierungen, mit denen Si
 * **[Blueprint für die Aktivierung von Audiencen und Profilen zu Unternehmenszielen](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Halten Sie die Profil Ihrer Kunden über alle Systeme auf dem Laufenden, um Ihre Vertriebs- und Supportteams zu unterstützen. &#x200B;*
-* **[Hub-Blueprint zur Aktivität von Kunden](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Blueprint: Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)**
 
-   *Stellen Sie einen Kontext für Support und Vertrieb durch Mitarbeiter bereit.*
+   *Bereitstellung von Kontext für mitarbeitergestützten Support und Vertrieb.*
 * **[Data Analyse and Intelligence Blueprint](/help/blueprints/data-insights/analysis.md)**
 
-   *Führen Sie die Abfrage und Analyse der Daten im Datensee durch.*
+   *Durchführung sondierender Abfragen und Analysen der Daten im Data Lake.*
 
 ## Vorgestellte Blueprints
 
@@ -39,11 +39,11 @@ Digital Experience Blueprints sind wiederholbare Implementierungen, mit denen Si
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="Miniaturbild für das Blueprint "Online-/Offline-Audience Activation"" src="audience-activation/assets/onoff.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online-/Offline-Audience Activation</strong></a></div>
-    <p><em>Stellen Sie Audience-aktivierte Cross-Kanal-Werbung bereit.</em></p>
+    <p><em>Bereitstellung von zielgruppenaktivierter Cross-Channel-Werbung.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="Miniaturbild für den Blueprint zur Konsolidierung digitaler Verhaltensdaten" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Konsolidierung digitaler Verhaltensdaten</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Konsolidierung von digitalen Verhaltensdaten</strong></a></div>
     <p><em>Sie haben eine einheitliche konsolidierte Ansicht des Kundenverhaltens über verschiedene Kanal hinweg.</em></p>
   </td>
 </tr>

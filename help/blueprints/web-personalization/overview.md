@@ -1,5 +1,5 @@
 ---
-title: Web- und Mobilpersonalisierung
+title: 'Web- und Mobile-Personalisierung '
 description: Stellen Sie personalisierte Web- und Mobilinhalte mit [!UICONTROL Echtzeit-Kundendaten] bereit.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -9,20 +9,20 @@ translation-type: tm+mt
 source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
-# Web- und Mobilpersonalisierung
+# : Web- und Mobile-Personalisierung
 
-Web- und Mobile-Personalisierung bezieht sich auf die Möglichkeit, die Segmentierung von Audiencen in mehreren Anwendungen zu verwenden, um Kundenerlebnisse zu personalisieren und zu optimieren. Sie können Kundenverhalten, Demografie, Treuestufe und vorherige Transaktionen verwenden, um Layouts, Aktionsaufrufe und Inhalte zu personalisieren.
+Die für Web- und Mobile-Personalisierung zeigt auf, wie Zielgruppensegmentierung in mehreren Programmen zur Personalisierung und Optimierung von Kundenerlebnissen verwendet werden kann. Sie können Kundenverhalten, demografische Daten, Treuestatus und frühere Transaktionen verwenden, um Layouts, Calls-to-Action und Content zu personalisieren.
 
-| Blueprint | Beschreibung | Experience Cloud-Anwendungen |
+| Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[Verhaltensbasierte Web-/Mobile-Personalisierung](behavioral.md)** | <ul><li>Personalisieren auf Basis von Online-Verhaltensdaten und Audiencen</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
-| **[Online-/Offline-Web-/Mobile-Personalisierung](online-offline.md)** | <ul><li>Personalisieren mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisieren Sie die Personalisierung über das Web, E-Mail und andere bekannte Kanal hinweg.</li></ul> | <ul><li>[!UICONTROL Echtzeit-Kundendatenplattform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Verhaltensbasierte Web-/Mobile-Personalisierung](behavioral.md)** | <ul><li>Personalisierung basierend auf Online-Verhalten und Zielgruppendaten</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Online-/Offline-Web-/Mobile-Personalisierung](online-offline.md)** | <ul><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
-## Verwandte Blog-Beiträge
+## Verwandte Blog-Posts
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)

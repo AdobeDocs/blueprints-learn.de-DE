@@ -1,9 +1,9 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '296'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # Mitwirken
@@ -16,9 +16,9 @@ Im Folgenden sind Leitlinien aufgeführt, die Mitwirkende an diesem Projekt befo
 
 Dieses Projekt unterliegt dem [Adobe-Verhaltenskodex](code-of-conduct.md). Mit der Teilnahme verpflichten Sie sich zur Einhaltung dieses Kodex. Bitte melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Dokumentation des Mitarbeiter-Handbuchs
+## Dokumentation zum Contributor Guide.
 
-Siehe [Mitarbeiter-Handbuch](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Siehe [Contributor Guide](https://docs.adobe.com/content/help/de-DE/contributor/contributor-guide/introduction.html).
 
 ## Sie haben eine Frage?
 

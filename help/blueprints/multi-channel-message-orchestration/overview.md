@@ -1,6 +1,6 @@
 ---
-title: 'Nachrichtenorchestrierung für mehrere Kanal '
-description: Stellen Sie individuelle, Just-in-time-Kundenerlebnisse auf allen Bildschirmen bereit.
+title: 'Multi-Channel-Orchestrierung von Nachrichten  '
+description: Bereitstellung individueller, zeitnaher Kundenerlebnissen auf sämtlichen Geräten.
 solution: Experience Platform
 kt: null
 thumbnail: null
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 92%
 
 ---
 
-# Nachrichtenorchestrierung für mehrere Kanal
+# Multi-Channel-Orchestrierung von Nachrichten 
 
-Multi-Kanal Message Orchestration zeigt, wie Marken proaktiv mit ihren Kunden kommunizieren können, z. B. über Kanal wie E-Mail, SMS oder mobile Warnungen.
+Die  „Multi-Channel-Orchestrierung von Nachrichten“ zeigt, wie Marken mit ihren Kunden über Kanäle wie E-Mails, SMS und Mobile-Nachrichten proaktiv interagieren und kommunizieren können.
 
-Orchestrierungstools können in andere Interaktions-Kanal (z. B. in eingehende Kanal) für die Personalisierung von Websites und Mobilgeräten integriert werden, indem der Status der Audience mit den Entscheidungsmaschinen der anderen Kanal freigegeben wird. Verschiedene Faktoren helfen bei der Ermittlung der zu verwendenden Anwendungen und Bereitstellungsoptionen, z. B. ob die Kundeninteraktion auf Triggern basiert oder geplant ist, welche Daten für Targeting und Personalisierung erforderlich sind usw. Diese Faktoren führen zu verschiedenen möglichen Szenarien und Bereitstellungsoptionen, wenn die Fähigkeit zur Nachrichtenorchestrierung aufgebaut wird.
+Die Orchestrierungs-Tools können mit anderen Interaktionskanälen für Web- und Mobile-Personalisierung integriert werden (z. B. mit Inbound-Kanälen), indem der Zielgruppenstatus für die Entscheidungs-Engines der anderen Kanäle freigegeben wird. Unterschiedliche Faktoren helfen dabei, herauszufinden, welche Programme und Bereitstellungsoptionen verwendet werden sollen, etwa ob die Kundeninteraktion Trigger-basiert oder geplant ist, welche Daten für Targeting und Personalisierung erforderlich sind usw. Diese Faktoren resultieren in unterschiedlichen, möglichen Szenarien und Bereitstellungsoptionen, wenn die Funktionen für Nachrichten-Orchestrierung ausgebaut werden.
 
 
-| Blueprint | Beschreibung | Experience Cloud-Anwendungen |
+| Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **Stapel- und Transaktionsnachrichten** | <ul><li>Planmäßige und Batch-ausgehende Kampagnen erstellen und ausführen</li><li>Transaktionsnachrichten bereitstellen</li></ul> | <ul><li>Adobe Campaign Classic und Managed Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[Batch Messaging und Adobe Experience Platform](batch-messaging.md)** | <ul><li>Führen Sie terminierte und Batch-Messaging-Kampagnen mit Adobe Experience Platform als zentralem Hub für Profil und Segmentierung aus.</li></ul> | <ul><li>[!UICONTROL Echtzeit-Kundendatenplattform]</li><li>Adobe Campaign Classic, Managed Services oder Campaign Standard</li><li>Unterstützter Drittanbieter für Nachrichten</li></ul> |
-| **[Ausgelöste Nachrichten und Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Ausgelöstes und Streaming-Messaging mit Adobe Experience Platform als zentralem Hub für Streaming-Daten, Profil und Segmentierung, mit Journey Orchestration für Streaming-Journey-Orchester und Nachrichten-Versand</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign oder andere Drittanbieteranwendung für den Versand von Nachrichten</li></ul> |
+| **Stapel- und Transaktionsnachrichten** | <ul><li>Erstellen und Ausführen von Outbound-Kampagnen (geplant und Batch)</li><li>Bereitstellung von Transaktionsnachrichten</li></ul> | <ul><li>Adobe Campaign Classic und Managed Services</li><li>Adobe Campaign Standard</li></ul> |
+| **[Batch Messaging und Adobe Experience Platform](batch-messaging.md)** | <ul><li>Ausführen von geplanten und Batch-Messaging-Kampagnen mit Adobe Experience Platform als Zentrale für Kundenprofile und Segmentierung</li></ul> | <ul><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services oder Campaign Standard</li><li>Unterstützter Messaging-Drittanbieter</li></ul> |
+| **[Ausgelöste Nachrichten und Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Ausführen von Trigger-basiertem und Streaming-Messaging mit Adobe Experience Platform als Zentrale für Streaming-Daten, Kundenprofile und Segmentierung mit Journey Orchestration für die Orchestrierung der Streaming-Journey und der Messaging-Bereitstellung</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign oder Drittanbieterprogramm für Nachrichtenbereitstellung</li></ul> |

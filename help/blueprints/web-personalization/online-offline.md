@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 69%
+source-wordcount: '1091'
+ht-degree: 48%
 
 ---
 
@@ -35,11 +35,23 @@ Synchronisieren von Web-Personalisierung mit E-Mail und anderen bekannten und an
 
 ## Leitlinien
 
-* Segmente, die von Experience Platform an Audience Manager freigegeben werden, werden innerhalb von Minuten nach der Segmentrealisierung freigegeben - entweder über Streaming- oder Batch-Evaluierung. Es gibt eine anfängliche Segmentkonfigurationssynchronisierung zwischen Experience Platform und Audience Manager von etwa 4 Stunden, damit die Segmentmitgliedschaften der Experience Platform in Audience Manager-Profilen realisiert werden. Sobald die Audience Manager-Profil vorhanden sind, können die Experience Platformen-Segmentmitgliedschaften über Adobe Target für dieselbe Seitenpersonalisierung genutzt werden.
-* Beachten Sie, dass bei Segmentrealisierungen, die innerhalb der 4-Stunden-Segmentkonfigurationssynchronisierung zwischen Experience Platform und Audience Manager stattfinden, diese Segmentrealisierungen beim nachfolgenden Stapelsegmentauftrag als &quot;vorhandene&quot;Segmente in Audience Manager implementiert werden.
-* Segmentfreigabe per Batch von der Experience Platform - einmal pro Tag oder manuell über die API initiiert. Sobald diese Segmentmitgliedschaften realisiert sind, werden sie innerhalb von Minuten für den Audience Manager freigegeben und stehen für die Personalisierung der gleichen/nächsten Seite in der Zielgruppe zur Verfügung.
-* Die Streaming-Segmentierung wird innerhalb von etwa 5 Minuten durchgeführt. Sobald diese Segmentrealisierungen auftreten, werden sie innerhalb von Minuten für den Audience Manager freigegeben und für die Personalisierung der gleichen/nächsten Seite in der Zielgruppe verfügbar gemacht.
-* Standardmäßig ermöglicht der Segmentfreigabe-Service die Freigabe von maximal 75 Zielgruppen pro Adobe Analytics-Report-Suite. Wenn der Kunde über eine Audience Manager-Lizenz verfügt, ist die Anzahl der Zielgruppen, die zwischen Adobe Analytics und Adobe Target oder Audience Manager und Adobe Target freigegeben werden können, nicht begrenzt.
+### Leitlinien für die Segmentbewertung und -Aktivierung
+
+| Segmenttyp | Häufigkeit | Durchsatz | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) |
+|-|-|-|-|-|-|
+| Edge-Segmentierung | Die Edge-Segmentierung befindet sich derzeit in der Beta-Phase und ermöglicht eine Bewertung der gültigen Echtzeit-Segmentierung im Edge-Netzwerk für die Echtzeit-Seitenentscheidung über Adobe Target und Adobe Journey Optimizer. |  | ~100 ms | Direkt für die Personalisierung in Adobe Target, für Profil-Lookups im Edge-Profil und für die Aktivierung über Cookie-basierte Ziele verfügbar. |
+| Streaming-Segmentierung | Jedes Mal, wenn ein neues Streaming-Ereignis oder -Datensatz in das Echtzeit-Profil des Kunden aufgenommen wird und die Segmentdefinition ein gültiges Streaming-Segment ist. <br>Anleitungen zu Streaming-Segmentkriterien finden Sie in der  [Segmentierungsdokumentation ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)  | Bis zu 1500 Ereignis pro Sekunde.  | ~ p95 &lt;5min | Sobald diese Segmentrealisierungen auftreten, werden sie innerhalb von Minuten für Audience Manager und den Freigabedienst für Audiencen freigegeben und für die Personalisierung der gleichen/nächsten Seite in Adobe Target verfügbar gemacht. |
+| Inkrementelle Segmentierung | Einmal pro Stunde für neue Daten, die seit der letzten inkrementellen oder Batch-Segmentbewertung in das Echtzeit-Profil des Kunden aufgenommen wurden. |  |  | Sobald diese Segmentmitgliedschaften realisiert sind, werden sie innerhalb von Minuten für Audience Manager und den Freigabedienst für Audiencen freigegeben und stehen für die Personalisierung derselben/nächster Seite in Adobe Target zur Verfügung. |
+| Stapelsegmentierung | Einmal pro Tag basierend auf einem vordefinierten Systemset-Plan oder manuell initiiert Ad-hoc über API. |  | Etwa eine Stunde pro Arbeitsplatz für bis zu 10 TB Profil Store Größe, 2 Stunden pro Arbeitsplatz für 10 TB bis 100 TB Profil Store Größe. Die Leistung von Stapelsegmentaufträgen hängt von der Anzahl der Profil, der Größe der Profil und der Anzahl der zu evaluierenden Segmente ab. | Sobald diese Segmentmitgliedschaften realisiert sind, werden sie innerhalb von Minuten für Audience Manager und den Freigabedienst für Audiencen freigegeben und stehen für die Personalisierung derselben/nächster Seite in Adobe Target zur Verfügung. |
+
+### Leitlinien für die gemeinsame Nutzung von Audiencen über mehrere Anwendungen hinweg
+
+
+| Integrationsmuster für die Freigabe von Audiencen | Detail | Häufigkeit | Durchsatz | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) |
+|-|-|-|-|-|-|-|
+| Echtzeit-Kundendatenplattform bis Audience Manager |  | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Innerhalb von Minuten nach Abschluss der Segmentbewertung.<br>Die anfängliche Synchronisierung der Audience-Konfiguration zwischen der Echtzeit-Kundendatenplattform und dem Audience Manager dauert etwa 4 Stunden.<br>Alle während der 4-Stunden-Audience durchgeführten Mitgliedschaften werden beim nachfolgenden Stapelsegmentierungsauftrag als &quot;bestehende&quot;Audiencen in Audience Manager geschrieben. |
+| Adobe Analytics bis Audience Manager | Standardmäßig können für jede Adobe Analytics Report Suite maximal 75 Audiencen freigegeben werden. Wenn eine Audience Manager-Lizenz verwendet wird, ist die Anzahl der Audiencen, die zwischen Adobe Analytics und Adobe Target oder Adobe Audience Manager und Adobe Target freigegeben werden können, unbegrenzt. |  |  |  |  |
+| Adobe Analytics to Real-time Customer Data Platform | Aktuell nicht verfügbar. |  |  |  |  |
 
 ## Implementierungsmuster
 
@@ -84,7 +96,7 @@ Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementiere
 
 * [Segmentfreigabe für Experience Platform über Audience Manager und andere Experience Cloud-Lösungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=de)
 * [Überblick über Segmentierung in Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
-* [Streaming-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
+* [Streaming-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Überblick über Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de)
 * [Audience Manager Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de)
 * [Adobe Analytics-Segmentfreigabe über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)

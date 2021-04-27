@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 81%
+source-wordcount: '990'
+ht-degree: 35%
 
 ---
 
@@ -36,13 +36,27 @@ Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbie
 ## Leitlinien
 
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
-* Batch-Segmentaufträge werden einmal täglich basierend auf dem festgelegten Zeitplan ausgeführt. Segmentexportaufträge werden dann vor der geplanten Zielbereitstellung ausgeführt. Beachten Sie, das Batch-Segment-Aufträge und Zielbereitstellungsaufträge separat ausgeführt werden. Batch-Segmentaufträge und die Performance von Exportaufträgen hängen von der Anzahl der Profile, deren Größe und der Anzahl der zu evaluierenden Segmente ab.
-* Streaming-Segmentaufträge werden innerhalb von Minuten nach der Ankunft von Streaming-Daten im Profile evaluiert. die Segmentzugehörigkeit wird sofort in das Profil geschrieben und ein Ereignis für das Abonnieren von Programmen wird gesendet.
-* Auf die Streaming-Segmentzugehörigkeit wird sofort bezüglich Streaming-Zielen reagiert. Sie wird abhängig von den Aufnahmemustern des Ziels entweder in einzelnen Segmentzugehörigkeitsereignissen oder als Mikro-Batch mit mehreren Profilereignissen bereitgestellt. Die geplanten Ziele lösen vor der Bereitstellung einen Segmentexport-Auftrag vom Profil vor der Lieferung aus. Dies gilt für alle im Streaming evaluierten Segmente, die über eine geplante Batch-Segmentbereitstellung bereitgestellt werden.
-* Für die Freigabe der Segmentmitgliedschaft für [!UICONTROL Echtzeit-Kundendatenplattform] für Audience Manager erfolgt dies innerhalb von Minuten für Streaming-Segmente und innerhalb von Minuten nach Abschluss der Batch-Segmentbewertung für die Stapelsegmentierung.
-* Segmente, die von Experience Platform an Audience Manager freigegeben werden, werden innerhalb von Minuten nach der Segmentrealisierung freigegeben - entweder über Streaming- oder Batch-Evaluierung. Es gibt eine anfängliche Segmentkonfigurationssynchronisierung zwischen Experience Platform und Audience Manager, sobald das Segment erstellt wurde. Nach ca. 4 Stunden können die Segmentmitgliedschaften der Experience Platform beginnen, in Audience Manager-Profilen realisiert zu werden. Die Zielgruppenzugehörigkeit, die vor der Konfiguration der Zielgruppenfreigabe zwischen Experience Platform und der Audience Manager-Zielgruppe oder vor dem Synchronisieren der Zielgruppen-Metadaten von Experience Platform mit Audience Manager realisiert wird, wird erst im nächsten Segmentauftrag in Audience Manager realisiert, in dem „vorhandene“ Segmentzugehörigkeiten freigegeben werden.
-* Batch- oder Streaming-Zielaufträge aus Batch-Segmentaufträgen können Aktualisierungen von Profilattributen sowie Segmentzugehörigkeiten teilen.
-* Beim Streamen von Segmentierungsaufträgen an Streaming-Ziele werden nur Aktualisierungen der Segmentzugehörigkeit geteilt.
+
+### Leitlinien für die Segmentbewertung und -Aktivierung
+
+| Segmenttyp | Häufigkeit | Durchsatz | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) | Aktivierung Nutzlast |
+|-|-|-|-|-|-|-|
+| Edge-Segmentierung | Die Edge-Segmentierung befindet sich derzeit in der Beta-Phase und ermöglicht eine Bewertung der gültigen Echtzeit-Segmentierung im Edge-Netzwerk für die Echtzeit-Seitenentscheidung über Adobe Target und Adobe Journey Optimizer. |  | ~100 ms | Direkt für die Personalisierung in Adobe Target, für Profil-Lookups im Edge-Profil und für die Aktivierung über Cookie-basierte Ziele verfügbar. | Audience-Mitgliedschaften auf Edge für Profil-Lookups und Cookie-basierte Ziele.<br>Adobe Target und Journey Optimizer können Audiencen und Profil-Attribute nutzen.  |
+| Streaming-Segmentierung | Jedes Mal, wenn ein neues Streaming-Ereignis oder -Datensatz in das Echtzeit-Profil des Kunden aufgenommen wird und die Segmentdefinition ein gültiges Streaming-Segment ist. <br>Anleitungen zu Streaming-Segmentkriterien finden Sie in der  [Segmentierungsdokumentation ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)  | Bis zu 1500 Ereignis pro Sekunde.  | ~ p95 &lt;5min | Streaming-Ziele: Streaming-Audiencen werden innerhalb von etwa 10 Minuten aktiviert bzw. je nach den Anforderungen des Zielorts in Kleinststapeln gepackt.<br>Geplante Ziele: Die Mitgliedschaft in Streaming-Audiencen wird im Batch je nach der geplanten Versand-Zielzeit aktiviert. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
+| Inkrementelle Segmentierung | Einmal pro Stunde für neue Daten, die seit der letzten inkrementellen oder Batch-Segmentbewertung in das Echtzeit-Profil des Kunden aufgenommen wurden. |  |  | Streaming-Ziele: Inkrementelle Audiencen werden innerhalb von ca. 10 Minuten aktiviert oder je nach Zielbestimmung in Kleinststapeln gepackt.<br>Geplante Ziele: Die Mitgliedschaft in einer inkrementellen Audience wird im Batch je nach der geplanten Versand-Zielzeit aktiviert. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience und nur Identitätswerte.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
+| Stapelsegmentierung | Einmal pro Tag basierend auf einem vordefinierten Systemset-Plan oder manuell initiiert Ad-hoc über API. |  | Etwa eine Stunde pro Arbeitsplatz für bis zu 10 TB Profil Store Größe, 2 Stunden pro Arbeitsplatz für 10 TB bis 100 TB Profil Store Größe. Die Leistung von Stapelsegmentaufträgen hängt von der Anzahl der Profil, der Größe der Profil und der Anzahl der zu evaluierenden Segmente ab. | Streaming-Ziele: Die Batch-Audience-Mitgliedschaften werden innerhalb von etwa 10 Tagen nach Abschluss der Segmentierungsbewertung bzw. des Mikrobatches entsprechend den Anforderungen des Ziels aktiviert.<br>Geplante Ziele: Die Batch-Audience-Mitgliedschaften werden je nach der geplanten Versand-Zielzeit aktiviert. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience und nur Identitätswerte.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
+
+### Leitlinien für den Austausch von Audiencen über verschiedene Anwendungen
+
+| Audience Application Integrations | Häufigkeit | Durchsatz/Volumen | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) |
+|-|-|-|-|-|-|
+| Echtzeit-Kundendatenplattform bis Audience Manager | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Innerhalb von Minuten nach Abschluss der Segmentbewertung.<br>Die anfängliche Synchronisierung der Audience-Konfiguration zwischen der Echtzeit-Kundendatenplattform und dem Audience Manager dauert etwa 4 Stunden.<br>Alle während der 4-Stunden-Audience durchgeführten Mitgliedschaften werden beim nachfolgenden Stapelsegmentierungsauftrag als &quot;bestehende&quot;Audiencen in Audience Manager geschrieben. |
+| Adobe Analytics bis Audience Manager |  | Standardmäßig können für jede Adobe Analytics Report Suite maximal 75 Audiencen freigegeben werden. Wenn eine Audience Manager-Lizenz verwendet wird, ist die Anzahl der Audiencen, die zwischen Adobe Analytics und Adobe Target oder Adobe Audience Manager und Adobe Target freigegeben werden können, unbegrenzt. |  |  |
+| Adobe Analytics to Real-time Customer Data Platform | Derzeit nicht verfügbar | Derzeit nicht verfügbar | Derzeit nicht verfügbar | Derzeit nicht verfügbar |
+
+
+
+
 
 ## Implementierungsschritte
 
@@ -64,7 +78,7 @@ Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbie
 
 * [Produktbeschreibung zu Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profil- und Segmentierungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
+* [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 
 ## Verwandte Videos und Tutorials

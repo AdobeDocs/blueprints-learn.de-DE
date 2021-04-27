@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 0%
+source-wordcount: '1003'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ Geben Sie Profil- und Audiencen-Änderungen und Ereignis im Streaming- oder Batc
 
 * Aktivierung von Profil und Audience zu Cloud-Datenspeicherung-Zielen oder Streaming-Zielen für die Unternehmensverfolgung, Datenspeicherung, Analyse und Aktivierung von Kundendaten und -einsichten.
 
-## Anwendungen
+## Programme
 
 * Adobe Experience Platform Aktivierung
 
@@ -28,34 +28,32 @@ Geben Sie Profil- und Audiencen-Änderungen und Ereignis im Streaming- oder Batc
 
 <img src="assets/enterprise_destination.svg" alt="Referenzarchitektur für das Enterprise Aktivierung Szenario" style="border:1px solid #4a4a4a" />
 
-## Guardraht
+## Leitlinien
 
-[Profil- und Segmentierungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+[Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
-Latenz- und Durchsatzschwellenwerte:
+### Leitlinien für die Segmentbewertung und -Aktivierung
 
-Streaming-Segmentierung:
+| Segmenttyp | Häufigkeit | Durchsatz | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) | Aktivierung Nutzlast |
+|-|-|-|-|-|-|-|
+| Edge-Segmentierung | Die Edge-Segmentierung befindet sich derzeit in der Beta-Phase und ermöglicht eine Bewertung der gültigen Echtzeit-Segmentierung im Edge-Netzwerk für die Echtzeit-Seitenentscheidung über Adobe Target und Adobe Journey Optimizer. |  | ~100 ms | Direkt für die Personalisierung in Adobe Target, für Profil-Lookups im Edge-Profil und für die Aktivierung über Cookie-basierte Ziele verfügbar. | Audience-Mitgliedschaften auf Edge für Profil-Lookups und Cookie-basierte Ziele.<br>Adobe Target und Journey Optimizer können Audiencen und Profil-Attribute nutzen.  |
+| Streaming-Segmentierung | Jedes Mal, wenn ein neues Streaming-Ereignis oder -Datensatz in das Echtzeit-Profil des Kunden aufgenommen wird und die Segmentdefinition ein gültiges Streaming-Segment ist. <br>Anleitungen zu Streaming-Segmentkriterien finden Sie in der  [Segmentierungsdokumentation ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)  | Bis zu 1500 Ereignis pro Sekunde.  | ~ p95 &lt;5min | Streaming-Ziele: Streaming-Audiencen werden innerhalb von etwa 10 Minuten aktiviert bzw. je nach den Anforderungen des Zielorts in Kleinststapeln gepackt.<br>Geplante Ziele: Die Mitgliedschaft in Streaming-Audiencen wird im Batch je nach der geplanten Versand-Zielzeit aktiviert. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
+| Inkrementelle Segmentierung | Einmal pro Stunde für neue Daten, die seit der letzten inkrementellen oder Batch-Segmentbewertung in das Echtzeit-Profil des Kunden aufgenommen wurden. |  |  | Streaming-Ziele: Inkrementelle Audiencen werden innerhalb von ca. 10 Minuten aktiviert oder je nach Zielbestimmung in Kleinststapeln gepackt.<br>Geplante Ziele: Die Mitgliedschaft in einer inkrementellen Audience wird im Batch je nach der geplanten Versand-Zielzeit aktiviert. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience und nur Identitätswerte.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
+| Stapelsegmentierung | Einmal pro Tag basierend auf einem vordefinierten Systemset-Plan oder manuell initiiert Ad-hoc über API. |  | Etwa eine Stunde pro Arbeitsplatz für bis zu 10 TB Profil Store Größe, 2 Stunden pro Arbeitsplatz für 10 TB bis 100 TB Profil Store Größe. Die Leistung von Stapelsegmentaufträgen hängt von der Anzahl der Profil, der Größe der Profil und der Anzahl der zu evaluierenden Segmente ab. | Streaming-Ziele: Die Batch-Audience-Mitgliedschaften werden innerhalb von etwa 10 Tagen nach Abschluss der Segmentierungsbewertung bzw. des Mikrobatches entsprechend den Anforderungen des Ziels aktiviert.<br>Geplante Ziele: Die Batch-Audience-Mitgliedschaften werden je nach der geplanten Versand-Zielzeit aktiviert. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience und nur Identitätswerte.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
 
-* Bis zu 5 Minuten für Streaming-Segmentierung mit bis zu 1500 Ereignissen pro Sekunde
-* Bis zu 11 Minuten für Streaming-Aktivierungen
 
-Stapelsegmentierung:
-Einmal pro Tag oder manuell über API initiiert.
-
-* Etwa 1 Stunde pro Arbeitsplatz für bis zu 10 TB Profil
-* Etwa 2 Stunden pro Arbeitsplatz bei einer Speichergröße von 10 TB bis 100 TB Profil
 
 ## Implementierungsschritte
 
 1. Erstellen Sie Schema für die Datenerfassung.
 1. Erstellen Sie Datensätze, damit Daten erfasst werden.
-1. Konfigurieren Sie die richtigen Identitäten und Identitäts-Namensraum auf dem Schema, um sicherzustellen, dass erfasste Daten zu einem einheitlichen Profil gehören können.
+1. Konfigurieren Sie die korrekten Identitäten und Identitäts-Namespaces im Schema, um sicherzustellen, dass aufgenommene Daten zu einem einheitlichen Profil zusammengefügt werden können.
 1. Aktivieren Sie die Schema und Datensätze für die Verarbeitung von Profilen.
 1. Konfigurieren Sie alle Quellen für die Datenerfassung.
-1. Autorensegmente in Experience Platform, die im Batch- oder Streaming-Verfahren ausgewertet werden sollen. Das System ermittelt automatisch, ob das Segment als Stapel oder Streaming ausgewertet wird.
-1. Konfigurieren Sie Ziele für die Freigabe von Profil-Attributen und die Audience-Mitgliedschaft für die gewünschten Ziele.
+1. Autorensegmente in Experience Platform, die im Batch- oder Streaming-Verfahren ausgewertet werden sollen. Das System stellt automatisch fest, ob das Segment per Batch oder Streaming evaluiert wird.
+1. Konfigurieren Sie Ziele für die Freigabe von Profilattributen Zielgruppenzugehörigkeiten zu gewünschten Zielen.
 
-## Überlegungen zur Implementierung
+## Überlegungen bei der Implementierung
 
 Aktivieren von Attributen und Identitäten
 
@@ -76,15 +74,15 @@ Aktivieren von Erlebnis-Ereignissen
 
 ## Verwandte Dokumentation
 
-* [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 * [Übersicht über die Ziele der Cloud-Datenspeicherung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
 * [HTTP-Ziel](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
-* [[!UICONTROL Echtzeit-Datenplattform ] für KundenProduktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Produktbeschreibung zu Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profil- und Segmentierungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 
 ## Verwandte Videos und Tutorials
 
-* [[!UICONTROL Echtzeit-] Plattform für Kundendaten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demo der  [!UICONTROL Echtzeit-Kundendatenplattform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
-* [Segmente erstellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Überblick über Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* [[!UICONTROL Demo zu Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)

@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 24b6ffe3021389d33e84688a8f1a90711ca4b772
+source-git-commit: db083e30d8add029e99cade25d561a26da78338e
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 35%
+source-wordcount: '1040'
+ht-degree: 34%
 
 ---
 
@@ -51,8 +51,10 @@ Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbie
 | Audience-Anwendungsintegrationen | Häufigkeit | Durchsatz/Volumen | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) |
 |---|---|---|---|---|
 | Echtzeit-Kundendatenplattform bis Audience Manager | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Innerhalb von Minuten nach Abschluss der Segmentbewertung.<br>Die anfängliche Synchronisierung der Audience-Konfiguration zwischen der Echtzeit-Kundendatenplattform und dem Audience Manager dauert etwa 4 Stunden.<br>Alle während der 4-Stunden-Audience durchgeführten Mitgliedschaften werden beim nachfolgenden Stapelsegmentierungsauftrag als &quot;bestehende&quot;Audiencen in Audience Manager geschrieben. |
-| Adobe Analytics bis Audience Manager |  | Standardmäßig können für jede Adobe Analytics Report Suite maximal 75 Audiencen freigegeben werden. Wenn eine Audience Manager-Lizenz verwendet wird, ist die Anzahl der Audiencen, die zwischen Adobe Analytics und Adobe Target oder Adobe Audience Manager und Adobe Target freigegeben werden können, unbegrenzt. |  |  |
+| Echtzeit-Kundendatenplattform nach Ad Cloud | Beachten Sie, dass die Freigabe von Audiencen von der Echtzeit-Kundendatenplattform an Adobe Advertising Cloud Audience Manager erfordert. Für die Integration von Audiencen der Echtzeit-Customer Data Platform in Advertising Cloud gelten dieselben Garantien wie für die Freigabe von Kundendaten in Audience Manager in Echtzeit. | - | - | - |
 | Adobe Analytics in Echtzeit-Kundendatenplattform | Aktuell nicht verfügbar | Aktuell nicht verfügbar | Aktuell nicht verfügbar | Aktuell nicht verfügbar |
+| Adobe Analytics bis Audience Manager | - | Standardmäßig können für jede Adobe Analytics Report Suite maximal 75 Audiencen freigegeben werden. Wenn eine Audience Manager-Lizenz verwendet wird, ist die Anzahl der Audiencen, die zwischen Adobe Analytics und Adobe Target oder Adobe Audience Manager und Adobe Target freigegeben werden können, unbegrenzt. | - | - |
+
 
 
 

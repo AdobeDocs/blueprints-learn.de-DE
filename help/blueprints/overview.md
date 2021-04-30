@@ -4,7 +4,7 @@ description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implemen
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 37%
@@ -37,7 +37,7 @@ Digital Experience Blueprints sind wiederholbare Implementierungen, mit denen Si
     <p><em>Trigger-Nachrichten und -Erlebnisse mithilfe der [!UICONTROL-Plattform] als zentraler Hub.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="Miniaturbild für das Blueprint "Online-/Offline-Audience Activation"" src="audience-activation/assets/onoff.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="Miniaturbild für das Blueprint "Online-/Offline-Audience Activation"" src="audience-activation/assets/online_offline_activation.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online-/Offline-Audience Activation</strong></a></div>
     <p><em>Bereitstellung von zielgruppenaktivierter Cross-Channel-Werbung.</em></p>
   </td>

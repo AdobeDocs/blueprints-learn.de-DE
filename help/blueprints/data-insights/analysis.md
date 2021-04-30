@@ -1,15 +1,15 @@
 ---
 title: Data Analyse and Intelligence Blueprint
-description: Dieser Plan zeigt, wie in Adobe Experience Platform erforscht werden kann, wie Abfrage und Analyse der Daten, die im Datensee vorhanden sind, durchgeführt werden können.
+description: Diese Blueprint zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
@@ -25,32 +25,32 @@ Bestimmte Garantien gelten für die Zeitüberschreitung der Abfrage und die Date
 
 ## Anwendungsfälle
 
-* Interaktive Abfrage und Aggregation von Daten
-* Zeilen- und Spaltenzugriff auf erfasste Daten für die Exploration und Validierung
-* Dashboards und Visualisierungen von Daten mithilfe von Business Intelligencen
+* Interaktive Abfrage und Sammlung von Daten
+* Zeilen- und Spaltenzugriff auf aufgenommene Daten zur Erkundung und Validierung
+* Dashboarding und Visualisierung von Daten über Business-Intelligence-Tools
 
-## Anwendungen
+## Programme
 
 * Adobe Experience Platform
 
 ## Architektur
 
-<img src="assets/dataexplore.svg" alt="Referenzarchitektur für Enterprise Data Exploration and Berichte Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="Referenzarchitektur für Blueprint „Datenuntersuchung und Reporting in Unternehmen“" style="border:1px solid #4a4a4a" />
 
-## Guardraht
+## Leitlinien
 
-* 10-minütige Zeitbeschränkung für interaktive Abfragen
-* In der Benutzeroberfläche zurückgegebene Beschränkung auf 100 Datensätze
-* 50.000 Datensatzbegrenzung, die über den SQL-Connector zurückgegeben wird
+* Zeitlimit von 10 Minuten für interaktive Abfragen
+* Limit von 100 in der Benutzeroberfläche zurückgegebenen Datensätzen
+* Limit von 50.000 über den SQL-Connector zurückgegebenen Datensätzen
 
 ## Implementierungsschritte
 
-1. Konfigurieren Sie Datasets und Schema für die Datenerfassung in den Datensee.
-1. Daten erfassen.
+1. Konfigurieren Sie Datensätze und Schemas für die Datenaufnahme in den Data Lake.
+1. Nehmen Sie Daten auf.
 1. Vergewissern Sie sich, dass die Daten für [!UICONTROL Abfrage Service] und [!UICONTROL Data Science Workspace] für den Rohzugriff und die Abfrage verfügbar sind.
 1. Verbinden Sie Business Intelligencen- und SQL-Clients mit dem [!UICONTROL Abfrage-Dienst], um Visualisierungen, Daten-Abfragen und Exploration durchzuführen.
 
 ## Verwandte Dokumentation
 
-* [Produktbeschreibung für Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL Abfrage ] Servicedocumentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [Produktbeschreibung zu Adobe Experience Platform Intelligence](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Dokumentation zum Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de)

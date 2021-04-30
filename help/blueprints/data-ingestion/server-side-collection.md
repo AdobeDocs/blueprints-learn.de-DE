@@ -1,39 +1,39 @@
 ---
-title: Blueprint zur serverseitigen Datenerfassung
-description: Datenerfassung durch Experience Platform-SDKs an Ziele streamen
+title: 'Blueprint: Server-seitige Erfassung von Unternehmensdaten'
+description: Streamen erfasster Daten über Experience Platform-SDKs an Ziele
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Blueprint zur serverseitigen Datenerfassung
+# Blueprint: Server-seitige Erfassung von Unternehmensdaten
 
-Das serverseitige Enterprise Data Collection-Konzept zeigt, wie mit Adobe Experience Platform Web- und Mobile-SDKs erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle Rohdaten weiterleiten, die aus den SDKs oder spezifischen Daten auf der Grundlage der in Experience Platform Launch konfigurierten Ereignis und Regeln erfasst wurden.
+Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mit Web- und Mobile-SDKs von Adobe Experience Platform erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle mit den SDKs erfassten Rohdaten oder bestimmte Daten basierend auf Ereignissen und Regeln entsprechend der Konfiguration in Experience Platform Launch weiterleiten.
 
 ## Anwendungsfälle
 
-* Datenerfassung über Web oder Mobilgeräte mit einem einzigen Datenerfassungs-Tag, wodurch die Gewichtung von Code in Client-Browsern und -Apps verringert wird. Propagieren Sie die erfassten Daten an verschiedene Endpunkte für eine einzige Datenquelle der Datenerfassung.
-* Weiterleiten erfasster Daten an Partneranwendungen oder Datenerfassungsorte, um Erkenntnisse und Datenspeicherung anhand der erfassten Daten zu erstellen.
+* Erfassen von Web- oder Mobile-Daten mit einem zentralen Sammlungs-Tag, wodurch weniger Code für Client-Browser und -Mobile-Apps nötig ist. Propagieren der erfassten Daten an verschiedene Endpunkte aus einer zentralen Datenerfassungsquelle.
+* Weiterleiten von erfassten Daten an Partnerprogramme oder Datenspeicher-Standorte für den Gewinn von Erkenntnissen und die Erstellung von Programmen anhand der erfassten Daten.
 
-## Anwendungen
+## Programme
 
 * Adobe Experience Platform Collection
 
 ## Architektur
 
-<img src="assets/entcollect.svg" alt="Referenzarchitektur für die Sammlung von Unternehmensdaten" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Referenzarchitektur für die Erfassung von Unternehmensdaten" style="border:1px solid #4a4a4a" />
 
 ## Verwandte Dokumentation
 
-[Dokumentation zum Experience Platform Launch-Server](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+[Dokumentation zu Experience Platform Launch Server Side ](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=de#server-side-info)
 
-## Verwandte Blog-Beiträge
+## Verwandte Blog-Posts
 
 * [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
 * [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)

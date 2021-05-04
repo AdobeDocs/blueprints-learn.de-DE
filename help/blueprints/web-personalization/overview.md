@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 78%
+source-wordcount: '255'
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ Die für Web- und Mobile-Personalisierung zeigt auf, wie Zielgruppensegmentierun
 
 ## Leitlinien für die Web- und Mobile-Personalisierung
 
-Sehen Sie sich die Guardrails unter der Rubrik &quot;Aktivierungen für Audience und Profil&quot;- [LINK](../audience-activation/overview.md) an.
+Für Guardrails im Zusammenhang mit der Aktivierung von Audience und Profil verweisen Sie auf die Guardrails im Abschnitt &quot;Audience und Profil Aktivierung Blueprints&quot;- [LINK](../audience-activation/overview.md)
 
 ### Diagramm &quot;Online-/Offline-Personalisierung&quot;
 

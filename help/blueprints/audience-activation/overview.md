@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 15%
+source-wordcount: '1201'
+ht-degree: 16%
 
 ---
 
@@ -29,41 +29,44 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 
 ## Grundzüge der Aktivierung für Audience und Profil
 
+### Guardrail-Diagramm
+
+<img src="assets/activation_guardrails.svg" alt="Guardrail-Diagramm für die Aktivierung der Audience und des Profils" style="border:1px solid #4a4a4a" />
+
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 ### Leitlinien für die Segmentbewertung und -Aktivierung
 
-| Segmenttyp | Häufigkeit | Durchsatz | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) | Aktivierung Nutzlast |
-|-|-|-|-|-|-|-|
-| Edge-Segmentierung | Die Edge-Segmentierung befindet sich derzeit in der Beta-Phase und ermöglicht eine Bewertung der gültigen Echtzeit-Segmentierung im Edge-Netzwerk für die Echtzeit-Seitenentscheidung über Adobe Target und Adobe Journey Optimizer. |  | ~100 Millisekunden | Direkt für die Personalisierung in Adobe Target, für Profil-Lookups im Edge-Profil und für die Aktivierung über Cookie-basierte Ziele verfügbar. | Audience-Mitgliedschaften auf Edge für Profil-Lookups und Cookie-basierte Ziele.<br>Adobe Target und Journey Optimizer können Audiencen und Profil-Attribute nutzen.  |
-| Streaming-Segmentierung | Jedes Mal, wenn ein neues Streaming-Ereignis oder -Datensatz in das Echtzeit-Kundensegment eingebunden wird und die Segmentdefinition ein gültiges Streaming-Profil ist. <br>Anleitungen zu Streaming-Segmentkriterien finden Sie in der  [Segmentierungsdokumentation ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)  | Bis zu 1500 Ereignis pro Sekunde.  | ~ p95 &lt; 5 Minuten | Streaming-Ziele: Streaming-Audiencen werden innerhalb von etwa 10 Minuten aktiviert bzw. je nach den Anforderungen des Zielorts in Kleinststapeln gepackt.<br>Geplante Ziele: Die Mitgliedschaft in Streaming-Audiencen wird im Batch je nach der geplanten Versand-Zielzeit aktiviert. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
-| Inkrementelle Segmentierung | Einmal pro Stunde für neue Daten, die seit der letzten inkrementellen oder Batch-Segmentauswertung in das Echtzeit-Profil des Kunden aufgenommen wurden. |  |  | Streaming-Ziele: Inkrementelle Audiencen werden innerhalb von ca. 10 Minuten aktiviert oder je nach Zielbestimmung in Kleinststapeln gepackt.<br>Geplante Ziele: Die Mitgliedschaft in einer inkrementellen Audience wird im Batch aktiviert, je nach der geplanten Versand-Zielzeit. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience und nur Identitätswerte.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
-| Stapelsegmentierung | Einmal pro Tag basierend auf einem vordefinierten Systemset-Plan oder manuell initiiert Ad-hoc über API. |  | Etwa eine Stunde pro Auftrag für bis zu 10 Terabytes Profil-Speichergröße, 2 Stunden pro Auftrag für 10 Terabytes bis 100 Terabytes Profil-Speichergröße. Die Leistung von Stapelsegmentaufträgen hängt von der Anzahl der Profil, der Größe der Profil und der Anzahl der zu evaluierenden Segmente ab. | Streaming-Ziele: Die Batch-Audience-Mitgliedschaften werden innerhalb von etwa 10 Tagen nach Abschluss der Segmentierungsbewertung bzw. des Mikrobatches entsprechend den Anforderungen des Ziels aktiviert.<br>Geplante Ziele: Die Batch-Audience-Mitgliedschaften werden je nach der geplanten Versand-Zielzeit aktiviert. | Streaming-Ziele: Änderungen der Mitgliedschaft in der Audience und nur Identitätswerte.<br>Geplante Ziele: Änderungen der Mitgliedschaft in der Audience, Identitätswerte und Profil-Attribute. |
+| Segmenttyp | Anwendungsfälle | Häufigkeit | Durchsatz | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) | Aktivierung Nutzlast |
+|--------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Edge-Segmentierung | Web-/Mobile-Personalisierung (siehe Seite/Nächste Seite) | Die Edge-Segmentierung befindet sich derzeit in der Betaphase und ist noch nicht allgemein verfügbar. | - | Etwa 100 Millisekunden | Zielgruppe und Journey Optimizer:<ul><li>Direkt in derselben Personalisierungsanfrage verfügbar.</li></ul><br>Cookie-basierte Ziele:<ul><li>Verfügbar für Entscheidungen über die nächsten Seiten.</li></ul> | Edge Profil Lookups (Zielgruppe und Journey Optimizer):<ul><li>Audiencen</li><li>Profil-Attribute</li></ul><br>Cookie-basierte Ziele:<ul><li>Audiencen</li></ul> |
+| Streaming-Segmentierung | Trigger-basiertes Marketing (Streaming) | Jedes Mal, wenn ein neues Streaming-Ereignis oder -Datensatz in das Echtzeit-Profil eines Kunden aufgenommen wird und die Segmentdefinition ein gültiges Streaming-Segment ist. <br>Anleitungen zur Segmentierungsdokumentation zu Streaming-Segmentkriterien finden Sie in der Dokumentation  [zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de) | Bis zu 1500 Ereignis pro Sekunde | Etwa 5 Minuten, p95 | Streaming-Ziele:<ul><li>Etwa 1 Minute bis Audience Manager und Zielgruppe</li><li>Etwa 10 Minuten zu externen Zielen oder Mikrostapeln je nach Zielort.</li></ul><br>Geplante Ziele:<ul><li>Aktiviert für externe Ziele im Batch, basierend auf der geplanten Versand-Zielzeit.</li></ul> | Streaming-Ziele: <ul><li>Änderungen der Audience</li><li>Identitätswerte</li><li>Profil-Attribute</li></ul><br>Geplante Ziele:<ul><li>Änderungen der Audience</li><li>Identitätswerte</li><li>Profil-Attribute</li></ul> |
+| Inkrementelle Segmentierung | <li>Batch-Messaging<li>Targeting von Kampagnen und Erlebnissen | Einmal pro Stunde für neue Daten, die seit der letzten inkrementellen oder Batch-Segmentbewertung in das Echtzeit-Profil des Kunden aufgenommen wurden. | Nicht anwendbar | Abhängig von der Anzahl der Profil, der Größe der Profil und der Anzahl der zu evaluierenden Segmente. | Streaming-Ziele:<ul><li>Etwa 1 Minute bis Audience Manager und Zielgruppe</li><li>Etwa 10 Minuten zu externen Zielen oder Mikrostapeln je nach Zielort.</li></ul><br>Geplante Ziele:<ul><li>Aktiviert für externe Ziele im Batch, basierend auf der geplanten Versand-Zielzeit.</li></ul> | Streaming-Ziele: <ul><li>Änderungen der Audience</li><li>Identitätswerte</li></ul><br>Geplante Ziele:<ul><li>Änderungen der Audience</li><li>Identitätswerte</li><li>Profil-Attribute</li></ul> |
+| Stapelsegmentierung | <ul><li>Batch-Messaging</li><li>Targeting von Kampagnen und Erlebnissen</li></ul> | Einmal pro Tag basierend auf einem vordefinierten Systemset-Plan oder manuell über API initiiert. | Nicht anwendbar | Abhängig von der Anzahl der Profil, der Größe der Profil und der Anzahl der zu evaluierenden Segmente.<ul><li>Etwa eine Stunde pro Arbeitsplatz für eine Speichergröße von bis zu 10 TB Profil</li><li>2 Stunden pro Arbeitsplatz für 10 TB bis 100 TB Profil Store Größe.</li></ul> | Streaming-Ziele:<ul><li>Etwa 1 Minute bis Audience Manager und Zielgruppe</li><li>Etwa 10 Minuten zu externen Zielen oder Mikrostapeln je nach Zielort.</li></ul><br>Geplante Ziele:<ul><li>Aktiviert für externe Ziele im Batch, basierend auf der geplanten Versand-Zielzeit.</li></ul> | Streaming-Ziele: <ul><li>Änderungen der Audience</li><li>Identitätswerte</li></ul><br>Geplante Ziele:<ul><li>Änderungen der Audience</li><li>Identitätswerte</li><li>Profil-Attribute</li></ul> |
 
 ### Leitlinien für den Austausch von Audiencen über verschiedene Anwendungen
 
-| Audience Application Integrations | Häufigkeit | Durchsatz/Volumen | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) |
-|-|-|-|-|-|-|
-| Echtzeit-Kundendatenplattform bis Audience Manager | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Innerhalb von Minuten nach Abschluss der Segmentbewertung.<br>Die anfängliche Synchronisierung der Audience-Konfiguration zwischen der Echtzeit-Kundendatenplattform und dem Audience Manager dauert etwa 4 Stunden.<br>Alle während der 4-Stunden-Audience durchgeführten Mitgliedschaften werden beim nachfolgenden Stapelsegmentierungsauftrag als &quot;bestehende&quot;Audiencen in Audience Manager geschrieben. |
-| Echtzeit-Kundendatenplattform nach Ad Cloud | Beachten Sie, dass die Freigabe von Audiencen von der Echtzeit-Kundendatenplattform an Adobe Advertising Cloud Audience Manager erfordert. Für die Integration von Audiencen der Echtzeit-Customer Data Platform in Advertising Cloud gelten dieselben Garantien wie für die Freigabe von Kundendaten in Audience Manager in Echtzeit. | - |-  | - |
-| Adobe Analytics to Real-time Customer Data Platform | Derzeit nicht verfügbar | Derzeit nicht verfügbar | Derzeit nicht verfügbar | Derzeit nicht verfügbar |
-| Adobe Analytics bis Audience Manager |-  | Standardmäßig können für jede Adobe Analytics Report Suite maximal 75 Audiencen freigegeben werden. Wenn eine Audience Manager-Lizenz verwendet wird, ist die Anzahl der Audiencen, die zwischen Adobe Analytics und Adobe Target oder Adobe Audience Manager und Adobe Target freigegeben werden können, unbegrenzt. | - |-  |
+| Audience Application Integrations | Anwendungsfälle | Häufigkeit | Durchsatz/Volumen | Latenz (Segmentbewertung) | Latenz (Segment-Aktivierung) |
+|-|-|-|-|-|-|-|
+| Echtzeit-Kundendatenplattform bis Audience Manager | Richten Sie die Werbung von Drittanbietern mit bekannten Profil-Audiencen ein. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | Abhängig vom Segmentierungstyp - siehe oben Tabelle mit Segmentierungsgarantien. | <ul><li>Innerhalb von Minuten nach Abschluss der Segmentbewertung.</li><li>Die anfängliche Audience der Konfigurationssynchronisierung zwischen RTCDP und AAM dauert etwa 4 Stunden.</li><li>Alle während der 4-Stunden-Audience durchgeführten Mitgliedschaften werden als &quot;bestehende&quot;Audiencen in AAM für den nachfolgenden Stapelsegmentierungsauftrag geschrieben.</li></ul> |
+| Adobe Analytics bis Audience Manager | Richten Sie die Werbung von Drittanbietern mit detaillierten verhaltensbasierten Audiencen ein. |  | Standardmäßig können für jede Adobe Analytics Report Suite maximal 75 Audiencen freigegeben werden. Wenn eine Audience Manager-Lizenz verwendet wird, gibt es keine Beschränkung. |  |  |
+| Adobe Analytics to Real-time Customer Data Platform | Aktuell nicht verfügbar. | Derzeit nicht verfügbar | Derzeit nicht verfügbar | Derzeit nicht verfügbar | Derzeit nicht verfügbar |
 
 
-### Leitlinien für die Aktivierung von Attributen und Identitäten
+### Aktivieren von Attributen und Identitäten
 
 * [!UICONTROL Die Echtzeit-Kundendatenplattform ] kann Audiencen-Mitgliedschaften sowie Attribut- und Identitätsänderungen aktivieren, die für Profil auftreten, die zu einer Aktivierung gehören. Wenn Sie Attribute oder Identitäten aktivieren möchten, müssen Sie ein globales Segment definieren, das alle Profil enthält, an die Attribute und Identitätsaktualisierungen gesendet werden. An diesem Punkt können Sie das Segment und die gewünschten Attribute auswählen, die im Rahmen der Zielkonfiguration aktiviert werden sollen.
 * Beachten Sie, dass Batch-Ziele keine Aktivierung von Ereignissen unterstützen, die nur mit Attributen geändert werden. Vollständige oder inkrementelle Audiencen-Mitgliedschaften können zur Aktivierung zusammen mit den ausgewählten Attributen gesendet werden. Sie können jedoch keine Ereignis mit Nur-Attribut-Änderungen über Batch-Ziele aktivieren.
 
-Aktivieren von Stapelsegmenten in Streaming-Ziele
+### Aktivieren von Stapelsegmenten in Streaming-Ziele
 
 * Die Aktivierung des Stapelsegments auf Streaming-Ziele wird unterstützt. Stapelsegmentaufträge platzieren Meldungen in der Pipeline, sobald der Segmentauftrag für die Streaming-Aktivierung abgeschlossen ist
 
-Aktivieren von Streaming-Segmenten an Batch-Ziele
+### Aktivieren von Streaming-Segmenten an Batch-Ziele
 
 * Die Streaming-Segmentzielsetzung wird unterstützt. Der Stapelziel-Plan exportiert Profil-Segmentmitgliedschaften basierend auf dem Batch-Zielplan. Dies umfasst sowohl Segmentmitgliedschaften, die über Streaming- als auch Batch-Methoden bestimmt werden.
 
-Aktivieren von Erlebnis-Ereignissen
+### Aktivieren von Erlebnis-Ereignissen
 
 * Die Aktivierung von unverarbeiteten Erlebnis-Ereignissen wird nicht unterstützt. Zum Aktivieren gegen Erlebnis-Ereignis muss ein Segment mit den erforderlichen Ereignis-Regeln erstellt werden, die die Erlebnis-Logik einschließen oder ausschließen. Dadurch wird ein Segment erstellt, das für Erlebnis-Ereignis definiert wird, und die Segmentmitgliedschaft kann als Proxy zur Aktivierung von unformatierten Erlebnis-Ereignissen aktiviert werden. Erwägen Sie auch, [!UICONTROL Serverseite starten] zu verwenden, um über SDK erfasste unverarbeitete Erlebnis-Ereignis zu aktivieren.
 

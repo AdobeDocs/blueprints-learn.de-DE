@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 90%
+source-wordcount: '247'
+ht-degree: 78%
 
 ---
 
@@ -21,6 +21,14 @@ Die für Web- und Mobile-Personalisierung zeigt auf, wie Zielgruppensegmentierun
 |---|---|---|
 | **[Verhaltensbasierte Web-/Mobile-Personalisierung](behavioral.md)** | <ul><li>Personalisierung basierend auf Online-Verhalten und Zielgruppendaten</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 | **[Online-/Offline-Web-/Mobile-Personalisierung](online-offline.md)** | <ul><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+
+## Leitlinien für die Web- und Mobile-Personalisierung
+
+Sehen Sie sich die Guardrails unter der Rubrik &quot;Aktivierungen für Audience und Profil&quot;- [LINK](../audience-activation/overview.md) an.
+
+### Diagramm &quot;Online-/Offline-Personalisierung&quot;
+
+<img src="assets/personalization_guardrails.svg" alt="Referenzarchitektur für das Web-Personalisierungskonzept für Online-/Offline" style="border:1px solid #4a4a4a" />
 
 ## Verwandte Blog-Posts
 

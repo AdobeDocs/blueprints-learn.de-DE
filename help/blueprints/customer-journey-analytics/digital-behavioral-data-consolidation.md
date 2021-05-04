@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '518'
 ht-degree: 98%
 
 ---
@@ -35,13 +35,6 @@ Erhalt einer zentralen, konsolidierten Sicht auf Kundeninteraktionen auf verschi
 ## Architektur
 
 <img src="assets/CJA.svg" alt="Referenzarchitektur für Blueprint „Customer Journey Analytics“" style="border:1px solid #4a4a4a" />
-
-## Leitlinien
-
-Datenaufnahme in Customer Journey Analytics:
-
-* Datenaufnahme in Lake: API ~ 7 GB/Stunde, Quell-Connector ~ 200 GB/Stunde, Streaming in Lake ~ 15 Minuten, Adobe Analytics-Quell-Connector in Lake ~ 45 Minuten.
-* Nachdem die Daten im Data Lake veröffentlicht wurden, kann die Verarbeitung in Customer Journey Analytics bis zu 90 Minuten dauern.
 
 ## Implementierungsschritte
 

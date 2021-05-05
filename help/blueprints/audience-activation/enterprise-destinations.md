@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 42%
+source-wordcount: '411'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,7 @@ Geben Sie Profil- und Audiencen-Änderungen und Ereignis im Streaming- oder Batc
 
 ## Leitlinien
 
-Lesen Sie die auf der Seite &quot;Übersicht über die Audience und Profil-Aktivierung&quot;beschriebenen Garanten - [LINK](overview.md)
+[Lesen Sie die auf der Seite Übersicht über die Aktivierung von Audiencen und Profilen beschriebenen Garanten.](overview.md)
 
 ## Implementierungsschritte
 

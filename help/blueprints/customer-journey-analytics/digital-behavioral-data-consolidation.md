@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 98%
+source-wordcount: '547'
+ht-degree: 92%
 
 ---
 
@@ -38,8 +38,9 @@ Erhalt einer zentralen, konsolidierten Sicht auf Kundeninteraktionen auf verschi
 
 ## Implementierungsschritte
 
-1. Konfigurieren Sie Datensätze und Schemas.
-1. Nehmen Sie Daten in Platform auf.
+1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) Schemata für Daten, die aufgenommen werden sollen.
+1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) Datensätze, damit Daten erfasst werden.
+1. [Nehmen Sie Daten in Platform auf](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
 Die Daten müssen in Platform aufgenommen werden, bevor sie in Customer Journey Analytics verarbeitet werden können
 1. Gemeinsame Analyse von Datensätzen aus unterschiedlichen Kanälen, um sicherzustellen, dass sie über dieselbe Namespace-ID verfügen oder mit der Funktion für feldbasiertes Stitching in Customer Journey Analytics einen neuen Schlüssel erhalten. 
 

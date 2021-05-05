@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
+source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -20,8 +20,8 @@ Die Aktivierung mit Experience Cloud-Anwendungen wird eng mit dem [Online-/Offli
 
 ## Anwendungsfälle
 
-* Personalisierung und Targeting über Kanal der Kundeninteraktion auf Basis von Experience Cloud.
-* Freigeben von Audiencen- und Profil-Daten mit Experience Platform zu und von Experience Cloud-Anwendungen.
+* Personalisieren und Zielgruppe über Kanal mit Kundeninteraktion, die auf Experience Cloud basieren.
+* Geben Sie Audiencen- und Profil-Daten zwischen Experience Platform- und Experience Cloud-Anwendungen frei.
 
 ## Programme
 
@@ -29,9 +29,9 @@ Die Aktivierung mit Experience Cloud-Anwendungen wird eng mit dem [Online-/Offli
 * [!UICONTROL Real-Time Customer Data Platform]
 * Experience Platform Aktivierung
 * Experience Cloud-Programme
-   * Audience Manager
-   * Zielgruppe
-   * Campaign
+   * Adobe Audience Manager
+   * Adobe Target
+   * Adobe Campaign
    * Journey Optimizer
 
 ## Architektur

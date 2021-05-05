@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
+source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 72%
+source-wordcount: '384'
+ht-degree: 73%
 
 ---
 
@@ -39,16 +39,11 @@ Mit dieser Funktion können Sie auf umfangreichen Kontext zugreifen, wenn ein Ku
 
 ## Implementierungsschritte
 
-1. Konfigurieren Sie Datensätze und Schemas.
-1. Konfigurieren Sie [!UICONTROL Echtzeit-Profil]: konfigurieren Sie das Schema und den Datensatz für [!UICONTROL Echtzeit-Kundenkonto] und richten Sie eine Richtlinie und Identitäten für die Zusammenführung ein.
-1. Nehmen Sie Daten in Platform auf und verarbeiten Sie sie im [!UICONTROL Echtzeit-Kundenprofil].
-
-
 1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) Schemata für Daten, die aufgenommen werden sollen.
 1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) Datensätze, damit Daten erfasst werden.
 1. [Konfigurieren Sie die korrekten Identitäten und Identitäts-Namespaces im Schema, um sicherzustellen, dass aufgenommene Daten zu einem einheitlichen Profil zusammengefügt werden können.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
-1. [Aktivieren Sie das Schema und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
-1. [Nehmen Sie Daten in Platform auf](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Aktivieren Sie die Schema und Datensätze zum Profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Aufnehmen der Daten in Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. [Einrichten von Zusammenführungsrichtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html)
 1. Verwenden Sie die [Entities-API, um ein Profil-Attribut](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html) nachzuschlagen, entweder von der Datensatzentität oder der Experience Ereignis-Entität.
 

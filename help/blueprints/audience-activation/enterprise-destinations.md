@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
+source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 39%
+ht-degree: 42%
 
 ---
 
@@ -41,7 +41,7 @@ Lesen Sie die auf der Seite &quot;Übersicht über die Audience und Profil-Aktiv
 1. [Aktivieren Sie die Schema und Datensätze zum Profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 1. [Aufnehmen der Daten in Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. [Stellen Sie in Real-Time Customer Data Platform die Segmentfreigabe zwischen Experience Platform und Audience Manager für Zielgruppen bereit, die in Experience Platform für die Freigabe an Audience Manager definiert sind.](https://www.adobe.com/go/audiences)
-1. [Erstellen von ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de) Segmenten in Experience Platform Das System ermittelt automatisch, ob das Segment als Stapel oder Streaming ausgewertet wird.
+1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de) Segmente in der Experience Platform. Das System stellt automatisch fest, ob das Segment per Batch oder Streaming evaluiert wird.
 1. [Konfigurieren Sie Ziele für die Freigabe von Profilattributen Zielgruppenzugehörigkeiten zu gewünschten Zielen.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html)
 
 ## Verwandte Dokumentation

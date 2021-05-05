@@ -6,10 +6,10 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 36%
+source-wordcount: '315'
+ht-degree: 31%
 
 ---
 
@@ -44,8 +44,9 @@ Weitere Informationen zu Best Practices und Garantien finden Sie in der Produktd
 
 ## Implementierungsschritte
 
-1. Konfigurieren Sie Datensätze und Schemas für die Datenaufnahme in den Data Lake.
-1. Nehmen Sie Daten auf.
+1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) Schemata für Daten, die aufgenommen werden sollen.
+1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) Datensätze, damit Daten erfasst werden.
+1. [Nehmen Sie Daten in Platform auf](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
 1. Vergewissern Sie sich, dass die Daten für [!UICONTROL Abfrage Service] und [!UICONTROL Data Science Workspace] für den Rohzugriff und die Abfrage verfügbar sind.
 1. Verbinden Sie Business Intelligencen- und SQL-Clients mit dem [!UICONTROL Abfrage-Dienst], um Visualisierungen, Daten-Abfragen und Exploration durchzuführen.
 

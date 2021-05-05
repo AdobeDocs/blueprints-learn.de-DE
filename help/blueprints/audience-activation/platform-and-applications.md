@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
+source-git-commit: d81329f6e90a0bdc0b76a41e4045b8e1aa5f89cd
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 34%
+source-wordcount: '264'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 
 Verwalten Sie Profil und Audiencen in der Experience Platform und geben Sie sie für Experience Cloud-Anwendungen frei. Erstellen und teilen Sie umfangreiche Kundensegmente und Einblicke in die Experience Platform und geben Sie sie für Experience Cloud-Anwendungen frei.
 
-Die Aktivierung mit Experience Cloud-Anwendungen wird eng mit dem [Online-/Offline-Audience Activation-Blueprint](online-offline.md) abgestimmt. Weitere Details zu Integrationen zwischen Experience Platform- und Experience Cloud-Anwendungen finden Sie in diesem Entwurf.
+Die Aktivierung mit Experience Cloud-Anwendungen wird eng mit dem [Online-/Offline-Audience Activation-Blueprint](online-offline.md) abgestimmt.
 
 ## Anwendungsfälle
 
@@ -35,8 +35,6 @@ Die Aktivierung mit Experience Cloud-Anwendungen wird eng mit dem [Online-/Offli
    * Journey Optimizer
 
 ## Architektur
-
-### Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen
 
 <img src="assets/activation+apps.svg" alt="Referenzarchitektur für die Aktivierung von Audience und Profil mit Experience Cloud-Anwendungen" style="border:1px solid #4a4a4a" />
 

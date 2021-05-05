@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 98%
+source-wordcount: '638'
+ht-degree: 93%
 
 ---
 
@@ -36,8 +36,9 @@ Analysieren Sie das Kundenverhalten über Desktop und Mobile hinweg, bevor der K
 
 ## Implementierungsschritte
 
-1. Konfigurieren Sie Datensätze und Schemas.
-1. Nehmen Sie Daten in Platform auf.
+1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) Schemata für Daten, die aufgenommen werden sollen.
+1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) Datensätze, damit Daten erfasst werden.
+1. [Nehmen Sie Daten in Platform auf](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
 Die Daten müssen in Platform aufgenommen werden, bevor sie in Customer Journey Analytics aufgenommen werden können
 1. Analyse der kanalübergreifenden Ereignis-Datensätze.
 Datensätze, die zusammen analysiert werden, müssen eine gemeinsame Namespace-ID haben oder über das feldbasierte Stitching in Customer Journey Analytics einen neuen Schlüssel erhalten. 

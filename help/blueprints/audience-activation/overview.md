@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: ee4e59f014ad73df8e9bceb2a41752b3bc760761
+source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 28%
@@ -25,7 +25,7 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 | **[Anonyme Audience Activation](anonymous.md)** | <ul><li>Identifizieren Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg.</li><li>Third-Party-Zielgruppendaten können für bessere Personalisierung integriert werden.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Online-/Offline-Audience Activation](online-offline.md)** | <ul><li>Aktivieren Sie bekannte Profil-basierte Ziele wie E-Mail-Anbieter, soziale Netzwerke und Werbeziele. </li><li>Verwenden Sie Offline-Attribute und -Ereignis, wie z. B. Offline-Bestellungen, Transaktionen, CRM-Daten oder Treuedaten, sowie Online-Verhalten für Online-Targeting und Personalisierung.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |
 | **[Aktivierung von Audience und Profil zu Unternehmenszielen](enterprise-destinations.md)** | <ul><li>Replikation und Aktualisierung von Profil- und Audience-Änderungen an Unternehmensdatenspeichern für Aktivierung- und Berichte-Anwendungsfälle. </li></ul><ul><li>Starten Sie eine Verkaufs- oder Supportaktion für den Kunden durch Benachrichtigung über eine Kundenaktion von der [!UICONTROL Echtzeit-Kundendatenplattform] zu Unternehmenssystemen und -anwendungen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Aktivierung</li><li>Adobe Audience Manager (optional)</li></ul> |
-| **[Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen](aep+apps.md)** | </ul><li>Profil und Audiencen in der Experience Platform verwalten und für Experience Cloud-Anwendungen freigeben</li><li>Erstellen und teilen Sie umfangreiche Kundensegmente und Einblicke in die Experience Platform und teilen Sie diese mit Experience Cloud-Anwendungen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Aktivierung</li><li>Experience Cloud-Programme</li></ul> |
+| **[Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen](platform-and-applications.md)** | </ul><li>Profil und Audiencen in der Experience Platform verwalten und für Experience Cloud-Anwendungen freigeben</li><li>Erstellen und teilen Sie umfangreiche Kundensegmente und Einblicke in die Experience Platform und teilen Sie diese mit Experience Cloud-Anwendungen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Aktivierung</li><li>Experience Cloud-Programme</li></ul> |
 | **[Customer Activity Hub](customer-activity.md)** | <ul><li>Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Mithilfe der Profil-Suche nach Experience Platformen können Kundendienstmitarbeiter mehr Kontexte erhalten, wie z. B. Einkäufe in letzter Zeit, Interaktionen mit Kampagnen, Eigenschaften, Mitgliedschaften in Audiencen und andere Attribute und Einblicke, die im Echtzeit-Kundenkonto gespeichert werden.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 

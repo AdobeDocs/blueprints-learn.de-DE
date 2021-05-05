@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 69%
+source-wordcount: '543'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 69%
 Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treue-Daten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.
 
 Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele.
+
+Der Blueprint für Online-/Offline-Audience Activationen passt sich eng mit der Aktivierung [Audience und Profil mit dem Experience Cloud Applications Blueprint](platform-and-applications.md) an. Weitere Details finden Sie in der Aktivierung [Audience und Profil mit Experience Cloud Applications Blueprint](platform-and-applications.md)   spezifisch für Integrationen zwischen Experience Platform- und Experience Cloud-Anwendungen.
 
 ## Anwendungsfälle
 
@@ -42,7 +44,7 @@ Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbie
 
 ## Leitlinien
 
-Lesen Sie die auf der Seite &quot;Übersicht über die Audience und Profil-Aktivierung&quot;beschriebenen Garanten - [LINK](overview.md)
+[Lesen Sie die auf der Seite Übersicht über die Aktivierung von Audiencen und Profilen beschriebenen Garanten.](overview.md)
 
 ## Implementierungsschritte
 

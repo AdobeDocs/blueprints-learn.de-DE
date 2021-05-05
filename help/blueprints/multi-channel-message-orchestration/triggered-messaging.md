@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 81df87f850b7ac4be9dce7a3b96d39a3a47685c5
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 81%
+source-wordcount: '694'
+ht-degree: 70%
 
 ---
 
@@ -68,23 +68,23 @@ Führen Sie ausgelöste Botschaften und Erlebnisse mit Adobe Experience Platform
 
 #### Schema/Datensätze
 
-1. Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten in Experience Platform basierend auf vom Kunden angegebenen Daten.
-1. Erstellen Sie Adobe Campaign-Schema für Folgendes: wideLog, trackingLog, nicht bereitstellbare Adressen und Voreinstellungen für Profile (optional).
-1. Fügen Sie Datennutzungs-Labels für die Governance zum Datensatz hinzu.
-1. Erstellen Sie Richtlinien, um die Governance an den Zielen umzusetzen.
+1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten in Experience Platform basierend auf vom Kunden angegebenen Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. Erstellen Sie Adobe Campaign-Schema für &quot;wideLog&quot;, &quot;trackingLog&quot;, &quot;non-delivery&quot;-Adressen und Profil-Voreinstellungen (optional).
+1. [Erstellen Sie eine ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) DataSet-Experience Platform, damit Daten erfasst werden.
+1. [hinzufügen Datenverwendung ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) kennzeichnet Experience Platform zum Dataset für Governance.
+1. [Erstellen Sie Richtlinien, um die Governance an den Zielen umzusetzen.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
 
 #### Profil/Identität
 
-1. Erstellen Sie sämtliche kundenspezifischen Namespaces.
-1. Fügen Sie Identitäten zu Schemas hinzu.
-1. Aktivieren Sie Schemas und Datensätze für Profile.
-1. Richten Sie Zusammenführungsregeln für verschiedene Ansichten von [!UICONTROL Echtzeit-Kundenkonto] ein (optional).
+1. [Erstellen Sie sämtliche kundenspezifischen Namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Aktivieren Sie das Schema und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Richten Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) für unterschiedliche Ansichten des  [!UICONTROL Echtzeit-Kundendiensts]  Zusammenführungsrichtlinien ein (optional).
 1. Erstellen Sie Segmente für die Verwendung von Adobe Campaignen.
 
 #### Quellen/Ziele
 
-1. Nehmen Sie Daten mit Streaming-APIs und Quellen-Connectoren in Experience Platform auf.
-1. Konfigurieren Sie das Ziel für die Blob-Datenspeicherung für die Verwendung mit Adobe Campaign.[!DNL Azure]
+1. [Daten mithilfe von Streaming-APIs und Quell-Connectors in Experience ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) Platform integrieren.1 Konfigurieren Sie  [!DNL Azure] das Ziel der Blob-Datenspeicherung für die Verwendung mit Adobe Campaign.
 
 #### Bereitstellung für Mobile App
 

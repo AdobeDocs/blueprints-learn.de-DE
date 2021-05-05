@@ -1,0 +1,61 @@
+---
+title: Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen
+description: Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen
+solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+kt: 7722
+exl-id: null
+translation-type: tm+mt
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 34%
+
+---
+
+# Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen
+
+Verwalten Sie Profil und Audiencen in der Experience Platform und geben Sie sie für Experience Cloud-Anwendungen frei. Erstellen und teilen Sie umfangreiche Kundensegmente und Einblicke in die Experience Platform und geben Sie sie für Experience Cloud-Anwendungen frei.
+
+Die Aktivierung mit Experience Cloud-Anwendungen wird eng mit dem [Online-/Offline-Audience Activation-Blueprint](online-offline.md) abgestimmt. Weitere Details zu Integrationen zwischen Experience Platform- und Experience Cloud-Anwendungen finden Sie in diesem Entwurf.
+
+## Anwendungsfälle
+
+* Personalisierung und Targeting über Kanal der Kundeninteraktion auf Basis von Experience Cloud.
+* Freigeben von Audiencen- und Profil-Daten mit Experience Platform zu und von Experience Cloud-Anwendungen.
+
+## Programme
+
+* Adobe Experience Platform
+* [!UICONTROL Real-Time Customer Data Platform]
+* Experience Platform Aktivierung
+* Experience Cloud-Programme
+   * Audience Manager
+   * Zielgruppe
+   * Campaign
+   * Journey Optimizer
+
+## Architektur
+
+[Weitere Architekturdiagramme zu Experience Platform-Integrationen mit Experience Cloud-Anwendungen finden Sie im Abschnitt Experience Platform und Anwendungsarchitektur.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
+
+### Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen
+
+<img src="assets/activation+apps.svg" alt="Referenzarchitektur für die Aktivierung von Audience und Profil mit Experience Cloud-Anwendungen" style="border:1px solid #4a4a4a" />
+<br>
+
+## Leitlinien
+
+[Siehe die auf der Seite &quot;Übersicht über die Audience und Profil-Aktivierung&quot;beschriebenen Garanten](overview.md)
+
+## Verwandte Dokumentation
+
+* [Produktbeschreibung zu Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Profil- und Segmentierungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+* [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
+* [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
+
+## Verwandte Videos und Tutorials
+
+* [Überblick über Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* [[!UICONTROL Demo zu Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)

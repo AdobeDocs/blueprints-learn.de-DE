@@ -1,6 +1,6 @@
 ---
-title: Online-/Offline-Webpersonalisierungskonzept
-description: Synchronisieren von Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanalpersonalisierungen.
+title: 'Blueprint: Online-/Offline-Web-Personalisierung'
+description: Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanalpersonalisierungen.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 80%
+ht-degree: 97%
 
 ---
 
-# Online-/Offline-Web-/Mobile-Personalisierungskonzept
+# Blueprint: Online-/Offline-Web-/Mobile-Personalisierung
 
-Synchronisieren von Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanalpersonalisierungen.
+Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanalpersonalisierungen.
 
 ## Anwendungsfälle
 
@@ -31,7 +31,7 @@ Synchronisieren von Web-Personalisierung mit E-Mail und anderen bekannten und an
 
 ## Architektur
 
-<img src="assets/online_offline_personalization_with_apps.svg" alt="Referenzarchitektur für das Web-Personalisierungskonzept für Online-/Offline" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization_with_apps.svg" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="border:1px solid #4a4a4a" />
 
 ## Leitlinien
 
@@ -39,22 +39,22 @@ Synchronisieren von Web-Personalisierung mit E-Mail und anderen bekannten und an
 
 ## Implementierungsmuster
 
-Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementieren:
+Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implementieren:
 
-1. Verwenden des [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network].
-1. Verwenden herkömmlicher anwendungsspezifischer SDKs (z. B. AppMeasurement.js)
+1. Verwendung des [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network].
+1. Verwendung herkömmlicher programmspezifischer SDKs (z. B. AppMeasurement.js)
 
-### 1. Plattform-Web/Mobile-SDK und Edge-Ansatz
+### 1. Herangehensweise für Platform Web/Mobile SDK und Edge
 
-<img src="assets/web_sdk_flow.svg" alt="Referenzarchitektur für das [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network] Ansatz" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Referenzarchitektur für die Herangehensweise per [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
-### 2. Anwendungsspezifischer SDK-Ansatz
+### 2. Herangehensweise für programmspezifische SDKs
 
-<img src="assets/app_sdk_flow.png" alt="Referenzarchitektur für die Herangehensweise für anwendungsspezifische SDKs" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="Referenzarchitektur für die Herangehensweise für programmspezifische SDKs" style="border:1px solid #4a4a4a" />
 
 ## Voraussetzungen für die Implementierung
 
-| Anwendung/Service | Erforderliche Bibliothek | Hinweise |
+| Programm/Service | Erforderliche Bibliothek | Hinweise |
 |---|---|---|
 | Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+ oder mbox.js 61+ | at.js wird bevorzugt, da mbox.js nicht mehr entwickelt wird. |
 | Adobe Audience Manager (optional) | [!UICONTROL Platform Web SDK]* oder dil.js 5.0+ |  |
@@ -69,7 +69,7 @@ Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementiere
 1. [Implementieren Sie Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=de) für Ihre Web-Anwendungen oder Mobile Apps
 1. [Implementieren Sie Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de) (optional)
 1. [Implementieren Sie Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=de) (optional)
-1. [[!UICONTROL Implementieren Sie Experience Platform und das Echtzeit-Kundenprofil]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=de)
+1. [Implementieren Sie Experience Platform und das [!UICONTROL Echtzeit-Kundenprofil]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=de)
 1. Implementieren Sie [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=de) oder [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementiere
 * [Streaming-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 * [Überblick über Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de)
 * [Audience Manager Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de)
-* [Adobe Analytics-Segmentfreigabe über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)
+* [Segmentfreigabe in Adobe Analytics über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)
 * [Dokumentation zu Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Dokumentation zu Experience Cloud-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
 * [Dokumentation zu Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de)

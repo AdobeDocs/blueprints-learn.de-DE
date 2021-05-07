@@ -1,5 +1,5 @@
 ---
-title: Data Analyse and Intelligence Blueprint
+title: 'Blueprint: Datenanalyse und Datenintelligenz'
 description: Diese Blueprint zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 solution: Experience Platform
 kt: 7207
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 31%
+ht-degree: 85%
 
 ---
 
-# Data Analyse and Intelligence Blueprint
+# Blueprint: Datenanalyse und Datenintelligenz
 
-Data Analyse and Intelligence umfasst die Fähigkeit innerhalb von Adobe Experience Platform, die Abfrage und Analyse der Daten, die im Datensee vorhanden sind, zu untersuchen.
+„Datenanalyse und Datenintelligenz“ zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 
-Der [!UICONTROL Abfrage-Dienst] der Experience Platform ermöglicht die Ausführung von SQL-Abfragen an den Daten. [!UICONTROL Data Science ] Workspace ermöglicht die Datenerforschung, Datenwissenschaft und maschinelle Lernarbeit.
+Der [!UICONTROL Abfrage-Service] von Experience Platform ermöglicht die Ausführung von SQL-Abfragen auf Daten. [!UICONTROL Data Science Workspace] ermöglicht die Anwendung von Datensondierung, Datenanalysen und ML-Abläufen auf Daten.
 
-Darüber hinaus ermöglicht die Experience Platform Verbindungen mit SQL-Clients, Schnittstellen und Business Intelligence-Tools von Drittanbietern, eine direkte Verbindung zu den Daten innerhalb der Experience Platform herzustellen, auf diese zuzugreifen und sie mit dem Protokoll [!DNL PostgreSQL] Abfrage.
+Zusätzlich ermöglicht Experience Platform Verbindungen mit SQL-Clients von Drittanbietern, Schnittstellen und Business-Intelligence-Tools (BI), über die mit dem [!DNL PostgreSQL]-Protokoll direkt eine Verbindung mit den Daten hergestellt sowie auf diese zugegriffen werden kann.
 
-Bestimmte Garantien gelten für die Zeitüberschreitung der Abfrage und die Datenmenge, die im Ergebnis der Abfrage enthalten ist, wie in den Details des Entwurfs angegeben.
+Es gibt einige Leitlinien für die maximale Wartezeit bei Abfragen und die Datenmenge, die im Abfrageresultat enthalten ist, wie in den Blueprint-Details bereits erläutert wurde.
 
 ## Anwendungsfälle
 
@@ -44,13 +44,13 @@ Weitere Informationen zu Best Practices und Garantien finden Sie in der Produktd
 
 ## Implementierungsschritte
 
-1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) Schemata für Daten, die aufgenommen werden sollen.
-1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) Datensätze, damit Daten erfasst werden.
+1. [Erstellen Sie Schemas für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Erstellen Sie Datensätze für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Aufnehmen der Daten in Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. Vergewissern Sie sich, dass die Daten für [!UICONTROL Abfrage Service] und [!UICONTROL Data Science Workspace] für den Rohzugriff und die Abfrage verfügbar sind.
-1. Verbinden Sie Business Intelligencen- und SQL-Clients mit dem [!UICONTROL Abfrage-Dienst], um Visualisierungen, Daten-Abfragen und Exploration durchzuführen.
+1. Bestätigen Sie, dass die Daten für den [!UICONTROL Abfrage-Service] und [!UICONTROL Data Science Workspace] für Rohzugriff und -abfrage verfügbar sind.
+1. Verbinden Sie Business-Intelligence-Tools und SQL-Clients für Visualisierung, Datenabfrage und Erkundung mit dem [!UICONTROL Abfrage-Service].
 
 ## Verwandte Dokumentation
 
 * [Produktbeschreibung zu Adobe Experience Platform Intelligence](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Dokumentation zum Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de)
+* Dokumentation zum [[!UICONTROL Abfrage-Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de)

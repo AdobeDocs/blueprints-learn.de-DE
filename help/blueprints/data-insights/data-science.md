@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 63%
+ht-degree: 95%
 
 ---
 
 # Blueprint: Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 
-Custom Data Science for Profil Anreicherung Blueprint veranschaulicht, wie Daten in Adobe Experience Platform in [!UICONTROL Data Science Workspace] verwendet werden können, um Modelle zu schulen, bereitzustellen und zu bewerten, um Einblicke in das maschinelle Lernen zu erhalten. Diese Modelle können direkt in einen Datensatz ausgegeben werden, der für [!UICONTROL Echtzeit-Kundendaten] aktiviert ist, um die Profil der Kunden weiter zu bereichern. Diese Einblicke können dann für die Personalisierung verwendet werden. Beispiele für Einblicke in das maschinelle Lernen sind die Bewertung des Lebenszeitwerts, die Affinität von Produkten und Kategorien, die Neigung zu Konversionen oder die Neigung zum Absturz.
+In der Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung“ wird veranschaulicht, wie Daten aus Adobe Experience Platform in [!UICONTROL Data Science Workspace] zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um ML-Erkenntnisse zu gewinnen. Diese Modelle können direkt auf einen Datensatz angewendet werden, der für ein [!UICONTROL Echtzeit-Kundenprofil] aktiviert ist, um Kundenprofile anzureichern. Diese Erkenntnisse können dann zur Personalisierung verwendet werden. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
 
 ## Anwendungsfälle
 
 * Extrahieren von Erkenntnissen und Aufdecken von Mustern mit Kundendaten in Experience Platform. Trainieren und Bewerten von Modellen mit diesen Daten.
-* Erweitern Sie das [!UICONTROL Echtzeit-Profil des Kunden] mit modellbasierten Einblicken und Attributen für eine detailliertere Personalisierung und optimierte Journey.
+* Anreichern des [!UICONTROL Echtzeit-Kundenprofils] mit modellgestützten Erkenntnissen und Attributen für detailliertere Personalisierung und Journey-Optimierung.
 * Trainieren und Bewerten von Modellen, um Kundenerkenntnisse wie Kunden-Lebenszeitwert, Konversions- oder Abwanderungsneigung, Produkt- und Content-Affinität und Interaktionswerte zu ermitteln.
 
 ## Architektur
@@ -28,21 +28,21 @@ Custom Data Science for Profil Anreicherung Blueprint veranschaulicht, wie Daten
 
 ## Implementierungsschritte
 
-1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) Schemata für Daten, die aufgenommen werden sollen.
-1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) Datensätze, damit Daten erfasst werden.
+1. [Erstellen Sie Schemas für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Erstellen Sie Datensätze für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Aufnehmen der Daten in Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. Erstellen eines DSW-Notebooks.
 1. Auswählen einer Sprache. Python und PySpark werden unterstützt.
 1. Erstellen des Modells im Notebook.
 1. Trainieren des Modells.
 1. Bewerten des Modells, um Vorhersagen mit den Zieldaten zu generieren.
-1. Aktivieren Sie den Modellergebnisdatensatz für Profil, wenn Sie die Modellergebnisse an das [!UICONTROL Echtzeit-Profil des Kunden] verschieben.
+1. Aktivieren der Modellresultat-Datensätze für das Profil, wenn die Modellresultate in das [!UICONTROL Echtzeit-Kundenprofil] übermittelt werden.
 
 ## Verwandte Dokumentation
 
 * [Produktbeschreibung zu Adobe Experience Platform Intelligence](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Dokumentation zu Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=de)
-* [Tutorials zu Data Science Workspace](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=de)
+* Dokumentation zu [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=de)
+* Tutorials zu [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=de)
 
 ## Verwandte Blog-Posts
 

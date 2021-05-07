@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
 # Customer Journey Analytics
 
-Die  „Customer Journey Analytics“ zeigt, wie Marken Kundendaten und -verhalten aus unterschiedlichen Interaktionskanälen und -quellen zusammenführen können, um eine Journey-basierte Ansicht aller Kundeninteraktionen zu erstellen. Berichte und Analysen können im Programm-Service Customer Journey Analytics erstellt werden, um Kundeninteraktionen und Verhaltensmuster zu evaluieren und Erkenntnisse daraus zu gewinnen.
+„Customer Journey Analytics“ zeigt, wie Marken Kundendaten und -verhalten aus unterschiedlichen Interaktionskanälen und -quellen zusammenführen können, um eine Journey-basierte Ansicht aller Kundeninteraktionen zu erstellen. Berichte und Analysen können im Programm-Service Customer Journey Analytics erstellt werden, um Kundeninteraktionen und Verhaltensmuster zu evaluieren und Erkenntnisse daraus zu gewinnen.
 
 Gängige Analysen umfassen:
 
@@ -27,8 +27,8 @@ Gängige Analysen umfassen:
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[Cross-Kanal Journey Analyse](digital-behavioral-data-consolidation.md)** | <ul><li>Erhalt einer zentralen, konsolidierten Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul> |
-| **[Journey-Analyse der Aufrufdeflection](call-deflect.md)** | <ul><li>Ermitteln Sie, welche Verhaltensweisen am wahrscheinlichsten mit einem Anruf enden, indem Sie Callcenter-Daten mit Web-, Mobile- und anderen Interaktionsdaten zusammenführen.</li><li>Diese Erkenntnisse können verwendet werden, um das Kundenerlebnis zu verbessern und die Anzahl mitarbeitergestützter Interaktionen durch den Einsatz von Self-Service-Content und -Tools zu reduzieren.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Kanalübergreifende Journey-Analyse](digital-behavioral-data-consolidation.md)** | <ul><li>Erhalten Sie eine zentrale, konsolidierte Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul> |
+| **[Analyse der Anrufabwendung während der Journey](call-deflect.md)** | <ul><li>Ermitteln Sie, welche Verhaltensweisen am wahrscheinlichsten mit einem Anruf enden, indem Sie Callcenter-Daten mit Web-, Mobile- und anderen Interaktionsdaten zusammenführen.</li><li>Diese Erkenntnisse können verwendet werden, um das Kundenerlebnis zu verbessern und die Anzahl mitarbeitergestützter Interaktionen durch den Einsatz von Self-Service-Content und -Tools zu reduzieren.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Grundzüge für Customer Journey Analytics-Blueprints
 

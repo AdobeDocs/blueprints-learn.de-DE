@@ -1,6 +1,6 @@
 ---
-title: Anonyme Audience Activation Blueprint
-description: Anonyme Audience Activation.
+title: 'Blueprint: anonyme Zielgruppenaktivierung'
+description: Anonyme Zielgruppenaktivierung.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
@@ -9,11 +9,11 @@ translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Blueprint zur anonymen Audience Activation
+# Blueprint: anonyme Zielgruppenaktivierung
 
 Sie können Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg identifizieren. So erstellen Sie personalisierte und konsistente Echtzeit-Kundenerlebnisse auf allen Geräten.
 
@@ -28,7 +28,7 @@ Sie können Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendat
 
 ## Architektur
 
-<img src="assets/anonymous_activation.svg" alt="Referenzarchitektur für das Konzept der anonymen Audience Activation" style="border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="Referenzarchitektur für die Blueprint „Anonyme Zielgruppenaktivierung“" style="border:1px solid #4a4a4a" />
 
 ## Implementierungsschritte
 
@@ -43,6 +43,6 @@ Sie können Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendat
 ## Verwandte Dokumentation
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=de)
-* [[!UICONTROL Experience Cloud-Zielgruppen]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
+* [Experience Cloud-[!UICONTROL Zielgruppen]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
 * [Integration von Audience Manager mit Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=de)
-* [Adobe Analytics-Segmentfreigabe durch Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)
+* [Segmentfreigabe in Adobe Analytics über Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)

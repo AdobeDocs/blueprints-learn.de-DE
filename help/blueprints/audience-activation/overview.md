@@ -1,6 +1,6 @@
 ---
-title: Aktivierung von Audience und Profil
-description: Bieten Sie mit der Echtzeit-Kundendatenplattform zielgruppenaktivierte und profilorientierte Kundenerlebnisse.
+title: Aktivierung von Zielgruppen und Profilen
+description: Stellen Sie mit Real-Time Customer Data Platform zielgruppenaktivierte und profilorientierte Kundenerlebnisse bereit.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
@@ -9,24 +9,24 @@ translation-type: tm+mt
 source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 28%
+ht-degree: 91%
 
 ---
 
 
-# Aktivierung von Audience und Profil
+# Aktivierung von Zielgruppen und Profilen
 
-Die Aktivierung von Audience und Profil ist der Schlüssel zum Erfolg in einer datengesteuerten Marketingwelt. Allerdings orientieren sich viele Marken bei der Aktivierung noch immer zunächst am Kanal, was häufig in inkonsistenter Reichweite und Personalisierung endet.
+Die Zielgruppen- und Profilaktivierung ist der Schlüssel zum Erfolg in der Welt des Data-driven Marketing. Allerdings orientieren sich viele Marken bei der Aktivierung noch immer zunächst am Kanal, was häufig in inkonsistenter Reichweite und Personalisierung endet.
 
-Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Personalisierung für Kunden erfolgt, die auf diesem Kanal mit der Marke interagieren. Diese Herangehensweise spiegelt nicht die Realität wider, in der Kunden über viele verschiedene Touchpoints hinweg mit der Marke interagieren. Audience und Profil-Aktivierung ermöglichen es Marken, Kundeninteraktionen über mehrere Kanal hinweg zu verbinden und ein zentralisiertes Profil und eine Audience zu liefern, die für alle Kanal aktiviert werden können.
+Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Personalisierung für Kunden erfolgt, die auf diesem Kanal mit der Marke interagieren. Diese Herangehensweise spiegelt nicht die Realität wider, in der Kunden über viele verschiedene Touchpoints hinweg mit der Marke interagieren. Mit Zielgruppen- und Profilaktivierung können Marken Kundeninteraktionen über verschiedene Kanäle hinweg miteinander verknüpfen und so Content für eine zentrale Zielgruppe bereitstellen, die auf allen Kanälen aktiviert werden kann.
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[Anonyme Audience Activation](anonymous.md)** | <ul><li>Identifizieren Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg.</li><li>Third-Party-Zielgruppendaten können für bessere Personalisierung integriert werden.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[Online-/Offline-Audience Activation](online-offline.md)** | <ul><li>Aktivieren Sie bekannte Profil-basierte Ziele wie E-Mail-Anbieter, soziale Netzwerke und Werbeziele. </li><li>Verwenden Sie Offline-Attribute und -Ereignis, wie z. B. Offline-Bestellungen, Transaktionen, CRM-Daten oder Treuedaten, sowie Online-Verhalten für Online-Targeting und Personalisierung.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |
-| **[Aktivierung von Audience und Profil zu Unternehmenszielen](enterprise-destinations.md)** | <ul><li>Replikation und Aktualisierung von Profil- und Audience-Änderungen an Unternehmensdatenspeichern für Aktivierung- und Berichte-Anwendungsfälle. </li></ul><ul><li>Starten Sie eine Verkaufs- oder Supportaktion für den Kunden durch Benachrichtigung über eine Kundenaktion von der [!UICONTROL Echtzeit-Kundendatenplattform] zu Unternehmenssystemen und -anwendungen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Aktivierung</li><li>Adobe Audience Manager (optional)</li></ul> |
+| **[Anonyme Zielgruppenaktivierung](anonymous.md)** | <ul><li>Identifizieren Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg.</li><li>Third-Party-Zielgruppendaten können für bessere Personalisierung integriert werden.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
+| **[Online-/Offline-Zielgruppenaktivierung](online-offline.md)** | <ul><li>Aktivierung für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele. </li><li>Nutzung von Offline-Attributen und -Ereignissen, wie Offline-Bestellungen, Transaktionen, CRM- oder Treuedaten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und -Personalisierung.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |
+| **[Zielgruppen- und Profilaktivierung für Unternehmensziele](enterprise-destinations.md)** | <ul><li>Replikation und Aktualisierung von Profil- und Zielgruppenänderungen in Unternehmensdatenspeichern für Aktivierungs- und Reporting-Anwendungsfälle. </li></ul><ul><li>Einleitung einer Verkaufs- oder Support-Aktion für Kunden durch die Benachrichtigung über eine Kundenaktion von [!UICONTROL Real-Time Customer Data Platform] an Unternehmenssysteme und -programme.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager (optional)</li></ul> |
 | **[Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen](platform-and-applications.md)** | </ul><li>Profil und Audiencen in der Experience Platform verwalten und für Experience Cloud-Anwendungen freigeben</li><li>Erstellen und teilen Sie umfangreiche Kundensegmente und Einblicke in die Experience Platform und teilen Sie diese mit Experience Cloud-Anwendungen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Aktivierung</li><li>Experience Cloud-Programme</li></ul> |
-| **[Customer Activity Hub](customer-activity.md)** | <ul><li>Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Mithilfe der Profil-Suche nach Experience Platformen können Kundendienstmitarbeiter mehr Kontexte erhalten, wie z. B. Einkäufe in letzter Zeit, Interaktionen mit Kampagnen, Eigenschaften, Mitgliedschaften in Audiencen und andere Attribute und Einblicke, die im Echtzeit-Kundenkonto gespeichert werden.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
+| **[Customer Activity Hub](customer-activity.md)** | <ul><li>Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Durch die Profilsuche in Experience Platform erhalten Mitarbeiter Kontext zum Verbraucher wie kürzlich durchgeführte Käufe, Kampagneninteraktionen, Neigungen, Zielgruppenzugehörigkeiten und andere Attribute sowie Erkenntnisse, die im Echtzeit-Kundenprofil gespeichert sind.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 
 
@@ -37,20 +37,20 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 
 ### Aktivieren von Attributen und Identitäten
 
-* [!UICONTROL Die Echtzeit-Kundendatenplattform ] kann Audiencen-Mitgliedschaften sowie Attribut- und Identitätsänderungen aktivieren, die für Profil auftreten, die zu einer Aktivierung gehören. Wenn Sie Attribute oder Identitäten aktivieren möchten, müssen Sie ein globales Segment definieren, das alle Profil enthält, an die Attribute und Identitätsaktualisierungen gesendet werden. An diesem Punkt können Sie das Segment und die gewünschten Attribute auswählen, die im Rahmen der Zielkonfiguration aktiviert werden sollen.
-* Beachten Sie, dass Batch-Ziele keine Aktivierung von Ereignissen unterstützen, die nur mit Attributen geändert werden. Vollständige oder inkrementelle Audiencen-Mitgliedschaften können zur Aktivierung zusammen mit den ausgewählten Attributen gesendet werden. Sie können jedoch keine Ereignis mit Nur-Attribut-Änderungen über Batch-Ziele aktivieren.
+* [!UICONTROL Real-Time Customer Data Platform] kann Zielgruppenzugehörigkeiten sowie Attribut- und Identitätsänderungen für Profile aktivieren, die zu Segmenten gehören, die zur Aktivierung ausgewählt sind. Wenn Sie Attribute oder Identitäten aktivieren möchten, müssen Sie ein globales Segment definieren, das alle Profile enthält, an die Attribut- und Identitätsaktualisierungen gesendet werden. An diesem Punkt können Sie das Segment und die gewünschten Attribute auswählen, die im Zuge der Zielkonfiguration aktiviert werden sollen.
+* Beachten Sie, dass Batch-Ziele nicht die Aktivierung von Ereignissen unterstützen, bei denen nur Attribute geändert werden. Vollständige oder inkrementelle Zielgruppenzugehörigkeiten können zur Aktivierung zusammen mit den ausgewählten Attributen gesendet werden. Sie können jedoch keine Ereignisse über Batch-Ziele aktivieren, bei denen nur Attribute geändert werden.
 
-### Aktivieren von Stapelsegmenten in Streaming-Ziele
+### Aktivieren von Batch-Segmenten für Streaming-Ziele
 
-* Die Aktivierung des Stapelsegments auf Streaming-Ziele wird unterstützt. Stapelsegmentaufträge platzieren Meldungen in der Pipeline, sobald der Segmentauftrag für die Streaming-Aktivierung abgeschlossen ist
+* Die Aktivierung von Batch-Segmenten für Streaming-Ziele wird unterstützt. Bei Batch-Segmentvorgängen werden Nachrichten in der Pipeline platziert, nachdem der Segmentvorgang für die Streaming-Aktivierung abgeschlossen ist.
 
-### Aktivieren von Streaming-Segmenten an Batch-Ziele
+### Aktivieren von Streaming-Segmenten für Batch-Ziele
 
-* Die Streaming-Segmentzielsetzung wird unterstützt. Der Stapelziel-Plan exportiert Profil-Segmentmitgliedschaften basierend auf dem Batch-Zielplan. Dies umfasst sowohl Segmentmitgliedschaften, die über Streaming- als auch Batch-Methoden bestimmt werden.
+* Die Streaming-Segmentzielsetzung wird unterstützt. Profil-Segmentzugehörigkeiten werden gemäß dem Batch-Ziel-Zeitplan exportiert. Dies umfasst Segmentzugehörigkeiten, die sowohl über Streaming- als auch über Batch-Methoden bestimmt werden.
 
-### Aktivieren von Erlebnis-Ereignissen
+### Aktivieren von Erlebnisereignissen
 
-* Die Aktivierung von unverarbeiteten Erlebnis-Ereignissen wird nicht unterstützt. Zum Aktivieren gegen Erlebnis-Ereignis muss ein Segment mit den erforderlichen Ereignis-Regeln erstellt werden, die die Erlebnis-Logik einschließen oder ausschließen. Dadurch wird ein Segment erstellt, das für Erlebnis-Ereignis definiert wird, und die Segmentmitgliedschaft kann als Proxy zur Aktivierung von unformatierten Erlebnis-Ereignissen aktiviert werden. Erwägen Sie auch, [!UICONTROL Serverseite starten] zu verwenden, um über SDK erfasste unverarbeitete Erlebnis-Ereignis zu aktivieren.
+* Die Aktivierung von unverarbeiteten Erlebnisereignissen wird nicht unterstützt. Zum Aktivieren für Erlebnisereignisse muss ein Segment mit den erforderlichen Regeln erstellt werden, die die Erlebnisereignis-Logik ein- oder ausschließen. Dadurch wird ein Segment erstellt, das für Erlebnisereignisse definiert wird. Die Segmentzugehörigkeit kann dann als Proxy zur Aktivierung von unverarbeiteten Erlebnisereignissen aktiviert werden. Sie können auch [!UICONTROL Launch Server Side] verwenden, um über das SDK erfasste unverarbeitete Erlebnisereignisse zu aktivieren.
 
 
 ## Verwandte Blog-Posts

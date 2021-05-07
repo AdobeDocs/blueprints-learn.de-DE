@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 75%
+ht-degree: 95%
 
 ---
 
@@ -19,24 +19,24 @@ ht-degree: 75%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform und Programme](/help/blueprints/experience-platform/platform-applications.md)
    + [Datenfluss in Experience Platform ](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Aktivierung von Audience und Profil{#audience-activation}
++ Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
-   + [Anonyme Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-   + [Online-/Offline-Audience Activation](/help/blueprints/audience-activation/online-offline.md)
-   + [Aktivierung zu Enterprise-Zielen](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Anonyme Zielgruppenaktivierung](/help/blueprints/audience-activation/anonymous.md)
+   + [Online-/Offline-Zielgruppenaktivierung](/help/blueprints/audience-activation/online-offline.md)
+   + [Aktivierung für Unternehmensziele](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Aktivierung mit Experience Cloud-Anwendungen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Customer Activity Hub ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
-   + [Cross-Kanal Journey Analyse](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
+   + [Kanalübergreifende Journey-Analyse](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Anrufabwendung](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ Datenerfassung und -vorbereitung{#data-ingestion}
++ Datenerfassung und -vorbereitung {#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Datenvorbereitung und -aufnahme ](/help/blueprints/data-ingestion/ingestion.md)
    + [Server-seitige Erfassung von Unternehmensdaten ](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Data Analyse, Intelligence &amp; AI/ML{#data-exploration}
++ Datenanalyse, Datenintelligenz und KI/ML {#data-exploration}
    + [Übersicht](/help/blueprints/data-insights/overview.md)
-   + [Data Analyse &amp; Intelligence](/help/blueprints/data-insights/analysis.md)
+   + [Datenanalyse und Datenintelligenz](/help/blueprints/data-insights/analysis.md)
    + [Benutzerdefinierte Datenwissenschaft zur Profilanreicherung ](/help/blueprints/data-insights/data-science.md)
 + Multi-Channel-Orchestrierung von Nachrichten {#multi-channel-message-orchestration}
    + [Übersicht](/help/blueprints/multi-channel-message-orchestration/overview.md)

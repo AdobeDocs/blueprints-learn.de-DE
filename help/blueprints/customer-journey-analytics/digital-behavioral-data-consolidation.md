@@ -1,6 +1,6 @@
 ---
-title: Cross-Kanal Journey Analyse
-description: Analyse von Kundeninteraktionen und Gewinn von Erkenntnissen währen der gesamten Customer Journey.
+title: Kanalübergreifende Journey-Analyse
+description: Analysieren Sie Kundeninteraktionen und gewinnen Sie Erkenntnisse während der gesamten Customer Journey.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
-# Blueprint für Kanal-Journey-Analyse
+# Blueprint: Kanalübergreifende Journey-Analyse
 
-Erhalt einer zentralen, konsolidierten Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.
+Erhalten Sie eine zentrale, konsolidierte Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.
 
 ## Anwendungsfälle
 
@@ -38,8 +38,8 @@ Erhalt einer zentralen, konsolidierten Sicht auf Kundeninteraktionen auf verschi
 
 ## Implementierungsschritte
 
-1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) Schemata für Daten, die aufgenommen werden sollen.
-1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) Datensätze, damit Daten erfasst werden.
+1. [Erstellen Sie Schemas für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Erstellen Sie Datensätze für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Aufnehmen der Daten in Experience Platform.
 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 Die Daten müssen in Platform aufgenommen werden, bevor sie in Customer Journey Analytics verarbeitet werden können

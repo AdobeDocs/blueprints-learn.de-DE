@@ -1,6 +1,6 @@
 ---
-title: 'Web- und Mobile-Personalisierung '
-description: Stellen Sie personalisierte Web- und Mobilinhalte mit [!UICONTROL Echtzeit-Kundendaten] bereit.
+title: Web- und Mobile-Personalisierung
+description: Stellen Sie mit dem [!UICONTROL Echtzeit-Kundenprofil] personalisierten Web- und Mobile-Content bereit.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
@@ -9,17 +9,17 @@ translation-type: tm+mt
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 76%
+ht-degree: 87%
 
 ---
 
-# : Web- und Mobile-Personalisierung
+# Web- und Mobile-Personalisierung
 
-Die für Web- und Mobile-Personalisierung zeigt auf, wie Zielgruppensegmentierung in mehreren Programmen zur Personalisierung und Optimierung von Kundenerlebnissen verwendet werden kann. Sie können Kundenverhalten, demografische Daten, Treuestatus und frühere Transaktionen verwenden, um Layouts, Calls-to-Action und Content zu personalisieren.
+Die Web- und Mobile-Personalisierung zeigt auf, wie Zielgruppensegmentierung in mehreren Programmen zur Personalisierung und Optimierung von Kundenerlebnissen verwendet werden kann. Sie können Kundenverhalten, demografische Daten, Treuestatus und frühere Transaktionen verwenden, um Layouts, Calls-to-Action und Content zu personalisieren.
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[Verhaltensbasierte Web-/Mobile-Personalisierung](behavioral.md)** | <ul><li>Personalisierung basierend auf Online-Verhalten und Zielgruppendaten</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Web-/Mobile-Personalisierung basierend auf Verhaltensdaten](behavioral.md)** | <ul><li>Personalisierung basierend auf Online-Verhalten und Zielgruppendaten</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 | **[Online-/Offline-Web-/Mobile-Personalisierung](online-offline.md)** | <ul><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
 ## Leitlinien für die Web- und Mobile-Personalisierung
@@ -28,7 +28,7 @@ Die für Web- und Mobile-Personalisierung zeigt auf, wie Zielgruppensegmentierun
 
 ### Diagramm &quot;Online-/Offline-Personalisierung&quot;
 
-<img src="assets/personalization_guardrails.svg" alt="Referenzarchitektur für das Web-Personalisierungskonzept für Online-/Offline" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="border:1px solid #4a4a4a" />
 
 ## Verwandte Blog-Posts
 

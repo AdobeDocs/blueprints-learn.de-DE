@@ -1,6 +1,6 @@
 ---
-title: Verhaltensbasiertes Web-Personalisierungskonzept
-description: Personalisierung basierend auf Daten zu Online-Verhalten und Zielgruppen.
+title: 'Blueprint: Web-Personalisierung basierend auf Verhaltensdaten'
+description: Personalisieren Sie basierend auf Daten zu Online-Verhalten und Zielgruppen.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Verhaltensbasiertes Web/Mobile Personalization Blueprint
+# Blueprint: Web-/Mobile-Personalisierung basierend auf Verhaltensdaten
 
-Personalisierung basierend auf Daten zu Online-Verhalten und Zielgruppen.
+Personalisieren Sie basierend auf Daten zu Online-Verhalten und Zielgruppen.
 
 ## Anwendungsfälle
 
@@ -30,7 +30,7 @@ Personalisierung basierend auf Daten zu Online-Verhalten und Zielgruppen.
 
 ## Architektur
 
-<img src="assets/behavioral_personalization.svg" alt="Referenzarchitektur für das Konzept der verhaltensbasierten Web-Personalisierung" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Referenzarchitektur für die Blueprint „Web-Personalisierung basierend auf Verhaltensdaten“" style="border:1px solid #4a4a4a" />
 
 
 ## Leitlinien
@@ -39,22 +39,22 @@ Standardmäßig ermöglicht der Segmentfreigabe-Service die Freigabe von maximal
 
 ## Implementierungsmuster
 
-Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementieren:
+Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implementieren:
 
-1. Verwenden des [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network].
-1. Verwenden herkömmlicher anwendungsspezifischer SDKs (z. B. AppMeasurement.js)
+1. Verwendung des [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network].
+1. Verwendung herkömmlicher programmspezifischer SDKs (z. B. AppMeasurement.js)
 
-### 1. Plattform-Web/Mobile-SDK und Edge-Ansatz
+### 1. Herangehensweise für Platform Web/Mobile SDK und Edge
 
-<img src="assets/web_sdk_flow.svg" alt="Referenzarchitektur für das [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network] Ansatz" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Referenzarchitektur für die Herangehensweise per [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
-### 2. Anwendungsspezifischer SDK-Ansatz
+### 2. Herangehensweise für programmspezifische SDKs
 
-<img src="assets/app_sdk_flow.png" alt="Referenzarchitektur für die Herangehensweise für anwendungsspezifische SDKs" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="Referenzarchitektur für die Herangehensweise für programmspezifische SDKs" style="border:1px solid #4a4a4a" />
 
 ## Voraussetzungen für die Implementierung
 
-| Anwendung/Service | Erforderliche Bibliothek | Hinweise |
+| Programm/Service | Erforderliche Bibliothek | Hinweise |
 |---|---|---|
 | Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+ oder mbox.js 61+ | at.js wird bevorzugt, da mbox.js nicht mehr entwickelt wird. |
 | Adobe Audience Manager (optional) | [!UICONTROL Platform Web SDK]* oder dil.js 5.0+ |  |
@@ -85,7 +85,7 @@ Der Personalisierungsentwurf für Web/Mobile lässt sich wie folgt implementiere
 
 * [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
 * [Integration von Audience Manager mit Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=de)
-* [Adobe Analytics-Segmentfreigabe über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Segmentfreigabe in Adobe Analytics über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## Verwandte Blog-Posts

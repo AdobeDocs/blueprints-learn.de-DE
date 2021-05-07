@@ -1,27 +1,27 @@
 ---
-title: Data Analyse, Intelligence und AI/ML
-description: Dieser Plan zeigt, wie in Adobe Experience Platform erforscht werden kann, wie Abfrage und Analyse der Daten, die im Datensee vorhanden sind, durchgeführt werden können.
+title: Datenanalyse, Datenintelligenz und KI/ML
+description: Diese Blueprint zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Data Analyse, Intelligence und AI/ML
+# Datenanalyse, Datenintelligenz und KI/ML
 
-Data Analyse, Intelligence und AI/ML umfassen die Möglichkeit innerhalb von Adobe Experience Platform, die Abfrage und Analyse der Daten, die im Data Lake vorhanden sind, zu untersuchen.
+„Datenanalyse, Datenintelligenz und KI/ML“ zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 
-Der [!UICONTROL Abfrage-Dienst] der Experience Platform ermöglicht die Ausführung von SQL-Abfragen an den Daten. Darüber hinaus ermöglicht die Experience Platform Verbindungen mit SQL-Clients, Schnittstellen und Business Intelligence-Tools von Drittanbietern, eine direkte Verbindung zu den Daten innerhalb der Experience Platform herzustellen, auf diese zuzugreifen und sie mit dem Protokoll [!DNL PostgreSQL] Abfrage.
+Der [!UICONTROL Abfrage-Service] von Experience Platform ermöglicht die Ausführung von SQL-Abfragen auf Daten. Zusätzlich ermöglicht Experience Platform Verbindungen mit SQL-Clients von Drittanbietern, Schnittstellen und Business-Intelligence-Tools (BI), über die mit dem [!DNL PostgreSQL]-Protokoll direkt eine Verbindung mit den Daten hergestellt sowie auf diese zugegriffen werden kann.
 
-[!UICONTROL Data Science ] Workspace ermöglicht die Datenerforschung, Datenwissenschaft und maschinelle Lernarbeit. Modelle können trainiert, bewertet und operativ eingesetzt werden, um die Profil der Kunden weiter zu bereichern und tiefere Einblicke in Kundenverhalten und -erlebnisse zu gewinnen.
+[!UICONTROL Data Science Workspace] ermöglicht die Anwendung von Datensondierung, Datenanalysen und ML-Abläufen auf Daten. Modelle können trainiert, bewertet und operationalisiert werden, um die Kundenprofile weiter anzureichern und umfassende Erkenntnisse zu Kundenverhalten und -erlebnissen zu gewinnen.
 
-| Blueprint | Beschreibung | Experience Cloud-Anwendungen |
+| Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[Data Analyse &amp; Intelligence](analysis.md)** | <ul><li>Data Analyse and Intelligence Blueprint umfasst die Methoden, mit denen Daten abgefragt und analysiert werden können, um tiefere Einblicke in Adobe Experience Platform zu erhalten.</ul></li> | <ul><li> Adobe Experience Platform Intelligence</ul></li> |
-| **[Benutzerspezifische Datenwissenschaft für die Anreicherung von Profilen](data-science.md)** | <ul><li>Trainings-, Score- und Operationalisierungsmodelle zur weiteren Bereicherung von Profilen und Aktionsmodellen</li></ul> | <ul><li>Adobe Experience Platform Intelligence</li><li> [!UICONTROL Echtzeit-Kundendatenplattform]</li></ul> |
+| **[Datenanalyse und Datenintelligenz](analysis.md)** | <ul><li>Die Blueprint „Datenanalyse und Datenintelligenz“ umfasst die Methoden, mit denen Daten abgefragt und analysiert werden können, um umfassendere Erkenntnisse innerhalb von Adobe Experience Platform zu erhalten.</ul></li> | <ul><li> Adobe Experience Platform Intelligence</ul></li> |
+| **[Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](data-science.md)** | <ul><li>Trainieren, bewerten und operationalisieren Sie Modelle zur weiteren Anreicherung von Profilen und Umsetzung von modellgestützten Kundenerkenntnissen</li></ul> | <ul><li>Adobe Experience Platform Intelligence</li><li> [!UICONTROL Real-Time Customer Data Platform]</li></ul> |

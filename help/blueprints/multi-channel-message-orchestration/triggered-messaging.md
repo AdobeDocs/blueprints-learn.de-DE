@@ -1,6 +1,6 @@
 ---
-title: Ausgelöste Nachrichten und Adobe Experience Platform-Blueprint
-description: Führen Sie ausgelöste Botschaften und Erlebnisse mit Adobe Experience Platform als zentraler Drehscheibe für gestreamte Daten, Kundenprofile und Segmentierung aus.
+title: 'Blueprint: Trigger-basiertes Messaging und Adobe Experience Platform'
+description: Führen Sie ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als Zentrale für gestreamte Daten, Kundenprofile und Segmentierung aus.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: 01f70fe432d7be38b71889ae19c0d5fe4cf0f78a
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 69%
+ht-degree: 82%
 
 ---
 
-# Ausgelöste Nachrichten und Adobe Experience Platform-Blueprint
+# Blueprint: Trigger-basiertes Messaging und Adobe Experience Platform
 
-Führen Sie ausgelöste Botschaften und Erlebnisse mit Adobe Experience Platform als zentraler Drehscheibe für gestreamte Daten, Kundenprofile und Segmentierung aus.
+Führen Sie ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als Zentrale für gestreamte Daten, Kundenprofile und Segmentierung aus.
 
 ## Anwendungsfälle
 
@@ -25,7 +25,7 @@ Führen Sie ausgelöste Botschaften und Erlebnisse mit Adobe Experience Platform
 
 ## Architektur
 
-<img src="assets/triggered.svg" alt="Referenzarchitektur für die Auslösung von Messaging und Adobe Experience Platform-Blaupausen" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="Referenzarchitektur für Blueprint „Trigger-basiertes Messaging und Adobe Experience Platform“" style="border:1px solid #4a4a4a" />
 
 ## Integrationsmuster
 
@@ -69,7 +69,7 @@ Führen Sie ausgelöste Botschaften und Erlebnisse mit Adobe Experience Platform
 #### Schema/Datensätze
 
 1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten in Experience Platform basierend auf vom Kunden angegebenen Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. Erstellen Sie Adobe Campaign-Schema für &quot;wideLog&quot;, &quot;trackingLog&quot;, &quot;non-delivery&quot;-Adressen und Profil-Voreinstellungen (optional).
+1. Erstellen Sie Adobe Campaign-Schemas für broadLog, trackingLog, nicht zustellbare Adressen und Profileinstellungen (optional).
 1. [Erstellen Sie eine ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) DataSet-Experience Platform, damit Daten erfasst werden.
 1. [hinzufügen Datenverwendung ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) kennzeichnet Experience Platform zum Dataset für Governance.
 1. [Erstellen Sie Richtlinien, um die Governance an den Zielen umzusetzen.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
@@ -80,7 +80,7 @@ Führen Sie ausgelöste Botschaften und Erlebnisse mit Adobe Experience Platform
 1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Aktivieren Sie die Schema und Datensätze zum Profil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 1. [Richten Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) für unterschiedliche Ansichten des  [!UICONTROL Echtzeit-Kundendiensts]  Zusammenführungsrichtlinien ein (optional).
-1. Erstellen Sie Segmente für die Verwendung von Adobe Campaignen.
+1. Erstellen Sie Segmente für die Verwendung mit Adobe Campaign.
 
 #### Quellen/Ziele
 
@@ -88,7 +88,7 @@ Führen Sie ausgelöste Botschaften und Erlebnisse mit Adobe Experience Platform
 
 #### Bereitstellung für Mobile App
 
-1. Implementieren Sie Adobe Campaign SDK für Adobe Campaign Classic oder Experience Platform SDK für Adobe Campaign Standard. Wenn Experience Platform Launch vorhanden ist, wird empfohlen, die Adobe Campaign Classic- oder Adobe Campaign Standard-Erweiterung mit Experience Platform SDK zu verwenden.
+1. Implementieren Sie das Adobe Campaign-SDK für Adobe Campaign Classic oder das Experience Platform-SDK für Adobe Campaign Standard. Wenn Experience Platform Launch vorhanden ist, wird empfohlen, die Erweiterung für Adobe Campaign Classic oder Adobe Campaign Standard mit dem Experience Platform-SDK zu verwenden.
 
 
 ### Journey Orchestration
@@ -107,7 +107,7 @@ Führen Sie ausgelöste Botschaften und Erlebnisse mit Adobe Experience Platform
 
 * [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 * [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=de)
-* [Adobe Campaign Classic-Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=de)
-* [Adobe Campaign Standard-Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=de)
+* [Dokumentation zu Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=de)
+* [Dokumentation zu Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=de)
 * [Dokumentation zu Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 * [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)

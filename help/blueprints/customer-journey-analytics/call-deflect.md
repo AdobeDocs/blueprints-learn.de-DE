@@ -1,5 +1,5 @@
 ---
-title: Konzept für die Analyse der Call-Deflection
+title: 'Blueprint: Analyse der Anrufabwendung'
 description: Analyse des Kundenverhaltens, bevor Kunden das Callcenter kontaktieren.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
-# Blueprint der Journey-Analyse
+# Blueprint: Analyse der Anrufabwendung während der Journey
 
 Analysieren Sie das Kundenverhalten über Desktop und Mobile hinweg, bevor der Kunde das Callcenter kontaktiert. Identifizieren Sie Möglichkeiten zur Verbesserung der Customer Journey, indem Sie verstehen, welche Aktionen Ihre Kunden abschließen möchten, welchen Content sie anzeigen und nach welchen Begriffen sie suchen, bevor sie den Kunden-Support kontaktieren. Ermitteln Sie, welcher Content und welche Self-Service-Tools verbessert werden können, um Kunden bei der Behebung von Problemen zu helfen, ohne dass sie das Callcenter anrufen müssen.
 
@@ -36,8 +36,8 @@ Analysieren Sie das Kundenverhalten über Desktop und Mobile hinweg, bevor der K
 
 ## Implementierungsschritte
 
-1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) Schemata für Daten, die aufgenommen werden sollen.
-1. [Erstellen Sie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) Datensätze, damit Daten erfasst werden.
+1. [Erstellen Sie Schemas für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Erstellen Sie Datensätze für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Aufnehmen der Daten in Experience Platform.
 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 Die Daten müssen in Platform aufgenommen werden, bevor sie in Customer Journey Analytics aufgenommen werden können

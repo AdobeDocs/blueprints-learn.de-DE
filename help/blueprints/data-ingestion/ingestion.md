@@ -6,10 +6,10 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Die Datenvorbereitung umfasst die Zuordnung der Quelldaten zum Experience Data M
 
 | Aufnahmemethoden | Beschreibung |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK | Latenz:<ul><li>Echtzeit - Datensammlung auf derselben Seite für Edge Network</li><li>Streaming-Aufnahme in Profil ~1 Minute</li><li>Streaming-Aufnahme in Data Lake (Mikro-Batch ~15 Minuten)</ul>Dokumentation: <ul><li>[Web SDK](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)</li></ul> |
+| Web/Mobile SDK | Latenz:<ul><li>Echtzeit - Datensammlung auf derselben Seite für Edge Network</li><li>Streaming-Aufnahme in Profil ~1 Minute</li><li>Streaming-Aufnahme in Data Lake (Mikro-Batch ~15 Minuten)</ul>Dokumentation: <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)</li></ul> |
 | Streaming-Quellen | Latenz:<ul><li>Echtzeit - Datensammlung auf derselben Seite für Edge Network</li><li>Streaming-Aufnahme in Profil ~1 Minute</li><li>Streaming-Aufnahme in Data Lake (Mikro-Batch ~15 Minuten)</li></ul>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#connectors) |
 | Streaming-API | Latenz:<ul><li>Echtzeit - Datensammlung auf derselben Seite für Edge Network</li><li>Streaming-Aufnahme in Profil ~1 Minute</li><li>Streaming-Aufnahme in Data Lake (Mikro-Batch ~15 Minuten)</li><li>7 GB/Stunde</li></ul>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de#what-can-you-do-with-streaming-ingestion%3F) |
 | ETL-Tools | Verwenden von ETL-Tools für die Anpassung und Transformation von Unternehmensdaten vor der Aufnahme in Experience Platform.<br><br>Latenz:<ul><li>Zeitrahmen abhängig vom externen Zeitplan des ETL-Tools, dann gelten Standardleitlinien für die Aufnahme basierend auf der Aufnahmemethode.</li></ul> |

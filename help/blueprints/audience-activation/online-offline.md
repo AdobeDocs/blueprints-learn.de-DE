@@ -4,11 +4,10 @@ description: Online-/Offline-Zielgruppenaktivierung.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-translation-type: tm+mt
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 74%
+source-wordcount: '522'
+ht-degree: 77%
 
 ---
 
@@ -37,10 +36,6 @@ Der Blueprint für Online-/Offline-Audience Activationen passt sich eng mit der 
 
 <img src="assets/online_offline_activation.svg" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Zielgruppenaktivierung“" style="border:1px solid #4a4a4a" />
 <br>
-
-### Online-/Offline-Audience Activation mit Experience Cloud-Anwendungen
-
-<img src="assets/activation+apps.svg" alt="Referenzarchitektur für das Konzept der Online-/Offline-Audience Activation mit Experience Cloud-Anwendungen" style="border:1px solid #4a4a4a" />
 
 ## Leitlinien
 

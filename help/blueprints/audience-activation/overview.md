@@ -5,11 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-translation-type: tm+mt
-source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
+source-git-commit: fb0ed8245f2be9b9260afbc3b749fde0eae58b5c
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 91%
+source-wordcount: '941'
+ht-degree: 66%
 
 ---
 
@@ -28,6 +27,17 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 | **[Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen](platform-and-applications.md)** | </ul><li>Profil und Audiencen in der Experience Platform verwalten und für Experience Cloud-Anwendungen freigeben</li><li>Erstellen und teilen Sie umfangreiche Kundensegmente und Einblicke in die Experience Platform und teilen Sie diese mit Experience Cloud-Anwendungen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Aktivierung</li><li>Experience Cloud-Programme</li></ul> |
 | **[Customer Activity Hub](customer-activity.md)** | <ul><li>Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Durch die Profilsuche in Experience Platform erhalten Mitarbeiter Kontext zum Verbraucher wie kürzlich durchgeführte Käufe, Kampagneninteraktionen, Neigungen, Zielgruppenzugehörigkeiten und andere Attribute sowie Erkenntnisse, die im Echtzeit-Kundenprofil gespeichert sind.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
+## Architektur des Echtzeit-Profils von Kunden
+
+In der folgenden Abbildung werden die Kernkomponenten des Echtzeit-Kundenprofils der Experience Platform beschrieben.
+
+Erste Datenquellen werden in die Experience Platform integriert. Wenn die Datenquelle für die Verarbeitung von Profilen konfiguriert ist, wird sie in das Echtzeit-Profil des Kunden eingespeist. Für jede Datenquelle und für jeden für jede Datenquelle konfigurierten primären ID-Datensatz wird ein einzelnes Profil-Fragment oder Dokument erstellt. Außerdem werden Daten, die in das Profil eingehen, auch vom Identitätsdienst verarbeitet. Jeder Datensatz aus den Datenquellen, der mehr als eine im Schema markierte Identität mit den entsprechenden Werten im Datensatz enthält, wird als Identitätsbeziehung innerhalb des Identitätsdienstes verarbeitet.
+
+Beachten Sie, dass Datensätze mit nur einer Identität nicht vom Identitätsdienst verarbeitet werden, da solche Datensätze keine Identitätslinks enthalten, mit denen das Diagramm weiter gefüllt werden kann. Beachten Sie außerdem, dass der Identitätsdienst keine primären Identitäten von sekundären Identitäten unterscheidet. Es verarbeitet einfach Identitätsbeziehungen über Identitäten hinweg.
+
+Das Zusammenführen von Profil-Fragmenten erfolgt, da das Identitätsdiagramm die Beziehungen zwischen den verschiedenen Quellfragmenten des Profils bereitstellt, die verknüpft wurden. Die Richtlinie zum Zusammenführen bestimmt, welche Quellfragmente und welches Identitätsdiagramm als Fragmente zusammengeführt werden. Jedes Mal, wenn das Profil Zugriff auf die Zusammenführung der Profil-Fragmente erfolgt, um die aktuellste kombinierte Ansicht des Profils sicherzustellen. Governance- und Richtlinienregeln stellen sicher, dass nur die autorisierten Segmente und Attribute für die angegebenen Ziele aktiviert werden können.
+
+<img src="assets/profile_architecture.jpg" alt="Referenzarchitektur für das Echtzeit-Profil von Kunden" style="border:1px solid #4a4a4a" />
 
 
 ## Grundzüge der Aktivierung für Audience und Profil

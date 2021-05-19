@@ -4,11 +4,11 @@ description: Diese Blueprint zeigt, wie Data Science Workspace in Adobe Experien
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ In der Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 
 ## Implementierungsschritte
 
-1. [Erstellen Sie Schemas für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [Erstellen Sie Datensätze für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [Aufnehmen der Daten in Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=de) für die zu erfassenden Daten.
+1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
+1. [Aufnehmen der Daten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) in Experience Platform.
 1. Erstellen eines DSW-Notebooks.
 1. Auswählen einer Sprache. Python und PySpark werden unterstützt.
 1. Erstellen des Modells im Notebook.

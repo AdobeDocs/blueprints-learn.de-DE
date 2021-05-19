@@ -5,11 +5,11 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ Die Web- und Mobile-Personalisierung zeigt auf, wie Zielgruppensegmentierung in 
 
 ## Leitlinien für die Web- und Mobile-Personalisierung
 
-[Für Guardrails im Zusammenhang mit der Aktivierung von Audience und Profil siehe die Guardrails unter der Rubrik Audience und Profil Aktivierung Blueprints.](../audience-activation/overview.md)
+[Informationen zu Leitlinien zur Zielgruppen- und Profilaktivierung finden Sie in den Leitlinien im Blueprint-Abschnitt „Zielgruppen- und Profilaktivierung“.](../audience-activation/overview.md)
 
-### Diagramm &quot;Online-/Offline-Personalisierung&quot;
+### Leitliniendiagramm zur Online-/Offline-Personalisierung
 
 <img src="assets/personalization_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="border:1px solid #4a4a4a" />
 

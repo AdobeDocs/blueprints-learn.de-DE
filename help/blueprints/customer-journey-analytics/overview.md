@@ -5,11 +5,11 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Gängige Analysen umfassen:
 | **[Kanalübergreifende Journey-Analyse](digital-behavioral-data-consolidation.md)** | <ul><li>Erhalten Sie eine zentrale, konsolidierte Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul> |
 | **[Analyse der Anrufabwendung während der Journey](call-deflect.md)** | <ul><li>Ermitteln Sie, welche Verhaltensweisen am wahrscheinlichsten mit einem Anruf enden, indem Sie Callcenter-Daten mit Web-, Mobile- und anderen Interaktionsdaten zusammenführen.</li><li>Diese Erkenntnisse können verwendet werden, um das Kundenerlebnis zu verbessern und die Anzahl mitarbeitergestützter Interaktionen durch den Einsatz von Self-Service-Content und -Tools zu reduzieren.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Grundzüge für Customer Journey Analytics-Blueprints
+## Leitlinien für die Blueprints zu Customer Journey Analytics
 
-### Guardrail-Diagramm
+### Leitliniendiagramm
 
-<img src="assets/cja_guardrails.svg" alt="Guardrail-Diagramm für die Customer Journey Analytics-Blueprints" style="border:1px solid #4a4a4a" />
+<img src="assets/cja_guardrails.svg" alt="Leitliniendiagramm für die Blueprints zu Customer Journey Analytics" style="border:1px solid #4a4a4a" />
 
 
 ## Verwandte Blog-Posts

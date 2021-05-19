@@ -4,11 +4,11 @@ description: Analyse des Kundenverhaltens, bevor Kunden das Callcenter kontaktie
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,9 @@ Analysieren Sie das Kundenverhalten über Desktop und Mobile hinweg, bevor der K
 
 ## Implementierungsschritte
 
-1. [Erstellen Sie Schemas für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [Erstellen Sie Datensätze für die zu erfassenden Daten.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [Aufnehmen der Daten in Experience Platform.
-](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=de) für die zu erfassenden Daten.
+1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
+1. [Aufnehmen der Daten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) in Experience Platform.
 Die Daten müssen in Platform aufgenommen werden, bevor sie in Customer Journey Analytics aufgenommen werden können
 1. Analyse der kanalübergreifenden Ereignis-Datensätze.
 Datensätze, die zusammen analysiert werden, müssen eine gemeinsame Namespace-ID haben oder über das feldbasierte Stitching in Customer Journey Analytics einen neuen Schlüssel erhalten. 

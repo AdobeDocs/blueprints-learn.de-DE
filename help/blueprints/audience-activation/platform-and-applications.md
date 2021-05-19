@@ -1,26 +1,26 @@
 ---
-title: Aktivierung von Audience und Profil mit Experience Cloud Applications Blueprint
-description: Verwalten Sie Profil und Audiencen in der Experience Platform und geben Sie sie für Experience Cloud-Anwendungen frei.
+title: 'Blueprint: Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen'
+description: Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 39%
+ht-degree: 92%
 
 ---
 
-# Aktivierung von Audience und Profil mit Experience Cloud Applications Blueprint
+# Blueprint: Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
 
-Verwalten Sie Profil und Audiencen in der Experience Platform und geben Sie sie für Experience Cloud-Anwendungen frei. Erstellen und teilen Sie umfangreiche Kundensegmente und Einblicke in die Experience Platform und geben Sie sie für Experience Cloud-Anwendungen frei.
+Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei. Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.
 
-Die Aktivierung mit Experience Cloud-Anwendungen wird eng mit dem [Online-/Offline-Audience Activation-Blueprint](online-offline.md) abgestimmt.
+Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der Blueprint [Online-/Offline-Zielgruppenaktivierung](online-offline.md).
 
 ## Anwendungsfälle
 
-* Personalisieren und Zielgruppe über Kanal mit Kundeninteraktion, die auf Experience Cloud basieren.
-* Geben Sie Audiencen- und Profil-Daten zwischen Experience Platform- und Experience Cloud-Anwendungen frei.
+* Personalisierung und Targeting auf allen Kundeninteraktionskanälen, die auf Experience Cloud basieren
+* Gemeinsame Nutzung von Zielgruppen- und Profildaten von Experience Platform und Experience Cloud-Programmen
 
 ## Programme
 
@@ -35,16 +35,16 @@ Die Aktivierung mit Experience Cloud-Anwendungen wird eng mit dem [Online-/Offli
 
 ## Architektur
 
-[Weitere Architekturdiagramme zu Experience Platform-Integrationen mit Experience Cloud-Anwendungen finden Sie im Abschnitt Experience Platform und Anwendungsarchitektur.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
+[Weitere Architekturdiagramme zu Experience Platform-Integrationen mit Experience Cloud-Anwendungen finden Sie im Abschnitt Experience Platform und Anwendungsarchitektur.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=de)
 
-### Aktivierung von Audiencen und Profilen mit Experience Cloud-Anwendungen
+### Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referenzarchitektur für die Aktivierung von Audience und Profil mit Experience Cloud-Anwendungen" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referenzarchitektur für die Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen" style="border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien
 
-Siehe die [Guardrails auf der Seite &quot;Übersicht über die Audience und Profil-Aktivierung&quot;](overview.md)
+Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profilaktivierung](overview.md).
 
 ## Verwandte Dokumentation
 

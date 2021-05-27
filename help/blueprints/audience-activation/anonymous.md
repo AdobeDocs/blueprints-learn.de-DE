@@ -6,9 +6,9 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Sie können Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendat
 
 <!-- These steps should link to help. -->
 
-1. [Implementieren Sie Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides).
+1. [Implementieren Sie Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de#implementation-integration-guides).
 1. Erfassen Sie Daten in Audience Manager.
 1. Konfigurieren Sie Signale und Eigenschaften für die Verwendung in Segmentdefinitionen.
 1. Erstellen Sie Segmente in Audience Manager.

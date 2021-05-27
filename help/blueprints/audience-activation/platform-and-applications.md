@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der 
 
 ## Architektur
 
-[Weitere Architekturdiagramme zu Experience Platform-Integrationen mit Experience Cloud-Anwendungen finden Sie im Abschnitt Experience Platform und Anwendungsarchitektur.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=de)
+[Weitere Architekturdiagramme für Experience Platform-Integrationen mit Experience Cloud-Programmen finden Sie im Abschnitt „Architekturdiagramm zu Experience Platform und Programmen“.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=de)
 
 ### Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
 

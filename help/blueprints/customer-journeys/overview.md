@@ -1,23 +1,20 @@
 ---
-title: 'Multi-Channel-Orchestrierung von Nachrichten '
+title: 'Journey '
 description: Stellen Sie individuelle, zeitnahe Kundenerlebnisse auf sämtlichen Geräten bereit.
 solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 54%
 
 ---
 
-# Multi-Channel-Orchestrierung von Nachrichten
+# Journey
 
-Der Abschnitt „Multi-Channel-Orchestrierung von Nachrichten“ zeigt, wie Marken mit ihren Kunden über Kanäle wie E-Mail, SMS und Mobile-Nachrichten proaktiv interagieren und kommunizieren können.
-
-Die Orchestrierungs-Tools können mit anderen Interaktionskanälen für Web- und Mobile-Personalisierung integriert werden (z. B. mit Inbound-Kanälen), indem der Zielgruppenstatus für die Entscheidungs-Engines der anderen Kanäle freigegeben wird. Unterschiedliche Faktoren helfen dabei, herauszufinden, welche Programme und Bereitstellungsoptionen verwendet werden sollen, etwa ob die Kundeninteraktion Trigger-basiert oder geplant ist, welche Daten für Targeting und Personalisierung erforderlich sind usw. Diese Faktoren resultieren in unterschiedlichen, möglichen Szenarien und Bereitstellungsoptionen, wenn die Funktionen für Nachrichten-Orchestrierung ausgebaut werden.
-
+Kunden-Journey ermöglichen es Marken, aktiv mit ihren Kunden über Kanäle wie E-Mail, SMS und Mobile-Warnhinweise zu interagieren und mit ihnen zu kommunizieren. Orchestrierungs-Tools können auch in andere Interaktionskanäle integriert werden, z. B. in eingehende Kanäle zur Web-/mobilen Personalisierung, indem der Zielgruppenstatus mit anderen kanalspezifischen Entscheidungs-Engines freigegeben wird. Es gibt verschiedene Faktoren, die belegen, welche Anwendungen und Bereitstellungsoptionen für Journey verwendet werden sollten. Diese lassen sich jedoch auf zwei verschiedene Arten zusammenfassen:  reagieren auf einen Kunden, während er interagiert (ausgelöst) ODER auf eine Gruppe von Kunden reagiert, während sie interagieren (geplant).
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|

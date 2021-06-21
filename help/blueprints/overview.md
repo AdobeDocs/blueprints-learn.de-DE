@@ -3,10 +3,10 @@ title: 'Blueprints: Digitale Erlebnisse'
 description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +31,8 @@ Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, di
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><img alt="Miniaturbild für Blueprint „Trigger-basiertes Messaging und Experience Platform“" src="customer-journeys/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><strong>Trigger-basiertes Messaging und Experience Platform</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="Miniaturbild für Blueprint „Trigger-basiertes Messaging und Experience Platform“" src="customer-journeys/assets/journey-optimizer.png" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Trigger-basiertes Messaging und Experience Platform</strong></a></div>
     <p><em>Trigger-basierte Nachrichten und Erlebnisse mithilfe von [!UICONTROL Platform] als Zentrale.</em></p>
   </td>
   <td>

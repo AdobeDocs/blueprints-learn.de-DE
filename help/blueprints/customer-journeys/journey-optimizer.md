@@ -6,8 +6,8 @@ kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '700'
+ht-degree: 49%
 
 ---
 

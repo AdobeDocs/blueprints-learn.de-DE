@@ -4,10 +4,10 @@ description: Personalisieren Sie basierend auf Daten zu Online-Verhalten und Zie
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implement
 
 ### 1. Herangehensweise für Platform Web/Mobile SDK und Edge
 
-<img src="assets/web_sdk_flow.svg" alt="Referenzarchitektur für die Herangehensweise per [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+[Siehe Experience Platform Web und Mobile SDK-Blueprint .](../data-ingestion/websdk.md)
 
 ### 2. Herangehensweise für programmspezifische SDKs
 

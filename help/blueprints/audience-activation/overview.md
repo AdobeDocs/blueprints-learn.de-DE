@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
@@ -31,13 +31,13 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 
 In der folgenden Abbildung werden die Kernkomponenten des Echtzeit-Kundenprofils in Experience Platform beschrieben.
 
+<img src="assets/profile_architecture.jpg" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%"/>
+
 Zunächst werden Datenquellen in Experience Platform aufgenommen. Wenn die Datenquelle für die Verarbeitung von Profilen konfiguriert ist, wird sie in das Echtzeit-Kundenprofil aufgenommen. Für jede Datenquelle und für jeden für eine Datenquelle konfigurierten primären ID-Datensatz wird ein Profilfragment oder Dokument erstellt. Außerdem werden Daten, wenn sie in das Profil aufgenommen werden, auch vom Identity Service verarbeitet. Jeder Datensatz aus den Datenquellen, für die im Schema mehrere Identitäten markiert sind, und die entsprechenden Werte aus dem Datensatz werden als Identitätsbeziehung innerhalb des Identity Service verarbeitet.
 
 Beachten Sie, dass Datensätze mit nur einer Identität nicht vom Identity Service verarbeitet werden, da solche Datensätze über keine Identitäts-Links verfügen, mit denen das Diagramm weiter gefüllt werden kann. Beachten Sie außerdem, dass der Identity Service keine primären Identitäten von sekundären Identitäten unterscheidet. Es verarbeitet einfach Identitätsbeziehungen über Identitäten hinweg.
 
 Das Zusammenführen von Profilfragmenten erfolgt, da das Identitätsdiagramm die Beziehungen zwischen den verschiedenen Quell-Profilfragmenten bereitstellt, die zueinander in Beziehung stehen. Die Zusammenführungsrichtlinie bestimmt, welche Quellfragmente und welches Identitätsdiagramm für die Zusammenführung der Fragmente verwendet werden. Bei jedem Zugriff auf das Profil erfolgt eine Zusammenführung der Profilfragmente, um die aktuellste kombinierte Ansicht des Profils zu gewährleisten. Governance- und Richtlinienregeln stellen sicher, dass nur die autorisierten Segmente und Attribute für die angegebenen Ziele aktiviert werden können.
-
-<img src="assets/profile_architecture.jpg" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" />
 
 
 ## Blueprints: Leitlinien für Zielgruppen- und Profilaktivierung

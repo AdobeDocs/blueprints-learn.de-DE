@@ -1,18 +1,18 @@
 ---
-title: 'Blueprint: Datenvorbereitung und -aufnahme'
+title: Datenerfassungs-Blueprint für Web/Mobile SDK
 description: Dieser Blueprint zeigt die Architektur und Erfassung über das Experience Platform Web und Mobile SDK
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
-# Experience Platform WebSDK-Datenerfassung
+# Datenerfassung für Experience Platform Web/Mobile SDK
 
 Das folgende Architekturdiagramm veranschaulicht die Integrationspfade und die Datenerfassung unter Verwendung der Experience Platform WebSDK.
 
@@ -20,4 +20,4 @@ Das folgende Architekturdiagramm veranschaulicht die Integrationspfade und die D
 
 ## Referenzdokumentation
 
-[Experience Platform WebSDK - Überblick](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Übersicht über Experience Platform Web/Mobile SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)

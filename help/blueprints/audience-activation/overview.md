@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,11 @@ Beachten Sie, dass Datensätze mit nur einer Identität nicht vom Identity Servi
 
 Das Zusammenführen von Profilfragmenten erfolgt, da das Identitätsdiagramm die Beziehungen zwischen den verschiedenen Quell-Profilfragmenten bereitstellt, die zueinander in Beziehung stehen. Die Zusammenführungsrichtlinie bestimmt, welche Quellfragmente und welches Identitätsdiagramm für die Zusammenführung der Fragmente verwendet werden. Bei jedem Zugriff auf das Profil erfolgt eine Zusammenführung der Profilfragmente, um die aktuellste kombinierte Ansicht des Profils zu gewährleisten. Governance- und Richtlinienregeln stellen sicher, dass nur die autorisierten Segmente und Attribute für die angegebenen Ziele aktiviert werden können.
 
+## Segmentierung und Ziel - Überblick
+
+Die folgende Abbildung zeigt die verschiedenen Segmentierungsmethoden sowie die verschiedenen Profil- und Zielgruppenaktivierungsmuster.
+
+<img src="assets/segmentation_destination_overview.png" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%"/>
 
 ## Blueprints: Leitlinien für Zielgruppen- und Profilaktivierung
 

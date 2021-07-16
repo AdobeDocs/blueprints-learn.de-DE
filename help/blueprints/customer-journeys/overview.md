@@ -1,5 +1,5 @@
 ---
-title: 'Journey '
+title: 'Customer Journeys '
 description: Stellen Sie individuelle, zeitnahe Kundenerlebnisse auf sämtlichen Geräten bereit.
 solution: Experience Platform
 kt: null
@@ -8,13 +8,13 @@ exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # Journey
 
-Kunden-Journey ermöglichen es Marken, aktiv mit ihren Kunden über Kanäle wie E-Mail, SMS und Mobile-Warnhinweise zu interagieren und mit ihnen zu kommunizieren. Orchestrierungs-Tools können auch in andere Interaktionskanäle integriert werden, z. B. in eingehende Kanäle zur Web-/mobilen Personalisierung, indem der Zielgruppenstatus mit anderen kanalspezifischen Entscheidungs-Engines freigegeben wird. Es gibt verschiedene Faktoren, die belegen, welche Anwendungen und Bereitstellungsoptionen für Journey verwendet werden sollten. Diese lassen sich jedoch auf zwei verschiedene Arten zusammenfassen:  reagieren auf einen Kunden, während er interagiert (ausgelöst) ODER auf eine Gruppe von Kunden reagiert, während sie interagieren (geplant).
+Customer Journeys bietet Marken die Möglichkeit, über Kanäle wie E-Mail, SMS und Mobile-Nachrichten proaktiv mit Kunden zu interagieren und zu kommunizieren. Die Orchestrierungs-Tools können mit anderen Interaktionskanälen für Web- und Mobile-Personalisierung integriert werden (z. B. mit Inbound-Kanälen), indem der Zielgruppenstatus für die anderen kanalspezifischen Entscheidungs-Engines freigegeben wird. Bei der Auswahl der Programme und Implementierungslösungen für Customer Journeys sollten diverse Faktoren berücsichtigt werden, die sich jedoch in zwei unterschiedlichen Ansätzen zusammenfassen lassen: Reaktion auf einen interagierenden Kunden (ausgelöst) ODER Reaktion auf eine Gruppe interagierender Kunden (geplant).
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|

@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Die Web- und Mobile-Personalisierung zeigt auf, wie Zielgruppensegmentierung in 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
 | **[Web-/Mobile-Personalisierung basierend auf Verhaltensdaten](behavioral.md)** | <ul><li>Personalisierung basierend auf Online-Verhalten und Zielgruppendaten</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
-| **[Online-/Offline-Web-/Mobile-Personalisierung](online-offline.md)** | <ul><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Web-/Mobile-Personalisierung mit Online- und Offline-Daten](online-offline.md)** | <ul><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
 ## Leitlinien für die Web- und Mobile-Personalisierung
 

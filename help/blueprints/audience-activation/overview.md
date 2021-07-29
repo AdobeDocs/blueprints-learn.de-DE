@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 | **[Anonyme Zielgruppenaktivierung](anonymous.md)** | <ul><li>Identifizieren Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg.</li><li>Third-Party-Zielgruppendaten können für bessere Personalisierung integriert werden.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Online-/Offline-Zielgruppenaktivierung](online-offline.md)** | <ul><li>Aktivierung für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele. </li><li>Nutzung von Offline-Attributen und -Ereignissen, wie Offline-Bestellungen, Transaktionen, CRM- oder Treuedaten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und -Personalisierung.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |
 | **[Zielgruppen- und Profilaktivierung für Unternehmensziele](enterprise-destinations.md)** | <ul><li>Replikation und Aktualisierung von Profil- und Zielgruppenänderungen in Unternehmensdatenspeichern für Aktivierungs- und Reporting-Anwendungsfälle. </li></ul><ul><li>Einleitung einer Verkaufs- oder Support-Aktion für Kunden durch die Benachrichtigung über eine Kundenaktion von [!UICONTROL Real-Time Customer Data Platform] an Unternehmenssysteme und -programme.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager (optional)</li></ul> |
-| **[Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md)** | <ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Aktivierung der Experience Platform</li><li>Experience Cloud-Programme</li></ul> |
+| **[Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md)** | <ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud-Programme</li></ul> |
 | **[Customer Activity Hub](customer-activity.md)** | <ul><li>Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Durch die Profilsuche in Experience Platform erhalten Mitarbeiter Kontext zum Verbraucher wie kürzlich durchgeführte Käufe, Kampagneninteraktionen, Neigungen, Zielgruppenzugehörigkeiten und andere Attribute sowie Erkenntnisse, die im Echtzeit-Kundenprofil gespeichert sind.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Architektur des Echtzeit-Kundenprofils
@@ -39,9 +39,9 @@ Beachten Sie, dass Datensätze mit nur einer Identität nicht vom Identity Servi
 
 Das Zusammenführen von Profilfragmenten erfolgt, da das Identitätsdiagramm die Beziehungen zwischen den verschiedenen Quell-Profilfragmenten bereitstellt, die zueinander in Beziehung stehen. Die Zusammenführungsrichtlinie bestimmt, welche Quellfragmente und welches Identitätsdiagramm für die Zusammenführung der Fragmente verwendet werden. Bei jedem Zugriff auf das Profil erfolgt eine Zusammenführung der Profilfragmente, um die aktuellste kombinierte Ansicht des Profils zu gewährleisten. Governance- und Richtlinienregeln stellen sicher, dass nur die autorisierten Segmente und Attribute für die angegebenen Ziele aktiviert werden können.
 
-## Segmentierung und Ziel - Überblick
+## Überblick über Segmentierung und Ziel
 
-Die folgende Abbildung zeigt die verschiedenen Segmentierungsmethoden sowie die verschiedenen Profil- und Zielgruppenaktivierungsmuster.
+Die folgende Abbildung zeigt die verschiedenen Segmentierungsmethoden sowie die verschiedenen Aktivierungsmuster für Profile und Zielgruppen.
 
 <img src="assets/segmentation_destination_overview.png" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%"/>
 

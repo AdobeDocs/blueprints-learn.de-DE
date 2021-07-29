@@ -6,22 +6,22 @@ kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
 source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform-Datenflussarchitektur
+# Architektur des Datenflusses in Adobe Experience Platform
 
 ## Datenflussdiagramm
 
-Das folgende Diagramm zeigt die verschiedenen Pfade zur Datenerfassung und -auslagerung aus Adobe Experience Platform.
+Das Diagramm unten veranschaulicht die verschiedenen Pfade für die Datenerfassung und -ausgabe aus Adobe Experience Platform.
 
 <img src="assets/aep_data_flow.png" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="90%" />
 
-## Limits bei der Datenerfassung
+## Leitlinien für die Datenaufnahme
 
-Das folgende Diagramm zeigt die durchschnittlichen Leistungsgarantien und die Latenz für die Datenerfassung in Adobe Experience Platform.
+Das folgende Diagramm zeigt die durchschnittlichen Performance-Bereiche sowie die Latenz bei der Datenaufnahme in Adobe Experience Platform.
 
 <img src="assets/aep_data_flow_guardrails.png" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="90%" />

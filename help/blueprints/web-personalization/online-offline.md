@@ -7,7 +7,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -45,7 +45,7 @@ Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implement
 
 ### 1. Herangehensweise für Platform Web/Mobile SDK und Edge
 
-[Siehe Experience Platform Web und Mobile SDK-Blueprint .](../data-ingestion/websdk.md)
+[Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../data-ingestion/websdk.md)
 
 ### 2. Herangehensweise für programmspezifische SDKs
 

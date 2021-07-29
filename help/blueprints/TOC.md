@@ -7,7 +7,7 @@ role: Architect, Developer, User
 source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
    + [Kanalübergreifende Journey-Analyse](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Anrufabwendung](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ Customer Journeys{#customer-journeys}
++ Customer Journeys {#customer-journeys}
    + [Übersicht](/help/blueprints/customer-journeys/overview.md)
    + [Batch-Messaging und Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)

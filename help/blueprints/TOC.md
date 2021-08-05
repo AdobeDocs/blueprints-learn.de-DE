@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints sind wiederholbare Implementierungen, die bekannte Geschäftsprobleme adressieren und Architekturdiagramme, technische Überlegungen und Links zu relevanter Dokumentation enthalten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
-workflow-type: ht
-source-wordcount: '121'
-ht-degree: 100%
+source-git-commit: 606b209693213c3eb7875cb9eda67f989489114b
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 91%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 100%
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
    + [Anonyme Zielgruppenaktivierung](/help/blueprints/audience-activation/anonymous.md)
-   + [Online-/Offline-Zielgruppenaktivierung](/help/blueprints/audience-activation/online-offline.md)
-   + [Aktivierung für Unternehmensziele](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Aktivierung mit Online- und Offline-Daten](/help/blueprints/audience-activation/online-offline.md)
+   + [Datei- und Enterprise-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Aktivierung mit Experience Cloud-Programmen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}

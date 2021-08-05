@@ -1,23 +1,23 @@
 ---
-title: 'Blueprint: Online-/Offline-Zielgruppenaktivierung'
+title: Activation mit Online- und Offline-Daten-Blueprint
 description: Online-/Offline-Zielgruppenaktivierung.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 91%
 
 ---
 
-# Blueprint: Online-/Offline-Zielgruppenaktivierung
+# Activation mit Online- und Offline-Daten-Blueprint
 
 Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treue-Daten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.
 
 Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele.
 
-Die Blueprint zur Online-/Offline-Zielgruppenaktivierung entspricht in etwa der [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md). Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md) über Integrationen zwischen Experience Platform und Experience Cloud-Programmen.
+Der Plan Aktivierung mit Online- und Offline-Daten ist eng mit dem Blueprint [Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen](platform-and-applications.md) abgestimmt. Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md) über Integrationen zwischen Experience Platform und Experience Cloud-Programmen.
 
 ## Anwendungsfälle
 
@@ -32,7 +32,7 @@ Die Blueprint zur Online-/Offline-Zielgruppenaktivierung entspricht in etwa der 
 
 ## Architektur
 
-### Online-/Offline-Zielgruppenaktivierung mit Zielen
+### Aktivierung mit Online- und Offline-Daten mit Zielen
 
 <img src="assets/online_offline_activation.svg" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Zielgruppenaktivierung“" style="border:1px solid #4a4a4a" />
 <br>

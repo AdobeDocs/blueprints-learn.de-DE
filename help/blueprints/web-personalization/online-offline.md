@@ -4,10 +4,10 @@ description: Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bek
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implement
 Voraussetzungen für Identitäten
 
 * Die Freigabe von Zielgruppen aus Adobe Experience Platform für Adobe Target erfordert die Verwendung von ECID als Identität.
-* Alternative Identitäten können verwendet werden, um Experience Platform-Zielgruppen über Audience Manager für Adobe Target freizugeben, da Audience Manager die alternative ID in eine ECID auflösen kann, solange sowohl ECID als auch alternative ID für Audience Manager erfasst werden. Beachten Sie, dass Audience Manager und Target Zielgruppenzugehörigkeiten über die ECID-Identität auflösen. Daher ist die ECID weiterhin für die endgültige Zielgruppenfreigabe für Adobe Target erforderlich.
+* Alternative Identitäten können verwendet werden, um Experience Platform-Zielgruppen über Audience Manager für Adobe Target freizugeben, da Audience Manager die alternativen IDs in eine ECID auflösen können, solange sowohl ECID als auch alternative ID für Audience Manager erfasst werden und denselben Identitäts-Namespace sowohl für Audience Manager als auch für Experience Platform verwenden. Beachten Sie, dass Audience Manager und Target Zielgruppenzugehörigkeiten über die ECID-Identität auflösen. Daher ist die ECID weiterhin für die endgültige Zielgruppenfreigabe für Adobe Target erforderlich.
 
 | Programm/Service | Erforderliche Bibliothek | Hinweise |
 |---|---|---|
@@ -90,7 +90,7 @@ Voraussetzungen für Identitäten
 * [Überblick über Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de)
 * [Audience Manager Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de)
 * [Segmentfreigabe in Adobe Analytics über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)
-* [Dokumentation zu Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)
+* [Dokumentation zu Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Dokumentation zu Experience Cloud-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
 * [Dokumentation zu Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de)
 

@@ -1,17 +1,17 @@
 ---
-title: 'Blueprint: Zielgruppen- und Profilaktivierung für Unternehmensziele'
+title: Blueprint zu Zielgruppen- und Profilaktivierung für Datei- und Enterprise-Streaming-Ziele
 description: Zielgruppen- und Profilaktivierung für Unternehmensziele
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
-# Blueprint: Zielgruppen- und Profilaktivierung für Unternehmensziele
+# Blueprint zu Zielgruppen- und Profilaktivierung für Datei- und Enterprise-Streaming-Ziele
 
 Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder Batch aus [!UICONTROL Real-Time Customer Data Platform] in Unternehmensdatenspeichern und -programmen frei. Diese Profil- und Zielgruppenereignisse können verwendet werden, um eine Verkaufs- oder Support-Aktion für den Kunden einzuleiten, z. B. im Anschluss an einen abgebrochenen Anmeldevorgang oder eine Webinar-Registrierung, oder um Unternehmensprogramme mit den neuesten Kundenattributen und Daten aus [!UICONTROL Real-Time Customer Data Platform] zu aktualisieren.
 

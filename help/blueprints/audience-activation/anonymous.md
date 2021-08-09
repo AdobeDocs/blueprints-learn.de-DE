@@ -1,15 +1,15 @@
 ---
 title: 'Blueprint: Anonyme Zielgruppenaktivierung'
-description: Erfahren Sie, wie Sie basierend auf anonymen und verhaltensbezogenen Kundendaten Zielgruppen über Web- und Werbekanäle hinweg ansprechen können. So erstellen Sie personalisierte und konsistente Echtzeit-Kundenerlebnisse auf allen Geräten.
-landing-page-description: Erfahren Sie, wie Sie basierend auf anonymen und verhaltensbezogenen Kundendaten Zielgruppen über Web- und Werbekanäle hinweg ansprechen können.
+description: Erfahren Sie, wie Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg identifizieren. So erstellen Sie personalisierte und konsistente Echtzeit-Kundenerlebnisse auf allen Geräten.
+landing-page-description: Erfahren Sie, wie Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg identifizieren.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: f461f94dcd4a1c15e09269edcf0121f83f2f896d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 

@@ -1,17 +1,17 @@
 ---
-title: Blueprint zu Zielgruppen- und Profilaktivierung für Datei- und Enterprise-Streaming-Ziele
+title: 'Blueprint: Zielgruppen- und Profilaktivierung für Datei- und Unternehmens-Streaming-Ziele'
 description: Zielgruppen- und Profilaktivierung für Unternehmensziele
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Blueprint zu Zielgruppen- und Profilaktivierung für Datei- und Enterprise-Streaming-Ziele
+# Blueprint: Zielgruppen- und Profilaktivierung für Datei- und Unternehmens-Streaming-Ziele
 
 Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder Batch aus [!UICONTROL Real-Time Customer Data Platform] in Unternehmensdatenspeichern und -programmen frei. Diese Profil- und Zielgruppenereignisse können verwendet werden, um eine Verkaufs- oder Support-Aktion für den Kunden einzuleiten, z. B. im Anschluss an einen abgebrochenen Anmeldevorgang oder eine Webinar-Registrierung, oder um Unternehmensprogramme mit den neuesten Kundenattributen und Daten aus [!UICONTROL Real-Time Customer Data Platform] zu aktualisieren.
 
@@ -21,7 +21,7 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 
 ## Programme
 
-* Adobe Experience Platform Aktivierung
+* Adobe Experience Platform Activation
 
 ## Architektur
 
@@ -48,12 +48,12 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 * [Übersicht über Cloud-Speicherplatz-Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=de#catalog)
 * [HTTP-Ziel](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=de#overview)
-* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform]](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 
 ## Verwandte Videos und Tutorials
 
-* Überblick über [[!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 * [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
-* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)

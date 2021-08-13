@@ -1,23 +1,23 @@
 ---
-title: Activation mit Online- und Offline-Daten-Blueprint
+title: 'Blueprint: Aktivierung mit Online- und Offline-Daten'
 description: Online-/Offline-Zielgruppenaktivierung.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 0a1cd20e267136df305bba0b740ab57a450cb953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Activation mit Online- und Offline-Daten-Blueprint
+# Blueprint: Aktivierung mit Online- und Offline-Daten
 
 Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treue-Daten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.
 
 Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele.
 
-Der Plan Aktivierung mit Online- und Offline-Daten ist eng mit dem Blueprint [Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen](platform-and-applications.md) abgestimmt. Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md) über Integrationen zwischen Experience Platform und Experience Cloud-Programmen.
+Die Blueprint zur Aktivierung mit Online- und Offline-Daten entspricht in etwa der [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md). Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md) über Integrationen zwischen Experience Platform und Experience Cloud-Programmen.
 
 ## Anwendungsfälle
 
@@ -60,13 +60,13 @@ Der Plan Aktivierung mit Online- und Offline-Daten ist eng mit dem Blueprint [Zi
 
 ## Verwandte Dokumentation
 
-* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform]](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 
 ## Verwandte Videos und Tutorials
 
-* Überblick über [[!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 * [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
-* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)

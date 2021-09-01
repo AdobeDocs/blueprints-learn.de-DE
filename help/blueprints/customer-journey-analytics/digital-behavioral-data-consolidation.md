@@ -7,7 +7,7 @@ exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -39,8 +39,8 @@ Erhalten Sie eine zentrale, konsolidierte Sicht auf Kundeninteraktionen auf vers
 
 1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=de) für die zu erfassenden Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
-1. Datenerfassung[Tutorial zur Datenerfassung](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) in Experience Platform.
-Die Daten müssen in Platform aufgenommen werden, bevor sie in Customer Journey Analytics verarbeitet werden können Weitere Informationen zur Datenerfassung und zu Datenquellen-Typen finden Sie in der folgenden Dokumentation. [Data ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de) Sources, einschließlich  [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de)
+1. Aufnehmen der Daten in Experience Platform.
+Die Daten müssen in Platform aufgenommen werden, bevor sie in Customer Journey Analytics verarbeitet werden können Weitere Informationen zur Datenerfassung und zu Datenquellen-Typen finden Sie in der folgenden Dokumentation. [Data ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de) Sources, einschließlich  [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de). [Tutorial zur Datenerfassung](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de)
 1. Gemeinsame Analyse von Datensätzen aus unterschiedlichen Kanälen, um sicherzustellen, dass sie über dieselbe Namespace-ID verfügen oder mit der Funktion für feldbasiertes Stitching in Customer Journey Analytics einen neuen Schlüssel erhalten. Weitere Informationen zur Identitätszuordnung in Customer Journey Analytics finden Sie in der Dokumentation zur kanalübergreifenden Analyse . [Identitätszuordnung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
 
    >[!NOTE]

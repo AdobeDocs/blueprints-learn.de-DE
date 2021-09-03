@@ -1,10 +1,10 @@
 ---
 title: Anwendungsbeispiele für digitale Experience-Blueprints
 description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
-source-git-commit: 7c958db2f2bb9cac4d15420d824de0f9722a8135
+source-git-commit: 474584b43ce94213719804fa660ccb714dd85f2b
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 75%
+ht-degree: 72%
 
 ---
 
@@ -22,16 +22,16 @@ Welche dieser Anwendungsfälle sind für Ihr Unternehmen wichtig? Entdecken Sie,
  </tr>
  <tr>
   <td>Durchführung von anonymem digitalem Zielgruppen-Targeting und Personalisierung.</td>
-  <td rowspan="2"><a
+  <td rowspan="2" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=de">Anonyme Zielgruppenaktivierung</a></td>
-  <td rowspan="9">Aktivierung von Zielgruppen und Profilen</td>
+  <td rowspan="9" border="1" valign="middle">Aktivierung von Zielgruppen und Profilen</td>
  </tr>
  <tr>
   <td>Erstellen von Zielgruppen für das Targeting in unterstützten Werbenetzwerken.</td>
  </tr>
  <tr>
   <td>Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.</td>
-  <td rowspan="3"><a
+  <td rowspan="3" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a></td>
  </tr>
  <tr>
@@ -47,12 +47,11 @@ Welche dieser Anwendungsfälle sind für Ihr Unternehmen wichtig? Entdecken Sie,
  </tr>
  <tr>
   <td>Personalisierung und Targeting auf allen Kundeninteraktionskanälen, die auf Experience Cloud basieren</td>
-  <td rowspan="2"><a
+  <td rowspan="2" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Cloud-Programmen</a></td>
  </tr>
  <tr>
-  <td>Zielgruppen- und Profildaten zwischen Experience Platform und
-  Experience Cloud Apps</td>
+  <td>Gemeinsame Nutzung von Zielgruppen- und Profildaten von Experience Platform und Experience Cloud-Programmen</td>
  </tr>
  <tr>
   <td>Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Dank der Profilsuche in Experience Platform erhalten Mitarbeiter Kontext zum Verbraucher wie kürzlich durchgeführte Käufe, Kampagneninteraktionen, Neigungen, Zielgruppenzugehörigkeiten und andere Attribute sowie Erkenntnisse, die im Echtzeit-Kundenprofil gespeichert sind.</td>
@@ -61,56 +60,56 @@ Welche dieser Anwendungsfälle sind für Ihr Unternehmen wichtig? Entdecken Sie,
  </tr>
  <tr>
   <td>Analyse von Kundeninteraktionen auf Desktop- und Mobilgeräten, um das Kundenverhalten zu verstehen und Erkenntnisse zu gewinnen, mit denen das digitale Kundenerlebnis optimiert werden kann.</td>
-  <td rowspan="2"><a
+  <td rowspan="2" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=en">Kreuz
   Kanal</a></td>
-  <td rowspan="4">Customer Journey Analytics</td>
+  <td rowspan="4" border="1" valign="middle">Customer Journey Analytics</td>
  </tr>
  <tr>
   <td>Analyse von Kundeninteraktionen über sämtliche Kanäle, einschließlich digitaler und Offline-Kanäle, wie Interaktionen mit dem Support und Käufen in Ladengeschäften, um die Customer Journey besser zu verstehen und zu optimieren.</td>
  </tr>
  <tr>
-  <td>Analyse des Kundenverhaltens vor dem Anruf beim Support</td>
-  <td rowspan="2"><a
+  <td>Analyse des Kundenverhaltens vor dem Anruf beim Support.</td>
+  <td rowspan="2" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html?lang=en">Anrufabwendung</a></td>
  </tr>
  <tr>
-  <td>Aufdeckung von Möglichkeiten zur Verbesserung des Self-Service</td>
+  <td>Aufdeckung von Möglichkeiten zur Verbesserung des Self-Service.</td>
  </tr>
  <tr>
-  <td>Geplante E-Mail-Kampagnen</td>
-  <td rowspan="2"><a
+  <td>Geplante E-Mail-Kampagnen.</td>
+  <td rowspan="2" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch
   Messaging und Plattform</a></td>
-  <td rowspan="6">Customer Journeys</td>
+  <td rowspan="6" border="1" valign="middle">Customer Journeys</td>
  </tr>
  <tr>
-  <td>Onboarding- und Re-Marketing-Kampagnen</td>
+  <td>Onboarding- und Re-Marketing-Kampagnen.</td>
  </tr>
  <tr>
-  <td>Trigger-basierte Nachrichten</td>
-  <td rowspan="4"><a
+  <td>Trigger-basierte Nachrichten.</td>
+  <td rowspan="4" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
  </tr>
  <tr>
-  <td>Registrierungsbestätigungen</td>
+  <td>Registrierungsbestätigungen.</td>
  </tr>
  <tr>
-  <td>Abgebrochene Warenkörbe und Anmeldeformulare</td>
+  <td>Abgebrochene Warenkörbe und Anmeldeformulare.</td>
  </tr>
  <tr>
-  <td>Standortbasierte Nachrichten</td>
+  <td>Standortbasierte Nachrichten.</td>
  </tr>
  <tr>
   <td></td>
   <td><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/ingestion.html?lang=en">Daten
   Vorbereitung und Aufnahme</a></td>
-  <td rowspan="4">Datenerfassung und -vorbereitung</td>
+  <td rowspan="4" border="1" valign="middle">Datenerfassung und -vorbereitung</td>
  </tr>
  <tr>
   <td>Erfassen von Web- oder Mobile-Daten mit einem zentralen Sammlungs-Tag, wodurch weniger Code für Client-Browser und -Mobile-Apps nötig ist. Propagieren der erfassten Daten an verschiedene Endpunkte aus einer zentralen Datenerfassungsquelle.</td>
-  <td rowspan="2"><a
+  <td rowspan="2" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html?lang=en">AEP
   Collection Enterprise (Ereignisweiterleitung)</a></td>
  </tr>
@@ -124,21 +123,21 @@ Welche dieser Anwendungsfälle sind für Ihr Unternehmen wichtig? Entdecken Sie,
   Datenerfassung</a></td>
  </tr>
  <tr>
-  <td>Interaktive Abfrage und Sammlung von Daten</td>
-  <td rowspan="3"><a
+  <td>Interaktive Abfrage und Sammlung von Daten.</td>
+  <td rowspan="3" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">Datenanalyse und Datenintelligenz</a></td>
-  <td rowspan="6">Daten
+  <td rowspan="6" border="1" valign="middle">Daten
   Analytics, Intelligence und ML</td>
  </tr>
  <tr>
-  <td>Zeilen- und Spaltenzugriff auf aufgenommene Daten zur Erkundung und Validierung</td>
+  <td>Zeilen- und Spaltenzugriff auf aufgenommene Daten zur Erkundung und Validierung.</td>
  </tr>
  <tr>
-  <td>Dashboarding und Visualisierung von Daten über Business-Intelligence-Tools</td>
+  <td>Dashboarding und Visualisierung von Daten über Business-Intelligence-Tools.</td>
  </tr>
  <tr>
   <td>Extrahieren von Erkenntnissen und Aufdecken von Mustern mit Kundendaten in Experience Platform. Trainieren und Bewerten von Modellen mit diesen Daten.</td>
-  <td rowspan="3"><a
+  <td rowspan="3" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/data-science.html?lang=en">Kunde
   Datenwissenschaft für die Profilanreicherung</a></td>
  </tr>
@@ -149,26 +148,29 @@ Welche dieser Anwendungsfälle sind für Ihr Unternehmen wichtig? Entdecken Sie,
   <td>Trainieren und Bewerten von Modellen, um Kundenerkenntnisse wie Kunden-Lebenszeitwert, Konversions- oder Abwanderungsneigung, Produkt- und Content-Affinität und Interaktionswerte zu ermitteln.</td>
  </tr>
  <tr>
-  <td>Landingpage-Optimierung</td>
-  <td rowspan="3"><a
+  <td>Landingpage-Optimierung.</td>
+  <td rowspan="3" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en">Verhaltensbasierte Personalisierung</a></td>
-  <td rowspan="6" class="xl71" width="271" style="border-top:none;width:203pt">Web- und Mobile-Personalisierung</td>
+  <td rowspan="6" border="1" valign="middle">Web- und Mobile-Personalisierung</td>
  </tr>
  <tr>
-  <td>Behavioral Targeting</td>
+  <td>Behavioral Targeting.</td>
  </tr>
  <tr>
-  <td>Personalisierung basierend auf früheren Produkt-/Content-Ansichten, Produkt-/Content-Affinität, Umgebungsattributen, Third-Party-Zielgruppendaten und demografischen Daten</td>
+  <td>Personalisierung basierend auf früheren Produkt-/Content-Ansichten, Produkt-/Content-Affinität, Umgebungsattributen, Third-Party-Zielgruppendaten und demografischen Daten.</td>
  </tr>
  <tr>
-  <td>Landingpage-Optimierung</td>
-  <td rowspan="3"><a
+  <td>Landingpage-Optimierung.</td>
+  <td rowspan="3" border="1" valign="middle"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=en">Online-/Offline-Personalisierung</a></td>
  </tr>
  <tr>
-  <td>Verhaltens- und Offline-Profil-Targeting</td>
+  <td>Verhaltens- und Offline-Profil-Targeting.</td>
  </tr>
  <tr>
-  <td>Personalisierung basierend auf vorherigen Produkt-/Content-Ansichten, Produkt-/Content-Affinität, Umgebungsattributen, Third-Party-Zielgruppendaten und Offline-Erkenntnissen, wie Transaktionen, Treue- und CRM-Daten und Modellerkenntnissen.</td>
+  <td>Personalisierung basierend auf früheren Produkt-/Inhaltsansichten,
+  Produkt-/Inhaltsaffinität, Umweltattribute, Drittanbieter-Zielgruppe
+  Daten und demografische Daten zusätzlich zu Offline-Einblicken wie Transaktionen,
+  Loyalitäts- und CRM-Daten sowie modellierte Einblicke.</td>
  </tr>
 </table>

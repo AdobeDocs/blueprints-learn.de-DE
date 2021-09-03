@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
-workflow-type: ht
-source-wordcount: '970'
-ht-degree: 100%
+source-git-commit: cbeb90f9ed89e91bab45dcb1dbb30f59c5910bbd
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 92%
 
 ---
 
@@ -23,8 +23,8 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 |---|---|---|
 | **[Anonyme Zielgruppenaktivierung](anonymous.md)** | <ul><li>Identifizieren Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg.</li><li>Third-Party-Zielgruppendaten können für bessere Personalisierung integriert werden.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Aktivierung mit Online- und Offline-Daten](online-offline.md)** | <ul><li>Aktivierung für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele. </li><li>Nutzung von Offline-Attributen und -Ereignissen, wie Offline-Bestellungen, Transaktionen, CRM- oder Treuedaten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und -Personalisierung.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |
-| **[Aktivierung für Datei- und Unternehmens-Streaming-Ziele](enterprise-destinations.md)** | <ul><li>Replikation und Aktualisierung von Profil- und Zielgruppenänderungen in Unternehmensdatenspeichern für Aktivierungs- und Reporting-Anwendungsfälle. </li></ul><ul><li>Einleitung einer Verkaufs- oder Support-Aktion für Kunden durch die Benachrichtigung über eine Kundenaktion von [!UICONTROL Real-Time Customer Data Platform] an Unternehmenssysteme und -programme.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager (optional)</li></ul> |
-| **[Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md)** | <ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud-Programme</li></ul> |
+| **[Aktivierung für Datei- und Unternehmens-Streaming-Ziele](enterprise-destinations.md)** | <ul><li>Aktivierung und Zugriff des Echtzeit-Kundenprofils über Unternehmenssysteme und Anwendungen hinweg, um kontextbezogene Kundenerlebnisse zu optimieren. </li></ul><ul><li>Starten Sie ein Verkaufs- oder Support-Erlebnis mit Einblicken und Ereignissen aus dem Echtzeit-Kundenprofil.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager (optional)</li></ul> |
+| **[Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md)** | <ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Aktivierung der Experience Platform</li><li>Experience Cloud-Programme</li></ul> |
 | **[Customer Activity Hub](customer-activity.md)** | <ul><li>Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Durch die Profilsuche in Experience Platform erhalten Mitarbeiter Kontext zum Verbraucher wie kürzlich durchgeführte Käufe, Kampagneninteraktionen, Neigungen, Zielgruppenzugehörigkeiten und andere Attribute sowie Erkenntnisse, die im Echtzeit-Kundenprofil gespeichert sind.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Architektur des Echtzeit-Kundenprofils
@@ -53,11 +53,11 @@ Die folgende Abbildung zeigt die verschiedenen Segmentierungsmethoden sowie die 
 ### Aktivieren von Attributen und Identitäten
 
 * [!UICONTROL Real-Time Customer Data Platform] kann Zielgruppenzugehörigkeiten sowie Attribut- und Identitätsänderungen für Profile aktivieren, die zu Segmenten gehören, die zur Aktivierung ausgewählt sind. Wenn Sie Attribute oder Identitäten aktivieren möchten, müssen Sie ein globales Segment definieren, das alle Profile enthält, an die Attribut- und Identitätsaktualisierungen gesendet werden. An diesem Punkt können Sie das Segment und die gewünschten Attribute auswählen, die im Zuge der Zielkonfiguration aktiviert werden sollen.
-* Beachten Sie, dass Batch-Ziele nicht die Aktivierung von Ereignissen unterstützen, bei denen nur Attribute geändert werden. Vollständige oder inkrementelle Zielgruppenzugehörigkeiten können zur Aktivierung zusammen mit den ausgewählten Attributen gesendet werden. Sie können jedoch keine Ereignisse über Batch-Ziele aktivieren, bei denen nur Attribute geändert werden.
+* Beachten Sie, dass Batch-Ziele nicht die Aktivierung von Ereignissen unterstützen, bei denen nur Attribute geändert werden. Vollständige oder inkrementelle Zielgruppenmitgliedschaften können zusammen mit den ausgewählten Attributen zur Aktivierung gesendet werden.
 
 ### Aktivieren von Batch-Segmenten für Streaming-Ziele
 
-* Die Aktivierung von Batch-Segmenten für Streaming-Ziele wird unterstützt. Bei Batch-Segmentvorgängen werden Nachrichten in der Pipeline platziert, nachdem der Segmentvorgang für die Streaming-Aktivierung abgeschlossen ist.
+* Die Aktivierung von Batch-Segmenten für Streaming-Ziele wird unterstützt. Da Profile für die Zielgruppenzugehörigkeit aus Batch-Segmentaufträgen qualifiziert sind, können diese Realisierungen durch Streaming-Aktivierung aktiviert werden.
 
 ### Aktivieren von Streaming-Segmenten für Batch-Ziele
 

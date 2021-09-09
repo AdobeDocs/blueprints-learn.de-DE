@@ -4,10 +4,10 @@ description: Führen Sie ausgelöste Nachrichten und Erlebnisse mit Adobe Experi
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
+source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 95%
 
 ---
 
@@ -37,8 +37,8 @@ Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-
 
 * Der Kunde muss über einen Mobile-Entwickler verfügen, der die Mobile App erstellen kann
 * Adobe Experience Platform Mobile SDK
-* Adobe Launch
-   * Mobile-Präsenz
+* Datenerfassung
+   * Eigenschaft für mobile Tags
       * Erweiterungen:
          * Adobe Journey Optimizer-Erweiterung
          * Adobe Experience Platform Edge Network
@@ -53,7 +53,7 @@ Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-
 
 ## Leitlinien
 
-* Im Link erhalten Sie weitere Details zu Einschränkungen
+* Weitere Informationen zu Limits für Journey Optimizer finden Sie unter Link [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 * Batch-Segmente: Stellen Sie sicher, dass Sie das tägliche Volumen an qualifizierten Nutzern verstehen und dass das Zielsystem den maximalen Durchsatz pro Journey und für sämtliche Journeys bewältigen kann
 * Streaming-Segmente: Stellen Sie sicher, dass der erste Strom von Profilqualifikationen neben täglichen Streaming-Volumen pro Journey und für sämtliche Journeys bewältigt werden kann
 * Profilaktualisierungsaktivität: Das Echtzeit-Kundenprofil kann nativ aus der Journey heraus aktualisiert werden.  Bei der Verarbeitung der Aktualisierung in den Profilspeicher kann eine Verzögerung von bis zu einer Minute auftreten.
@@ -73,7 +73,7 @@ Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-
 
 #### Schema/Datensätze
 
-1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=de) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
+1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
 1. Erstellen Sie Adobe Campaign-Schemas für broadLog, trackingLog, nicht zustellbare Adressen und Profileinstellungen (optional).
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) in Experience Platform für die aufzunehmenden Daten.
 1. [Fügen Sie dem Datensatz in Experience Platform Datennutzungskennzeichnungen hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=de), um ordnungsgemäße Governance zu gewährleisten.

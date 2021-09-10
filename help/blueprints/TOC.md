@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints sind wiederholbare Implementierungen, die bekannte Geschäftsprobleme adressieren und Architekturdiagramme, technische Überlegungen und Links zu relevanter Dokumentation enthalten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 7c958db2f2bb9cac4d15420d824de0f9722a8135
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 92%
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)
    + [Server-seitige Erfassung von Unternehmensdaten](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Experience Platform WebSDK](/help/blueprints/data-ingestion/websdk.md)
+   + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
 + Datenanalyse, Datenintelligenz und KI/ML {#data-exploration}
    + [Übersicht](/help/blueprints/data-insights/overview.md)
    + [Datenanalyse und Datenintelligenz](/help/blueprints/data-insights/analysis.md)

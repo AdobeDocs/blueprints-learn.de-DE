@@ -4,16 +4,16 @@ description: Streamen erfasster Daten über Experience Platform-SDKs an Ziele
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Blueprint: Server-seitige Erfassung von Unternehmensdaten
 
-Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mit Web- und Mobile-SDKs von Adobe Experience Platform erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle mit den SDKs erfassten Rohdaten oder bestimmte Daten basierend auf Ereignissen und Regeln entsprechend der Konfiguration in Experience Platform Launch weiterleiten.
+Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mit Web- und Mobile-SDKs von Adobe Experience Platform erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle aus den SDKs erfassten Rohdaten oder spezifischen Daten, die auf Ereignissen und Regeln basieren, weiterleiten, wie in den Tag-Eigenschaften (früher Launch) konfiguriert.
 
 ## Anwendungsfälle
 
@@ -30,8 +30,8 @@ Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mi
 
 ## Verwandte Dokumentation
 
-[Dokumentation zu Experience Platform Launch Server Side ](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=de#server-side-info)
-[Videos zur Server-seitigen Installation von Experience Platform Launch](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=de)
+* [Dokumentation zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [Videos zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=de)
 
 ## Verwandte Blog-Posts
 

@@ -4,10 +4,10 @@ description: Führen Sie ausgelöste Nachrichten und Erlebnisse mit Adobe Experi
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
+source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 95%
+source-wordcount: '714'
+ht-degree: 94%
 
 ---
 
@@ -105,6 +105,6 @@ Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-
 ## Verwandte Dokumentation
 
 * [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
-* [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=de)
+* [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Dokumentation zu Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 * [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)

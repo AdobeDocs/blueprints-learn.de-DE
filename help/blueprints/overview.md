@@ -2,10 +2,10 @@
 title: 'Blueprints: Digitale Erlebnisse'
 description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: d35b3cc34e0b3ab6fce9fc15a96e5f1183b0a0fd
+source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 93%
 
 ---
 
@@ -40,8 +40,8 @@ Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, di
     <p><em>Bereitstellung von zielgruppenaktivierter Cross-Channel-Werbung.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=de"><img alt="Miniaturbild für Blueprint „Konsolidierung von digitalen Verhaltensdaten“" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Konsolidierung von digitalen Verhaltensdaten</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="Miniaturbild für Blueprint „Konsolidierung von digitalen Verhaltensdaten“" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Kanalübergreifende Journey-Analyse</strong></a></div>
     <p><em>Ermöglichen Sie eine einheitliche konsolidierte Ansicht des Kundenverhaltens auf mehreren Kanälen.</em></p>
   </td>
 </tr>

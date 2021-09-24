@@ -5,15 +5,15 @@ solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '220'
+ht-degree: 100%
 
 ---
 
 # Blueprint: Server-seitige Erfassung von Unternehmensdaten
 
-Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mit Web- und Mobile-SDKs von Adobe Experience Platform erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle aus den SDKs erfassten Rohdaten oder spezifischen Daten, die auf Ereignissen und Regeln basieren, weiterleiten, wie in den Tag-Eigenschaften (früher Launch) konfiguriert.
+Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mit Web- und Mobile-SDKs von Adobe Experience Platform erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle mit den SDKs erfassten Rohdaten oder bestimmte Daten basierend auf Ereignissen und Regeln entsprechend der Konfiguration in Tag-Eigenschaften (ehemals Launch) weiterleiten.
 
 ## Anwendungsfälle
 
@@ -30,7 +30,7 @@ Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mi
 
 ## Verwandte Dokumentation
 
-* [Dokumentation zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [Dokumentation zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=de)
 * [Videos zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=de)
 
 ## Verwandte Blog-Posts

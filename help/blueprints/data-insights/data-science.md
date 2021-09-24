@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '442'
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ In der Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) für die zu erfassenden Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
 1. [Aufnehmen der Daten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) in Experience Platform.
-1. [Erstellen eines DSW-Notebooks](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en).
+1. [Erstellen eines DSW-Notebooks](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=de).
 1. Auswählen einer Sprache. Python und PySpark werden unterstützt.
-1. [Erstellen des Modells im Notebook.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en)
-1. [Trainieren des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en).
-1. [Bewerten des Modells, um Vorhersagen mit den Zieldaten zu generieren.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)
-1. [[!UICONTROL Aktivieren der Modellresultat-Datensätze für das Profil, wenn die Modellresultate in das Echtzeit-Kundenprofil übermittelt werden]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en).
+1. [Erstellen des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=de) im Notebook.
+1. [Trainieren des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=de).
+1. [Bewerten des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=de), um Vorhersagen mit den Zieldaten zu generieren.
+1. [Aktivieren der Modellresultat-Datensätze für das Profil, wenn die Modellresultate in das [!UICONTROL Echtzeit-Kundenprofil] übermittelt werden](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=de).
 
 ## Verwandte Dokumentation
 

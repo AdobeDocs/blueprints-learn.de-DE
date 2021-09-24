@@ -7,7 +7,7 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-
 
 ## Leitlinien
 
-* Weitere Informationen zu Limits für Journey Optimizer finden Sie unter Link [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+* Weitere Informationen zu den Leitlinien für Journey Optimizer finden Sie unter [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=de)
 * Batch-Segmente: Stellen Sie sicher, dass Sie das tägliche Volumen an qualifizierten Nutzern verstehen und dass das Zielsystem den maximalen Durchsatz pro Journey und für sämtliche Journeys bewältigen kann
 * Streaming-Segmente: Stellen Sie sicher, dass der erste Strom von Profilqualifikationen neben täglichen Streaming-Volumen pro Journey und für sämtliche Journeys bewältigt werden kann
 * Profilaktualisierungsaktivität: Das Echtzeit-Kundenprofil kann nativ aus der Journey heraus aktualisiert werden.  Bei der Verarbeitung der Aktualisierung in den Profilspeicher kann eine Verzögerung von bis zu einer Minute auftreten.

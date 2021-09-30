@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-
 #### Profil/Identität
 
 1. [Erstellen Sie sämtliche kundenspezifischen Namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
-1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
 1. [Aktivieren Sie die Schemas und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=de).
 1. [Richten Sie Zusammenführungsrichtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=de) für unterschiedliche Ansichten des [!UICONTROL Echtzeit-Kundenprofils] ein (optional).
 1. Erstellen Sie Segmente für die Kampagnennutzung.
@@ -105,6 +105,6 @@ Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-
 ## Verwandte Dokumentation
 
 * [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
-* [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
+* [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=de)
 * [Dokumentation zu Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 * [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)

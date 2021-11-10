@@ -5,9 +5,9 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: e8a1ba803fd085a8323830c5013c35ad00a1147e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 94%
    + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Aktivierung mit Experience Cloud-Programmen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
-+ B2B-Aktivierung und -Marketing{#b2b-activation}
++ B2B: Aktivierung und Marketing {#b2b-activation}
    + [Übersicht](/help/blueprints/b2b/overview.md)
-   + [B2B-Aktivierung](/help/blueprints/b2b/b2bactivation.md)
+   + [B2B: Aktivierung](/help/blueprints/b2b/b2bactivation.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
 + Customer Journeys {#customer-journeys}

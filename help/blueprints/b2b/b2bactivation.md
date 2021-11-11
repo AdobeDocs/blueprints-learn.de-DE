@@ -4,8 +4,8 @@ description: Stellen Sie mit Real-time Customer Data Platform Account-basierte Z
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 exl-id: null
-source-git-commit: d811d82418d477372caa9e5b0b67af197275d459
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Verschiedene B2B-Datenquellen können für die Zuordnung von Account-, Lead-, Op
 
 ## Architektur
 
-<img src="assets/b2b-activation.svg" alt="Referenzarchitektur für die Bluepring „B2B: Aktivierung“" style="border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="Referenzarchitektur für die Bluepring „B2B: Aktivierung“" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien
@@ -95,7 +95,7 @@ Wenn die Implementierung Marketo Engage als Quelle verwendet und Marketo Engage 
 
 ## Verwandte Dokumentation
 
-* [B2B Edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=de)
+* [B2B Edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=de)
 * [Adobe Experience Platform - Marketo-Quell-Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=de)

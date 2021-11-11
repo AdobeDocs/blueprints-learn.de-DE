@@ -4,8 +4,8 @@ description: Diese Blueprint zeigt, wie Data Science Workspace in Adobe Experien
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ In der Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 
 ## Architektur
 
-<img src="assets/data_science.svg" alt="Referenzarchitektur für Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung“" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Referenzarchitektur für Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung“" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementierungsschritte
 
@@ -34,7 +34,7 @@ In der Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 1. Auswählen einer Sprache. Python und PySpark werden unterstützt.
 1. [Erstellen des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=de) im Notebook.
 1. [Trainieren des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=de).
-1. [Bewerten des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=de), um Vorhersagen mit den Zieldaten zu generieren.
+1. [Bewerten des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en), um Vorhersagen mit den Zieldaten zu generieren.
 1. [Aktivieren der Modellresultat-Datensätze für das Profil, wenn die Modellresultate in das [!UICONTROL Echtzeit-Kundenprofil] übermittelt werden](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=de).
 
 ## Verwandte Dokumentation

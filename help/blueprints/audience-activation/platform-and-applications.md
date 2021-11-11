@@ -4,7 +4,7 @@ description: Verwalten Sie Profile und Zielgruppen in Experience Platform und ge
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der 
 
 ### Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referenzarchitektur für die Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referenzarchitektur für die Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien
@@ -48,13 +48,13 @@ Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profi
 
 ## Verwandte Dokumentation
 
-* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform]](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 
 ## Verwandte Videos und Tutorials
 
-* Überblick über [[!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 * [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
 * [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)

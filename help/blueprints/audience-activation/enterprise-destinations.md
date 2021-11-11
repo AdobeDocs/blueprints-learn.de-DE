@@ -4,8 +4,8 @@ description: Zielgruppen- und Profilaktivierung für Unternehmensziele
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 
 ## Architektur
 
-<img src="assets/enterprise_destination_activation.svg" alt="Referenzarchitektur für das Unternehmensaktivierungs-Szenario" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="Referenzarchitektur für das Unternehmensaktivierungs-Szenario" style="width:80%; border:1px solid #4a4a4a" />
 
 
 ## Leitlinien
@@ -56,4 +56,4 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 
 * Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 * [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
-* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

@@ -4,8 +4,8 @@ description: Streamen erfasster Daten über Experience Platform-SDKs an Ziele
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mi
 
 ## Architektur
 
-<img src="assets/enterprise_collection.svg" alt="Referenzarchitektur für die Erfassung von Unternehmensdaten" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Referenzarchitektur für die Erfassung von Unternehmensdaten" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Verwandte Dokumentation
 

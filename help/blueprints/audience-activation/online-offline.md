@@ -4,10 +4,10 @@ description: Online-/Offline-Zielgruppenaktivierung.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 72%
 
 ---
 
@@ -56,7 +56,15 @@ Die Blueprint zur Aktivierung mit Online- und Offline-Daten entspricht in etwa d
 
 * Die Freigabe von Profildaten an Ziele erfordert, dass der spezifische Identitätswert, der vom Ziel in der Ziel-Payload verwendet wird, mit eingeschlossen wird. Jede Identität, die für ein Ziel notwendig ist, muss in Platform aufgenommen und als eine Identität für das [!UICONTROL Echtzeit-Kundenprofil] konfiguriert werden.
 
-* In Aktivierungsszenarios, in denen Zielgruppen aus Experience Platform für Audience Manager freigegeben werden, werden die folgenden Identitäten automatisch freigegeben: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Kunden-Namespaces werden derzeit nicht freigegeben. Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele freigegeben werden, wenn die erforderlichen Zielidentitäten im [!UICONTROL Echtzeit-Kundenprofil] enthalten sind oder wenn Identitäten im [!UICONTROL Echtzeit-Kundenprofil] mit den erforderlichen Zielidentitäten verbunden werden können, die in Audience Manager verknüpft sind.
+### Zielgruppenfreigabe von Real-time Customer Data Platform an Audience Manager
+
+* Die Zielgruppenmitgliedschaft aus der RT-CDP wird für den Audience Manager auf Streaming-Weise freigegeben, sobald die Segmentauswertung abgeschlossen ist, und in das Echtzeit-Kundenprofil geschrieben, unabhängig davon, ob die Segmentauswertung im Batch- oder Streaming-Modus erfolgte. Wenn das qualifizierte Profil die regionalen Routing-Informationen für verwandte Profilgeräte enthält, wird die Zielgruppenzugehörigkeit von RTCDP auf dem zugehörigen Audience Manager Edge in Streaming-Modus qualifiziert. Wenn die Profile aus der RTCDP keine regionalen Routing-Informationen enthalten, werden die Profilmitgliedschaften zur Batch-basierten Auswertung und Aktivierung an den Audience Manager-Hub-Speicherort gesendet. Profile, die für die Edge-Aktivierung infrage kommen, werden innerhalb von Minuten nach der Segmentqualifizierung von RTCDP aktiviert. Profile, die nicht für die Edge-Aktivierung qualifiziert sind, qualifizieren sich für den Audience Manager-Hub und verfügen möglicherweise über einen 12 bis 24-Stunden-Zeitrahmen für die Verarbeitung.
+
+* Regionale Routing-Informationen, auf denen die mit dem Profil verknüpften Geräteinformationen von Audience Manager Edge gespeichert werden, können vom Analytics Data Connector erfasst werden, wenn die Analytics-Daten für die Erfassung in das Profil aktiviert sind, oder direkt vom WebSDK als separater Datensatz mit der Profildatensatzklasse, der dann für das Profil aktiviert werden muss.
+
+* In Aktivierungsszenarios, in denen Zielgruppen aus Experience Platform für Audience Manager freigegeben werden, werden die folgenden Identitäten automatisch freigegeben: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Derzeit werden benutzerdefinierte Namespaces nicht freigegeben.
+
+Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele freigegeben werden, wenn die erforderlichen Zielidentitäten im [!UICONTROL Echtzeit-Kundenprofil] enthalten sind oder wenn Identitäten im [!UICONTROL Echtzeit-Kundenprofil] mit den erforderlichen Zielidentitäten verbunden werden können, die in Audience Manager verknüpft sind.
 
 ## Verwandte Dokumentation
 
@@ -69,4 +77,4 @@ Die Blueprint zur Aktivierung mit Online- und Offline-Daten entspricht in etwa d
 
 * Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 * [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
-* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

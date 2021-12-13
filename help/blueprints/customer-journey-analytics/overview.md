@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 18c5ac6e01636d4d3b0ea0eb2edb92c949c870c5
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 83%
 
 ---
 
@@ -25,9 +25,12 @@ Gängige Analysen umfassen:
 * Kampagnen, die zu Konversion und mehr Interaktion führten
 * Analyse der Tool-Nutzung zur Optimierung von Self-Service-Erlebnissen
 
-| Blueprint | Beschreibung | Experience Cloud-Programme |
-|---|---|---|
-| **[Kanalübergreifende Journey-Analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de)** | <ul><li>Erhalten Sie eine zentrale, konsolidierte Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul> |
+Eine vollständige Liste der Anwendungsfälle für Customer Journey Analytics finden Sie in der Customer Journey Analytics-Dokumentation hier.
+
+## [Link zu Anwendungsfällen für Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en)
+
+Beispiele für primäre Anwendungsfälle waren die folgenden.
+| Blueprint | Beschreibung | Experience Cloud Applications | |—|—|—| | **[Kanalübergreifende Journey-Analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de)**  | <ul><li>Erhalten Sie eine zentrale, konsolidierte Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>|
 | **[Analyse der Anrufabwendung während der Journey](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=de)** | <ul><li>Ermitteln Sie, welche Verhaltensweisen am wahrscheinlichsten mit einem Anruf enden, indem Sie Callcenter-Daten mit Web-, Mobile- und anderen Interaktionsdaten zusammenführen.</li><li>Diese Erkenntnisse können verwendet werden, um das Kundenerlebnis zu verbessern und die Anzahl mitarbeitergestützter Interaktionen durch den Einsatz von Self-Service-Content und -Tools zu reduzieren.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Leitliniendiagramm für die Blueprints zu Customer Journey Analytics

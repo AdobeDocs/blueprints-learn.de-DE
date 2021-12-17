@@ -5,10 +5,10 @@ landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail un
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '738'
-ht-degree: 100%
+source-git-commit: b52346f224964b50ff5e5e553eca88670b7580f3
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 67%
 
 ---
 
@@ -21,6 +21,7 @@ Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und an
 * Landingpage-Optimierung
 * Verhaltens- und Offline-Profil-Targeting
 * Personalisierung basierend auf vorherigen Produkt-/Content-Ansichten, Produkt-/Content-Affinität, Umgebungsattributen, Third-Party-Zielgruppendaten und Offline-Erkenntnissen, wie Transaktionen, Treue- und CRM-Daten und Modellerkenntnissen.
+* Freigeben und Targeting von in Real-time Customer Data Platform definierten Zielgruppen für Websites und mobile Apps mithilfe von Adobe Target.
 
 ## Programme
 
@@ -28,6 +29,46 @@ Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und an
 * Adobe Target
 * Adobe Audience Manager (optional): Fügt Third-Party-Zielgruppendaten, Co-op-basierte Gerätediagramme und die Möglichkeit hinzu, Platform-Segmente in Adobe Analytics und Adobe Analytics-Segmente in Platform zu ermitteln
 * Adobe Analytics (optional): Fügt die Möglichkeit hinzu, Segmente basierend auf historischen Verhaltensdaten und detaillierte Segmentierung aus Adobe Analytics-Daten aufzubauen
+
+## Integrationsmuster
+
+<table class="tg" style="undefined;table-layout: fixed; width: 790px">
+<colgroup>
+<col style="width: 20px">
+<col style="width: 276px">
+<col style="width: 229px">
+<col style="width: 265px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-y6fn">#</th>
+    <th class="tg-f7v4">Integrationsmuster</th>
+    <th class="tg-y6fn">Funktion</th>
+    <th class="tg-f7v4">Voraussetzungen</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">1</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">RTCDP-Streaming und Freigabe von Batch-Zielgruppen für Target und Audience Manager über den Audience Sharing Service-Ansatz</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Freigeben von Streaming- und Batch-Zielgruppen aus RTCDP für Target und Audience Manager über den Audience Sharing-Dienst. Zielgruppen, die in Echtzeit ausgewertet werden, erfordern die WebSDK- und Echtzeitauswertung der Zielgruppe, wie im Integrationsmuster 3 beschrieben.</span></td>
+    <td class="tg-73oq">- Die Zielgruppenprojektion über den Zielgruppen-Sharing-Dienst muss bereitgestellt werden.<br>- Die Integration mit Target erfordert dieselbe IMS-Org wie die Experience Platform-Instanz.<br>- Identität muss in ECID aufgelöst werden, damit sie für Target freigegeben werden kann, damit Maßnahmen ergriffen werden können. AAM verfügt über eine eigene Liste genehmigter Identitäten, die abgeglichen werden sollen<br>- Für diese Integration ist keine WebSDK-Bereitstellung erforderlich.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2</td>
+    <td class="tg-73oq">RTCDP-Streaming und Freigabe von Batch-Zielgruppen für Target über den Edge-Ansatz</td>
+    <td class="tg-0lax">- Freigeben von Streaming- und Batch-Zielgruppen von RTCDP an Target über das Edge Network. Zielgruppen, die in Echtzeit ausgewertet werden, erfordern die WebSDK- und Echtzeitauswertung der Zielgruppe, wie im Integrationsmuster 3 beschrieben.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- Derzeit in der Beta-Phase</span><br>- Das Target-Ziel muss in den RTCDP-Zielen konfiguriert werden.<br>- Die Integration mit Target erfordert dieselbe IMS-Org wie die Experience Platform-Instanz.<br>WebSDK ist nicht erforderlich. WebSDk und AT.js werden unterstützt. <br>- Bei Verwendung von AT.js wird nur die Profilsuche mit der ECID unterstützt. <br>- Für die Suche nach benutzerdefinierten ID-Namespaces in Edge ist die WebSDK-Bereitstellung erforderlich und jede Identität muss in der Identitätszuordnung als Identität festgelegt werden.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3</td>
+    <td class="tg-73oq">Echtzeit-Segmentbewertung der RTCDP-Echtzeit an Edge, die über das Edge-Netzwerk mithilfe des WebSDK für Target freigegeben wurde.</td>
+    <td class="tg-0lax">- Bewerten Sie Zielgruppen in Echtzeit für die gleiche oder die nächste Seitenpersonalisierung an Edge.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- Derzeit in der Beta-Phase</span><br>- Das Target-Ziel muss in den RTCDP-Zielen konfiguriert werden.<br>- Die Integration mit Target erfordert dieselbe IMS-Org wie die Experience Platform-Instanz.<br>- WebSDK muss implementiert sein.<br>- Auch über API unterstützt.</td>
+  </tr>
+</tbody>
+</table>
+
 
 ## Architektur
 
@@ -78,10 +119,11 @@ Voraussetzungen für Identitäten
 1. [Implementieren Sie Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=de) (optional)
 1. [Implementieren Sie Experience Platform und das [!UICONTROL Echtzeit-Kundenprofil]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=de)
 1. Implementieren Sie [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=de) oder [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)
+1. [Fordern Sie die Bereitstellung der Zielgruppenfreigabe zwischen Experience Platform und Adobe Target an (Freigegebene Zielgruppen)](https://www.adobe.com/go/audiences)
    >[!NOTE]
    >
-   >Jedes Programm muss die Experience Cloud-ID nutzen und Teil derselben Experience Cloud-Organisation sein, damit die Zielgruppenfreigabe zwischen Programmen möglich ist.
-1. [Fordern Sie die Bereitstellung der Zielgruppenfreigabe zwischen Experience Platform und Adobe Target an (Freigegebene Zielgruppen)](https://www.adobe.com/go/audiences)
+   >Bei Verwendung des Zielgruppenfreigabe-Dienstes zwischen RTCDP und Adobe Target müssen Zielgruppen mit der Experience Cloud-ID freigegeben werden und zur gleichen Experience Cloud-Org gehören. Die Unterstützung anderer Identitäten als ECID erfordert die Verwendung von WebSDK und Experience Edge Network.
+
 
 ## Verwandte Dokumentation
 
@@ -91,7 +133,7 @@ Voraussetzungen für Identitäten
 * [Überblick über Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de)
 * [Audience Manager Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de)
 * [Segmentfreigabe in Adobe Analytics über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)
-* [Dokumentation zu Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)
+* [Dokumentation zu Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Dokumentation zu Experience Cloud-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
 * [Dokumentation zu Experience Platform Tags ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
 

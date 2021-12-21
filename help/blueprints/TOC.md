@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints sind wiederholbare Implementierungen, die bekannte Geschäftsprobleme adressieren und Architekturdiagramme, technische Überlegungen und Links zu relevanter Dokumentation enthalten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 18c5ac6e01636d4d3b0ea0eb2edb92c949c870c5
+source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 94%
+source-wordcount: '142'
+ht-degree: 92%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 94%
 
 + [Übersicht](/help/blueprints/overview.md)
 + [Alle Anwendungsfälle anzeigen](/help/blueprints/use-cases.md)
++ Alle Erfolgsgeschichten der Branche anzeigen{#industry-success-stories}
+   + [Übersicht](/help/blueprints/industry-success-stories/overview.md)
+   + [Bekleidung](/help/blueprints/industry-success-stories/apparel.md)
+   + [Einzelhandel](/help/blueprints/industry-success-stories/retail.md)
+   + [Telekommunikation](/help/blueprints/industry-success-stories/telecommunications.md)
+   + [Reise- und Gastgewerbe](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + Architekturübersicht {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform und Programme](/help/blueprints/experience-platform/platform-applications.md)
@@ -26,10 +32,9 @@ ht-degree: 94%
    + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Aktivierung mit Experience Cloud-Programmen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
-+ B2B-Analyse und -Aktivierung{#b2b-activation}
++ B2B: Aktivierung und Marketing {#b2b-activation}
    + [Übersicht](/help/blueprints/b2b/overview.md)
    + [B2B: Aktivierung](/help/blueprints/b2b/b2bactivation.md)
-   + [B2B-Analyse](/help/blueprints/b2b/b2banalysis.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
 + Customer Journeys {#customer-journeys}

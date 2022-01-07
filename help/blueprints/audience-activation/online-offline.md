@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,11 @@ Die Blueprint zur Aktivierung mit Online- und Offline-Daten entspricht in etwa d
 
 ### Zielgruppenfreigabe von Real-time Customer Data Platform an Audience Manager
 
-* Die Zielgruppenmitgliedschaft aus der RT-CDP wird für den Audience Manager auf Streaming-Weise freigegeben, sobald die Segmentauswertung abgeschlossen ist, und in das Echtzeit-Kundenprofil geschrieben, unabhängig davon, ob die Segmentauswertung im Batch- oder Streaming-Modus erfolgte. Wenn das qualifizierte Profil die regionalen Routing-Informationen für verwandte Profilgeräte enthält, wird die Zielgruppenzugehörigkeit von RTCDP auf dem zugehörigen Audience Manager Edge in Streaming-Modus qualifiziert. Wenn die Profile aus der RTCDP keine regionalen Routing-Informationen enthalten, werden die Profilmitgliedschaften zur Batch-basierten Auswertung und Aktivierung an den Audience Manager-Hub-Speicherort gesendet. Profile, die für die Edge-Aktivierung infrage kommen, werden innerhalb von Minuten nach der Segmentqualifizierung von RTCDP aktiviert. Profile, die nicht für die Edge-Aktivierung qualifiziert sind, qualifizieren sich für den Audience Manager-Hub und verfügen möglicherweise über einen 12 bis 24-Stunden-Zeitrahmen für die Verarbeitung.
+* Die Zielgruppenmitgliedschaft aus RT-CDP wird für Audience Manager per Streaming freigegeben, sobald die Segmentauswertung abgeschlossen ist. Sie wird unabhängig davon, ob die Segmentauswertung im Batch- oder Streaming-Modus erfolgte, in das Echtzeit-Kundenprofil geschrieben. Wenn das qualifizierte Profil die regionalen Routing-Informationen für zugehörige Profilgeräte enthält, wird die Zielgruppenzugehörigkeit von RTCDP auf dem zugehörigen Audience Manager Edge im Streaming-Modus qualifiziert. Wenn die Profile aus RTCDP keine regionalen Routing-Informationen enthalten, werden die Profilmitgliedschaften zur Batch-basierten Auswertung und Aktivierung an den Audience Manager-Hub gesendet. Profile, die für die Edge-Aktivierung infrage kommen, werden innerhalb von Minuten nach der Segmentqualifizierung durch RTCDP aktiviert. Profile, die nicht für die Edge-Aktivierung qualifiziert sind, qualifizieren sich für den Audience Manager-Hub, dabei dauert die Verarbeitung 12 bis 24 Stunden.
 
-* Regionale Routing-Informationen, auf denen die mit dem Profil verknüpften Geräteinformationen von Audience Manager Edge gespeichert werden, können vom Analytics Data Connector erfasst werden, wenn die Analytics-Daten für die Erfassung in das Profil aktiviert sind, oder direkt vom WebSDK als separater Datensatz mit der Profildatensatzklasse, der dann für das Profil aktiviert werden muss.
+* Regionale Routing-Informationen, auf denen die mit dem Profil zusammenhängenden Geräteinformationen von Audience Manager Edge gespeichert werden, können vom Analytics-Daten-Connector erfasst werden, wenn die Analytics-Daten für die Erfassung im Profil aktiviert sind, oder direkt vom WebSDK als separater Datensatz mit der Profildatensatzklasse, der dann für das Profil aktiviert werden muss.
 
-* In Aktivierungsszenarios, in denen Zielgruppen aus Experience Platform für Audience Manager freigegeben werden, werden die folgenden Identitäten automatisch freigegeben: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Derzeit werden benutzerdefinierte Namespaces nicht freigegeben.
+* In Aktivierungsszenarios, in denen Zielgruppen aus Experience Platform für Audience Manager freigegeben werden, werden die folgenden Identitäten automatisch freigegeben: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Benutzerdefinierte Namespaces werden derzeit nicht freigegeben.
 
 Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele freigegeben werden, wenn die erforderlichen Zielidentitäten im [!UICONTROL Echtzeit-Kundenprofil] enthalten sind oder wenn Identitäten im [!UICONTROL Echtzeit-Kundenprofil] mit den erforderlichen Zielidentitäten verbunden werden können, die in Audience Manager verknüpft sind.
 
@@ -77,4 +77,4 @@ Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele fre
 
 * Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 * [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
-* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)

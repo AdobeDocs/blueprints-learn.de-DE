@@ -4,10 +4,10 @@ description: Online-/Offline-Zielgruppenaktivierung.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 92%
 
 ---
 
@@ -60,7 +60,7 @@ Die Blueprint zur Aktivierung mit Online- und Offline-Daten entspricht in etwa d
 
 * Die Zielgruppenmitgliedschaft aus RT-CDP wird für Audience Manager per Streaming freigegeben, sobald die Segmentauswertung abgeschlossen ist. Sie wird unabhängig davon, ob die Segmentauswertung im Batch- oder Streaming-Modus erfolgte, in das Echtzeit-Kundenprofil geschrieben. Wenn das qualifizierte Profil die regionalen Routing-Informationen für zugehörige Profilgeräte enthält, wird die Zielgruppenzugehörigkeit von RTCDP auf dem zugehörigen Audience Manager Edge im Streaming-Modus qualifiziert. Wenn die Profile aus RTCDP keine regionalen Routing-Informationen enthalten, werden die Profilmitgliedschaften zur Batch-basierten Auswertung und Aktivierung an den Audience Manager-Hub gesendet. Profile, die für die Edge-Aktivierung infrage kommen, werden innerhalb von Minuten nach der Segmentqualifizierung durch RTCDP aktiviert. Profile, die nicht für die Edge-Aktivierung qualifiziert sind, qualifizieren sich für den Audience Manager-Hub, dabei dauert die Verarbeitung 12 bis 24 Stunden.
 
-* Regionale Routing-Informationen, auf denen die mit dem Profil zusammenhängenden Geräteinformationen von Audience Manager Edge gespeichert werden, können vom Analytics-Daten-Connector erfasst werden, wenn die Analytics-Daten für die Erfassung im Profil aktiviert sind, oder direkt vom WebSDK als separater Datensatz mit der Profildatensatzklasse, der dann für das Profil aktiviert werden muss.
+* Regionale Routing-Informationen, auf denen die mit dem Profil verknüpften Geräteinformationen von Audience Manager Edge gespeichert werden, können vom Analytics Data Connector erfasst werden, wenn die Analytics-Daten für die Erfassung in einem Profil aktiviert sind, oder direkt vom Web SDK als separater Datensatz der Profildatensatzklasse, der dann für das Profil aktiviert werden muss.
 
 * In Aktivierungsszenarios, in denen Zielgruppen aus Experience Platform für Audience Manager freigegeben werden, werden die folgenden Identitäten automatisch freigegeben: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Benutzerdefinierte Namespaces werden derzeit nicht freigegeben.
 
@@ -77,4 +77,4 @@ Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele fre
 
 * Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 * [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
-* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

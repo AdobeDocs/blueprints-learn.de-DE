@@ -1,44 +1,44 @@
 ---
-title: Bekleidungsindustrie - Aktivierung mit Experience Cloud-Anwendungen
-description: Verwendung mehrerer Blueprints zur Aktivierung von Echtzeit-Marketing, kanalübergreifender Aktivierung und kanalübergreifender Analyse.
+title: Bekleidungsindustrie – Aktivierung mit Experience Cloud-Programmen
+description: Verwendung mehrerer Blueprints für Echtzeit-Marketing sowie kanalübergreifende Aktivierung und Analyse.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 
-# Berufsindustrie - geschäftliche Herausforderung
+# Bekleidungsindustrie – geschäftliche Herausforderung
 
-Diese spezielle Beschwerdestelle ist weltweit führend in Design, Entwicklung, Fertigung und Vertrieb von Schuhen, Bekleidung, Ausrüstung, Accessoires und Dienstleistungen.
+Dieses Bekleidungsunternehmen ist weltweit führend in Design, Entwicklung, Fertigung und Vertrieb von Schuhen, Bekleidung, Ausrüstung, Accessoires und Dienstleistungen.
 
-Ihr globales Technologieteam setzt Adobe Experience Platform und relevante Adoben ein, um die folgenden wichtigen Problembereiche anzugehen:
+Sein globales Technologie-Team setzt Adobe Experience Platform und Adobe-Lösungen ein, um die folgenden Herausforderungen zu bewältigen:
 
-* Konsistente kanalübergreifende Nachrichten und Aktivierungen
-* Trigger-basiertes Echtzeit-Marketing
-* Personalisierung und Fähigkeit zur Messung der Kampagneneffizienz und Fähigkeit, 360-Kunden-Analyse und -Attribution durchzuführen
+* Konsistentes, kanalübergreifendes Messaging einschließlich Aktivierungen
+* Auf Auslösern basierendes Echtzeit-Marketing
+* Personalisierung und Messung der Wirkung von Kampagnen sowie umfassende Kundenanalyse und Attribution
 
-## Adobe
+## Lösungsansatz von Adobe
 
-* Erstellen Sie eine solide Platform-Grundlage, um dem Unternehmen einen Mehrwert zu bieten und unternehmensweite Akzeptanz zu erzielen.
-* Zusammenarbeit mit technischen Teams, um sicherzustellen, dass bei der Implementierung der Technologie ein geschäftlicher Nutzen erzielt wird.
-* Erstellen Sie eine 360-minütige Ansicht der Kunden dieses Bekleidungsunternehmens, um Kampagnen direkt zu segmentieren, zu aktivieren und zu berichten.
-* Automatisieren Sie Trigger und orchestrieren Sie personalisierte Journey.
+* Einrichtung einer soliden Plattform als Grundlage zur Unterstützung des gesamten Unternehmens.
+* Zusammenarbeit mit technischen Teams, um sicherzustellen, dass durch die Implementierung dieser Technologie ein geschäftlicher Nutzen erzielt wird.
+* Erstellen einer ganzheitlichen Sicht auf den Kunden, um eine direkte Segmentierung, Aktivierung und Berichterstellung bei Kampagnen zu ermöglichen.
+* Automatisieren von Auslösern und Orchestrierung von personalisierten Customer Journeys.
 
-## Geschäftlicher Wert bereitgestellt
+## Realisierter geschäftlicher Wert
 
-| Ziele | Taktik | Wert entsperrt |
+| Ziele | Taktik | Erzielter Wert |
 |---|---|---|
-| **Verknüpfte kanalübergreifende Erlebnisse **<br></br>**Förderung von Interaktion und Treue **<br></br>**Datendemokratisierung und Einblicke**</ul> | <ul><li>Es wurden mehrere Unternehmensdatensätze integriert, um Dutzende von Millionen von Profilen und Hunderten von Segmenten, mehreren Zielen und Berichterstellungs-Dashboards zu erstellen</li><li>Aktivierung über mehrere Ziele mit Real-time Customer Data Platform</li><li>Analysefunktion auf Kundenebene entsperrt mit Customer Journey Analysis</li><li>Automatisierte Trigger für Kundeninteraktionen, die über Adobe Journey Optimizer implementiert werden</li></ul> | <ul><li><strong> Kundenprofil: </strong>360 Grad Ansicht der Kunden zur Segmentierung</li><li><strong>Zielaktivierungen: </strong>Aktivierung auf den Plattformen für gebührenpflichtige Medien, E-Mail und Social</li><li><strong>Kundenanalyse und Attribution: </strong>Kanalübergreifende Attributionsanalyse verfügbar für Ad-hoc-Analysen und einfach verteilt<li><strong>Journey Orchestration: </strong> Ausgelöste Kampagnen und geplante Kampagnen mithilfe von Echtzeit-Kontext erstellen und umsetzen</li></ul> |
+| **Verknüpfte Cross-Channel-Erlebnisse **<br></br>** Förderung von Interaktion und Kundenbindung **<br></br>** Datendemokratisierung und Erkenntnisse**</ul> | <ul><li>Integration mehrerer Unternehmensdatensätze, um Millionen von Profilen, Hunderte Segmente, unterschiedliche Ziele und Reporting-Dashboards zu ermöglichen</li><li>Aktivierung für mehrere Ziele mit Real-time Customer Data Platform</li><li>Analysefunktion auf Kundenebene durch Customer Journey Analysis</li><li>Automatisierte Ereignisauslöser für Kundeninteraktionen, die unter Verwendung von Adobe Journey Optimizer implementiert werden</li></ul> | <ul><li><strong> Kundenprofil: </strong>360-Grad-Sicht auf die Kunden zur Segmentierung</li><li><strong>Zielaktivierungen: </strong>Aktivierung auf Paid-Media-, E-Mail- und Social-Media-Plattformen</li><li><strong>Kundenanalyse und Attribution: </strong>Kanalübergreifende Attributionsanalyse, die sofort verfügbar ist und einfach verteilt werden kann<li><strong>Journey Orchestration: </strong> Erstellen und Operationalisieren von automatisch ausgelösten und geplanten Kampagnen mithilfe von Echtzeit-Kontext</li></ul> |
 
-## Primäres Blueprint: Zielgruppe und Aktivierung mit Experience Cloud-Anwendungen
+## Primäre Blueprint: Zielgruppen und Aktivierung mit Experience Cloud-Programmen
 
 ### Beschreibung
 
-<ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul>
+<ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Erkenntnisse in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul>
 
 ### Experience Cloud-Programme
 
@@ -46,7 +46,7 @@ Ihr globales Technologieteam setzt Adobe Experience Platform und relevante Adobe
 
 ### Blueprint-Architektur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für ein Bekleidungsgeschäft mit Zielgruppenaktivierung, Journey-Analyse für Kunden und Blueprints für Journey" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für ein Bekleidungsunternehmen, das Audience Activation, Customer Journey Analytics und Customer-Journey-Blueprints nutzt" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
 
 
 

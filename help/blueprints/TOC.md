@@ -1,26 +1,26 @@
 ---
-user-guide-title: 'Blueprints: Digitale Erlebnisse'
+user-guide-title: Blueprints für digitale Erlebnisse
 breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints sind wiederholbare Implementierungen, die bekannte Geschäftsprobleme adressieren und Architekturdiagramme, technische Überlegungen und Links zu relevanter Dokumentation enthalten.
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Blueprints: Digitale Erlebnisse {#architecture}
+# Blueprints für digitale Erlebnisse {#architecture}
 
 + [Übersicht](/help/blueprints/overview.md)
 + [Alle Anwendungsfälle anzeigen](/help/blueprints/use-cases.md)
-+ Alle Erfolgsgeschichten der Branche anzeigen{#industry-success-stories}
++ Alle Kundenreferenzen anzeigen {#industry-success-stories}
    + [Übersicht](/help/blueprints/industry-success-stories/overview.md)
    + [Bekleidung](/help/blueprints/industry-success-stories/apparel.md)
    + [Einzelhandel](/help/blueprints/industry-success-stories/retail.md)
    + [Telekommunikation](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [Reise- und Gastgewerbe](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [Tourismus und Gastgewerbe](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + Architekturübersicht {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform und Programme](/help/blueprints/experience-platform/platform-applications.md)

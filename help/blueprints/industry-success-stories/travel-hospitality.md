@@ -1,36 +1,36 @@
 ---
-title: Reise- und Gastgewerbe - Aktivierung mit Online- und Offline-Daten
-description: Echtzeitentscheidungen mit einer zentralen Übersicht über das Kundenverhalten in verschiedenen Kanälen.
+title: Tourismus und Gastgewerbe – Aktivierung mit Online- und Offline-Daten
+description: Echtzeitentscheidungen mit einer konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 
-# Geschäftliche Herausforderung für Reise- und Gastgewerbe
+# Tourismus und Gastgewerbe – geschäftliche Herausforderung
 
-Ein Casino- und Entertainment-Unternehmen in den USA wollte ihre Fähigkeit revolutionieren, Daten zu nutzen und so personalisierte Echtzeitverbindungen zu schaffen.  Diese Vision wurde umso wichtiger, als die COVID-19-Pandemie die Interaktion der Kunden mit Reise- und Gastgewerbe veränderte.
+Ein Casino- und Entertainment-Unternehmen in den USA wollte seine Fähigkeit zur Datennutzung grundlegend verbessern, um personalisierte Kundenverbindungen in Echtzeit zu schaffen. Im Zuge der COVID-19-Pandemie gewann dieses Unternehmensziel an Bedeutung, da sich das Kundenverhalten gegenüber der Tourismus- und Gastgewerbebranche veränderte.
 
-Dank der Nutzung von Adobe-Technologien und -Dienstleistungen ist diese Organisation nun bereit, sich in ihren Zielen zu behaupten und ist bereit, sich der Post-Pandemie-Zukunft zu stellen.
+Dank der Nutzung von Adobe-Technologien und -Services ist dieses Unternehmen nun in der Lage, seine Ziele zu umzusetzen, und ist gleichzeitig optimal gerüstet für die Zeit nach der Pandemie.
 
-## Adobe
+## Lösungsansatz von Adobe
 
-* Integration von Adobe Experience Platform in den bestehenden Technologiestapel zur Bereitstellung lösungsübergreifender Kundeninteraktionen.
-* Real-time Customer Data Platform und Customer Journey Analytics wurden aktiviert, um eine kontinuierliche Analyse und personalisierte Kundenprofile bereitzustellen.
-* Es wurde eine ganzheitliche Sicht der Journey entwickelt, um eine effektive Marketing-Attribution und Ressourcenzuordnung zu unterstützen.
-* COVID-19 wurde mit einer Strategie umgesetzt, die das Geschäft vorbereitet und gleichzeitig die Interaktion mit den Kunden fortgesetzt hat.
+* Integration von Adobe Experience Platform in den vorhandenen Technologie-Stack zur Ermöglichung lösungsübergreifender Kundeninteraktionen.
+* Aktivierung von Real-time Customer Data Platform und Customer Journey Analytics, um eine kontinuierliche Analyse und personalisierte Kundenprofile bereitzustellen.
+* Schaffung einer ganzheitlichen Sicht auf die Customer Journey, um eine effektive Marketing-Attribution und Ressourcenzuweisung zu ermöglichen.
+* Umsetzung einer COVID-19-Strategie, durch die das Unternehmen optimal auf künftige Anforderungen vorbereitet wurde und gleichzeitig Kundeninteraktionen gefördert wurden.
 
-## Geschäftlicher Wert bereitgestellt
+## Realisierter geschäftlicher Wert
 
-| Ziele | Taktik | Wert entsperrt |
+| Ziele | Taktik | Erzielter Wert |
 |---|---|---|
-| **Machen Sie jedes Erlebnis für diesen Gastbenutzer relevant **<br></br>**Business-bereite Einblicke und Datendemokratie über Dashboards **<br></br>**Organisatorische und operative Wirksamkeit**</ul> | <ul><li>Gast-Profile für einheitliche Prämien, die Online- und Offline-Daten zur Aktivierung und Messung verwenden</li><li>Echtzeit-Aktivierung über Kanäle hinweg in Geschwindigkeit und Skalierung</li><li>Analysefunktion auf Kundenebene entsperrt mit Customer Journey Analysis</li><li>Entwickeln Sie Intelligenz, um die Aktivierung zu verbessern, indem Sie aus den historischen Clickstream-Interaktionsdaten lernen.</li><li>Nutzen Sie Online- und Offline-Daten, um eine Kundenansicht für Einblicke über Kundenkanäle und Journey hinweg zu vereinheitlichen.</li></ul> | <ul><li><strong> Kanalübergreifende Aktivierung: </strong>Förderung der 3X-E-Mail-Interaktion, adressierbares Zielgruppenwachstum und Impressionswachstum, stark personalisierte Web-Erlebnisse </li><li><strong>Intelligence: </strong>Das Gastbelohnungsprogramm betreibt eine Aktivierungskampagne zur Senkung der Mitgliederabwanderungsraten</li><li><strong>Berichterstellung: </strong>Zusammengeführt von Online-/Offline-Daten mit KI/ML-Erkennungen in einem geschäftsfreundlichen Journey- und Attributions-Dashboard, während gleichzeitig die Latenz reduziert wird (nach Tagen)</li><li><strong>Zukunftssicheres Technologiestapel: </strong>Zehntausende von Profilen in 7 Kanälen, die für Szenarien des Crosssell-, Up-Sell- und Ausgabenoptimierungen ausgeführt werden können</li></ul> |
+| **Bereitstellung relevanter Erlebnisse für den Gast **<br></br>** Umsetzbare Erkenntnisse und Datendemokratie durch Dashboards **<br></br>** Organisatorische und operative Effizienz**</ul> | <ul><li>Erstellung eines einheitlichen Prämienprogramms für Gastprofile, wobei Online- und Offline-Daten zur Aktivierung und Messung herangezogen wurden</li><li>Schnelle und skalierbare kanalübergreifende Aktivierung in Echtzeit</li><li>Analysefunktion auf Kundenebene durch Customer Journey Analysis</li><li>Nutzung von historischen Clickstream-Interaktionsdaten zur Verbesserung der Aktivierung.</li><li>Nutzung von Online- und Offline-Daten, um eine einheitliche Kundenansicht zu erreichen und Erkenntnisse über Kundenkanäle und Customer Journeys hinweg zu ermöglichen.</li></ul> | <ul><li><strong> Kanalübergreifende Aktivierung: </strong>Verdreifachung der Interaktion mit E-Mails, Zunahme der direkt ansprechbaren Zielgruppe und Steigerung der Impressions, stark personalisierte Web-Erlebnisse </li><li><strong>Intelligence: </strong>Im Rahmen des Prämienprogramms für Gäste wird eine Aktivierungskampagne durchgeführt, um die Abwanderungsrate von Mitgliedern zu senken</li><li><strong>Reporting: </strong>Kombination von Online-/Offline-Daten mit KI/ML-Erkenntnissen in einem benutzerfreundlichen Journey- und Attributions-Dashboard, während gleichzeitig die Latenz reduziert wird (um Tage)</li><li><strong>Zukunftssicherer Technologie-Stack: </strong>Millionen von Profilen auf sieben Kanälen, die für Crossselling, Upselling und Ausgabenoptimierung genutzt werden können</li></ul> |
 
-## Primäres Blueprint: Aktivierung mit Online- und Offline-Daten
+## Primäre Blueprint: Aktivierung mit Online- und Offline-Daten
 
 ### Beschreibung
 
@@ -42,7 +42,7 @@ Dank der Nutzung von Adobe-Technologien und -Dienstleistungen ist diese Organisa
 
 ### Blueprint-Architektur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für ein Reisen- und Gastgewerbe, das Echtzeitentscheidungen trifft, mit einer einzigen konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für ein Unternehmen in der Tourismus- und Gastgewerbebranche, das in der Lage ist, mithilfe einer konsolidierten Ansicht des Kundenverhaltens auf verschiedenen Kanälen Echtzeitentscheidungen zu treffen." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
 
 
 

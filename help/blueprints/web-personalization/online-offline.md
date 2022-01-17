@@ -8,7 +8,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 63%
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und an
 * Landingpage-Optimierung
 * Verhaltens- und Offline-Profil-Targeting
 * Personalisierung basierend auf vorherigen Produkt-/Content-Ansichten, Produkt-/Content-Affinität, Umgebungsattributen, Third-Party-Zielgruppendaten und Offline-Erkenntnissen, wie Transaktionen, Treue- und CRM-Daten und Modellerkenntnissen.
-* Freigeben und Targeting von in Real-time Customer Data Platform definierten Zielgruppen für Websites und mobile Apps mithilfe von Adobe Target.
+* Freigeben und Targeting von in Real-time Customer Data Platform definierten Zielgruppen auf Websites und in Mobile Apps mithilfe von Adobe Target.
 
 ## Programme
 
@@ -41,30 +41,30 @@ Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und an
 </colgroup>
 <thead>
   <tr>
-    <th class="tg-y6fn">#</th>
+    <th class="tg-y6fn">Nr.</th>
     <th class="tg-f7v4">Integrationsmuster</th>
-    <th class="tg-y6fn">Funktion</th>
+    <th class="tg-y6fn">Fähigkeit</th>
     <th class="tg-f7v4">Voraussetzungen</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">RTCDP-Streaming und Freigabe von Batch-Zielgruppen für Target und Audience Manager über den Audience Sharing Service-Ansatz</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Freigeben von Streaming- und Batch-Zielgruppen aus RTCDP für Target und Audience Manager über den Audience Sharing-Dienst. Zielgruppen, die in Echtzeit ausgewertet werden, erfordern die WebSDK- und Echtzeitauswertung der Zielgruppe, wie im Integrationsmuster 3 beschrieben.</span></td>
-    <td class="tg-73oq">- Die Zielgruppenprojektion über den Zielgruppen-Sharing-Dienst muss bereitgestellt werden.<br>- Die Integration mit Target erfordert dieselbe IMS-Org wie die Experience Platform-Instanz.<br>- Identität muss in ECID aufgelöst werden, damit sie für Target freigegeben werden kann, damit Maßnahmen ergriffen werden können. AAM verfügt über eine eigene Liste genehmigter Identitäten, die abgeglichen werden sollen<br>- Für diese Integration ist keine WebSDK-Bereitstellung erforderlich.</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Streaming- und Batch-Zielgruppenfreigabe aus RTCDP für Target und Audience Manager über den Audience Sharing Service</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Freigeben von Streaming- und Batch-Zielgruppen aus RTCDP für Target und Audience Manager über den Audience Sharing Service. Die Auswertung von Zielgruppen in Echtzeit erfordert das WebSDK und die Echtzeitauswertung der Zielgruppe, wie im Integrationsmuster 3 beschrieben.</span></td>
+    <td class="tg-73oq">- Die Zielgruppenprognose per Audience Sharing Service muss bereitgestellt werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.<br>- Die Identität muss in ECID aufgelöst werden, damit sie im Edge Network zur Nutzung für Target freigegeben werden kann. AAM verfügt für den Abgleich über eine eigene Liste genehmigter Identitäten <br>- Für diese Integration ist keine WebSDK-Bereitstellung erforderlich.</td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-73oq">RTCDP-Streaming und Freigabe von Batch-Zielgruppen für Target über den Edge-Ansatz</td>
-    <td class="tg-0lax">- Freigeben von Streaming- und Batch-Zielgruppen von RTCDP an Target über das Edge Network. Zielgruppen, die in Echtzeit ausgewertet werden, erfordern die WebSDK- und Echtzeitauswertung der Zielgruppe, wie im Integrationsmuster 3 beschrieben.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Derzeit in der Beta-Phase</span><br>- Das Target-Ziel muss in den RTCDP-Zielen konfiguriert werden.<br>- Die Integration mit Target erfordert dieselbe IMS-Org wie die Experience Platform-Instanz.<br>WebSDK ist nicht erforderlich. WebSDk und AT.js werden unterstützt. <br>- Bei Verwendung von AT.js wird nur die Profilsuche mit der ECID unterstützt. <br>- Für die Suche nach benutzerdefinierten ID-Namespaces in Edge ist die WebSDK-Bereitstellung erforderlich und jede Identität muss in der Identitätszuordnung als Identität festgelegt werden.</td>
+    <td class="tg-73oq">Streaming- und Batch-Zielgruppenfreigabe aus RTCDP für Target über das Edge Network</td>
+    <td class="tg-0lax">- Freigeben von Streaming- und Batch-Zielgruppen aus RTCDP für Target über das Edge Network. Die Auswertung von Zielgruppen in Echtzeit erfordert das WebSDK und die Echtzeitauswertung der Zielgruppe, wie im Integrationsmuster 3 beschrieben.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- Derzeit in der Beta-Phase</span><br>- Das Target-Ziel muss in den RTCDP-Zielen konfiguriert werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.<br>WebSDK ist nicht erforderlich. WebSDK und AT.js werden unterstützt. <br>- Bei Verwendung von AT.js wird nur die Profilsuche mit der ECID unterstützt. <br>- Für die Suche nach benutzerdefinierten ID-Namespaces in Edge Network ist die WebSDK-Bereitstellung erforderlich und jede Identität muss in der Identitätszuordnung als Identität festgelegt werden.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-73oq">Echtzeit-Segmentbewertung der RTCDP-Echtzeit an Edge, die über das Edge-Netzwerk mithilfe des WebSDK für Target freigegeben wurde.</td>
-    <td class="tg-0lax">- Bewerten Sie Zielgruppen in Echtzeit für die gleiche oder die nächste Seitenpersonalisierung an Edge.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Derzeit in der Beta-Phase</span><br>- Das Target-Ziel muss in den RTCDP-Zielen konfiguriert werden.<br>- Die Integration mit Target erfordert dieselbe IMS-Org wie die Experience Platform-Instanz.<br>- WebSDK muss implementiert sein.<br>- Auch über API unterstützt.</td>
+    <td class="tg-73oq">In Echtzeit durchgeführte RTCDP-Segmentevaluierung im Edge Network wird über das Edge Network unter Verwendung des WebSDK für Target freigegeben.</td>
+    <td class="tg-0lax">- Evaluieren von Zielgruppen in Echtzeit im Edge Network zur Personalisierung derselben oder der nächsten Seite.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- Derzeit in der Beta-Phase</span><br>- Das Target-Ziel muss in den RTCDP-Zielen konfiguriert werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.<br>- WebSDK muss implementiert sein.<br>- Unterstützung auch über API.</td>
   </tr>
 </tbody>
 </table>
@@ -133,7 +133,7 @@ Voraussetzungen für Identitäten
 1. [Aktivieren von Adobe Target as a destination in Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) oder für den Ansatz der Zielgruppenfreigabe [Anfordern der Bereitstellung für Zielgruppenfreigabe zwischen Experience Platform und Adobe Target (freigegebene Zielgruppen)](https://www.adobe.com/go/audiences) , um Zielgruppen von Experience Platform für Target freizugeben.
    >[!NOTE]
    >
-   >Bei Verwendung des Zielgruppenfreigabe-Dienstes zwischen RTCDP und Adobe Target müssen Zielgruppen mit der Experience Cloud-ID freigegeben werden und zur gleichen Experience Cloud-Org gehören. Die Unterstützung anderer Identitäten als ECID erfordert die Verwendung von WebSDK und Experience Edge Network.
+   >Bei Verwendung des Audience Sharing Service zwischen RTCDP und Adobe Target müssen Zielgruppen mit der Experience Cloud-ID freigegeben werden und zur gleichen Experience Cloud-Org gehören. Die Unterstützung anderer Identitäten als ECID erfordert die Verwendung des WebSDK und des Experience Edge Network.
 
 
 ## Verwandte Dokumentation

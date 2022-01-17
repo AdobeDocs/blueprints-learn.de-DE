@@ -1,36 +1,36 @@
 ---
-title: Einzelhandelsbranche - Aktivierung mit Experience Cloud-Anwendungen
-description: Bereitstellung von Echtzeit- und Kundenerlebnissen über digitale Medien-, E-Mail-, Push- und Webkanäle hinweg.
+title: Einzelhandelsbranche – Aktivierung mit Experience Cloud-Programmen
+description: Bereitstellung von Echtzeit-Kundenerlebnissen auf Social-Media-, E-Mail-, Push- und Web-Kanälen.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 
-# Geschäftliche Herausforderung der Einzelhandelsbranche
+# Einzelhandelsbranche – geschäftliche Herausforderung
 
-Dieses integrierte Erlebnisgeschäft zielte darauf ab, die gesamte Journey zu personalisieren, um die Kundentreue zu steigern, Upsell an Bestandskunden zu erzielen und die Marketingausgaben für alle Kampagnen zu verbessern. Die Strategie zur Erreichung dieses Ziels besteht darin, ihre digitale Fähigkeit zu erweitern, um Offline-Kundendaten und Transaktionsdaten einzubeziehen und so das Wachstum zu fördern.
+Dieses integrierte Experience Business wollte die gesamte Customer Journey personalisieren, um die Kundentreue zu festigen, Upselling an Bestandskunden zu betreiben und die Marketing-Ausgaben für Kampagnen sinnvoller einzusetzen. Die Strategie, die das Unternehmen wählte, zielte darauf ab, seine digitalen Fähigkeiten zu verbessern, damit es die Daten von Offline-Kunden und Transaktionen einbeziehen und so das Unternehmenswachstum steigern konnte.
 
-## Adobe
+## Lösungsansatz von Adobe
 
-* Generieren eines einheitlichen Kundenprofils, das alle relevanten Online-/Offline-Daten enthält, die in Echtzeit aktiviert werden können
-* Organisieren Sie Kundeninteraktionen über Web-, Medien- und Push-Kanäle hinweg, um das Kaufverhalten beim ersten oder zweiten Mal zu steigern.
+* Erstellen eines einheitlichen Kundenprofils, das alle relevanten Online-/Offline-Daten enthält, die in Echtzeit aktiviert werden können
+* Orchestrieren von Kundeninteraktionen auf Web-, Social-Media- und Push-Kanälen, um Erstkäufe und wiederholte Käufe anzuregen.
 
-## Geschäftlicher Wert bereitgestellt
+## Realisierter geschäftlicher Wert
 
-| Ziele | Taktik | Wert entsperrt |
+| Ziele | Taktik | Erzielter Wert |
 |---|---|---|
-| **Echtzeit-Journey koordinieren **<br></br>**Wiederholte Käufe von neuen Kunden fördern **<br></br>**Verbesserung der Marketingeffizienz und Senkung der Medienkosten**</ul> | <ul><li>Robuste Daten- und Identitätsstrategie, um ein umfassendes Echtzeit-Profil zu ermöglichen.</li><li>Kunden- und Transaktionsdaten-Streaming in Echtzeit, einschließlich einer historischen Belastung von 90 Tagen</li><li>Streaming der Segmentierung in Google und Adobe Target, um die Ausgaben für Medien und die Personalisierung zu optimieren.</li><li>Echtzeit-Journey von Kunden über Adobe Campaign, einschließlich einer Strategie zur Leistungsmessung</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Echtzeit- und Kundenerlebnisse über Medien, E-Mail, Push und Web hinweg bereitstellen</li><li><strong>Data Sources:</strong> Streaming-Daten, die die Profilspeicher, das Bestellsystem, den Produktkatalog und Einzelhandelsgeschäfte dieses Einzelhändlers abdecken.</li><li><strong>Aktivierung von Echtzeit-Medien:</strong>Streaming von Segmenten an Google-Medien für Attribution und Anzeigenunterdrückung</li><li><strong>Echtzeit-Web-Personalisierung:</strong>Streaming von Segmenten an Adobe Target, um das Web-Erlebnis des Einzelhändlers zu aktivieren.</li><li><strong>Journey Orchestration bei Skalierung:</strong>Ausgelöstes Messaging in Echtzeit, angereichert mit allen verfügbaren Kundendaten und Aktivierung von Echtzeit in E-Mail- und Push-Kanälen</li></ul> |
+| **Orchestrierung der Customer Journeys in Echtzeit **<br></br>** Anregen wiederholter Einkäufe durch neue Kunden **<br></br>** Verbesserung der Marketing-Effizienz und Senkung der Medienkosten**</ul> | <ul><li>Zuverlässige Daten- und Identitätsstrategie, um ein umfassendes Echtzeit-Profil zu erstellen</li><li>Kunden- und Transaktionsdaten-Streaming in Echtzeit, einschließlich historischer Daten über einen Zeitraum von 90 Tagen</li><li>Streaming-Segmentierung in Google und Adobe Target, um Medienausgaben und Personalisierung zu optimieren.</li><li>Customer Journeys in Echtzeit über Adobe Campaign einschließlich einer Strategie zur Performance-Messung</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Bereitstellung von Echtzeit-Kundenerlebnissen auf den Social-Media-, E-Mail-, Push- und Web-Kanälen</li><li><strong>Datenquellen:</strong> Streaming von Daten von den Profildatenbanken, vom Bestellsystem, vom Produktkatalog und von den Einzelhandelsgeschäften dieses Einzelhändlers</li><li><strong>Echtzeit-Medienaktivierung:</strong> Streaming von Segmenten an Google-Medien zur Attribution und Anzeigenunterdrückung</li><li><strong>Echtzeit-Web-Personalisierung:</strong> Streaming von Segmenten an Adobe Target zur Aktivierung des Web-Kanals des Einzelhändlers</li><li><strong>Skalierbare Journey-Orchestrierung:</strong> Automatisch ausgelöstes Messaging in Echtzeit, angereichert mit allen verfügbaren Kundendaten und Echtzeit-Aktivierung von E-Mail- und Push-Kanälen</li></ul> |
 
-## Primäres Blueprint: Zielgruppe und Aktivierung mit Experience Cloud-Anwendungen
+## Primäre Blueprint: Zielgruppen und Aktivierung mit Experience Cloud-Programmen
 
 ### Beschreibung
 
-<ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul>
+<ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Erkenntnisse in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul>
 
 ### Experience Cloud-Programme
 
@@ -38,7 +38,7 @@ Dieses integrierte Erlebnisgeschäft zielte darauf ab, die gesamte Journey zu pe
 
 ### Blueprint-Architektur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für ein Einzelhandelsunternehmen, das Echtzeit-Kundenerlebnisse über digitale Medien, E-Mails, Push-Benachrichtigungen und Webkanäle bereitstellt" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für einen Einzelhändler, der Echtzeit-Kundenerlebnisse auf den Social-Media-, E-Mail-, Push- und Web-Kanälen bereitstellt." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
 
 
 

@@ -1,25 +1,25 @@
 ---
-title: B2B-Analyse
-description: Perschaum-B2B-Kontostufenanalyse mit Customer Journey Analytics-​.
+title: 'B2B: Analysen'
+description: B2B-Analysen auf Account-Ebene mit Customer Journey Analytics.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics
 kt: 9481
 source-git-commit: 279ebdb24b3f9ae5bfd9e3358bbcec1eb48cb4ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# B2B-Analyse
+# B2B: Analysen
 
-Eine B2B-Analyse kann im Customer Journey Analytics durchgeführt werden, indem die Daten auf Kontoebene und nicht auf Personenebene zur Analyse angegeben werden. Darüber hinaus können Kontoebenen-Daten mit Daten auf Benutzerebene verknüpft werden, indem kontobasierte Lookup-Datensätze verwendet werden, die an Personen in Customer Journey Analytics gebunden sind.
+Bei einer B2B-Analyse in Customer Journey Analytics werden Daten auf Account-Ebene anstatt auf Personenebene herangezogen. Darüber hinaus können Daten auf Account-Ebene mit Daten auf Personenebene verknüpft werden, indem Account-basierte Lookup-Datensätze verwendet werden, die mit Personen in Customer Journey Analytics verknüpft sind.
 
-Die Analyse auf Kontoebene kann Fragen wie
+Die Analyse auf Account-Ebene kann z. B. folgende Fragen beantworten:
 
-* Welcher Unternehmensname wird mit diesem Konto abgeglichen?
-* Wie viele Mitarbeiter sind mit diesem Konto/dieser Firma verbunden?
-* Welche Rollen sind in diesem Konto vertreten?
-* Wie schneidet dieses Konto im Vergleich zu einem anderen Konto bei einer bestimmten Marketing-Kampagne ab?
-* Weichen bestimmte Rollen (z. B. IT-Manager) in einem Konto bei einem anderen Konto eine andere Rolle auf als dieselbe?
+* Welcher Unternehmensname ist mit diesem Account verbunden?
+* Wie viele Mitarbeiter sind mit diesem Account/dieser Firma verbunden?
+* Welche Rollen sind in diesem Account enthalten?
+* Wie schneidet dieser Account im Vergleich zu einem anderen Account bei einer bestimmten Marketing-Kampagne ab?
+* Verhält sich eine bestimmte Rolle (z. B. IT-Manager) in einem Account anders als dieselbe Rolle in einem anderen Account?
 
-Ausführliche Informationen zur Erstellung einer kundenspezifischen Journey-Analyse finden Sie hier . [B2B Hinzufügen von Daten auf Kontoebene als Lookup-Datensatz](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=en)
+Ausführliche Informationen zur Erstellung einer Customer-Journey-Analyse auf Account-Ebene finden Sie hier [B2B: Hinzufügen von Account-Daten als Lookup-Datensatz](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=de)

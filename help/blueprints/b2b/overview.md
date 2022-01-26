@@ -3,13 +3,13 @@ title: 'B2B: Analysen und Aktivierung'
 description: Stellen Sie mit Real-time Customer Data Platform Account-basierte Zielgruppen und profilorientierte Kundenerlebnisse bereit.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
+source-git-commit: 9d0766cba6562066e5d8d7dc5c8983ab6fb1824b
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 95%
 
 ---
-
 
 # B2B: Analysen und Aktivierung
 
@@ -19,5 +19,7 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[B2B: Analysen](b2bactivation.md)** | <ul><li>Einbeziehen von B2B-Account-Informationen in die Customer-Journey-Analyse</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
-| **[B2B: Zielgruppenaktivierung](b2bactivation.md)** | <ul><li>Sprechen Sie B2B-Zielgruppen auf Web-, E-Mail- und Werbe-Kanälen an.</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul> |
+
+| **[B2B: Analysen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>Einbeziehen von B2B-Account-Informationen in die Customer-Journey-Analyse</li></ul>|<ul><li>Adobe Customer Journey Analytics</li></ul>|
+| **[B2B: Zielgruppenaktivierung](b2bactivation.md)** | <ul><li>Sprechen Sie B2B-Zielgruppen auf Web-, E-Mail- und Werbe-Kanälen an.</li></ul>|<ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul>|
+

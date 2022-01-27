@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,4 +21,4 @@ Das folgende Architekturdiagramm veranschaulicht die Integrationspfade und die D
 ## Referenzdokumentation
 
 * [Überblick über das Experience Platform Web/Mobile SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)
-* [Tutorial zur Implementierung von Adobe Experience Cloud mit Web SDK](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
+* [Tutorial zur Implementierung von Adobe Experience Cloud mit Web SDK](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=de)

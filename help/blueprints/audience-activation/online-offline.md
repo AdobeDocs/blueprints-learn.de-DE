@@ -4,8 +4,8 @@ description: Online-/Offline-Zielgruppenaktivierung.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
-workflow-type: ht
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
 
@@ -77,4 +77,4 @@ Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele fre
 
 * Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 * [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
-* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)
+* [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

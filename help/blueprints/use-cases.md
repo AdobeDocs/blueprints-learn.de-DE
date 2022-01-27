@@ -2,8 +2,8 @@
 title: 'Blueprints: Anwendungsfälle für digitale Erlebnisse'
 description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: c80967fc9463996b4a3892dd5d0e76270d9247d1
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 100%
 

@@ -6,15 +6,15 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: ad3e1a7a6a870785653394472db186c535dd814c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Architekturdiagramm zu Adobe Experience Cloud
 
-Das folgende Architekturdiagramm veranschaulicht, wie Adobe Experience Platform eine Verbindung zu den Adobe Experience Cloud-Anwendungen herstellt und mit diesen integriert, um eine skalierte Personalisierung der Daten-, Inhalts- und Erlebnisbereitstellung zu erreichen.
+Das untenstehende Architekturdiagramm zeigt, wie Adobe Experience Platform eine Verbindung zu den Adobe Experience Cloud-Programmen herstellt und mit diesen integriert werden kann. So wird Personalisierung im benötigten Umfang bei der Bereitstellung von Daten, Content und Erlebnissen möglich.
 
 <img src="assets/pers_at_scale.png" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
 <br>

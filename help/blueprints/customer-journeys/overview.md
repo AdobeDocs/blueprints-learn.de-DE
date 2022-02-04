@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standa
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 6ffa7b7025bd143c9c02f4708a96207141b841e6
+source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 48%
+source-wordcount: '258'
+ht-degree: 46%
 
 ---
 
@@ -20,7 +20,8 @@ Es gibt heute zwei Optionen für die Adobe, aus denen Kunden wählen können, we
 
 <ul><li>Adobe Campaign Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
 
-| Blueprint | Beschreibung | Experience Cloud-Programme |
+| Blueprint | Beschreibung | Architektur |
 |---|---|---|
-| **[Adobe Campaign Managed Cloud Services](campaign.md)** | Unsere herkömmliche Kampagnenanwendung, die gehostet und verwaltet wird, reduziert den Aufwand und die Komplexität eines IT-Systems und ermöglicht es Marketing-Experten, kanalübergreifende, Batch-basierte Marketing-Kampagnen wie E-Mail, SMS und Briefpost zu erstellen. Ermöglicht es Kunden, ihre komplexen Data-Management-Prozesse mit der Kommunikation von Rich-Marketing-Kampagnen zu kombinieren | Adobe Campaign v8<br>Adobe Campaign v7<br>Adobe Campaign Standard |
-| **[Journey Optimizer](journey-optimizer.md)** | Nativ auf der Grundlage des Echtzeit-Kundenprofils der Experience Platformen aufgebaut, sodass Marketing-Teams in Echtzeit auf sich ändernde Kundenverhaltensweisen reagieren und sie dort treffen können, wo sie sich zu einem beliebigen Zeitpunkt in einem beliebigen Kanal befinden | Adobe Experience Platform<br>Adobe Journey Optimizer |
+| **[Journey Optimizer](journey-optimizer.md)** | Nativ auf der Grundlage des Echtzeit-Kundenprofils der Experience Platformen aufgebaut, sodass Marketing-Teams in Echtzeit auf sich ändernde Kundenverhaltensweisen reagieren und sie dort treffen können, wo sie sich zu einem beliebigen Zeitpunkt in einem beliebigen Kanal befinden | <img src="assets/ajo-architecture.svg" alt="Referenzarchitektur für Journey Optimizer-Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | Kampagnenwerkzeug der nächsten Generation, das für hochkomplexe Datenmanagement- und Kampagnenprozesse optimiert ist. Ermöglicht es Kunden, die Kommunikation von Erkundungs- und Marketingkampagnen zu kombinieren | <img src="assets/campaign-v8-architecture.svg" alt="Referenzarchitektur für Campaign v8-Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Herkömmliches Kampagnenwerkzeug, das für massenbasierte Marketing-Kampagnen über verschiedene Kanäle wie E-Mail, SMS und Briefpost hinweg entwickelt wurde. Ermöglicht es Kunden, die verschiedenen Kundenkommunikationen an einem zentralen Ort zu koordinieren und zu verwalten | <img src="assets/campaign-v7-architecture.svg" alt="Referenzarchitektur für Campaign v7-Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |

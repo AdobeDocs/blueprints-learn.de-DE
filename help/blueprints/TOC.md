@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints sind wiederholbare Implementierungen, die bekannte Geschäftsprobleme adressieren und Architekturdiagramme, technische Überlegungen und Links zu relevanter Dokumentation enthalten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 87%
+source-wordcount: '161'
+ht-degree: 86%
 
 ---
 
@@ -39,13 +39,15 @@ ht-degree: 87%
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
 + Customer Journeys {#customer-journeys}
    + [Übersicht](/help/blueprints/customer-journeys/overview.md)
-   + [Campaign Managed Cloud Services](/help/blueprints/customer-journeys/campaign.md)
-   + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-   + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-   + [Kampagne mit Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-   + [Kampagne mit Journey Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-   + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-   + [Drittanbieter-Nachrichten](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Journey Optimizer{#journey-optimizer}
+      + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
+      + [Journey Optimizer mit Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [Drittanbieter-Nachrichten](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Campaign v8{#campaign-v8}
+      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + Campaign v7{#campaign-v7}
+      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+      + [Real-Time CDP mit Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + Datenerfassung und -vorbereitung {#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)

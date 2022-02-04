@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints sind wiederholbare Implementierungen, die bekannte Geschäftsprobleme adressieren und Architekturdiagramme, technische Überlegungen und Links zu relevanter Dokumentation enthalten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 87%
 
 ---
 
@@ -39,8 +39,13 @@ ht-degree: 100%
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
 + Customer Journeys {#customer-journeys}
    + [Übersicht](/help/blueprints/customer-journeys/overview.md)
-   + [Batch-Messaging und Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Campaign Managed Cloud Services](/help/blueprints/customer-journeys/campaign.md)
+   + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+   + [Kampagne mit Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+   + [Kampagne mit Journey Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
+   + [Drittanbieter-Nachrichten](/help/blueprints/customer-journeys/3rd-party-messaging.md)
 + Datenerfassung und -vorbereitung {#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)

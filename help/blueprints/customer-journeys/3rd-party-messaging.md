@@ -3,7 +3,8 @@ title: Journey Optimizer - Nachrichten-Blueprint von Drittanbietern
 description: Veranschaulicht, wie Adobe Journey Optimizer mit Drittanbieter-Messaging-Systemen verwendet werden kann, um personalisierte Nachrichten zu orchestrieren und zu senden.
 solution: Experience Platform, Journey Optimizer
 hidefromtoc: true
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+exl-id: 57e4d90a-61c9-444d-9bc5-40c7e58b4d21
+source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 35%

@@ -2,9 +2,10 @@
 title: Campaign v8-Blueprint
 description: Adobe Campaign v8 ist das Kampagnenwerkzeug der nächsten Generation, das für herkömmliche Marketingkanäle wie E-Mail und Briefpost entwickelt wurde. Es bietet zuverlässige ETL- und Data-Management-Funktionen, mit denen Sie die perfekte Kampagne erstellen und kuratieren können. Die Orchestrierungs-Engine bietet umfassende Multi-Touch-Marketingprogramme mit einem Schwerpunkt auf Batch-basierten Journey.  Er ist außerdem mit einem skalierbaren Echtzeit-Messaging-Server verbunden, der es Marketing-Teams ermöglicht, vordefinierte Nachrichten basierend auf einer allumfassenden Payload von jedem IT-System für Dinge wie Kennwortzurücksetzung, Bestellbestätigung, E-Receiver und vieles mehr zu senden.
 solution: Campaign v8
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -89,9 +90,7 @@ Adobe Campaign v8 ist das Kampagnenwerkzeug der nächsten Generation, das für h
 ### Skalierung von Echtzeit-Messaging-Servern
 
 * Kann bis zu 1 Mio. Nachrichten pro Stunde senden
-* Standardmäßig wird nur ein (1) Echtzeit-Messaging-Server bereitgestellt. Dadurch soll sichergestellt werden, dass jede Kommunikation mit dem Server über ein Sitzungstoken erfolgt, das in 24 Stunden abläuft.
-* Optional können Sie bis zu acht (8) Echtzeit-Messaging-Server bereitstellen, aber die Authentifizierung unterstützt dann nur Benutzer/Pass
-* Es wird empfohlen, immer einen Echtzeit-Messaging-Server zu verwenden, um nach Möglichkeit die Vorteile einer auf Sitzungstoken basierenden Methode zu nutzen
+* Standardmäßig werden zwei Echtzeit-Messaging-Server bereitgestellt. Möglichkeit zur Skalierung von bis zu acht Echtzeit-Messaging-Servern.
 
 ### SMS-Konfiguration
 

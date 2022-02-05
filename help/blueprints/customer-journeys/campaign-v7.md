@@ -2,9 +2,10 @@
 title: Campaign v7-Blueprint
 description: Adobe Campaign v7 ist ein Kampagnenwerkzeug, das für herkömmliche Marketingkanäle wie E-Mail und Briefpost entwickelt wurde. Es bietet zuverlässige ETL- und Data-Management-Funktionen, mit denen Sie die perfekte Kampagne erstellen und kuratieren können. Die Orchestrierungs-Engine bietet umfassende Multi-Touch-Marketingprogramme mit einem Schwerpunkt auf Batch-basierten Journey.  Er wird außerdem mit einem Echtzeit-Messaging-Server gepaart, der es Marketing-Teams ermöglicht, vordefinierte Nachrichten basierend auf einer allumfassenden Payload von jedem IT-System für Dinge wie Kennwortzurücksetzung, Bestellbestätigung, E-Receiver und vieles mehr zu senden.
 solution: Campaign Classic v7
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -35,7 +36,7 @@ Adobe Campaign v7 ist ein Kampagnenwerkzeug, das für herkömmliche Marketingkan
 | Szenario | Beschreibung | Funktionen |
 | :-- | :--- | :--- |
 | [Journey Optimizer mit Adobe Campaign](ajo-and-campaign.md) | Zeigt, wie Sie Adobe Journey Optimizer verwenden können, um 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils zu orchestrieren und das native Adobe Campaign-Transaktionsnachrichtensystem zu nutzen, um die Nachricht zu senden | Nutzen Sie das Echtzeit-Kundenprofil und die Leistungsfähigkeit von Journey Optimizer, um im Moment Erlebnisse zu orchestrieren und gleichzeitig die nativen Echtzeit-Messaging-Funktionen von Adobe Campaign für die Kommunikation in der letzten Meile zu nutzen.<br><br>Zu beachten:<br><ul><li>Kann bis zu 50.000 Nachrichten pro Stunde über den Echtzeit-Nachrichtenserver senden<li>Journey Optimizer führt keine Drosselung durch, um die technische Prüfung durch einen Unternehmensarchitekten vor dem Verkauf sicherzustellen</li><li>offer decisioning wird in Payloads zum Echtzeit-Messaging-Server von Campaign v7 nicht unterstützt</li></ul> |
-| [Real-Time CDP mit Adobe Campaign](rtcdp-and-campaign.md) | Veranschaulicht, wie Adobe Experience Platforms Real-Time CDP und sein zentralisiertes Segmentierungstool mit Adobe Campaign für personalisierte Konversationen genutzt werden können | <ul><li>Zielgruppenfreigabe aus der Experience Platform nativ mit Adobe Campaign v8 über ein produktives Ziel</li><li>Native Unterstützung für die Erfassung von Versand- und Interaktionsdaten aus Kundenkonversationen zurück in die Experience Platform, um sowohl das Echtzeit-Kundenprofil als auch kanalübergreifende Berichte über Messaging-Kampagnen zu verbessern</li></ul> |
+| [Real-Time CDP mit Adobe Campaign](rtcdp-and-campaign.md) | Veranschaulicht, wie Adobe Experience Platforms Real-Time CDP und sein zentralisiertes Segmentierungstool mit Adobe Campaign für personalisierte Konversationen genutzt werden können | <ul><li>Freigabe von Zielgruppen aus der Real-Time CDP in Adobe Campaign mithilfe des Dateiaustauschs und der Workflows zur Adobe Campaign-Erfassung </li><li>Einfaches Freigeben von Versand- und Interaktionsdaten aus Kundenkonversationen zurück in die Echtzeit-Kundendatenplattform von Adobe Campaign, um sowohl das Echtzeit-Kundenprofil als auch kanalübergreifende Berichte zu Messaging-Kampagnen bereitzustellen</li></ul> |
 
 <br>
 
@@ -88,9 +89,7 @@ Adobe Campaign v7 ist ein Kampagnenwerkzeug, das für herkömmliche Marketingkan
 ### Skalierung von Echtzeit-Messaging-Servern
 
 * Kann bis zu 50.000 Nachrichten pro Stunde senden
-* Standardmäßig wird nur ein (1) Echtzeit-Messaging-Server bereitgestellt. Dadurch soll sichergestellt werden, dass jede Kommunikation mit dem Server über ein Sitzungstoken erfolgt, das in 24 Stunden abläuft.
-* Optional können Sie bis zu acht (8) Echtzeit-Messaging-Server bereitstellen, aber die Authentifizierung unterstützt dann nur Benutzer/Pass
-* Es wird empfohlen, immer einen Echtzeit-Messaging-Server zu verwenden, um nach Möglichkeit die Vorteile einer auf Sitzungstoken basierenden Methode zu nutzen
+* Standardmäßig werden zwei Echtzeit-Messaging-Server bereitgestellt. Möglichkeit zur Skalierung von bis zu acht Echtzeit-Messaging-Servern.
 
 ### SMS-Konfiguration
 

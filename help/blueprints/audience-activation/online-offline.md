@@ -4,10 +4,10 @@ description: Online-/Offline-Zielgruppenaktivierung.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,9 +58,9 @@ Die Blueprint zur Aktivierung mit Online- und Offline-Daten entspricht in etwa d
 
 ### Zielgruppenfreigabe von Real-time Customer Data Platform an Audience Manager
 
-* Die Zielgruppenmitgliedschaft aus RT-CDP wird für Audience Manager per Streaming freigegeben, sobald die Segmentauswertung abgeschlossen ist. Sie wird unabhängig davon, ob die Segmentauswertung im Batch- oder Streaming-Modus erfolgte, in das Echtzeit-Kundenprofil geschrieben. Wenn das qualifizierte Profil die regionalen Routing-Informationen für zugehörige Profilgeräte enthält, wird die Zielgruppenzugehörigkeit von RTCDP auf dem zugehörigen Audience Manager Edge im Streaming-Modus qualifiziert. Wenn die Profile aus RTCDP keine regionalen Routing-Informationen enthalten, werden die Profilmitgliedschaften zur Batch-basierten Auswertung und Aktivierung an den Audience Manager-Hub gesendet. Profile, die für die Edge-Aktivierung infrage kommen, werden innerhalb von Minuten nach der Segmentqualifizierung durch RTCDP aktiviert. Profile, die nicht für die Edge-Aktivierung qualifiziert sind, qualifizieren sich für den Audience Manager-Hub, dabei dauert die Verarbeitung 12 bis 24 Stunden.
+* Die Zielgruppenmitgliedschaft aus RT-CDP wird für Audience Manager per Streaming freigegeben, sobald die Segmentauswertung abgeschlossen ist. Sie wird unabhängig davon, ob die Segmentauswertung im Batch- oder Streaming-Modus erfolgte, in das Echtzeit-Kundenprofil geschrieben. Wenn das qualifizierte Profil die regionalen Routing-Informationen für zugehörige Profilgeräte enthält, wird die Zielgruppenzugehörigkeit von RTCDP auf dem zugehörigen Audience Manager Edge im Streaming-Modus qualifiziert. Wenn die regionalen Routing-Informationen in den letzten 14 Tagen auf ein Profil mit einem Zeitstempel angewendet wurden, werden sie im Streaming am Audience Manager Edge ausgewertet. Wenn die RTCDP-Profile keine regionalen Routing-Informationen enthalten oder die regionalen Routing-Informationen älter als 14 Tage sind, werden die Profilmitgliedschaften zur Batch-basierten Auswertung und Aktivierung an den Audience Manager-Hub-Speicherort gesendet. Profile, die für die Edge-Aktivierung infrage kommen, werden innerhalb von Minuten nach der Segmentqualifizierung von RTCDP aktiviert. Profile, die nicht für die Edge-Aktivierung qualifiziert sind, qualifizieren sich für den Audience Manager-Hub und verfügen möglicherweise über einen 12 bis 24-Stunden-Zeitraum für die Verarbeitung.
 
-* Regionale Routing-Informationen, auf denen die mit dem Profil zusammenhängenden Geräteinformationen von Audience Manager Edge gespeichert werden, können vom Analytics-Daten-Connector erfasst werden, wenn die Analytics-Daten für die Erfassung im Profil aktiviert sind, oder direkt vom Web SDK als separater Datensatz mit der Profildatensatzklasse, der dann für das Profil aktiviert werden muss.
+* Regionale Routing-Informationen, für die das Audience Manager-Profil in Edge gespeichert ist, können für die Experience Platform vom Audience Manager, vom Besucher-ID-Dienst, Analytics, Launch oder direkt vom Web SDK als separater Datensatz der Profildatensatzklasse mit der XDM-Feldergruppe &quot;Datenerfassungsregion-Informationen&quot;erfasst werden.
 
 * In Aktivierungsszenarios, in denen Zielgruppen aus Experience Platform für Audience Manager freigegeben werden, werden die folgenden Identitäten automatisch freigegeben: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Benutzerdefinierte Namespaces werden derzeit nicht freigegeben.
 

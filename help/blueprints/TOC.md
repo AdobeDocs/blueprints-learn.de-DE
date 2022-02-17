@@ -5,10 +5,10 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
+source-git-commit: a61fa9d1c6a77e9eb32ff363f724de92fbac8585
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 78%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 0%
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
    + [Anonyme Zielgruppenaktivierung](/help/blueprints/audience-activation/anonymous.md)
-   + [Aktivierung für Social- und Advertising-Kanäle]{#audience-activation}
-      + [Aktivierung mit Online- und Offline-Daten](/help/blueprints/audience-activation/online-offline.md)
+   + [Aktivierung mit Online- und Offline-Daten](/help/blueprints/audience-activation/online-offline.md)
+   + Aktivierung für Social- und Advertising-Kanäle{#audience-activation}
       + [Aktivierung für benutzerdefinierte Facebook-Zielgruppen](/help/blueprints/audience-activation/destinations/facebook.md)
    + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Aktivierung mit Experience Cloud-Programmen](/help/blueprints/audience-activation/platform-and-applications.md)

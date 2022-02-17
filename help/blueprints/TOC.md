@@ -3,13 +3,15 @@ user-guide-title: Blueprints für digitale Erlebnisse
 breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints sind wiederholbare Implementierungen, die bekannte Geschäftsprobleme adressieren und Architekturdiagramme, technische Überlegungen und Links zu relevanter Dokumentation enthalten.
 product: adobe experience platform
+mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
+source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Blueprints für digitale Erlebnisse {#architecture}
 
@@ -28,7 +30,9 @@ ht-degree: 86%
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
    + [Anonyme Zielgruppenaktivierung](/help/blueprints/audience-activation/anonymous.md)
-   + [Aktivierung mit Online- und Offline-Daten](/help/blueprints/audience-activation/online-offline.md)
+   + [Aktivierung für Social- und Advertising-Kanäle]{#audience-activation}
+      + [Aktivierung mit Online- und Offline-Daten](/help/blueprints/audience-activation/online-offline.md)
+      + [Aktivierung für benutzerdefinierte Facebook-Zielgruppen](/help/blueprints/audience-activation/destinations/facebook.md)
    + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Aktivierung mit Experience Cloud-Programmen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
@@ -61,4 +65,3 @@ ht-degree: 86%
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
    + [Verhaltensbasierte Personalisierung](/help/blueprints/web-personalization/behavioral.md)
    + [Personalisierung mit Online- und Offline-Daten](/help/blueprints/web-personalization/online-offline.md)
-

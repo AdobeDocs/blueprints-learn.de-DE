@@ -6,8 +6,8 @@ kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 53ef83cbaa9dde0793e379c0044f449cfca078ab
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 ## Programme
 
-* Adobe Experience Platform
+* Adobe Experience Platform 
 * [!UICONTROL Real-Time Customer Data Platform]
 
 ## Architektur

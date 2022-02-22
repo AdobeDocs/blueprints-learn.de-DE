@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ In der Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 1. Auswählen einer Sprache. Python und PySpark werden unterstützt.
 1. [Erstellen des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=de) im Notebook.
 1. [Trainieren des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=de).
-1. [Bewerten des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en), um Vorhersagen mit den Zieldaten zu generieren.
+1. [Bewerten des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=de), um Vorhersagen mit den Zieldaten zu generieren.
 1. [Aktivieren der Modellresultat-Datensätze für das Profil, wenn die Modellresultate in das [!UICONTROL Echtzeit-Kundenprofil] übermittelt werden](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=de).
 
 ## Verwandte Dokumentation

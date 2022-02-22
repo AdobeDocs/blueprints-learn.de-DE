@@ -3,13 +3,13 @@ title: Aktivierung für benutzerdefinierte Facebook-Zielgruppen
 description: Aktivierung für benutzerdefinierte Facebook-Zielgruppen.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
+source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '957'
+ht-degree: 3%
 
 ---
-
 
 # Aktivierung für benutzerdefinierte Facebook-Zielgruppen
 
@@ -19,7 +19,9 @@ Erfassen Sie Kundendaten aus mehreren Quellen, um eine Profilansicht des Kunden 
 
 * Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.
 * Online-Personalisierung mit Online- und Offline-Attributen.
-Programme
+
+## Programme
+
 * Real-time Customer Data Platform
 
 ## Architektur
@@ -32,7 +34,7 @@ Programme
    * Verwenden Sie native Namespaces wie E-Mail, E-Mail SHA256-Hash, sofern verfügbar.
    * Facebook verfügt über eine Liste unterstützter Identitäten. Um für benutzerdefinierte Facebook-Zielgruppen aktiviert zu werden, muss eine der unterstützten Identitäten in den Profilen vorhanden sein, die aktiviert werden sollen.
    * Die folgenden Identitäten werden derzeit von Facebook unterstützt: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
-   * Weitere Informationen finden Sie unter [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+   * Weitere Informationen finden Sie unter [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * Erstellen Sie benutzerdefinierte Namespaces, in denen native Namespaces nicht für die entsprechenden Identitäten verfügbar sind.
 1. Konfigurieren Sie Profildatenquellenschemata und -datensätze.
    * Erstellen Sie Profildatensatzschemata für alle Profildatensatzquelldaten.
@@ -67,7 +69,7 @@ Programme
    * Überprüfen Sie die Anzahl der Segmentergebnisse für die angegebenen Segmente.
    * Untersuchen Sie das Profil, das in das Segment aufgenommen werden soll, um sicherzustellen, dass die Segmentzugehörigkeit im Segmentzugehörigkeitsteil des Profils enthalten ist.
 1. Konfigurieren Sie in der Zielkonfiguration den Versand der Audience an das Ziel.
-   * Siehe [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) für weitere Informationen zur Konfiguration des Facebook-Ziels.
+   * Siehe [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) für weitere Informationen zur Konfiguration des Facebook-Ziels.
    * Wählen Sie beim Konfigurieren eines Ziels aus, welche Zielgruppe Sie für das Ziel aktivieren möchten.
    * Legen Sie das geplante Startdatum fest, an dem der Ziel-Datenfluss die Zielgruppe an das Ziel senden soll.
    * Jedes Ziel verfügt über erforderliche und optionale Attribute, die gesendet werden.
@@ -88,4 +90,4 @@ Programme
 
 ## Verwandte Dokumentation
 
-Aktivierung für benutzerdefinierte Facebook-Zielgruppen - [Zielkonfiguration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+Aktivierung für benutzerdefinierte Facebook-Zielgruppen - [Zielkonfiguration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)

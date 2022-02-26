@@ -5,9 +5,9 @@ landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail un
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 8d01529c611b2dabeeb6b11a227e7c3a9f132774
+source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 50%
 
 ---
@@ -51,7 +51,7 @@ Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und an
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Echtzeit-Segmentbewertung an Edge, die von Real-time Customer Data Platform für Target freigegeben wurde</td>
-    <td class="tg-0lax">- Evaluieren von Zielgruppen in Echtzeit im Edge Network zur Personalisierung derselben oder der nächsten Seite.<br>- Freigeben von Streaming- und Batch-Zielgruppen von Real-time Customer Data Platform an Target über das Edge Network.</td>
+    <td class="tg-0lax">- Evaluieren von Zielgruppen in Echtzeit im Edge Network zur Personalisierung derselben oder der nächsten Seite.<br>- Darüber hinaus werden alle im Streaming oder Batch ausgewerteten Segmente auch in das Edge-Netzwerk projiziert, um in die Bewertung und Personalisierung von Edge-Segmenten einbezogen zu werden.</td>
     <td class="tg-73oq">- Datastream muss in Experience Edge mit aktivierter Target- und Experience Platform-Erweiterung konfiguriert werden. Die Datastream-ID wird in der Target-Zielkonfiguration bereitgestellt.<br>- Das Target-Ziel muss in Real-time Customer Data Platform Destinations konfiguriert werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.<br>- WebSDK muss implementiert sein.<br>- Mobile SDK- und API-basierte Implementierung ist derzeit nicht verfügbar</td> 
   </tr>
   <tr>

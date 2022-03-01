@@ -5,7 +5,7 @@ landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail un
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: bf2fd224c0eb3e4933dd39a9c26aeaf613fe5abc
+source-git-commit: 05cda4f092b7f0ee54e580124e5349955e353d9c
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 48%
@@ -117,7 +117,6 @@ Die Online- und Offline-Personalisierung wird über verschiedene Implementierung
 Verwenden des Edge-Netzwerks mit dem Web-/Mobile-SDK
 <img src="assets/web_sdk_flow.png" alt="Referenzarchitektur für die Herangehensweise für programmspezifische SDKs" style="width:80%; border:1px solid #4a4a4a" />
 
-<br>
 Sequenzdiagramm
 
 <img src="assets/RTCDP+Target_sequence.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a" />

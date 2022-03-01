@@ -5,10 +5,10 @@ landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail un
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 4d02197b437c167a90cbadf16b0b19fc733a9f65
+source-git-commit: 2b2e9a7b849b71ac4b827a3783820a7e4b8ad6f1
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 50%
+source-wordcount: '1548'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und an
 * Adobe Audience Manager (optional): Fügt Zielgruppendaten von Drittanbietern, Co-op-basiertes Gerätediagramm, die Möglichkeit zur Oberflächenbearbeitung von Real-time Customer Data Platform-Zielgruppen in Adobe Analytics und die Möglichkeit hinzu, Adobe Analytics-Zielgruppen in Real-time Customer Data Platform zu überlagern
 * Adobe Analytics (optional): Fügt die Möglichkeit hinzu, Segmente basierend auf historischen Verhaltensdaten und detaillierte Segmentierung aus Adobe Analytics-Daten aufzubauen
 
-## Integrationsmuster
+## Anwendungsszenarios
 
 <table class="tg" style="undefined;table-layout: fixed; width: 790px">
 <colgroup>
@@ -42,7 +42,7 @@ Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und an
 <thead>
   <tr>
     <th class="tg-y6fn">Nr.</th>
-    <th class="tg-f7v4">Integrationsmuster</th>
+    <th class="tg-f7v4">Anwendungsszenarios</th>
     <th class="tg-y6fn">Fähigkeit</th>
     <th class="tg-f7v4">Voraussetzungen</th>
   </tr>
@@ -52,49 +52,38 @@ Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und an
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Echtzeit-Segmentbewertung an Edge, die von Real-time Customer Data Platform für Target freigegeben wurde</td>
     <td class="tg-0lax">- Evaluieren von Zielgruppen in Echtzeit im Edge Network zur Personalisierung derselben oder der nächsten Seite.<br>- Darüber hinaus werden alle im Streaming- oder Batch-Modus ausgewerteten Segmente auch in das Edge-Netzwerk projiziert, um in die Bewertung und Personalisierung von Edge-Segmenten einbezogen zu werden.</td>
-    <td class="tg-73oq">- Datastream muss in Experience Edge mit aktivierter Target- und Experience Platform-Erweiterung konfiguriert werden. Die Datastream-ID wird in der Target-Zielkonfiguration bereitgestellt.<br>- Das Target-Ziel muss in Real-time Customer Data Platform Destinations konfiguriert werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.<br>- WebSDK muss implementiert sein.<br>- Mobile SDK- und API-basierte Implementierung ist derzeit nicht verfügbar</td> 
+    <td class="tg-73oq"><br>- Implementierungsmuster 1, beschrieben unten.<br>- Web/Mobile SDK muss implementiert sein.<br>- Beachten Sie, dass die Mobile SDK- und API-basierte Unterstützung für die Echtzeit-Segmentierung derzeit nicht verfügbar ist.<br>- Datastream muss in Experience Edge mit aktivierter Target- und Experience Platform-Erweiterung konfiguriert werden. Die Datastream-ID wird in der Target-Zielkonfiguration bereitgestellt.<br>- Das Target-Ziel muss in Real-time Customer Data Platform Destinations konfiguriert werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Streaming- und Batch-Zielgruppenfreigabe von Real-time Customer Data Platform an Target über den Edge-Ansatz</td>
     <td class="tg-0lax">- Freigeben von Streaming- und Batch-Zielgruppen von Real-time Customer Data Platform an Target über das Edge Network. Die Auswertung von Zielgruppen in Echtzeit erfordert das WebSDK und die Echtzeitauswertung der Zielgruppe, wie im Integrationsmuster 1 beschrieben.<br>- Diese Integration wird normalerweise genutzt, um Streaming- und Batch-Zielgruppen mithilfe herkömmlicher SDKs freizugeben, anstatt zur Edge Collection und zum WebSDK zu migrieren, die Echtzeit- sowie Streaming- und Batch-Zielgruppen unterstützen, wie im Integrationsparameter 1 beschrieben.</td>
-    <td class="tg-73oq">- Der Datastream muss in Experience Edge konfiguriert werden. Die Datastream-ID wird in der Target-Zielkonfiguration bereitgestellt.<br>- Das Target-Ziel muss in Real-time Customer Data Platform Destinations konfiguriert werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.<br>- WebSDK ist nicht erforderlich für die Freigabe von Streaming- und Batch-Zielgruppen in Target, obwohl die Segmentbewertung in Echtzeit gemäß Integrationsmuster 1 aktiviert werden muss. <br>- Bei Verwendung von AT.js wird nur die Profilintegration mit dem ECID-Identitäts-Namespace unterstützt. <br>- Für die Suche nach benutzerdefinierten Identitäts-Namespaces in Edge ist die WebSDK-Bereitstellung erforderlich und jede Identität muss in der Identitätszuordnung als Identität festgelegt werden.</td>
+    <td class="tg-73oq"><br>- Implementierungsmuster 1 oder 2, wie unten beschrieben.<br>- Web/Mobile SDK ist nicht erforderlich für die Freigabe von Streaming- und Batch-Zielgruppen in Target, obwohl die Segmentbewertung in Echtzeit gemäß Integrationsmuster 1 aktiviert werden muss. <br>- Bei Verwendung von AT.js wird nur die Profilintegration mit dem ECID-Identitäts-Namespace unterstützt. <br>- Für die Suche nach benutzerdefinierten Identitäts-Namespaces in Edge ist die WebSDK-Bereitstellung erforderlich und jede Identität muss in der Identitätszuordnung als Identität festgelegt werden.<br>- Der Datastream muss in Experience Edge konfiguriert werden. Die Datastream-ID wird in der Target-Zielkonfiguration bereitgestellt.<br>- Das Target-Ziel muss in Real-time Customer Data Platform Destinations konfiguriert werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Streaming- und Batch-Zielgruppenfreigabe von Real-time Customer Data Platform an Target und Audience Manager über den Ansatz des Zielgruppenfreigabe-Dienstes</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Freigeben von Streaming- und Batch-Zielgruppen von Real-time Customer Data Platform für Target und Audience Manager über den Zielgruppenfreigabe-Dienst.<br> -Dieses Integrationsmuster kann genutzt werden, wenn eine zusätzliche Anreicherung von Daten von Drittanbietern und Zielgruppen in Audience Manager gewünscht wird. Andernfalls werden Integrationsmuster 1 und 2 bevorzugt. Die Auswertung von Zielgruppen in Echtzeit erfordert das WebSDK und die Echtzeitauswertung der Zielgruppe, wie im Integrationsmuster 1 beschrieben.</span></td>
-    <td class="tg-73oq">- Die Zielgruppenprognose per Audience Sharing Service muss bereitgestellt werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.<br>- Die Identität muss in ECID aufgelöst werden, damit sie im Edge Network zur Nutzung für Target freigegeben werden kann.<br>- Für diese Integration ist keine WebSDK-Implementierung erforderlich.</td>
+    <td class="tg-73oq"><br>- Implementierungsmuster 1 oder 2, wie unten beschrieben.<br>- Für diese Integration ist keine Web-/Mobile-SDK-Bereitstellung erforderlich.<br>- Die Zielgruppenprognose per Audience Sharing Service muss bereitgestellt werden.<br>- Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.<br>- Die Identität muss in ECID aufgelöst werden, damit sie im Edge Network zur Nutzung für Target freigegeben werden kann.</td>
   </tr>
 </tbody>
 </table>
 
+## Architektur für Szenario 1 und 2: Echtzeit-, Streaming- und Batch-Zielgruppenfreigabe über das Edge-Netzwerk
 
-## Architektur für Integrationsmuster 1
-
-
-Detaillierte Architektur für Integrationsmuster 1
+Architektur
 
 <img src="assets/RTCDP+Target.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a" />
 
-Sequenzdiagramm für Integrationsmuster 1
+Sequenzdetails
 
 <img src="assets/RTCDP+Target_flow.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a" />
-
-<br>
-
-<img src="assets/RTCDP+Target_sequence.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a" />
 
 Übersichtsarchitektur für Integrationsmuster 1
 
 <img src="assets/personalization_with_apps.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a"/>
 
-
-## Implementierung für Integrationsmuster 1
-
-Für die Echtzeit-Segmentierung an der Edge-Seite [!UICONTROL Platform Web SDK] und [!UICONTROL Edge Network] muss implementiert werden. [Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../data-ingestion/websdk.md)
-
-### Implementierungsschritte für Integrationsmuster 1
+### Implementierungsschritte für Szenario 1 unterstützen auch Szenario 2
 
 1. [Implementieren Sie Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=de) für Ihre Web-Anwendungen oder Mobile Apps
 1. [Implementieren Sie Experience Platform und das [!UICONTROL Echtzeit-Kundenprofil]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=de)
@@ -102,12 +91,13 @@ Für die Echtzeit-Segmentierung an der Edge-Seite [!UICONTROL Platform Web SDK] 
 1. [Konfigurieren des Edge-Netzwerks mit einem Edge-Datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Aktivieren von Adobe Target as a destination in Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de)
 
-## Implementierung für Integrationsmuster 2 und 3
+## Architektur für Szenario 3: Streaming und Batch-Zielgruppenfreigabe über den Zielgruppenfreigabe-Dienst an Adobe Target und Audience Manager
 
-Verwenden herkömmlicher anwendungsspezifischer SDKs (z. B. AT.js und AppMeasurement.js)
-<img src="assets/app_sdk_flow.png" alt="Referenzarchitektur für die Herangehensweise für programmspezifische SDKs" style="width:80%; border:1px solid #4a4a4a" />
+Architektur
 
-### Implementierungsschritte für Integrationsmuster 2 und 3
+<img src="assets/audience_share_architecture.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a" />
+
+### Implementierungsschritte für Szenario 3 unterstützen auch Szenario 2
 
 1. [Implementieren Sie Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) für Ihre Web-Anwendungen oder Mobile Apps
 1. [Implementieren Sie Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de) (optional)
@@ -117,6 +107,24 @@ Verwenden herkömmlicher anwendungsspezifischer SDKs (z. B. AT.js und AppMeasure
 1. [Anfordern der Bereitstellung für Zielgruppenfreigabe zwischen Experience Platform und Adobe Target (freigegebene Zielgruppen)](https://www.adobe.com/go/audiences) , um Zielgruppen von Experience Platform für Target freizugeben.
 1. (Optional) [Konfigurieren des Edge-Netzwerks mit einem Edge-Datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) (Dies ist nur für das Integrationsmuster 2 erforderlich, bei dem die Zielgruppen nicht für Audience Manager freigegeben oder durch Zielgruppen oder Daten des Audience Managers angereichert werden müssen.)
 1. (Optional) [Aktivieren von Adobe Target as a destination in Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) , um Streaming- und Batch-Zielgruppen von Real-time Customer Data Platform direkt an Edge und nicht über den Zielgruppenfreigabe-Dienst und -Audience Manager freizugeben.
+
+### Implementierungsmuster
+
+Die Online- und Offline-Personalisierung wird über verschiedene Implementierungsansätze unterstützt.
+
+### Implementierungsmuster 1 - Unterstützt Anwendungsfall Szenario 1 und 2. Edge-Netzwerk mit Web/Mobile SDK (empfohlener Ansatz)
+
+Verwenden des Edge-Netzwerks mit dem Web-/Mobile-SDK
+<img src="assets/web_sdk_flow.png" alt="Referenzarchitektur für die Herangehensweise für programmspezifische SDKs" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+Sequenzdiagramm
+<img src="assets/RTCDP+Target_sequence.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a" />
+
+### Implementierungsmuster 2 - Unterstützt Nutzungsszenario 3 und 2. Anwendungsspezifische SDKs
+
+Verwenden herkömmlicher anwendungsspezifischer SDKs (z. B. AT.js und AppMeasurement.js)
+<img src="assets/app_sdk_flow.png" alt="Referenzarchitektur für die Herangehensweise für programmspezifische SDKs" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Leitlinien
 

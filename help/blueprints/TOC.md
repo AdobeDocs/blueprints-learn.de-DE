@@ -5,7 +5,7 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
+source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -30,13 +30,14 @@ ht-degree: 0%
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
    + [Anonyme Zielgruppenaktivierung](/help/blueprints/audience-activation/anonymous.md)
-   + [Aktivierung mit Online- und Offline-Daten](/help/blueprints/audience-activation/online-offline.md)
-   + Aktivierung für Social- und Advertising-Kanäle{#audience-activation}
-      + [Aktivierung für benutzerdefinierte Facebook-Zielgruppen](/help/blueprints/audience-activation/destinations/facebook.md)
-      + [Aktivierung für Google-Kundenabgleich](/help/blueprints/audience-activation/destinations/gcm.md)
-   + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + Bekannte Kundenaktivierung{#known-customer-audience-activation}
+      + [Übersicht](/help/blueprints/audience-activation/known.md)
+      + Aktivierung für Social- und Advertising-Kanäle{#audience-activation}
+         + [Aktivierung für benutzerdefinierte Facebook-Zielgruppen](/help/blueprints/audience-activation/destinations/facebook.md)
+         + [Aktivierung für Google-Kundenabgleich](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
    + [Aktivierung mit Experience Cloud-Programmen](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
 + B2B: Aktivierung und Marketing {#b2b-activation}
    + [Übersicht](/help/blueprints/b2b/overview.md)
    + [B2B: Aktivierung](/help/blueprints/b2b/b2bactivation.md)

@@ -4,10 +4,10 @@ description: Verwalten Sie Profile und Zielgruppen in Experience Platform und ge
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 0f0cd7487c67066b3d1d7ec162fadc634b50627b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei. Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.
 
-Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der Blueprint [Online-/Offline-Zielgruppenaktivierung](online-offline.md).
+Die Aktivierung mit Experience Cloud-Anwendungen passt sich eng an die [Bekanntes Blueprint zur Kundenaktivierung](known.md).
 
 ## Anwendungsfälle
 
@@ -24,7 +24,7 @@ Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der 
 
 ## Programme
 
-* Adobe Experience Platform
+* Adobe Experience Platform 
 * [!UICONTROL Real-Time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud-Programme

@@ -2,10 +2,10 @@
 title: 'Blueprints: Digitale Erlebnisse'
 description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 85%
+source-wordcount: '255'
+ht-degree: 90%
 
 ---
 
@@ -35,8 +35,8 @@ Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, di
     <p><em>Versenden Sie Nachrichten und beeinflussen Sie Kundenerlebnisse in Echtzeit mithilfe von [!UICONTROL Platform] als zentralem Hub.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><img alt="Miniaturbild für das Blueprint zur bekannten Kundenaktivierung" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><strong>Online-/Offline-Zielgruppenaktivierung</strong></a></div>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="Miniaturbild für das Blueprint zur bekannten Kundenaktivierung" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Online-/Offline-Zielgruppenaktivierung</strong></a></div>
     <p><em>Bereitstellung von zielgruppenaktivierter Cross-Channel-Werbung.</em></p>
   </td>
   <td>

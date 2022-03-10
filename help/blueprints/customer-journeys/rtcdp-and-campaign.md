@@ -1,17 +1,18 @@
 ---
-title: Real-Time CDP mit Adobe Campaign-Blueprint
-description: zeigt, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign für personalisierte Konversationen genutzt werden können.
+title: Integrationsmuster für Real-Time CDP mit Adobe Campaign
+description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
+source-git-commit: e158cb7c14970a9deb035fde50c9c070b0760203
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 56%
+source-wordcount: '767'
+ht-degree: 95%
 
 ---
 
-# Real-Time CDP mit Adobe Campaign-Blueprint
+# Integrationsmuster für Real-Time CDP mit Adobe Campaign
 
-zeigt, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign für personalisierte Konversationen genutzt werden können.
+Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
 
 <br>
 
@@ -24,13 +25,13 @@ zeigt, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das
 
 ## Architektur
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="Referenzarchitektur für die Blueprint „Batch-Messaging und Adobe Experience Platform“" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Referenzarchitektur für Batch Messaging und Adobe Experience Platform-Integrationsmuster" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
 ## Voraussetzungen
 
-* Es wird empfohlen, Experience Platform und Campaign in derselben IMS-Organisation bereitzustellen und Adobe Admin Console für den Benutzerzugriff zu verwenden. Dadurch wird auch sichergestellt, dass Kunden den Lösungsschalter über die Marketing-Benutzeroberfläche verwenden können.
+* Es wird empfohlen, Experience Platform und Campaign in derselben IMS-Organisation bereitzustellen und die Adobe Admin Console für den Benutzerzugriff zu verwenden. Dies stellt auch sicher, dass Kunden den Lösungsschalter innerhalb der Marketing-UI verwenden können
 
 <br>
 
@@ -38,19 +39,19 @@ zeigt, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das
 
 ### Adobe Campaign
 
-* Unterstützt nur Bereitstellungen einzelner Organisationseinheiten in Adobe Campaign
+* Unterstützt nur die Bereitstellung einzelner Organisationseinheiten von Adobe Campaign
 * Adobe Campaign ist die zentrale Datenquelle für alle aktiven Profile. Das heißt, die Profile müssen in Adobe Campaign vorhanden sein und neue Profile dürfen nicht basierend auf Experience Platform-Segmenten erstellt werden.
 * Der Export von Workflows aus Campaign sollte höchstens alle vier Stunden erfolgen
-* XDM-Schema und -Datensätze für Adobe Campaign broadLog, trackingLogs und nicht zustellbare Adressen sind nicht vorkonfiguriert und müssen entwickelt und erstellt werden
+* XDM-Schema und Datensätze für broadLog, trackingLogs und nicht zustellbare Adressen in Adobe Campaign sind nicht vorkonfiguriert und müssen entworfen und erstellt werden
 
-### Segmentfreigabe in der Experience Platform CDP
+### Segmentfreigabe in Experience Platform CDP
 
-* Empfehlung von 20 Segmentgrenzwerten
-* Die Aktivierung ist auf alle 24 Stunden beschränkt.
-* Nur Vereinigungsschemaattribute, die zur Aktivierung verfügbar sind (keine Unterstützung für Array-/Maps-/Erlebnisereignisse)
-* Empfehlung zu höchstens 20 Attributen pro Segment
+* Begrenzung auf 20 Segmente empfohlen
+* Die Aktivierung ist auf einmal pro 24 Stunden begrenzt
+* Nur Vereinigungsschema-Attribute sind für die Aktivierung verfügbar (keine Unterstützung von Array/Karten/Erlebnisereignisse)
+* Begrenzung auf 20 Attribute pro Segment empfohlen
 * Eine Datei pro Segment von allen Profilen mit „realisierter“ Segmentzugehörigkeit ODER, wenn Segmentzugehörigkeit als Attribut in der Datei hinzugefügt wird, sowohl „realisierte“ als auch „verlassene“ Profile
-* Inkrementelle und vollständige Segmentexporte werden unterstützt
+* Schrittweise und vollständige Segment-Exporte werden unterstützt
 * Datei-Verschlüsselung wird nicht unterstützt
 
 <br>
@@ -61,7 +62,7 @@ zeigt, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das
 
 #### Schemas/Datensätze
 
-1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform basierend auf vom Kunden angegebenen Daten.
+1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
 1. Erstellen Sie Adobe Campaign-Schemas für broadLog, trackingLog, nicht zustellbare Adressen und Profileinstellungen (optional).
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) in Experience Platform für die aufzunehmenden Daten.
 1. [Fügen Sie dem Datensatz in Experience Platform Datennutzungskennzeichnungen hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=de), um ordnungsgemäße Governance zu gewährleisten.
@@ -100,20 +101,21 @@ zeigt, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das
 1. Senden Sie Profileinstellungen über Consulting-Workflows alle vier Stunden an Experience Platform (optional).
 
 
-### Mobile Push-Konfiguration
+### Mobilgeräte-Push-Konfiguration
 
-* Zwei unterstützte Ansätze zur Integration mit Mobilgeräten für Push-Benachrichtigungen:
+* Zwei unterstützte Ansätze für die Integration mit Mobilgeräten für Push-Benachrichtigungen:
    * Experience Platform Mobile SDK
    * Campaign Mobile SDK
-* Experience Platform Mobile SDK-Route:
-   * Verwenden Sie Adobe Tags und die Campaign Classic-Erweiterung, um Ihre Integration mit dem Experience Platform Mobile SDK einzurichten.
-   * Benötigen Sie Kenntnisse über Adobe Tags und Datenerfassung
-   * Sie benötigen Erfahrung bei der Entwicklung von Mobilgeräten mit Push-Benachrichtigungen in Android und iOS, um das SDK bereitzustellen, die Integration mit FCM (Android) und APNS (iOS) durchzuführen, um Push-Token abzurufen, Ihre App für den Empfang von Push-Benachrichtigungen zu konfigurieren und Push-Interaktionen zu verarbeiten.
+* Vorgehensweise für Experience Platform Mobile SDK:
+   * Nutzung von Adobe Tags und der Campaign Classic-Erweiterung zum Einrichten der Integration mit dem Experience Platform Mobile SDK
+   * Erfahrung im Umgang mit Adobe Tags und Datenerfassung nötig
+   * Erfahrung bei der Mobile-Entwicklung mit Push-Benachrichtigungen sowohl für Android als auch iOS erforderlich zur Implementierung des SDK, Integration mit FCM (Android) und APNS (iOS), um Push-Token zu erhalten, Konfiguration der Mobile App zum Erhalt von und Umgang mit Push-Benachrichtigungen
 * Campaign Mobile SDK
-   * Bitte folgen Sie dem [Dokumentation zum Campaign SDK](Campaign Mobile SDK Bitte folgen Sie der hier beschriebenen Implementierungsdokumentation)
+   * Nähere Informationen finden Sie in der [Dokumentation zu Campaign SDK] (Campaign Mobile SDK
+Nähere Informationen finden Sie in der Implementierungsdokumentation hier)
 
    >[!IMPORTANT]
-   >Wenn Sie das Campaign SDK bereitstellen und mit anderen Experience Cloud-Applikationen arbeiten, ist die Verwendung des Experience Platform Mobile SDK für die Datenerfassung erforderlich. Dadurch werden doppelte clientseitige Aufrufe auf dem Gerät erstellt.
+   >Wenn Sie das Campaign SDK implementieren und mit anderen Experience Cloud-Programmen arbeiten, muss zur Datenerfassung das Experience Platform Mobile SDK verwendet werden. Dadurch werden duplizierte Client-seitige Aufrufe auf dem Gerät erstellt.
 
 ## Verwandte Dokumentation
 

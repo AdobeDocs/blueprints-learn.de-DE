@@ -4,10 +4,10 @@ description: Verwalten Sie Profile und Zielgruppen in Experience Platform und ge
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Die Aktivierung mit Experience Cloud-Anwendungen passt sich eng an die [Bekannte
 
 ## Architektur
 
-[Weitere Architekturdiagramme für Experience Platform-Integrationen mit Experience Cloud-Programmen finden Sie im Abschnitt „Architekturdiagramm zu Experience Platform und Programmen“.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=de)
+Siehe [Experience Platform und Anwendungsarchitektur](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=de) für zusätzliche Architekturdiagramme im Zusammenhang mit Experience Platform-Integrationen mit Experience Cloud-Anwendungen.
 
 ### Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
 

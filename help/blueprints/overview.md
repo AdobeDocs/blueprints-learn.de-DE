@@ -4,8 +4,8 @@ description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implemen
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +31,8 @@ Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, di
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=de"><img alt="Miniaturbild für Blueprint „Trigger-basiertes Messaging und Experience Platform“" src="customer-journeys/assets/ajo-architecture.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Kanalübergreifende Orchestrierung</strong></a></div>
-    <p><em>Versenden Sie Nachrichten und beeinflussen Sie Kundenerlebnisse in Echtzeit mithilfe von [!UICONTROL Platform] als zentralem Hub.</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Cross-Channel-Orchestrierung</strong></a></div>
+    <p><em>Verwenden Sie [!UICONTROL Platform] als zentralen Hub, um in Echtzeit Nachrichten zu versenden und Kundenerlebnisse zu beeinflussen.</em></p>
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="Miniaturbild für das Blueprint zur bekannten Kundenaktivierung" src="audience-activation/assets/online_offline_activation.svg" /></a>

@@ -1,33 +1,33 @@
 ---
-title: Campaign v8-Blueprint
-description: Adobe Campaign v8 ist das Kampagnenwerkzeug der nächsten Generation, das für herkömmliche Marketingkanäle wie E-Mail und Briefpost entwickelt wurde. Es bietet zuverlässige ETL- und Data-Management-Funktionen, mit denen Sie die perfekte Kampagne erstellen und kuratieren können. Die Orchestrierungs-Engine bietet umfassende Multi-Touch-Marketingprogramme mit einem Schwerpunkt auf Batch-basierten Journey.  Er ist außerdem mit einem skalierbaren Echtzeit-Messaging-Server verbunden, der es Marketing-Teams ermöglicht, vordefinierte Nachrichten basierend auf einer allumfassenden Payload von jedem IT-System für Dinge wie Kennwortzurücksetzung, Bestellbestätigung, E-Receiver und vieles mehr zu senden.
+title: 'Blueprint: Campaign v8'
+description: Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für traditionelle Marketing-Kanäle wie E-Mail und Direkt-Mail entwickelt wurde. Es bietet robuste ETL- und Daten-Management-Funktionen, die Sie beim Entwurf und bei der Kuratierung der perfekten Kampagne unterstützen. Die Orchestrierungs-Engine ermöglicht umfangreiche Multi-Touch-Marketing-Programme mit zentralem Fokus auf Batch-basierten Journeys. Außerdem bietet es einen skalierbaren Echtzeit-Messaging-Server, mit dem Marketing-Teams vordefinierte Mitteilungen auf Basis einer vollumfänglichen Payload aus beliebigen IT-Systemen senden können, wenn z. B. Passwörter zurückgesetzt, Bestellungen bestätigt oder Empfangsbelege versendet werden müssen.
 solution: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Campaign v8-Blueprint
+# Blueprint: Campaign v8
 
-Adobe Campaign v8 ist das Kampagnenwerkzeug der nächsten Generation, das für herkömmliche Marketingkanäle wie E-Mail und Briefpost entwickelt wurde. Es bietet zuverlässige ETL- und Data-Management-Funktionen, mit denen Sie die perfekte Kampagne erstellen und kuratieren können. Die Orchestrierungs-Engine bietet umfassende Multi-Touch-Marketingprogramme mit einem Schwerpunkt auf Batch-basierten Journey.  Er ist außerdem mit einem skalierbaren Echtzeit-Messaging-Server verbunden, der es Marketing-Teams ermöglicht, vordefinierte Nachrichten basierend auf einer allumfassenden Payload von jedem IT-System für Dinge wie Kennwortzurücksetzung, Bestellbestätigung, E-Receiver und vieles mehr zu senden.
+Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für traditionelle Marketing-Kanäle wie E-Mail und Direkt-Mail entwickelt wurde. Es bietet robuste ETL- und Daten-Management-Funktionen, die Sie beim Entwurf und bei der Kuratierung der perfekten Kampagne unterstützen. Die Orchestrierungs-Engine ermöglicht umfangreiche Multi-Touch-Marketing-Programme mit zentralem Fokus auf Batch-basierten Journeys. Außerdem bietet es einen skalierbaren Echtzeit-Messaging-Server, mit dem Marketing-Teams vordefinierte Mitteilungen auf Basis einer vollumfänglichen Payload aus beliebigen IT-Systemen senden können, wenn z. B. Passwörter zurückgesetzt, Bestellungen bestätigt oder Empfangsbelege versendet werden müssen.
 
 <br>
 
 ## Anwendungsfälle
 
-* Hoch komplexe, Batch-basierte Messaging-Programme
+* Hochkomplexe Batch-basierte Messaging-Programme
 * Onboarding- und Re-Marketing-Kampagnen
-* Briefpost-Werbe-, Broschüren- und Zeitschriftenkampagnen
-* Einfache Transaktionsnachrichten (d. h. Kennwortrücksetzung, E-Mail-Empfangsbestätigung, Bestellbestätigung usw.)
+* Kampagnen über Direkt-Mail-Werbung, Broschüren und Magazine
+* Einfaches Transaktions-Messaging (Passwort zurücksetzen, Empfang bestätigen, Bestellung bestätigen usw.)
 
 <br>
 
 ## Architektur
 
-<img src="assets/campaign-v8-architecture.svg" alt="Referenzarchitektur für Campaign v8-Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v8-architecture.svg" alt="Referenzarchitektur für die Blueprint „Campaign v8“" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -35,90 +35,90 @@ Adobe Campaign v8 ist das Kampagnenwerkzeug der nächsten Generation, das für h
 
 | Szenario | Beschreibung | Funktionen |
 | :-- | :--- | :--- |
-| [Journey Optimizer mit Adobe Campaign](ajo-and-campaign.md) | Zeigt, wie Sie Adobe Journey Optimizer verwenden können, um 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils zu orchestrieren und das native Adobe Campaign-Transaktionsnachrichtensystem zu nutzen, um die Nachricht zu senden | Nutzen Sie das Echtzeit-Kundenprofil und die Leistungsfähigkeit von Journey Optimizer, um im Moment Erlebnisse zu orchestrieren und gleichzeitig die nativen Echtzeit-Messaging-Funktionen von Adobe Campaign für die Kommunikation in der letzten Meile zu nutzen.<br><br>Zu beachten:<br><ul><li>Kann bis zu 1 Mio. Nachrichten pro Stunde über den Echtzeit-Nachrichtenserver senden<li>Journey Optimizer führt keine Drosselung durch, um die technische Prüfung durch einen Unternehmensarchitekten vor dem Verkauf sicherzustellen</li><li>offer decisioning wird in Payloads zu Campaign v8 nicht unterstützt</li></ul> |
+| [Journey Optimizer mit Adobe Campaign](ajo-and-campaign.md) | Zeigt, wie Sie Adobe Journey Optimizer verwenden können, um 1:1-Erlebnisse mit dem Echtzeit-Kundenprofil zu orchestrieren, und dabei das native Transaktionsnachrichtensystem von Adobe Campaign verwenden, um die Nachrichten zu versenden. | Nutzen Sie das Echtzeit-Kundenprofil und die Möglichkeiten von Journey Optimizer, um Erlebnisse im richtigen Moment zu orchestrieren, und nutzen Sie gleichzeitig die nativen Echtzeit-Messaging-Funktionen von Adobe Campaign, um die Kommunikation auf der letzten Meile durchzuführen.<br><br>Überlegungen:<br><ul><li>Kann bis zu 1 Mio. Nachrichten pro Stunde über den Echtzeit-Messaging-Server senden<li>Keine Drosselung durch Journey Optimizer, um technische Prüfung durch einen Pre-Sales Enterprise Architect sicherzustellen</li><li>Offer Decisioning wird in Payloads an Campaign v8 nicht unterstützt</li></ul> |
 
 <br>
 
 ## Voraussetzungen
 
 
-### Anwendungsserver und Echtzeit-Messaging-Server
+### Anwendungs-Server und Echtzeit-Messaging-Server
 
-* Die Adobe Campaign Client Console ist für die Interaktion und Verwendung der Campaign v8-Software erforderlich. Es handelt sich um einen Windows-basierten Client, der Standard-Internetprotokolle (SOAP, HTTP usw.) verwendet. Stellen Sie sicher, dass Sie in Ihrer Organisation die erforderlichen Berechtigungen zum Verteilen, Installieren und Ausführen von Software aktiviert haben.
+* Die Client-Konsole von Adobe Campaign ist für die Interaktion mit und Nutzung von Campaign v8 erforderlich. Dies ist ein Windows-basierter Client, der Standard-Internet-Protokolle verwendet (SOAP, HTTP usw.). Stellen Sie sicher, dass in Ihrem Unternehmen die erforderlichen Berechtigungen für das Verteilen, Installieren und Ausführen von Software aktiviert sind
 
-* Zulassungsauflistung von IP-Adressen
-   * Identifizieren Sie die IP-Bereiche, die alle Benutzer beim Zugriff auf die Client-Konsole nutzen
-   * Identifizieren, welche Unternehmenssysteme mit dem Echtzeit-Messaging-Server kommunizieren dürfen, und stellen Sie sicher, dass ihnen eine statisch zugewiesene IP-Adresse oder ein statischer Bereich zugewiesen ist, den Sie zur Zulassungsliste nutzen können.
-   * Dies kann über das Campaign Control Panel eingerichtet und gesteuert werden.
-* sFTP-Schlüsselverwaltung
-   * Sie können über öffentliche SSH-Schlüssel verfügen, die mit dem sFTP-Konto von Campaign verwendet werden können. Dies kann über das Campaign Control Panel eingerichtet und gesteuert werden.
+* IP-Adressen-Zulassungsliste
+   * Ermitteln Sie die IP-Bereiche, die alle Anwender während des Zugriffs auf die Client-Konsole nutzen werden
+   * Ermitteln Sie, welche Unternehmenssysteme mit dem Echtzeit-Messaging-Server kommunizieren dürfen, und stellen Sie sicher, dass diesen eine statische IP (bzw. ein Bereich) zugewiesen ist, die sich auf Ihrer Zulassungsliste befindet
+   * Dies kann über das Control Panel von Campaign eingerichtet werden
+* sFTP-Schlüssel-Management
+   * Halten Sie öffentliche SSH-Schlüssel bereit, die Sie mit dem Campaign-sFTP verwenden können. Dies kann über das Control Panel von Campaign eingerichtet werden.
 
 ### E-Mail
 
-* Eine Subdomain für den Nachrichtenversand bereitstellen
-* Subdomains können entweder vollständig an Adobe delegiert (empfohlen) oder CNAMEs verwendet werden, um auf Adobe-spezifische DNS-Server zu verweisen (benutzerdefiniert).
-* Für jede Subdomain ist ein Google-TXT-Eintrag erforderlich, um eine korrekte Zustellbarkeit zu gewährleisten
+* Halten Sie eine Subdomain bereit, die für den Versand von Nachrichten verwendet werden kann
+* Die Subdomain kann entweder komplett an Adobe delegiert werden (empfohlen) oder CNAMEs können zum Verweis an Adobe-spezifische DNS-Server (benutzerdefiniert) verwendet werden
+* Für jede Subdomain ist ein Google-TXT-Datensatz erforderlich, um gute Zustellbarkeit sicherzustellen
 
 ### Mobilgeräte-Push
 
-* Sie benötigen einen mobilen Entwickler, der für die Bereitstellung, Konfiguration und Erstellung der App verfügbar ist.
-* Adobe stellt nur ein SDK bereit, um die erforderlichen Informationen von FCM (Android) und APNS (iOS) zu erfassen und Nachrichten-Payloads an ihre Server zu senden. Die Art und Weise, wie die mobile App codiert, bereitgestellt, verwaltet und debuggt werden muss, liegt in der Verantwortung des Kunden.
+* Halten Sie einen Mobile-Entwickler bereit, der die Mobile App bereitstellen, konfigurieren und aufbauen kann
+* Adobe bietet lediglich ein SDK zum Erfassen der nötigen Informationen von FCM (Android) und APNS (iOS), um Message-Payloads an die Server zu senden. Das Programmieren, Bereitstellen, Verwalten und Debuggen der Mobil App fällt jedoch in den Verantwortungsbereich des Kunden
 
-### Webapps (optional)
+### Web-Apps (optional)
 
-* Kann eine zusätzliche Subdomain für gehostete Kampagnen-Abmeldungen und Landingpages delegieren
-* SSL-Zertifikat wird dringend empfohlen
+* Kann eine weitere Subdomain für Campaign-gehostete Abmeldungen und Landingpages delegieren
+* SSL-Zertifikat wird empfohlen
 
 <br>
 
 ## Leitlinien
 
-### Größe des Anwendungsservers
+### Größe des Anwendungs-Servers
 
-* Der Speicher kann auf bis zu 200 Millionen Profile skaliert werden, mit der Möglichkeit, bis zu 1 B Profile zu skalieren
-* Benutzerzugriff über Adobe Admin Console einrichten und steuern
-* Das Laden von Daten in Campaign erfolgt voraussichtlich über Batch-Dateien
-   * Die Unterstützung zum Laden von API-Daten dient hauptsächlich der Verwaltung von Profilen oder einfachen Objekten in der Datenbank (d. h. Erstellen und Aktualisieren). Sie ist nicht für das Laden großer Datenmengen oder Batch-ähnlicher Vorgänge vorgesehen.
+* Der Speicher kann auf bis zu 200 Mio. Profile skaliert werden, potenzielle Weiterskalierung auf 1 Mrd. Profile
+* Benutzerzugriff wird über die Adobe Admin Console eingerichtet und gesteuert
+* Das Laden von Daten in Campaign sollte über Batch-Dateien erfolgen
+   * Unterstützung beim Laden von API-Daten ist vor allem für das Verwalten von Profilen oder simplen Objekten innerhalb der Datenbank erforderlich (d. h. Erstellen und Aktualisieren). Sie soll nicht für das Laden großer Datenvolumen oder Batch-artige Vorgänge verwendet werden.
    * Die Verwendung von APIs zum Lesen von Daten für benutzerdefinierte Anwendungszwecke wird nicht unterstützt
-   * Die über die API geladenen Daten werden in der Anwendungsdatenbank gespeichert und dann stündlich in die Cloud-Datenbank repliziert
-* API-Aufrufe sind auf 15 pro Sekunde oder 150.000 pro Tag im Maßstab beschränkt
+   * Über API geladene Daten werden in der Anwendungsdatenbank bereitgestellt und dann jede Stunde in der Cloud-Datenbank repliziert
+* API-Aufrufe sind auf 15 pro Sekunde oder 150.000 pro Tag begrenzt
 
-### Größe des Batch Messaging-Servers
+### Größen des Batch-Messaging-Servers
 
-* Kann skaliert werden, um bis zu 20 M Nachrichten pro Stunde zu verarbeiten
+* Kann für die Verarbeitung von bis zu 20 Mio. Nachrichten pro Stunde skaliert werden
 
-### Skalierung von Echtzeit-Messaging-Servern
+### Größe des Echtzeit-Messaging-Servers
 
 * Kann bis zu 1 Mio. Nachrichten pro Stunde senden
-* Standardmäßig werden zwei Echtzeit-Messaging-Server bereitgestellt. Möglichkeit zur Skalierung von bis zu acht Echtzeit-Messaging-Servern.
+* Standardmäßig werden zwei Echtzeit-Messaging-Server bereitgestellt. Möglichkeit, auf bis zu acht Echtzeit-Messaging-Server zu skalieren.
 
 ### SMS-Konfiguration
 
-* Campaign ermöglicht die Integration mit einem SMS-Provider. Der Provider wird vom Kunden beschafft und in die Kampagne für den Versand von SMS-basierten Nachrichten integriert
-* Die Unterstützung erfolgt über das SMPP-Protokoll.
-* Es gibt drei (3) verschiedene Arten von SMS, die von Adobe unterstützt werden können:
-   * SMS MT (Mobile Terminated): SMS, die von Adobe Campaign über den SMPP-Provider an Mobiltelefone gesendet werden.
-   * SMS MO (Mobile Originated): eine SMS, die von einem Mobilgerät über den SMPP-Provider an Adobe Campaign gesendet wird.
-   * SMS SR (Status Report) oder DR oder DLR (Delivery Receipt): eine vom Mobiltelefon an Adobe Campaign über den SMPP-Provider gesendete Rücksendungsquittung, die angibt, dass die SMS erfolgreich empfangen wurde. Adobe Campaign erhält möglicherweise auch einen SR, der angibt, dass die Nachricht nicht zugestellt werden konnte, oft mit einer Fehlerbeschreibung.
+* Campaign bietet die Möglichkeit zur Integration mit einem SMS-Anbieter. Dieser Anbieter wird vom Kunden erworben und mit Campaign integriert, um SMS-basiert Nachrichten zu senden
+* Die Unterstützung erfolgt über das SMPP-Protokoll
+* Es gibt drei (3) verschiedene Arten von SMS, die Adobe alle unterstützen kann:
+   * SMS MT (endet auf Mobilgerät): Eine SMS, die von Adobe Campaign über den SMPP-Anbieter an Mobiltelefone gesendet wird.
+   * SMS MO (geht von Mobilgerät aus): Eine SMS, die von einem Mobiltelefon über den SMPP-Anbieter an Adobe Campaign gesendet wird.
+   * SMS SR (Statusbericht) oder DR oder DLR (Versandbestätigung): Eine Empfangsbestätigung, die vom Mobiltelefon über den SMPP-Anbieter an Adobe Campaign gesendet wird und angibt, dass die SMS erfolgreich übermittelt wurde. Adobe Campaign kann auch SR mit einer Meldung empfangen, dass die Nachricht nicht zugestellt wird. Häufig ist auch eine Beschreibung des Fehlers enthalten.
 
-### Mobile Push-Konfiguration
+### Mobilgeräte-Push-Konfiguration
 
-* Nur das Campaign SDK wird für Campaign v8 unterstützt. Wenden Sie sich an die Kundenunterstützung der Adobe, um Zugriff zu erhalten.
-* Bitte folgen Sie dem [Dokumentation zum Campaign SDK](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en) Informationen zum Installieren und Konfigurieren des SDK
+* Für Campaign v8 wird nur das Campaign SDK unterstützt. Kontaktieren Sie die Adobe-Kundenunterstützung, um Zugriff zu erhalten
+* Folgen Sie der [Dokumentation zum Campaign SDK](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=de), um mehr über die Installation und Konfiguration des SDK zu erfahren
 
    >[!IMPORTANT]
-   >Für andere Experience Cloud-Anwendungen ist die Verwendung des Experience Platform Mobile SDK für die Datenerfassung erforderlich. Dies ist ein anderes SDK und muss neben dem Campaign SDK installiert werden.
+   >Andere Experience Cloud-Programme erfordern die Nutzung des Experience Platform Mobile SDK zur Datenerfassung. Dies ist ein anderes SDK, das zusätzlich zum Campaign SDK installiert werden muss
 
 <br>
 
 ## Implementierungsschritte
 
-Siehe Erste Schritte für [Implementieren von Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
+Weitere Informationen für die ersten Schritte finden Sie im Handbuch [Implementierung von Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=de)
 
 
 ## Verwandte Dokumentation
 
-* [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=en)
-* [Produktbeschreibung von Campaign v8](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de)
+* [Produktbeschreibung zu Campaign v8](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
 * [Dokumentation zu Experience Platform Tags ](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 * [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)

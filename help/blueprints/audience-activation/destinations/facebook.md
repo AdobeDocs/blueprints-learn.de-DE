@@ -1,19 +1,19 @@
 ---
-title: Aktivierung für benutzerdefinierte Facebook-Zielgruppen
-description: Aktivierung für benutzerdefinierte Facebook-Zielgruppen.
+title: Aktivierung für Facebook Custom Audiences
+description: Aktivierung für Facebook Custom Audiences.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Aktivierung für benutzerdefinierte Facebook-Zielgruppen
+# Aktivierung für Facebook Custom Audiences
 
-Erfassen Sie Kundendaten aus mehreren Quellen, um eine Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile in erstellte Zielgruppen für Marketing und Personalisierung, geben Sie diese Zielgruppen in Social-Anzeigennetzwerken wie Facebook frei, um Zielgruppen mit diesen Zielgruppen auszuwählen und Personalisierungskampagnen durchzuführen.
+Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Social Ad Networks wie Facebook, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren.
 
 ## Anwendungsfälle
 
@@ -26,68 +26,68 @@ Erfassen Sie Kundendaten aus mehreren Quellen, um eine Profilansicht des Kunden 
 
 ## Architektur
 
-<img src="../assets/facebook.png" alt="Referenzarchitektur für benutzerdefinierte Facebook-Audience Activation" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../assets/facebook.png" alt="Referenzarchitektur für die Aktivierung von Facebook Custom Audiences" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementierungsschritte
 
-1. Konfigurieren Sie Identitäts-Namespaces, die in Profildatenquellen verwendet werden sollen.
-   * Verwenden Sie native Namespaces wie E-Mail, E-Mail SHA256-Hash, sofern verfügbar.
-   * Facebook verfügt über eine Liste unterstützter Identitäten. Um für benutzerdefinierte Facebook-Zielgruppen aktiviert zu werden, muss eine der unterstützten Identitäten in den Profilen vorhanden sein, die aktiviert werden sollen.
+1. Konfigurieren Sie Identitäts-Namespaces, die in Profil-Datenquellen verwendet werden sollen.
+   * Verwenden Sie die vorkonfigurierten Namespaces wie „Email“ und „Email SHA256 Hash“, sofern verfügbar.
+   * Facebook verfügt über eine Liste unterstützter Identitäten. Für die Aktivierung für Facebook Custom Audiences muss eine der unterstützten Identitäten in den zu aktivierenden Profilen verfügbar sein.
    * Die folgenden Identitäten werden derzeit von Facebook unterstützt: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
-   * Weitere Informationen finden Sie unter [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
-   * Erstellen Sie benutzerdefinierte Namespaces, in denen native Namespaces nicht für die entsprechenden Identitäten verfügbar sind.
-1. Konfigurieren Sie Profildatenquellenschemata und -datensätze.
-   * Erstellen Sie Profildatensatzschemata für alle Profildatensatzquelldaten.
-      * Geben Sie die primäre Identität und die sekundären Identitäten für jedes Schema an.
-      * Aktivieren Sie das Schema für die Profilerfassung.
-   * Erstellen Sie Profildatensätze für alle Profildatensatzquelldaten und weisen Sie das zugehörige Schema zu.
-      * Aktivieren Sie den Datensatz für die Profilaufnahme.
-   * Erstellen Sie Profilerlebnisereignis-Schemas für alle Profilzeitreihen-basierten Quelldaten.
-      * Geben Sie die primäre Identität und die sekundären Identitäten für das Schema an.
-   * Aktivieren Sie das Schema für die Profilerfassung.
-   * Erstellen Sie Profilerlebnisereignis-Datensätze für alle Profilerlebnisereignis-Quelldaten und weisen Sie das zugehörige Schema zu.
-      * Aktivieren Sie den Datensatz für die Profilaufnahme.
-1. Erfassen Sie die Quelldaten mithilfe eines Quell-Connectors in den oben konfigurierten zugehörigen Datensatz.
-   * Konfigurieren Sie das Quell-Connector-Konto mit Anmeldeinformationen.
-   * Konfigurieren Sie einen Datenfluss, um die Daten aus der Quelldatei oder dem Ordnerspeicherort zu einem festgelegten Zeitplan in den angegebenen Datensatz aufzunehmen.
-   * Ordnen Sie alle Felder aus den Quelldaten dem Zielschema zu.
-   * Wandeln Sie alle Felder in das richtige Format für die Aufnahme in Experience Platform um.
-      * Datumsumwandlungen
-      * Gegebenenfalls in Kleinbuchstaben umwandeln, z. B. E-Mail-Adresse
-      * Musterumwandlungen (z. B. Telefonnummer)
-      * Fügen Sie eindeutige Datensatz-IDs für Erlebnisereignisdatensätze hinzu, wenn diese nicht in den Quelldaten enthalten sind.
-      * Transformieren Sie Arrays und Zuordnungsfelder, um eine korrekte Zuordnung und Modellierung von Arrays und Zuordnungen zur Segmentierung in Experience Platform sicherzustellen.
-1. Konfigurieren Sie die Richtlinie zur Profilzusammenführung, um die korrekte Konfiguration des Identitätsdiagramms sicherzustellen und sicherzustellen, welche Datensätze in die Profilzusammenführung einbezogen werden sollen.
-1. Nachdem die Datenflüsse ausgeführt wurden, stellen Sie sicher, dass die Profildatenerfassung ohne Fehler erfolgreich war.
-   * Inspect das Identitätsdiagramm mehrerer Profile, um eine korrekte Verarbeitung von Identitätsbeziehungen sicherzustellen.
-   * Inspect die Attribute und Ereignisse verschiedener Profile, um die korrekte Aufnahme von Attributen und Ereignissen in die Profile sicherzustellen.
-1. Erstellen von Segmenten zum Erstellen von Profilzielgruppen
-   * Erstellen Sie Segmente im Segment Builder mithilfe von Regeln für Attribute und Ereignisse.
-   * Speichern Sie das Segment zur Auswertung. Die Auswertung von Segmenten erfolgt einmal täglich nach dem festgelegten Zeitplan.
-      * Wenn die Segmentregeln für Streaming-Segmentierung geeignet sind, wird das Segment ausgewertet, da neue Streaming-Daten für die Profile erfasst werden. Streaming-Segmente werden während der geplanten Batch-Segmentierung auch einmal täglich ausgewertet.
-1. Stellen Sie sicher, dass die Segmentergebnisse erwartungsgemäß sind.
-   * Überprüfen Sie die Anzahl der Segmentergebnisse für die angegebenen Segmente.
-   * Untersuchen Sie das Profil, das in das Segment aufgenommen werden soll, um sicherzustellen, dass die Segmentzugehörigkeit im Segmentzugehörigkeitsteil des Profils enthalten ist.
-1. Konfigurieren Sie in der Zielkonfiguration den Versand der Audience an das Ziel.
-   * Siehe [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) für weitere Informationen zur Konfiguration des Facebook-Ziels.
-   * Wählen Sie beim Konfigurieren eines Ziels aus, welche Zielgruppe Sie für das Ziel aktivieren möchten.
-   * Legen Sie das geplante Startdatum fest, an dem der Ziel-Datenfluss die Zielgruppe an das Ziel senden soll.
-   * Jedes Ziel verfügt über erforderliche und optionale Attribute, die gesendet werden.
-      * Für Facebook muss eine der erforderlichen Identitäten enthalten sein und wird verwendet, um die Profile in den Zielgruppen in Experience Platform mit einem von Facebook anvisierten Profil abzugleichen.
-   * Jedes Ziel hat auch einen bestimmten Bereitstellungstyp, ob Streaming oder Batch, dateibasierte oder JSON-Payload.
-      * Bei Facebook werden Zielgruppenmitgliedschaften im Streaming-Modus an einen Facebook-Endpunkt im JSON-Format bereitgestellt.
-      * Zielgruppenmitgliedschaften werden im Streaming-Modus nach der Streaming- oder Batch-Segmentierungsbewertung in Experience Platform bereitgestellt.
-1. Stellen Sie sicher, dass der Zielfluss die Zielgruppe wie erwartet an das Ziel geliefert hat.
-   * Überprüfen Sie die Monitoring-Oberfläche, um sicherzustellen, dass die Audience mit der erwarteten Anzahl von Profilen bereitgestellt wurde. Die Zielgruppengröße sollte die erwartete Anzahl aktivierter Profile widerspiegeln, wobei darauf hingewiesen wird, dass für bestimmte Zielgruppen wie Facebook bestimmte Felder erforderlich sind, z. B. eine E-Mail-Hash-Identität. Wenn diese nicht in dem Profil vorhanden ist, das Mitglied der Zielgruppe ist, wird sie nicht für das Ziel aktiviert.
-   * Suchen Sie nach übersprungenen Profilen, wenn Profilidentitäten fehlen oder Attribute fehlen, die obligatorisch waren.
-   * Überprüfen Sie, ob weitere Fehler behoben werden müssen.
-1. Überprüfen Sie, ob die Zielgruppe für das Endziel mit der erwarteten Anzahl von Zielgruppenmitgliedschaften aktiviert wurde.
-   * Melden Sie sich beim Facebook Custom Audience-Portal an, um zu überprüfen, ob die Zielgruppe aus Real-time Customer Data Platform bereitgestellt wurde und ob die Übereinstimmungsrate der Profile in der Zielgruppe in Facebook mit der Anzahl der Profile in der Zielgruppe aus Real-time Customer Data Platform übereinstimmt.
+   * Weitere Details finden Sie im [Handbuch für das Ziel Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=de).
+   * Erstellen Sie benutzerdefinierte Namespaces, wenn für die entsprechenden Identitäten keine vorkonfigurierten Namespaces verfügbar sind.
+1. Konfigurieren Sie Schemas und Datensätze für die Profil-Datenquellen.
+   * Erstellen Sie Profildatensatz-Schemas für alle Profildatensatz-Quelldaten.
+      * Geben Sie die primäre Identität und sekundäre Identitäten für jedes Schema an.
+      * Aktivieren Sie das Schema zur Profilaufnahme.
+   * Erstellen Sie Profildatensätze für alle Profildatensatz-Quelldaten, indem Sie das zugehörige Schema zuweisen.
+      * Aktivieren Sie den Datensatz zur Profilaufnahme.
+   * Erstellen Sie Profil-Erlebnisereignis-Schemas für alle auf Zeitserien basierenden Quelldaten des Profils.
+      * Geben Sie die primäre Identität und sekundäre Identitäten für das Schema an.
+   * Aktivieren Sie das Schema zur Profilaufnahme.
+   * Erstellen Sie Profil-Erlebnisereignis-Datensätze für alle Profil-Erlebnisereignis-Quelldaten, indem Sie das zugehörige Schema zuweisen.
+      * Aktivieren Sie den Datensatz zur Profilaufnahme.
+1. Nehmen Sie die Quelldaten über einen Quell-Connector in den oben konfigurierten zugehörigen Datensatz auf.
+   * Konfigurieren Sie das Quell-Connector-Konto mit Anmeldedaten.
+   * Konfigurieren Sie einen Datenfluss zur Aufnahme der Daten aus der Quelldatei oder dem Ordnerverzeichnis entsprechend einem festgelegten Zeitplan in den angegebenen Datensatz.
+   * Ordnen Sie sämtliche Felder aus den Quelldaten dem Zielschema zu.
+   * Wandeln Sie sämtliche Felder in das korrekte Format für die Aufnahme in Experience Platform um.
+      * Datumstransformationen
+      * Wandeln Sie gegebenenfalls – z. B. bei E-Mail-Adressen – in Kleinbuchstaben um
+      * Mustertransformationen (z. B. Telefonnummern)
+      * Fügen Sie eindeutige Datensatz-IDs für Erlebnisereignis-Datensätze hinzu, wenn diese nicht in den Quelldaten vorhanden sind.
+      * Wandeln Sie Arrays und Karten-Typfelder um, um die korrekte Zuordnung und Modellierung von Arrays und Karten bei der Segmentierung in Experience Platform sicherzustellen.
+1. Konfigurieren Sie die Profilzusammenführungs-Richtlinie, um die korrekte Konfiguration des Identitätsdiagramms sicherzustellen und festzulegen, welche Datensätze beim Zusammenführen von Profilen übernommen werden sollen.
+1. Nachdem Datenflüsse ausgeführt wurden, stellen Sie sicher, dass die Aufnahme von Profildaten erfolgreich und ohne Fehler durchgeführt wurde.
+   * Prüfen Sie das Identitätsdiagramm mehrerer Profile, um die korrekte Verarbeitung von Identitätsbeziehungen sicherzustellen.
+   * Prüfen Sie die Attribute und Ereignisse mehrerer Profile, um die korrekte Aufnahme von Attributen und Ereignissen in die Profile sicherzustellen.
+1. Erstellen Sie Segmente, um Profil-Zielgruppen zu erstellen
+   * Erstellen Sie im Segment Builder mit Regeln Segmente anhand von Attributen und Ereignissen.
+   * Speichern Sie das Segment zur Evaluierung. Segmente werden entsprechend dem angegebenen Zeitplan einmal täglich evaluiert.
+      * Wenn die Segmentregeln die Streaming-Segmentierung vorsehen, wird das Segment evaluiert, wenn neue Streaming-Daten für die Profile aufgenommen werden. Streaming-Segmente werden auch einmal täglich während der geplanten Batch-Segmentierung evaluiert.
+1. Stellen Sie sicher, dass die Segmentergebnisse den Erwartungen entsprechen.
+   * Prüfen Sie die Zahl der Segmentergebnisse für die vorhandenen Segmente.
+   * Prüfen Sie das Profil, das im Segment vorhanden sein sollte, um sicherzustellen, dass die Segmentzugehörigkeit im Bereich des Profils für die Segmentzugehörigkeit enthalten ist.
+1. Konfigurieren Sie die Übermittlung der Zielgruppe an das Ziel in der Konfiguration des Ziels.
+   * Weitere Details zur Konfiguration von Facebook als Ziel finden Sie im [Handbuch für das Ziel Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=de).
+   * Wenn Sie ein Ziel konfigurieren, wählen Sie aus, welche Zielgruppe Sie für das Ziel aktivieren möchten.
+   * Legen Sie das geplante Startdatum fest, an dem der Ziel-Datenfluss mit der Übermittlung der Zielgruppe für das Ziel beginnen soll.
+   * Jedes Ziel hat erforderliche und optionale Attribute, die gesendet werden.
+      * Für Facebook muss eine der erforderlichen Identitäten enthalten sein. Diese wird zum Abgleich der Profile in der Zielgruppe in Experience Platform mit einem Profil verwendet, das Facebook ansprechen kann.
+   * Jedes Ziel verfügt auch über einen festgelegten Übermittlungstyp – Streaming, Batch, dateibasiert oder JSON-Payload.
+      * Für Facebook werden Zielgruppenzugehörigkeiten im Streaming-Modus an einen Facebook-Endpunkt im JSON-Format übermittelt.
+      * Zielgruppenzugehörigkeiten werden im Streaming-Modus entsprechend der Streaming- oder Batch-Segmentierungs-Evaluierung in Experience Platform übermittelt.
+1. Stellen Sie sicher, dass der Zielfluss die Zielgruppe wie erwartet an das Ziel übermittelt hat.
+   * Prüfen Sie in der Monitoring-Schnittstelle, ob die Zielgruppe mit der erwarteten Anzahl an Profilen übermittelt wurde. Die Zielgruppengröße sollte die erwartete Anzahl aktivierter Profile widerspiegeln. Beachten Sie dabei, dass bestimmte Ziele wie Facebook bestimmte Felder erfordern, z. B. eine E-Mail-Hash-Identität. Wenn diese Felder nicht in einem Profil vorhanden sind, das Teil der Zielgruppe ist, wird dieses im Ziel nicht aktiviert.
+   * Prüfen Sie übersprungene Profile auf fehlende Profilidentitäten oder fehlende erforderliche Attribute.
+   * Prüfen Sie, ob andere Fehler vorliegen, die behoben werden müssen.
+1. Prüfen Sie, ob die Zielgruppe im Ziel mit der erwarteten Anzahl an Zielgruppenzugehörigkeiten aktiviert wurde.
+   * Melden Sie sich beim Portal von Facebook Custom Audiences an, um sicherzustellen, dass die Zielgruppe aus Real-time Customer Data Platform übermittelt wurde und dass die Anzahl der Profile in der Zielgruppe in Facebook in etwa der Anzahl der Profile in der Zielgruppe in Real-time Customer Data Platform entspricht.
 
 ## Leitlinien
 
-[Limits für Profil und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+[Leitlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 ## Verwandte Dokumentation
 
-Aktivierung für benutzerdefinierte Facebook-Zielgruppen - [Zielkonfiguration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
+Aktivierung für Facebook Custom Audiences – [Zielkonfiguration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=de)

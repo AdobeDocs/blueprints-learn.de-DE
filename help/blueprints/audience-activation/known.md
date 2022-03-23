@@ -4,10 +4,10 @@ description: Online-/Offline-Zielgruppenaktivierung.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 72%
 
 ---
 
@@ -29,19 +29,25 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 * Adobe Experience Platform
 * [!UICONTROL Real-Time Customer Data Platform]
+* Audience Manager People-basierte Ziele können auch für personenbasierte Aktivierungen für Facebook, LinkedIn und Google-Kundenabgleich genutzt werden.
 
 ## Architektur
 
-### Aktivierung mit Online- und Offline-Daten mit Zielen
+### Bekannte Kundenaktivierung über Real-time Customer Data Platform
 
-<img src="assets/online_offline_activation.svg" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Zielgruppenaktivierung“" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Referenzarchitektur für den Blueprint zur bekannten Kundenaktivierung" style="width:80%; border:1px solid #4a4a4a" />
+<br>
+
+### Bekannte Kundenaktivierung über personenbasierte Ziele von Audience Manager
+
+<img src="assets/AAM_PBD.svg" alt="Referenzarchitektur für den Blueprint zur bekannten Kundenaktivierung" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien
 
 [Beachten Sie die Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profilaktivierung](overview.md).
 
-## Implementierungsschritte
+## Implementierungsschritte für Real-time Customer Data Platform
 
 1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) für die zu erfassenden Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
@@ -57,6 +63,12 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 * Die Freigabe von Profildaten an Ziele erfordert, dass der spezifische Identitätswert, der vom Ziel in der Ziel-Payload verwendet wird, mit eingeschlossen wird. Jede Identität, die für ein Ziel notwendig ist, muss in Platform aufgenommen und als eine Identität für das [!UICONTROL Echtzeit-Kundenprofil] konfiguriert werden.
 
 * Siehe [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen](platform-and-applications.md) Weitere Informationen zur Freigabe von Zielgruppen von Real-time Customer Data Platform für Audience Manager, Analytics, Target, Campaign und Journey Optimizer.
+
+## Implementierungsschritte für benutzerspezifische Ziele in Audience Manager
+
+* Weitere Informationen zur Implementierung von Audience Manager finden Sie unter: [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de).
+
+* Weitere Informationen zur Implementierung von personenbasierten Zielen in Audience Manager finden Sie unter folgenden Themen: [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
 
 ## Verwandte Dokumentation
 

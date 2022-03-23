@@ -3,13 +3,13 @@ title: Tourismus und Gastgewerbe – Aktivierung mit Online- und Offline-Daten
 description: Echtzeitentscheidungen mit einer konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # Tourismus und Gastgewerbe – geschäftliche Herausforderung
 
@@ -42,8 +42,4 @@ Dank der Nutzung von Adobe-Technologien und -Services ist dieses Unternehmen nun
 
 ### Blueprint-Architektur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für ein Unternehmen in der Tourismus- und Gastgewerbebranche, das in der Lage ist, mithilfe einer konsolidierten Ansicht des Kundenverhaltens auf verschiedenen Kanälen Echtzeitentscheidungen zu treffen." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
-
-
-
-
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für ein Unternehmen in der Tourismus- und Gastgewerbebranche, das in der Lage ist, mithilfe einer konsolidierten Ansicht des Kundenverhaltens auf verschiedenen Kanälen Echtzeitentscheidungen zu treffen." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>

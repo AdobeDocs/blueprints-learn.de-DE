@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: f46c09a88cf2b49c816ab27c5daef20c01e99b09
+source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 40%
+source-wordcount: '397'
+ht-degree: 41%
 
 ---
 
@@ -26,6 +26,9 @@ Die Aktivierung einer anonymen Zielgruppe ist die Möglichkeit, Zielgruppen übe
 
 ## Programme
 
+* Audience Manager
+* Real-time Customer Data Platform
+
 Sowohl Audience Manager als auch Real-time Customer Data Platform können genutzt werden, um anonyme Audience Activationen für Onsite- und Werbeziele zu unterstützen. Beachten Sie, dass Real-time Customer Data Platform nur eine Untergruppe von Werbezielen mit anonymen Geräte-IDs unterstützt, die im [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
 Microsoft Bing, Google DV360 und TradeDesk sind die am häufigsten unterstützten Real-time Customer Data Platform-Werbeziele für anonymes gerätebasiertes Targeting. Darüber hinaus unterstützt Real-time Customer Data Platform zahlreiche bekannte kundenbasierte Ziele, die im [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) und wie in [bekanntes Blueprint zur Kundenaktivierung](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
@@ -34,9 +37,9 @@ Microsoft Bing, Google DV360 und TradeDesk sind die am häufigsten unterstützte
 
 <img src="assets/anonymous_activation.svg" alt="Referenzarchitektur für die Blueprint „Anonyme Zielgruppenaktivierung“" style="width:80%; border:1px solid #4a4a4a" />
 
-## Implementierungsschritte
+<br>
 
-<!-- These steps should link to help. -->
+## Implementierungsschritte
 
 1. [Implementieren Sie Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de#implementation-integration-guides).
 1. Erfassen Sie Daten in Audience Manager.

@@ -1,15 +1,15 @@
 ---
 title: Telekommunikationsbranche – Journey Optimizer für automatisch ausgelöstes Messaging
 description: Bereitstellung maßgeschneiderter Angebote in Echtzeit bei gleichzeitigem effizientem Onboarding von Kunden, das für langfristige Kundentreue sorgt.
-solution: Experience Platform, Journey Optimizer
+solution: Journey Optimizer
 kt: 9486
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
+source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Telekommunikationsbranche – geschäftliche Herausforderung
 
@@ -42,8 +42,3 @@ Diese Einschränkung musste beseitigt werden, um ein schnelleres Follow-up bei B
 ### Blueprint-Architektur
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=de"><img alt="Miniaturbild für ein Telekommunikationsunternehmen, das maßgeschneiderte Angebote in Echtzeit bei gleichzeitigem effizientem Onboarding von Kunden bietet, was für langfristige Kundentreue sorgt." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
-
-
-
-
-

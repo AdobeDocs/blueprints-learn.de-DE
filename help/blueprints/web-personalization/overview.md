@@ -6,15 +6,15 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Web- und Mobile-Personalisierung
 
-Web- und Mobile-Personalisierung ermöglicht die Verwendung der Profil- und Zielgruppensegmentierung über mehrere Anwendungen hinweg, um Kundenerlebnisse zu personalisieren und zu optimieren. Kundenverhalten, Demografie, Treuestufe und frühere Transaktionen können genutzt werden, um Layouts, Aktionsaufrufe und Inhalte zu personalisieren.
+Die Web- und Mobile-Personalisierung zeigt auf, wie Profil- und Zielgruppensegmentierung in mehreren Programmen zur Personalisierung und Optimierung von Kundenerlebnissen verwendet werden kann. Kundenverhalten, Demografie, Treuestufe und frühere Transaktionen können genutzt werden, um Layouts, Aktionsaufrufe und Inhalte zu personalisieren.
 
 <br>
 
@@ -27,7 +27,7 @@ Web- und Mobile-Personalisierung ermöglicht die Verwendung der Profil- und Ziel
 
 ## Leitlinien für die Web- und Mobile-Personalisierung
 
-[Limits in Bezug auf Zielgruppen- und Profilaktivierung finden Sie in der Dokumentation zu Profilen und SegmentierungsLimits .](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+[Leitlinien zu Zielgruppen- und Profilaktivierung finden Sie in der Dokumentation zu den Leitlinien bei Profilen und Segmentierung.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 <br>
 

@@ -6,8 +6,8 @@ kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei. Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.
 
-Die Aktivierung mit Experience Cloud-Anwendungen passt sich eng an die [Bekanntes Blueprint zur Kundenaktivierung](known.md).
+Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der Blueprint [Aktivierung bekannter Kunden](known.md).
 
 ## Anwendungsfälle
 
@@ -35,7 +35,7 @@ Die Aktivierung mit Experience Cloud-Anwendungen passt sich eng an die [Bekannte
 
 ## Architektur
 
-Siehe [Experience Platform und Anwendungsarchitektur](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=de) für zusätzliche Architekturdiagramme im Zusammenhang mit Experience Platform-Integrationen mit Experience Cloud-Anwendungen.
+Weitere Architekturdiagramme für Experience Platform-Integrationen mit Experience Cloud-Programmen finden Sie im Abschnitt [Architekturdiagramm zu Experience Platform und Programmen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=de).
 
 ### Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
 
@@ -62,13 +62,13 @@ Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profi
 
 * Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele freigegeben werden, wenn die erforderlichen Zielidentitäten im [!UICONTROL Echtzeit-Kundenprofil] enthalten sind oder wenn Identitäten im [!UICONTROL Echtzeit-Kundenprofil] mit den erforderlichen Zielidentitäten verbunden werden können, die in Audience Manager verknüpft sind.
 
-### Zielgruppenfreigabe von Real-time Customer Data Platform an Target
+### Zielgruppenfreigabe aus Real-time Customer Data Platform für Target
 
-* Siehe [Web-/Mobile-Personalisierung mit Online- und Offline-Daten-Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) für zusätzliche Informationen zur Freigabe von Profilen und Zielgruppen von Real-time Customer Data Platform für Target.
+* In der Blueprint [Web-/Mobile-Personalisierung mit Online- und Offline-Daten](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=de) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen aus Real-time Customer Data Platform für Target.
 
-### Zielgruppenfreigabe von Real-time Customer Data Platform für Campaign und Journey Optimizer
+### Zielgruppenfreigabe aus Real-time Customer Data Platform für Campaign und Journey Optimizer
 
-* Siehe [Journey-Blueprints für Kunden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) für weitere Informationen zur Freigabe von Profilen und Audiences von Real-time Customer Data Platform für Campaign und Journey Optimizer.
+* In den [Blueprints zu Customer Journeys](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=de) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen aus Real-time Customer Data Platform für Campaign und Journey Optimizer.
 
 ## Verwandte Dokumentation
 

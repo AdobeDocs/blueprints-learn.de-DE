@@ -3,9 +3,9 @@ title: 'Blueprints: Anwendungsfälle für digitale Erlebnisse'
 description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
 source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Welche dieser Anwendungsfälle sind für Ihr Unternehmen wichtig? Entdecken Sie,
  <tr>
   <td>Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=en">Bekannte Kundenaktivierung</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=de">Aktivierung eines bekannten Kunden</a></td>
  </tr>
  <tr>
   <td>Online-Personalisierung mit Online- und Offline-Attributen.</td>
@@ -43,12 +43,12 @@ Welche dieser Anwendungsfälle sind für Ihr Unternehmen wichtig? Entdecken Sie,
  <tr>
   <td>Zielgruppen- und Profilaktivierung für Cloud-Datenspeicherziele oder Streaming-Ziele für das Tracking, die Speicherung, die Analyse und die Aktivierung von Kundendaten und Erkenntnissen.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">Aktivierung für Unternehmensziele</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=de">Aktivierung für Unternehmensziele</a></td>
  </tr>
  <tr>
   <td>Personalisierung und Targeting auf allen Kundeninteraktionskanälen, die auf Experience Cloud basieren</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Cloud-Programmen</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Cloud-Programmen</a></td>
  </tr>
  <tr>
   <td>Gemeinsame Nutzung von Zielgruppen- und Profildaten von Experience Platform und Experience Cloud-Programmen</td>
@@ -56,7 +56,7 @@ Welche dieser Anwendungsfälle sind für Ihr Unternehmen wichtig? Entdecken Sie,
  <tr>
   <td>Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Dank der Profilsuche in Experience Platform erhalten Mitarbeiter Kontext zum Verbraucher wie kürzlich durchgeführte Käufe, Kampagneninteraktionen, Neigungen, Zielgruppenzugehörigkeiten und andere Attribute sowie Erkenntnisse, die im Echtzeit-Kundenprofil gespeichert sind.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">Customer Activity Hub</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=de">Customer Activity Hub</a></td>
  </tr>
  <tr>
   <td>Analyse von Kundeninteraktionen auf Desktop- und Mobilgeräten, um das Kundenverhalten zu verstehen und Erkenntnisse zu gewinnen, mit denen das digitale Kundenerlebnis optimiert werden kann.</td>

@@ -1,15 +1,15 @@
 ---
 title: Einzelhandelsbranche – Aktivierung mit Experience Cloud-Programmen
 description: Bereitstellung von Echtzeit-Kundenerlebnissen auf Social-Media-, E-Mail-, Push- und Web-Kanälen.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: a675bc81-e76c-491a-8718-359867d63351
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
-
 
 # Einzelhandelsbranche – geschäftliche Herausforderung
 
@@ -39,7 +39,3 @@ Dieses integrierte Experience Business wollte die gesamte Customer Journey perso
 ### Blueprint-Architektur
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für einen Einzelhändler, der Echtzeit-Kundenerlebnisse auf den Social-Media-, E-Mail-, Push- und Web-Kanälen bereitstellt." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-

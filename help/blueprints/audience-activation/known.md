@@ -1,19 +1,19 @@
 ---
-title: Bekannte Kundenaktivierung
+title: Aktivierung eines bekannten Kunden
 description: Online-/Offline-Zielgruppenaktivierung.
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Bekanntes Blueprint zur Kundenaktivierung
+# Blueprint: Aktivierung eines bekannten Kunden
 
-Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treue-Daten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.
+Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treuedaten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.
 
 Erweiterte Kennungen mit integrierten Governance-Steuerelementen bieten mehr Möglichkeiten zur Kommunikation mit bekannten Kunden. Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele.
 
@@ -62,7 +62,7 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 * Die Freigabe von Profildaten an Ziele erfordert, dass der spezifische Identitätswert, der vom Ziel in der Ziel-Payload verwendet wird, mit eingeschlossen wird. Jede Identität, die für ein Ziel notwendig ist, muss in Platform aufgenommen und als eine Identität für das [!UICONTROL Echtzeit-Kundenprofil] konfiguriert werden.
 
-* Siehe [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen](platform-and-applications.md) Weitere Informationen zur Freigabe von Zielgruppen von Real-time Customer Data Platform für Audience Manager, Analytics, Target, Campaign und Journey Optimizer.
+* In der Blueprint [Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md) finden Sie weitere Informationen zur Freigabe von Zielgruppen aus Real-time Customer Data Platform für Audience Manager, Analytics, Target, Campaign und Journey Optimizer.
 
 ## Implementierungsschritte für benutzerspezifische Ziele in Audience Manager
 

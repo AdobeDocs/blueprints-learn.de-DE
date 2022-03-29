@@ -1,10 +1,10 @@
 ---
 title: Muster für die Integration von Real-Time CDP mit Adobe Campaign
 description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
-solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
+solution: Experience Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: e158cb7c14970a9deb035fde50c9c070b0760203
-workflow-type: ht
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 #### Profil/Identität
 
 1. [Erstellen Sie sämtliche kundenspezifischen Namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
-1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
+1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Aktivieren Sie die Schemas und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=de).
 1. [Richten Sie Zusammenführungsrichtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=de) für unterschiedliche Ansichten des [!UICONTROL Echtzeit-Kundenprofils] ein (optional).
 1. Erstellen Sie Segmente für die Verwendung mit Adobe Campaign.

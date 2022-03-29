@@ -1,18 +1,18 @@
 ---
 title: 'Customer Journeys '
 description: Stellen Sie individuelle, zeitnahe Kundenerlebnisse auf sämtlichen Geräten bereit.
-solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard, Journey Optimizer
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
-workflow-type: ht
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
 ---
 
-# Customer Journeys
+# Journey
 
 Customer Journeys bietet Marken die Möglichkeit, über Kanäle wie E-Mail, SMS und Mobile-Nachrichten proaktiv mit Kunden zu interagieren und zu kommunizieren. Die Orchestrierungs-Tools können mit anderen Interaktionskanälen für Web- und Mobile-Personalisierung integriert werden (z. B. mit Inbound-Kanälen), indem der Zielgruppenstatus für die anderen kanalspezifischen Entscheidungs-Engines freigegeben wird. Bei der Auswahl der Programme und Implementierungslösungen für Customer Journeys sollten diverse Faktoren berücsichtigt werden, die sich jedoch in zwei unterschiedlichen Ansätzen zusammenfassen lassen: Reaktion auf einen interagierenden Kunden (ausgelöst) ODER Reaktion auf eine Gruppe interagierender Kunden (geplant).
 

@@ -3,7 +3,7 @@ title: 'Blueprints: Digitale Erlebnisse'
 description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, di
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=de"><img alt="Miniaturbild für Blueprint „Trigger-basiertes Messaging und Experience Platform“" src="customer-journeys/assets/ajo-architecture.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Cross-Channel-Orchestrierung</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=de"><strong>Cross-Channel-Orchestrierung</strong></a></div>
     <p><em>Verwenden Sie [!UICONTROL Platform] als zentralen Hub, um in Echtzeit Nachrichten zu versenden und Kundenerlebnisse zu beeinflussen.</em></p>
   </td>
   <td>
@@ -41,7 +41,7 @@ Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, di
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de"><img alt="Miniaturbild für Blueprint „Konsolidierung von digitalen Verhaltensdaten“" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Kanalübergreifende Journey-Analyse</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de"><strong>Kanalübergreifende Journey-Analyse</strong></a></div>
     <p><em>Ermöglichen Sie eine einheitliche konsolidierte Ansicht des Kundenverhaltens auf mehreren Kanälen.</em></p>
   </td>
 </tr>

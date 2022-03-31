@@ -6,8 +6,8 @@ kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 100%
 
 ---
 
@@ -29,18 +29,18 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 * Adobe Experience Platform
 * [!UICONTROL Real-Time Customer Data Platform]
-* Audience Manager People-basierte Ziele können auch für personenbasierte Aktivierungen für Facebook, LinkedIn und Google-Kundenabgleich genutzt werden.
+* Personenbasierte Ziele von Audience Manager können auch für personenbasierte Aktivierungen für Facebook, LinkedIn und Google-Kundenabgleich genutzt werden.
 
 ## Architektur
 
-### Bekannte Kundenaktivierung über Real-time Customer Data Platform
+### Aktivierung eines bekannten Kunden über Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Referenzarchitektur für den Blueprint zur bekannten Kundenaktivierung" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Referenzarchitektur für die Blueprint „Aktivierung eines bekannten Kunden“" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
-### Bekannte Kundenaktivierung über personenbasierte Ziele von Audience Manager
+### Aktivierung eines bekannten Kunden über personenbasierte Ziele von Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Referenzarchitektur für den Blueprint zur bekannten Kundenaktivierung" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Referenzarchitektur für die Blueprint „Aktivierung eines bekannten Kunden“" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien
@@ -64,11 +64,11 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 * In der Blueprint [Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md) finden Sie weitere Informationen zur Freigabe von Zielgruppen aus Real-time Customer Data Platform für Audience Manager, Analytics, Target, Campaign und Journey Optimizer.
 
-## Implementierungsschritte für benutzerspezifische Ziele in Audience Manager
+## Implementierungsschritte für personenbasierte Ziele von Audience Manager
 
-* Weitere Informationen zur Implementierung von Audience Manager finden Sie unter: [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de).
+* Weitere Informationen zur Implementierung von Audience Manager finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de).
 
-* Weitere Informationen zur Implementierung von personenbasierten Zielen in Audience Manager finden Sie unter folgenden Themen: [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
+* Weitere Informationen zur Implementierung von personenbasierten Zielen in Audience Manager finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=de).
 
 ## Verwandte Dokumentation
 

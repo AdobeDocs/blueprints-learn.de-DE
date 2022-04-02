@@ -4,9 +4,9 @@ description: Online-/Offline-Zielgruppenaktivierung.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,6 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 ## Programme
 
-* Adobe Experience Platform
 * [!UICONTROL Real-Time Customer Data Platform]
 * Personenbasierte Ziele von Audience Manager können auch für personenbasierte Aktivierungen für Facebook, LinkedIn und Google-Kundenabgleich genutzt werden.
 

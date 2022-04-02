@@ -5,10 +5,10 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: ht
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 100%
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)
    + [Server-seitige Erfassung von Unternehmensdaten](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
+   + [Anwendungs-SDKs](/help/blueprints/data-ingestion/appsdk.md)
 + Datenanalyse, Datenintelligenz und KI/ML {#data-exploration}
    + [Übersicht](/help/blueprints/data-insights/overview.md)
    + [Datenanalyse und Datenintelligenz](/help/blueprints/data-insights/analysis.md)
@@ -66,4 +67,4 @@ ht-degree: 100%
 + Web- und Mobile-Personalisierung {#web-personalization}
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
    + [Verhaltensbasierte Personalisierung](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalisierung mit Online- und Offline-Daten](/help/blueprints/web-personalization/online-offline.md)
+   + [Bekannter Personalization-Kunde](/help/blueprints/web-personalization/known-personalization.md)

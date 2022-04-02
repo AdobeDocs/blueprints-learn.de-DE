@@ -5,9 +5,9 @@ landing-page-description: Erfahren Sie, wie Sie basierend auf Daten zu Online-Ve
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '612'
 ht-degree: 96%
 
 ---
@@ -38,17 +38,8 @@ Personalisieren Sie basierend auf Daten zu Online-Verhalten und Zielgruppen.
 
 Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implementieren:
 
-1. Verwendung des [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network].
-1. Verwendung herkömmlicher programmspezifischer SDKs (z. B. AppMeasurement.js)
-
-### 1. Herangehensweise für Platform Web/Mobile SDK und Edge
-
-[Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../data-ingestion/websdk.md)
-
-### 2. Herangehensweise für programmspezifische SDKs
-
-[Siehe Anwendungs-spezifisches SDK-Blueprint .](../data-ingestion/appsdk.md)
-
+1. Verwendung des [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network]. [Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../data-ingestion/websdk.md)
+1. Verwendung herkömmlicher programmspezifischer SDKs (z. B. AppMeasurement.js). [Siehe Anwendungs-spezifisches SDK-Blueprint .](../data-ingestion/appsdk.md)
 
 ## Implementierungsschritte
 

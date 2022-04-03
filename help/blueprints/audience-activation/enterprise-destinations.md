@@ -4,7 +4,7 @@ description: Zielgruppen- und Profilaktivierung für Unternehmensziele
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 
 ## Architektur
 
-<img src="assets/enterprise_destination_activation.svg" alt="Referenzarchitektur für das Unternehmensaktivierungs-Szenario" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="Referenzarchitektur für das Unternehmensaktivierungs-Szenario" style="width:90%; border:1px solid #4a4a4a" />
 
 
 ## Leitlinien

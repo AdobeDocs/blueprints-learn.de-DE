@@ -5,7 +5,7 @@ landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail un
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 00204aad85bcf05702fdf837f19dd4abed33f2ce
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 79%
@@ -26,7 +26,7 @@ ht-degree: 79%
 
 * [!UICONTROL Real-Time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (optional): Fügt Zielgruppendaten von Drittanbietern, Co-op-basiertes Gerätediagramm hinzu
+* Adobe Audience Manager (optional): Adds third-party audience data, co-op based device graph
 * Adobe Analytics (optional): Fügt die Möglichkeit hinzu, Segmente basierend auf historischen Verhaltensdaten und detaillierter Segmentierung aus Adobe Analytics-Daten aufzubauen
 
 ## Integrationsmuster
@@ -41,21 +41,21 @@ ht-degree: 79%
 
 Architektur
 
-<img src="assets/RTCDP+Target.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:90%; border:1px solid #4a4a4a" />
 
 Sequenzdetails
 
-<img src="assets/RTCDP+Target_flow.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target_flow.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:90%; border:1px solid #4a4a4a" />
 
 Übersicht – Architektur
 
-<img src="assets/personalization_with_apps.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:80%; border:1px solid #4a4a4a"/>
+<img src="assets/personalization_with_apps.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:90%; border:1px solid #4a4a4a"/>
 
 ## Implementierungsmuster
 
-Der bekannte Customer Personalization wird über verschiedene Implementierungsansätze unterstützt.
+Known Customer Personalization is supported via several implementation approaches.
 
-### Implementierungsmuster 1 - Edge-Netzwerk mit Web/Mobile SDK (empfohlener Ansatz)
+### Implementation Pattern 1 - Edge Network with Web/Mobile SDK (Recommended Approach)
 
 Verwendung des Edge Network mit dem Web/Mobile SDK. Für die Segmentierung von Echtzeit-Edge-Standorten ist der Implementierungsansatz des Web/Mobile SDK oder der Edge-API erforderlich.
 
@@ -63,7 +63,7 @@ Verwendung des Edge Network mit dem Web/Mobile SDK. Für die Segmentierung von E
 
 ### Implementierungsmuster 2 - Anwendungsspezifische SDKs
 
-Verwendung herkömmlicher programmspezifischer SDKs (z. B. AT.js und AppMeasurement.js). Die Segmentbewertung in Echtzeit an Edge wird bei diesem Implementierungsansatz nicht unterstützt. Streaming- und Batch-Zielgruppenfreigabe vom Experience Platform-Hub werden jedoch mithilfe dieses Implementierungsansatzes unterstützt.
+Verwendung herkömmlicher programmspezifischer SDKs (z. B. AT.js und AppMeasurement.js). Real-time Edge segment evaluation is not supported using this implementation approach. However streaming and batch audience sharing from Experience Platform hub are supported using this implemenation approach.
 
 [Siehe Anwendungs-spezifisches SDK-Blueprint .](../data-ingestion/appsdk.md)
 

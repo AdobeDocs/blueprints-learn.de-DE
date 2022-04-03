@@ -4,7 +4,7 @@ description: Verwalten Sie Profile und Zielgruppen in Experience Platform und ge
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Weitere Architekturdiagramme für Experience Platform-Integrationen mit Experien
 
 ### Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referenzarchitektur für die Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referenzarchitektur für die Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien

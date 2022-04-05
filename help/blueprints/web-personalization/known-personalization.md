@@ -2,10 +2,10 @@
 title: Übersicht über Web/Mobile Personalization
 description: Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanalpersonalisierungen.
 landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanalpersonalisierungen.
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 79%
@@ -26,7 +26,7 @@ ht-degree: 79%
 
 * [!UICONTROL Real-Time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (optional): Adds third-party audience data, co-op based device graph
+* Adobe Audience Manager (optional): Fügt Zielgruppendaten von Drittanbietern, Co-op-basiertes Gerätediagramm hinzu
 * Adobe Analytics (optional): Fügt die Möglichkeit hinzu, Segmente basierend auf historischen Verhaltensdaten und detaillierter Segmentierung aus Adobe Analytics-Daten aufzubauen
 
 ## Integrationsmuster
@@ -53,9 +53,9 @@ Sequenzdetails
 
 ## Implementierungsmuster
 
-Known Customer Personalization is supported via several implementation approaches.
+Der bekannte Customer Personalization wird über verschiedene Implementierungsansätze unterstützt.
 
-### Implementation Pattern 1 - Edge Network with Web/Mobile SDK (Recommended Approach)
+### Implementierungsmuster 1 - Edge-Netzwerk mit Web/Mobile SDK (empfohlener Ansatz)
 
 Verwendung des Edge Network mit dem Web/Mobile SDK. Für die Segmentierung von Echtzeit-Edge-Standorten ist der Implementierungsansatz des Web/Mobile SDK oder der Edge-API erforderlich.
 
@@ -63,7 +63,7 @@ Verwendung des Edge Network mit dem Web/Mobile SDK. Für die Segmentierung von E
 
 ### Implementierungsmuster 2 - Anwendungsspezifische SDKs
 
-Verwendung herkömmlicher programmspezifischer SDKs (z. B. AT.js und AppMeasurement.js). Real-time Edge segment evaluation is not supported using this implementation approach. However streaming and batch audience sharing from Experience Platform hub are supported using this implemenation approach.
+Verwendung herkömmlicher programmspezifischer SDKs (z. B. AT.js und AppMeasurement.js). Die Segmentbewertung in Echtzeit an Edge wird bei diesem Implementierungsansatz nicht unterstützt. Streaming- und Batch-Zielgruppenfreigabe vom Experience Platform-Hub werden jedoch mithilfe dieses Implementierungsansatzes unterstützt.
 
 [Siehe Anwendungs-spezifisches SDK-Blueprint .](../data-ingestion/appsdk.md)
 

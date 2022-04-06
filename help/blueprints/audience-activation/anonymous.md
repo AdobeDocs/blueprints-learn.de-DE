@@ -8,8 +8,8 @@ thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '380'
+ht-degree: 93%
 
 ---
 
@@ -39,13 +39,13 @@ Microsoft Bing, Google DV360 und TradeDesk sind die am häufigsten unterstützte
 
 <br>
 
-## Implementierungsschritte für den Audience Manager
+## Implementierungsschritte für Audience Manager
 
 * Weitere Informationen zur Implementierung von Audience Manager finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de).
 
 ## Implementierungsschritte für Real-time Customer Data Platform
 
-* Informationen zu den Implementierungsschritten von Real-time Customer Data Platform finden Sie unter folgenden Themen: [Dokumentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* Informationen zu den Implementierungsschritten von Real-time Customer Data Platform finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Verwandte Dokumentation
 

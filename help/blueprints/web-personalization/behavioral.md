@@ -6,9 +6,9 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Personalisieren Sie basierend auf Daten zu Online-Verhalten und Zielgruppen.
 Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implementieren:
 
 1. Verwendung des [!UICONTROL Platform Web SDK] oder [!UICONTROL Platform Mobile SDK] und [!UICONTROL Edge Network]. [Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../data-ingestion/websdk.md)
-1. Verwendung herkömmlicher programmspezifischer SDKs (z. B. AppMeasurement.js). [Siehe Anwendungs-spezifisches SDK-Blueprint .](../data-ingestion/appsdk.md)
+1. Verwendung herkömmlicher programmspezifischer SDKs (z. B. AppMeasurement.js). [Weitere Informationen finden Sie im Blueprint für anwendungsspezifische SDKs.](../data-ingestion/appsdk.md)
 
 ## Implementierungsschritte
 
 1. [Implementieren Sie Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=de) für Ihre Web-Anwendungen oder Mobile Apps
 
-### Implementierungsschritte - Audience Manager oder Adobe Analytics
+### Implementierungsschritte – Audience Manager oder Adobe Analytics
 
 1. [Implementieren Sie Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de)
 1. [Implementieren Sie Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=de)
@@ -59,7 +59,7 @@ Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implement
 1. Erstellen Sie Segmente in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de) oder [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=de) und [konfigurieren Sie diese Zielgruppen für die Freigabe in Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de) (bei Verwendung von Audience Manager oder Adobe Analytics)
 1. Sobald die Zielgruppen in Adobe Target verfügbar sind, können sie für das [Erlebnis-Targeting mit Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=de) verwendet werden
 
-### Implementierungsschritte - Real-time Customer Data Platform
+### Implementierungsschritte – Real-time Customer Data Platform
 
 1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) für die zu erfassenden Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
@@ -75,9 +75,9 @@ Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implement
 
 * [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
 * [Integration von Audience Manager mit Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=de)
-* [Segmentfreigabe in Adobe Analytics über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-* Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
-* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Segmentfreigabe in Adobe Analytics über Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)
+* Überblick über [[!UICONTROL Real-time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* Produktbeschreibung zu [[!UICONTROL Real-time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)

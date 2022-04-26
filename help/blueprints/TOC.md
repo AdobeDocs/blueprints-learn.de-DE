@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,4 +67,4 @@ ht-degree: 97%
 + Web- und Mobile-Personalisierung {#web-personalization}
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
    + [Verhaltensbasierte Personalisierung](/help/blueprints/web-personalization/behavioral.md)
-   + [Bekannter Personalization-Kunde](/help/blueprints/web-personalization/known-personalization.md)
+   + [Bekannte Kundenpersonalisierung](/help/blueprints/web-personalization/known-personalization.md)

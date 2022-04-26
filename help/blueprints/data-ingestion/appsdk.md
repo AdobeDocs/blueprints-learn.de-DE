@@ -1,6 +1,6 @@
 ---
-title: Anwendungsspezifische SDK-Bereitstellung
-description: Dieser Blueprint zeigt die Architektur und Aufnahme durch die Application Spic SDKs.
+title: Anwendungsspezifische SDK-Implementierung
+description: Diese Blueprint beschreibt die Architektur und die Aufnahme mithilfe der anwendungsspezifischen SDKs.
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
@@ -8,15 +8,15 @@ exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
 source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Anwendungsspezifische SDK-Bereitstellung
+# Anwendungsspezifische SDK-Implementierung
 
-Das folgende Architekturdiagramm veranschaulicht die Integrationspfade und die Datenerfassung mit anwendungsspezifischen SDKs für die Implementierung.
+Das folgende Architekturdiagramm veranschaulicht die Integrationspfade und die Datenaufnahme mithilfe anwendungsspezifischer SDKs für die Implementierung.
 
-<img src="assets/app_sdk_flow.svg" alt="Referenzarchitektur für die Implementierung mit anwendungsspezifischen SDKs" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.svg" alt="Referenzarchitektur für die Implementierung mithilfe anwendungsspezifischer SDKs" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Referenzdokumentation
 

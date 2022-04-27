@@ -1,14 +1,14 @@
 ---
-title: 'Blueprint: Datenerfassung mit dem Web/Mobile SDK'
-description: Diese Blueprint zeigt die Architektur und Aufnahme über das Experience Platform Web and Mobile SDK
-solution: Data Collection
+title: Web/Mobile SDK, Edge Network Deployment-Blueprint
+description: Dieser Blueprint zeigt die Architektur und Erfassung über das Experience Platform Web und Mobile SDK und Edge Network
+solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
+source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '241'
+ht-degree: 24%
 
 ---
 

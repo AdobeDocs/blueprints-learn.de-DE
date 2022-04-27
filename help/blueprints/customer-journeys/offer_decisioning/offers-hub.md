@@ -2,10 +2,11 @@
 title: offer decisioning auf dem Hub
 description: Bereitstellung personalisierter Angebote für Verbraucher über Kanäle, einschließlich Kiosks, durch Agenten unterstützte Erlebnisse sowie in E-Mail- und anderen ausgehenden Sendungen.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
+exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
+source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 35%
+source-wordcount: '797'
+ht-degree: 33%
 
 ---
 
@@ -27,6 +28,7 @@ Weitere Informationen zur Entscheidungsverwaltung finden Sie in der Produktdokum
 
 * Personalisierte Angebote auf Kiosks und in Store-Erlebnissen
 * Personalisierte Angebote über agentengestützte Erlebnisse wie Callcenter oder Verkaufsinteraktionen.
+* Angebote in E-Mail, SMS oder anderen ausgehenden Interaktionen.
 * Kanalübergreifende Journey-Ausführung - Bietet über Adobe Journey Optimizer Konsistenz über Web-, Mobile-, E-Mail- und andere Interaktionskanäle hinweg.
 
 <br>
@@ -72,10 +74,10 @@ Adobe Experience Platform
 
 ## Implementierungsmuster
 
-* Implementiert in E-Mail-, SMS- und ausgehenden Kanälen über eine direkte Integration in Adobe Journey Optimizer.
-* Für andere Kanalerlebnisse nutzen Sie die [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Implementiert in E-Mail-, SMS- und ausgehenden Kanälen über eine direkte Integration mit [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html).
+* Für eine Server-API-basierte Implementierung von Offer decisioning nutzen Sie die [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Verwenden Sie für die Implementierung der Batch-basierten Entscheidung, Angebote stapelweise an eine Nachrichtenversand-Anwendung zu senden, den [Batch Decisioning-API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html).
 * Verwenden Sie für Edge-basierte Echtzeit-Erlebnisse das Web/Mobile SDK oder die Edge Decisioning-API, wie im Abschnitt [offer decisioning auf dem Edge-Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
-
 <br>
 
 ## Implementierungsschritte

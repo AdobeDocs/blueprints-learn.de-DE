@@ -3,10 +3,10 @@ title: offer decisioning auf dem Hub
 description: Bereitstellung personalisierter Angebote für Verbraucher über Kanäle, einschließlich Kiosks, durch Agenten unterstützte Erlebnisse sowie in E-Mail- und anderen ausgehenden Sendungen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 33%
+source-wordcount: '820'
+ht-degree: 32%
 
 ---
 
@@ -22,7 +22,7 @@ In diesem Entwurf werden die Besonderheiten des Entscheidungsmanagements in der 
 
 Weitere Informationen zur Entscheidungsverwaltung an Edge finden Sie im Abschnitt [Entscheidungsverwaltung am Rand](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) Blueprint.
 
-Weitere Informationen zur Entscheidungsverwaltung finden Sie in der Produktdokumentation HIER (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html).
+Weitere Informationen zur Entscheidungsverwaltung finden Sie in der Produktdokumentation [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## Anwendungsfälle
 
@@ -57,7 +57,8 @@ Adobe Experience Platform
 
 ## Leitlinien
 
-[Produkt-Link zu Journey Optimizer-Leitlinien](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Für Journey Optimizer-Guardrauls siehe: [Journey Optimizer-Schutzmechanismen](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Für Offer decisioning-Guardrauls siehe: [offer decisioning Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### Leitlinien für die Datenaufnahme
@@ -108,5 +109,5 @@ Adobe Experience Platform
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Entscheidungsverwaltung in Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Adobe Offer decisioning Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

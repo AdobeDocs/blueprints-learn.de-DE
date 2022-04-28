@@ -3,10 +3,10 @@ title: offer decisioning an der Kante
 description: Bereitstellung personalisierter Angebote für Verbraucher über verschiedene Kanäle hinweg, auch in Echtzeit-Web- und mobilen Erlebnissen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 36%
+source-wordcount: '768'
+ht-degree: 35%
 
 ---
 
@@ -56,8 +56,8 @@ Adobe Experience Platform
 
 ## Leitlinien
 
-[Produkt-Link zu Journey Optimizer-Leitlinien](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-
+* Für Journey Optimizer-Guardrauls siehe: [Journey Optimizer-Schutzmechanismen](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Für Offer decisioning-Guardrauls siehe: [offer decisioning Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### Leitlinien für die Datenaufnahme
 
@@ -114,5 +114,5 @@ Oder
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Entscheidungsverwaltung in Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Adobe Offer decisioning Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

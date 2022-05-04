@@ -3,7 +3,7 @@ title: offer decisioning an der Kante
 description: Bereitstellung personalisierter Angebote für Verbraucher über verschiedene Kanäle hinweg, auch in Echtzeit-Web- und mobilen Erlebnissen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
+source-git-commit: bfc8133f0a48cb35dd62e74e92eeb041e93be5c7
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 35%
@@ -56,8 +56,8 @@ Adobe Experience Platform
 
 ## Leitlinien
 
-* Für Journey Optimizer-Guardrauls siehe: [Journey Optimizer-Schutzmechanismen](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-* Für Offer decisioning-Guardrauls siehe: [offer decisioning Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Informationen zu den Limits in Journey Optimizer finden Sie unter: [Journey Optimizer-Schutzmechanismen](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
+* Offer decisioning-Limits: [offer decisioning Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### Leitlinien für die Datenaufnahme
 

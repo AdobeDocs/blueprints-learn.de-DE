@@ -3,7 +3,7 @@ title: offer decisioning auf dem Hub
 description: Bereitstellung personalisierter Angebote für Verbraucher über Kanäle, einschließlich Kiosks, durch Agenten unterstützte Erlebnisse sowie in E-Mail- und anderen ausgehenden Sendungen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
+source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 32%
@@ -57,8 +57,8 @@ Adobe Experience Platform
 
 ## Leitlinien
 
-* Für Journey Optimizer-Guardrauls siehe: [Journey Optimizer-Schutzmechanismen](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-* Für Offer decisioning-Guardrauls siehe: [offer decisioning Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Informationen zu den Limits in Journey Optimizer finden Sie unter: [Journey Optimizer-Schutzmechanismen](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
+* Offer decisioning-Limits: [offer decisioning Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### Leitlinien für die Datenaufnahme

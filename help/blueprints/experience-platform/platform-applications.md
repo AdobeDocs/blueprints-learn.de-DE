@@ -1,14 +1,14 @@
 ---
 title: Architekturdiagramm zu Adobe Experience Platform und Programmen
 description: Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit anderen Programmen und Programm-Services von Adobe Experience Cloud zusammenarbeitet.
-solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Offer Decisioning, Real-time Customer Data Platform
+solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: ht
-source-wordcount: '939'
-ht-degree: 100%
+source-git-commit: 64c3ae4c706ef24808818af99e65c2f30f4f5c13
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -100,13 +100,13 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
       <td>
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=de">Anonyme Zielgruppenaktivierung</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anonyme Zielgruppenaktivierung</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online-/Offline-Zielgruppenaktivierung</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Platform und Programmen</a>
           </li>
         </ul>
       </td>
@@ -146,7 +146,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=de">Batch-Messaging</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch-Messaging</a>
           </li>
         </ul>
       </td>
@@ -178,7 +178,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online-/Offline-Zielgruppenaktivierung</a>
           </li>
         </ul>
       </td>
@@ -244,10 +244,10 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online-/Offline-Zielgruppenaktivierung</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Platform und Programmen</a>
           </li>
         </ul>
       </td>
@@ -268,10 +268,10 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online-/Offline-Zielgruppenaktivierung</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Platform und Programmen</a>
           </li>
         </ul>
       </td>

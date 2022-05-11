@@ -3,14 +3,16 @@ title: offer decisioning an der Kante
 description: Bereitstellung personalisierter Angebote für Verbraucher über verschiedene Kanäle hinweg, auch in Echtzeit-Web- und mobilen Erlebnissen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 35%
+source-wordcount: '772'
+ht-degree: 34%
 
 ---
 
 # Journey Optimizer - Offer decisioning am Rand
+
+Weitere Informationen zur Entscheidungsverwaltung finden Sie in der Produktdokumentation [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) und die Offer decisioning-Übersicht [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
 Adobe Decisioning Management ist ein Dienst, der im Rahmen von Adobe Journey Optimizer bereitgestellt wird. In diesem Blueprint werden die Anwendungsfälle und technischen Funktionen der Anwendung erläutert und ein tiefer Einblick in die verschiedenen architektonischen Komponenten und Überlegungen, aus denen Offer decisioning besteht, geboten.
 
@@ -20,14 +22,11 @@ Der zweite Ansatz erfolgt über das Experience Edge Network, eine global verteil
 
 In diesem Blueprint werden die Besonderheiten des Entscheidungsmanagements an der Edge behandelt.
 
-Weitere Informationen zur Entscheidungsverwaltung auf dem Hub finden Sie im Abschnitt [Entscheidungsverwaltung am Hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) Blueprint.
+Weitere Informationen zur Entscheidungsverwaltung auf dem Hub finden Sie im Abschnitt [Entscheidungsverwaltung am Hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) Blueprint.
 
-Weitere Informationen zur Entscheidungsverwaltung finden Sie in der Produktdokumentation [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+## Anwendungsfälle für die Entscheidungsverwaltung am Rand
 
-## Anwendungsfälle
-
-* Online-Personalisierung über Web oder Mobile.
-* Eingehende offer decisioning und Angebotsvorschläge.
+* Online-Personalisierung über eingehende Web- oder mobile Erlebnisse.
 * Kanalübergreifende Journey-Ausführung - Bietet über Adobe Journey Optimizer Konsistenz über Web-, Mobile-, E-Mail- und andere Interaktionskanäle hinweg.
 
 <br>

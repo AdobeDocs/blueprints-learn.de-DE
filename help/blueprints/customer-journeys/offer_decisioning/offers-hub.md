@@ -3,10 +3,10 @@ title: offer decisioning auf dem Hub
 description: Bereitstellung personalisierter Angebote für Verbraucher über Kanäle, einschließlich Kiosks, durch Agenten unterstützte Erlebnisse sowie in E-Mail- und anderen ausgehenden Sendungen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 28%
+source-wordcount: '881'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,8 @@ Weitere Informationen zur Entscheidungsverwaltung an Edge finden Sie im Abschnit
 
 * Personalisierte Angebote auf Kiosks und in Store-Erlebnissen
 * Personalisierte Angebote über agentengestützte Erlebnisse wie Callcenter oder Verkaufsinteraktionen.
-* Angebote in E-Mail, SMS oder anderen ausgehenden Interaktionen.
+* Angebote in E-Mail, SMS, Mobile-Push-Benachrichtigungen oder anderen ausgehenden Interaktionen.
+* Bereitstellung von Angeboten für externe ESP- und Messaging-Systeme zur Bereitstellung.
 * Kanalübergreifende Journey-Ausführung - Bietet über Adobe Journey Optimizer Konsistenz über Web-, Mobile-, E-Mail- und andere Interaktionskanäle hinweg.
 
 <br>
@@ -40,12 +41,6 @@ Weitere Informationen zur Entscheidungsverwaltung an Edge finden Sie im Abschnit
 <img src="../assets/offers_hub.svg" alt="Offer decisioning der Referenzarchitektur auf dem Edge-Blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
-
-## Integrationsmuster
-
-| Integration | Beschreibung |
-| :-- | :--- |
-| [offer decisioning mit Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | offer decisioning kann in Adobe Target integriert werden, sodass Angebote getestet und als Target-Erlebnisse bereitgestellt werden können. |
 
 ## Voraussetzungen
 

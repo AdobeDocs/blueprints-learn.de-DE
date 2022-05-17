@@ -4,20 +4,20 @@ description: Diese Blueprint zeigt, wie Data Science Workspace in Adobe Experien
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 70%
 
 ---
 
 # Blueprint: Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 
-In der Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung“ wird veranschaulicht, wie Daten aus Adobe Experience Platform in [!UICONTROL Data Science Workspace] zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um ML-Erkenntnisse zu gewinnen. Diese Modelle können direkt auf einen Datensatz angewendet werden, der für ein [!UICONTROL Echtzeit-Kundenprofil] aktiviert ist, um Kundenprofile anzureichern. Diese Erkenntnisse können dann zur Personalisierung verwendet werden. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
+Custom Data Science for Profile Enrichment Blueprint veranschaulicht, wie Daten in Adobe Experience Platform verwendet werden können, um Modelle zu trainieren, bereitzustellen und zu bewerten, um Einblicke aus maschinellem Lernen in die Experience Platform und die Real-time Customer Data Platform aus Datenwissenschaft und maschinellen Lernwerkzeugen zu erhalten. Modellierte Einblicke können in Experience Platform integriert werden, um das Echtzeit-Kundenprofil anzureichern. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
 
 ## Anwendungsfälle
 
-* Extrahieren von Erkenntnissen und Aufdecken von Mustern mit Kundendaten in Experience Platform. Trainieren und Bewerten von Modellen mit diesen Daten.
+* Extrahieren Sie Einblicke und entdecken Sie Muster aus Kundendaten, trainieren und bewerten Sie Modelle aus diesen Daten.
 * Anreichern des [!UICONTROL Echtzeit-Kundenprofils] mit modellgestützten Erkenntnissen und Attributen für detailliertere Personalisierung und Journey-Optimierung.
 * Trainieren und Bewerten von Modellen, um Kundenerkenntnisse wie Kunden-Lebenszeitwert, Konversions- oder Abwanderungsneigung, Produkt- und Content-Affinität und Interaktionswerte zu ermitteln.
 
@@ -30,30 +30,15 @@ In der Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) für die zu erfassenden Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
 1. [Aufnehmen der Daten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) in Experience Platform.
-1. [Erstellen eines DSW-Notebooks](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=de).
-1. Auswählen einer Sprache. Python und PySpark werden unterstützt.
-1. [Erstellen des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=de) im Notebook.
-1. [Trainieren des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=de).
-1. [Bewerten des Modells](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=de), um Vorhersagen mit den Zieldaten zu generieren.
-1. [Aktivieren der Modellresultat-Datensätze für das Profil, wenn die Modellresultate in das [!UICONTROL Echtzeit-Kundenprofil] übermittelt werden](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=de).
 
 ## Verwandte Dokumentation
 
 * [Produktbeschreibung zu Adobe Experience Platform Intelligence](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* Dokumentation zu [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=de)
-* Tutorials zu [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=de)
+* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
 
 ## Verwandte Blog-Posts
 
-* [[!DNL Simplifying the Data Science Lifecycle with Adobe Platform Experience]](https://medium.com/adobetech/simplifying-the-data-science-lifecycle-with-adobe-platform-experience-8ea4f056d82f)
 * [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [[!DNL Gaining a Deeper Understanding of Churn Using Data Science Workspace]](https://medium.com/adobetech/gaining-a-deeper-understanding-of-churn-using-data-science-workspace-18a2190e0cf3)
-* [[!DNL Understanding Data Science In Adobe Experience Platform]](https://medium.com/adobetech/understanding-data-science-in-adobe-experience-platform-5bce5a17b42)
 * [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
 * [[!DNL Cutting Across Adobe Experience Products with Machine Learning to Elevated User Experience]](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
-* [[!DNL Modeling XDM Data for Data Science at Scale on Adobe Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7)
 * [[!DNL Segmentation.AI: Automated Audience-Clustering-as-a-Service in Adobe Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
-* [[!DNL Reimagining Jupyter Notebooks for Enterprise Scale]](https://medium.com/adobetech/reimagining-jupyter-notebooks-for-enterprise-scale-8bc6340d504a)
-* [[!DNL Accelerate Intelligent Insights with Adobe Experience Platform Data Science Workspace]](https://medium.com/adobetech/accelerate-intelligent-insights-with-adobe-experience-platform-data-science-workspace-89538bacbbea)
-* [[!DNL A Preview of Time Series Forecasting with Adobe Experience Platform]](https://medium.com/adobetech/preview-of-time-series-forecasting-with-adobe-experience-platform-38a2fc778e89)
-* [[!DNL Cutting Across Adobe Experience Products with Machine Learning to Elevated User Experience]](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)

@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 „Datenanalyse und Datenintelligenz“ zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 
-Der [!UICONTROL Abfrage-Service] von Experience Platform ermöglicht die Ausführung von SQL-Abfragen auf Daten. [!UICONTROL Data Science Workspace] ermöglicht die Anwendung von Datensondierung, Datenanalysen und ML-Abläufen auf Daten.
+Der [!UICONTROL Abfrage-Service] von Experience Platform ermöglicht die Ausführung von SQL-Abfragen auf Daten.
 
-Zusätzlich ermöglicht Experience Platform Verbindungen mit SQL-Clients von Drittanbietern, Schnittstellen und Business-Intelligence-Tools (BI), über die mit dem [!DNL PostgreSQL]-Protokoll direkt eine Verbindung mit den Daten hergestellt sowie auf diese zugegriffen werden kann.
+Experience Platform ermöglicht Verbindungen mit SQL-Clients, Schnittstellen und Business Intelligence-Tools (BI) von Drittanbietern, über die mithilfe des [!DNL PostgreSQL] Protokoll.
 
-Es gibt einige Leitlinien für die maximale Wartezeit bei Abfragen und die Datenmenge, die im Abfrageresultat enthalten ist, wie in den Blueprint-Details bereits erläutert wurde.
+Bestimmte Limits gelten für das Abfrage-Timeout und die Menge der im Abfrageergebnis enthaltenen Daten, wie im Abschnitt Limits unten angegeben.
 
 ## Anwendungsfälle
 
@@ -30,7 +30,7 @@ Es gibt einige Leitlinien für die maximale Wartezeit bei Abfragen und die Daten
 
 ## Programme
 
-* Adobe Experience Platform 
+* Adobe Experience Platform  
 
 ## Architektur
 

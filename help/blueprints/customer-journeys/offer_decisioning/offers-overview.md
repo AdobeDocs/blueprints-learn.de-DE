@@ -2,10 +2,11 @@
 title: offer decisioning-Übersicht
 description: Bereitstellung personalisierter Angebote für alle Journey.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+exl-id: f6271802-faab-4ffc-92d6-4c4d7d423ed4
+source-git-commit: 8842b8637a30151577a93653c16b4d37e2cf7c27
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +25,7 @@ Die Entscheidungsverwaltungsfunktion besteht aus zwei Hauptkomponenten:
 
 <img src="../assets/offers_overview.png" alt="Offer Decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
-Die Entscheidungsverwaltung kann auf zwei Arten bereitgestellt werden.
+Die Entscheidungsverwaltung kann auf zwei Arten bereitgestellt werden: am Rand oder über den Hub. Jede dieser Methoden verfügt über einen spezifischen Satz von Schnittstellen und Protokollen zum Betrieb des Dienstes, wie in den entsprechenden unten referenzierten Blueprints beschrieben. Weitere Informationen finden Sie auch in der Dokumentation zur Entscheidungsverwaltung [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
 
 ## Entscheidungsverwaltung am Hub
 

@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 91%
    + [Übersicht](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Offer Decisioning{#offer-decisioning}
+      + Offer Decisioning {#offer-decisioning}
          + [Übersicht](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [offer decisioning an der Kante](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [offer decisioning auf dem Hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+         + [Offer Decisioning im Edge](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [Offer Decisioning auf dem Hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer mit Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Drittanbieter-Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -62,7 +62,7 @@ ht-degree: 91%
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)
    + [Server-seitige Erfassung von Unternehmensdaten](/help/blueprints/data-ingestion/server-side-collection.md)
-   + Implementierung{#deployment}
+   + Implementierung {#deployment}
       + [Experience Platform Web SDK und Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [Anwendungs-SDKs](/help/blueprints/data-ingestion/appsdk.md)
 + Datenanalyse, Datenintelligenz und KI/ML {#data-exploration}

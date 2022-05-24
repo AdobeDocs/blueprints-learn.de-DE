@@ -3,10 +3,10 @@ title: Offer Decisioning auf dem Hub
 description: Stellen Sie personalisierte Angebote für Verbraucher über Kanäle bereit, einschließlich Terminals, durch Agenten unterstützte Erlebnisse sowie in E-Mails und anderen ausgehenden Sendungen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 86%
+source-wordcount: '901'
+ht-degree: 84%
 
 ---
 
@@ -56,6 +56,9 @@ Adobe Experience Platform
 
 * Weitere Informationen zu Journey Optimizer finden Sie in den [Leitlinien zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=de).
 * Die Leitlinien für Offer Decisioning beziehen sich auf die folgende [Produktbeschreibung für Offer Decisioning](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html).
+* Anforderungen pro Sekunde = 2000.
+* Latenz der Reaktion &lt; 500 ms.
+* Zugriff auf das gesamte Echtzeit-Kundenprofil, einschließlich Zielgruppenmitgliedschaften, Attributen und Erlebnisereignissen.
 
 
 ### Leitlinien für die Datenaufnahme

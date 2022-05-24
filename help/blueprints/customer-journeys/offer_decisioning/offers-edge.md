@@ -3,10 +3,10 @@ title: Offer Decisioning im Edge
 description: Stellen Sie personalisierte Angebote für Verbraucher über verschiedene Kanäle, einschließlich Echtzeit-Erlebnissen für Web und Mobile, bereit.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 93%
+source-wordcount: '847'
+ht-degree: 85%
 
 ---
 
@@ -57,6 +57,10 @@ Adobe Experience Platform
 
 * Weitere Informationen zu Journey Optimizer finden Sie in den [Leitlinien zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=de).
 * Die Leitlinien für Offer Decisioning beziehen sich auf die folgende [Produktbeschreibung für Offer Decisioning](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html).
+* Anforderungen pro Sekunde = 5000.
+* Latenz der Reaktion &lt; 250 ms.
+* Zugriff auf Edge-Echtzeitprofile. Im Profil sind nur Edge-prognostizierte Zielgruppen und Profilattribute verfügbar.
+* Wenn in Erlebnissen zum ersten Mal eine Personalisierung erforderlich ist, ist der Hub ideal, da das vollständige Profil verfügbar ist. Das Edge-Profil muss zum ersten Mal vom Hub synchronisiert werden. Daher umfasst das allererste Erlebnis vom Edge keine zuvor hochgeladenen Profildaten zum Hub.
 
 ### Leitlinien für die Datenaufnahme
 

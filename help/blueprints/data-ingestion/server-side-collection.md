@@ -4,16 +4,16 @@ description: Streamen erfasster Daten über Experience Platform-SDKs an Ziele
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: e6ef8a1e7b90778c0163227e32d2691dfaf9c9d2
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 86%
 
 ---
 
-# Blueprint: Server-seitige Erfassung von Unternehmensdaten
+# Zeitplan für die Ereignisweiterleitung
 
-Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mit Web- und Mobile-SDKs von Adobe Experience Platform erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle mit den SDKs erfassten Rohdaten oder bestimmte Daten basierend auf Ereignissen und Regeln entsprechend der Konfiguration in Tag-Eigenschaften (ehemals Launch) weiterleiten.
+Im Blueprint zur Ereignisweiterleitung wird gezeigt, wie mit Adobe Experience Platform Web- und Mobile-SDKs erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle mit den SDKs erfassten Rohdaten oder bestimmte Daten basierend auf Ereignissen und Regeln entsprechend der Konfiguration in Tag-Eigenschaften (ehemals Launch) weiterleiten.
 
 ## Anwendungsfälle
 
@@ -22,7 +22,7 @@ Die Blueprint „Server-seitige Erfassung von Unternehmensdaten“ zeigt, wie mi
 
 ## Programme
 
-* Adobe Experience Platform Collection
+* Adobe Experience Platform – Datenerfassung
 
 ## Architektur
 

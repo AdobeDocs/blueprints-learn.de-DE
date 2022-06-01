@@ -4,8 +4,8 @@ description: Aktivierung für Facebook Custom Audiences.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
+workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht 
 
 ## Architektur
 
-<img src="../assets/facebook.png" alt="Referenzarchitektur für die Aktivierung von Facebook Custom Audiences" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/facebook.svg" alt="Referenzarchitektur für die Aktivierung von Facebook Custom Audiences" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Implementierungsschritte
 
@@ -69,7 +69,7 @@ Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht 
    * Prüfen Sie die Zahl der Segmentergebnisse für die vorhandenen Segmente.
    * Prüfen Sie das Profil, das im Segment vorhanden sein sollte, um sicherzustellen, dass die Segmentzugehörigkeit im Bereich des Profils für die Segmentzugehörigkeit enthalten ist.
 1. Konfigurieren Sie die Übermittlung der Zielgruppe an das Ziel in der Konfiguration des Ziels.
-   * Weitere Details zur Konfiguration von Facebook als Ziel finden Sie im [Handbuch für das Ziel Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=de).
+   * Weitere Details zur Konfiguration von Facebook als Ziel finden Sie im [Handbuch für das Ziel Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * Wenn Sie ein Ziel konfigurieren, wählen Sie aus, welche Zielgruppe Sie für das Ziel aktivieren möchten.
    * Legen Sie das geplante Startdatum fest, an dem der Ziel-Datenfluss mit der Übermittlung der Zielgruppe für das Ziel beginnen soll.
    * Jedes Ziel hat erforderliche und optionale Attribute, die gesendet werden.
@@ -90,4 +90,4 @@ Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht 
 
 ## Verwandte Dokumentation
 
-Aktivierung für Facebook Custom Audiences – [Zielkonfiguration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=de)
+Aktivierung für Facebook Custom Audiences – [Zielkonfiguration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)

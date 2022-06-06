@@ -7,17 +7,17 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 48%
+ht-degree: 64%
 
 ---
 
 # Blueprint: Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 
-Custom Data Science for Profile Enrichment Blueprint veranschaulicht, wie Daten in Adobe Experience Platform verwendet werden können, um Modelle zu trainieren, bereitzustellen und zu bewerten, um Einblicke aus maschinellem Lernen in die Experience Platform und die Real-time Customer Data Platform aus Datenwissenschaft und maschinellen Lernwerkzeugen zu erhalten. Modellierte Einblicke können in Experience Platform integriert werden, um das Echtzeit-Kundenprofil anzureichern. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
+Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ veranschaulicht, wie Daten in Adobe Experience Platform zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um mit Hilfe von Data-Science- und Machine-Learning-Tools Einblicke in Experience Platform und die Real-time Customer Data Platform zu erhalten. Modellierte Einblicke können in Experience Platform integriert werden, um das Echtzeit-Kundenprofil anzureichern. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
 
 ## Anwendungsfälle
 
-* Extrahieren Sie Einblicke und entdecken Sie Muster aus Kundendaten, trainieren und bewerten Sie Modelle aus diesen Daten.
+* Extrahieren Sie Einblicke und entdecken Sie Muster in Kundendaten und trainieren und bewerten Sie Modelle anhand dieser Daten.
 * Anreichern des [!UICONTROL Echtzeit-Kundenprofils] mit modellgestützten Erkenntnissen und Attributen für detailliertere Personalisierung und Journey-Optimierung.
 * Trainieren und Bewerten von Modellen, um Kundenerkenntnisse wie Kunden-Lebenszeitwert, Konversions- oder Abwanderungsneigung, Produkt- und Content-Affinität und Interaktionswerte zu ermitteln.
 
@@ -53,7 +53,7 @@ Damit Modellergebnisse in das Echtzeit-Kundenprofil aufgenommen werden, müssen 
 ## Verwandte Dokumentation
 
 * [Produktbeschreibung zu Adobe Experience Platform Intelligence](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de)
 
 ## Verwandte Blog-Posts
 

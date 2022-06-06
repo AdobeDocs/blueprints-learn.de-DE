@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '318'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Der [!UICONTROL Abfrage-Service] von Experience Platform ermöglicht die Ausführung von SQL-Abfragen auf Daten.
 
-Experience Platform ermöglicht Verbindungen mit SQL-Clients, Schnittstellen und Business Intelligence-Tools (BI) von Drittanbietern, über die mithilfe des [!DNL PostgreSQL] Protokoll.
+Experience Platform ermöglicht Verbindungen mit SQL-Clients von Drittanbietern, Schnittstellen und Business-Intelligence-Tools (BI), über die mit dem [!DNL PostgreSQL]-Protokoll direkt eine Verbindung mit den Daten in Experience Platform hergestellt sowie auf diese zugegriffen werden kann.
 
-Bestimmte Limits gelten für das Abfrage-Timeout und die Menge der im Abfrageergebnis enthaltenen Daten, wie im Abschnitt Limits unten angegeben.
+Es gibt einige Leitlinien für die maximale Wartezeit bei Abfragen und die Datenmenge, die im Abfrageresultat enthalten ist, wie im Abschnitt unten erläutert wird.
 
 ## Anwendungsfälle
 
@@ -30,7 +30,7 @@ Bestimmte Limits gelten für das Abfrage-Timeout und die Menge der im Abfrageerg
 
 ## Programme
 
-* Adobe Experience Platform  
+* Adobe Experience Platform 
 
 ## Architektur
 

@@ -1,20 +1,21 @@
 ---
-title: Blueprint zur Datenerfassung bei der Ereignisweiterleitung für mehrere Sandboxes
-description: Streamen erfasster Daten von Experience Platform SDKs mithilfe der Ereignisweiterleitung an mehrere Sandboxes
+title: 'Blueprint: Datenerfassung bei Ereignisweiterleitung für mehrere Sandboxes'
+description: Streamen von mit Experience Platform-SDKs erfassten Daten an mehrere Sandboxes mithilfe der Ereignisweiterleitung
 solution: Data Collection
 kt: 7202
-source-git-commit: 8ea7041103f86f034740f00a607ae36ca0b358cf
-workflow-type: tm+mt
+exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
+source-git-commit: 793a92218999185f8a993be528c4830fa07f4865
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
-# Blueprint zur Datenerfassung bei der Ereignisweiterleitung für mehrere Sandboxes
+# Blueprint: Datenerfassung bei Ereignisweiterleitung für mehrere Sandboxes
 
-Multi-Sandbox-Blueprint zur Ereignisweiterleitung Datenerfassung zeigt, wie mit Adobe Experience Platform Web- und Mobile-SDKs erfasste Daten so konfiguriert werden können, dass sie ein einzelnes Ereignis erfassen und an mehrere AEP-Sandboxes weiterleiten. Dieses Blueprint ist ein spezielles Anwendungsbeispiel, das die Funktion &quot;Ereignisweiterleitung&quot;von Adobe-Tags verwendet.
+Die Blueprint „Datenerfassung bei Ereignisweiterleitung für mehrere Sandboxes“ zeigt, wie mit den Adobe Experience Platform Web- und Mobile-SDKs erfasste Daten so konfiguriert werden können, dass sie ein einzelnes Ereignis erfassen und an mehrere AEP-Sandboxes weiterleiten. Diese Blueprint ist ein spezielles Anwendungsbeispiel, das die Ereignisweiterleitungsfunktion von Adobe Tags verwendet.
 
-Zusätzlich zur Replikation des Ereignisses können Sie mithilfe der Ereignisweiterleitungsfunktionen die ursprünglich erfassten Daten hinzufügen, filtern oder bearbeiten, die Anforderungen für andere Sandboxes erfüllen. Beispielsweise muss Sandbox A alle Ereignisdatenelemente empfangen und Sandbox B sollte nur Nicht-PII-Daten empfangen.
+Zusätzlich zur Replikation des Ereignisses können Sie mithilfe der Ereignisweiterleitungsfunktionen die ursprünglich erfassten Daten ergänzen, filtern oder bearbeiten, die Anforderungen für andere Sandboxes erfüllen. Beispielsweise muss Sandbox A alle Ereignisdatenelemente empfangen und Sandbox B soll nur Nicht-PII-Daten empfangen.
 
 Die Ereignisweiterleitung verwendet eine separate Tag-Eigenschaft, die die für Ihre Datenanforderungen erforderlichen Datenelemente, Regeln und Erweiterungen enthält. Bei einem eingehenden Ereignis kann Ihre Ereignisweiterleitungs-Eigenschaft die Daten erfassen und bei Bedarf vor der Weiterleitung verwalten.
 
@@ -24,8 +25,8 @@ Ihre Ziel-Sandbox benötigt einen konfigurierten HTTP-Streaming-Endpunkt, der vo
 
 ## Anwendungsfälle
 
-* Globale Datenberichte : Bei der Verwendung mehrerer Sandboxes zum Isolieren von Betriebsumgebungen und der Notwendigkeit, die Datenerfassung zu einer Sandbox zu konsolidieren, um die Sandbox-Berichterstattung zu vereinfachen. Mit der Weiterleitung von Ereignissen an eine Reporting-Sandbox kann jede Sandbox-Betriebsumgebung Daten senden, die in Echtzeit erfasst werden, und an eine Reporting-Sandbox
-* Verwalten Sie die Datenerfassung über Sandboxes hinweg basierend auf unterschiedlichen Datenregeln für die einzelnen Sandbox-Betriebsumgebungen. Betriebsumgebungen, bei denen sensible Daten wie das Gesundheitswesen und die Finanzdienstleistungen gefiltert werden müssen
+* Globales Daten-Reporting: Bei der Verwendung mehrerer Sandboxes zum Isolieren von Betriebsumgebungen und der Notwendigkeit, die Datenerfassung in einer Sandbox zu konsolidieren, um das Sandbox-übergreifende Reporting zu vereinfachen. Mit der Ereignisweiterleitung an eine Reporting-Sandbox kann jede Sandbox-Betriebsumgebung in Echtzeit erfasste Daten an eine Reporting-Sandbox senden
+* Verwalten Sie die Datenerfassung Sandbox-übergreifend basierend auf unterschiedlichen Datenregeln für die einzelnen Sandbox-Betriebsumgebungen. Betriebsumgebungen, bei denen sensible Daten gefiltert werden müssen, z. B. im Gesundheitswesen und Finanzsektor
 
 ## Programme
 
@@ -33,28 +34,28 @@ Ihre Ziel-Sandbox benötigt einen konfigurierten HTTP-Streaming-Endpunkt, der vo
 
 ## Architektur
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Referenzarchitektur für die Weiterleitung von Multi-Sandbox-Ereignissen" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Referenzarchitektur für Ereignisweiterleitung mit mehreren Sandboxes" style="width:90%; border:1px solid #4a4a4a" />
 
-1. Tag-Autoren definieren sowohl eine Tag-Eigenschaft als auch eine Ereignisweiterleitungseigenschaft. Hier definieren Autoren die Datenelemente, Regeln und Aktionen, die die Datenerfassung verwalten. Beachten Sie, dass Tag-Property-Code auf dem Client ausgeführt und von einem CDN-Host verteilt wird. Der Eigenschaftscode für die Ereignisweiterleitung wird auf dem Adobe Edge-Server ausgeführt.
+1. Tag-Autoren definieren sowohl eine Tag-Eigenschaft als auch eine Ereignisweiterleitungs-Eigenschaft. Hier definieren Autoren die Datenelemente, Regeln und Aktionen, die die Datenerfassung verwalten. Beachten Sie, dass Tag-Eigenschafts-Code auf dem Client ausgeführt und von einem CDN-Host verteilt wird. Der Eigenschafts-Code der Ereignisweiterleitung wird auf dem Adobe Edge-Server ausgeführt.
 
-1. Auf dem Client erfasste Daten werden an den Edge-Server gesendet. Kunden haben auch die Möglichkeit, Daten zunächst als Methode der serverseitigen Erfassung an ihren eigenen Server zu senden.
-Das WebSDK kann eine Server-zu-Server-Erfassungsfunktion bereitstellen. Dies erfordert jedoch ein anderes Programmiermodell zur Implementierung. Weitere Informationen finden Sie in der Dokumentation . **Übersicht über die Edge Network Server-API** below
+1. Auf dem Client erfasste Daten werden an den Edge-Server gesendet. Kunden haben auch die Möglichkeit, Daten zunächst zur Server-seitigen Erfassung an ihren eigenen Server zu senden.
+Das WebSDK kann eine Server-zu-Server-Erfassungsfunktion bereitstellen. Dies erfordert jedoch ein anderes Programmiermodell zur Implementierung. Weitere Informationen finden Sie in der Dokumentation **Edge Network Server-API – Übersicht** unten
 
-1. Platform Edge Server empfängt Datenerfassungs-Payloads und koordiniert den Datenfluss zu den erforderlichen Systemen wie Target und Analytics.
+1. Der Platform-Edge-Server empfängt Datenerfassungs-Payloads und orchestriert den Datenfluss an die erforderlichen Systeme wie Target und Analytics.
 
-1. Ereignisweiterleitungseigenschaft Datenelemente werden verwendet, um auf Ereignisdaten zuzugreifen, die in die Payload eingehen. Regeln können auch verwendet werden, um die Ereignisdaten vor der Weiterleitung nach Bedarf zu bearbeiten. Zum Beispiel Formatieren der Daten in das erforderliche XDM für die Streaming-Datenerfassung
+1. Datenelemente der Ereignisweiterleitungs-Eigenschaft werden verwendet, um auf Ereignisdaten zuzugreifen, die in die Payload eingehen. Regeln können auch verwendet werden, um die Ereignisdaten vor der Weiterleitung nach Bedarf anzupassen. Beispielsweise können die Daten in das für die Streaming-Datenaufnahme erforderliche XDM formatiert werden
 
-1. Die Ereignisweiterleitung bietet die HTTPS-Erweiterung, die die Möglichkeit bietet, Ihre Ereignisdaten an einen HTTPS-Endpunkt weiterzuleiten.
+1. Die Ereignisweiterleitung stellt die HTTPS-Erweiterung zur Verfügung, mit der Ihre Ereignisdaten an einen HTTPS-Endpunkt weitergeleitet werden können.
 
-1. Sandbox 2 wird mit einem Streaming-Endpunkt konfiguriert, der das weitergeleitete Ereignis erhält.
+1. Sandbox 2 wird mit einem Streaming-Endpunkt konfiguriert, der das weitergeleitete Ereignis empfängt.
 
 ## Verwandte Dokumentation
 
 * [Dokumentation zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=de)
 * [Videos zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=de)
 * [Lektion zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=de) des Web SDK-Tutorials
-* [Experience Platform WebSDK - Überblick](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)
-* [Übersicht über die Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)
+* [Experience Platform WebSDK – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)
+* [Edge Network Server-API – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)
 
 ## Verwandte Blog-Posts
 

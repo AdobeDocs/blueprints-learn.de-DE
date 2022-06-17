@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
    + [Übersicht](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Entscheidungsverwaltung{#decision-management}
+      + Entscheidungs-Management {#decision-management}
          + [Übersicht](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Entscheidungs-Management im Edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [Entscheidungs-Management am Hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
@@ -62,7 +62,7 @@ ht-degree: 94%
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)
    + [Ereignisweiterleitung](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Multi-Sandbox-Datenerfassung](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
+   + [Datenerfassung für mehrere Sandboxes](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + Implementierung {#deployment}
       + [Experience Platform Web SDK und Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [Anwendungs-SDKs](/help/blueprints/data-ingestion/appsdk.md)
@@ -74,4 +74,4 @@ ht-degree: 94%
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
    + [Verhaltensbasierte Personalisierung](/help/blueprints/web-personalization/behavioral.md)
    + [Bekannte Kundenpersonalisierung](/help/blueprints/web-personalization/known-personalization.md)
-   + [Entscheidungsverwaltung](/help/blueprints/web-personalization/decision-management-edge.md)
+   + [Entscheidungs-Management](/help/blueprints/web-personalization/decision-management-edge.md)

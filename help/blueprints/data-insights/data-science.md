@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -31,29 +31,29 @@ Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ 
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
 1. [Aufnehmen der Daten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) in Experience Platform.
 
-Damit Modellergebnisse in das Echtzeit-Kundenprofil aufgenommen werden, müssen Sie vor der Aufnahme von Daten Folgendes tun:
+Damit Modellergebnisse in das Echtzeit-Kundenprofil aufgenommen werden, müssen Sie vor der Aufnahme von Daten folgende Schritte ausführen:
 
 1. [Konfigurieren Sie die korrekten Identitäten und Identitäts-Namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de) im Schema, um sicherzustellen, dass aufgenommene Daten zu einem einheitlichen Profil zusammengefügt werden können.
 1. [Aktivieren Sie die Schemas und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=de).
 
 ## Überlegungen bei der Implementierung
 
-* In den meisten Fällen sollte das Modellergebnis als Profilattribute und nicht als Erlebnisereignisse erfasst werden. Die Modellergebnisse können eine einfache Attributzeichenfolge sein. Wenn mehrere Modellergebnisse erfasst werden sollen, wird empfohlen, ein Feld vom Typ Array oder Zuordnung zu verwenden.
-* Der tägliche Datensatz mit Momentaufnahmen von Profilen, der einen täglichen Export der einheitlichen Profilattributdaten darstellt, kann genutzt werden, um Modelle für Profilattributdaten zu trainieren. Die Dokumentation zu Profildatensätzen ist abrufbar. [here](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
+* In den meisten Fällen muss das Modellergebnis als Profilattribute und nicht als Erlebnisereignisse erfasst werden. Bei den Modellergebnissen kann es sich um eine einfache Attributzeichenfolge handeln. Wenn mehrere Modellergebnisse aufgenommen werden sollen, wird empfohlen, ein Feld vom Typ Array oder Zuordnung zu verwenden.
+* Der tägliche Datensatz mit dem Profil-Schnappschuss, der einen täglichen Export der einheitlichen Profilattributdaten darstellt, kann genutzt werden, um Modelle für Profilattributdaten zu trainieren. Die Dokumentation zu Profildatensätzen ist [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=de#profile-attribute-datasets) verfügbar.
 * Für das Extrahieren von Daten aus Experience Platform können die folgenden Methoden verwendet werden:
    * Data Access SDK
-      * Die Daten sind im Rohdatenformular
-      * Profilerlebnis-Ereignisdaten bleiben im nicht einheitlichen Rohzustand.
+      * Daten liegen als Rohdaten vor
+      * Profil-Ereigniserlebnis-Daten bleiben im nicht einheitlichen Rohzustand.
    * RTCDP-Ziele
-      * Es können nur Profilattribute und Segmentmitgliedschaften ausgegraut werden.
-   * Query Service
+      * Es können nur Profilattribute und Segmentmitgliedschaften ausgegeben werden.
+   * Abfrage-Service
       * Der Zugriff auf große Mengen an Rohdaten kann dazu führen, dass die Abfrage beim 10-minütigen Timeout eine Zeitüberschreitung aufweist. Es wird empfohlen, Daten schrittweise abzufragen.
 
 
 ## Verwandte Dokumentation
 
 * [Produktbeschreibung zu Adobe Experience Platform Intelligence](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de)
+* [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de)
 
 ## Verwandte Blog-Posts
 

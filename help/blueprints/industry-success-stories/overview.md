@@ -2,10 +2,10 @@
 title: Erfolgsgeschichten mit Blueprints für digitale Erlebnisse
 description: Diese Erfolgsgeschichten mit Blueprints für digitale Erlebnisse zeigen, wie in verschiedenen Branchen ein Mehrwert für Unternehmen geschaffen werden kann, die Adobe Experience Platform gemeinsam mit Adobe Experience Cloud-Programmen nutzen.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 1bea087acd18e4cfe931984731c90d8a0148d363
+source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 78%
 
 ---
 
@@ -18,17 +18,17 @@ Erfahren Sie, wie Kunden mit Blueprints für digitale Erlebnisse erfolgreiche Ku
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Miniaturbild für ein Bekleidungsunternehmen, das Audience Activation, Customer Journey Analytics und Customer-Journey-Blueprints nutzt" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="Miniaturbild für ein Bekleidungsunternehmen, das Audience Activation, Customer Journey Analytics und Customer-Journey-Blueprints nutzt" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=de"><img alt="Miniaturbild für ein Einzelhandelsunternehmen, das die Aktivierung mit der Blueprint „Aktivierung mit Online-/Offline-Daten“ und der Blueprint „Journey Optimizer“ nutzt" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="Miniaturbild für ein Einzelhandelsunternehmen, das die Aktivierung mit der Blueprint „Aktivierung mit Online-/Offline-Daten“ und der Blueprint „Journey Optimizer“ nutzt" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="Miniaturbild für die Blueprint „Journey Optimizer“" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="Miniaturbild für die Blueprint „Journey Optimizer“" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de"><img alt="Miniaturbild für die Blueprint „Aktivierung mit Online-/Offline-Daten“" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="Miniaturbild für die Blueprint „Aktivierung mit Online-/Offline-Daten“" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>

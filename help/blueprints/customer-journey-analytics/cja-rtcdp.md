@@ -4,7 +4,7 @@ description: Vereinheitlichen und analysieren Sie Daten und Kundenverhalten vom 
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 0d188a41b6c90bc838eaf4b1d0d1f31b3596e7ca
+source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 32%
@@ -15,6 +15,10 @@ ht-degree: 32%
 
 Erstellen und veröffentlichen Sie Zielgruppen, die in Customer Journey Analytics (CJA) identifiziert wurden, in Echtzeit-Kundenprofil in Adobe Experience Platform, um Kunden-Targeting und Personalisierung zu ermöglichen. Ideal für die Erstellung von Zielgruppen mit historischen Daten oder verfeinerten Zielgruppen aus granularer Filterung und berechneten Feldern in Customer Journey Analytics.
 
+## Handbuch zur Veröffentlichung von Customer Journey Analytics-Zielgruppen
+
+In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Konfiguration der Veröffentlichung von Zielgruppen von Customer Journey Analytics nach Real-time Customer Data Platform. [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
+
 ## Architektur für die Blueprints zu Customer Journey Analytics
 
 ![Architekturdiagramm](assets/CJA_RTCDP.svg)
@@ -22,10 +26,6 @@ Erstellen und veröffentlichen Sie Zielgruppen, die in Customer Journey Analytic
 ## Leitliniendiagramm für die Blueprints zu Customer Journey Analytics
 
 ![Leitliniendiagramm](assets/cja_guardrails.svg)
-
-## Handbuch zur Veröffentlichung von Customer Journey Analytics-Zielgruppen
-
-In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Konfiguration der Veröffentlichung von Zielgruppen von Customer Journey Analytics nach Real-time Customer Data Platform. [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## Verwandte Blog-Posts
 

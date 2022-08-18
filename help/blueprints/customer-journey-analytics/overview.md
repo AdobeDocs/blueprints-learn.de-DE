@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: f1d2bc62d07b5cd42e5745320dd6371debb41cfe
-workflow-type: ht
-source-wordcount: '324'
-ht-degree: 100%
+source-git-commit: dfd1592c79fd20899705e68cfd4cd1a1bb3ebb87
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 82%
 
 ---
 
@@ -16,8 +16,9 @@ ht-degree: 100%
 
 „Customer Journey Analytics“ zeigt, wie Marken Kundendaten und -verhalten aus unterschiedlichen Interaktionskanälen und -quellen zusammenführen können, um eine Journey-basierte Ansicht aller Kundeninteraktionen zu erstellen. Berichte und Analysen können im Programm-Service Customer Journey Analytics erstellt werden, um Kundeninteraktionen und Verhaltensmuster zu evaluieren und Erkenntnisse daraus zu gewinnen.
 
-Gängige Analysen umfassen:
+Häufige Anwendungsfälle sind:
 
+* Erstellen und Veröffentlichen von Zielgruppen in Real-time Customer Data Platform
 * Obere/untere Konversionspfade
 * Kanalinteraktion und Konversion
 * Am häufigsten angezeigter Content
@@ -32,7 +33,7 @@ Eine vollständige Liste der Anwendungsfälle für Customer Journey Analytics fi
 Beispiele für primäre Anwendungsfälle wie beispielsweise die folgenden.
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[Kanalübergreifende Journey-Analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de)**  | <ul><li>Erhalten Sie eine zentrale, konsolidierte Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>|
+| **[Kanalübergreifende Journey-Analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de)**  | <ul><li>Erhalten Sie eine zentrale, konsolidierte Sicht auf Kundeninteraktionen auf verschiedenen Kanälen durch Zusammenführung von Daten aus verschiedenen Web-, Mobile- und Offline-Präsenzen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>| | **[Veröffentlichen von Zielgruppen in Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)** | <ul><li>Zielgruppen erstellen und veröffentlichen, die in Customer Journey Analytics (CJA) identifiziert wurden, in Echtzeit-Kundenprofil in Adobe Experience Platform, um Kunden-Targeting und Personalisierung zu ermöglichen. Ideal für die Erstellung von Zielgruppen mit historischen Daten oder verfeinerten Zielgruppen aus granularer Filterung und berechneten Feldern in Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
 | **[Analyse der Anrufabwendung während der Journey](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=de)** | <ul><li>Ermitteln Sie, welche Verhaltensweisen am wahrscheinlichsten mit einem Anruf enden, indem Sie Callcenter-Daten mit Web-, Mobile- und anderen Interaktionsdaten zusammenführen.</li><li>Diese Erkenntnisse können verwendet werden, um das Kundenerlebnis zu verbessern und die Anzahl mitarbeitergestützter Interaktionen durch den Einsatz von Self-Service-Content und -Tools zu reduzieren.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Architektur für die Blueprints zu Customer Journey Analytics

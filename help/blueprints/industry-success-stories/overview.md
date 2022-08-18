@@ -5,7 +5,7 @@ exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ Erfahren Sie, wie Kunden mit Blueprints für digitale Erlebnisse erfolgreiche Ku
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="Miniaturbild für ein Bekleidungsunternehmen, das Audience Activation, Customer Journey Analytics und Customer-Journey-Blueprints nutzt" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html?lang=de"><img alt="Miniaturbild für ein Bekleidungsunternehmen, das Audience Activation, Customer Journey Analytics und Customer-Journey-Blueprints nutzt" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="Miniaturbild für ein Einzelhandelsunternehmen, das die Aktivierung mit der Blueprint „Aktivierung mit Online-/Offline-Daten“ und der Blueprint „Journey Optimizer“ nutzt" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html?lang=de"><img alt="Miniaturbild für ein Einzelhandelsunternehmen, das die Aktivierung mit der Blueprint „Aktivierung mit Online-/Offline-Daten“ und der Blueprint „Journey Optimizer“ nutzt" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="Miniaturbild für die Blueprint „Journey Optimizer“" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html?lang=de"><img alt="Miniaturbild für die Blueprint „Journey Optimizer“" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="Miniaturbild für die Blueprint „Aktivierung mit Online-/Offline-Daten“" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html?lang=de"><img alt="Miniaturbild für die Blueprint „Aktivierung mit Online-/Offline-Daten“" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>Bekleidungsindustrie</strong></a></div>
-    <p><em>Echtzeit-Marketing, Cross-Channel-Aktivierung und Cross-Channel-Analyse.</em></p>
+    <p><em>Echtzeit-Marketing, Cross-Channel Aktivierung und Cross-Channel Analytics.</em></p>
   </td>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>Einzelhandelsbranche</strong></a></div>

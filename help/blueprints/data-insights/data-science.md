@@ -1,19 +1,19 @@
 ---
 title: 'Blueprint: Benutzerdefinierte Datenwissenschaft für Profilanreicherung'
-description: Diese Blueprint zeigt, wie Data Science Workspace in Adobe Experience Platform Daten in Experience Platform nutzen kann, um Modelle zu trainieren, bereitzustellen und zu bewerten, um ML-Erkenntnisse aus Daten zu gewinnen.
+description: Dieser Blueprint zeigt, wie datenwissenschaftliche Erkenntnisse in Experience Platform integriert werden können, um das Echtzeit-Kundenprofil anzureichern.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Blueprint: Benutzerdefinierte Datenwissenschaft für Profilanreicherung
 
-Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ veranschaulicht, wie Daten in Adobe Experience Platform zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um mit Hilfe von Data-Science- und Machine-Learning-Tools Einblicke in Experience Platform und die Real-time Customer Data Platform zu erhalten. Modellierte Einblicke können in Experience Platform integriert werden, um das Echtzeit-Kundenprofil anzureichern. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
+Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ veranschaulicht, wie Daten zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um mit Hilfe von Data-Science- und Machine-Learning-Tools Einblicke in Experience Platform und die Real-time Customer Data Platform zu erhalten. Modellierte Einblicke können in Experience Platform integriert werden, um das Echtzeit-Kundenprofil anzureichern. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
 
 ## Anwendungsfälle
 
@@ -38,17 +38,14 @@ Damit Modellergebnisse in das Echtzeit-Kundenprofil aufgenommen werden, müssen 
 
 ## Überlegungen bei der Implementierung
 
-* In den meisten Fällen muss das Modellergebnis als Profilattribute und nicht als Erlebnisereignisse erfasst werden. Bei den Modellergebnissen kann es sich um eine einfache Attributzeichenfolge handeln. Wenn mehrere Modellergebnisse aufgenommen werden sollen, wird empfohlen, ein Feld vom Typ Array oder Zuordnung zu verwenden.
+* In den meisten Fällen muss das Modellergebnis als Profilattribute und nicht als Erlebnisereignisse erfasst werden. Die Modellergebnisse können eine einfache Attributzeichenfolge sein. Wenn mehrere Modellergebnisse aufgenommen werden sollen, wird empfohlen, ein Feld vom Typ Array oder Zuordnung zu verwenden.
 * Der tägliche Datensatz mit dem Profil-Schnappschuss, der einen täglichen Export der einheitlichen Profilattributdaten darstellt, kann genutzt werden, um Modelle für Profilattributdaten zu trainieren. Die Dokumentation zu Profildatensätzen ist [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=de#profile-attribute-datasets) verfügbar.
 * Für das Extrahieren von Daten aus Experience Platform können die folgenden Methoden verwendet werden:
    * Data Access SDK
       * Daten liegen als Rohdaten vor
       * Profil-Ereigniserlebnis-Daten bleiben im nicht einheitlichen Rohzustand.
    * RTCDP-Ziele
-      * Es können nur Profilattribute und Segmentmitgliedschaften ausgegeben werden.
-   * Abfrage-Service
-      * Der Zugriff auf große Mengen an Rohdaten kann dazu führen, dass die Abfrage beim 10-minütigen Timeout eine Zeitüberschreitung aufweist. Es wird empfohlen, Daten schrittweise abzufragen.
-
+      * Profilattribute und Segmentmitgliedschaften können ausgegraut werden.
 
 ## Verwandte Dokumentation
 

@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 100%
 „Datenanalyse, Datenintelligenz und KI/ML“ zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 
 Der [!UICONTROL Abfrage-Service] von Experience Platform ermöglicht die Ausführung von SQL-Abfragen auf Daten. Zusätzlich ermöglicht Experience Platform Verbindungen mit SQL-Clients von Drittanbietern, Schnittstellen und Business-Intelligence-Tools (BI), über die mit dem [!DNL PostgreSQL]-Protokoll direkt eine Verbindung mit den Daten hergestellt sowie auf diese zugegriffen werden kann.
-
-[!UICONTROL Data Science Workspace] ermöglicht die Anwendung von Datensondierung, Datenanalysen und ML-Abläufen auf Daten. Modelle können trainiert, bewertet und operationalisiert werden, um die Kundenprofile weiter anzureichern und umfassende Erkenntnisse zu Kundenverhalten und -erlebnissen zu gewinnen.
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|

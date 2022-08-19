@@ -3,7 +3,7 @@ title: Erfolgsgeschichten mit Blueprints für digitale Erlebnisse
 description: Diese Erfolgsgeschichten mit Blueprints für digitale Erlebnisse zeigen, wie in verschiedenen Branchen ein Mehrwert für Unternehmen geschaffen werden kann, die Adobe Experience Platform gemeinsam mit Adobe Experience Cloud-Programmen nutzen.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -33,19 +33,19 @@ Erfahren Sie, wie Kunden mit Blueprints für digitale Erlebnisse erfolgreiche Ku
 </tr>
 <tr>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>Bekleidungsindustrie</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html?lang=de"><strong>Bekleidungsindustrie</strong></a></div>
     <p><em>Echtzeit-Marketing, Cross-Channel Aktivierung und Cross-Channel Analytics.</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>Einzelhandelsbranche</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html?lang=de"><strong>Einzelhandelsbranche</strong></a></div>
     <p><em>Echtzeit-Kundenerlebnisse auf Social-Media-, E-Mail-, Push- und Web-Kanälen.</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><strong>Telekommunikationsbranche</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html?lang=de"><strong>Telekommunikationsbranche</strong></a></div>
     <p><em>Maßgeschneiderte Angebote werden in Echtzeit bereitgestellt und das effiziente Onboarding von Kunden sorgt für langfristige Loyalität.</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><strong>Tourismus und Gastgewerbe</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html?lang=de"><strong>Tourismus und Gastgewerbe</strong></a></div>
     <p><em>Echtzeitentscheidungen mit einer konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg.</em></p>
   </td>
 </tr>

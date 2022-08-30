@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 310ef2284ffbc58d74f1924f5fe73ca226201da0
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Die Web- und Mobile-Personalisierung zeigt auf, wie Profil- und Zielgruppensegme
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
 | **[Web-/Mobile-Personalisierung basierend auf Verhaltensdaten](behavioral.md)** | <ul><li>Personalisierung basierend auf Online-Verhalten und Zielgruppendaten</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(optional)*</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
-| **[Web/Mobile-Personalisierung mit bekannten Kundendaten](known-personalization.md)** | <ul><li>Umfassende Kundenprofile und verbesserte Segmentierung bieten verbesserte personalisierte Erlebnisse.</li><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Web/Mobile-Personalisierung mit bekannten Kundendaten](known-personalization.md)** | <ul><li>Umfassende Kundenprofile und verbesserte Segmentierung bieten verbesserte personalisierte Erlebnisse.</li><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Analytics oder Customer Journey Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
 <br>
 
@@ -33,7 +33,7 @@ Die Web- und Mobile-Personalisierung zeigt auf, wie Profil- und Zielgruppensegme
 
 ### Bekanntes Leitliniendiagramm zur Kundenpersonalisierung
 
-<img src="assets/personalization_guardrails.png" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Online-/Offline-Web-Personalisierung“" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Verwandte Blog-Posts
 

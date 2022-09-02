@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [B2B: Aktivierung](/help/blueprints/b2b/b2bactivation.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
-   + [Freigeben von CJA-Zielgruppen für RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
+   + [Freigabe von CJA-Zielgruppen für RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
    + [CJA und Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + Customer Journeys {#customer-journeys}
    + [Übersicht](/help/blueprints/customer-journeys/overview.md)

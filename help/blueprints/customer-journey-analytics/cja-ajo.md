@@ -1,26 +1,27 @@
 ---
 title: Customer Journey Analytics mit Journey Optimizer
-description: Vereinheitlichen und analysieren Sie Daten und Kundenverhalten von der gesamten Journey im Customer Journey Analytics, einschließlich Versand- und Interaktionsdaten aus Journey Optimizer.
+description: Vereinheitlichen und analysieren Sie in Customer Journey Analytics Daten und Kundenverhalten von der gesamten Customer Journey, einschließlich Versand- und Interaktionsdaten von Journey Optimizer.
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 2f0d018f10bedece6d29a3942578dcd489637373
-workflow-type: tm+mt
+exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
+source-git-commit: a3e55b9dc61c87393c12b3d0a4793256a64b6c54
+workflow-type: ht
 source-wordcount: '140'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # Customer Journey Analytics mit Journey Optimizer
 
-Daten aus Journey Optimizer werden an den Data Lake der Experience Platform weitergegeben und stehen zur Erfassung, Analyse und Berichterstellung in Customer Journey Analytics zur Verfügung. Journey-Versand, Interaktion und Effektivität können in Customer Journey Analytics analysiert und gemeldet werden.
+Daten von Journey Optimizer werden an den Data Lake von Experience Platform weitergegeben und stehen zur Aufnahme, Analyse und Berichterstellung in Customer Journey Analytics zur Verfügung. Der Versand, die Interaktion und die Effektivität einer Customer Journey können in Customer Journey Analytics analysiert und in einem Bericht zusammengefasst werden.
 
-Darüber hinaus können in Customer Journey Analytics erstellte Zielgruppen im Echtzeit-Kundenprofil der Experience Platform veröffentlicht werden und stehen für die Journey-Ausführung in Journey Optimizer zur Verfügung.
+Darüber hinaus können die in Customer Journey Analytics erstellten Zielgruppen im Echtzeit-Kundenprofil von Experience Platform veröffentlicht werden und stehen in Journey Optimizer zur Ausführung einer Cuostmer Journey zur Verfügung.
 
 ## Implementierungsanleitung
 
-In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Konfiguration von Journey Optimizer-Daten in Customer Journey Analytics. [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-overview.html)
+In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Konfiguration von Journey Optimizer-Daten in Customer Journey Analytics. [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-overview.html?lang=de)
 
-## Architektur für den Customer Journey Analytics mit Journey Optimizer
+## Architektur für Customer Journey Analytics mit Journey Optimizer
 
 ![Architekturdiagramm](assets/CJA_AJO.svg)

@@ -1,17 +1,17 @@
 ---
-title: 'Blueprint: Benutzerdefinierte Datenwissenschaft für Profilanreicherung'
+title: 'Blueprint: Benutzerdefinierte Datenwissenschaft zur Profilanreicherung'
 description: Dieser Blueprint zeigt, wie datenwissenschaftliche Erkenntnisse in Experience Platform integriert werden können, um das Echtzeit-Kundenprofil anzureichern.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '463'
+ht-degree: 100%
 
 ---
 
-# Blueprint: Benutzerdefinierte Datenwissenschaft für Profilanreicherung
+# Blueprint: Benutzerdefinierte Datenwissenschaft zur Profilanreicherung
 
 Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ veranschaulicht, wie Daten zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um mit Hilfe von Data-Science- und Machine-Learning-Tools Einblicke in Experience Platform und die Real-time Customer Data Platform zu erhalten. Modellierte Einblicke können in Experience Platform integriert werden, um das Echtzeit-Kundenprofil anzureichern. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
 
@@ -23,7 +23,7 @@ Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ 
 
 ## Architektur
 
-<img src="assets/data_science.svg" alt="Referenzarchitektur für Blueprint „Benutzerdefinierte Datenwissenschaft für Profilanreicherung“" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Referenzarchitektur für Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Implementierungsschritte
 
@@ -38,14 +38,14 @@ Damit Modellergebnisse in das Echtzeit-Kundenprofil aufgenommen werden, müssen 
 
 ## Überlegungen bei der Implementierung
 
-* In den meisten Fällen muss das Modellergebnis als Profilattribute und nicht als Erlebnisereignisse erfasst werden. Die Modellergebnisse können eine einfache Attributzeichenfolge sein. Wenn mehrere Modellergebnisse aufgenommen werden sollen, wird empfohlen, ein Feld vom Typ Array oder Zuordnung zu verwenden.
+* In den meisten Fällen muss das Modellergebnis als Profilattribute und nicht als Erlebnisereignisse erfasst werden. Bei den Modellergebnissen kann es sich um einfache Attributzeichenfolgen handeln. Wenn mehrere Modellergebnisse aufgenommen werden sollen, wird empfohlen, ein Feld vom Typ Array oder Zuordnung zu verwenden.
 * Der tägliche Datensatz mit dem Profil-Schnappschuss, der einen täglichen Export der einheitlichen Profilattributdaten darstellt, kann genutzt werden, um Modelle für Profilattributdaten zu trainieren. Die Dokumentation zu Profildatensätzen ist [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=de#profile-attribute-datasets) verfügbar.
 * Für das Extrahieren von Daten aus Experience Platform können die folgenden Methoden verwendet werden:
    * Data Access SDK
       * Daten liegen als Rohdaten vor
       * Profil-Ereigniserlebnis-Daten bleiben im nicht einheitlichen Rohzustand.
    * RTCDP-Ziele
-      * Profilattribute und Segmentmitgliedschaften können ausgegraut werden.
+      * Es können Profilattribute und Segmentmitgliedschaften ausgegeben werden.
 
 ## Verwandte Dokumentation
 

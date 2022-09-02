@@ -5,10 +5,10 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 95%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
    + [Datenfluss in Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
-   + [Anonyme Zielgruppenaktivierung](/help/blueprints/audience-activation/anonymous.md)
-   + Aktivierung eines bekannten Kunden {#known-customer-audience-activation}
+   + [Anonyme Zielgruppenaktivierung (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + Bekannte Kundenaktivierung (RTCDP) {#known-customer-audience-activation}
       + [Übersicht](/help/blueprints/audience-activation/known.md)
       + Aktivierung für Social-Media- und Advertising-Kanäle {#audience-activation}
          + [Aktivierung für Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -74,6 +74,6 @@ ht-degree: 100%
    + [Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](/help/blueprints/data-insights/data-science.md)
 + Web- und Mobile-Personalisierung {#web-personalization}
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
-   + [Verhaltensbasierte Personalisierung](/help/blueprints/web-personalization/behavioral.md)
-   + [Bekannte Kundenpersonalisierung](/help/blueprints/web-personalization/known-personalization.md)
+   + [Verhaltensbasierte Personalisierung - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Bekannte Kundenpersonalisierung - Target und RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Entscheidungs-Management](/help/blueprints/web-personalization/decision-management-edge.md)

@@ -1,23 +1,24 @@
 ---
 title: Customer Journey Analytics mit Real-time Customer Data Platform
-description: Vereinheitlichen und analysieren Sie Daten und Kundenverhalten vom gesamten Kunden-Journey im Customer Journey Analytics, veröffentlichen Sie die Zielgruppe von CJA in RTCDP.
+description: Vereinheitlichen und analysieren Sie in Customer Journey Analytics Daten und Kundenverhalten von der gesamten Customer Journey und veröffentlichen Sie in CJA identifizierte Zielgruppe in RTCDP.
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
-workflow-type: tm+mt
+exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
+source-git-commit: 3d2fbd7b6e94b6f56a72e0956709557c21b4c419
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
 # Customer Journey Analytics mit Real-time Customer Data Platform
 
-Erstellen und veröffentlichen Sie Zielgruppen, die in Customer Journey Analytics (CJA) identifiziert wurden, in Echtzeit-Kundenprofil in Adobe Experience Platform, um Kunden-Targeting und Personalisierung zu ermöglichen. Ideal für die Erstellung von Zielgruppen mit historischen Daten oder verfeinerten Zielgruppen aus granularer Filterung und berechneten Feldern in Customer Journey Analytics.
+Erstellen und veröffentlichen Sie Zielgruppen, die in Customer Journey Analytics (CJA) identifiziert wurden, im Echtzeit-Kundenprofil in Adobe Experience Platform, um Zielgruppenbestimmung und Personalisierung durchzuführen. Ideal zur Erstellung von Zielgruppen mithilfe historischer Daten oder von präziseren Zielgruppen aus granularer Filterung und berechneten Feldern in Customer Journey Analytics.
 
 ## Handbuch zur Veröffentlichung von Customer Journey Analytics-Zielgruppen
 
-In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Konfiguration der Veröffentlichung von Zielgruppen von Customer Journey Analytics nach Real-time Customer Data Platform. [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
+In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Konfiguration nach der Veröffentlichung von Zielgruppen von Customer Journey Analytics in Real-time Customer Data Platform. [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=de)
 
 ## Architektur für die Blueprints zu Customer Journey Analytics
 

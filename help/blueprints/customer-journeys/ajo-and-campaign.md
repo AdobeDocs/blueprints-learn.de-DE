@@ -3,10 +3,10 @@ title: 'Blueprint: Journey Optimizer mit Adobe Campaign'
 description: Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: ht
-source-wordcount: '1150'
-ht-degree: 100%
+source-git-commit: a04bd6fe26c9b67a5bfbe753d734882f30f6c047
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 90%
 
 ---
 
@@ -78,7 +78,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
    * Zielgruppen- und Unternehmens-Event-basierte Journeys werden aufgrund des Volumens, das an Ausführungsinstanzen gesendet werden kann, nicht unterstützt
 * Weder AC (v7) noch AC (v8) unterstützt Entscheidungs-Management in Nachrichten
 * Keine Drosselung ausgehender API-Aufrufe an Campaign
-* Protokolle von Transaktionsnachrichten werden nicht nativ mit AEP synchronisiert. Beratung erforderlich. Es wird empfohlen, Protokolle höchstens alle vier Stunden zu exportieren.
+* Mit Campaign v8.4 ist es möglich, den Adobe Campaign Managed Services Source Connector in Experience Platform zu nutzen, um Bereitstellungs- und Tracking-Ereignisse von Campaign in Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zu Source Connector . [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 <br>
 
@@ -108,7 +108,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 #### Profil/Identität
 
 1. [Erstellen Sie sämtliche kundenspezifischen Namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
-1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
+1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Aktivieren Sie die Schemas und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=de).
 1. [Richten Sie Zusammenführungsrichtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=de) für unterschiedliche Ansichten des [!UICONTROL Echtzeit-Kundenprofils] ein (optional).
 1. Erstellen Sie Segmente für die Journey-Nutzung.
@@ -126,7 +126,8 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 ### Campaign v7/v8 oder Campaign Standard
 
 * Messaging-Vorlagen müssen mit geeignetem Personalisierungskontext konfiguriert werden
-* Export-Workflows müssen zum Export der Protokolle für Transaktionsnachrichten zurück in Experience Platform konfiguriert werden. Es wird empfohlen, sie höchstens alle vier Stunden auszuführen
+* Für Campaign Standard - Export-Workflows müssen konfiguriert werden, um die Transaktionsnachrichten-Logs wieder in die Experience Platform zu exportieren. Es wird empfohlen, maximal alle vier Stunden auszuführen.
+* Für Campaign v8.4 ist es möglich, den Adobe Campaign Managed Services Source Connector in Experience Platform zu nutzen, um Bereitstellungs- und Tracking-Ereignisse von Campaign in Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zu Source Connector . [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ### Mobilgeräte-Push-Konfiguration (optional)
 

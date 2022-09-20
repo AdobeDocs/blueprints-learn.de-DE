@@ -1,14 +1,14 @@
 ---
 user-guide-title: 'Blueprints: Digitale Erlebnisse'
-breadcrumb-title: 'Blueprints '
+breadcrumb-title: Blueprints
 user-guide-description: Blueprints sind wiederholbare Implementierungen, die bekannte Geschäftsprobleme adressieren und Architekturdiagramme, technische Überlegungen und Links zu relevanter Dokumentation enthalten.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+source-git-commit: 4aced09f12b47c0af25af7aaa97085a607d749b3
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 95%
+source-wordcount: '206'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 + [Übersicht](/help/blueprints/overview.md)
 + [Alle Anwendungsfälle anzeigen](/help/blueprints/use-cases.md)
-+ Alle Kundenreferenzen anzeigen {#industry-success-stories}
++ Vertikale Branchen-Blueprints{#vertical-blueprints}
    + [Übersicht](/help/blueprints/industry-success-stories/overview.md)
    + [Bekleidung](/help/blueprints/industry-success-stories/apparel.md)
    + [Einzelhandel](/help/blueprints/industry-success-stories/retail.md)

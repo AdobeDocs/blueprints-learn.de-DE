@@ -6,9 +6,9 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 4c66e906b9faf4bd9b1ee75fcf263b8a35d3b782
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -94,9 +94,9 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anonyme Zielgruppenaktivierung</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online-/Offline-Zielgruppenaktivierung</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Platform und Programmen</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=de">Anonyme Zielgruppenaktivierung</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a></li>
 </ul>
 </td>
 </tr>
@@ -109,7 +109,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li>Die von Campaign erfassten Interaktions- und Kampagnendaten können in Experience Platform als Datenquelle erfasst werden, die über Real-time Customer Data Platform zur weiteren Verwendung beim Erstellen von Zielgruppen und über den Customer Journey Analytics- und Experience Platform-Abfragedienst zur Analyse genutzt werden kann.</li>
+<li>Von Campaign erfasste Interaktions- und Kampagnendaten können in Experience Platform als Datenquelle aufgenommen und über Real-Time Customer Data Platform und die Analyse über Customer Journey Analytics und den Abfrage-Service von Experience Platform zum Erstellen von Zielgruppen verwendet werden.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -127,12 +127,12 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li>Die von Campaign erfassten Interaktions- und Kampagnendaten können in Experience Platform als Datenquelle erfasst werden, die über Real-time Customer Data Platform zur weiteren Verwendung beim Erstellen von Zielgruppen und über den Customer Journey Analytics- und Experience Platform-Abfragedienst zur Analyse genutzt werden kann.</li>
+<li>Von Campaign erfasste Interaktions- und Kampagnendaten können in Experience Platform als Datenquelle aufgenommen und über Real-Time Customer Data Platform und die Analyse über Customer Journey Analytics und den Abfrage-Service von Experience Platform zum Erstellen von Zielgruppen verwendet werden.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch-Messaging</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=de">Batch-Messaging</a></li>
 </ul>
 </td>
 </tr>
@@ -145,7 +145,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li>Erstellen Sie Zielgruppen in Customer Journey Analytics und geben Sie die Zielgruppenergebnisse für Real-time Customer Data Platform frei. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en">Veröffentlichung von CJA-Zielgruppen</a></li>
+<li>Erstellen Sie Zielgruppen in Customer Journey Analytics und geben Sie die Zielgruppenergebnisse für Real-Time Customer Data Platform frei. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=de">Veröffentlichung von CJA-Zielgruppen</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -168,7 +168,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online-/Offline-Zielgruppenaktivierung</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a></li>
 </ul>
 </td>
 </tr>
@@ -181,7 +181,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li>Die von Journey Optimizer erzeugten Interaktions- und Kampagnendaten werden in Experience Platform erfasst und können über Real-time Customer Data Platform und die Analyse über Customer Journey Analytics sowie den Query Service für Experience Platformen weiter verwendet werden.</li>
+<li>Interaktions- und Kampagnendaten, die von Journey Optimizer erzeugt werden, werden in Experience Platform gesammelt und zur weiteren Verwendung bei der Zielgruppenerstellung über Real-Time Customer Data Platform und bei Analysen über Customer Journey Analytics und den Abfrage-Service von Experience Platform verwendet.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -199,7 +199,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li>In Magento native Daten können über einen Magento-Quell-Connector an Experience Platform gesendet werden. </li>
+<li>Native Daten aus Magento können über den Magento-Quell-Connector an Experience Platform gesendet werden. </li>
 </ul>
 </td>
 <td colspan="1">Keine aktuelle Integration</td>
@@ -213,7 +213,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li>Marketo-Konten, -Kontakte und Opportunities-Daten sowie von Marketo erstellte Interaction- und Kampagnendaten werden in Experience Platform erfasst und können zur weiteren Verwendung beim Erstellen von Zielgruppen über die B2B-CDP und zur Analyse über Customer Journey Analytics und den Experience Platform Query Service verwendet werden. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=de">Marketo Engage Connector</a></li>
+<li>Marketo-Accounts, -Kontakte und -Opportunity-Daten sowie von Marketo erstellte Interaktions- und Kampagnendaten werden in Experience Platform aufgenommen und können zur weiteren Verwendung in der Zielgruppenerstellung über die B2B-Kundendatenplattform und zur Analyse über Customer Journey Analytics und den Abfrage-Service von Experience Platform verwendet werden. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=de">Marketo Engage Connector</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -232,13 +232,13 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 <td colspan="1">
 <ul>
 <li>Zielgruppen- und Profilmetriken werden an den Data Lake von Experience Platform gesendet und in den Dashboards für Berichte zu Profilerkenntnissen genutzt.</li>
-<li>Die Zielgruppen- und Profildaten im Data Lake können über Query Service und Customer Journey Analytics für weitere Einblicke verwendet werden.</li>
+<li>Die Zielgruppen- und Profildaten im Data Lake können über den Abfrage-Service und Customer Journey Analytics für weitere Erkenntnisse verwendet werden.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online-/Offline-Zielgruppenaktivierung</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Platform und Programmen</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a></li>
 </ul>
 </td>
 </tr>
@@ -246,18 +246,18 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>In Real-time Customer Data Platform definierte Zielgruppen und Profilattribute können für Target freigegeben und in von Target bereitgestellten Personalisierungs- und Targeting-Erlebnissen verwendet werden.</li>
+<li>In Real-Time Customer Data Platform definierte Zielgruppen und Profilattribute können für Target freigegeben und in von Target bereitgestellten Personalisierungs- und Targeting-Erlebnissen verwendet werden.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Für Target-Erlebnisse und -Interaktionen erfasste Daten können über das Experience Platform Web/Mobile SDK für Experience Platform erfasst werden. Diese Daten können beim Erstellen von Zielgruppen über Real-time Customer Data Platform und zur Analyse über Customer Journey Analytics und Query Service für Experience Platformen verwendet werden.</li>
+<li>Daten, die für Target-Erlebnisse und -Interaktionen erfasst werden, können über das Experience Platform Web/Mobile SDK für Experience Platform erfasst werden. Diese Daten können zum Erstellen von Zielgruppen über Real-Time Customer Data Platform und zur Analyse über Customer Journey Analytics und den Abfrage-Service von Experience Platform verwendet werden.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online-/Offline-Zielgruppenaktivierung</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Platform und Programmen</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=de">Online-/Offline-Zielgruppenaktivierung</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a></li>
 </ul>
 </td>
 </tr>

@@ -4,10 +4,10 @@ description: Verwalten Sie Profile und Zielgruppen in Experience Platform und ge
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: 094591020413933932356cb8c393bf569bcfca50
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profi
 
 ### Zielgruppenfreigabe aus Real-time Customer Data Platform für Target
 
-* In der Blueprint [Web-/Mobile-Personalisierung mit Online- und Offline-Daten](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=de) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen aus Real-time Customer Data Platform für Target.
+* Siehe [Bekannte Kundenpersonalisierung - Target- und RTCDP-Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) für zusätzliche Informationen zur Freigabe von Profilen und Zielgruppen von Real-time Customer Data Platform für Target.
 
 ### Zielgruppenfreigabe aus Real-time Customer Data Platform für Campaign und Journey Optimizer
 

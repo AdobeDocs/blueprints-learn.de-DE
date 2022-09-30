@@ -2,16 +2,16 @@
 title: Segmentübereinstimmung
 description: Informationen zu [!UICONTROL Segmentübereinstimmung] für Adobe Experience Platform (AEP). [!UICONTROL Segmentübereinstimmung] ist ein Dienst für die Datenzusammenarbeit, mit dem Sie Segmentdaten basierend auf allgemeinen Branchenkennungen auf sichere, verwaltete und datenschutzfreundliche Weise austauschen können.
 solution: Experience Platform
-source-git-commit: a4ae1eaa864f85144b8bdfbff23b4389847c8cfa
+source-git-commit: a5bf86b8606d40a0686c667f83516e3b495350b8
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
 
 # Segmentübereinstimmung
 
-Der Schlüssel für Marken ist die Verbindung mit Kunden anhand von Daten, die aus ihren direkten Beziehungen zu Verbrauchern gesammelt werden. Mit besseren Verwaltungs-, Berechtigungs- und Präferenzmanagementsystemen können Marketingexperten ihre durch Erstanbieter authentifizierten Zielgruppen mit wichtigen Partnern weiter verbessern.
+Die Segmentübereinstimmung ermöglicht es Partnermarken, Zielgruppen in ihren jeweiligen Experience Platform-Umgebungen freizugeben. Der Schlüssel für Marken ist die Verbindung mit Kunden anhand von Daten, die aus ihren direkten Beziehungen zu Verbrauchern gesammelt werden. Mit besseren Verwaltungs-, Berechtigungs- und Präferenzmanagementsystemen können Marketingexperten ihre durch Erstanbieter authentifizierten Zielgruppen mit wichtigen Partnern weiter verbessern.
 
 [!UICONTROL Segmentübereinstimmung] ist ein Datenerfassungsdienst, der Kunden von Experience Platform (AEP) ermöglicht (auch als _Partner_), um Segmentdaten auf der Grundlage gemeinsamer Branchenkennungen auf sichere, verwaltete und datenschutzfreundliche Weise auszutauschen.
 

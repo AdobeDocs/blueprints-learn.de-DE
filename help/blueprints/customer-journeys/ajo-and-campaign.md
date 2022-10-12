@@ -32,12 +32,12 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 * Schemas und Datensätze müssen im System konfiguriert werden, bevor Sie Journey Optimizer-Datenquellen konfigurieren können.
 * Fügen Sie für Schemas, die auf der Klasse „Erlebnisereignis“ basieren, die Feldgruppe „Orchestrierungsereignis-ID“ hinzu, wenn ein Ereignis ausgelöst werden soll, das kein regelbasiertes Ereignis ist.
 * Fügen Sie für Schemas, die auf der Klasse „Individuelles Profil“ basieren, die Feldgruppe „Profil-Testdetails“ hinzu, um die Testprofile für die Verwendung mit Journey Optimizer laden zu können.
-* Journey Optimizer und Campaign werden in derselben IMS-Organisation bereitgestellt
+* Journey Optimizer und Campaign werden in derselben IMS-Organisation bereitgestellt.
 
 ### Campaign v7/v8 oder Campaign Standard
 
-* Ausführungsinstanz des Echtzeit-Messaging-Service (d. h. Message Center) muss von Adobe Managed Cloud Services gehostet werden
-* Sämtliches Nachrichten-Authoring erfolgt direkt in der Campaign-Instanz
+* Ausführungsinstanz des Echtzeit-Messaging-Service (d. h. Message Center) muss von Adobe Managed Cloud Services gehostet werden.
+* Sämtliches Nachrichten-Authoring erfolgt direkt in der Campaign-Instanz.
 
 <br>
 

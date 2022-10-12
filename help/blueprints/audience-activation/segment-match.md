@@ -1,109 +1,109 @@
 ---
-title: Segmentübereinstimmung
-description: Informationen zu [!UICONTROL Segmentübereinstimmung] für Adobe Experience Platform (AEP). [!UICONTROL Segmentübereinstimmung] ist ein Dienst für die Datenzusammenarbeit, mit dem Sie Segmentdaten basierend auf allgemeinen Branchenkennungen auf sichere, verwaltete und datenschutzfreundliche Weise austauschen können.
+title: Segment Match
+description: Erfahren Sie mehr zu [!UICONTROL Segment Match] in Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Sie Segmentdaten auf der Basis gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 solution: Experience Platform
 source-git-commit: a5bf86b8606d40a0686c667f83516e3b495350b8
 workflow-type: tm+mt
 source-wordcount: '1764'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
 # Segmentübereinstimmung
 
-Die Segmentübereinstimmung ermöglicht es Partnermarken, Zielgruppen in ihren jeweiligen Experience Platform-Umgebungen freizugeben. Der Schlüssel für Marken ist die Verbindung mit Kunden anhand von Daten, die aus ihren direkten Beziehungen zu Verbrauchern gesammelt werden. Mit besseren Verwaltungs-, Berechtigungs- und Präferenzmanagementsystemen können Marketingexperten ihre durch Erstanbieter authentifizierten Zielgruppen mit wichtigen Partnern weiter verbessern.
+Die Segmentübereinstimmung ermöglicht es Partnermarken, Zielgruppen in ihren jeweiligen Experience Platform-Umgebungen freizugeben. Der Schlüssel zu erfolgreicher Geschäftstätigkeit ist die Pflege von Kundenbeziehungen mithilfe von Daten, die über den direkten Kontakt mit Verbrauchern und Verbraucherinnen erfasst werden. Marketer haben nun die Möglichkeit, durch innovative Systeme zur Verwaltung von Daten-Governance, Berechtigungen und Einstellungen und durch die Zusammenarbeit mit Partnern eine präzisere Auswahl ihrer durch First-Party-Daten authentifizierten Zielgruppen zu treffen.
 
-[!UICONTROL Segmentübereinstimmung] ist ein Datenerfassungsdienst, der Kunden von Experience Platform (AEP) ermöglicht (auch als _Partner_), um Segmentdaten auf der Grundlage gemeinsamer Branchenkennungen auf sichere, verwaltete und datenschutzfreundliche Weise auszutauschen.
+[!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Kunden von Experience Platform (AEP) (als _Partner_ bezeichnet) Segmentdaten auf der Grundlage gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 
-Der Dienst ermöglicht es Kunden, übereinstimmende IDs sicher und neutral zu identifizieren, ohne ihre gesamte Datenbank offen legen zu müssen. Partner erhalten nur bestimmte Attribute (Segmentname) für überlappende IDs, wodurch eine schnellere und einfachere Freigabe auf steuerbare, einwilligungsgesteuerte Weise ermöglicht wird.
+Dieser Service ermöglicht es Kunden, übereinstimmende IDs sicher und neutral zu identifizieren, ohne ihre gesamte Datenbank offenlegen zu müssen. Partner erhalten für übereinstimmende IDs nur zuvor festgelegte Attribute (Segmentname), was eine schnelle und einfache gemeinsame Nutzung ermöglicht, die kontrolliert ist und auf aktivem Einverständnis basiert.
 
-[!UICONTROL Segmentübereinstimmung] verwendet das Data Governance- und Zustimmungs-Framework von AEP als Backbone. Es ist für alle B2C- und B2P-Real-time Customer Data Platform-Kunden verfügbar. Hauptfunktionen von [!UICONTROL [!UICONTROL Segmentübereinstimmung]] include:
+[!UICONTROL Segment Match] setzt auf dem Datenverwaltungs- und Einverständnis-Framework von AEP auf. Segment Match ist für alle B2C- und B2P-Kunden von Real-time Customer Data Platform verfügbar. Die Hauptfunktionen von [!UICONTROL [!UICONTROL Segment Match]]:
 
-* Segmentfreigabe für Kunden mit überlappender Zustimmung
-* Überschneidungsberichte vor der Freigabe für Einblicke in das geschätzte Übereinstimmungsvolumen
-* Vollständig integrierte DULE-Richtlinie und Durchsetzung von Berechtigungen
-* Framework für die Datenfreigabe-Zustimmung
+* Segmentfreigabe für Profile, die sich überschneiden und ihr Einverständnis gegeben haben
+* Berichte vor der Datenfreigabe mit Informationen zum geschätzten Volumen der sich überschneidenden Identitäten
+* Vollständig integrierte DULE-Richtlinie und Berechtigungsdurchsetzung
+* Framework für die Verwaltung des Einverständnisses zur Datenfreigabe
 * Daten-Feeds zum Organisieren von Segmenten und Partnern
 
-## Programme
+## Anwendungen
 
-Marke für Herausgeber:
+Zwischen Marke und Publisher:
 
-Der &quot;Anwendungsfall des Herausgebers&quot;ist am stärksten von der Einstellung von Drittanbieter-Cookies und ID-Daten für mobile Werbung betroffen. Dieser Anwendungsfall hat erhebliche Auswirkungen auf die Medien- und Unterhaltungsbranche, die sich auf den Verkauf von Werbung als Geschäftsmodell konzentriert. [!UICONTROL Segmentübereinstimmung] ist ein Pfad für Herausgeber mit großen Erstanbieterzielgruppen, die direkt mit ihren Werbetreibenden zusammenarbeiten möchten. Werbetreibende können direkt mit Herausgebern zusammenarbeiten, um für detaillierte Targeting- oder Prospektionskampagnen Werbung für passende Zielgruppen in Veröffentlichungseigenschaften zu schalten.
+Der „Publisher-Anwendungsfall“ ist am stärksten vom Wegfall von Third-Party-Cookies und ID-Daten für mobile Werbung betroffen. Dieser Anwendungsfall hat erhebliche Auswirkungen auf die Medien- und Unterhaltungsbranche, deren Geschäftsmodell auf dem Verkauf von Werbung basiert. [!UICONTROL Segment Match] bietet Publishern, die über große Mengen an First-Party-Zielgruppendaten verfügen und direkt mit Advertisern zusammenarbeiten möchten, eine neue Umsatzchance. Advertiser wiederum können direkt mit Publishern zusammenarbeiten und in granularen Targeting- oder Kundengewinnungskampagnen Werbung für übereinstimmende Zielgruppen auf Publisher-Properties schalten.
 
-### Marke in Marke
+### Zwischen Marke und Marke:
 
-Die Journey der Verbraucher sind nie linear. Ein Kunde kann beispielsweise einer Fluggesellschaft und seinem Kreditkartenunternehmen treu sein. Durch Verwendung von [!UICONTROL Segmentübereinstimmung], können die Fluggesellschaft und das Kreditkartenunternehmen eine Datenpartnerschaft erstellen, um sich überschneidende Zielgruppen zu verstehen und anschließend Angebote so anzupassen, dass sie den treuen Verbrauchern jedes einzelnen Unternehmens personalisierte Erlebnisse bieten.
+Customer Journeys verlaufen nie linear. Beispiel: Eine Person ist loyale Kundin einer Fluggesellschaft und eines Kreditkartenunternehmens. Durch Verwendung von [!UICONTROL Segment Match] können die Fluggesellschaft und das Kreditkartenunternehmen nun eine Datenpartnerschaft eingehen, um sich überschneidende Zielgruppen zu ermitteln und anschließend den loyalen Kunden und Kundinnen eines jeden Unternehmens maßgeschneiderte Angebote mit personalisierten Erlebnissen zu unterbreiten.
 
-### BU bis BU
+### Zwischen Geschäftseinheit und Geschäftseinheit:
 
-Globale multinationale Unternehmen haben Herausforderungen bei der Datenzusammenarbeit zwischen unabhängig operierenden Geschäftsbereichen. Die Kombination von Daten in einer Sandbox ist u. U. aufgrund unterschiedlicher Datenschutzrichtlinien, Akquisen oder Verwaltungsberechtigungen in verschiedenen Geschäftseinheiten nicht möglich.
+Für global tätige multinationale Unternehmen ist es oft schwierig, die gemeinsame Nutzung von Daten zwischen unabhängig operierenden Geschäftseinheiten zu gewährleisten. Das Zusammenführen von Daten in eine gemeinsame Sandbox ist u. U. aufgrund unterschiedlicher Datenschutzrichtlinien, Akquisitionen oder Berechtigungen in den diversen Geschäftseinheiten nicht möglich.
 
-[!UICONTROL Segmentübereinstimmung] hilft unterschiedlichen Marketingteams in den verschiedensten Unternehmen, effizienter zusammenzuarbeiten und gleichzeitig unabhängig zu arbeiten
+[!UICONTROL Segment Match] hilft separaten Marketing-Teams in großen Unternehmen, effizienter zusammenzuarbeiten und gleichzeitig unabhängig zu agieren.
 
 ## Architektur
 
-![Segmentübereinstimmungsarchitektur](assets/architecture-segment-match.png)
+![Die Architektur von Segment Match](assets/architecture-segment-match.png)
 
-[!UICONTROL Segmentübereinstimmung] ist kein Daten-Marketplace, in dem Daten gekauft werden können. Vielmehr handelt es sich um eine AEP-Funktion, die mit Erstanbieterdaten mit ausgewählten Partnern arbeitet, wobei Datenschutz- und Einverständniskontrollen zur Zusammenarbeit verwendet werden. [!UICONTROL Segmentübereinstimmung] hilft, die Bemühungen auf die Verbesserung der Kundenbeziehungen und das Wachstum der Marke zu konzentrieren. Es ist von Vorteil, wenn bereits vorhandene Marken oder Partnerbeziehungen bestehen. [!UICONTROL Segmentübereinstimmung] Erlebnis ist einfach zu verwalten, skalierbar und ermöglicht es Administratoren, Segmente per Opt-in und unter Kontrolle freizugeben.
+[!UICONTROL Segment Match] ist kein Daten-Marketplace, auf dem Daten gekauft werden können. Vielmehr handelt es sich dabei um eine AEP-Funktion, die ausgewählten Partnern den Austausch von First-Party-Daten ermöglicht. Steuerwerkzeuge sorgen dabei für die Einhaltung des Datenschutzes und die Prüfung des Einverständnisses. [!UICONTROL Segment Match] ermöglicht die Verbesserung der Kundenbeziehungen und die Steigerung des Geschäftswachstums. Dieser Service ist insbesondere dort von Vorteil, wo bereits Marken- oder Partnerbeziehungen bestehen. [!UICONTROL Segment Match] ist einfach zu verwalten, skalierbar und ermöglicht es Administratoren und Administratorinnen, Segmente kontrolliert per Opt-in freizugeben.
 
-[!UICONTROL Segmentübereinstimmung] ermöglicht Folgendes:
+[!UICONTROL Segment Match] bietet Folgendes:
 
-* Segmentieren Sie Mitgliedschaftsdaten, die mithilfe von standardmäßigen personenbezogenen Kennungen, wie Hash-E-Mail-Adresse oder Telefonnummer, sicher unternehmensübergreifend portiert werden sollen.
-* Eine Zielgruppen-Freigabe-Benutzeroberfläche und Workflows mit Benachrichtigungen
-* Schätzungen vorab freigegebener Überschneidungen
-* Einrichtung eines Self-Service-Partners
+* Den sicheren Austausch von Segmentzugehörigkeitsdaten zwischen Unternehmen mithilfe von standardmäßigen personenbezogenen Kennungen, wie Hash-E-Mail-Adresse oder Telefonnummer
+* Eine Benutzeroberfläche zur Zielgruppenfreigabe und Workflows mit Benachrichtigungen
+* Die Bereitstellung von Schätzungen zu den sich überschneidenden Segmenten vor der Segmentfreigabe
+* Partner-Einrichtung im Self-Service
 * Überschneidungen bei ausgewählten standardisierten Namespaces (Hash-E-Mail, Hash-Telefon, ECID, IDFA, GAID)
-* Durchsetzung der Datenfreigabe-Zustimmung
-* Freigegebenes Zielgruppen-Lebenszyklus-Management
+* Durchsetzung des Datenfreigabe-Einverständnisses
+* Verwaltung des Lebenszyklus freigegebener Zielgruppen
 * DULE-Durchsetzung im Freigabe-Workflow
 * Tägliche Batch-Aktualisierungen
 
-[!UICONTROL Segmentübereinstimmung] ermöglicht die Erstellung eines vernetzten Kundenerlebnisses. Unterstützte dauerhafte Kennungen sind Hash-E-Mails, Hash-Telefonnummern und Kennungen wie ECID, IDFA und GAID. Kunden können Feeds erstellen, die Zielgruppendaten zwischen Marken-Sandboxes abgleichen und verschieben, mit starken Governance-, Transparenz- und Rückruffunktionen für die Verwendung in Werbe- und Marketing-Aktivierungen
+[!UICONTROL Segment Match] ermöglicht die Erstellung eines vielschichtigen Kundenerlebnisses. Die unterstützten dauerhaften Kennungen sind Hash-E-Mails, Hash-Telefonnummern und Kennungen wie ECID, IDFA und GAID. Kunden können Feeds erstellen, mit denen Zielgruppendaten zwischen Marken-Sandboxes verglichen und verschoben werden. Dabei stehen für Werbe- und Marketing-Aktivierungen effektive Funktionen zur Datenverwaltung, zur Gewährleistung der Transparenz und zur Rücknahme der Identitäten zur Verfügung.
 
 ## Voraussetzungen
 
-Die Voraussetzungen für [!UICONTROL Segmentübereinstimmung] sind:
+Die Voraussetzungen für die Verwendung von [!UICONTROL Segment Match] sind:
 
 * Aktive RT-CDP-Lizenz
-* Unterstützte Standard-Hash-Kennungen sind SHA256-Hash-E-Mail, Hash-Telefon, ECID, Apple IDFA und GAID
-* Datenschutz-Framework und Einverständnisstrategie
-* Datenfreigabe-Vereinbarungen zwischen Kunden
+* Die unterstützten standardmäßigen Hash-Kennungen sind SHA256-Hash-E-Mail, Hash-Telefon, ECID, Apple IDFA und GAID
+* Datenschutz-Framework- und Einverständnisstrategie
+* Datenfreigabevereinbarungen zwischen Kunden
 
 ## Sicherheit
 
-### RBAC
+### Rollenbasierte Zugriffskontrolle
 
-Die [!UICONTROL Segmentübereinstimmung] Der Fluss zur Verwaltung von Partnern wird durch RBAC gesichert. Nur Personen mit der richtigen Berechtigung können Partner initiieren, akzeptieren oder verwalten. Dies kann im Abschnitt &quot;Datenerfassung&quot;des Produktprofils erfolgen. Die folgenden Berechtigungen sind erforderlich:
+Der [!UICONTROL Segment Match]-Fluss zur Verwaltung von Partnern wird durch eine rollenbasierte Zugriffskontrolle geschützt. Nur Personen mit der entsprechenden Berechtigung können Partner initiieren, akzeptieren oder verwalten. Dies kann im Abschnitt „Datenaufnahme“ des Produktprofils erfolgen. Die folgenden Berechtigungen sind erforderlich:
 
-![Audience Share-Verbindung](assets/data-ingestion.png)
+![Zielgruppenfreigabe-Verbindung](assets/data-ingestion.png)
 
 | Berechtigung | Beschreibung |
 |---|---|
-| **Verbindungen für Zielgruppenfreigabe verwalten** | Mit dieser Berechtigung können Sie den Partner-Handshake-Prozess abschließen, der zwei IMS-Organisationen verbindet, um die Aktivierung von [!UICONTROL Segmentübereinstimmung] Flüsse. |
-| **Verwalten von Zielgruppenfreigaben** | Mit dieser Berechtigung können Sie Feeds erstellen, bearbeiten und veröffentlichen (das Datenpaket, das für [!UICONTROL Segmentübereinstimmung]) mit aktiven Partnern (Partnern, die vom Administrator mit **Zielgruppenfreigabe-Verbindungen** Zugriff). |
+| **Verwalten von Zielgruppenfreigabe-Verbindungen** | Mit dieser Berechtigung können Sie den Partner-Handshake-Prozess ausführen, mit dem zwei IMS-Organisationen verbunden werden, um [!UICONTROL Segment Match]-Flüsse zu aktivieren. |
+| **Verwalten von Zielgruppenfreigaben** | Mit dieser Berechtigung können Sie Feeds (d. h. das für [!UICONTROL Segment Match] verwendete Datenpaket) für aktive Partner erstellen, bearbeiten und veröffentlichen (Partner, die vom Administrator bzw. der Administratorin eine Zugriffsberechtigung für **Zielgruppenfreigabe-Verbindungen** erhalten haben). |
 
-Siehe [amtliche Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#understanding-segment-match-permissions) , um mehr über die Berechtigungen zu erfahren.
+Weitere Informationen zu Berechtigungen finden Sie in der [offiziellen Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=de#understanding-segment-match-permissions).
 
-### Kennung verbinden
+### Connect ID
 
-Der Partnerverbindungsprozess wird vom **[!UICONTROL Kennung verbinden],** Hierbei handelt es sich um eine zufällig generierte Kennung, die einer bestimmten AEP-Sandbox zugeordnet ist. Diese Connect-ID ist erforderlich, um Partner-Sandboxes zu initiieren und zu verwalten. Es gibt auch die Möglichkeit, bei Bedarf eine Verbindungs-ID neu zu generieren, um eine Partnerverbindung neu zu konfigurieren.
+Der Partnerverbindungsprozess wird über die **[!UICONTROL Connect ID]** verwaltet. Hierbei handelt es sich um eine zufällig generierte Kennung, die einer bestimmten AEP-Sandbox zugeordnet ist. Diese Connect ID ist erforderlich, um Partner-Sandboxes zu initiieren und zu verwalten. Außerdem kann eine Connect ID bei Bedarf auch neu generiert werden, um eine Partnerverbindung neu zu konfigurieren.
 
 ### Governance
 
-Alle Datensätze oder Datenattribute mit *C11* Die Vertragsbezeichnung ist auf [!UICONTROL Segmentübereinstimmung] Dienst. Segmente, die diese Attribute verwenden, können nicht für [!UICONTROL Segmentübereinstimmung]. Dadurch wird gesteuert, für welche Segmente verwendet werden können oder nicht [!UICONTROL Segmentübereinstimmung]. Darüber hinaus werden auch benutzerdefinierte Richtlinien und erstellte Marketing-Aktionen erzwungen. Standardmäßig sind Richtlinien deaktiviert und müssen für die Durchsetzung aktiviert sein. Einschränkungen wie E-Mail-Marketing und Onsite-Werbung, die bei der Freigabe von Segmenten ausgewählt werden, werden ebenfalls propagiert und für die Partner freigegeben.
+Datensätze oder Datenattribute mit der Vertragskennzeichnung *C11* ermöglichen die Einschränkung des [!UICONTROL Segment Match]-Service. Segmente mit diesen Attributen können nicht für [!UICONTROL Segment Match] verwendet werden. Damit können Sie steuern, auf welche Segmente [!UICONTROL Segment Match] angewendet werden kann. Darüber hinaus werden auch benutzerdefinierte Richtlinien und Marketing-Aktionen angewendet. Standardmäßig sind Richtlinien deaktiviert und müssen aktiviert sein, um berücksichtigt zu werden. Auch Einschränkungen in Bezug auf E-Mail-Marketing und Onsite-Werbung, die während der Freigabe von Segmenten ausgewählt werden, werden übermittelt und an die Partner kommuniziert.
 
 ### Einverständnis
 
-Die Zustimmungseinstellungen für [!UICONTROL Segmentübereinstimmung] kann wie folgt verwaltet werden:
+Die Einverständniseinstellungen für [!UICONTROL Segment Match] können wie folgt verwaltet werden:
 
-* Auf Unternehmensebene während des Onboarding die Opt-out- oder Opt-in-Einstellung für die Einwilligungsüberprüfung.
+* Auf Unternehmensebene während des Onboardings durch die Verwendung der Opt-out- oder Opt-in-Einstellung zur Einverständnisprüfung.
 
-   Diese Einstellung bestimmt, ob Benutzerdaten freigegeben werden können oder nicht. Die Standardeinstellung ist auf &quot;Opt-out&quot;, das angibt, dass Benutzerdaten unter der Annahme freigegeben werden können, dass der AEP-Kunde bereits über die erforderliche Zustimmungsvereinbarung für die Verwendung von Daten-Sharing verfügt. Diese Einstellung kann geändert werden, indem Sie den Kundenbetreuer von Adobe kontaktieren und einen zusätzlichen Check einrichten, um AEP-Kunden zu zwingen, ihre Zustimmung explizit zu verfolgen.
+   Mit dieser Einstellung wird festgelegt, ob Benutzerdaten freigegeben werden können oder nicht. Die Standardeinstellung ist „Opt-out“, was bedeutet, dass Benutzerdaten unter der Voraussetzung freigegeben werden, dass der AEP-Kunde bereits über die erforderliche Einverständnisvereinbarung zur Verwendung der Datenfreigabe verfügt. Diese Einstellung kann in „Opt-in“ geändert werden, indem Sie den Kundenbetreuer von Adobe kontaktieren und eine zusätzliche Prüfung einrichten lassen, durch die AEP-Kunden das Einverständnis explizit einholen müssen.
 
-* Festlegen des für Identitäten (idSpecific) spezifischen Attributs share mithilfe der [Feldergruppe &quot;Einwilligungen und Voreinstellungen&quot;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=en).
+* Festlegen des für Identitäten spezifischen Freigabeattributs (idSpecific) mithilfe der [Feldergruppe „Einwilligungen und Voreinstellungen“](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de).
 
-   Diese Feldergruppe stellt ein einzelnes Objekt-Feld bereit, das die Zustimmung gibt, um Zustimmungs- und Präferenzinformationen zu erfassen. [!UICONTROL Segmentübereinstimmung]enthält standardmäßig alle Identitäten, die nicht explizit abgemeldet wurden, z. B.:
+   Diese Feldergruppe besitzt ein einziges Objekt-Feld mit der Bezeichnung „Einverständniserklärungen“, um Informationen zum Einverständnis und Voreinstellungen zu erfassen. [!UICONTROL Segment Match] schließt standardmäßig alle Identitäten ein, die nicht explizit ausgeschlossen wurden, z. B.:
 
    ```
    "share": {
@@ -111,7 +111,7 @@ Die Zustimmungseinstellungen für [!UICONTROL Segmentübereinstimmung] kann wie 
    `     `}
    ```
 
-   Diese Einstellung kann geändert werden, indem Sie sich an den Kundenbetreuer der Adobe wenden und nur Identitäten mit explizitem Opt-in einschließen, z. B.:
+   Diese Einstellung kann geändert werden, indem Sie sich an den Kundenbetreuer bzw. die Kundenbetreuerin von Adobe wenden und nur Identitäten mit explizitem Opt-in einschließen lassen, z. B.:
 
    ```
    "share": {
@@ -121,51 +121,51 @@ Die Zustimmungseinstellungen für [!UICONTROL Segmentübereinstimmung] kann wie 
 
 ### Warnhinweise
 
-Warnhinweise werden generiert, wenn eine Partnerverbindung initiiert wird oder wenn Segmentfeeds für Partner freigegeben werden.
+Warnhinweise werden generiert, wenn eine Partnerverbindung initiiert wird oder wenn Segment-Feeds für Partner freigegeben werden.
 
-## Arbeitsablauf einrichten
+## Einrichtungs-Workflow
 
-Der Workflow zum Einrichten der Partnerverbindung wird wie oben beschrieben mit dem RBAC verwaltet. Wenn die richtigen Berechtigungen vorhanden sind, erfordert die Verbindung zu einer Partner-Sandbox, dass die Connect-ID dieser Sandbox/Instanz innerhalb der Organisation des Partners freigegeben wird.
+Der Workflow zum Einrichten einer Partnerverbindung wird wie oben beschrieben über die rollenbasierte Zugriffskontrolle verwaltet. Wenn die richtigen Berechtigungen vorliegen, muss für die Herstellung einer Verbindung zu einer Partner-Sandbox die Connect ID dieser Sandbox/Instanz im Unternehmen des Partners freigegeben werden.
 
-Sobald eine Verbindung vom sendenden Partner angefordert wird, muss sie auf der empfangenden Seite genehmigt werden, um eine sichere Partnereinrichtung zu gewährleisten. Der Handshake der Partnerverbindung stellt sicher, dass die Vereinbarung zwischen den beiden Organisationen besteht, und ermöglicht die Adobe, die [!UICONTROL Segmentübereinstimmung] im Namen der Organisation verarbeitet werden. Wenn die Verbindung genehmigt ist und sich im aktiven Status befindet, kann der Prozess der Segmentfreigabe von beiden Seiten aus initiiert werden.
+Nachdem eine Verbindung vom sendenden Partner angefordert wurde, muss sie auf der Empfängerseite genehmigt werden, damit eine sichere und zuverlässige Verbindung zwischen den Partnern hergestellt werden kann. Der Verbindungs-Handshake mit dem Partner stellt sicher, dass zwischen den beiden Unternehmen eine Vereinbarung besteht, und Adobe den Prozess [!UICONTROL Segment Match] im Namen des Unternehmens durchführen darf. Wenn die Verbindung genehmigt ist und sich im aktiven Status befindet, kann der Prozess der Segmentfreigabe von beiden Seiten aus initiiert werden.
 
 ### Segmentfreigabe
 
-Die Segmentfreigabe mit dem Partner erfolgt nur, wenn eine Übereinstimmung für die ausgewählte Kennung vorhanden ist. Es kann eine Eins-zu-viele-Partnerbeziehung geben, d. h. Segmente können für mehrere Partner freigegeben werden.
+Die Segmentfreigabe mit dem Partner erfolgt nur, wenn für die ausgewählte Kennung eine Übereinstimmung vorhanden ist. Es ist auch eine Eins-zu-viele-Partnerbeziehung möglich, d. h. Segmente können für mehrere Partner freigegeben werden.
 
-Um die Segmentfreigabe zu starten, nachdem die Partnerverbindung eingerichtet wurde, sollte der sendende Partner einen Feed erstellen. Wählen Sie dann die Marketing-Anwendungsfälle oder -Aktionen aus, von denen die Segmentdaten zusammen mit den dauerhaften Kennungen ausgeschlossen werden sollen. Relevante Segmente können dann zum Feed zur Freigabe hinzugefügt werden.
+Um die Segmentfreigabe zu starten, nachdem die Partnerverbindung hergestellt wurde, muss der sendende Partner einen Feed erstellen. Wählen Sie dann die Marketing-Anwendungsfälle oder -Aktionen aus, von denen die Segmentdaten ausgeschlossen werden sollen, sowie die dauerhaften Kennungen. Danach können relevante Segmente zum Feed hinzugefügt werden, um freigegeben zu werden.
 
-Im Rahmen dieses Segmentfreigabe-Workflows kann der Versandpartner potenzielle hochwertige Segmente über geschätzte Überschneidungen ermitteln, bevor Daten verschoben werden.
+Im Zuge dieses Segmentfreigabe-Workflows kann der sendenden Partner mithilfe von Überschneidungsschätzungen potenziell hochwertige Segmente ermitteln, bevor Daten übermittelt wurden.
 
-Der gesamte Prozessablauf ist:
+Der gesamte Prozessablauf sieht folgendermaßen aus:
 
 ![Segmentfreigabe](assets/segment-sharing.png)
 
-Diese Überschneidungsschätzungen bieten wichtige Einblicke, die Partnersuche und Daten, um Vereinbarungen zur Datenzusammenarbeit zu fördern. Es werden keine Kunden- oder Segmentdaten über Sandboxes hinweg verschoben, um diese Überschneidungsschätzmetriken zu erhalten. Die vom Kunden ausgewählten, vorab gehashten anwendbaren Identitäten in einer beliebigen Sandbox werden einer probabilistischen Datenstruktur hinzugefügt, die es der Adobe ermöglicht, Vereinigungs- und Schnittvorgänge zwischen ihnen durchzuführen. Diese Vorgänge helfen Ihnen [!UICONTROL Segmentübereinstimmung] die geschätzte Schnittmenge aus zwei Datenstrukturen abrufen, die aus Identitäten aus zwei verschiedenen Sandboxes bestehen, ohne die tatsächlichen Werte vergleichen zu müssen
+Diese Überschneidungsschätzungen bieten wichtige Informationen. Sie ermöglichen das Ermitteln von Partnern und liefern Daten, auf deren Basis Vereinbarungen zur Datenzusammenarbeit getroffen werden können. Um diese Metriken für die Überschneidungsschätzung zu erhalten, werden keine Kunden- oder Segmentdaten zischen Sandboxes ausgetauscht. Die vom Kunden ausgewählten, gehashten und anwendbaren Identitäten in einer Sandbox werden in eine probabilistischen Datenstruktur eingefügt, mit der Adobe Vereinigungs- und Schnittvorgänge durchführen kann. Durch diese Vorgänge kann [!UICONTROL Segment Match] die geschätzte Schnittmenge aus zwei Datenstrukturen abrufen, die aus Identitäten aus zwei verschiedenen Sandboxes bestehen, ohne die tatsächlichen Werte vergleichen zu müssen.
 
-Der Prozess der Identitätsüberschneidung hängt von der **täglicher vollständiger Profilexport** Datensatz aus Absender- und Empfänger-Sandboxes, um allgemeine Profile zu identifizieren, die zu den freigegebenen Segmenten gehören. Der detaillierte Prozessablauf für den Überschneidungsprozess ist unten dargestellt:
+Der Identitätsüberschneidungsprozess basiert auf dem Datensatz aus einem **vollständigen täglichen Profilexport** von sowohl der Absender- als auch der Empfänger-Sandbox, um gemeinsame Profile in den freigegebenen Segmenten identifizieren zu können. Der detaillierte Prozessablauf für den Überschneidungsprozess ist unten dargestellt:
 
-![Identitätsüberlappungsprozess](assets/overlap-process.png)
+![Identitätsüberschneidungsprozess](assets/overlap-process.png)
 
-Nachdem die Segmentfreigabe vom Sendepartner abgeschlossen wurde, erhält der Empfänger eine Benachrichtigung über den freigegebenen Segmentfeed. Dieser Segment-Feed muss für ein Profil beim Empfänger aktiviert sein, um den Datenfluss für die Segmentmitgliedschaft zu starten. Nur die Segmentzugehörigkeit wird in die sich überschneidenden Profilfragmente der IMS-Organisation des Empfängers aufgenommen und keine zusätzliche Identität wird vom Absender an den Empfänger übertragen.
+Nachdem die Segmentfreigabe beim Sendepartner abgeschlossen ist, erhält der Empfänger eine Benachrichtigung über den freigegebenen Segment-Feed. Dieser Segment-Feed muss für das Profil beim Empfänger aktiviert sein, damit der Segmentzugehörigkeits-Datenfluss gestartet wird. Nur die Segmentzugehörigkeit wird in die sich überschneidenden Profilfragmente der IMS-Organisation des Empfängers aufgenommen und keine zusätzliche Identität wird vom Absender an den Empfänger übertragen.
 
-Das freigegebene Segment ist unter der `AEPSegmentMatch` Abschnitt **[!UICONTROL Zielgruppen]** im **[!UICONTROL Segment Builder]** und kann für die Einbeziehung oder Unterdrückung von Zielgruppen beim Erstellen von Segmenten in der Empfänger-Sandbox verwendet werden.
+Das freigegebene Segment ist im **[!UICONTROL Segment Builder]** auf der Registerkarte **[!UICONTROL Zielgruppen]** im Bereich `AEPSegmentMatch` verfügbar und kann beim Erstellen von Segmenten in der Empfänger-Sandbox für die Einbeziehung oder den Ausschluss von Zielgruppen verwendet werden.
 
-Tägliche Überschneidungen sorgen dafür, dass die Segmentzugehörigkeit zwischen Absender und Empfänger synchronisiert wird. Der Empfänger kann das Profil für den empfangenen Segment-Feed deaktivieren, um den Segmentfreigabevorgang anzuhalten.
+Der tägliche Überschneidungsprozess sorgt dafür, dass die Segmentzugehörigkeit beim Absender und Empfänger stets synchronisiert bleibt. Der Empfänger kann das Profil für den empfangenen Segment-Feed deaktivieren, um den Segmentfreigabevorgang zu pausieren.
 
-#### Ausstieg/Einstieg aus Segmenten
+#### Segmentausstieg/-einstieg
 
-Im Rahmen des vollständigen Profilexports hat der Status für die freigegebenen Segment-IDs unter der Segmentzugehörigkeit für Profile einen der entsprechenden Werte - _realisiert_, _beendet_ oder _vorhandene_ , um den aktuellen Status widerzuspiegeln.
+Beim vollständigen Profilexport hat der Status der freigegebenen Segment-IDs unter der Segmentzugehörigkeit für Profile einen dieser Werte: _durchgeführt_, _beendet_ oder _vorhanden_.
 
-Wenn während der täglichen Identitätsüberlappung die entsprechende Identität in der Empfänger-Sandbox vorhanden ist, werden diese Segmentzugehörigkeitsstatus für freigegebene Segmente zur Aufnahme an den Empfänger gesendet.
+Wenn während des täglichen Identitätsüberschneidungsprozesses die entsprechende Identität in der Empfänger-Sandbox vorhanden ist, werden diese Segmentzugehörigkeitsstatus für freigegebene Segmente zur Aufnahme an den Empfänger gesendet.
 
-#### Segmentsperrung
+#### Segmentrücknahme
 
-Bei der Aufhebung/Löschung von Segmenten aus dem Absender handelt es sich um einen On-Demand-Prozess, bei dem die Liste aller Profile mit den gesperrten Segment-IDs vom Empfänger abgerufen wird. Die Segment-IDs werden aus der Segmentzugehörigkeit dieser Identitäten entfernt und am Empfänger neu gezählt. Diese Aktion überschreibt das vorhandene Segmentmitgliedschaftsfragment, das die Mitgliedschaft für dieses Segment löscht.
+Bei Bedarf kann beim Absender eine Segmentrücknahme/-löschung durchgeführt werden. Dabei werden dem Empfänger alle Profile mit den zurückgeforderten Segment-IDs wieder entzogen. Die Segment-IDs werden aus der Segmentzugehörigkeit dieser Identitäten entfernt und am Empfänger erneut aufgenommen. Dadurch wird das vorhandene Segmentzugehörigkeitsfragment überschrieben, wodurch die Zugehörigkeit für dieses Segment gelöscht wird.
 
 ## Weitere Informationen
 
-* [Segmentübereinstimmung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#)
-* [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en)
-* [Fehlerbehebung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=en)
-* [XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en)
+* [Segment Match](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=de#)
+* [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de)
+* [Fehlerbehebung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=de)
+* [XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=de)

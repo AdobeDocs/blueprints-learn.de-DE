@@ -5,9 +5,9 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
+source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 84%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 84%
 + Vertikale Branchen-Blueprints {#vertical-blueprints}
    + [Übersicht](/help/blueprints/vertical-blueprints/overview.md)
    + [Bekleidung](/help/blueprints/vertical-blueprints/apparel.md)
+   + [Gesundheitswesen](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [Einzelhandel](/help/blueprints/vertical-blueprints/retail.md)
    + [Telekommunikation](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [Tourismus und Gastgewerbe](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -26,9 +27,10 @@ ht-degree: 84%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform und Programme](/help/blueprints/experience-platform/platform-applications.md)
    + [Datenfluss in Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-   + Bereitstellungsmuster{#deployment}
+   + Implementierung {#deployment}
       + [Experience Platform Web SDK und Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [Anwendungs-SDKs](/help/blueprints/data-ingestion/appsdk.md)
+      + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
    + [Anonyme Zielgruppenaktivierung   (AAM)](/help/blueprints/audience-activation/anonymous.md)

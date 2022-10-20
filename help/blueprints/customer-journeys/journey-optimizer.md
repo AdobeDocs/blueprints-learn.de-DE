@@ -5,8 +5,8 @@ solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1046'
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Achten Sie auf folgende, nicht im Link oben aufgeführte Punkte:
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. Identität  für Edge Network
+1. Identität   für Edge Network
 1. Mobile Core
 1. Stellen Sie sicher, dass Sie über einen dedizierten Daten-Stream für Mobile-App-Implementierungen verfügen, der sich von dem für Web-Implementierungen unterscheidet
 1. Weitere Informationen finden Sie im [Mobile-Handbuch für Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

@@ -3,15 +3,15 @@ title: Segment Match
 description: Erfahren Sie mehr zu [!UICONTROL Segment Match] in Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Sie Segmentdaten auf der Basis gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 solution: Experience Platform
 source-git-commit: a5bf86b8606d40a0686c667f83516e3b495350b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1764'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Segmentübereinstimmung
+# Segment Match
 
-Die Segmentübereinstimmung ermöglicht es Partnermarken, Zielgruppen in ihren jeweiligen Experience Platform-Umgebungen freizugeben. Der Schlüssel zu erfolgreicher Geschäftstätigkeit ist die Pflege von Kundenbeziehungen mithilfe von Daten, die über den direkten Kontakt mit Verbrauchern und Verbraucherinnen erfasst werden. Marketer haben nun die Möglichkeit, durch innovative Systeme zur Verwaltung von Daten-Governance, Berechtigungen und Einstellungen und durch die Zusammenarbeit mit Partnern eine präzisere Auswahl ihrer durch First-Party-Daten authentifizierten Zielgruppen zu treffen.
+Segment Match ermöglicht es Partnermarken, Zielgruppen über ihre Experience Platform-Umgebungen freizugeben. Der Schlüssel zu erfolgreicher Geschäftstätigkeit ist die Pflege von Kundenbeziehungen mithilfe von Daten, die über den direkten Kontakt mit Verbrauchern und Verbraucherinnen erfasst werden. Marketer haben nun die Möglichkeit, durch innovative Systeme zur Verwaltung von Daten-Governance, Berechtigungen und Einstellungen und durch die Zusammenarbeit mit Partnern eine präzisere Auswahl ihrer durch First-Party-Daten authentifizierten Zielgruppen zu treffen.
 
 [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Kunden von Experience Platform (AEP) (als _Partner_ bezeichnet) Segmentdaten auf der Grundlage gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 
@@ -25,7 +25,7 @@ Dieser Service ermöglicht es Kunden, übereinstimmende IDs sicher und neutral z
 * Framework für die Verwaltung des Einverständnisses zur Datenfreigabe
 * Daten-Feeds zum Organisieren von Segmenten und Partnern
 
-## Anwendungen
+## Programme
 
 Zwischen Marke und Publisher:
 

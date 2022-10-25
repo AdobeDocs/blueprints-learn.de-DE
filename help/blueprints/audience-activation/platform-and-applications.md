@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 094591020413933932356cb8c393bf569bcfca50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profi
 
 ### Zielgruppenfreigabe aus Real-time Customer Data Platform für Target
 
-* Siehe [Bekannte Kundenpersonalisierung - Target- und RTCDP-Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) für zusätzliche Informationen zur Freigabe von Profilen und Zielgruppen von Real-time Customer Data Platform für Target.
+* In der Blueprint [Personalisierung für bekannte Kunden – Target und RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=de) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen aus Real-time Customer Data Platform für Target.
 
 ### Zielgruppenfreigabe aus Real-time Customer Data Platform für Campaign und Journey Optimizer
 

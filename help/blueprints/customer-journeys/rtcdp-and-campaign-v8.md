@@ -1,15 +1,15 @@
 ---
-title: Integrationsmuster von Real-Time CDP mit Adobe Campaign v8
-description: zeigt, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign v8 für personalisierte Konversationen genutzt werden können.
+title: Muster für die Integration von Real-Time CDP mit Adobe Campaign v8
+description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign v8 genutzt werden können, um personalisierte Konversationen bereitzustellen
 solution: Real-time Customer Data Platform, Campaign
 source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
-# Integrationsmuster von Real-Time CDP mit Adobe Campaign v8
+# Muster für die Integration von Real-Time CDP mit Adobe Campaign v8
 
 Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
 
@@ -31,36 +31,36 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 ## Voraussetzungen
 
 * Der Kunde muss über eine gültige IMS Org für Experience Cloud verfügen
-* Es wird empfohlen, Adobe Experience Platform und Campaign in derselben IMS-Organisation für die einmalige Anmelde-URL bereitzustellen
-* Der Kunde muss über die V8-Instanz von Campaign verfügen
-* Der Kunde muss berechtigt sein und Zugriff auf RTCDP, Quellen, Ziele haben.
+* Es wird empfohlen, bei Verwendung einer einzigen Anmelde-URL Adobe Experience Platform und Campaign in derselben IMS-Organisation bereitzustellen
+* Der Kunde muss über die v8-Instanz von Campaign verfügen
+* Der Kunde muss über eine Berechtigung und den Zugriff auf die Quellen und Ziele von Real-time Customer Data Platform verfügen.
 * Adobe Campaign-Produktkontext muss vorhanden sein
 
 <br>
 
 ## Implementierungsschritte
 
-Weitere Informationen zum Konfigurieren des Quell-Connectors für Campaign v8 mit Adobe Experience Platform und zum Real-time Customer Data Platform-Ziel-Connector mit Campaign v8 finden Sie in der folgenden Dokumentation.
-[Campaign und AEP Connectors](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=en)
+Weitere Informationen zum Konfigurieren des Quell-Connectors von Campaign v8 für Adobe Experience Platform und des Ziel-Connectors von Real-time Customer Data Platform für Campaign v8 finden Sie in der folgenden Dokumentation.
+[Campaign- und AEP-Connectoren](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de)
 
 ## Leitlinien
 
 ### Adobe Campaign
 
-* Weitere Informationen finden Sie in der Dokumentation zum Quell-Connector von Campaign - [Campaign Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=en)
+* Weitere Informationen finden Sie in der Dokumentation zum Quell-Connector von Campaign – [Campaign-Quell-Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=de)
 * Unterstützt nur die Bereitstellung einzelner Organisationseinheiten von Adobe Campaign
 * Adobe Campaign ist die zentrale Datenquelle für alle aktiven Profile. Das heißt, die Profile müssen in Adobe Campaign vorhanden sein und neue Profile dürfen nicht basierend auf Experience Platform-Segmenten erstellt werden.
 
 
 ### Segmentfreigabe in Experience Platform Real-time Customer Data Platform
 
-* Siehe Zielanschluss der RTCDP-Kampagne - [RTCDP-Kampagnenverbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
+* Siehe den Ziel-Connector von Real-time Customer Data Platform für Campaign – [Verbindung von Real-time Customer Data Platform mit Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=de)
 * Begrenzung auf 50 Segmente empfohlen
-* Beachten Sie, dass die Realisierung der Segmentzugehörigkeit von AEP sowohl für Batch (1 pro Tag) als auch für Streaming (~5 Minuten) latent ist und auf dem Zeitplan für die Segmentbewertung basiert.
+* Beachten Sie, dass die Bestimmung der Segmentzugehörigkeit in AEP sowohl für Batch-Vorgänge (1 pro Tag) als auch für Streaming (~5 Minuten) verzögert ist und auf dem Segmentevaluierungs-Zeitplan basiert.
 * Die Aktivierungslatenz beträgt mindestens 3 Stunden
 * Nur Vereinigungsschema-Attribute sind für die Aktivierung verfügbar (keine Unterstützung von Array/Karten/Erlebnisereignisse)
 * Begrenzung auf 20 Attribute pro Segment empfohlen
 * Eine Datei pro Segment von allen Profilen mit „realisierter“ Segmentzugehörigkeit ODER, wenn Segmentzugehörigkeit als Attribut in der Datei hinzugefügt wird, sowohl „realisierte“ als auch „verlassene“ Profile
 * Schrittweise und vollständige Segment-Exporte werden unterstützt
 * Datei-Verschlüsselung wird nicht unterstützt
-* Siehe Limits für die Profil- und Datenerfassung für AEP - [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+* Siehe Leitlinien für die Profil- und Datenaufnahme für AEP – [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)

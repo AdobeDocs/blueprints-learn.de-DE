@@ -6,13 +6,13 @@ exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 source-git-commit: 1c05a017e7729d2be676203c2bc06bddd5f9141a
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer - Entscheidungs-Management auf dem Hub
 
-Weitere Informationen zum Entscheidungs-Management finden Sie [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de) in der Produktdokumentation und [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en) in der Übersicht über Entscheidungs-Management
+Weitere Informationen zum Entscheidungs-Management finden Sie [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de) in der Produktdokumentation und [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=de) in der Übersicht über Entscheidungs-Management
 
 Das Entscheidungs-Management von Adobe ist ein Service, der im Rahmen von Adobe Journey Optimizer bereitgestellt wird. In dieser Blueprint werden die Anwendungsfälle und technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von und Überlegungen zu Entscheidungs-Management eingehend erläutert.
 
@@ -24,7 +24,7 @@ Der zweite Ansatz erfolgt über das Experience Edge Network, eine global verteil
 
 In dieser Blueprint werden die Besonderheiten des Entscheidungs-Managements auf dem Hub behandelt.
 
-Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blueprint [Entscheidungs-Management im Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=en).
+Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blueprint [Entscheidungs-Management im Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=de).
 
 ## Anwendungsfälle für das Entscheidungs-Management auf dem Hub
 

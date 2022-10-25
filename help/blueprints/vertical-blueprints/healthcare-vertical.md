@@ -2,16 +2,16 @@
 title: Gesundheitswesen
 description: Erfahren Sie mehr über den Health Care Shield, ein Adobe Experience Platform-Add-on zu plattformbasierten Anwendungen wie Real-Time CDP, Customer Journey Analytics und Adobe Journey Optimizer. Das Add-on macht diese Anwendungen für HIPAA- und PHI-Anforderungen qualifiziert.
 solution: Experience Platform
-source-git-commit: 3e71aa9ea63e94b9fc0002e2fc879894149e5d0f
+source-git-commit: a7dd0634533110859500e2dab63779014f8cf9b9
 workflow-type: tm+mt
-source-wordcount: '2382'
+source-wordcount: '2367'
 ht-degree: 1%
 
 ---
 
 # Gesundheitsschild
 
-Der Gesundheitsschild ist ein Adobe Experience Platform-Add-on zu Adobe Experience Platform-basierten Anwendungen wie Real-Time CDP, Customer Journey Analytics und Adobe Journey Optimizer. Es wurde entwickelt, um diese Anwendungen HIPAA-fähig zu machen und die Anforderungen an die Verarbeitung und Verwendung geschützter Gesundheitsinformationen (PHI) zu erfüllen.
+Der Gesundheitsschild ist ein Adobe Experience Platform-Add-on zu Adobe Experience Platform-basierten Anwendungen wie Real-time Customer Data Platform, Customer Journey Analytics und Adobe Journey Optimizer. Es wurde entwickelt, um diese Anwendungen HIPAA-fähig zu machen und die Anforderungen an die Verarbeitung und Verwendung geschützter Gesundheitsinformationen (PHI) zu erfüllen.
 
 ## Häufig gestellte Fragen zum Gesundheitsschild
 
@@ -41,7 +41,7 @@ Der Gesundheitsschild für Real-Time CDP richtet sich an Kunden, die ein abgedec
 
 ### Warum sollten die Gesundheitsaussichten des Real-Time CDP-Kaufschilds im Gesundheitswesen verbessert werden?
 
-Als Add-on zu Real-Time CDP aktualisiert der Gesundheitsschild die Anwendung auf den Status &quot;HIPAA-bereit&quot;. Dies bedeutet, dass der Antrag über die erforderlichen Garantien für die Verwendung von PHI gemäß den HIPAA-Anforderungen verfügt. Mit dem Gesundheitsschild ist Adobe außerdem bereit und in der Lage, dem Kunden zu gestatten, bestimmte Arten von personenbezogenen Daten zu erlauben, die für HIPAA-konform sind. Adobe unterzeichnet Business Associate Agreements (BAAs) mit Kunden, die den Gesundheitsschild für eine kompatible plattformbasierte Anwendung lizenzieren.
+Als Add-on zu Real-Time CDP aktualisiert der Gesundheitsschild die Anwendung auf den Status &quot;HIPAA-bereit&quot;. Dies bedeutet, dass der Antrag über die erforderlichen Garantien für die Verwendung von PHI gemäß den HIPAA-Anforderungen verfügt. Außerdem ist die Adobe mit dem Gesundheitsschild bereit und in der Lage, dem Kunden zu gestatten, bestimmte Arten von personenbezogenen Daten zu erlauben, die für HIPAA-fähige Anwendungen verwendet werden. Adobe unterzeichnet Business Associate Agreements (BAAs) mit Kunden, die den Gesundheitsschild für eine kompatible plattformbasierte Anwendung lizenzieren.
 
 ### Welche Datentypen sind für Real-Time CDP mit dem Gesundheitsschild zugelassen (und welche nicht)?
 
@@ -73,16 +73,16 @@ Ein Kunde, der einen Gesundheitsschild lizenziert, sollte nach bestem Wissen bes
 
 | RTCDP B2C Edition Standard Anwendungsfälle | Beschreibung |
 |-----|-----|
-| Streaming-Datenerfassung | <ul><li>Normalisierte, flexible Datenmodelle, die über Adobe- und Nicht-Adobe-Verbindungen hinweg verwendet werden können<li>Personen- und kontobasierte Datenschemata für das B2C-Marketing<li>Tag-Management und Ereignisweiterleitung erfassen und verteilen Daten auf Ereignisebene in Echtzeit.<li> Optimierte Profile, die die Bereitstellungszeit von Erlebnissen beschleunigen</li></ul> |
-| Vertrauenswürdige Profilverwaltung | <ul><li>Einheitliche Profile, die Verbraucherattribute, Verhaltensdaten und Präferenzdaten enthalten<li> Das Data Governance-Framework ist flexibel, transparent und wird auf einheitliche Profile angewendet, wobei Richtlinien erstellt und automatisch durchgesetzt werden, um den Missbrauch von Daten zu verhindern. </li></ul> |
-| Echtzeit-Aktivierung | <ul><li>Drag-and-Drop-Segmentierung für B2C-Marketer<li>Identitätsauflösung und Profilanreicherung auf Benutzer- und Kontoebene für die kanalübergreifende Aktivierung<li> Konsistente Kundenerlebnisse durch Zielgruppensorchestrierung und Echtzeit-Aktivierung über Kanäle und Umgebungen hinweg (Adobe und Nicht-Adobe) </li></ul> |
-| Kundenakquise | <ul><li>Einblicke in die Konvertierung nicht authentifizierter Benutzer in erkannte/authentifizierte Benutzer<li>Ermutigen Sie nicht registrierte Benutzer, sich für die Mitgliedschaft anzumelden.<li> Abonnements erhöhen und/oder zurückgewinnen<li> Analysieren Sie Kundenprofile, um die Tendenz zu verstehen (z. B. . Vergleich von Segmenten mit hohem Wert mit Segmenten mit geringer Performance und Optimierung der Akquise)</li></ul> |
-| Kundeninteraktion | <ul><li>Angebote basierend auf Neuigkeit des Kundenverhaltens und Frequenzaktionen für Angebote auswählen (online und offline)<li>Vereinheitlichung digitaler Eigenschaften für ein vernetztes Erlebnis (z. B. Förderung von Downloads mobiler Apps und Nutzung der kanalübergreifenden Segmentaktivierung, um Erlebnisse miteinander zu verbinden)</li></ul> |
-| Personalisierung im Maßstab | <ul><li> Bewerten von Segmenten am Edge für die Echtzeit-Personalisierung derselben Seite und der nächsten Seite<li>Erhöhen Sie die Interaktion, indem Sie Besuchern, die eine Journey-übergreifende Sitzung abbrechen (z. B. Stehen gelassener Warenkorb oder wiederkehrende Besucher, die nicht konvertieren), eindeutige und zielgerichtete Erlebnisse bereitstellen.<li> Vereinheitlichung und Verbindung von Offline- und Online-Verhaltensweisen zur Optimierung und Interaktion der Benutzer</li></ul> |
-| Cross-Selling/Upsell | <ul><li>Kundenbindung beim Ausbau und bei der Pflege vorhandener Beziehungen zu Benutzern<li>Neue Umsatzströme durch geschäftsübergreifende Einheiten/Marken/Angebote in Bezug auf den Lebenszeitwert von Kunden fördern<li>Erhalten Sie Einblicke in AOV über Produkte und SKUs hinweg (z. B. häufige Bundles, Preisempfindlichkeit).</li></ul> |
-| Kundentreue/Treue | <ul><li> Reaktivieren Sie Verbraucher, um die Loyalität zu steigern und Kundenabwanderungen zu vermeiden.<li>Kuratieren personalisierter Produktempfehlungen für hochwertige Kunden basierend auf Präferenzen und Tendenz<li>Erstellen Sie einen Standardkatalog für Interaktion und Sonderangebote für treue Verbraucher.<li> Online- und Offline-Voreinstellungen zur kanalübergreifenden Optimierung von Angeboten verknüpfen</li></ul> |
-| Datenzusammenarbeit | <ul><li> Erstellen Sie Handshakes in einer Benutzeroberfläche, um Workflows für die Datenzusammenarbeit zu erstellen.<li>(Nutzen von branchenübergreifenden Erstanbieterdatenüberschneidungen für fundierte strategische Geschäftsentscheidungen und Kampagnen.<li>Aufschlüsseln von Datensilos und Verstehen einer ganzheitlichen Journey<li> Ehrenpräferenzen und Einverständniserklärungen nach Anwendungsfall</li></ul> |
-| Medien-/Marketing-Effizienz und -Optimierung | <ul><li> Effizienzgewinne in der Organisation durch Zentralisierung und Pflege von Kundendaten und Aktivierungskanälen in einem System zur Aufzeichnung<li>Unterstützung von Unterdrückungskampagnen für effektive Medienausgaben/-effizienz<li> Abstimmung mit IT-Richtlinien über Governance und Richtliniendurchsetzung<li>Gewähren Sie bei Bedarf Zugriff auf Daten in Echtzeit, um rechtzeitige Kampagnen zu unterstützen.</li></ul> |
+| Streaming-Datenerfassung | <ul><li>Normalisierte, flexible Datenmodelle, die über Adobe- und Nicht-Adobe-Verbindungen hinweg verwendet werden können<li>Personen- und kontobasierte Datenschemata für B2C-Marketing.<li>Tag-Management und Ereignisweiterleitung erfassen und verteilen Daten auf Ereignisebene in Echtzeit.<li> Optimierte Profile, die die Bereitstellung von Erlebnissen beschleunigen.</li></ul> |
+| Vertrauenswürdige Profilverwaltung | <ul><li>Einheitliche Profile, die Verbraucherattribute, Verhaltens- und Präferenzdaten enthalten.<li> Das Data Governance-Framework ist flexibel, transparent und wird auf einheitliche Profile angewendet, wobei Richtlinien erstellt und automatisch durchgesetzt werden, um den Missbrauch von Daten zu verhindern. </li></ul> |
+| Echtzeit-Aktivierung | <ul><li>Ziehen Sie die Segmentierung per Drag &amp; Drop für B2C-Marketer in den Arbeitsbereich.<li>Identitätsauflösung auf Benutzer- und Kontoebene und Profilanreicherung für kanalübergreifende Aktivierung.<li> Konsistente Kundenerlebnisse durch Zielgruppensorchestrierung und Echtzeit-Aktivierung über Kanäle und Umgebungen hinweg (Adobe und Nicht-Adobe).</li></ul> |
+| Kundenakquise | <ul><li>Einblicke in die Konvertierung von nicht authentifizierten Benutzern in erkannte/authentifizierte Benutzer.<li>Ermutigen Sie nicht registrierte Benutzer, sich für die Mitgliedschaft anzumelden.<li> Erhöhen und/oder gewinnen Sie Abonnements zurück.<li> Analysieren Sie Kundenprofile, um die Tendenz zu verstehen (z. B. . Vergleich von Segmenten mit hohem Wert mit Segmenten mit geringer Performance und Optimierung der Akquise).</li></ul> |
+| Kundeninteraktion | <ul><li>Targeting von Angeboten basierend auf der Neuigkeit des Kundenverhaltens und der Häufigkeit von Angeboten (online und offline).<li>Vereinheitlichung digitaler Eigenschaften für ein vernetztes Erlebnis (z. B. Förderung von Downloads mobiler Apps und Nutzung der kanalübergreifenden Segmentaktivierung, um Erlebnisse miteinander zu verbinden).</li></ul> |
+| Personalisierung im Maßstab | <ul><li> Bewerten Sie Segmente am Edge für die Echtzeit-Personalisierung derselben Seite und der nächsten Seite.<li>Erhöhen Sie die Interaktion, indem Sie Besuchern, die eine Journey-übergreifende Sitzung abbrechen (z. B. Stehen gelassener Warenkorb oder wiederkehrende Besucher, die nicht konvertieren), eindeutige und zielgerichtete Erlebnisse bereitstellen.<li> Vereinheitlichen und verbinden Sie Offline- und Online-Verhaltensweisen, um Benutzer zu optimieren und zu binden.</li></ul> |
+| Cross-Selling/Upsell | <ul><li>Halten Sie Kunden bei der Erweiterung und Pflege bestehender Beziehungen zu Benutzern.<li>Fördern Sie neue Umsatzströme durch geschäftsübergreifende Einheiten/Marken/Angebote, um den Wert der Kundenlebensdauer zu erhöhen.<li>Erhalten Sie Einblicke in AOV über Produkte und SKUs hinweg (z. B. häufige Bundles, Preisempfindlichkeit).</li></ul> |
+| Kundentreue/Treue | <ul><li> Reaktivieren Sie Verbraucher, um die Loyalität zu steigern und Kundenabwanderungen zu vermeiden&lt;.li>Kuratieren Sie personalisierte Produktempfehlungen für hochwertige Kunden basierend auf Präferenzen und Tendenz.<li>Erstellen Sie eine Standardkadenz für Interaktion und spezielle Angebote für treue Verbraucher.<li> Verknüpfen Sie Online- und Offline-Voreinstellungen, um Angebote kanalübergreifend zu optimieren.</li></ul> |
+| Datenzusammenarbeit | <ul><li> Erstellen Sie Handshakes in einer Benutzeroberfläche, um Workflows für die Datenzusammenarbeit zu erstellen.<li>(Nutzen Sie branchenübergreifende Überschneidungen bei Erstanbieterdaten, um strategische Geschäftsentscheidungen und Kampagnen zu treffen.<li>Schlüsseln Sie Datensilos auf und verstehen Sie ganzheitliche Journey.<li> Ehrenpräferenzen und Einverständnis nach Anwendungsfall.</li></ul> |
+| Medien-/Marketing-Effizienz und -Optimierung | <ul><li> Profitieren Sie von organisatorischer Effizienz durch die Zentralisierung und Pflege von Kundendaten und Aktivierungskanälen in einem Datensatz-System.<li>Unterstützung von Unterdrückungskampagnen für effektive Ausgaben/Effizienz in Medien.<li> Abstimmung mit IT-Richtlinien über Governance und Richtliniendurchsetzung.<li>Gewähren Sie bei Bedarf Zugriff auf Daten in Echtzeit, um rechtzeitige Kampagnen zu unterstützen.</li></ul> |
 
 ## Relevante technische Fähigkeiten
 
@@ -178,13 +178,11 @@ Siehe [HIPAA und Adobe - Produkte und Dienstleistungen](https://www.adobe.com/tr
 
 Produkte, die HIPAA-bereit sind (und nicht):
 
-![Hippie bereit](assets/hippa-ready.png)
-
 **Marketingdiagramm**
 
-![Hippie bereit](assets/HIPAA-readiness.png)
+* In Grau illustrierte Anwendungen sind noch nicht HIPAA-fähig.
 
-[Lucidchart source](https://lucid.app/lucidchart/8a795213-3bfa-43f3-a542-f0de56123afd/edit?invitationId=inv_d3183739-8c07-4ca2-bfd1-16d819b911a6&amp;page=0_0)
+![Hippie bereit](assets/HIPAA-readiness.png)
 
 ## Ansatz
 

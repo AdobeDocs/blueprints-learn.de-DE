@@ -1,15 +1,15 @@
 ---
-title: Journey Optimizer mit Adobe Campaign v8-Blueprint
+title: 'Blueprint: Journey Optimizer mit Adobe Campaign v8'
 description: Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1128'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer mit Adobe Campaign v8
+# Journey Optimizer mit Adobe Campaign  v8
 
 Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden.
 
@@ -31,12 +31,12 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 * Schemas und Datensätze müssen im System konfiguriert werden, bevor Sie Journey Optimizer-Datenquellen konfigurieren können.
 * Fügen Sie für Schemas, die auf der Klasse „Erlebnisereignis“ basieren, die Feldgruppe „Orchestrierungsereignis-ID“ hinzu, wenn ein Ereignis ausgelöst werden soll, das kein regelbasiertes Ereignis ist.
 * Fügen Sie für Schemas, die auf der Klasse „Individuelles Profil“ basieren, die Feldgruppe „Profil-Testdetails“ hinzu, um die Testprofile für die Verwendung mit Journey Optimizer laden zu können.
-* Journey Optimizer und Campaign werden in derselben IMS-Organisation bereitgestellt
+* Journey Optimizer und Campaign werden in derselben IMS-Organisation bereitgestellt.
 
 ### Campaign v8
 
-* Ausführungsinstanz des Echtzeit-Messaging-Service (d. h. Message Center) muss von Adobe Managed Cloud Services gehostet werden
-* Sämtliches Nachrichten-Authoring erfolgt direkt in der Campaign-Instanz
+* Ausführungsinstanz des Echtzeit-Messaging-Service (d. h. Message Center) muss von Adobe Managed Cloud Services gehostet werden.
+* Sämtliches Nachrichten-Authoring erfolgt direkt in der Campaign-Instanz.
 
 <br>
 
@@ -77,7 +77,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
    * Zielgruppen- und Unternehmens-Event-basierte Journeys werden aufgrund des Volumens, das an Ausführungsinstanzen gesendet werden kann, nicht unterstützt
 * Weder AC (v7) noch AC (v8) unterstützt Entscheidungs-Management in Nachrichten
 * Keine Drosselung ausgehender API-Aufrufe an Campaign
-* Mit Campaign v8.4 ist es möglich, den Adobe Campaign Managed Services Source Connector in Experience Platform zu nutzen, um Bereitstellungs- und Tracking-Ereignisse von Campaign in Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zu Source Connector . [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Für Campaign v8.4 kann der Adobe Campaign Managed Services Source Connector in Experience Platform verwendet werden, um Bereitstellungs- und Tracking-Ereignisse von Campaign nach Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)
 
 <br>
 
@@ -96,7 +96,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 #### Profil/Identität
 
 1. [Erstellen Sie sämtliche kundenspezifischen Namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
-1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
 1. [Aktivieren Sie die Schemas und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=de).
 1. [Richten Sie Zusammenführungsrichtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=de) für unterschiedliche Ansichten des [!UICONTROL Echtzeit-Kundenprofils] ein (optional).
 1. Erstellen Sie Segmente für die Journey-Nutzung.
@@ -114,8 +114,8 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 ### Campaign v8
 
 * Messaging-Vorlagen müssen mit geeignetem Personalisierungskontext konfiguriert werden
-* Für Campaign Standard - Export-Workflows müssen konfiguriert werden, um die Transaktionsnachrichten-Logs wieder in die Experience Platform zu exportieren. Es wird empfohlen, maximal alle vier Stunden auszuführen.
-* Für Campaign v8.4 ist es möglich, den Adobe Campaign Managed Services Source Connector in Experience Platform zu nutzen, um Bereitstellungs- und Tracking-Ereignisse von Campaign in Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zu Source Connector . [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Für Campaign Standard: Export-Workflows müssen zum Export der Transaktionsnachrichten-Protokolle zurück in Experience Platform konfiguriert werden. Es wird empfohlen, sie höchstens alle vier Stunden auszuführen.
+* Für Campaign v8.4 kann der Adobe Campaign Managed Services Source Connector in Experience Platform verwendet werden, um Bereitstellungs- und Tracking-Ereignisse von Campaign nach Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)
 
 ### Mobilgeräte-Push-Konfiguration (optional)
 
@@ -123,7 +123,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * Identität  für Edge Network
+   * Identität    für Edge Network
    * Mobile Core
 1. Stellen Sie sicher, dass Sie über einen dedizierten Daten-Stream für Mobile-App-Implementierungen verfügen, der sich von dem für Web-Implementierungen unterscheidet
 1. Weitere Informationen finden Sie im [Mobile-Handbuch für Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

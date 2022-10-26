@@ -3,7 +3,7 @@ title: 'Blueprint: Journey Optimizer – Trigger-basiertes Messaging und Adobe E
 description: Führen Sie ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als Zentrale für gestreamte Daten, Kundenprofile und Segmentierung aus.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
@@ -97,7 +97,7 @@ Achten Sie auf folgende, nicht im Link oben aufgeführte Punkte:
 
 ### Leitlinien für die Aktivierung
 
-<img src="../experience-platform/assets/activation-latency.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -136,7 +136,7 @@ Achten Sie auf folgende, nicht im Link oben aufgeführte Punkte:
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. Identität   für Edge Network
+1. Identität    für Edge Network
 1. Mobile Core
 1. Stellen Sie sicher, dass Sie über einen dedizierten Daten-Stream für Mobile-App-Implementierungen verfügen, der sich von dem für Web-Implementierungen unterscheidet
 1. Weitere Informationen finden Sie im [Mobile-Handbuch für Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

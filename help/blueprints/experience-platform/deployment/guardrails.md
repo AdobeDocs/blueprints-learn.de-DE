@@ -3,10 +3,10 @@ title: Experience Platform und Anwendungsrichtlinien
 description: Limits definieren die Leistungserwartungen und -auswirkungen für Komponenten und Dienste in Adobe Experience Platform und Anwendungen
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: e22c01fb768eed22d71748fd1e5bd8d3bc25068c
+source-git-commit: f618f3be083e15ebd0a00fcb242bd2ca07798272
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 30%
+source-wordcount: '285'
+ht-degree: 25%
 
 ---
 
@@ -38,15 +38,19 @@ Limits sind empfohlene Schwellenwerte, die die Datennutzung und Systemnutzung, d
 
 ### Datenerfassung
 
-Das folgende Diagramm zeigt die durchschnittlichen Performance-Bereiche sowie die Latenz bei der Datenaufnahme in Adobe Experience Platform.
-
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Segmentierung
+
+<img src="../assets/segmentation_guardrails.svg" alt="Limits für die Segmentierung von Experience Platformen" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/activation-latency.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 

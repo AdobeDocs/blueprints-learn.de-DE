@@ -4,10 +4,10 @@ description: Stellen Sie mit Real-time Customer Data Platform Account-basierte Z
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,10 @@ Verschiedene B2B-Datenquellen können für die Zuordnung von Account-, Lead-, Op
 
 ## Leitlinien
 
-Beachten Sie, dass Leitlinien und Implementierungsschritte für Marketo Engage nur relevant sind, wenn Marketo Engage als Quelle und/oder Ziel verwendet wird.
+* Beachten Sie, dass Leitlinien und Implementierungsschritte für Marketo Engage nur relevant sind, wenn Marketo Engage als Quelle und/oder Ziel verwendet wird.
+
+* Weitere Informationen und Limits für End-to-End-Latenzen finden Sie im Abschnitt [Dokument mit Bereitstellungsgarantien](../experience-platform/deployment/guardrails.md)
+
 
 ### Unterstützung mehrerer Instanzen und IMS-Organisationen:
 
@@ -56,7 +59,7 @@ Im Folgenden werden die unterstützten Muster für die Zuordnung von Experience 
 
 #### Leitlinien für Profile und Segmentierung in Experience Platform:
 
-* Die Leitlinien für Profil und Segmentierung in Experience Platform finden Sie unter [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+* Profils- und SegmentierungsLimits für die Experience Platform anzeigen - [Limits für Profil und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * B2B-Segmente, die Accounts, Leads und Opportunities enthalten, verwenden Beziehungen mit mehreren Entitäten, die dazu führen, dass die Segmentbewertung in Batches erfolgt. Streaming-Segmentierung wird für Segmente unterstützt, die auf Personen und Ereignisse beschränkt sind.
 
 #### Experience Platform - Marketo Engage-Quell-Connector:
@@ -75,7 +78,7 @@ Im Folgenden werden die unterstützten Muster für die Zuordnung von Experience 
 
 #### Ziel-Leitlinien
 
-* Spezifische Anweisungen zu Zielen finden Sie in der Dokumentation zu Zielen. [Richtlinien für Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de)
+* Spezifische Anweisungen zu Zielen finden Sie in der Dokumentation zu Zielen. [Ziel-Leitlinien](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
 ## Implementierungsschritte
@@ -95,7 +98,7 @@ Wenn die Implementierung Marketo Engage als Quelle verwendet und Marketo Engage 
 
 ## Verwandte Dokumentation
 
-* [B2B Edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=de)
+* [B2B Edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=de)
 * [Adobe Experience Platform - Marketo-Quell-Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=de)

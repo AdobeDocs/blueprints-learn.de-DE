@@ -5,10 +5,10 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: e7a640580038c547cf983956ed155099aa14b159
+source-git-commit: f087e4d4312c7e8e33130a699b43909914252035
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 96%
 
 ---
 
@@ -70,9 +70,10 @@ ht-degree: 100%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP mit Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer mit Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Datenaufnahme und Datenexport {#data-ingestion}
++ Datenerfassung, Erfassung, Zugriff und Export{#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)
+   + [Datenzugriff und -export](/help/blueprints/data-ingestion/egress.md)
    + [Ereignisweiterleitung](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Datenerfassung für mehrere Sandboxes](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + Datenanalyse, Datenintelligenz und KI/ML {#data-exploration}

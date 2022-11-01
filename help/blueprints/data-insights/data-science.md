@@ -4,10 +4,10 @@ description: Dieser Blueprint zeigt, wie datenwissenschaftliche Erkenntnisse in 
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,10 @@ Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ 
 ## Architektur
 
 <img src="assets/data_science.svg" alt="Referenzarchitektur für Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“" style="width:90%; border:1px solid #4a4a4a" />
+
+## Leitlinien
+
+* Detaillierte Limits und End-to-End-Latenzen bei der Erfassung von Datenwissenschaftsergebnissen in Experience Platform und dem Echtzeit-Kundenprofil finden Sie in den Datenaufnahme-Limits und dem Latenzdiagramm, auf die im Abschnitt [Dokument mit Bereitstellungsgarantien](../experience-platform/deployment/guardrails.md).
 
 ## Implementierungsschritte
 

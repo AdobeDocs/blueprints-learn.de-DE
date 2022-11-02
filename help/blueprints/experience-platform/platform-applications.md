@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 83f1f5e0e508d35d6711710cdb4d367f67e4f715
-workflow-type: ht
-source-wordcount: '917'
-ht-degree: 100%
+source-git-commit: 79e349d8b8dcb1626cccfff2ad56160bb9babd76
+workflow-type: tm+mt
+source-wordcount: '987'
+ht-degree: 88%
 
 ---
 
@@ -66,7 +66,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 <td>Analytics</td>
 <td>
 <ul>
-<li>Keine aktuelle Integration</li>
+<li>Über das Web-/Mobile-SDK erfasste Daten können an Adobe Analytics weitergeleitet werden.</li>
 </ul>
 </td>
 <td>
@@ -89,13 +89,13 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td>
 <ul>
-<li>Die erfassten Daten und ausgewerteten Zielgruppenzugehörigkeiten können für den Data Lake und Profilspeicher von Experience Platform freigegeben werden. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de">Audience Manager Source Connector</a></li>
+<li>Daten, die zusammen mit der Zielgruppenzugehörigkeit von Audience Manager erfasst und ausgewertet werden, können für den Experience Platform Data Lake und den Profilspeicher freigegeben werden. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de">Audience Manager Source Connector</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=de">Anonyme Zielgruppenaktivierung</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de">Aktivierung eines bekannten Kunden</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anonyme Zielgruppenaktivierung</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">Aktivierung eines bekannten Kunden</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a></li>
 </ul>
 </td>
@@ -132,7 +132,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=de">Customer Journeys</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=de">Journey</a></li>
 </ul>
 </td>
 </tr>
@@ -141,6 +141,9 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 <td colspan="1">
 <ul>
 <li>Daten, die erfasst und in den Data Lake von Experience Platform aufgenommen wurden, werden zur Verarbeitung in Customer Journey Analytics zur Verfügung gestellt. </li>
+<li>Profil- und Zielgruppendaten aus Real-time Customer Data Platform können in Customer Journey Analytics erfasst werden. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">Integration von RTCDP in CJA</a>.
+</li>
+</ul>
 </ul>
 </td>
 <td colspan="1">
@@ -191,15 +194,15 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 </tr>
 <tr>
-<td colspan="1">Magento</td>
+<td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Keine aktuelle Integration</li>
+<li>In Real-time Customer Data Platform erstellte Profile und Zielgruppen können in Adobe Commerce für die Personalisierung bereitgestellt werden. </li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Native Daten aus Magento können über den Magento-Quell-Connector an Experience Platform gesendet werden. </li>
+<li>In Adobe Commerce native Daten können über einen Adobe Commerce-Quell-Connector an Experience Platform gesendet werden. </li>
 </ul>
 </td>
 <td colspan="1">Keine aktuelle Integration</td>
@@ -218,7 +221,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li>B2B-Aktivierung – in Entwicklung</li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en">B2B-Aktivierungs-Blueprint</a></li>
 </ul>
 </td>
 </tr>
@@ -237,8 +240,8 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de">Aktivierung eines bekannten Kunden</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Aktivierung eines bekannten Kunden</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Platform und Programmen</a></li>
 </ul>
 </td>
 </tr>
@@ -256,8 +259,8 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de">Aktivierung eines bekannten Kunden</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de">Aktivierung mit Experience Platform und Programmen</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Aktivierung eines bekannten Kunden</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Aktivierung mit Experience Platform und Programmen</a></li>
 </ul>
 </td>
 </tr>

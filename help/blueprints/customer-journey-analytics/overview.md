@@ -30,7 +30,7 @@ Häufige Anwendungsfälle sind:
 * Kampagnen, die zu Konversion und mehr Interaktion führten
 * Analyse der Tool-Nutzung zur Optimierung von Self-Service-Erlebnissen
 
-## Architektur für die zu Customer Journey Analytics
+## Architektur für Customer Journey Analytics
 
 ![Architekturdiagramm](assets/CJA.svg)
 

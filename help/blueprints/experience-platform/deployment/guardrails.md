@@ -1,42 +1,42 @@
 ---
-title: Experience Platform und Anwendungsrichtlinien
-description: Limits definieren die Leistungserwartungen und -auswirkungen für Komponenten und Dienste in Adobe Experience Platform und Anwendungen
+title: Leitlinien für Experience Platform und Anwendungen
+description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung auf die Komponenten und Services in Adobe Experience Platform und den entsprechenden Anwendungen
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 24699f79ed4966a72f78138ad9dd9f3763674b4e
+exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
+source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-
 # Leitlinien
 
-Limits sind empfohlene Schwellenwerte, die die Datennutzung und Systemnutzung, die Leistungsoptimierung und die Vermeidung von Fehlern oder unerwarteten Ergebnissen in Adobe Experience Platform und Anwendungen unterstützen. Limits sollen Systembeschränkungen und Leistungserwartungen widerspiegeln, um die Kundenarchitektur und die Optimierung der Anwendungsfallleistung zu erleichtern. Limits sind nicht als Service-Level-Vereinbarungen vorgesehen. Informationen zu produktspezifischen Service-Level-Vereinbarungen finden Sie in der unten stehenden Produktbeschreibungsdokumentation.
+Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, die dafür sorgen, dass die Leistung optimiert wird und Fehler oder unerwartete Ergebnisse in Adobe Experience Platform und den Anwendungen vermieden werden. Limits sollen Systembeschränkungen und Leistungserwartungen widerspiegeln, um die Kundenarchitektur und die Optimierung der Anwendungsfallleistung zu erleichtern. Bei den Leitlinien handelt es sich nicht um Service Level-Vereinbarungen (Service Level Agreements, SLA). Informationen zu produktspezifischen Service-Level-Vereinbarungen finden Sie in der unten stehenden Produktbeschreibung.
 
 
-## Limits für Adobe Experience Platform und Anwendungen
+## Leitlinien für Adobe Experience Platform und Anwendungen
 
-[Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
+[Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
 
-[Edge Network API-Limits](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=en)
+[Leitlinien für die Edge Network API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=de)
 
-[Limits für das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+[Leitlinien zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
-[Identitätssicherungen](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
+[Leitlinien zu Identitäten](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=de)
 
-[Limits für Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
+[Leitlinien zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=de)
 
 [Limits bei der Zielaktivierung](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
-[Journey Optimizer-Schutzmechanismen](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
+[Leitlinien zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de)
 
 <br>
 
-## End-to-End-Latenzdiagramme
+## End-to-end-Latenz Diagramme
 
-### Datenerfassung
+### Datenaufnahme
 
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -68,22 +68,22 @@ Limits sind empfohlene Schwellenwerte, die die Datennutzung und Systemnutzung, d
 
 ## Produktbeschreibungen
 
-[Experience Platform Collection Enterprise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
+[Experience Platform Collection Enterprise](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
-[Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+[Real-time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 
-[B2B-Kundendatenplattform](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-b2b.html)
+[B2B-Kundendatenplattform](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-b2b.html)
 
 [Experience Platform Activation](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform0.html)
 
-[Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+[Experience Platform Intelligence](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 
-[Intelligent Services](https://helpx.adobe.com/legal/product-descriptions/intelligent-services.html)
+[Intelligent Services](https://helpx.adobe.com/de/legal/product-descriptions/intelligent-services.html)
 
 [Customer Journey Analytics](https://helpx.adobe.com/de/legal/product-descriptions/customer-journey-analytics.html)
 
-[Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
+[Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)
 
-[Journey Orchestration](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)
+[Journey Orchestration](https://helpx.adobe.com/de/legal/product-descriptions/journey-orchestration.html)
 
-[Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+[Offer Decisioning](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html)

@@ -6,30 +6,30 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: 654ec6c8176a446a2a5fb7ffb0aa8a854a31c46b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-# Architekturdiagramme in Adobe Experience Cloud
+# Architekturdiagramme zu Adobe Experience Cloud
 
-## Adobe Experience Cloud Marketing
+## Architekturdiagramm von Adobe Experience Cloud
 
-Das folgende Diagramm zeigt die verschiedenen Komponenten von Adobe Experience Cloud für Data Insights &amp; Audiences, Content &amp; Commerce, Customer Journey, Marketing Workflow, die auf der Grundlage der Adobe Experience Platform erstellt und integriert wurden.
+Das folgende Diagramm zeigt die verschiedenen Komponenten von Adobe Experience Cloud für die Bereiche „Data Insights und Zielgruppen“, „Content und Handel“, „Customer Journeys“ und „Marketing-Workflow“, die auf der Grundlage von Adobe Experience Platform erstellt und integriert wurden.
 
-<img src="assets/AEC.jpg" alt="Übersicht über Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
+<img src="assets/AEC.jpg" alt="Experience Cloud – Übersicht" style="width:95%; border:1px solid #4a4a4a" />
 <br>
 
-## Integrationsarchitektur von Data &amp; Insights, Content &amp; Commerce und Experience Delivery
+## Integrationsarchitektur von „Daten und Insights“, „Content und Handel“ und „Bereitstellung von Erlebnissen“
 
-Das folgende Architekturdiagramm veranschaulicht, wie die verschiedenen Komponenten der Adobe Experience Cloud miteinander verbunden und integriert werden, um eine skalierte Personalisierung der Daten-, Inhalts- und Erlebnisbereitstellung zu erreichen.
+Das folgende Architekturdiagramm veranschaulicht, wie die verschiedenen Komponenten von Adobe Experience Cloud miteinander verbunden und integriert sind, um bei der Bereitstellung von Daten, Inhalten und Erlebnissen skalierbare Personalisierung zu ermöglichen.
 
 <img src="assets/pers_at_scale.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
 <br>
 
 ## Adobe Experience Cloud im Unternehmensumfeld
 
-Das nachstehende Architekturdiagramm veranschaulicht, wie Adobe Experience Cloud-Anwendungen und Adobe Experience Platform in eine Erlebnisarchitektur für Unternehmenskunden in den vier Kategorien &quot;Daten&quot;, &quot;Einblicke&quot;, &quot;Orchestrierung&quot;und &quot;Interaktion&quot;passen.
+Das nachstehende Architekturdiagramm veranschaulicht, wie Adobe Experience Cloud-Anwendungen und Adobe Experience Platform in den vier Kategorien „Daten“, „Insights“, „Orchestrierung“ und „Interaktion“ in eine Customer-Experience-Architektur auf Unternehmensebene eingebunden sind.
 
 <img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />

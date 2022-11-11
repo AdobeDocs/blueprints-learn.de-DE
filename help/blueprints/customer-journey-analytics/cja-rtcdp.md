@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 44%
 
 ---
 
@@ -29,6 +29,18 @@ In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Ko
 * Detaillierte Limits und End-to-End-Latenzen finden Sie im Abschnitt [Dokument mit Bereitstellungsgarantien](../experience-platform/deployment/guardrails.md)
 
 ![Leitliniendiagramm](../experience-platform/assets/CJA_guardrails.svg)
+
+## Häufig gestellte Fragen
+
+* Wenn in der von CJA gesendeten RTCDP kein entsprechendes Profil existiert, wird dann ein neues Profil erstellt oder werden Zielgruppen nur von CJA für bereits vorhandene Profile aufgezeichnet? Ja, es wird ein neues Profil erstellt. Wenn Ihre RTCDP-Implementierung nur für bekannte Kunden bestimmt ist, sollten daher die CJA-Zielgruppenregeln so geschrieben werden, dass nur nach Profilen mit bekannten Identitäten gefiltert wird. Dadurch wird sichergestellt, dass die Anzahl der RTCDP-Profile nicht von anonymen Profilen erhöht wird, falls nicht gewünscht.
+
+* Sendet CJA die Zielgruppendaten als Pipeline-Ereignisse oder als flache Datei, die auch an den Data Lake gesendet wird? CJA-Zielgruppen werden über die Pipeline an den RTCDP-Profildienst gestreamt, die Daten werden jedoch auch im Data Lake als Datensatz gespeichert.
+
+* Welche Identitäten sendet CJA? CJA sendet jene Identitäten, die während der CJA-Konfiguration als &quot;Personen-ID&quot;konfiguriert wurden.
+
+* Was wird als primäre Identität festgelegt? Welche Identität der Benutzer beim Einrichten von Customer Journey Analytics als primäre &quot;Person&quot;-ID ausgewählt hat.
+
+* Verarbeitet der Identitätsdienst auch die CJA-Nachrichten? d. h. kann CJA einem Profilidentitätsdiagramm durch Zielgruppenfreigabe Identitäten hinzufügen? Nein, der Identitätsdienst verarbeitet die CJA-Nachrichten nicht.
 
 ## Verwandte Blog-Posts
 

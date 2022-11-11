@@ -5,10 +5,10 @@ landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail un
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 95%
+source-wordcount: '1625'
+ht-degree: 79%
 
 ---
 
@@ -82,13 +82,17 @@ Verwendung herkömmlicher anwendungsspezifischer SDKs (z. B. AT.js und AppMeasu
 
 [Beachten Sie die Leitlinien auf der Übersichtsseite zu den Blueprints für die Web- und Mobile-Personalisierung.](overview.md)
 
+* Edge-Profile werden nur erstellt, wenn ein Benutzer in Edge aktiv ist. Das bedeutet, dass sein Profil Streaming-Ereignisse über das Web/Mobile SDK oder die Edge Server-API an Edge gesendet hat. Dies entspricht im Allgemeinen dem Benutzer, der auf einer Website oder in einer mobilen App aktiv ist.
+* Edge-Profile haben eine standardmäßige Live-Zeit von 14 Tagen. Wenn für den Benutzer keine aktiven Edge-Ereignisse erfasst wurden, läuft das Profil nach 14 Tagen Inaktivität am Edge ab. Das Profil bleibt im Hub gültig und wird mit dem Edge synchronisiert, sobald der Benutzer wieder am Rand aktiv wird.
+* Wenn ein neues Profil am Edge erstellt wird, wird asynchron ein Synchronisierungsaufruf an den Hub gesendet, um alle Zielgruppen und Attribute abzurufen, die für die Edge-Projektion über ein Ziel konfiguriert sind. Da es sich um einen asynchronen Prozess handelt, kann es zwischen einer Sekunde und mehreren Minuten dauern, bis das Hub-Profil mit dem Edge synchronisiert wird. Daher kann nicht garantiert werden, dass neue Profile den Profilkontext vom Hub für Erlebnisse bei ersten Seiten erhalten. Dies gilt auch für neu gesammelte Daten an den Hub. Diese Daten werden asynchron an den Edge projiziert. Daher wird der Zeitpunkt, zu dem die Daten an den entsprechenden Edge gelangen, von der Edge-Aktivität getrennt. Nur Profile, die am Edge aktiv sind, behalten Attribute und Zielgruppen bei, die vom Hub projiziert werden.
+
 ## Überlegungen bei der Implementierung
 
 Voraussetzungen für Identitäten
 
 * Jede primäre Identität kann genutzt werden, wenn das oben erläuterte Implementierungsmuster 1 mit Edge Network und WebSDK verwendet wird. Personalisierung beim ersten Login erfordert, dass die in der Personalisierungsanfrage festgelegte primäre Identität mit der primären Identität des Profils in Real-time Customer Data Platform übereinstimmt. Identitäts-Stitching zwischen anonymen Geräten und bekannten Kunden wird im Hub verarbeitet und nachfolgend an das Edge projiziert.
 * Beachten Sie, dass Daten nicht sofort zur Personalisierung verfügbar sind, wenn sie in den Hub hochgeladen wurden, bevor ein Besuch oder eine Anmeldung eines Verbrauchers bei einer Website stattgefunden hat. Zuerst muss ein aktives Edge-Profil vorhanden sein, damit Hub-Daten damit synchronisiert werden können. Nachdem eines erstellt wurde, wird das Edge-Profil asynchron mit dem Hub-Profil synchronisiert, was eine Personalisierung der nächsten Seite zur Folge hat.
-* Die Freigabe von Zielgruppen in Adobe Experience Platform für Adobe Target erfordert die Verwendung von ECID als Identität, wenn der Zielgruppenfreigabe-Service wie im Integrationsmuster 2 und 3 oben verwendet wird.
+* Die Freigabe von Zielgruppen von Adobe Experience Platform für Adobe Target erfordert die Verwendung von ECID als Identität bei der Verwendung des Zielgruppenfreigabedienstes, wie oben im Integrationsmuster 2 und 3 beschrieben.
 * Alternative Identitäten können auch verwendet werden, um Experience Platform-Zielgruppen über Audience Manager für Adobe Target freizugeben. Experience Platform aktiviert Zielgruppen für Audience Manager über die folgenden unterstützten Namespaces: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Beachten Sie, dass Audience Manager und Target die Zielgruppenzugehörigkeit über die ECID-Identität auflösen. Daher muss ECID weiterhin im Identitätsdiagramm für den Verbraucher vorhanden sein, damit die endgültige Zielgruppenfreigabe an Adobe Target erfolgen kann.
 
 ## Verwandte Dokumentation

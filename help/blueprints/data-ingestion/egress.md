@@ -3,10 +3,11 @@ title: Datenzugriffs- und Export-Blueprint
 description: Dieser Blueprint bietet einen Überblick über alle Methoden, mit denen Daten aus Adobe Experience Platform und Anwendungen abgerufen und exportiert werden können.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
-source-git-commit: 67e66068bb8a2106dd8aa9784b5a39377225c045
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
+source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1513'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +51,7 @@ Siehe Abschnitt [Echtzeit-Kundenprofil-Zugriffs-API](https://experienceleague.ad
 
 * Echtzeit-Kundenprofil [Limits](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) gelten.
 * Für die Suche nach einzelnen Profilen auf einmal entwickelt. Wird nicht für den Massenzugriff auf Profile oder den Download der gesamten Profilpopulation für die Verwendung von Analyse oder Datenwissenschaft verwendet.
-* Die Antwortzeit für die Profilsuche hängt von den Profilsicherungen ab. Geringe Latenzanforderungen - z. B. für dieselben Anforderungen an die Seitenpersonalisierung sollten die Edge-Profil- oder Kundenpersonalisierungsziele für den Zugriff auf Profile mit geringer Latenz nutzen. [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* Die Antwortzeit für die Profilsuche hängt von den Profilsicherungen ab. Geringe Latenzanforderungen in Echtzeit - z. B. sollten für dieselben Anforderungen an die Seitenpersonalisierung das Edge-Profil von bis nutzen [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de) oder [Benutzerdefinierte Personalisierungsverbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) für den Echtzeit-Profilzugriff für die Personalisierung im Browser und in der App.
 
 ### Data Access API {#data-access-api}
 
@@ -129,7 +130,7 @@ Siehe Abschnitt [Real-time Customer Data Platform-Ziele](https://experienceleagu
 
 #### Anwendungsfälle
 
-* Aktivieren Sie Profilattributinformationen, einschließlich Zielgruppenmitgliedschaft in einem internen Unternehmensdatenspeicher, Analysetool, E-Mail-System oder Supportsystem.
+* Aktivieren Sie Profilattributinformationen, einschließlich Zielgruppenmitgliedschaft in internen Unternehmensdatenspeichern, Analyse-Tools, E-Mail-Systemen oder Supportsystemen.
 * Aktivieren Sie die Profil-Zielgruppenmitgliedschaft bei einem externen Werbeanbieter, um Inhalte auf das Profil auszurichten und zu personalisieren.
 
 #### Überlegungen
@@ -150,17 +151,7 @@ Siehe Abschnitt [Benutzerdefinierte Journey Optimizer-Aktionen](https://experien
 
 #### Überlegungen
 
-* Limits auf den von [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) und Anreicherungen, die von der [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) gelten.
+* Limits auf den von [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de) und Anreicherungen, die von der [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) gelten.
 * Benutzerdefinierte Aktionen können nacheinander für jedes Ereignis oder Profil in einer Journey ausgeführt werden. Massenvorgänge oder Massendatenaussendungen in Form von Dateien oder aggregierten Anforderungen in kundenübergreifenden Journey können nicht ausgeführt werden.
 * Streaming-Zugriff auf Attribute des Echtzeit-Kundenprofils und Erlebnisereignisse, die in die Aktivierungs-Payload aufgenommen werden können.
 * Ereignisdaten können gefiltert und einfache Zuordnungstransformationen angewendet werden, bevor Ereignisse an externe Ziele gesendet werden.
-
-
-
-
-
-
-
-
-
-

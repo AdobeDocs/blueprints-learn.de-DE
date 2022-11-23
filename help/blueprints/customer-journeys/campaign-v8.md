@@ -4,9 +4,9 @@ description: Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, 
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: c79422931cb4305347a4034ae1cb6bac2be1e229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für trad
 
 | Szenario | Beschreibung | Funktionen |
 | :-- | :--- | :--- |
-| [Echtzeit-Kundendatenplattform mit Adobe Campaign](rtcdp-and-campaign-v8.md) | Zeigt, wie Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign zur Bereitstellung personalisierter Konversationen genutzt werden können | <ul><li>Freigeben von Profilen und Audiences von der Real-Time CDP für Adobe Campaign mithilfe des Dateiaustauschs und der Workflows zur Adobe Campaign-Erfassung </li><li>Einfaches Teilen von Bereitstellungs- und Interaktionsdaten aus Kundenkonversationen zurück in Real-Time CDP aus Adobe Campaign, um einerseits das Echtzeit-Kundenprofil zu optimieren und gleichzeitig Cross-Channel-Reporting für Messaging-Kampagnen zu ermöglichen</li></ul> |
+| [Real-time Customer Data Platform mit Adobe Campaign](rtcdp-and-campaign-v8.md) | Zeigt, wie Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign zur Bereitstellung personalisierter Konversationen genutzt werden können | <ul><li>Freigabe von Profilen und Zielgruppen von Real-Time CDP für Adobe Campaign per Cloud-Speicher-Dateiaustausch und Aufnahme-Workflows von Adobe Campaign </li><li>Einfache Freigabe von Versand- und Interaktionsdaten aus Kundenkonversationen von Adobe Campaign zurück an Real-Time CDP, um einerseits das Echtzeit-Kundenprofil zu optimieren und gleichzeitig Cross-Channel-Reporting für Messaging-Kampagnen zu ermöglichen</li></ul> |
 | [Journey Optimizer mit Adobe Campaign](ajo-and-campaign.md) | Zeigt, wie Sie Adobe Journey Optimizer verwenden können, um 1:1-Erlebnisse mit dem Echtzeit-Kundenprofil zu orchestrieren, und dabei das native Transaktionsnachrichtensystem von Adobe Campaign verwenden, um die Nachrichten zu versenden. | Nutzen Sie das Echtzeit-Kundenprofil und die Möglichkeiten von Journey Optimizer, um Erlebnisse im richtigen Moment zu orchestrieren, und nutzen Sie gleichzeitig die nativen Echtzeit-Messaging-Funktionen von Adobe Campaign, um die Kommunikation auf der letzten Meile durchzuführen.<br><br>Überlegungen:<br><ul><li>Kann bis zu 1 Mio. Nachrichten pro Stunde über den Echtzeit-Messaging-Server senden<li>Keine Drosselung durch Journey Optimizer, um technische Prüfung durch einen Pre-Sales Enterprise Architect sicherzustellen</li><li>Entscheidungs-Management wird in Payloads an Campaign v8 nicht unterstützt</li></ul> |
 
 <br>

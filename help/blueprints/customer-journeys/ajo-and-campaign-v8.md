@@ -2,14 +2,15 @@
 title: 'Blueprint: Journey Optimizer mit Adobe Campaign v8'
 description: Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
-workflow-type: tm+mt
+exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
+source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer mit Adobe Campaign  v8
+# Journey Optimizer mit Adobe Campaign   v8
 
 Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden.
 
@@ -70,7 +71,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 * Ausführungsinstanz von Message Center muss von Adobe Managed Cloud Services gehostet werden
 * Messaging-Durchsatz
    * AC (v8) bis zu 1 Mio. pro Stunde basierend auf Paket
-* AC (v8) unterstützt die Entscheidungsverwaltung in Nachrichten nicht
+* AC (v8) unterstützt das Entscheidungs-Management in Nachrichten nicht
 * Keine Drosselung ausgehender API-Aufrufe an Campaign
 * Für Campaign v8.4 kann der Adobe Campaign Managed Services Source Connector in Experience Platform verwendet werden, um Bereitstellungs- und Tracking-Ereignisse von Campaign nach Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)
 
@@ -82,7 +83,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 
 #### Schema/Datensätze
 
-1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
+1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
 1. Erstellen Sie Schemas auf Basis der Klasse „Erlebnisereignis“ für Adobe Campaign-Tabellen broadLog, trackingLog und nicht zustellbare Adressen (optional).
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) in Experience Platform für die aufzunehmenden Daten.
 1. [Fügen Sie dem Datensatz in Experience Platform Datennutzungskennzeichnungen hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=de), um ordnungsgemäße Governance zu gewährleisten.
@@ -91,7 +92,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 #### Profil/Identität
 
 1. [Erstellen Sie sämtliche kundenspezifischen Namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
-1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Fügen Sie Identitäten zu Schemas hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de).
 1. [Aktivieren Sie die Schemas und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=de).
 1. [Richten Sie Zusammenführungsrichtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=de) für unterschiedliche Ansichten des [!UICONTROL Echtzeit-Kundenprofils] ein (optional).
 1. Erstellen Sie Segmente für die Journey-Nutzung.
@@ -110,7 +111,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 
 * Messaging-Vorlagen müssen mit geeignetem Personalisierungskontext konfiguriert werden
 * Für Campaign Standard: Export-Workflows müssen zum Export der Transaktionsnachrichten-Protokolle zurück in Experience Platform konfiguriert werden. Es wird empfohlen, sie höchstens alle vier Stunden auszuführen.
-* Für Campaign v8.4 kann der Adobe Campaign Managed Services Source Connector in Experience Platform verwendet werden, um Bereitstellungs- und Tracking-Ereignisse von Campaign nach Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Für Campaign v8.4 kann der Adobe Campaign Managed Services Source Connector in Experience Platform verwendet werden, um Bereitstellungs- und Tracking-Ereignisse von Campaign nach Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)
 
 ### Mobilgeräte-Push-Konfiguration (optional)
 
@@ -118,7 +119,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * Identität    für Edge Network
+   * Identität      für Edge Network
    * Mobile Core
 1. Stellen Sie sicher, dass Sie über einen dedizierten Daten-Stream für Mobile-App-Implementierungen verfügen, der sich von dem für Web-Implementierungen unterscheidet
 1. Weitere Informationen finden Sie im [Mobile-Handbuch für Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

@@ -8,7 +8,7 @@ exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 44%
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,7 @@ In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Ko
 
 ## Leitliniendiagramm für die Blueprints zu Customer Journey Analytics
 
-* Detaillierte Limits und End-to-End-Latenzen finden Sie im Abschnitt [Dokument mit Bereitstellungsgarantien](../experience-platform/deployment/guardrails.md)
+* Detaillierte Leitlinien und End-to-End-Latenzen finden Sie im Abschnitt [Leitlinien zur Implementierung](../experience-platform/deployment/guardrails.md)
 
 ![Leitliniendiagramm](../experience-platform/assets/CJA_guardrails.svg)
 

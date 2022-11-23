@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
       + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
-   + [Anonyme Zielgruppenaktivierung     (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Anonyme Zielgruppenaktivierung      (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Aktivierung eines bekannten Kunden (RTCDP) {#known-customer-audience-activation}
       + [Übersicht](/help/blueprints/audience-activation/known.md)
       + Aktivierung für Social-Media- und Advertising-Kanäle {#audience-activation}
@@ -68,12 +68,12 @@ ht-degree: 97%
       + [Journey Optimizer mit Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP mit Adobe Campaign   v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP mit Adobe Campaign    v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer mit Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Datenerfassung, Datenzugriff und -export{#data-ingestion}
++ Datenerfassung, Datenzugriff und Datenexport {#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)
-   + [Datenzugriff und -export](/help/blueprints/data-ingestion/egress.md)
+   + [Datenzugriff und Datenexport](/help/blueprints/data-ingestion/egress.md)
    + [Ereignisweiterleitung](/help/blueprints/data-ingestion/server-side-collection.md)
 + Datenanalyse, Datenintelligenz und KI/ML {#data-exploration}
    + [Übersicht](/help/blueprints/data-insights/overview.md)
@@ -81,6 +81,6 @@ ht-degree: 97%
    + [Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](/help/blueprints/data-insights/data-science.md)
 + Web- und Mobile-Personalisierung {#web-personalization}
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
-   + [Verhaltensbasierte Personalisierung     - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Verhaltensbasierte Personalisierung      - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalisierung für bekannte Kunden – Target und RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Entscheidungs-Management](/help/blueprints/web-personalization/decision-management-edge.md)

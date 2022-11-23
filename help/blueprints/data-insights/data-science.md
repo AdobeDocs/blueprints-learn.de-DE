@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ 
 
 ## Leitlinien
 
-* Detaillierte Limits und End-to-End-Latenzen bei der Erfassung von Datenwissenschaftsergebnissen in Experience Platform und dem Echtzeit-Kundenprofil finden Sie in den Datenaufnahme-Limits und dem Latenzdiagramm, auf die im Abschnitt [Dokument mit Bereitstellungsgarantien](../experience-platform/deployment/guardrails.md).
+* Detaillierte Leitlinien und End-to-End-Latenzen bei der Aufnahme von datenwissenschaftlichen Ergebnissen in Experience Platform und in das Echtzeit-Kundenprofil finden Sie in den Leitlinien zur Datenaufnahme und im Latenzdiagramm im [Dokument zu den Implementierungsleitlinien](../experience-platform/deployment/guardrails.md).
 
 ## Implementierungsschritte
 
-1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) für die zu erfassenden Daten.
+1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) für die zu erfassenden Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
 1. [Aufnehmen der Daten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) in Experience Platform.
 

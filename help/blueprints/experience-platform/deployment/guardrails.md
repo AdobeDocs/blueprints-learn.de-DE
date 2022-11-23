@@ -5,15 +5,15 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
 # Leitlinien
 
-Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, die dafür sorgen, dass die Leistung optimiert wird und Fehler oder unerwartete Ergebnisse in Adobe Experience Platform und den Anwendungen vermieden werden. Limits sollen Systembeschränkungen und Leistungserwartungen widerspiegeln, um die Kundenarchitektur und die Optimierung der Anwendungsfallleistung zu erleichtern. Bei den Leitlinien handelt es sich nicht um Service Level-Vereinbarungen (Service Level Agreements, SLA). Informationen zu produktspezifischen Service-Level-Vereinbarungen finden Sie in der unten stehenden Produktbeschreibung.
+Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, die dafür sorgen, dass die Leistung optimiert wird und Fehler oder unerwartete Ergebnisse in Adobe Experience Platform und den Anwendungen vermieden werden. Die Leitlinien beschreiben Systemeinschränkungen und Leistungserwartungen, um die Einrichtung der Kundenarchitektur und die Optimierung der Leistung von Anwendungsfällen zu erleichtern. Bei den Leitlinien handelt es sich nicht um Service Level-Vereinbarungen (Service Level Agreements, SLA). Informationen zu produktspezifischen Service-Level-Vereinbarungen finden Sie in der unten stehenden Produktbeschreibung.
 
 
 ## Leitlinien für Adobe Experience Platform und Anwendungen
@@ -28,13 +28,13 @@ Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, 
 
 [Leitlinien zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=de)
 
-[Limits bei der Zielaktivierung](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
+[Leiltlinien zur Zielaktivierung](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=de)
 
 [Leitlinien zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de)
 
 <br>
 
-## End-to-end-Latenz Diagramme
+## End-to-end-Latenz  Diagramme
 
 ### Datenaufnahme
 
@@ -44,19 +44,19 @@ Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, 
 
 ### Segmentierung
 
-<img src="../assets/segmentation_guardrails.svg" alt="Limits für die Segmentierung von Experience Platformen" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/segmentation_guardrails.svg" alt="Leitlinien zur Segmentierung in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Real-time Customer Data Platform und Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP- und Target-Limits" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="Leitlinien zu RTCDP und Target" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="CJA-Limits" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/CJA_guardrails.svg" alt="Leitlinien zu CJA" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 

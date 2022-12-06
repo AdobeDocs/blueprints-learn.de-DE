@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Ko
 
 ## Häufig gestellte Fragen
 
-* Wenn in der von CJA gesendeten RTCDP kein entsprechendes Profil existiert, wird dann ein neues Profil erstellt oder werden Zielgruppen nur von CJA für bereits vorhandene Profile aufgezeichnet? Ja, es wird ein neues Profil erstellt. Wenn Ihre RTCDP-Implementierung nur für bekannte Kunden bestimmt ist, sollten daher die CJA-Zielgruppenregeln so geschrieben werden, dass nur nach Profilen mit bekannten Identitäten gefiltert wird. Dadurch wird sichergestellt, dass die Anzahl der RTCDP-Profile nicht von anonymen Profilen erhöht wird, falls nicht gewünscht.
+* Wird, wenn für ein von CJA gesendetes Profil kein entsprechendes Profil in RTCDP existiert, ein neues Profil erstellt oder werden Zielgruppen in CJA nur für bereits vorhandene Profile aufgezeichnet? Ja, ein neues Profil wird erstellt. Wenn die RTCDP-Implementierung nur für bekannte Kunden verwendet werden soll, müssen die CJA-Zielgruppenregeln so formuliert werden, dass ausschließlich nach Profilen mit bekannten Identitäten gefiltert wird. So wird sichergestellt, dass sich die Zahl der RTCDP-Profile nicht durch anonyme Profile erhöht, wenn dies nicht gewünscht ist.
 
-* Sendet CJA die Zielgruppendaten als Pipeline-Ereignisse oder als flache Datei, die auch an den Data Lake gesendet wird? CJA-Zielgruppen werden über die Pipeline an den RTCDP-Profildienst gestreamt, die Daten werden jedoch auch im Data Lake als Datensatz gespeichert.
+* Übermittelt CJA die Zielgruppendaten als Pipeline-Ereignisse oder als Flatfile, das auch an den Data Lake gesendet wird? CJA-Zielgruppen werden über die Pipeline an den RTCDP-Profil-Service gestreamt, die Daten werden jedoch auch als Datensatz im Data Lake gespeichert.
 
-* Welche Identitäten sendet CJA? CJA sendet jene Identitäten, die während der CJA-Konfiguration als &quot;Personen-ID&quot;konfiguriert wurden.
+* Welche Identitäten übermittelt CJA? CJA übermittelt sämtliche Identitäten, die während der CJA-Konfiguration als „Personen-ID“ konfiguriert wurden.
 
-* Was wird als primäre Identität festgelegt? Welche Identität der Benutzer beim Einrichten von Customer Journey Analytics als primäre &quot;Person&quot;-ID ausgewählt hat.
+* Was wird als primäre Identität festgelegt? Die Identität, die der Benutzer beim Einrichten von Customer Journey Analytics als primäre „Personen“-ID ausgewählt hat.
 
-* Verarbeitet der Identitätsdienst auch die CJA-Nachrichten? d. h. kann CJA einem Profilidentitätsdiagramm durch Zielgruppenfreigabe Identitäten hinzufügen? Nein, der Identitätsdienst verarbeitet die CJA-Nachrichten nicht.
+* Verarbeitet der Identitäts-Service auch die CJA-Nachrichten? Kann CJA also einem Profilidentitätsdiagramm durch Zielgruppenfreigabe Identitäten hinzufügen? Nein, der Identitäts-Service verarbeitet die CJA-Nachrichten nicht.
 
 ## Verwandte Blog-Posts
 

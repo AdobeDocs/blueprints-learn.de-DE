@@ -5,9 +5,9 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Methoden für den Datenexport
 
 ## Methoden für den Datenzugriff
 
-### Echtzeit-Kundenprofil-Zugriffs-API {#rtcp-profile-access-api}
+### Real-time Customer Profile Access API {#rtcp-profile-access-api}
 
 Kunden können über die Real-time Customer Profile Access API auf einzelne einheitliche Profile im Echtzeit-Kundenprofil-Datenspeicher zugreifen, einschließlich aller Profilidentitäten, Zielgruppen-Zugehörigkeiten, Attribute und Erlebnisereignisse.
 
@@ -51,7 +51,7 @@ Weitere Informationen finden Sie in der Dokumentation zur [Real-time Customer Pr
 
 * Es gelten die [Leitlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de) zum Echtzeit-Kundenprofil.
 * Geeignet für die Suche nach einem einzelnen Profil. Nicht geeignet für den Massenzugriff auf oder -Download der gesamten Profilpopulation für die Analyse oder datenwissenschaftliche Zwecke.
-* Die Antwortzeit bei der Profilsuche hängt von den Profilleitlinien ab. Geringe Latenzanforderungen in Echtzeit - z. B. sollten für dieselben Anforderungen an die Seitenpersonalisierung das Edge-Profil von bis nutzen [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de) oder [Benutzerdefinierte Personalisierungsverbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=de) für den Echtzeit-Profilzugriff für die Personalisierung im Browser und in der App.
+* Die Antwortzeit bei der Profilsuche hängt von den Profilleitlinien ab. Anforderungen für geringe Latenz in Echtzeit – z. B. sollten Anforderungen für Personalisierung auf derselben Seite das Edge-Profil für die [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de) oder die [Verbindung für benutzerdefinierte Personalisierung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=de) nutzen, um in Browser und Mobile App in Echtzeit auf das Profil zuzugreifen.
 
 ### Data Access API {#data-access-api}
 
@@ -130,7 +130,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [Real-time Customer Dat
 
 #### Anwendungsfälle
 
-* Aktivieren Sie Profilattributinformationen, einschließlich Zielgruppenmitgliedschaft in internen Unternehmensdatenspeichern, Analyse-Tools, E-Mail-Systemen oder Supportsystemen.
+* Aktivierung von Profilattribut-Informationen, einschließlich der Zielgruppen-Zugehörigkeit für interne Unternehmensdatenspeicher, Analyse-Tools, E-Mail-Systeme oder Support-Systeme.
 * Aktivierung der Profil-Zielgruppen-Zugehörigkeit für einen externen Werbeanbieter, um Inhalte auf das Profil auszurichten und zu personalisieren.
 
 #### Allgemeine Überlegungen
@@ -151,7 +151,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [benutzerdefinierten Jo
 
 #### Allgemeine Überlegungen
 
-* Es gelten Limits bezüglich des von [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de) unterstützten Durchsatzes und der vom [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) unterstützten Anreicherungen.
+* Es gelten Limits bezüglich des von [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de) unterstützten Durchsatzes und der vom [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de) unterstützten Anreicherungen.
 * Benutzerdefinierte Aktionen können für jedes Ereignis oder Profil in einer Journey per Streaming nacheinander ausgeführt werden. Vorgänge oder Datenexporte im Bulk-Modus in Form von Dateien oder aggregierten Anfragen in Customer Journeys können nicht ausgeführt werden.
 * Es besteht Streaming-Zugriff auf Echtzeit-Kundenprofil-Attribute und Erlebnisereignisse, die in die Aktivierungs-Payload integriert werden können.
 * Ereignisdaten können gefiltert und einfache Mapping-Umwandlungen können angewendet werden, bevor Ereignisse an externe Ziele gesendet werden.

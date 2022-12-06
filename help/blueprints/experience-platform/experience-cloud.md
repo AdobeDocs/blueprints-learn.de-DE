@@ -6,15 +6,15 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Architekturdiagramme zu Adobe Experience Cloud
 
-## Adobe Experience Cloud-Marketing
+## Architekturdiagramm von Adobe Experience Cloud
 
 Das folgende Diagramm zeigt die verschiedenen Komponenten von Adobe Experience Cloud für die Bereiche „Data Insights und Zielgruppen“, „Content und Handel“, „Customer Journeys“ und „Marketing-Workflow“, die auf der Grundlage von Adobe Experience Platform erstellt und integriert wurden.
 

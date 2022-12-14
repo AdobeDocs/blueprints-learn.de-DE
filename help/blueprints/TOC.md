@@ -5,10 +5,10 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 94%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 100%
    + [Übersicht](/help/blueprints/data-insights/overview.md)
    + [Datenanalyse und Datenintelligenz](/help/blueprints/data-insights/analysis.md)
    + [Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](/help/blueprints/data-insights/data-science.md)
++ Optimieren der Kampagnenlieferkette mit Marketo und Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+   + [Übersicht](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
+   + [Kundenerfolgsgeschichten](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
+   + [Aufnahme und Erstellung](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Web- und Mobile-Personalisierung {#web-personalization}
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
    + [Verhaltensbasierte Personalisierung       - Target](/help/blueprints/web-personalization/behavioral.md)

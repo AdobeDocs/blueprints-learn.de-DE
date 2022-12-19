@@ -5,7 +5,7 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 95%
@@ -47,8 +47,8 @@ ht-degree: 95%
    + [B2B: Aktivierung](/help/blueprints/b2b/b2bactivation.md)
    + Kampagnenlieferkette mit Marketo und Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
       + [Übersicht](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [Kundenerfolgsgeschichten](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
       + [Aufnahme und Erstellung](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
+      + [Kundenerfolgsgeschichten](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
    + [Freigabe von CJA-Zielgruppen für RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)

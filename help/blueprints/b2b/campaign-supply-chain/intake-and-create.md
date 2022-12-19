@@ -2,7 +2,7 @@
 description: Aufnahme und Erstellung - Optimieren der Kampagnenlieferkette mit Marketo und Workfront
 title: Aufnahme und Erstellung
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Der folgende Workflow zeigt eine Anforderung eines Webinars durch einen Kampagne
 
 >[!TIP]
 >
->Weitere Informationen zu den verschiedenen Objekttypen in Workfront, die für die Organisation der Marketingkampagnen verwendet werden, und zur Zuordnung zu einem Marketo Engage-Programm finden Sie im Abschnitt [Überblick über Marketo und Workfront](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}.
+>Weitere Informationen zu den verschiedenen Objekttypen in Workfront, die für die Organisation der Marketingkampagnen verwendet werden, und zur Zuordnung zu einem Marketo Engage-Programm finden Sie im Abschnitt [Überblick über Marketo und Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
 
 ## Vorbereiten Ihres Kampagnenentwicklungsprozesses für die Automatisierung {#prepare-your-campaign-development-process-for-automation}
 

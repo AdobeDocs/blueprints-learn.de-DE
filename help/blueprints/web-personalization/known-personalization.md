@@ -5,8 +5,8 @@ landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail un
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
-workflow-type: ht
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
+workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Die Personalisierung bekannter Kunden wird über verschiedene Implementierungsve
 ### Implementierungsmuster 1 – Edge-Netzwerk mit Web/Mobile SDK oder Edge Network-API (empfohlener Ansatz)
 
 * Verwendung von Edge Network mit dem Web/Mobile SDK. Für die Edge-Echtzeit-Segmentierung ist das Implementierungsverfahren mit Web/Mobile SDKs oder der Edge-API erforderlich.
-* [Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../data-ingestion/websdk.md)       für die SDK-basierte Implementierung.
+* [Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../experience-platform/deployment/websdk.md)       für die SDK-basierte Implementierung.
 * Zur Verwendung im Mobile SDK muss die [Decisioning-Erweiterung von Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) im Mobile SDK installiert sein.
 * [Unter der Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) finden Sie Informationen zur API-basierten Implementierung von Adobe Target mit Edge-Profil.
 
@@ -66,7 +66,7 @@ Die Personalisierung bekannter Kunden wird über verschiedene Implementierungsve
 
 Verwendung herkömmlicher anwendungsspezifischer SDKs (z. B. AT.js und AppMeasurement.js). Die Edge-Echtzeit-Segmentevaluierung wird bei diesem Implementierungsverfahren nicht unterstützt. Doch das Streaming und die Batch-Zielgruppenfreigabe über den Experience Platform-Hub werden durch dieses Implementierungsverfahren unterstützt.
 
-[Weitere Informationen finden Sie im Blueprint für anwendungsspezifische SDKs.](../data-ingestion/appsdk.md)
+[Weitere Informationen finden Sie im Blueprint für anwendungsspezifische SDKs.](../experience-platform/deployment/appsdk.md)
 
 ### Implementierungsschritte
 

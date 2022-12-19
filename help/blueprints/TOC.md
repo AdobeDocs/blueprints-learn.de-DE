@@ -5,7 +5,7 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
+source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 94%
@@ -27,8 +27,8 @@ ht-degree: 94%
    + [Experience Platform und Programme](/help/blueprints/experience-platform/platform-applications.md)
    + [Datenfluss in Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
    + Implementierung {#deployment}
-      + [Experience Platform Web SDK und Edge Network](/help/blueprints/data-ingestion/websdk.md)
-      + [Anwendungs-SDKs](/help/blueprints/data-ingestion/appsdk.md)
+      + [Experience Platform Web SDK und Edge Network](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [Anwendungs-SDKs](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)

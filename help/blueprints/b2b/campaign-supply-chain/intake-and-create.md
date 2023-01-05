@@ -1,47 +1,47 @@
 ---
-description: Aufnahme und Erstellung - Optimieren der Kampagnenlieferkette mit Marketo und Workfront
-title: Aufnahme und Erstellung
+description: Annahme und Erstellung – Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront
+title: Annahme und Erstellung
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1325'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Aufnahme und Erstellung {#intake-and-create}
+# Annahme und Erstellung {#intake-and-create}
 
-Die Anzahl der Marketing-Anfragen, die an ein Marketing-Operations-Team gesendet werden, um neue Kampagnen zu starten, kann ein gut funktionierendes Team in eine Drehtür für sich wiederholende Aufgaben verwandeln, was zu einem Burnout und einer stagnierenden Innovation führt.
+Ein Übermaß an Anfragen an ein Marketing-Team nach neuen Kampagnen kann aus einem gut eingespielten Team frustrierte Fließbandarbeiter machen. Was oft folgt, sind Burnout und ein Mangel an Innovation.
 
-Durch die Einrichtung eines Verfahrens zur Übermittlung von Kampagnenanforderungen und die Automatisierung der Erstellung häufig angeforderter Marketingkampagnen haben Sie folgende Möglichkeiten: die Geschwindigkeit Ihrer Kampagnen zu erhöhen, Fehler zu reduzieren, Anforderungen an das richtige Mitglied der Marketing-Vorgänge weiterzuleiten, die Ressourcenauslastung auszugleichen und zu verbessern und mehr Ihrer Marketing-Vorgänge auf strategischere Aufgaben zu konzentrieren.
+Durch die Einrichtung eines Prozesses zum Einreichen von Kampagnenanfragen und die automatische Erstellung häufig angeforderter Marketing-Kampagnen können Sie das Tempo Ihrer Kampagnen beschleunigen, Fehler reduzieren, Anfragen an die zuständige Marketing-Fachkraft weiterleiten und Ressourcen sinnvoll einsetzen. Gleichzeitig kann sich Ihr Team besser auf strategische Aufgaben konzentrieren.
 
-Mit Workfront und Marketo Engage ermöglicht eine System-zu-System-Verbindung Details von einem [Workfront-Anfrageformular](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html){target=&quot;_blank&quot;} zum Erstellen eines Marketo Engage-Programms und anschließendes Ausfüllen von Schlüsselvariablen wie: Betreffzeilen, E-Mail-Kopie, Bilder, Daten, Zeiten, Ereignisinformationen und mehr.
+Durch die Verbindung von Workfront mit Marketo Engage kann mithilfe eines [Workfront-Anfrageformulars](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=de){target=&quot;_blank&quot;} ein Marketo Engage-Programm erstellt werden. Im Formular sind dabei nur wichtigsten Variablen einzugeben, wie Betreffzeile, E-Mail-Text, Bilder, Datumsangaben, Zeiten und Veranstaltungsdetails.
 
-Um diese Integration zu erreichen, verwenden Sie Workfront Fusion, eine Arbeitsautomatisierungsschicht, mit der Sie Workflows zwischen Workfront und anderen Systemen automatisieren können.
+Erreicht wird diese Integration mithilfe von Workfront Fusion. Mit dieser Arbeitsautomatisierungsschicht können Sie Workflows zwischen Workfront und anderen Systemen automatisieren.
 
-Der folgende Workflow zeigt eine Anforderung eines Webinars durch einen Kampagnenmanager, der ein Workfront-Anfrageformular verwendet. Die in der Anfrage übermittelten Details werden dann in einem Programm und einer E-Mail Trigger, die im Marketo Engage für das Webinar erstellt werden sollen. Darüber hinaus werden Details aus dem Anfrageformular übernommen, um den Inhalt der E-Mail zu füllen.
+Der folgende Workflow stellt eine Webinar-Anfrage dar, die von der für die Kampagne verantwortlichen Person unter Verwendung eines Workfront-Anfrageformulars gestellt wird. Die in der Anfrage übermittelten Details lösen in Marketo Engage ein Programm und die Erstellung einer E-Mail für das Webinar aus. Zusätzlich werden Details aus dem Anfrageformular für die Inhaltserstellung der E-Mail übernommen.
 
 ![](assets/intake-and-create-1.png)
 
 >[!TIP]
 >
->Weitere Informationen zu den verschiedenen Objekttypen in Workfront, die für die Organisation der Marketingkampagnen verwendet werden, und zur Zuordnung zu einem Marketo Engage-Programm finden Sie im Abschnitt [Überblick über Marketo und Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
+>Weitere Informationen zu den verschiedenen Objekttypen in Workfront, die für die Organisation von Marketing-Kampagnen verwendet werden, und zur Zuordnung zu einem Marketo Engage-Programm finden Sie im Abschnitt [Marketo und Workfront im Überblick](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
 
-## Vorbereiten Ihres Kampagnenentwicklungsprozesses für die Automatisierung {#prepare-your-campaign-development-process-for-automation}
+## Vorbereiten Ihres Kampagnenerstellungsprozesses für die Automatisierung {#prepare-your-campaign-development-process-for-automation}
 
-Hinter jeder großartigen Workflow-Automatisierung steht ein definierter Prozess, der sicherstellt, dass Teams und Stakeholder von der Automatisierung optimal profitieren.
+Die Workflow-Automatisierung erfolgt anhand eines definierten Prozesses, durch den sichergestellt wird, dass alle Teams und Beteiligten optimal von der Automatisierung profitieren.
 
 **Welche Arten von Marketing-Anfragen erhalten Sie?**
 
-Denken Sie darüber nach, welche Arten von Marketing-Taktiken Sie ausführen werden, z. B. E-Mails, Pflege, Erstanbieter-Webinare und Veranstaltungen. Führen Sie auch Drittanbieter-Webinare oder Display-Anzeigen aus? Jede dieser Anforderungen sollte berücksichtigt werden, da sie möglicherweise spezifische Eingabefelder im Anfrageformular benötigen und verschiedenen Programmvorlagen in Marketo Engage zugeordnet werden, die geklont werden.
+Überlegen Sie, welche Arten von Marketing-Taktiken Sie ausführen werden, z. B. E-Mails, Nurture-Kampagnen, firmeneigene Webinare und Veranstaltungen. Veranstalten Sie auch Webinare für andere Unternehmen, oder nutzen Sie Display-Anzeigen? Sie sollten alle möglichen Anfragen berücksichtigen, da für sie möglicherweise spezielle Eingabefelder im Anfrageformular erforderlich sind und in Marketo Engage unterschiedlichen Programmvorlagen zugeordnet werden, die dort dupliziert werden.
 
-Außerdem möchten Sie wissen, ob Sie Kampagnen in mehreren Regionen ausführen. In diesem Fall sollten Sie ein Projekt in Workfront berücksichtigen, das mehrere Programme in Marketo Engage erstellt, wobei jedes Programm für unterschiedliche Sprachunterstützung steht.
+Außerdem müssen Sie überlegen, ob Sie Kampagnen in unterschiedlichen Regionen ausführen. In diesem Fall benötigen Sie ein einziges Projekt in Workfront, das mehrere Programme in Marketo Engage erstellt, wobei jedes Programm eine andere Sprache unterstützt.
 
-Es ist wichtig, vorab zu wissen, welche Arten von Marketing-Anfragen Sie erwarten, um sicherzustellen, dass Anfragen automatisiert erleichtert werden können.
+Es ist wichtig, vorab zu wissen, welche Arten von Marketing-Anfragen Sie erhalten werden, damit die Anfragestellung automatisiert erfolgen kann.
 
-**Welche Informationen sollten in der Kampagnenanforderung erfasst werden?**
+**Welche Informationen sollten in der Kampagnenanfrage enthalten sein?**
 
-Denken Sie an die wichtigsten Informationen, die in Ihrem Anfrageformular für jede der verschiedenen ausgeführten Taktiken erfasst werden müssen. Im Folgenden finden Sie einige Beispiele für Informationen, die Sie in einem Workfront-Formular erfassen können, um die Kampagnenentwicklung zu automatisieren.
+Denken Sie an die wichtigsten Informationen, die in Ihrem Anfrageformular für jede der von Ihnen ausgeführten Taktiken erfasst werden müssen. Unten finden Sie einige Beispiele für Informationen, die Sie in einem Workfront-Formular erfassen können, um die Kampagnenerstellung zu automatisieren.
 
 <table> 
   <tr> 
@@ -49,35 +49,35 @@ Denken Sie an die wichtigsten Informationen, die in Ihrem Anfrageformular für j
    <td><b>Zu erfassende Informationen</b></td>
   </tr>
   <tr> 
-   <td>Email Blast</td>
-   <td>・ Email Subject<br />
+   <td>Massen-E-Mail</td>
+   <td>・ E-Mail-Betreff<br />
 ・ Geplantes Datum<br />
-・ E-Mail-Kopie<br />
-・ Aktionsaufruf<br />
-・ Bilder - AEM Assets-URLs können zur Verwendung in Marketo direkt referenziert werden<br />
+・ E-Mail-Text<br />
+・ Call to Action<br />
+・ Bild(er) – URLs von AEM Assets können zur Verwendung in Marketo direkt referenziert werden<br />
 ・ Kriterien für die Zielgruppenqualifikation</td>
   </tr>
   <tr>
    <td>Webinar/Veranstaltung</td>
-   <td>・ Ereignisname<br />
-・ Ereignisdatum<br />
-・ Ereigniszeit<br />
-・ Veranstaltungsort<br />
-・ Ereignisbeschreibung<br />
-・ Webinar-Aufzeichnungsseite - PageURL OnDemand<br />
-・ Sprechernamen<br />
-・ Lautsprechertitel<br />
-・ Lautsprecherbilder<br />
+   <td>・ Name der Veranstaltung<br />
+・ Datum der Veranstaltung<br />
+・ Uhrzeit der Veranstaltung<br />
+・ Ort der Veranstaltung<br />
+・ Beschreibung der Veranstaltung<br />
+・ Webinar-Aufzeichnungsseite – PageURL OnDemand<br />
+・ Namen der Redner<br />
+・ Titel der Redner<br />
+・ Bilder der Redner<br />
 ・ Benötigte E-Mails (Einladung, Bestätigung, Erinnerung, Follow-up)<br />
-・ E-Mail-Kopfzeilenbild(e)<br />
+・ E-Mail-Kopfzeilen-Bild(er)<br />
 ・ Kriterien für die Zielgruppenqualifikation</td>
   </tr>
   <tr>
-   <td>Krankenpflege</td>
+   <td>Nurture-Kampagne</td>
    <td>・ Anzahl der E-Mails<br />
-・ E-Mail-Kopie<br />
-・ E-Mail-Header<br />
-・ Aktionsaufruf<br />
+・ E-Mail-Text<br />
+・ E-Mail-Kopfzeile<br />
+・ Call to Action<br />
 ・ Kriterien für die Zielgruppenqualifikation</td>
   </tr>
   </tbody>
@@ -85,41 +85,41 @@ Denken Sie an die wichtigsten Informationen, die in Ihrem Anfrageformular für j
 
 >[!NOTE]
 >
->Heute ist das programmgesteuerte Erstellen von Zielgruppen durch Automatisierung in Marketo Engage eingeschränkt, da Token in Smart-Listen nicht unterstützt werden. Das bedeutet, dass Zielgruppen entweder von einem Benutzer in Marketo Engage erstellt werden müssen oder wenn Sie eine vordefinierte Zielgruppe haben, mit der Sie kontinuierlich kommunizieren, können Sie eine konfigurierte Smart-Liste als Teil Ihrer Programmvorlage einfügen, die während des Automatisierungsprozesses geklont wird.
+>Die programmgesteuerte Erstellung von Zielgruppen mithilfe einer Automatisierung ist aktuell in Marketo Engage nur eingeschränkt verfügbar, da Token in Smart-Listen nicht unterstützt werden. Das bedeutet, dass Zielgruppen von einem Team-Mitglied in Marketo Engage erstellt werden müssen. Alternativ können Sie, wenn Sie eine vordefinierte Zielgruppe haben, mit der Sie ständig kommunizieren, eine konfigurierte Smart-Liste zu Ihrer Programmvorlage hinzufügen, die während des Automatisierungsprozesses dupliziert wird.
 
-### Einrichtung Ihres Exzellenzzentrums {#establish-your-center-of-excellence}
+### Einrichtung Ihres Center of Excellence {#establish-your-center-of-excellence}
 
-Wenn Sie die Erstellung von Programmen automatisieren möchten, benötigen Sie ein Kompetenzzentrum für Marketo Engage. Ein Kompetenzzentrum umfasst vorlagenbasierte Programme und Assets, die den Kampagnenentwicklungsprozess beschleunigen und standardisieren. Sie können beispielsweise eine Programmvorlage für unterschiedliche Kampagnenanforderungen haben: E-Mail, Pflege, persönliche Veranstaltung und Webinar. Darüber hinaus können Sie mehrere E-Mail-Programmvorlagen verwenden, die Sie für verschiedene Regionen oder für verschiedene Arten von E-Mail-Ankündigungen verwenden.
+Wenn Sie die Erstellung von Programmen automatisieren möchten, benötigen Sie ein Center of Excellence in Marketo Engage. Ein Center of Excellence beinhaltet vorlagenbasierte Programme und Assets, mit denen der Kampagnenerstellungsprozess beschleunigt und standardisiert werden kann. Sie können beispielsweise Programmvorlagen für unterschiedliche Kampagnenanfragen verwenden, etwa für E-Mail-Kampagnen, Nurture-Kampagnen, Präsenzveranstaltungen und Webinare. Zusätzlich könnten Sie mehrere E-Mail-Programmvorlagen für verschiedene Regionen oder Arten von E-Mail-Nachrichten verwenden.
 
-Der Aufbau Ihres Kompetenzzentrums mit Programmvorlagen in Marketo Engage ist einer der ersten Schritte, um einen programmatischeren Ansatz für die Kampagnenausführung zu verfolgen und wird als Grundlage für die Automatisierung von Kampagnenanforderungen dienen.
+Der Aufbau Ihres Center of Excellence mit Programmvorlagen in Marketo Engage ist einer der ersten Schritte hin zu einer programmgesteuerten Kampagnenausführung und die Basis zur Automatisierung von Kampagnenanfragen.
 
-Sobald Sie über eine Reihe wiederverwendbarer Programmvorlagen verfügen, können Sie Ihre Bemühungen mithilfe der in diesem Entwurf beschriebenen Automatisierung weiter skalieren, um die Kampagnenentwicklung schneller zu gestalten.
+Sobald Sie über mehrere wiederverwendbare Programmvorlagen verfügen, können Sie Ihre Marketing-Aktionen unter Verwendung der in dieser Blueprint beschriebenen Automatisierung weiter skalieren und schneller Kampagnen erstellen.
 
-Weitere Informationen zur Einrichtung Ihres eigenen Kompetenzzentrums finden Sie im [Marketo Community](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target=&quot;_blank&quot;} für Best Practices.
+In der [Marketo Community](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target=&quot;_blank&quot;} finden Sie Best Practices zur Einrichtung eines eigenen Center of Excellence.
 
 ### Verwenden von Token zum Ausfüllen von Inhalten {#use-tokens-to-populate-content}
 
-Mit Marketo Engage können Token verwendet werden, um Inhalte in Kampagnen-Assets zu füllen. Nachdem Sie beispielsweise eine E-Mail-Vorlage aus Ihrem Kompetenzzentrum geklont haben, kann Workfront Fusion Details aus der Kampagnenanforderung in Workfront abrufen und an die My Tokens im Marketo Engage-Programm weiterleiten. Die Token-Werte können dann direkt in die E-Mail vererbt werden, um die E-Mail zu erstellen.
+In Marketo Engage können Inhalte mithilfe von Token in Kampagnen-Assets eingefügt werden. Nachdem Sie beispielsweise eine E-Mail-Vorlage in Ihrem Center of Excellence dupliziert haben, kann Workfront Fusion Details der Kampagnenanfrage in Workfront abrufen und an „My Tokens“ im Marketo Engage-Programm weiterleiten. Die Token-Werte können dann direkt an die E-Mail weitergegeben werden, um die E-Mail zu erstellen.
 
 ![](assets/intake-and-create-2.png)
 
-### Auffüllen von Bildern aus AEM Assets {#populate-images-from-aem-assets}
+### Einfügen von Bildern aus AEM Assets {#populate-images-from-aem-assets}
 
-Sie können die Entwicklung von E-Mails und Landingpages weiter automatisieren, indem Sie Marketo Engage-Token in Kombination mit Links zu Assets in AEM Assets verwenden. Kampagnenanforderer können veröffentlichte Bild-Links von AEM Assets als Teil des Anfragevorgangs senden. Workfront Fusion kann diese Links dann mithilfe von Marketo Engage-Token in die HTML einer E-Mail einbetten.
+Sie können die Erstellung von E-Mails und Landingpages weiter automatisieren, indem Sie Marketo Engage-Token in Kombination mit Links zu Assets in AEM Assets verwenden. Kampagnenanforderer können in ihrer Anfrage in AEM Assets veröffentlichte Bild-Links übermitteln. Workfront Fusion kann diese Links dann mithilfe von Marketo Engage-Token in die HTML einer E-Mail einbetten.
 
-Denken Sie daran, dass Sie Ihre Programme und Programmvorlagen in Marketo Engage erstellen müssen, um My Tokens zu verwenden, damit Fusion die Tokenwerte mit den in Workfront übermittelten Informationen aktualisieren kann.
+Beachten Sie, dass Sie Ihre Programme und Programmvorlagen in Marketo Engage erstellen müssen, damit Sie „My Tokens“ verwenden können und Fusion die Token-Werte mit den in Workfront übermittelten Informationen aktualisieren kann.
 
 >[!NOTE]
 >
->AEM Assets muss diesen Workflow nicht unterstützen, kann aber einen optimierten Prozess für die Verwaltung von Kampagnen-Assets in der gesamten Kampagnenentwicklungs-Lieferkette ermöglichen.
+>AEM Assets ist für diesen Workflow nicht unbedingt erforderlich, ermöglicht aber die reibungslose Verwaltung von Kampagnen-Assets während des gesamten Kampagnenerstellungsprozesses.
 
-### Zusammenstellen einer Suchbibliothek für alle Programmanforderungstypen {#assemble-a-lookup-library-for-all-program-request-types}
+### Zusammenstellen einer Lookup-Bibliothek für alle Programmanfragetypen {#assemble-a-lookup-library-for-all-program-request-types}
 
-Bei der Automatisierung der Erstellung neuer Marketo Engage-Programme aus Workfront-Anforderungen ist es wichtig, einen Schritt in Ihre Workfront Fusion-Automatisierung einzuschließen, der Informationen aus der Workfront-Anfrage aufnehmen und nach den richtigen Programmvorlagen suchen kann, die in Marketo Engage geklont werden sollen.
+Wenn Sie die Erstellung neuer Marketo Engage-Programme unter Verwendung von Workfront-Anfragen automatisieren, muss in Ihre Workfront Fusion-Automatisierung ein Schritt eingebaut sein, der dafür sorgt, dass Informationen aus der Workfront-Anfrage entnommen werden und nach den richtigen Programmvorlagen, die in Marketo Engage dupliziert werden sollen, gesucht wird.
 
-Dazu können Sie einen Datensatz in Workfront Fusion importieren, der eine Liste aller verschiedenen Programmvorlagen in Ihrem Marketo Engage Center of Excellence enthält.
+Zu diesem Zweck können Sie einen Datensatz in Workfront Fusion importieren, der eine Liste aller Programmvorlagen in Ihrem Marketo Engage Center of Excellence enthält.
 
-Einige grundlegende Informationen, die in Ihre Lookup-Bibliothek für Programmvorlagen aufgenommen werden sollen:
+Einige grundlegende Informationen, die Ihre Lookup-Bibliothek für Programmvorlagen enthalten sollte:
 
 <table> 
   <tr> 
@@ -128,33 +128,33 @@ Einige grundlegende Informationen, die in Ihre Lookup-Bibliothek für Programmvo
   </tr>
   <tr> 
    <td>Kampagnentyp</td>
-   <td>Dabei kann es sich um E-Mail, Webinar, Pflege, Veranstaltung, Webinar von Drittanbietern, Listenimport etc. handeln. Der Kampagnentyp dient als lesbare Beschreibung für die angeforderten Informationen.</td>
+   <td>Beispiele sind E-Mail, Webinar, Nurture, Veranstaltung, Webinar für Drittanbieter, Listenimport. Der Kampagnentyp ist eine lesbare Beschreibung der Anfrage.</td>
   </tr>
   <tr> 
-   <td>Workfront-Anforderungstyp</td>
-   <td>Dies ist der Anfragetyp, der im Workfront-Formular ausgewählt wird. Dieser kann mit dem Kampagnentyp übereinstimmen, z. B. E-Mail, Webinar, Pflege oder Ereignis. Dies wird verwendet, um die im Workfront-Formular ausgewählte Eingabe einer Programmvorlage in Marketo zuzuordnen.</td>
+   <td>Workfront-Anfragetyp</td>
+   <td>Dies ist der Anfragetyp, der im Workfront-Formular ausgewählt wird. Er kann mit dem Kampagnentyp identisch sein, z. B. E-Mail, Webinar, Nurture oder Veranstaltung. Diese Information wird verwendet, um die im Workfront-Formular ausgewählte Eingabe einer Programmvorlage in Marketo zuzuordnen.</td>
   </tr>
   <tr> 
    <td>Workfront-Formular-ID</td>
-   <td>Die eindeutige ID des Workfront-Anfrageformulars, das zur Überprüfung der Schreibanforderung verwendet wird, wird der Marketo Engage-Programmvorlage zugeordnet.</td>
+   <td>Die eindeutige ID des Workfront-Anfrageformulars, die verwendet wird, um die Schreibanfrage zu validieren, die der Marketo Engage-Programmvorlage zugeordnet wird.</td>
   </tr>
   <tr> 
    <td>Marketo-Programm-ID</td>
-   <td>Dies ist die Kennung der Programmvorlage in Marketo Engage, die der ausgeführten Anforderung zugeordnet ist. Wenn diese Informationen in Workfront Fusion verfügbar sind, kann Fusion die Anfrage an Marketo Engage stellen und genau wissen, welches Programm klont.</td>
+   <td>Dies ist die Kennung der Programmvorlage in Marketo Engage, die der aktuellen Anfrage zugeordnet ist. Wenn diese Informationen in Workfront Fusion verfügbar sind, erstellt Fusion die Anfrage an Marketo Engage und dupliziert das entsprechende Programm.</td>
   </tr>
   </tbody>
 </table>
 
-## Automatisierungsfluss aufnehmen und erstellen {#intake-and-create-automation-flow}
+## Annahme und Erstellung – Automatisierungsfluss {#intake-and-create-automation-flow}
 
-Hier ist ein Beispiel dafür, wie die Workflow-Logik in Fusion mithilfe von vordefinierten [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;} und [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target=&quot;_blank&quot;} Module, mit denen Sie Automatisierung schneller bereitstellen können.
+Hier finden ein Beispiel dafür, wie die Workflow-Logik in Fusion mithilfe von vorgefertigten [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target=&quot;_blank&quot;}- und [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target=&quot;_blank&quot;}-Modulen erstellt werden kann und dadurch eine schnellere Automatisierung ermöglicht.
 
 ![](assets/intake-and-create-3.png)
 
 ## Ressourcen {#resources}
 
-* [Adobe Marketo Engage-Module](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target=&quot;_blank&quot;}
+* [Adobe Marketo Engage-Module](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target=&quot;_blank&quot;}
 
-* [Adobe Workfront-Module](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
+* [Adobe Workfront-Module](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target=&quot;_blank&quot;}
 
-* [Überblick über Marketo und Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
+* [Marketo und Workfront im Überblick](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}

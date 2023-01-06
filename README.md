@@ -1,8 +1,8 @@
 ---
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 # Artikel beisteuern
@@ -15,13 +15,13 @@ Dieses Projekt beachtet den [Adobe Open Source Code of Conduct](code-of-conduct.
 
 ## Informationen zu Ihren Beiträgen zu Adobe-Inhalten
 
-Beachten Sie den [Contributor Guide für die Adobe-Dokumentation](https://docs.adobe.com/content/help/de-DE/contributor/contributor-guide/introduction.html).
+Beachten Sie den [Contributor Guide für die Adobe-Dokumentation](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 Wie Sie beitragen können, hängt davon ab, in welcher Beziehung Sie zu Adobe stehen und welche Arten von Änderungen Sie beitragen möchten:
 
 ### Kleinere Änderungen
 
-Wenn Sie gern kleinere Verbesserungen vornehmen möchten, rufen Sie den Artikel auf und klicken Sie darin auf den Link **Edit**, um die Quelldatei in GitHub aufzurufen. Verwenden Sie dann die Benutzeroberfläche von GitHub, um Ihre Änderungen vorzunehmen. Weitere Informationen finden Sie im [Contributor Guide für die Adobe-Dokumentation](https://docs.adobe.com/content/help/de-DE/contributor/contributor-guide/introduction.html).
+Wenn Sie gern kleinere Verbesserungen vornehmen möchten, rufen Sie den Artikel auf und klicken Sie darin auf den Link **Edit**, um die Quelldatei in GitHub aufzurufen. Verwenden Sie dann die Benutzeroberfläche von GitHub, um Ihre Änderungen vorzunehmen. Weitere Informationen finden Sie im [Contributor Guide für die Adobe-Dokumentation](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 Kleinere Korrekturen oder Klarstellungen zur Dokumentation und zu Code-Beispielen in diesem Repository unterliegen den Nutzungsbedingungen von Adobe.
 
@@ -43,7 +43,7 @@ Wenn es Ihre Aufgabe als technischer Redakteur, Programm-Manager oder Entwickler
 
 Mitwirkende aus der Community können für einfache Bearbeitungsaufgaben oder zum Verzweigen des Repositorys für größere Beiträge die Benutzeroberfläche von GitHub verwenden.
 
-Einzelheiten dazu finden Sie im [Contributor Guide für die Adobe-Dokumentation](https://docs.adobe.com/content/help/de-DE/contributor/contributor-guide/introduction.html).
+Einzelheiten dazu finden Sie im [Contributor Guide für die Adobe-Dokumentation](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Formatieren eines Themas mithilfe von Markdown
 

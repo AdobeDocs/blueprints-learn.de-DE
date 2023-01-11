@@ -1,8 +1,8 @@
 ---
 source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Mitwirken
@@ -17,7 +17,7 @@ Für dieses Projekt gilt der [Adobe-Verhaltenskodex](code-of-conduct.md). Mit de
 
 ## Dokumentation zum Contributor Guide.
 
-Siehe [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Siehe [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de).
 
 ## Sie haben eine Frage?
 
@@ -29,7 +29,7 @@ Die Teilnahme Dritter an diesem Projekt setzt die Unterzeichnung einer Lizenzver
 
 ## Code-Prüfungen
 
-Alle Einreichungen müssen in Form von Pull-Anfragen erfolgen und werden von den Projekt-Committern geprüft. Weitere Informationen zum Einreichen von Pull-Anfragen finden Sie in der [entsprechenden Dokumentation von GitHub](https://help.github.com/articles/about-pull-requests/).
+Alle Einreichungen müssen in Form von Pull-Anfragen erfolgen und werden von den Projekt-Committern geprüft. Weitere Informationen zum Einreichen von Pull-Anfragen finden Sie in der [entsprechenden Dokumentation von GitHub](https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when

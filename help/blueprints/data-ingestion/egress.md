@@ -1,36 +1,36 @@
 ---
-title: Blueprint für den Datenzugriff und Datenexport
+title: Data Access and Export Blueprint
 description: Diese Blueprint bietet einen Überblick über alle Methoden, mit denen Daten aus Adobe Experience Platform und den zugehörigen Anwendungen abgerufen und exportiert werden können.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Blueprint für den Datenzugriff und Datenexport
+# Data Access and Export Blueprint
 
 Im Blueprint für den Datenzugriff und Datenexport werden alle möglichen Methoden beschrieben, mit denen Daten aus Adobe Experience Platform und den zugehörigen Anwendungen abgerufen oder exportiert werden können.
 
 Die Blueprint beinhaltet zwei Arten von Datenzugriff über Experience Platform und die zugehörigen Anwendungen. Einerseits werden Methoden zum Export von Daten aus Experience Platform und den zugehörigen Anwendungen beschrieben. Hierbei wird eine Push-Methode verwendet. Andererseits werden Methoden für den Zugriff auf Daten in Experience Platform und den zugehörigen Anwendungen beschrieben. Hierzu wird eine Pull-Methode verwendet.
 
-Methoden für den Datenzugriff
+Datenzugriffsansätze:
 
 * [Real-time Customer Profile Access API](#rtcp-profile-access-api)
 * [Data Access API](#data-access-api)
 * [Abfrage-Service](#query-service)
 
-Methoden für den Datenexport
+Datenexportansätze:
 
 * [Client-seitige Tags](#client-side-tags-extensions)
 * [Ereignisweiterleitung](#event-forwarding)
 * [Real-time Customer Data Platform-Ziele](#RTCDP-destinations)
 * [Benutzerdefinierte Journey Optimizer-Aktionen](#jo-custom-actions)
 
-## Architektur für den Datenzugriff und Datenexport im Überblick
+## Architektur mit Datenzugriff und -export
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für die Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a" />
 
@@ -42,7 +42,7 @@ Kunden können über die Real-time Customer Profile Access API auf einzelne einh
 
 Weitere Informationen finden Sie in der Dokumentation zur [Real-time Customer Profile Access API](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=de).
 
-#### Anwendungsfälle
+#### Anwendungsbeispiele
 
 * Suche nach einem einzelnen Profil, um Kontext zur Kundeninteraktion mit dem Kundenservice hinzuzufügen, z. B. zu einer Support-Anfrage über das Chat- und Callcenter oder einem Einkauf im Geschäft.
 * Hinzufügen von zusätzlichem Kontext zu einer von einem externen System durchgeführten Personalisierungsentscheidung, z. B. einem Web-Personalisierungssystem oder einem Angebotsentscheidungssystem.
@@ -59,7 +59,7 @@ Mit der Data Access API können Kunden direkt auf die Rohdatensatzdateien im Dat
 
 * Weitere Informationen zur Verwendung der Data Access API finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-access/home.html?lang=de).
 
-#### Anwendungsfälle
+#### Anwendungsbeispiele
 
 * Abrufen von Dateien mit Rohdaten und verarbeiteten Daten aus Experience Platform, um sie in Unternehmensumgebungen zu speichern und auszuwerten.
 
@@ -74,7 +74,7 @@ Mithilfe des Abfrage-Service von Experience Platform können Kunden Datensätze 
 
 * Weitere Informationen zur Verbindung mit SQL-Clients zum Speichern von SQL-Ergebnissen über den Experience Platform-Abfrage-Service finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=de).
 
-#### Anwendungsfälle
+#### Anwendungsbeispiele
 
 * Abfrage von Rohdaten aus Experience Platform-Datensätzen und Speicherung der Abfrageergebnisse.
 * Abfrage des Profil-Snapshot-Datensatzes, um Insights zum Echtzeit-Kundenprofil zu erhalten. [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=de#profile-attribute-datasets).
@@ -88,13 +88,13 @@ Mithilfe des Abfrage-Service von Experience Platform können Kunden Datensätze 
 
 ## Methoden für den Datenexport
 
-### Client-seitige Tags-Erweiterungen {#client-side-tags-extensions}
+### Clientseitige Tag-Erweiterungen {#client-side-tags-extensions}
 
 Erweiterungen können mit der Tags-Lösung von Adobe bereitgestellt werden. Nach der Implementierung einer Erweiterung werden Datenanfragen direkt in einem Client-Browser oder einer Anwendung durchgeführt. Mit einer Anfrage können Daten und Anfragen an das gewünschte Ziel gesendet werden.
 
 Weitere Informationen finden Sie in der Dokumentation zur [Übersicht über Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
 
-#### Anwendungsfälle
+#### Anwendungsbeispiele
 
 * Erfassen von Roh-Streaming-Informationen direkt in Client-seitigen Umgebungen mithilfe von Tags.
 
@@ -111,13 +111,13 @@ Datenerfassungsanfragen werden direkt im Edge Network von Adobe erfasst. Im Edge
 
 Weitere Informationen finden Sie in der folgenden Dokumentation zur [Ereignisweiterleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=de).
 
-#### Anwendungsfälle
+#### Anwendungsbeispiele
 
 * Erfassen von Roh-Streaming-Daten direkt in Client-seitigen Umgebungen und Weiterleitung an einen Unternehmens-Endpunkt mithilfe der Server-seitigen Ereignisweiterleitung von Adobe.
 
 #### Allgemeine Überlegungen
 
-* Um die Ereignisweiterleitung zu verwenden, müssen die Daten mithilfe des WebSDK oder MobileSDK an das Edge Network gesendet werden.
+* Um die Ereignisweiterleitung zu verwenden, müssen Daten mithilfe des Web SDK oder MobileSDK an das Edge-Netzwerk gesendet werden.
 * Durch die Ereignisweiterleitung werden die Seitenladezeit und -last reduziert, da zusätzliche Tags zur Seite hinzugefügt werden.
 * Derzeit wird keine Anreicherung über das Edge-Profil oder andere Datenquellen unterstützt.
 * Eingeschränkte Datenfilterung und einfache Mapping-Umwandlungen werden unterstützt.
@@ -128,7 +128,7 @@ Profilattributdaten und Zielgruppen-Zugehörigkeitsdaten können für Unternehme
 
 Weitere Informationen finden Sie in der Dokumentation zu [Real-time Customer Data Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de).
 
-#### Anwendungsfälle
+#### Anwendungsbeispiele
 
 * Aktivierung von Profilattribut-Informationen, einschließlich der Zielgruppen-Zugehörigkeit für interne Unternehmensdatenspeicher, Analyse-Tools, E-Mail-Systeme oder Support-Systeme.
 * Aktivierung der Profil-Zielgruppen-Zugehörigkeit für einen externen Werbeanbieter, um Inhalte auf das Profil auszurichten und zu personalisieren.
@@ -144,7 +144,7 @@ Mit Journey Optimizer können Kunden eine benutzerdefinierte Aktion über die Jo
 
 Weitere Informationen finden Sie in der Dokumentation zu [benutzerdefinierten Journey Optimizer-Aktionen](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions.html?lang=de).
 
-#### Anwendungsfälle
+#### Anwendungsbeispiele
 
 * Aktivierungsereignisse in Experience Platform und Journey Optimizer, die zusätzliche Informationen vom Echtzeit-Kundenprofil enthalten.
 * Benachrichtigung externer Systeme, wenn ein Kunde einen bestimmten Punkt einer Journey erreicht hat.

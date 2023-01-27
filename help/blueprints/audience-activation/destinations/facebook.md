@@ -4,10 +4,10 @@ description: Aktivierung für Facebook Custom Audiences.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Social Ad Networks wie Facebook, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren.
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.
 * Online-Personalisierung mit Online- und Offline-Attributen.

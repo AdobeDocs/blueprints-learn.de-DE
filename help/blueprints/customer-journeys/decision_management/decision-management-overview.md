@@ -1,18 +1,18 @@
 ---
-title: Entscheidungs-Management – Überblick
+title: Entscheidungsmanagement-Blueprints
 description: Bereitstellung personalisierter Angebote für alle Customer Journeys.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 93%
 
 ---
 
-# Journey Optimizer – Überblick über Entscheidungs-Management
+# Journey Optimizer - Blueprints zur Entscheidungsverwaltung
 
-Weitere Informationen zum Entscheidungs-Management finden Sie in der Produktdokumentation [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de)
+Weitere Informationen zur Entscheidungsverwaltung finden Sie unter [Produktdokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de)
 
 Das Entscheidungs-Management von Adobe ist ein Service, der im Rahmen von Adobe Journey Optimizer bereitgestellt wird. In dieser Blueprint werden die Anwendungsfälle und technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von und Überlegungen zu Entscheidungs-Management eingehend erläutert.
 
@@ -25,7 +25,7 @@ Die Entscheidungs-Management-Funktion besteht aus zwei Hauptkomponenten:
 
 <img src="../assets/offers_overview.png" alt="Entscheidungs-Management" style="width:100%; border:1px solid #4a4a4a" />
 
-Das Entscheidungs-Management kann auf zwei Arten bereitgestellt werden: im Edge oder über den Hub. Jede dieser Methoden verfügt über einen spezifischen Satz von Schnittstellen und Protokollen zum Betrieb des Service, die in den entsprechenden unten genannten Blueprints beschrieben werden. Weitere Informationen finden Sie auch [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=de) in der Dokumentation zum Entscheidungs-Management.
+Das Entscheidungs-Management kann auf zwei Arten bereitgestellt werden: im Edge oder über den Hub. Jede dieser Methoden verfügt über einen spezifischen Satz von Schnittstellen und Protokollen zum Betrieb des Service, die in den entsprechenden unten genannten Blueprints beschrieben werden. Weitere Informationen finden Sie auch im Abschnitt [Dokumentation zur Entscheidungsverwaltung](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=de).
 
 ## Entscheidungs-Management am Hub
 
@@ -33,7 +33,7 @@ Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums
 
 * Die Angebotseignung kann auf das gesamte Echtzeit-Kundenprofil einschließlich aller Attribute und Erlebnisereignisse angewendet werden.
 
-### Anwendungsfälle für das Entscheidungs-Management auf dem Hub
+### Anwendungsbeispiele für die Entscheidungsverwaltung am Hub
 
 * Personalisierte Angebote für Terminals und Erlebnisse im Laden.
 * Personalisierte Angebote über von Agenten unterstützte Erlebnisse wie Callcenter oder Vertriebsinteraktionen.
@@ -50,7 +50,7 @@ Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums
 
 Der zweite Ansatz erfolgt über das Experience Edge Network, eine global verteilte, geografische Infrastruktur, die schnelle Erlebnisse in weniger als einer Sekunde bzw. Millisekunden bereitstellt. Das Endverbrauchererlebnis wird von der Edge-Infrastruktur ausgeführt, die dem geografischen Standort der Verbraucher am nächsten ist, um Latenzzeiten zu minimieren. Das Entscheidungs-Management im Edge ist für Echtzeit-Kundenerlebnisse konzipiert, wie über Web oder Mobile eingehende Personalisierungsanfragen. Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blueprint [Entscheidungs-Management im Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=de).
 
-### Anwendungsfälle für das Entscheidungs-Management im Edge
+### Anwendungsbeispiele für die Entscheidungsverwaltung am Rand
 
 * Online-Personalisierung über eingehende Web- oder mobile Erlebnisse.
 * Kanalübergreifende Journey-Ausführung - Konsistenz in Web, Mobile, E-Mail und auf anderen Interaktionskanälen über Adobe Journey Optimizer.

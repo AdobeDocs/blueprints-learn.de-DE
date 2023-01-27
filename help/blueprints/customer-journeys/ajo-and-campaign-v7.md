@@ -1,16 +1,16 @@
 ---
-title: 'Blueprint: Journey Optimizer mit Adobe Campaign v7'
+title: Journey Optimizer mit Adobe Campaign v7-Blueprint
 description: Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Journey Optimizer mit Adobe Campaign   v7
+# Journey Optimizer mit Adobe Campaign   v7 Blueprint
 
 Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden.
 
@@ -45,7 +45,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 
 [Produkt-Link zu Journey Optimizer-Leitlinien](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=de)
 
-### Weitere Leitlinien für Journey Optimizer
+### Zusätzliche Limits für Journey Optimizer
 
 * Die Begrenzung ist jetzt über eine API möglich. So wird sichergestellt, dass das Zielsystem nicht so überlastet wird, dass ein Fehler auftritt. Dies bedeutet, dass Nachrichten, die die Begrenzung überschreiten, vollständig ignoriert und niemals gesendet werden. Drosselung wird nicht unterstützt.
    * Max. Verbindungen: Maximale Zahl der http/s-Verbindungen, die ein Ziel bewältigen kann
@@ -58,7 +58,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 * Streaming-Segmente: Stellen Sie sicher, dass der erste Strom von Profilqualifikationen neben täglichen Streaming-Volumen pro Journey und für sämtliche Journeys bewältigt werden kann
 * Entscheidungs-Management wird nicht unterstützt
 * Unternehmens-Events werden nicht unterstützt
-* Ausgehende Integrationen mit Drittanbietersystemen
+* Ausgehende Integrationen in Drittanbietersysteme
    * Keine Unterstützung für einzelne statische IPs, da wir eine Mehrmandanten-Infrastruktur verwenden (alle Daten-Center-IPs müssen aufgelistet sein)
    * Nur die POST- und die PUT-Methode werden für benutzerdefinierte Aktionen unterstützt
    * Authentifizierungsunterstützung: Token | Passwort | OAuth2
@@ -115,7 +115,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 * Messaging-Vorlagen müssen mit geeignetem Personalisierungskontext konfiguriert werden
 * Für Campaign v7: Export-Workflows müssen so konfiguriert werden, dass die Transaktionsnachrichten-Protokolle zurück nach Experience Platform exportiert werden. Es wird empfohlen, sie höchstens alle vier Stunden auszuführen.
 
-### Mobilgeräte-Push-Konfiguration (optional)
+### Mobile Push-Konfiguration (optional)
 
 1. Implementieren Sie das Experience Platform Mobile SDK zum Sammeln von Push-Tokens und Login-Informationen zum Abgleich mit Kundenprofilen
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:

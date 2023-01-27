@@ -1,16 +1,16 @@
 ---
-title: 'Blueprint: Journey Optimizer - Drittanbieter-Messaging'
+title: Journey Optimizer - Messaging-Blueprint von Drittanbietern
 description: Zeigt, wie Adobe Journey Optimizer mit Drittanbieter-Messaging-Systemen genutzt werden kann, um personalisierte Kommunikation zu orchestrieren und zu senden.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '823'
+ht-degree: 92%
 
 ---
 
-# Drittanbieter-Messaging
+# Messaging-Blueprint von Drittanbietern
 
 Zeigt, wie Adobe Journey Optimizer mit Drittanbieter-Messaging-Systemen genutzt werden kann, um personalisierte Kommunikation zu orchestrieren und zu senden.
 
@@ -30,7 +30,7 @@ Adobe Experience Platform
 * Fügen Sie für Schemas, die auf der Klasse „Erlebnisereignis“ basieren, die Feldgruppe „Orchestrierungsereignis-ID“ hinzu, wenn ein Ereignis ausgelöst werden soll, das kein regelbasiertes Ereignis ist.
 * Fügen Sie für Schemas, die auf der Klasse „Individuelles Profil“ basieren, die Feldgruppe „Profil-Testdetails“ hinzu, um die Testprofile für die Verwendung mit Journey Optimizer laden zu können.
 
-Drittanbieter-Messaging-Programm
+Messaging-Anwendung von Drittanbietern
 
 * Muss REST-API-Aufrufe zum Senden von Transaktions-Payloads unterstützen
 
@@ -52,7 +52,7 @@ Weitere Leitlinien für Journey Optimizer:
 * Batch-Segmente: Stellen Sie sicher, dass Sie das tägliche Volumen an qualifizierten Nutzern verstehen und dass das Zielsystem den maximalen Durchsatz pro Journey und für sämtliche Journeys bewältigen kann
 * Streaming-Segmente: Stellen Sie sicher, dass der erste Strom von Profilqualifikationen neben täglichen Streaming-Volumen pro Journey und für sämtliche Journeys bewältigt werden kann
 * Entscheidungs-Management wird nicht unterstützt
-* Ausgehende Integrationen mit Drittanbietersystemen
+* Ausgehende Integrationen in Drittanbietersysteme
    * Keine Unterstützung für einzelne statische IPs, da wir eine Mehrmandanten-Infrastruktur verwenden (alle Daten-Center-IPs müssen aufgelistet sein)
    * Nur die POST- und die PUT-Methode werden für benutzerdefinierte Aktionen unterstützt
    * Authentifizierungsunterstützung: Token | Passwort | OAuth2
@@ -60,7 +60,7 @@ Weitere Leitlinien für Journey Optimizer:
 
 <br>
 
-Drittanbieter-Messaging-System
+Messaging von Drittanbietern
 
 * Es muss bekannt sein, welche Last das System für Transaktions-API-Aufrufe unterstützen kann
    * Anzahl der zulässigen Aufrufe pro Sekunde
@@ -69,8 +69,8 @@ Drittanbieter-Messaging-System
    * Authentifizierungstyp:  Token | Passwort | OAuth2 über Journey Optimizer unterstützt
    * Authentifizierungs-Aufbewahrungsfrist im Cache:  Wie lang ist das Token gültig? 
 * Wenn nur Batch-Aufnahme unterstützt wird, muss in eine Cloud-Speicher-Engine wie Amazon Kinesis oder Azure Event Grid 1st gestreamt werden
-   * Daten können per Batch über einen Trichter aus diesen Cloud-Speicher-Engines in die Drittanbieterlösung geleitet werden
-   * Die Bereitstellung sämtlicher erforderlicher Middleware liegt in der Verantwortung des Kunden oder des Drittanbieters
+   * Daten können aus diesen Cloud-Speicher-Engines in Batches zusammengefasst und in die Drittanbieter-Datenbank eingespeist werden
+   * Jegliche erforderliche Middleware würde in der Verantwortung des Kunden oder Drittanbieters liegen,
 
 <br>
 
@@ -80,7 +80,7 @@ Drittanbieter-Messaging-System
 
 #### Schema/Datensätze
 
-1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
+1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) in Experience Platform für die aufzunehmenden Daten.
 1. [Fügen Sie dem Datensatz in Experience Platform Datennutzungskennzeichnungen hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=de), um ordnungsgemäße Governance zu gewährleisten.
 1. [Erstellen Sie Richtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=de), um die Governance an den Zielen umzusetzen.
@@ -103,13 +103,13 @@ Drittanbieter-Messaging-System
 1. Konfigurieren Sie externe Datenquellen
 1. Konfigurieren Sie benutzerdefinierte Aktionen für ein Drittanbieterprogramme
 
-### Mobile-Push-Konfiguration (optional, da Drittanbieter möglicherweise Token sammelt)
+### Mobile Push-Konfiguration (optional, da Drittanbieter-Token erfassen können)
 
 1. Implementieren Sie das Experience Platform Mobile SDK zum Sammeln von Push-Tokens und Login-Informationen zum Abgleich mit Kundenprofilen
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * Identität  für Edge Network
+   * Identität      für Edge Network
    * Mobile Core
 1. Stellen Sie sicher, dass Sie über einen dedizierten Daten-Stream für Mobile-App-Implementierungen verfügen, der sich von dem für Web-Implementierungen unterscheidet
 1. Weitere Informationen finden Sie im [Mobile-Handbuch für Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

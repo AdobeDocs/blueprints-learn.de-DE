@@ -4,10 +4,10 @@ description: Aktivierung für Google Customer Match.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Social Ad Networks wie Google Customer Match, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren. Mit Google Customer Match können Sie Ihre Online- und Offline-Daten verwenden, um Ihre Kunden über die eigenen und betriebenen Präsenzen von Google (z. B. Search, Shopping, Gmail und YouTube) zu erreichen oder erneut mit ihnen zu interagieren.
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.
 * Online-Personalisierung mit Online- und Offline-Attributen.

@@ -1,25 +1,25 @@
 ---
-title: Aktivierung eines bekannten Kunden
+title: Aktivierung eines bekannten Kunden Blueprint
 description: Online-/Offline-Zielgruppenaktivierung.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '568'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 79%
 
 ---
 
-# Blueprint: Aktivierung eines bekannten Kunden
+# Bekannter Blueprint zur Kundenaktivierung
 
 Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treuedaten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.
 
 Erweiterte Kennungen mit integrierten Governance-Steuerelementen bieten mehr Möglichkeiten zur Kommunikation mit bekannten Kunden. Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele.
 
-Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md), insbesondere zu Integrationen zwischen Experience Platform und Experience Cloud-Programmen.
+Weitere Details finden Sie im Abschnitt [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen](platform-and-applications.md) spezifisch für Integrationen zwischen Experience Platform- und Experience Cloud-Anwendungen.
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.
 * Online-Personalisierung mit Online- und Offline-Attributen.
@@ -32,14 +32,14 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 ## Architektur
 
-### Aktivierung eines bekannten Kunden über Real-time Customer Data Platform
+### Bekannte Kundenaktivierung über Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Referenzarchitektur für die Blueprint „Aktivierung eines bekannten Kunden“" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Referenzarchitektur für den Blueprint zur bekannten Kundenaktivierung" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### Aktivierung eines bekannten Kunden über personenbasierte Ziele von Audience Manager
+### Bekannte Kundenaktivierung über benutzerspezifische Audience Manager-Ziele
 
-<img src="assets/AAM_PBD.svg" alt="Referenzarchitektur für die Blueprint „Aktivierung eines bekannten Kunden“" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Referenzarchitektur für den Blueprint zur bekannten Kundenaktivierung" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien
@@ -61,9 +61,9 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 * Die Freigabe von Profildaten an Ziele erfordert, dass der spezifische Identitätswert, der vom Ziel in der Ziel-Payload verwendet wird, mit eingeschlossen wird. Jede Identität, die für ein Ziel notwendig ist, muss in Platform aufgenommen und als eine Identität für das [!UICONTROL Echtzeit-Kundenprofil] konfiguriert werden.
 
-* In der Blueprint [Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md) finden Sie weitere Informationen zur Freigabe von Zielgruppen aus Real-time Customer Data Platform für Audience Manager, Analytics, Target, Campaign und Journey Optimizer.
+* Siehe [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen](platform-and-applications.md) Weitere Informationen zur Freigabe von Zielgruppen von Real-time Customer Data Platform für Audience Manager, Analytics, Target, Campaign und Journey Optimizer.
 
-## Implementierungsschritte für personenbasierte Ziele von Audience Manager
+## Implementierungsschritte für benutzerspezifische Audience Manager-Ziele
 
 * Weitere Informationen zur Implementierung von Audience Manager finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de).
 
@@ -71,7 +71,7 @@ Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilakt
 
 ## Verwandte Dokumentation
 
-* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+* Produktbeschreibung zu [[!UICONTROL Real-time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)

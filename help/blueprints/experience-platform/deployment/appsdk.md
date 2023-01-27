@@ -1,18 +1,18 @@
 ---
-title: Anwendungsspezifische SDK-Implementierung
+title: Architekturdiagramm zur anwendungsspezifischen SDK-Bereitstellung
 description: Diese Blueprint beschreibt die Architektur und die Aufnahme mithilfe der anwendungsspezifischen SDKs.
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
-workflow-type: ht
-source-wordcount: '89'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 86%
 
 ---
 
-# Anwendungsspezifische SDK-Implementierung
+# Architekturdiagramm zur anwendungsspezifischen SDK-Bereitstellung
 
 Das folgende Architekturdiagramm veranschaulicht die Integrationspfade und die Datenaufnahme mithilfe anwendungsspezifischer SDKs für die Implementierung.
 

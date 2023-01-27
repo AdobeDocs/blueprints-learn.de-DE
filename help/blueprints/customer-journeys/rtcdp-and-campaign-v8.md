@@ -1,15 +1,16 @@
 ---
-title: Muster für die Integration von Real-Time CDP mit Adobe Campaign v8
+title: Integrationsmuster von Real-Time CDP mit Adobe Campaign v8
 description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign v8 genutzt werden können, um personalisierte Konversationen bereitzustellen
 solution: Real-time Customer Data Platform, Campaign
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: ht
+exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
-# Muster für die Integration von Real-Time CDP mit Adobe Campaign v8
+# Integrationsmuster von Real-Time CDP mit Adobe Campaign v8
 
 Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
 
@@ -24,7 +25,7 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 
 ## Architektur
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Referenzarchitektur für das Integrationsmuster für Batch-Messaging und Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Referenzarchitektur für das Integrationsmuster Batch Messaging und Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -60,7 +61,7 @@ Weitere Informationen zum Konfigurieren des Quell-Connectors von Campaign v8 fü
 * Die Aktivierungslatenz beträgt mindestens 3 Stunden
 * Nur Vereinigungsschema-Attribute sind für die Aktivierung verfügbar (keine Unterstützung von Array/Karten/Erlebnisereignisse)
 * Begrenzung auf 20 Attribute pro Segment empfohlen
-* Eine Datei pro Segment von allen Profilen mit „realisierter“ Segmentzugehörigkeit ODER, wenn Segmentzugehörigkeit als Attribut in der Datei hinzugefügt wird, sowohl „realisierte“ als auch „verlassene“ Profile
+* Eine Datei pro Segment aller Profile mit &quot;realisierter&quot;Segmentzugehörigkeit ODER wenn die Segmentzugehörigkeit als Attribut in der Datei sowohl &quot;realisierte&quot;als auch &quot;ausgehende&quot;Profile hinzugefügt wird
 * Schrittweise und vollständige Segment-Exporte werden unterstützt
 * Datei-Verschlüsselung wird nicht unterstützt
 * Siehe Leitlinien für die Profil- und Datenaufnahme für AEP – [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)

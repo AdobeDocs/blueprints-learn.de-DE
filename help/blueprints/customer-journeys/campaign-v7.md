@@ -1,22 +1,22 @@
 ---
-title: 'Blueprint: Campaign v7'
+title: Campaign v7-Blueprint
 description: Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanäle wie E-Mail und Direkt-Mail entwickelt wurde. Es bietet robuste ETL- und Daten-Management-Funktionen, die Sie beim Entwurf und bei der Kuratierung der perfekten Kampagne unterstützen. Die Orchestrierungs-Engine ermöglicht umfangreiche Multi-Touch-Marketing-Programme mit zentralem Fokus auf Batch-basierten Journeys. Außerdem bietet es einen Echtzeit-Messaging-Server, mit dem Marketing-Teams vordefinierte Mitteilungen auf Basis einer vollumfänglichen Payload aus beliebigen IT-Systemen senden können, wenn z. B. Passwörter zurückgesetzt, Bestellungen bestätigt oder Empfangsbelege versendet werden müssen.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
-# Blueprint: Campaign v7
+# Campaign v7-Blueprint
 
 Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanäle wie E-Mail und Direkt-Mail entwickelt wurde. Es bietet robuste ETL- und Daten-Management-Funktionen, die Sie beim Entwurf und bei der Kuratierung der perfekten Kampagne unterstützen. Die Orchestrierungs-Engine ermöglicht umfangreiche Multi-Touch-Marketing-Programme mit zentralem Fokus auf Batch-basierten Journeys. Außerdem bietet es einen Echtzeit-Messaging-Server, mit dem Marketing-Teams vordefinierte Mitteilungen auf Basis einer vollumfänglichen Payload aus beliebigen IT-Systemen senden können, wenn z. B. Passwörter zurückgesetzt, Bestellungen bestätigt oder Empfangsbelege versendet werden müssen.
 
 <br>
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Batch-basierte Messaging-Programme
 * Onboarding- und Re-Marketing-Kampagnen
@@ -42,13 +42,13 @@ Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanä
 
 ## Voraussetzungen
 
-### Anwendungs-Server und Echtzeit-Messaging-Server
+### Anwendungsserver und Echtzeitnachrichtenserver
 
 * Die Client-Konsole von Adobe Campaign ist für die Interaktion mit und Nutzung von Campaign v8 erforderlich. Dies ist ein Windows-basierter Client, der Standard-Internet-Protokolle verwendet (SOAP, HTTP usw.). Stellen Sie sicher, dass in Ihrem Unternehmen die erforderlichen Berechtigungen für das Verteilen, Installieren und Ausführen von Software aktiviert sind
 
 * IP-Adressen-Zulassungsliste
    * Ermitteln Sie die IP-Bereiche, die alle Anwender während des Zugriffs auf die Client-Konsole nutzen werden
-   * Ermitteln Sie, welche Unternehmenssysteme mit dem Echtzeit-Messaging-Server kommunizieren dürfen, und stellen Sie sicher, dass diesen eine statische IP (bzw. ein Bereich) zugewiesen ist, die sich auf Ihrer Zulassungsliste befindet
+   * Identifizieren, welche Unternehmenssysteme mit dem Echtzeit-Messaging-Server kommunizieren dürfen und sicherstellen, dass ihnen eine statisch zugewiesene IP-Adresse oder ein statischer Bereich zugewiesen ist, den Sie zur Zulassungsliste nutzen können
    * Dies kann über das Control Panel von Campaign eingerichtet werden
 * sFTP-Schlüssel-Management
    * Halten Sie öffentliche SSH-Schlüssel bereit, die Sie mit dem Campaign-sFTP verwenden können. Dies kann über das Control Panel von Campaign eingerichtet werden.
@@ -59,7 +59,7 @@ Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanä
 * Die Subdomain kann entweder komplett an Adobe delegiert werden (empfohlen) oder CNAMEs können zum Verweis an Adobe-spezifische DNS-Server (benutzerdefiniert) verwendet werden
 * Für jede Subdomain ist ein Google-TXT-Datensatz erforderlich, um gute Zustellbarkeit sicherzustellen
 
-### Mobilgeräte-Push
+### Mobile Push
 
 * Halten Sie einen Mobile-Entwickler bereit, der die Mobile App bereitstellen, konfigurieren und aufbauen kann
 * Adobe bietet lediglich ein SDK zum Erfassen der nötigen Informationen von FCM (Android) und APNS (iOS), um Message-Payloads an die Server zu senden. Das Programmieren, Bereitstellen, Verwalten und Debuggen der Mobil App fällt jedoch in den Verantwortungsbereich des Kunden
@@ -73,7 +73,7 @@ Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanä
 
 ## Leitlinien
 
-### Größe des Anwendungs-Servers
+### Größe des Anwendungsservers
 
 * Speicher kann auf bis zu 100 Mio. Profile skaliert werden
 * Benutzerzugriff wird über die Adobe Admin Console eingerichtet und gesteuert (empfohlen) oder lokal im Programm selbst
@@ -82,11 +82,11 @@ Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanä
    * Die Verwendung von APIs zum Lesen von Daten für benutzerdefinierte Anwendungszwecke wird nicht unterstützt
 * API-Aufrufe sind auf 15 pro Sekunde oder 150.000 pro Tag begrenzt
 
-### Größen des Batch-Messaging-Servers
+### Größe des Batch-Messaging-Servers
 
 * Kann für die Verarbeitung von bis zu 2,5 Mio. Nachrichten pro Stunde skaliert werden
 
-### Größe des Echtzeit-Messaging-Servers
+### Skalierung von Echtzeit-Messaging-Servern
 
 * Kann bis zu 50.000 Nachrichten pro Stunde senden
 * Standardmäßig werden zwei Echtzeit-Messaging-Server bereitgestellt. Möglichkeit, auf bis zu acht Echtzeit-Messaging-Server zu skalieren.
@@ -100,7 +100,7 @@ Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanä
    * SMS MO (geht von Mobilgerät aus): Eine SMS, die von einem Mobiltelefon über den SMPP-Anbieter an Adobe Campaign gesendet wird.
    * SMS SR (Statusbericht) oder DR oder DLR (Versandbestätigung): Eine Empfangsbestätigung, die vom Mobiltelefon über den SMPP-Anbieter an Adobe Campaign gesendet wird und angibt, dass die SMS erfolgreich übermittelt wurde. Adobe Campaign kann auch SR mit einer Meldung empfangen, dass die Nachricht nicht zugestellt wird. Häufig ist auch eine Beschreibung des Fehlers enthalten.
 
-### Mobilgeräte-Push-Konfiguration
+### Mobile Push-Konfiguration
 
 * Zwei unterstützte Ansätze für die Integration mit Mobilgeräten für Push-Benachrichtigungen:
    * Experience Platform Mobile SDK (empfohlen)

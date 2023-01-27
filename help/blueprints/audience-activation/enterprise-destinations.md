@@ -1,21 +1,21 @@
 ---
-title: 'Blueprint: Zielgruppen- und Profilaktivierung für Datei- und Unternehmens-Streaming-Ziele'
+title: Blueprint zur Zielgruppen- und Profilaktivierung für Datei- und Enterprise-Streaming-Ziele
 description: Zielgruppen- und Profilaktivierung für Unternehmensziele
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Blueprint: Zielgruppen- und Profilaktivierung für Datei- und Unternehmens-Streaming-Ziele
+# Blueprint zur Zielgruppen- und Profilaktivierung für Datei- und Enterprise-Streaming-Ziele
 
 Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder Batch aus [!UICONTROL Real-Time Customer Data Platform] in Unternehmensdatenspeichern und -programmen frei. Diese Profil- und Zielgruppenereignisse können verwendet werden, um eine Verkaufs- oder Support-Aktion für den Kunden einzuleiten, z. B. im Anschluss an einen abgebrochenen Anmeldevorgang oder eine Webinar-Registrierung, oder um Unternehmensprogramme mit den neuesten Kundenattributen und Daten aus [!UICONTROL Real-Time Customer Data Platform] zu aktualisieren.
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Zielgruppen- und Profilaktivierung für Cloud-Datenspeicherziele oder Streaming-Ziele für das Tracking, die Speicherung, die Analyse und die Aktivierung von Kundendaten und Erkenntnissen.
 
@@ -34,7 +34,7 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 
 ## Implementierungsschritte
 
-1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) für die zu erfassenden Daten.
+1. [Erstellen Sie Schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) für die zu erfassenden Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) für die zu erfassenden Daten.
 1. [Konfigurieren Sie die korrekten Identitäten und Identitäts-Namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=de) im Schema, um sicherzustellen, dass aufgenommene Daten zu einem einheitlichen Profil zusammengefügt werden können.
 1. [Aktivieren Sie die Schemas und Datensätze für Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=de).

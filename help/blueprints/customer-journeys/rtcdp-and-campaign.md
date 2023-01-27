@@ -1,16 +1,16 @@
 ---
-title: Muster für die Integration von Real-Time CDP mit Adobe Campaign v7 und Campaign Standard
+title: Real-Time CDP mit Adobe Campaign v7 und Campaign Standard-Integrationsmuster
 description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '804'
+ht-degree: 91%
 
 ---
 
-# Muster für die Integration von Real-Time CDP mit Adobe Campaign
+# Integrationsmuster von Real-Time CDP mit Adobe Campaign
 
 Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
 
@@ -25,7 +25,7 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 
 ## Architektur
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="Referenzarchitektur für das Integrationsmuster für Batch-Messaging und Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Referenzarchitektur für das Integrationsmuster Batch Messaging und Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -50,7 +50,7 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 * Die Aktivierung ist auf einmal pro 24 Stunden begrenzt
 * Nur Vereinigungsschema-Attribute sind für die Aktivierung verfügbar (keine Unterstützung von Array/Karten/Erlebnisereignisse)
 * Begrenzung auf 20 Attribute pro Segment empfohlen
-* Eine Datei pro Segment von allen Profilen mit „realisierter“ Segmentzugehörigkeit ODER, wenn Segmentzugehörigkeit als Attribut in der Datei hinzugefügt wird, sowohl „realisierte“ als auch „verlassene“ Profile
+* Eine Datei pro Segment aller Profile mit &quot;realisierter&quot;Segmentzugehörigkeit ODER wenn die Segmentzugehörigkeit als Attribut in der Datei sowohl &quot;realisierte&quot;als auch &quot;ausgehende&quot;Profile hinzugefügt wird
 * Schrittweise und vollständige Segment-Exporte werden unterstützt
 * Datei-Verschlüsselung wird nicht unterstützt
 
@@ -60,7 +60,7 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 
 ### Adobe Experience Platform
 
-#### Schemas/Datensätze
+#### Schema/Datensätze
 
 1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
 1. Erstellen Sie Adobe Campaign-Schemas für broadLog, trackingLog, nicht zustellbare Adressen und Profileinstellungen (optional).
@@ -103,7 +103,7 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 1. Senden Sie Profileinstellungen über Consulting-Workflows alle vier Stunden an Experience Platform (optional).
 
 
-### Mobilgeräte-Push-Konfiguration
+### Mobile Push-Konfiguration
 
 * Zwei unterstützte Ansätze für die Integration mit Mobilgeräten für Push-Benachrichtigungen:
    * Experience Platform Mobile SDK

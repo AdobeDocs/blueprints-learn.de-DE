@@ -1,21 +1,21 @@
 ---
-title: 'Blueprint: Ereignisweiterleitung'
+title: Entwurf der Ereignisweiterleitung
 description: Streamen erfasster Daten über Experience Platform-SDKs an Ziele
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '228'
+ht-degree: 94%
 
 ---
 
-# Blueprint: Ereignisweiterleitung
+# Entwurf der Ereignisweiterleitung
 
 Die Blueprint „Ereignisweiterleitung“ zeigt, wie mit Web- und Mobile-SDKs von Adobe Experience Platform erfasste Daten vom Experience Platform Edge Network an ein gewünschtes Ziel weitergeleitet werden können. Sie können alle mit den SDKs erfassten Rohdaten oder bestimmte Daten basierend auf Ereignissen und Regeln entsprechend der Konfiguration in Tag-Eigenschaften (ehemals Launch) weiterleiten.
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Erfassen von Web- oder Mobile-Daten mit einem zentralen Sammlungs-Tag, wodurch weniger Code für Client-Browser und -Mobile-Apps nötig ist. Propagieren der erfassten Daten an verschiedene Endpunkte aus einer zentralen Datenerfassungsquelle.
 * Weiterleiten von erfassten Daten an Partnerprogramme oder Datenspeicher-Standorte für den Gewinn von Erkenntnissen und die Erstellung von Programmen anhand der erfassten Daten.
@@ -34,7 +34,7 @@ Die Blueprint „Ereignisweiterleitung“ zeigt, wie mit Web- und Mobile-SDKs vo
 * [Videos zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=de)
 * [Lektion zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=de) des Web SDK-Tutorials
 
-## Verwandte Blog-Posts
+## Verwandte Blogbeiträge
 
 * [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
 * [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)

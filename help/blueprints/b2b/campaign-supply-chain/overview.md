@@ -1,15 +1,15 @@
 ---
-description: Übersicht – Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront
-title: Übersicht
+title: Campaign-Lieferkette mit Marketo- und Workfront-Blueprints
+description: Übersicht - Optimieren der Kampagnenlieferkette mit Marketo- und Workfront-Blueprints
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
-workflow-type: ht
-source-wordcount: '1738'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '1743'
+ht-degree: 93%
 
 ---
 
-# Übersicht {#overview}
+# Campaign-Lieferkette mit Marketo- und Workfront-Blueprints {#overview}
 
 ## Schnellere Time-to-Market durch die Ablaufoptimierung bei der Durchführung von Kampagnen {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
@@ -30,7 +30,7 @@ Kampagnenentwicklungs-Teams benötigen Systeme, mit denen sie Marketing-Kampagne
 
 Durch die Integration eines Multi-Channel-Marketing-Aktivierungssystems (Marketo Engage) in die Marketing-Planung und das Aufzeichnungssystem (Workfront) können Sie das Tempo bei der Auslieferung von Kampagnen steigern und den Beteiligten bessere Transparenz bieten.
 
-Workfront Fusion hilft Marketing-Teams, manuelle Schritte und damit potenzielle Fehler bei der Umsetzung eines Marketing-Entwurfs in eine fertige Kampagne weitgehend zu eliminieren. Workfront Fusion bietet eine vordefinierte Integrationsschicht zwischen Workfront und Marketo Engage, durch die flexibel und effizient Workflows zwischen diesen Systemen erstellt werden können. [Hier](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target=&quot;_blank&quot;} erfahren Sie mehr darüber, wie Sie die Integration einrichten und Workflows automatisieren können.
+Workfront Fusion hilft Marketing-Teams, manuelle Schritte und damit potenzielle Fehler bei der Umsetzung eines Marketing-Entwurfs in eine fertige Kampagne weitgehend zu eliminieren. Workfront Fusion bietet eine vordefinierte Integrationsschicht zwischen Workfront und Marketo Engage, durch die flexibel und effizient Workflows zwischen diesen Systemen erstellt werden können. Sie erfahren mehr darüber, wie Sie die Integration einrichten und welche Maßnahmen zur Automatisierung von Workflows ergriffen werden können. [here](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target="_blank"}.
 
 ## Von der Planung bis zu Ausführung einer Kampagne – Anwendungsfälle der Automatisierung {#campaign-planning-to-execution-automation-use-cases}
 
@@ -147,7 +147,7 @@ Nachdem Sie nun ein grundlegendes Verständnis davon haben, wie Sie mit Workfron
 
 ### Erste Schritte mit der Integration von Workfront Fusion, Workfront und Marketo Engage {#getting-started-with-workfront-fusion}
 
-* [Annahme und Erstellung](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} – Automatisierung der Kampagnenerstellung mit Marketo Engage und Workfront
+* [Aufnahme und Erstellung](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Automatisierung der Kampagnenentwicklung mit Marketo Engage und Workfront
 
 * Prüfung und Freigabe (in Kürze verfügbar)
 
@@ -155,10 +155,10 @@ Nachdem Sie nun ein grundlegendes Verständnis davon haben, wie Sie mit Workfron
 
 ### Verwalten von Marketo Engage-Kampagnennamen und ihren zugehörigen URLs {#managing-marketo-engage-campaign-names}
 
-Die Standardisierung Ihrer Benennungskonventionen für Kampagnen und URLs ist eine wichtige Voraussetzung für ein gelungenes Programm-Management in Marketo Engage und verbessert die Konsistenz des Kampagnenerstellungsprozesses. Wenn Sie Hilfe benötigen, empfehlen wir Ihnen die kostenlosen Open-Source-Tools von [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target=&quot;_blank&quot;}, die Sie bei der konsistenten Erstellung und Verwaltung von Marketo Engage-Kampagnen und den zugehörigen URLs unterstützen.
+Die Standardisierung Ihrer Benennungskonventionen für Kampagnen und URLs ist eine wichtige Voraussetzung für ein gelungenes Programm-Management in Marketo Engage und verbessert die Konsistenz des Kampagnenerstellungsprozesses. Wenn Sie Hilfsmittel suchen, empfehlen wir Ihnen, einige kostenlose Open-Source-Tools von [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} die es Ihnen ermöglichen, einen konsistenten Ansatz für die Erstellung und Verwaltung von Marketo Engage-Kampagnen und den zugehörigen URLs zu erstellen.
 
 ### Ressourcen {#resources}
 
-* [Workfront Fusion for Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target=&quot;_blank&quot;}
+* [Workfront Fusion for Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target="_blank"}
 
-* [Workfront Fusion for Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target=&quot;_blank&quot;}
+* [Workfront Fusion für Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target="_blank"}

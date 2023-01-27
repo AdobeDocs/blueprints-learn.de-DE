@@ -1,23 +1,23 @@
 ---
-title: 'Blueprint: Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen'
+title: Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen
 description: Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Blueprint: Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
+# Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen
 
 Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei. Erstellen Sie umfassende Kundensegmente und Einblicke in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.
 
-Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der Blueprint [Aktivierung bekannter Kunden](known.md).
+Die Aktivierung mit Experience Cloud-Anwendungen wird mit dem [Bekannter Blueprint zur Kundenaktivierung](known.md).
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Personalisierung und Targeting auf allen Kundeninteraktionskanälen, die auf Experience Cloud basieren
 * Gemeinsame Nutzung von Zielgruppen- und Profildaten von Experience Platform und Experience Cloud-Programmen
@@ -41,9 +41,9 @@ Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der 
 
 Weitere Architekturdiagramme für Experience Platform-Integrationen mit Experience Cloud-Programmen finden Sie im Abschnitt [Architekturdiagramm zu Experience Platform und Programmen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=de).
 
-### Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen
+### Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referenzarchitektur für die Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referenzarchitektur für die Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien
@@ -83,7 +83,7 @@ Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profi
 
 ## Verwandte Dokumentation
 
-* Produktbeschreibung zu [[!UICONTROL Real-Time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+* Produktbeschreibung zu [[!UICONTROL Real-time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)

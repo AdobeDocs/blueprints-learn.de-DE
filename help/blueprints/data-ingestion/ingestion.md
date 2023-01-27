@@ -1,18 +1,18 @@
 ---
-title: 'Blueprint: Datenvorbereitung und -aufnahme'
+title: Datenvorbereitung und Entnahmeplan
 description: Diese Blueprint zeigt alle Methoden, mit denen Daten in Adobe Experience Platform aufgenommen und vorbereitet werden können.
 solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 5ee530220cd5928f9ab4aabd50148b963273d67c
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# Blueprint: Datenvorbereitung und -aufnahme
+# Datenvorbereitung und Entnahmeplan
 
 In der Blueprint „Datenvorbereitung und -aufnahme“ werden die Methoden erläutert, mit denen Daten in Adobe Experience Platform aufgenommen und vorbereitet werden können.
 
@@ -22,13 +22,13 @@ Die Datenvorbereitung umfasst die Zuordnung der Quelldaten zum Experience Data M
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a" />
 
-## Leitlinien für die Datenaufnahme
+## Limits bei der Datenerfassung
 
-Das folgende Diagramm zeigt die durchschnittlichen Performance-Bereiche sowie die Latenz bei der Datenaufnahme in Adobe Experience Platform.
+Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittlichen Leistung sowie die Latenz bei der Datenaufnahme in Adobe Experience Platform.
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="90%" />
 
-## Methoden der Datenaufnahme
+## Datenerfassungsmethoden
 
 | Aufnahmemethoden | Beschreibung |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Das folgende Diagramm zeigt die durchschnittlichen Performance-Bereiche sowie di
 | Adobe-Programm-Connectoren | Automatische Aufnahme von Daten, die aus Adobe Experience Cloud-Programmen stammen<ul><li>Adobe Analytics: [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de#connectors) und [Video-Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=de)</li><li>Audience Manager: [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de#connectors) und [Video-Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=de)</li></ul> |
 
 
-## Methoden der Datenvorbereitung
+## Datenvorbereitungsmethoden
 
 | Methoden der Datenvorbereitung | Beschreibung |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -49,11 +49,11 @@ Das folgende Diagramm zeigt die durchschnittlichen Performance-Bereiche sowie di
 | [!UICONTROL Abfrage-Service] – Datenvorbereitung | Verbinden, Teilen, Zusammenführen, Transformieren, Abfragen und Filtern von Daten und Erstellung eines neuen Datensatzes. Verwendung von „Create Table as Select“ (CTAS)<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de#sql) |
 | XDM-Mapper- und Datenvorbereitungsfunktionen (Streaming und Batch) | Zuordnung von Quellattributen im CSV- oder JSON-Format während der Experience Platform-Aufnahme zu XDM-Attributen.<br>Berechnung von Funktionen bei der Aufnahme von Daten, d. h. Datenformatierung, Teilung, Verknüpfung usw.<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=de) |
 
-## Verwandte Blog-Posts
+## Verwandte Blogbeiträge
 
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
 * [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
 * [[!DNL Query Service Tricks in Adobe Experience Platform (Writing Queries and Storing Derived Datasets)]](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
-* [[!DNL Digging into Adobe Experience Platform’s Experience Data Model to More Fully Understand the Power of Real-time Customer Profile]](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
+* [[!DNL Digging into Adobe Experience Platform's Experience Data Model to More Fully Understand the Power of Real-time Customer Profile]](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
 * [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
 * [[!DNL Modeling XDM Data for Data Science at Scale on Adobe Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)

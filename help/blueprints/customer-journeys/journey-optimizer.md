@@ -3,20 +3,20 @@ title: 'Blueprint: Journey Optimizer – Trigger-basiertes Messaging und Adobe E
 description: Führen Sie ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als Zentrale für gestreamte Daten, Kundenprofile und Segmentierung aus.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1044'
+ht-degree: 97%
 
 ---
 
-# Journey Optimizer
+# Journey Optimizer Blueprints
 
 Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-Teams in Echtzeit auf Kundenverhalten reagieren und diese dort ansprechen können, wo sie sich gerade befinden. Daten-Management-Funktionen wurden nach Adobe Experience Platform verschoben, sodass sich Marketing-Teams auf ihre Kernkompetenz konzentrieren können: die Erstellung herausragender Customer Journeys und personalisierter Kommunikation.  In dieser Blueprint werden die technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von Adobe Journey Optimizer eingehend erläutert.
 
 <br>
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Trigger-basierte Nachrichten
 * Begrüßung und Registrierungsbestätigungen
@@ -33,11 +33,11 @@ Adobe Journey Optimizer ist ein speziell entwickeltes System, mit dem Marketing-
 
 <br>
 
-## Blueprint-Szenarios
+## Blueprint-Szenarien
 
 | Szenario | Beschreibung | Funktionen |
 | :-- | :--- | :--- |
-| [Drittanbieter-Messaging](3rd-party-messaging.md) | Zeigt, wie Adobe Journey Optimizer mit Drittanbieter-Messaging-Systemen genutzt werden kann, um personalisierte Kommunikation zu orchestrieren und zu senden. | Stellen Sie in Echtzeit personalisierte 1:1-Kommunikationen für Kunden bereit, während diese mit Ihrer Marke oder Ihrem Unternehmen interagieren.<br><br>Überlegungen:<br><ul><li>Drittanbietersystem muss Inhaber-Token für die Authentifizierung unterstützen</li><li>Keine Unterstützung für statische IPs aufgrund der Mehrmandanten-Architektur</li><li>Beachten Sie Einschränkungen der Architektur bei Drittanbietersystemen hinsichtlich API-Aufrufen pro Sekunde. Unter Umständen muss der Kunde zusätzliches Volumen vom Drittanbieter erwerben, um das aus Journey Optimizer eingehende Volumen zu unterstützen.</li><li>Entscheidungs-Management wird in Nachrichten oder Payloads nicht unterstützt</li></ul> |
+| [Nachrichten von Drittanbietern](3rd-party-messaging.md) | Zeigt, wie Adobe Journey Optimizer mit Drittanbieter-Messaging-Systemen genutzt werden kann, um personalisierte Kommunikation zu orchestrieren und zu senden. | Stellen Sie in Echtzeit personalisierte 1:1-Kommunikationen für Kunden bereit, während diese mit Ihrer Marke oder Ihrem Unternehmen interagieren.<br><br>Überlegungen:<br><ul><li>Drittanbietersystem muss Inhaber-Token für die Authentifizierung unterstützen</li><li>Keine Unterstützung für statische IPs aufgrund der Mehrmandanten-Architektur</li><li>Beachten Sie Einschränkungen der Architektur bei Drittanbietersystemen hinsichtlich API-Aufrufen pro Sekunde. Unter Umständen muss der Kunde zusätzliches Volumen vom Drittanbieter erwerben, um das aus Journey Optimizer eingehende Volumen zu unterstützen.</li><li>Entscheidungs-Management wird in Nachrichten oder Payloads nicht unterstützt</li></ul> |
 
 <br>
 
@@ -83,19 +83,19 @@ Achten Sie auf folgende, nicht im Link oben aufgeführte Punkte:
    * E-Mail
    * Push (FCM/APNS)
    * Benutzerdefinierte Aktionen (über Rest-API)
-* Ausgehende Integrationen mit Drittanbietersystemen
+* Ausgehende Integrationen in Drittanbietersysteme
    * Keine Unterstützung für einzelne statische IPs, da wir eine Mehrmandanten-Infrastruktur verwenden (alle Daten-Center-IPs müssen aufgelistet sein)
    * Nur die POST- und die PUT-Methode werden für benutzerdefinierte Aktionen unterstützt
    * Authentifizierung über Benutzer/Passwort oder Autorisierungs-Token
 * Keine Möglichkeit, einzelne Komponenten von Adobe Experience Platform oder Journey Optimizer zu packen und zwischen verschiedenen Sandboxes zu verschieben. Muss in neuen Umgebungen erneut implementiert werden
 
-### Leitlinien für die Datenaufnahme
+### Limits bei der Datenerfassung
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Leitlinien für die Aktivierung
+### Limits bei der Aktivierung
 
 <img src="../experience-platform/assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
 
@@ -130,7 +130,7 @@ Achten Sie auf folgende, nicht im Link oben aufgeführte Punkte:
 1. Konfigurieren Sie externe Datenquellen.
 1. Konfigurieren Sie benutzerdefinierte Aktionen.
 
-### Mobilgeräte-Push-Konfiguration
+### Mobile Push-Konfiguration
 
 1. Implementieren Sie das Experience Platform Mobile SDK zum Sammeln von Push-Tokens und Login-Informationen zum Abgleich mit Kundenprofilen
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:

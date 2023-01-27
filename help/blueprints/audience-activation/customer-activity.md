@@ -1,19 +1,19 @@
 ---
-title: 'Blueprint: Customer Activity Hub'
+title: Blueprint zu Customer Activity Hub
 description: „Suchen im [!UICONTROL Echtzeit-Kundenprofil] bieten Kontext für mitarbeitergestützten Support und Vertrieb.“
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
-# Blueprint: Customer Activity Hub
+# Blueprint zu Customer Activity Hub
 
-Die Blueprint „Customer Activity Hub“ zeigt, wie externe Programme auf das [!UICONTROL Echtzeit-Kundenprofil] von Adobe Experience Platform zugreifen können.
+Der Hub-Entwurf für Kundenaktivität zeigt, wie externe Anwendungen auf Adobe Experience Platform zugreifen können. [!UICONTROL Echtzeit-Kundenprofil].
 
 Externe Programme können über API-GET-Anfragen auf Profile zugreifen. Attribute, Ereignisse, Segmentzugehörigkeiten und modellgestützte Funktionen, die im Profil gespeichert sind, können dann in diesen externen Drittanbieterprogrammen verwendet werden.
 
@@ -23,7 +23,7 @@ Mit dieser Funktion können Sie auf umfangreichen Kontext zugreifen, wenn ein Ku
 >
 >Die derzeit von der API für die Profilsuche unterstützte Latenz beträgt etwa 500 Millisekunden. Somit ist diese Herangehensweise für die Integration des Profils mit Echtzeit-Entscheidungs-Engines wie die Same-Page-Web- oder Mobile-Personalisierung nicht geeignet.
 
-## Anwendungsfälle
+## Anwendungsbeispiele
 
 * Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Dank der Profilsuche in Experience Platform erhalten Mitarbeiter Kontext zum Verbraucher wie kürzlich durchgeführte Käufe, Kampagneninteraktionen, Neigungen, Zielgruppenzugehörigkeiten und andere Attribute sowie Erkenntnisse, die im Echtzeit-Kundenprofil gespeichert sind.
 

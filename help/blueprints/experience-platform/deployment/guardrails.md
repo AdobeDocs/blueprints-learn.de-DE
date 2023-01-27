@@ -4,10 +4,10 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: f208fcd938bfc12882421f213192a6888f546a79
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, die dafür sorgen, dass die Leistung optimiert wird und Fehler oder unerwartete Ergebnisse in Adobe Experience Platform und den Anwendungen vermieden werden. Die Leitlinien beschreiben Systemeinschränkungen und Leistungserwartungen, um die Einrichtung der Kundenarchitektur und die Optimierung der Leistung von Anwendungsfällen zu erleichtern. Bei den Leitlinien handelt es sich nicht um Service Level-Vereinbarungen (Service Level Agreements, SLA). Informationen zu produktspezifischen Service-Level-Vereinbarungen finden Sie in der unten stehenden Produktbeschreibung.
 
 
-## Leitlinien für Adobe Experience Platform und Anwendungen
+## Limits für Adobe Experience Platform und Anwendungen
 
-[Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
+[Limits bei der Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
 
 [Leitlinien für die Edge Network API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=de)
 
@@ -34,9 +34,9 @@ Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, 
 
 <br>
 
-## End-to-end-Latenz   Diagramme
+## End-to-End-Latenzdiagramme
 
-### Datenaufnahme
+### Datenerfassung
 
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 

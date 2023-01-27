@@ -1,18 +1,18 @@
 ---
-title: Datenanalyse, Datenintelligenz und KI/ML
+title: Datenanalyse, Intelligenz und KI/ML-Blueprints
 description: Diese Blueprint zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 95%
 
 ---
 
-# Datenanalyse, Datenintelligenz und KI/ML
+# Datenanalyse, Datenintelligenz und KI/ML Blueprints
 
 „Datenanalyse, Datenintelligenz und KI/ML“ zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 

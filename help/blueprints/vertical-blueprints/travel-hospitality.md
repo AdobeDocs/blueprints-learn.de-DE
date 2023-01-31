@@ -1,13 +1,13 @@
 ---
 title: Tourismus und Gastgewerbe – Aktivierung mit Online- und Offline-Daten
 description: Echtzeitentscheidungen mit einer konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Dank der Nutzung von Adobe-Technologien und -Services ist dieses Unternehmen nun
 ## Adobe
 
 * Integration von Adobe Experience Platform in den vorhandenen Technologie-Stack zur Ermöglichung lösungsübergreifender Kundeninteraktionen.
-* Aktivierung von Real-time Customer Data Platform und Customer Journey Analytics, um eine kontinuierliche Analyse und personalisierte Kundenprofile bereitzustellen.
+* Real-time Customer Data Platform und Customer Journey Analytics wurden aktiviert, um eine kontinuierliche Analyse und personalisierte Kundenprofile bereitzustellen.
 * Schaffung einer ganzheitlichen Sicht auf die Customer Journey, um eine effektive Marketing-Attribution und Ressourcenzuweisung zu ermöglichen.
 * Umsetzung einer COVID-19-Strategie, durch die das Unternehmen optimal auf künftige Anforderungen vorbereitet wurde und gleichzeitig Kundeninteraktionen gefördert wurden.
 

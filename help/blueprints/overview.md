@@ -3,7 +3,7 @@ title: Entwürfe für digitale Erlebnisse
 description: Digitale Erlebniskonzepte sind wiederholbare Implementierungen, um strategische Lösungen zu finden und bestehende Geschäftsprobleme zu lösen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 73%

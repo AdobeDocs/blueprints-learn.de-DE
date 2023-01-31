@@ -2,12 +2,12 @@
 title: Data Access and Export Blueprint
 description: Diese Blueprint bietet einen Überblick über alle Methoden, mit denen Daten aus Adobe Experience Platform und den zugehörigen Anwendungen abgerufen und exportiert werden können.
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Datenexportansätze:
 
 ## Architektur mit Datenzugriff und -export
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für die Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für die Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## Methoden für den Datenzugriff
 
@@ -126,7 +126,7 @@ Weitere Informationen finden Sie in der folgenden Dokumentation zur [Ereigniswei
 
 Profilattributdaten und Zielgruppen-Zugehörigkeitsdaten können für Unternehmens- und Werbeziele aktiviert werden. Das bedeutet, dass die exportierten Daten in das Echtzeit-Kundenprofil von Experience Platform aufgenommen werden müssen.
 
-Weitere Informationen finden Sie in der Dokumentation zu [Real-time Customer Data Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de).
+Siehe Abschnitt [Real-time Customer Data Platform-Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de) Dokumentation für weitere Informationen.
 
 #### Anwendungsbeispiele
 

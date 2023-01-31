@@ -1,13 +1,13 @@
 ---
 title: 'B2B: Analysen und Aktivierung Blueprints'
-description: Stellen Sie mit Real-time Customer Data Platform Account-basierte Zielgruppen und profilorientierte Kundenerlebnisse bereit.
-solution: Real-time Customer Data Platform
+description: Stellen Sie mit Real-time Customer Data Platform kontobasierte Zielgruppen und profilorientierte Kundenerlebnisse bereit.
+solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 97%
+ht-degree: 87%
 
 ---
 

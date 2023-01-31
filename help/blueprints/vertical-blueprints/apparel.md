@@ -1,13 +1,13 @@
 ---
 title: Bekleidungsindustrie – Aktivierung mit Experience Cloud-Programmen
 description: Verwendung mehrerer Blueprints für Echtzeit-Marketing sowie kanalübergreifende Aktivierung und Analyse.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ Sein globales Technologie-Team setzt Adobe Experience Platform und Adobe-Lösung
 
 | Ziele | Taktik | Erzielter Wert |
 |---|---|---|
-| **Verknüpfte Cross-Channel-Erlebnisse **<br></br>** Förderung von Interaktion und Kundenbindung **<br></br>** Datendemokratisierung und Erkenntnisse**</ul> | <ul><li>Integration mehrerer Unternehmensdatensätze, um Millionen von Profilen, Hunderte Segmente, unterschiedliche Ziele und Reporting-Dashboards zu ermöglichen</li><li>Aktivierung für mehrere Ziele mit Real-time Customer Data Platform</li><li>Analysefunktion auf Kundenebene durch Customer Journey Analysis</li><li>Automatisierte Ereignisauslöser für Kundeninteraktionen, die unter Verwendung von Adobe Journey Optimizer implementiert werden</li></ul> | <ul><li><strong> Kundenprofil: </strong>360-Grad-Sicht auf die Kunden zur Segmentierung</li><li><strong>Zielaktivierungen: </strong>Aktivierung auf Paid-Media-, E-Mail- und Social-Media-Plattformen</li><li><strong>Kundenanalyse und Attribution: </strong>Kanalübergreifende Attributionsanalyse, die sofort verfügbar ist und einfach verteilt werden kann<li><strong>Journey Orchestration: </strong> Erstellen und Operationalisieren von automatisch ausgelösten und geplanten Kampagnen mithilfe von Echtzeit-Kontext</li></ul> |
+| **Verknüpfte Cross-Channel-Erlebnisse **<br></br>** Förderung von Interaktion und Kundenbindung **<br></br>** Datendemokratisierung und Erkenntnisse**</ul> | <ul><li>Integration mehrerer Unternehmensdatensätze, um Millionen von Profilen, Hunderte Segmente, unterschiedliche Ziele und Reporting-Dashboards zu ermöglichen</li><li>Aktivierung über mehrere Ziele mit Real-time Customer Data Platform</li><li>Analysefunktion auf Kundenebene durch Customer Journey Analysis</li><li>Automatisierte Ereignisauslöser für Kundeninteraktionen, die unter Verwendung von Adobe Journey Optimizer implementiert werden</li></ul> | <ul><li><strong> Kundenprofil: </strong>360-Grad-Sicht auf die Kunden zur Segmentierung</li><li><strong>Zielaktivierungen: </strong>Aktivierung auf Paid-Media-, E-Mail- und Social-Media-Plattformen</li><li><strong>Kundenanalyse und Attribution: </strong>Kanalübergreifende Attributionsanalyse, die sofort verfügbar ist und einfach verteilt werden kann<li><strong>Journey Orchestration: </strong> Erstellen und Operationalisieren von automatisch ausgelösten und geplanten Kampagnen mithilfe von Echtzeit-Kontext</li></ul> |
 
 ## Primärer Blueprint: Zielgruppe und Aktivierung mit Experience Cloud-Anwendungen
 

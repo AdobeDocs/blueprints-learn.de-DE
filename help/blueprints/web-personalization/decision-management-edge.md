@@ -3,14 +3,14 @@ title: Web-/Mobile-Personalisierung mit Entscheidungs-Management
 description: Stellen Sie personalisierte Angebote für Verbraucher über verschiedene Kanäle hinweg bereit, einschließlich Terminals und durch Agenten unterstützte Erlebnisse.
 solution: Experience Platform, Journey Optimizer
 exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 98%
+ht-degree: 89%
 
 ---
 
-# Journey Optimizer – Entscheidungs-Management im Edge Blueprint
+# Journey Optimizer - Entscheidungsverwaltung im Edge-Blueprint
 
 Entscheidungs-Management von Adobe Journey Optimizer kann zur Personalisierung und Bereitstellung von Angeboten auf eingehenden Kanälen wie Websites, Mobile Apps, Terminals sowie an andere Kunden-Touchpoints verwendet werden.
 

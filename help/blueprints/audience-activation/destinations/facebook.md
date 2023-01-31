@@ -1,13 +1,13 @@
 ---
 title: Aktivierung für Facebook Custom Audiences
 description: Aktivierung für Facebook Custom Audiences.
-solution: Real-time Customer Data Platform, Data Collection
+solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
@@ -82,7 +82,7 @@ Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht 
    * Prüfen Sie übersprungene Profile auf fehlende Profilidentitäten oder fehlende erforderliche Attribute.
    * Prüfen Sie, ob andere Fehler vorliegen, die behoben werden müssen.
 1. Prüfen Sie, ob die Zielgruppe im Ziel mit der erwarteten Anzahl an Zielgruppenzugehörigkeiten aktiviert wurde.
-   * Melden Sie sich beim Portal von Facebook Custom Audiences an, um sicherzustellen, dass die Zielgruppe aus Real-time Customer Data Platform übermittelt wurde und dass die Anzahl der Profile in der Zielgruppe in Facebook in etwa der Anzahl der Profile in der Zielgruppe in Real-time Customer Data Platform entspricht.
+   * Melden Sie sich beim Facebook Custom Audience-Portal an, um zu überprüfen, ob die Zielgruppe aus Real-time Customer Data Platform bereitgestellt wurde und ob die Übereinstimmungsrate der Profile in der Zielgruppe in Facebook mit der Anzahl der Profile in der Zielgruppe aus Real-time Customer Data Platform übereinstimmt.
 
 ## Leitlinien
 

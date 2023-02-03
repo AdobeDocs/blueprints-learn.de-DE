@@ -1,16 +1,16 @@
 ---
-title: Entscheidungsverwaltung im Edge-Blueprint
+title: 'Blueprint: Entscheidungs-Management im Edge'
 description: Stellen Sie personalisierte Angebote für Verbraucher über verschiedene Kanäle, einschließlich Echtzeit-Erlebnissen für Web und Mobile, bereit.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Entscheidungsverwaltung im Edge-Blueprint
+# Blueprint: Journey Optimizer – Entscheidungs-Management im Edge
 
 Weitere Informationen zum Entscheidungs-Management finden Sie [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de) in der Produktdokumentation und [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=de) in der Übersicht über Entscheidungs-Management
 
@@ -24,7 +24,7 @@ In dieser Blueprint werden die Besonderheiten des Entscheidungs-Managements im E
 
 Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der Blueprint [Entscheidungs-Management auf dem Hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=de).
 
-## Anwendungsbeispiele für die Entscheidungsverwaltung am Rand
+## Anwendungsfälle für das Entscheidungs-Management im Edge
 
 * Online-Personalisierung über eingehende Web- oder mobile Erlebnisse.
 * Kanalübergreifende Journey-Ausführung - Konsistenz in Web, Mobile, E-Mail und auf anderen Interaktionskanälen über Adobe Journey Optimizer.
@@ -62,13 +62,13 @@ Adobe Experience Platform
 * Zugriff auf das Edge-Echtzeitprofil. Im Profil sind nur von Edge projizierte Zielgruppen und Profilattribute verfügbar.
 * Wenn in erstmaligen Erlebnissen eine Personalisierung erforderlich ist, ist der Hub ideal, da das vollständige Profil verfügbar ist. Das Edge-Profil muss für das erste Edge-Erlebnis vom Hub synchronisiert werden. Daher umfasst das allererste Erlebnis vom Edge keine zuvor in den Hub hochgeladenen Profildaten.
 
-### Limits bei der Datenerfassung
+### Leitlinien für die Datenaufnahme
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Limits bei der Aktivierung
+### Leitlinien für die Aktivierung
 
 <img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
 
@@ -94,7 +94,7 @@ Oder
 
 #### Schema/Datensätze
 
-1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) in Experience Platform basierend auf den vom Kunden angegebenen Daten.
+1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) in Experience Platform basierend auf den von der Kundin oder dem Kunden angegebenen Daten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) in Experience Platform für die aufzunehmenden Daten.
 1. [Fügen Sie dem Datensatz in Experience Platform Datennutzungskennzeichnungen hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=de), um ordnungsgemäße Governance zu gewährleisten.
 1. [Erstellen Sie Richtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=de), um die Governance an den Zielen umzusetzen.
@@ -109,7 +109,7 @@ Oder
 
 #### Quellen/Ziele
 
-1. [Nehmen Sie Daten mit Streaming-APIs und Quellen-Connectoren in Experience Platform auf.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de)
+1. [Nehmen Sie Daten mit Streaming-APIs und Quell-Connectoren in Experience Platform auf.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de)
 
 ## Verwandte Dokumentation
 

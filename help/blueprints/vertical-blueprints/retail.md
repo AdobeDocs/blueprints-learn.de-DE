@@ -7,20 +7,20 @@ exl-id: a675bc81-e76c-491a-8718-359867d63351
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
-# Geschäftliche Herausforderung der Einzelhandelsbranche
+# Einzelhandelsbranche – geschäftliche Herausforderung
 
 Dieses integrierte Experience Business wollte die gesamte Customer Journey personalisieren, um die Kundentreue zu festigen, Upselling an Bestandskunden zu betreiben und die Marketing-Ausgaben für Kampagnen sinnvoller einzusetzen. Die Strategie, die das Unternehmen wählte, zielte darauf ab, seine digitalen Fähigkeiten zu verbessern, damit es die Daten von Offline-Kunden und Transaktionen einbeziehen und so das Unternehmenswachstum steigern konnte.
 
-## Adobe
+## Lösungsansatz von Adobe
 
 * Erstellen eines einheitlichen Kundenprofils, das alle relevanten Online-/Offline-Daten enthält, die in Echtzeit aktiviert werden können
 * Orchestrieren von Kundeninteraktionen auf Web-, Social-Media- und Push-Kanälen, um Erstkäufe und wiederholte Käufe anzuregen.
 
-## Geschäftswert bereitgestellt
+## Realisierter geschäftlicher Wert
 
 | Ziele | Taktik | Erzielter Wert |
 |---|---|---|
@@ -32,7 +32,7 @@ Dieses integrierte Experience Business wollte die gesamte Customer Journey perso
 
 <ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Erkenntnisse in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul>
 
-### Experience Cloud Apps
+### Experience Cloud-Programme
 
 <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud-Programme</li></ul>
 

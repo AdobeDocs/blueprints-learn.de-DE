@@ -7,7 +7,7 @@ exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Social Ad Networks wie Facebook, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren.
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.
 * Online-Personalisierung mit Online- und Offline-Attributen.

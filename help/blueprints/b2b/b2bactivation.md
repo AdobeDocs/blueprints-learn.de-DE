@@ -1,5 +1,5 @@
 ---
-title: B2B-Zielgruppen- und Profilaktivierungs-Blueprint
+title: 'Blueprint: B2B – Aktivierung von Zielgruppen und Profilen'
 description: Stellen Sie mit Real-time Customer Data Platform ​ kontobasierte Zielgruppen und profilorientierte Kundenerlebnisse bereit.
 solution: Real-Time Customer Data Platform
 kt: 9311
@@ -7,15 +7,15 @@ exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
-# B2B-Zielgruppen- und Profilaktivierungs-Blueprint
+# Blueprint: B2B – Aktivierung von Zielgruppen und Profilen
 
-Verwenden Sie Account-, Opportunity- und Lead-Informationen, die mit einem einzelnen Kunden verknüpft sind, um verwertbare B2B-Profile für verbesserte Personalisierung und Targeting auf allen Kanälen zu erstellen.
+Verwenden Sie Account-, Opportunity- und Lead-Informationen, die mit einem einzelnen Kundinnen bzw. Kunden verknüpft sind, um verwertbare B2B-Profile für verbesserte Personalisierung und Targeting auf allen Kanälen zu erstellen.
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Erstellen Sie Zielgruppen von Personen für Targeting und Personalisierung auf allen Kanälen anhand von B2B-Daten zu Accounts Opportunities und Leads.
 * Aktivieren Sie Zielgruppen für Targeting und Personalisierung für beliebige Experience Platform-Ziele.

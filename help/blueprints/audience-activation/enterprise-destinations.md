@@ -1,5 +1,5 @@
 ---
-title: Blueprint zur Zielgruppen- und Profilaktivierung für Datei- und Enterprise-Streaming-Ziele
+title: 'Blueprint: Zielgruppen- und Profilaktivierung für Datei- und Unternehmens-Streaming-Ziele'
 description: Zielgruppen- und Profilaktivierung für Unternehmensziele
 solution: Real-Time Customer Data Platform
 kt: 7475
@@ -7,21 +7,21 @@ exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 66%
+ht-degree: 73%
 
 ---
 
-# Blueprint zur Zielgruppen- und Profilaktivierung für Datei- und Enterprise-Streaming-Ziele
+# Blueprint: Zielgruppen- und Profilaktivierung für Datei- und Unternehmens-Streaming-Ziele
 
 Freigeben von Profil- und Zielgruppenänderungen und -ereignissen im Streaming oder Batch aus [!UICONTROL Real-time Customer Data Platform] für Unternehmensdatenspeicher und -anwendungen. Mit diesen Profil- und Zielgruppenereignissen können Sie eine Vertriebs- oder Support-Aktion für den Kunden auslösen, z. B. im Anschluss an einen abgebrochenen Anwendungsprozess oder eine Webinar-Registrierung, oder Unternehmensanwendungen mit den neuesten Kundenattributen und Erkenntnissen aus [!UICONTROL Real-time Customer Data Platform].
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Zielgruppen- und Profilaktivierung für Cloud-Datenspeicherziele oder Streaming-Ziele für das Tracking, die Speicherung, die Analyse und die Aktivierung von Kundendaten und Erkenntnissen.
 
 ## Programme
 
-* Adobe Experience Platform   Activation
+* Adobe Experience Platform  Activation
 
 ## Architektur
 

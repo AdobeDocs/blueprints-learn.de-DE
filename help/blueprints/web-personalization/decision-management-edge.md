@@ -6,11 +6,11 @@ exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Entscheidungsverwaltung im Edge-Blueprint
+# Blueprint: Journey Optimizer – Entscheidungs-Management im Edge
 
 Entscheidungs-Management von Adobe Journey Optimizer kann zur Personalisierung und Bereitstellung von Angeboten auf eingehenden Kanälen wie Websites, Mobile Apps, Terminals sowie an andere Kunden-Touchpoints verwendet werden.
 

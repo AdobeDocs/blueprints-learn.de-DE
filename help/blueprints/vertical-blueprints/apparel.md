@@ -7,11 +7,11 @@ exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
-# Geschäftliche Herausforderung der Bekleidungsindustrie
+# Bekleidungsindustrie – geschäftliche Herausforderung
 
 Dieses Bekleidungsunternehmen ist weltweit führend in Design, Entwicklung, Fertigung und Vertrieb von Schuhen, Bekleidung, Ausrüstung, Accessoires und Dienstleistungen.
 
@@ -21,14 +21,14 @@ Sein globales Technologie-Team setzt Adobe Experience Platform und Adobe-Lösung
 * Auf Auslösern basierendes Echtzeit-Marketing
 * Personalisierung und Messung der Wirkung von Kampagnen sowie umfassende Kundenanalyse und Attribution
 
-## Adobe
+## Lösungsansatz von Adobe
 
 * Einrichtung einer soliden Plattform als Grundlage zur Unterstützung des gesamten Unternehmens.
 * Zusammenarbeit mit technischen Teams, um sicherzustellen, dass durch die Implementierung dieser Technologie ein geschäftlicher Nutzen erzielt wird.
 * Erstellen einer ganzheitlichen Sicht auf den Kunden, um eine direkte Segmentierung, Aktivierung und Berichterstellung bei Kampagnen zu ermöglichen.
 * Automatisieren von Auslösern und Orchestrierung von personalisierten Customer Journeys.
 
-## Geschäftswert bereitgestellt
+## Realisierter geschäftlicher Wert
 
 | Ziele | Taktik | Erzielter Wert |
 |---|---|---|
@@ -40,7 +40,7 @@ Sein globales Technologie-Team setzt Adobe Experience Platform und Adobe-Lösung
 
 <ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Erkenntnisse in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul>
 
-### Experience Cloud Apps
+### Experience Cloud-Programme
 
 <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud-Programme</li></ul>
 

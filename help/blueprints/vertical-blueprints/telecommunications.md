@@ -7,23 +7,23 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
-# Geschäftliche Herausforderung der Telekommunikationsbranche
+# Telekommunikationsbranche – geschäftliche Herausforderung
 
 Vor der Implementierung dieser Blueprint basierten die E-Mail-Kampagnen des Telekommunikationsunternehmens mit Werbung für eine neue Leitung darauf, dass der Benutzer einen Kauf getätigt hatte. Überprüft wurde dies erst nach einer Wartezeit von sieben Tagen. Sobald diese Kriterien erfüllt waren, wurden weitere Touchpoints initiiert.
 
 Diese Einschränkung musste beseitigt werden, um ein schnelleres Follow-up bei Benutzern zu ermöglichen, die schon vor der aktuellen Wartezeit von sieben Tagen eine weitere Leitung erwerben wollten.
 
-## Adobe
+## Lösungsansatz von Adobe
 
-* Adobe Analytics-Daten zur Identifizierung von Benutzern, die keine neue Leitung gekauft haben, werden Adobe Journey Optimizer als Datenquelle hinzugefügt.
-* Adobe Journey Optimizer verwendet eine Regel für die Zeit, in der der Kunde eine benutzerdefinierte &quot;Abbruch&quot;-Nachricht erhält, um einen Kunden zur Konversion anzuregen, indem eine neue Zeile zu seinem Konto hinzugefügt wird.
+* Adobe Analytics-Daten zur Identifizierung von Benutzerinnen und Benutzern, die keine neue Leitung gekauft haben, werden Adobe Journey Optimizer als Datenquelle hinzugefügt.
+* Adobe Journey Optimizer verwendet eine Regel, anhand der der Zeitpunkt festgelegt wird, zu dem Kundinnen und Kunden eine benutzerdefinierte „Abbruch“-Nachricht erhalten. Diese soll die Kundinnen und Kunden ermutigen, ihrem Konto eine neue Leitung hinzuzufügen und den Kauf zu tätigen.
 
 
-## Geschäftswert bereitgestellt
+## Realisierter geschäftlicher Wert
 
 | Ziele | Taktik | Erzielter Wert |
 |---|---|---|
@@ -35,7 +35,7 @@ Diese Einschränkung musste beseitigt werden, um ein schnelleres Follow-up bei B
 
 <ul><li>Ausführen von Trigger-basiertem und Streaming-Messaging mit Adobe Experience Platform als Zentrale für Streaming-Daten, Kundenprofile und Segmentierung mit Journey Orchestration für die Orchestrierung der Streaming-Journey und der Messaging-Bereitstellung</li></ul>
 
-### Experience Cloud Apps
+### Experience Cloud-Programme
 
 <ul><li>Adobe Journey Optimizer</li></ul>
 

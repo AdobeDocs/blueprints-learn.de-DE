@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 99%
       + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Übersicht](/help/blueprints/audience-activation/overview.md)
-   + [Anonyme Zielgruppenaktivierung        (AAM)](/help/blueprints/audience-activation/anonymous.md)
-   + Aktivierung eines bekannten Kunden (RTCDP) {#known-customer-audience-activation}
+   + [Anonyme Zielgruppenaktivierung         (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + Aktivierung einer bekannten Kundin/eines bekannten Kunden (RTCDP) {#known-customer-audience-activation}
       + [Übersicht](/help/blueprints/audience-activation/known.md)
       + Aktivierung für Social-Media- und Advertising-Kanäle {#audience-activation}
          + [Aktivierung für Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -48,7 +48,7 @@ ht-degree: 99%
    + Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront {#optimize-campaign-supply-chain-with-marketo-and-workfront}
       + [Übersicht](/help/blueprints/b2b/campaign-supply-chain/overview.md)
       + [Annahme und Erstellung](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
-      + [Customer Success Stories](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+      + [Erfolgsgeschichten von Kunden](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Übersicht](/help/blueprints/customer-journey-analytics/overview.md)
    + [Freigabe von CJA-Zielgruppen für RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -61,8 +61,8 @@ ht-degree: 99%
          + [Übersicht](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Entscheidungs-Management im Edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [Entscheidungs-Management am Hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
-      + [Journey Optimizer mit Adobe Campaign  ](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-      + [Nachrichten von Drittanbietern](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+      + [Journey Optimizer mit Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [Drittanbieter-Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=de){target="_blank"}
       + [Real-Time CDP mit Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=de){target="_blank"}
@@ -72,7 +72,7 @@ ht-degree: 99%
       + [Journey Optimizer mit Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP mit Adobe Campaign      v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP mit Adobe Campaign       v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer mit Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Datenerfassung, Datenzugriff und Datenexport {#data-ingestion}
    + [Übersicht](/help/blueprints/data-ingestion/overview.md)
@@ -85,6 +85,6 @@ ht-degree: 99%
    + [Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](/help/blueprints/data-insights/data-science.md)
 + Web- und Mobile-Personalisierung {#web-personalization}
    + [Übersicht](/help/blueprints/web-personalization/overview.md)
-   + [Verhaltensbasierte Personalisierung        - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Verhaltensbasierte Personalisierung         - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalisierung für bekannte Kunden – Target und RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Entscheidungs-Management](/help/blueprints/web-personalization/decision-management-edge.md)

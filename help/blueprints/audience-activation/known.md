@@ -1,5 +1,5 @@
 ---
-title: Aktivierung eines bekannten Kunden Blueprint
+title: 'Blueprint: Aktivierung einer bekannten Kundin/eines bekannten Kunden'
 description: Online-/Offline-Zielgruppenaktivierung.
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
@@ -7,19 +7,19 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
-# Bekannter Blueprint zur Kundenaktivierung
+# Blueprint: Aktivierung einer bekannten Kundin/eines bekannten Kunden
 
 Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treuedaten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.
 
 Erweiterte Kennungen mit integrierten Governance-Steuerelementen bieten mehr Möglichkeiten zur Kommunikation mit bekannten Kunden. Aktivieren Sie Zielgruppen für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele.
 
-Weitere Details finden Sie im Abschnitt [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen](platform-and-applications.md) spezifisch für Integrationen zwischen Experience Platform- und Experience Cloud-Anwendungen.
+Zusätzliche Details finden Sie in der [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Programmen](platform-and-applications.md), insbesondere zu Integrationen zwischen Experience Platform und Experience Cloud-Programmen.
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.
 * Online-Personalisierung mit Online- und Offline-Attributen.
@@ -34,12 +34,12 @@ Weitere Details finden Sie im Abschnitt [Blueprint zur Zielgruppen- und Profilak
 
 ### Bekannte Kundenaktivierung über Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Referenzarchitektur für den Blueprint zur bekannten Kundenaktivierung" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Referenzarchitektur für die Blueprint „Aktivierung einer bekannten Kundin/eines bekannten Kunden“" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### Bekannte Kundenaktivierung über benutzerspezifische Audience Manager-Ziele
+### Aktivierung einer bekannten Kundin/eines bekannten Kunden über personenbasierte Ziele von Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Referenzarchitektur für den Blueprint zur bekannten Kundenaktivierung" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Referenzarchitektur für die Blueprint „Aktivierung einer bekannten Kundin/eines bekannten Kunden“" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Leitlinien
@@ -63,7 +63,7 @@ Weitere Details finden Sie im Abschnitt [Blueprint zur Zielgruppen- und Profilak
 
 * Siehe [Blueprint zur Zielgruppen- und Profilaktivierung mit Experience Cloud-Anwendungen](platform-and-applications.md) Weitere Informationen zur Freigabe von Zielgruppen von Real-time Customer Data Platform für Audience Manager, Analytics, Target, Campaign und Journey Optimizer.
 
-## Implementierungsschritte für benutzerspezifische Audience Manager-Ziele
+## Implementierungsschritte für personenbezogene Ziele in Audience Manager
 
 * Weitere Informationen zur Implementierung von Audience Manager finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de).
 

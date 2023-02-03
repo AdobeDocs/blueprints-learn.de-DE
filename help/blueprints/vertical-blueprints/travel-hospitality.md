@@ -7,24 +7,24 @@ exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
-# Geschäftliche Herausforderung für die Reise- und Gastgewerbe
+# Tourismus und Gastgewerbe – geschäftliche Herausforderung
 
 Ein Casino- und Entertainment-Unternehmen in den USA wollte seine Fähigkeit zur Datennutzung grundlegend verbessern, um personalisierte Kundenverbindungen in Echtzeit zu schaffen. Im Zuge der COVID-19-Pandemie gewann dieses Unternehmensziel an Bedeutung, da sich das Kundenverhalten gegenüber der Tourismus- und Gastgewerbebranche veränderte.
 
 Dank der Nutzung von Adobe-Technologien und -Services ist dieses Unternehmen nun in der Lage, seine Ziele zu umzusetzen, und ist gleichzeitig optimal gerüstet für die Zeit nach der Pandemie.
 
-## Adobe
+## Lösungsansatz von Adobe
 
 * Integration von Adobe Experience Platform in den vorhandenen Technologie-Stack zur Ermöglichung lösungsübergreifender Kundeninteraktionen.
 * Real-time Customer Data Platform und Customer Journey Analytics wurden aktiviert, um eine kontinuierliche Analyse und personalisierte Kundenprofile bereitzustellen.
 * Schaffung einer ganzheitlichen Sicht auf die Customer Journey, um eine effektive Marketing-Attribution und Ressourcenzuweisung zu ermöglichen.
 * Umsetzung einer COVID-19-Strategie, durch die das Unternehmen optimal auf künftige Anforderungen vorbereitet wurde und gleichzeitig Kundeninteraktionen gefördert wurden.
 
-## Geschäftswert bereitgestellt
+## Realisierter geschäftlicher Wert
 
 | Ziele | Taktik | Erzielter Wert |
 |---|---|---|
@@ -36,7 +36,7 @@ Dank der Nutzung von Adobe-Technologien und -Services ist dieses Unternehmen nun
 
 <ul><li>Aktivierung für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele.</li><li>Nutzung von Offline-Attributen und -Ereignissen, wie Offline-Bestellungen, Transaktionen, CRM- oder Treuedaten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und -Personalisierung.</li></li></ul>
 
-### Experience Cloud Apps
+### Experience Cloud-Programme
 
 <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 

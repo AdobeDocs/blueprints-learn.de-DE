@@ -1,5 +1,5 @@
 ---
-title: Entwurf der anonymen Audience Activation
+title: 'Blueprint: Anonyme Zielgruppenaktivierung'
 description: Erfahren Sie, wie Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg identifizieren. So erstellen Sie personalisierte und konsistente Echtzeit-Kundenerlebnisse auf allen Geräten.
 landing-page-description: Erfahren Sie, wie Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg identifizieren.
 solution: Audience Manager
@@ -9,15 +9,15 @@ exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 63%
+ht-degree: 68%
 
 ---
 
-# Entwurf der anonymen Audience Activation
+# Blueprint: Anonyme Zielgruppenaktivierung
 
-Die anonyme Zielgruppenaktivierung ermöglicht Ihnen, Zielgruppen über Web-, Mobile- und Werbekanäle hinweg auf der Grundlage anonymer Geräte- und Verhaltensdaten anzusprechen und zu personalisieren.
+Die anonyme Zielgruppenaktivierung ermöglicht es Ihnen, Zielgruppen über Web-, Mobile- und Werbekanäle hinweg auf der Grundlage anonymer Geräte- und Verhaltensdaten anzusprechen und zu personalisieren.
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Führen Sie eine anonyme Zielgruppenbestimmung und Personalisierung für digitale Zielgruppen auf der Website, in der Mobile App oder in unterstützten Werbekanälen durch.
 * Optimieren Sie Landingpage- und Vorauthentifizierungsverfahren basierend auf bekannten Geräte- und Verhaltenseigenschaften.
@@ -39,7 +39,7 @@ Microsoft Bing, Google DV360 und TradeDesk sind die am häufigsten unterstützte
 
 <br>
 
-## Implementierungsschritte für den Audience Manager
+## Implementierungsschritte für Audience Manager
 
 * Weitere Informationen zur Implementierung von Audience Manager finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de).
 
@@ -53,5 +53,5 @@ Microsoft Bing, Google DV360 und TradeDesk sind die am häufigsten unterstützte
 * [Experience Cloud-[!UICONTROL Zielgruppen]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
 * [Integration von Audience Manager mit Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=de)
 * [Segmentfreigabe in Adobe Analytics über Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)
-* [Bekannter Blueprint zur Kundenaktivierung](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de).
+* [Blueprint: Aktivierung einer bekannten Kundin/eines bekannten Kunden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de).
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de)

@@ -1,5 +1,5 @@
 ---
-title: Behavioral Web Personalization-Blueprint
+title: 'Blueprint: Web-Personalisierung basierend auf Verhaltensdaten'
 description: Hier erfahren Sie, wie Sie Inhalte basierend auf dem Online-Verhalten und den Zielgruppendaten personalisieren können.
 landing-page-description: Erfahren Sie, wie Sie basierend auf Daten zu Online-Verhalten und Zielgruppen personalisieren.
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -8,15 +8,15 @@ exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
-# Verhaltensbasiertes Web-/Mobile-Personalisierungs-Blueprint
+# Blueprint: Web-/Mobile-Personalisierung basierend auf Verhaltensdaten
 
 Personalisieren Sie basierend auf Daten zu Online-Verhalten und Zielgruppen.
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Landingpage-Optimierung
 * Behavioral Targeting
@@ -43,9 +43,9 @@ Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implement
 
 ## Implementierungsschritte
 
-1. [Implementieren Sie Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=de) für Ihre Web-Anwendungen oder Mobile Apps
+1. [Implementieren Sie Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=de) für Ihre Web-Anwendungen oder Mobile Apps.
 
-### Implementierungsschritte - Audience Manager oder Adobe Analytics
+### Implementierungsschritte – Audience Manager oder Adobe Analytics
 
 1. [Implementieren Sie Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=de)
 1. [Implementieren Sie Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=de)
@@ -82,7 +82,7 @@ Die Blueprint „Web-/Mobile-Personalisierung“ lässt sich wie folgt implement
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 
-## Verwandte Blogbeiträge
+## Verwandte Blog-Posts
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)

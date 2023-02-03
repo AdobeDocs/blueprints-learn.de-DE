@@ -8,11 +8,11 @@ exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
-# Datenerfassung und -vorbereitung Blueprints
+# Datenerfassung und -vorbereitung  Blueprints
 
 In der Blueprint „Datenerfassung und -vorbereitung“ werden die Methoden erläutert, mit denen Daten in Adobe Experience Platform aufgenommen und vorbereitet werden können. Zusätzlich erfahren Sie, wie Daten für das Edge Network von Adobe Experience Platform erfasst und anschließend über die Server-seitige Weiterleitung an Ziele im Unternehmen übermittelt werden.
 

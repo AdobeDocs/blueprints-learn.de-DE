@@ -8,7 +8,7 @@ exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -20,11 +20,11 @@ Erstellen und veröffentlichen Sie Zielgruppen, die in Customer Journey Analytic
 
 In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Konfiguration der Veröffentlichung von Zielgruppen von Customer Journey Analytics nach Real-time Customer Data Platform. [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=de)
 
-## Architektur für Customer Journey Analytics-Blueprints
+## Architektur für die Blueprints zu Customer Journey Analytics
 
 ![Architekturdiagramm](assets/CJA_RTCDP.svg)
 
-## Schutzdiagramm für Customer Journey Analytics-Blueprints
+## Leitliniendiagramm für die Blueprints zu Customer Journey Analytics
 
 * Detaillierte Leitlinien und End-to-End-Latenzen finden Sie im Abschnitt [Leitlinien zur Implementierung](../experience-platform/deployment/guardrails.md)
 
@@ -42,7 +42,7 @@ In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Ko
 
 * Verarbeitet der Identitäts-Service auch die CJA-Nachrichten? Kann CJA also einem Profilidentitätsdiagramm durch Zielgruppenfreigabe Identitäten hinzufügen? Nein, der Identitäts-Service verarbeitet die CJA-Nachrichten nicht.
 
-## Verwandte Blogbeiträge
+## Verwandte Blog-Posts
 
 * [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)

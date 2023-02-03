@@ -6,17 +6,17 @@ exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
-# Campaign v8-Blueprint
+# Blueprint: Campaign v8
 
 Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für traditionelle Marketing-Kanäle wie E-Mail und Direkt-Mail entwickelt wurde. Es bietet robuste ETL- und Daten-Management-Funktionen, die Sie beim Entwurf und bei der Kuratierung der perfekten Kampagne unterstützen. Die Orchestrierungs-Engine ermöglicht umfangreiche Multi-Touch-Marketing-Programme mit zentralem Fokus auf Batch-basierten Journeys. Außerdem bietet es einen skalierbaren Echtzeit-Messaging-Server, mit dem Marketing-Teams vordefinierte Mitteilungen auf Basis einer vollumfänglichen Payload aus beliebigen IT-Systemen senden können, wenn z. B. Passwörter zurückgesetzt, Bestellungen bestätigt oder Empfangsbelege versendet werden müssen.
 
 <br>
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Hochkomplexe Batch-basierte Messaging-Programme
 * Onboarding- und Re-Marketing-Kampagnen
@@ -45,7 +45,7 @@ Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für trad
 ## Voraussetzungen
 
 
-### Anwendungsserver und Echtzeitnachrichtenserver
+### Anwendungs-Server und Echtzeit-Messaging-Server
 
 * Die Client-Konsole von Adobe Campaign ist für die Interaktion mit und Nutzung von Campaign v8 erforderlich. Dies ist ein Windows-basierter Client, der Standard-Internet-Protokolle verwendet (SOAP, HTTP usw.). Stellen Sie sicher, dass in Ihrem Unternehmen die erforderlichen Berechtigungen für das Verteilen, Installieren und Ausführen von Software aktiviert sind
 
@@ -62,7 +62,7 @@ Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für trad
 * Die Subdomain kann entweder komplett an Adobe delegiert werden (empfohlen) oder CNAMEs können zum Verweis an Adobe-spezifische DNS-Server (benutzerdefiniert) verwendet werden
 * Für jede Subdomain ist ein Google-TXT-Datensatz erforderlich, um gute Zustellbarkeit sicherzustellen
 
-### Mobile Push
+### Mobilgeräte-Push
 
 * Halten Sie einen Mobile-Entwickler bereit, der die Mobile App bereitstellen, konfigurieren und aufbauen kann
 * Adobe bietet lediglich ein SDK zum Erfassen der nötigen Informationen von FCM (Android) und APNS (iOS), um Message-Payloads an die Server zu senden. Das Programmieren, Bereitstellen, Verwalten und Debuggen der Mobil App fällt jedoch in den Verantwortungsbereich des Kunden
@@ -76,7 +76,7 @@ Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für trad
 
 ## Leitlinien
 
-### Größe des Anwendungsservers
+### Größe des Anwendungs-Servers
 
 * Der Speicher kann auf bis zu 200 Mio. Profile skaliert werden, potenzielle Weiterskalierung auf 1 Mrd. Profile
 * Benutzerzugriff wird über die Adobe Admin Console eingerichtet und gesteuert
@@ -90,7 +90,7 @@ Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für trad
 
 * Kann für die Verarbeitung von bis zu 20 Mio. Nachrichten pro Stunde skaliert werden
 
-### Skalierung von Echtzeit-Messaging-Servern
+### Größe des Echtzeit-Messaging-Servers
 
 * Kann bis zu 1 Mio. Nachrichten pro Stunde senden
 * Standardmäßig werden zwei Echtzeit-Messaging-Server bereitgestellt. Möglichkeit, auf bis zu acht Echtzeit-Messaging-Server zu skalieren.
@@ -104,7 +104,7 @@ Adobe Campaign v8 ist ein Kampagnen-Tool der nächsten Generation, das für trad
    * SMS MO (geht von Mobilgerät aus): Eine SMS, die von einem Mobiltelefon über den SMPP-Anbieter an Adobe Campaign gesendet wird.
    * SMS SR (Statusbericht) oder DR oder DLR (Versandbestätigung): Eine Empfangsbestätigung, die vom Mobiltelefon über den SMPP-Anbieter an Adobe Campaign gesendet wird und angibt, dass die SMS erfolgreich übermittelt wurde. Adobe Campaign kann auch SR mit einer Meldung empfangen, dass die Nachricht nicht zugestellt wird. Häufig ist auch eine Beschreibung des Fehlers enthalten.
 
-### Mobile Push-Konfiguration
+### Mobilgeräte-Push-Konfiguration
 
 * Für Campaign v8 wird nur das Campaign SDK unterstützt. Kontaktieren Sie die Adobe-Kundenunterstützung, um Zugriff zu erhalten
 * Folgen Sie der [Dokumentation zum Campaign SDK](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=de), um mehr über die Installation und Konfiguration des SDK zu erfahren

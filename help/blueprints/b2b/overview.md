@@ -1,5 +1,5 @@
 ---
-title: 'B2B: Analysen und Aktivierung Blueprints'
+title: 'Blueprints: B2B – Analysen und Aktivierung'
 description: Stellen Sie mit Real-time Customer Data Platform kontobasierte Zielgruppen und profilorientierte Kundenerlebnisse bereit.
 solution: Real-Time Customer Data Platform
 kt: 9311
@@ -7,11 +7,11 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
-# B2B-Analyse- und AktivierungsBlueprints
+# Blueprints: B2B – Analysen und Aktivierung
 
 Die Zielgruppen- und Profilaktivierung für B2B ist der Schlüssel zum Erfolg in der Welt des Data-driven Marketing. Allerdings orientieren sich viele Marken bei der Aktivierung noch immer zunächst am Kanal, was häufig in inkonsistenter Reichweite und Personalisierung endet.
 

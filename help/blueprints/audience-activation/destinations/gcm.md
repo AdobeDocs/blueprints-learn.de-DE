@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Social Ad Networks wie Google Customer Match, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren. Mit Google Customer Match können Sie Ihre Online- und Offline-Daten verwenden, um Ihre Kunden über die eigenen und betriebenen Präsenzen von Google (z. B. Search, Shopping, Gmail und YouTube) zu erreichen oder erneut mit ihnen zu interagieren.
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Zielgruppen-Targeting für bekannte Zielgruppen in Social-Media- und Werbezielen.
 * Online-Personalisierung mit Online- und Offline-Attributen.

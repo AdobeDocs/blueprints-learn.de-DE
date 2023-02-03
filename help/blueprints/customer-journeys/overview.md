@@ -1,20 +1,20 @@
 ---
-title: Journey-Blueprints für Kunden
+title: Customer-Journey-Blueprints
 description: Stellen Sie individuelle, zeitnahe Kundenerlebnisse auf sämtlichen Geräten bereit.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Journey-Blueprints für Kunden
+# Customer-Journey-Blueprints
 
-Customer Journeys bietet Marken die Möglichkeit, über Kanäle wie E-Mail, SMS und Mobile-Nachrichten proaktiv mit Kunden zu interagieren und zu kommunizieren. Die Orchestrierungs-Tools können mit anderen Interaktionskanälen für Web- und Mobile-Personalisierung integriert werden (z. B. mit Inbound-Kanälen), indem der Zielgruppenstatus für die anderen kanalspezifischen Entscheidungs-Engines freigegeben wird. Bei der Auswahl der Programme und Implementierungslösungen für Customer Journeys sollten diverse Faktoren berücsichtigt werden, die sich jedoch in zwei unterschiedlichen Ansätzen zusammenfassen lassen: Reaktion auf einen interagierenden Kunden (ausgelöst) ODER Reaktion auf eine Gruppe interagierender Kunden (geplant).
+Customer Journeys bietet Marken die Möglichkeit, über Kanäle wie E-Mail, SMS und Mobile-Nachrichten proaktiv mit Kunden zu interagieren und zu kommunizieren. Die Orchestrierungs-Tools können mit anderen Interaktionskanälen für Web- und Mobile-Personalisierung integriert werden (z. B. mit Inbound-Kanälen), indem der Zielgruppenstatus für die anderen kanalspezifischen Entscheidungs-Engines freigegeben wird. Bei der Auswahl der Programme und Implementierungslösungen für Customer Journeys sollten diverse Faktoren berücksichtigt werden, die sich jedoch in zwei unterschiedlichen Ansätzen zusammenfassen lassen: Reaktion auf einen interagierenden Kunden (ausgelöst) ODER Reaktion auf eine Gruppe interagierender Kunden (geplant).
 
 Heute bietet Adobe für Kunden zwei Auswahloptionen bei einer Customer-Journey-Lösung:
 

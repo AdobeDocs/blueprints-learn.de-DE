@@ -6,22 +6,22 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Architekturdiagramme zu Adobe Experience Cloud
 
-## Adobe Experience Cloud-Marketing
+## Markt-Architektur von Adobe Experience Cloud
 
-Das folgende Diagramm zeigt die verschiedenen Komponenten von Adobe Experience Cloud für die Bereiche „Data Insights und Zielgruppen“, „Content und Handel“, „Customer Journeys“ und „Marketing-Workflow“, die auf der Grundlage von Adobe Experience Platform erstellt und integriert wurden.
+Das folgende Diagramm zeigt die verschiedenen Komponenten von Adobe Experience Cloud für die Bereiche „Datenerkenntnisse und Zielgruppen“, „Content und Handel“, „Customer Journeys“ und „Marketing-Workflow“, die auf der Grundlage von Adobe Experience Platform erstellt und integriert wurden.
 
 <img src="assets/AEC.jpg" alt="Experience Cloud – Übersicht" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 
-## Integrationsarchitektur von Data &amp; Insights, Content &amp; Commerce und Experience Delivery
+## Integrationsarchitektur von „Daten und Erkenntnissen“, „Content und Commerce“ und „Bereitstellung von Erlebnissen“
 
 Das folgende Architekturdiagramm veranschaulicht, wie die verschiedenen Komponenten von Adobe Experience Cloud miteinander verbunden und integriert sind, um bei der Bereitstellung von Daten, Inhalten und Erlebnissen skalierbare Personalisierung zu ermöglichen.
 
@@ -29,6 +29,6 @@ Das folgende Architekturdiagramm veranschaulicht, wie die verschiedenen Komponen
 
 ## Adobe Experience Cloud im Unternehmensumfeld
 
-Das nachstehende Architekturdiagramm veranschaulicht, wie Adobe Experience Cloud-Anwendungen und Adobe Experience Platform in den vier Kategorien „Daten“, „Insights“, „Orchestrierung“ und „Interaktion“ in eine Customer-Experience-Architektur auf Unternehmensebene eingebunden sind.
+Das nachstehende Architekturdiagramm veranschaulicht, wie Adobe Experience Cloud-Anwendungen und Adobe Experience Platform in den vier Kategorien „Daten“, „Erkenntnisse“, „Orchestrierung“ und „Interaktion“ in eine Customer-Experience-Architektur auf Unternehmensebene eingebunden sind.
 
 <img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" />

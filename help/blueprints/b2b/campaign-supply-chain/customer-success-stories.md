@@ -1,11 +1,11 @@
 ---
-title: Customer Success Stories
-description: Customer Success Stories – Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront
+title: Erfolgsgeschichten von Kunden
+description: Erfolgsgeschichten von Kunden – Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

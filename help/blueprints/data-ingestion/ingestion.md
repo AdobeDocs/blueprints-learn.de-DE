@@ -1,18 +1,18 @@
 ---
-title: Datenvorbereitung und Entnahmeplan
+title: 'Blueprint: Datenvorbereitung und -aufnahme'
 description: Diese Blueprint zeigt alle Methoden, mit denen Daten in Adobe Experience Platform aufgenommen und vorbereitet werden können.
 solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Datenvorbereitung und Entnahmeplan
+# Blueprint: Datenvorbereitung und -aufnahme
 
 In der Blueprint „Datenvorbereitung und -aufnahme“ werden die Methoden erläutert, mit denen Daten in Adobe Experience Platform aufgenommen und vorbereitet werden können.
 
@@ -20,15 +20,15 @@ Die Datenvorbereitung umfasst die Zuordnung der Quelldaten zum Experience Data M
 
 ## Architektur
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für die Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
-## Limits bei der Datenerfassung
+## Leitlinien für die Datenaufnahme
 
 Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittlichen Leistung sowie die Latenz bei der Datenaufnahme in Adobe Experience Platform.
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" />
 
-## Datenerfassungsmethoden
+## Methoden der Datenaufnahme
 
 | Aufnahmemethoden | Beschreibung |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 | Adobe-Programm-Connectoren | Automatische Aufnahme von Daten, die aus Adobe Experience Cloud-Programmen stammen<ul><li>Adobe Analytics: [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de#connectors) und [Video-Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=de)</li><li>Audience Manager: [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de#connectors) und [Video-Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=de)</li></ul> |
 
 
-## Datenvorbereitungsmethoden
+## Methoden der Datenvorbereitung
 
 | Methoden der Datenvorbereitung | Beschreibung |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 | [!UICONTROL Abfrage-Service] – Datenvorbereitung | Verbinden, Teilen, Zusammenführen, Transformieren, Abfragen und Filtern von Daten und Erstellung eines neuen Datensatzes. Verwendung von „Create Table as Select“ (CTAS)<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de#sql) |
 | XDM-Mapper- und Datenvorbereitungsfunktionen (Streaming und Batch) | Zuordnung von Quellattributen im CSV- oder JSON-Format während der Experience Platform-Aufnahme zu XDM-Attributen.<br>Berechnung von Funktionen bei der Aufnahme von Daten, d. h. Datenformatierung, Teilung, Verknüpfung usw.<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=de) |
 
-## Verwandte Blogbeiträge
+## Verwandte Blog-Posts
 
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
 * [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)

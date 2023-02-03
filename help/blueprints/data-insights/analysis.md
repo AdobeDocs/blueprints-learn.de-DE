@@ -1,18 +1,18 @@
 ---
-title: Data Analysis und Intelligence-Blueprint
+title: 'Blueprint: Datenanalyse und Datenintelligenz'
 description: Diese Blueprint zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Data Analysis und Intelligence-Blueprint
+# Blueprint: Datenanalyse und Datenintelligenz
 
 „Datenanalyse und Datenintelligenz“ zeigt, wie in Adobe Experience Platform sondierende Abfragen sowie Analysen der Daten im Data Lake ausgeführt werden.
 
@@ -20,7 +20,7 @@ Der [!UICONTROL Abfrage-Service] von Experience Platform ermöglicht die Ausfüh
 
 Experience Platform ermöglicht Verbindungen mit SQL-Clients von Drittanbietern, Schnittstellen und Business-Intelligence-Tools (BI), über die mit dem [!DNL PostgreSQL]-Protokoll direkt eine Verbindung mit den Daten in Experience Platform hergestellt sowie auf diese zugegriffen werden kann.
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 * Interaktive Abfrage und Sammlung von Daten
 * Zeilen- und Spaltenzugriff auf aufgenommene Daten zur Erkundung und Validierung
@@ -30,11 +30,11 @@ Weitere häufige Anwendungsfälle für den Abfrage-Service werden hier beschrieb
 
 ## Programme
 
-* Adobe Experience Platform 
+* Adobe Experience Platform
 
 ## Architektur
 
-<img src="assets/data_exploration.svg" alt="Referenzarchitektur für Blueprint „Datenuntersuchung und Reporting in Unternehmen“" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="Referenzarchitektur für die Blueprint „Datenuntersuchung und Reporting in Unternehmen“" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Leitlinien
 

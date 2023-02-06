@@ -2,10 +2,10 @@
 title: 'Blueprints: Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront'
 description: 'Blueprints: Überblick – Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 96%
+source-wordcount: '1778'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Workfront Fusion hilft Marketing-Teams, manuelle Schritte und damit potenzielle 
 
 Unten finden Sie ein Workflow-Diagramm des Kampagnenentwicklungsprozesses im Fall einer Anfrage für eine Massen-E-Mail. Zusätzlich sehen Sie, wie mit Workfront Fusion, das zwischen Workfront und Marketo Engage geschaltet ist, die Workflow- und Prozessautomatisierung während des gesamten Kampagnenentwicklungszyklus verbessert wird.
 
-![](assets/overview-1.png)
+![Kampagnenplanung - Anwendungsfälle für Automatisierung](assets/overview-1.png){zoomable=&quot;yes&quot;}
 
 Beachten Sie die verschiedenen Phasen des Kampagnenentwicklungsprozesses.
 
@@ -60,7 +60,7 @@ Mit Adobe Workfront können Unternehmen Arbeitsaufgaben verwalten und so Kampagn
 
 Dabei ist es wichtig zu verstehen, wie Workfront und Marketo Engage zusammenarbeiten, damit Sie Ihre Geschäftsprozesse diesen Objekten optimal zuordnen können.
 
-![](assets/overview-2.png)
+![Darstellung von Marketinginitiativen in Workfront](assets/overview-2.png){zoomable=&quot;yes&quot;}
 
 ### Portfolio-Hierarchie definiert {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ Das Unternehmen Zeplin bringt ein neues Modell seines kompakten Traktoranhänger
 
 Die nachstehende Hierarchie zeigt, wie die Strategie, Taktiken, Aufgaben und Assets für diese Marketing-Kampagne Workfront zugeordnet werden.
 
-![](assets/overview-3.png)
+![Workflow-Management für Marketinginitiativen](assets/overview-3.png){zoomable=&quot;yes&quot;}
 
 ## Zuordnen von Workfront zu Marketo {#mapping-workfront-to-marketo}
 
@@ -129,7 +129,7 @@ Mithilfe von Workfront Fusion als Integrationsschicht können Sie Ihre Projekte 
 
 Unten finden Sie ein Beispiel dafür, wie ein Programm mehrere Projekte umfassen kann und wie diese Workfront-Projekte Programmen in Marketo Engage zugeordnet werden können.
 
-![](assets/overview-4.png)
+![Zuordnen von Workfront-Projekten zu Marketo Engage-Programmen](assets/overview-4.png){zoomable=&quot;yes&quot;}
 
 Möglicherweise möchten Sie eine umfangreiche Marketing-Aktion starten, für die mehrere Workfront-Projekte in einem Workfront-Programm zusammengefasst werden müssen, oder Sie haben eine einmalige Anfrage für ein Webinar oder eine E-Mail, für die nur ein einziges Workfront-Projekt erstellt werden muss. Unabhängig von Ihren Anforderungen ist Ihr Team bei der Nutzung von Workfront, Workfront Fusion und Marketo Engage so flexibel, dass es den gesamten Entwicklungsprozess Ihrer Kampagnen – von der Planung bis zur Ausführung – nahtlos verwalten kann.
 

@@ -3,10 +3,10 @@ title: Segment Match  Blueprint
 description: Erfahren Sie mehr zu [!UICONTROL Segment Match] in Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Sie Segmentdaten auf der Basis gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '1766'
-ht-degree: 100%
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+workflow-type: tm+mt
+source-wordcount: '1774'
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ Für global tätige multinationale Unternehmen ist es oft schwierig, die gemeins
 
 ## Architektur
 
-![Die Architektur von Segment Match](assets/architecture-segment-match.png)
+![Die Architektur von Segment Match](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
 
 [!UICONTROL Segment Match] ist kein Daten-Marketplace, auf dem Daten gekauft werden können. Vielmehr handelt es sich dabei um eine AEP-Funktion, die ausgewählten Partnern den Austausch von First-Party-Daten ermöglicht. Steuerwerkzeuge sorgen dabei für die Einhaltung des Datenschutzes und die Prüfung des Einverständnisses. [!UICONTROL Segment Match] ermöglicht die Verbesserung der Kundenbeziehungen und die Steigerung des Geschäftswachstums. Dieser Service ist insbesondere dort von Vorteil, wo bereits Marken- oder Partnerbeziehungen bestehen. [!UICONTROL Segment Match] ist einfach zu verwalten, skalierbar und ermöglicht es Administratoren und Administratorinnen, Segmente kontrolliert per Opt-in freizugeben.
 
@@ -77,7 +77,7 @@ Die Voraussetzungen für die Verwendung von [!UICONTROL Segment Match] sind:
 
 Der [!UICONTROL Segment Match]-Fluss zur Verwaltung von Partnern wird durch eine rollenbasierte Zugriffskontrolle geschützt. Nur Personen mit der entsprechenden Berechtigung können Partner initiieren, akzeptieren oder verwalten. Dies kann im Abschnitt „Datenaufnahme“ des Produktprofils erfolgen. Die folgenden Berechtigungen sind erforderlich:
 
-![Zielgruppenfreigabe-Verbindung](assets/data-ingestion.png)
+![Zielgruppenfreigabe-Verbindung](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
 
 | Berechtigung | Beschreibung |
 |---|---|
@@ -140,13 +140,13 @@ Im Zuge dieses Segmentfreigabe-Workflows kann der sendenden Partner mithilfe von
 
 Der gesamte Prozessablauf sieht folgendermaßen aus:
 
-![Segmentfreigabe](assets/segment-sharing.png)
+![Segmentfreigabe](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
 
 Diese Überschneidungsschätzungen bieten wichtige Informationen. Sie ermöglichen das Ermitteln von Partnern und liefern Daten, auf deren Basis Vereinbarungen zur Datenzusammenarbeit getroffen werden können. Um diese Metriken für die Überschneidungsschätzung zu erhalten, werden keine Kunden- oder Segmentdaten zischen Sandboxes ausgetauscht. Die vom Kunden ausgewählten, gehashten und anwendbaren Identitäten in einer Sandbox werden in eine probabilistischen Datenstruktur eingefügt, mit der Adobe Vereinigungs- und Schnittvorgänge durchführen kann. Durch diese Vorgänge kann [!UICONTROL Segment Match] die geschätzte Schnittmenge aus zwei Datenstrukturen abrufen, die aus Identitäten aus zwei verschiedenen Sandboxes bestehen, ohne die tatsächlichen Werte vergleichen zu müssen.
 
 Der Identitätsüberschneidungsprozess basiert auf dem Datensatz aus einem **vollständigen täglichen Profilexport** von sowohl der Absender- als auch der Empfänger-Sandbox, um gemeinsame Profile in den freigegebenen Segmenten identifizieren zu können. Der detaillierte Prozessablauf für den Überschneidungsprozess ist unten dargestellt:
 
-![Identitätsüberschneidungsprozess](assets/overlap-process.png)
+![Identitätsüberschneidungsprozess](assets/overlap-process.png){zoomable=&quot;yes&quot;}
 
 Nachdem die Segmentfreigabe beim Sendepartner abgeschlossen ist, erhält der Empfänger eine Benachrichtigung über den freigegebenen Segment-Feed. Dieser Segment-Feed muss für das Profil beim Empfänger aktiviert sein, damit der Segmentzugehörigkeits-Datenfluss gestartet wird. Nur die Segmentzugehörigkeit wird in die sich überschneidenden Profilfragmente der IMS-Organisation des Empfängers aufgenommen und keine zusätzliche Identität wird vom Absender an den Empfänger übertragen.
 

@@ -2,10 +2,10 @@
 title: 'Blueprint: Annahme und Erstellung'
 description: Annahme und Erstellung – Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 99%
+source-wordcount: '1331'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ In der [Marketo-Community](https://nation.marketo.com/t5/product-blogs/marketo-m
 
 In Marketo Engage können Inhalte mithilfe von Token in Kampagnen-Assets eingefügt werden. Nachdem Sie beispielsweise eine E-Mail-Vorlage in Ihrem Center of Excellence dupliziert haben, kann Workfront Fusion Details der Kampagnenanfrage in Workfront abrufen und an „My Tokens“ im Marketo Engage-Programm weiterleiten. Die Token-Werte können dann direkt an die E-Mail weitergegeben werden, um die E-Mail zu erstellen.
 
-![](assets/intake-and-create-2.png)
+![Verwenden von Token zum Ausfüllen des Inhaltsdiagramms](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### Einfügen von Bildern aus AEM Assets {#populate-images-from-aem-assets}
 
@@ -149,7 +149,7 @@ Einige grundlegende Informationen, die Ihre Lookup-Bibliothek für Programmvorla
 
 Hier finden ein Beispiel dafür, wie die Workflow-Logik in Fusion mithilfe von vorgefertigten [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target="_blank"}-Modulen erstellt werden kann und dadurch eine schnellere Automatisierung ermöglicht.
 
-![](assets/intake-and-create-3.png)
+![Automatisierungsfluss aufnehmen und erstellen](assets/intake-and-create-3.png)Verwenden von Token zum Ausfüllen von Inhalten
 
 ## Ressourcen {#resources}
 

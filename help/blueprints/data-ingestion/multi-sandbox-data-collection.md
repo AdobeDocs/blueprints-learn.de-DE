@@ -4,8 +4,8 @@ description: Streamen von mit Experience Platform-SDKs erfassten Daten an mehrer
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Ihre Ziel-Sandbox benötigt einen konfigurierten HTTP-Streaming-Endpunkt, der vo
 
 ## Architektur
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Referenzarchitektur für Ereignisweiterleitung mit mehreren Sandboxes" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Referenzarchitektur für Ereignisweiterleitung mit mehreren Sandboxes" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 1. Tag-Autoren definieren sowohl eine Tag-Eigenschaft als auch eine Ereignisweiterleitungs-Eigenschaft. Hier definieren Autoren die Datenelemente, Regeln und Aktionen, die die Datenerfassung verwalten. Beachten Sie, dass Tag-Eigenschafts-Code auf dem Client ausgeführt und von einem CDN-Host verteilt wird. Der Eigenschafts-Code der Ereignisweiterleitung wird auf dem Adobe Edge-Server ausgeführt.
 

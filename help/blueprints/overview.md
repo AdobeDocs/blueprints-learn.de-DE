@@ -3,7 +3,7 @@ title: Entwürfe für digitale Erlebnisse
 description: Digitale Erlebniskonzepte sind wiederholbare Implementierungen, um strategische Lösungen zu finden und bestehende Geschäftsprobleme zu lösen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 79%
@@ -38,17 +38,17 @@ Entwürfe für digitale Erlebnisse sind wiederholbare Implementierungen, mit den
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=de"><img alt="Miniaturbild für die Blueprint „Trigger-basiertes Messaging und Experience Platform“" src="customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=de"><img alt="Miniaturbild für die Blueprint „Trigger-basiertes Messaging und Experience Platform“" src="customer-journeys/assets/ajo-architecture.svg" class="modal-image" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=de"><strong>Cross-Channel-Orchestrierung</strong></a></div>
     <p><em>Verwenden Sie [!UICONTROL Platform] als zentralen Hub, um in Echtzeit Nachrichten zu versenden und Kundenerlebnisse zu beeinflussen.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="Miniaturbild für die Blueprint „Aktivierung einer bekannten Kundin/eines bekannten Kunden“" src="audience-activation/assets/known_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="Miniaturbild für die Blueprint „Aktivierung einer bekannten Kundin/eines bekannten Kunden“" src="audience-activation/assets/known_activation.svg" class="modal-image" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Aktivierung einer bekannten Kundin/eines bekannten Kunden</strong></a></div>
     <p><em>Bereitstellung von zielgruppenaktivierter Cross-Channel-Werbung.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de"><img alt="Miniaturbild für die Blueprint „Konsolidierung von digitalen Verhaltensdaten“" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de"><img alt="Miniaturbild für die Blueprint „Konsolidierung von digitalen Verhaltensdaten“" src="customer-journey-analytics/assets/CJA.svg" class="modal-image" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de"><strong>Kanalübergreifende Journey-Analyse</strong></a></div>
     <p><em>Ermöglichen Sie eine einheitliche konsolidierte Ansicht des Kundenverhaltens auf mehreren Kanälen.</em></p>
   </td>

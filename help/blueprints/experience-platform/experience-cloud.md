@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
@@ -25,10 +25,10 @@ Das folgende Diagramm zeigt die verschiedenen Komponenten von Adobe Experience C
 
 Das folgende Architekturdiagramm veranschaulicht, wie die verschiedenen Komponenten von Adobe Experience Cloud miteinander verbunden und integriert sind, um bei der Bereitstellung von Daten, Inhalten und Erlebnissen skalierbare Personalisierung zu ermöglichen.
 
-<img src="assets/pers_at_scale.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="assets/pers_at_scale.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image"/>
 
 ## Adobe Experience Cloud im Unternehmensumfeld
 
 Das nachstehende Architekturdiagramm veranschaulicht, wie Adobe Experience Cloud-Anwendungen und Adobe Experience Platform in den vier Kategorien „Daten“, „Erkenntnisse“, „Orchestrierung“ und „Interaktion“ in eine Customer-Experience-Architektur auf Unternehmensebene eingebunden sind.
 
-<img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />

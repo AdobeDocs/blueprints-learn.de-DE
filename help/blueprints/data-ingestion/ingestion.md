@@ -5,7 +5,7 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
@@ -20,13 +20,13 @@ Die Datenvorbereitung umfasst die Zuordnung der Quelldaten zum Experience Data M
 
 ## Architektur
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für die Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für die Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 ## Leitlinien für die Datenaufnahme
 
 Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittlichen Leistung sowie die Latenz bei der Datenaufnahme in Adobe Experience Platform.
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" />
+<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## Methoden der Datenaufnahme
 

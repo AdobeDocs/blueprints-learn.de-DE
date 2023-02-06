@@ -3,8 +3,8 @@ title: 'Blueprint: Entscheidungs-Management im Edge'
 description: Stellen Sie personalisierte Angebote für Verbraucher über verschiedene Kanäle, einschließlich Echtzeit-Erlebnissen für Web und Mobile, bereit.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der
 
 ## Architektur
 
-<img src="../assets/offers_edge.svg" alt="Referenzarchitektur zur Blueprint „Entscheidungs-Management im Edge“" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_edge.svg" alt="Referenzarchitektur zur Blueprint „Entscheidungs-Management im Edge“" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -64,13 +64,13 @@ Adobe Experience Platform
 
 ### Leitlinien für die Datenaufnahme
 
-<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### Leitlinien für die Aktivierung
 
-<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

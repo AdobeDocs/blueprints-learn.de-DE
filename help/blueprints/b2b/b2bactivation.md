@@ -4,7 +4,7 @@ description: Stellen Sie mit Real-time Customer Data Platform ​ kontobasierte 
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 80%
@@ -30,7 +30,7 @@ Verwenden Sie Account-, Opportunity- und Lead-Informationen, die mit einem einze
 
 ## Architektur
 
-<img src="assets/b2b-activation.svg" alt="Referenzarchitektur für die Bluepring „B2B: Aktivierung“" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="Referenzarchitektur für die Bluepring „B2B: Aktivierung“" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 <br>
 
 ## Leitlinien

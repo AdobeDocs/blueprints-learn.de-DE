@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '142'
-ht-degree: 100%
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 98%
 
 ---
 
@@ -24,4 +24,4 @@ In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Ko
 
 ## Architektur für Customer Journey Analytics mit Journey Optimizer
 
-![Architekturdiagramm](assets/CJA_AJO.svg)
+![Architekturdiagramm](assets/CJA_AJO.svg){zoomable=&quot;yes&quot;}

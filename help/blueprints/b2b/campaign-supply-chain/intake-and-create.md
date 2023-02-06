@@ -2,10 +2,10 @@
 title: 'Blueprint: Annahme und Erstellung'
 description: Annahme und Erstellung – Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '1307'
-ht-degree: 100%
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Erreicht wird diese Integration mithilfe von Workfront Fusion. Mit dieser Arbeit
 
 Der folgende Workflow stellt eine Webinar-Anfrage dar, die von der für die Kampagne verantwortlichen Person unter Verwendung eines Workfront-Anfrageformulars gestellt wird. Die in der Anfrage übermittelten Details lösen in Marketo Engage ein Programm und die Erstellung einer E-Mail für das Webinar aus. Zusätzlich werden Details aus dem Anfrageformular für die Inhaltserstellung der E-Mail übernommen.
 
-![](assets/intake-and-create-1.png)
+![Aufnahme und Erstellung eines Blueprints](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >

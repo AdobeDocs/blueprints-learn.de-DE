@@ -1,20 +1,20 @@
 ---
 title: Aktivierung für Google Customer Match
 description: Aktivierung für Google Customer Match.
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
 
 # Aktivierung für Google Customer Match
 
-Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Social Ad Networks wie Google Customer Match, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren. Mit Google Customer Match können Sie Ihre Online- und Offline-Daten verwenden, um Ihre Kunden über die eigenen und betriebenen Präsenzen von Google (z. B. Search, Shopping, Gmail und YouTube) zu erreichen oder erneut mit ihnen zu interagieren.
+Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Social Ad Networks wie Google Customer Match, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren. Mit Google Customer Match können Sie Ihre Online- und Offline-Daten verwenden, um Ihre Kunden über die eigenen und betriebenen Eigenschaften von Google zu erreichen und erneut mit ihnen zu interagieren, z. B.: Suchen, Shopping, Gmail und YouTube.
 
 ## Anwendungsfälle
 
@@ -27,7 +27,7 @@ Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht 
 
 ## Architektur
 
-<img src="../assets/gcm.svg" alt="Referenzarchitektur für die Aktivierung von Google Customer Match" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.svg" alt="Referenzarchitektur für die Aktivierung von Google Customer Match" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Implementierungsschritte
 

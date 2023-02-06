@@ -1,11 +1,11 @@
 ---
 title: 'Blueprints: Aktivierung von Zielgruppen und Profilen'
 description: Stellen Sie mit Real-time Customer Data Platform ​ zielgruppenaktivierte und profilorientierte Kundenerlebnisse bereit.
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 94%
@@ -30,7 +30,7 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 
 In der folgenden Abbildung werden die Kernkomponenten des Echtzeit-Kundenprofils in Experience Platform beschrieben.
 
-<img src="assets/profile_architecture.jpg" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/profile_architecture.jpg" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 Zunächst werden Datenquellen in Experience Platform aufgenommen. Wenn die Datenquelle für die Verarbeitung von Profilen konfiguriert ist, wird sie in das Echtzeit-Kundenprofil aufgenommen. Für jede Datenquelle und für jeden für eine Datenquelle konfigurierten primären ID-Datensatz wird ein Profilfragment oder Dokument erstellt. Außerdem werden Daten, wenn sie in das Profil aufgenommen werden, auch vom Identity Service verarbeitet. Jeder Datensatz aus den Datenquellen, für die im Schema mehrere Identitäten markiert sind, und die entsprechenden Werte aus dem Datensatz werden als Identitätsbeziehung innerhalb des Identity Service verarbeitet.
 
@@ -42,7 +42,7 @@ Das Zusammenführen von Profilfragmenten erfolgt, da das Identitätsdiagramm die
 
 Die folgende Abbildung zeigt die verschiedenen Segmentierungsmethoden sowie die verschiedenen Aktivierungsmuster für Profile und Zielgruppen.
 
-<img src="assets/segmentation_destination_overview.png" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/segmentation_destination_overview.png" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 ## Blueprints: Leitlinien für Zielgruppen- und Profilaktivierung
 

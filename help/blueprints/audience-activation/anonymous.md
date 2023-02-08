@@ -6,10 +6,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Die anonyme Zielgruppenaktivierung ermöglicht es Ihnen, Zielgruppen über Web-,
 * Audience Manager
 * Real-time Customer Data Platform
 
-Sowohl Audience Manager als auch Real-time Customer Data Platform können genutzt werden, um anonyme Audience Activationen für Onsite- und Werbeziele zu unterstützen. Beachten Sie, dass Real-time Customer Data Platform nur eine Untergruppe von Werbezielen mit anonymen Geräte-IDs unterstützt, die im [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=de).
+Sowohl Audience Manager als auch Real-time Customer Data Platform können verwendet werden, um die anonyme Zielgruppenaktivierung für Onsite- und Werbeziele zu ermöglichen. Beachten Sie, dass Real-time Customer Data Platform nur eine Teilmenge von Werbezielen mit anonymen Geräte-IDs unterstützt. Näheres dazu finden Sie im [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=de).
 
-Microsoft Bing, Google DV360 und TradeDesk sind die am häufigsten unterstützten Real-time Customer Data Platform-Werbeziele für anonymes gerätebasiertes Targeting. Darüber hinaus unterstützt Real-time Customer Data Platform zahlreiche bekannte kundenbasierte Ziele, die im [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=de) und wie in [Bekannter Blueprint zur Kundenaktivierung](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de).
+Microsoft Bing, Google DV360 und TradeDesk sind die am häufigsten unterstützten Real-time Customer Data Platform-Werbeziele für das Targeting auf der Basis anonymer Geräte. Darüber hinaus unterstützt Real-time Customer Data Platform zahlreiche Ziele auf der Basis bekannter Kundinnen und Kunden. Nähere Informationen dazu finden Sie in der [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=de) und in der [Blueprint „Aktivierung einer bekannten Kundin/eines bekannten Kunden“](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de).
 
 ## Architektur
 
@@ -45,7 +45,7 @@ Microsoft Bing, Google DV360 und TradeDesk sind die am häufigsten unterstützte
 
 ## Implementierungsschritte für Real-time Customer Data Platform
 
-* Informationen zu den Implementierungsschritten von Real-time Customer Data Platform finden Sie unter folgenden Themen: [Dokumentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de).
+* Informationen zu den Implementierungsschritten von Real-time Customer Data Platform finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de).
 
 ## Verwandte Dokumentation
 

@@ -4,10 +4,10 @@ description: Verwendung mehrerer Blueprints für Echtzeit-Marketing sowie kanal�
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Sein globales Technologie-Team setzt Adobe Experience Platform und Adobe-Lösung
 
 | Ziele | Taktik | Erzielter Wert |
 |---|---|---|
-| **Verknüpfte Cross-Channel-Erlebnisse **<br></br>** Förderung von Interaktion und Kundenbindung **<br></br>** Datendemokratisierung und Erkenntnisse**</ul> | <ul><li>Integration mehrerer Unternehmensdatensätze, um Millionen von Profilen, Hunderte Segmente, unterschiedliche Ziele und Reporting-Dashboards zu ermöglichen</li><li>Aktivierung über mehrere Ziele mit Real-time Customer Data Platform</li><li>Analysefunktion auf Kundenebene durch Customer Journey Analysis</li><li>Automatisierte Ereignisauslöser für Kundeninteraktionen, die unter Verwendung von Adobe Journey Optimizer implementiert werden</li></ul> | <ul><li><strong> Kundenprofil: </strong>360-Grad-Sicht auf die Kunden zur Segmentierung</li><li><strong>Zielaktivierungen: </strong>Aktivierung auf Paid-Media-, E-Mail- und Social-Media-Plattformen</li><li><strong>Kundenanalyse und Attribution: </strong>Kanalübergreifende Attributionsanalyse, die sofort verfügbar ist und einfach verteilt werden kann<li><strong>Journey Orchestration: </strong> Erstellen und Operationalisieren von automatisch ausgelösten und geplanten Kampagnen mithilfe von Echtzeit-Kontext</li></ul> |
+| **Verknüpfte Cross-Channel-Erlebnisse **<br></br>** Förderung von Interaktion und Kundenbindung **<br></br>** Datendemokratisierung und Erkenntnisse**</ul> | <ul><li>Integration mehrerer Unternehmensdatensätze, um Millionen von Profilen, Hunderte Segmente, unterschiedliche Ziele und Reporting-Dashboards zu ermöglichen</li><li>Aktivierung für mehrere Ziele mit Real-time Customer Data Platform</li><li>Analysefunktion auf Kundenebene durch Customer Journey Analysis</li><li>Automatisierte Ereignisauslöser für Kundeninteraktionen, die unter Verwendung von Adobe Journey Optimizer implementiert werden</li></ul> | <ul><li><strong> Kundenprofil: </strong>360-Grad-Sicht auf die Kunden zur Segmentierung</li><li><strong>Zielaktivierungen: </strong>Aktivierung auf Paid-Media-, E-Mail- und Social-Media-Plattformen</li><li><strong>Kundenanalyse und Attribution: </strong>Kanalübergreifende Attributionsanalyse, die sofort verfügbar ist und einfach verteilt werden kann<li><strong>Journey Orchestration: </strong> Erstellen und Operationalisieren von automatisch ausgelösten und geplanten Kampagnen mithilfe von Echtzeit-Kontext</li></ul> |
 
 ## Primärer Blueprint: Zielgruppe und Aktivierung mit Experience Cloud-Anwendungen
 

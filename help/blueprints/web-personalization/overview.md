@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Die Web- und Mobile-Personalisierung zeigt auf, wie Profil- und Zielgruppensegme
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
 | **[Web-/Mobile-Personalisierung basierend auf Verhaltensdaten](behavioral.md)** | <ul><li>Personalisierung basierend auf Online-Verhalten und Zielgruppendaten.</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(optional)*</li><li>Adobe Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
-| **[Web-/Mobile-Personalisierung mit bekannten Kundendaten](known-personalization.md)** | <ul><li>Umfassende Kundenprofile und verbesserte Segmentierung bieten verbesserte personalisierte Erlebnisse.</li><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics oder Customer Journey Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
+| **[Web-/Mobile-Personalisierung mit bekannten Kundendaten](known-personalization.md)** | <ul><li>Umfassende Kundenprofile und verbesserte Segmentierung bieten verbesserte personalisierte Erlebnisse.</li><li>Personalisierung mit Offline-Attributen und Ereignissen (Transaktionen, Reservierungen, CRM und Treuedaten).</li><li>Synchronisierung der Personalisierung über Web, E-Mails und andere bekannte Kanäle.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Analytics oder Customer Journey Analytics *(optional)*</li><li>Adobe Audience Manager *(optional)*</li></ul> |
 
 <br>
 

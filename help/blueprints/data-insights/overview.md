@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -21,4 +21,4 @@ Der [!UICONTROL Abfrage-Service] von Experience Platform ermöglicht die Ausfüh
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
 | **[Datenanalyse und Datenintelligenz](analysis.md)** | <ul><li>Die Blueprint „Datenanalyse und Datenintelligenz“ umfasst die Methoden, mit denen Daten abgefragt und analysiert werden können, um umfassendere Erkenntnisse innerhalb von Adobe Experience Platform zu erhalten.</ul></li> | <ul><li> Adobe Experience Platform Intelligence</ul></li> |
-| **[Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](data-science.md)** | <ul><li>Trainieren, bewerten und operationalisieren Sie Modelle zur weiteren Anreicherung von Profilen und Umsetzung von modellgestützten Kundenerkenntnissen</li></ul> | <ul><li>Adobe Experience Platform Intelligence</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
+| **[Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](data-science.md)** | <ul><li>Trainieren, bewerten und operationalisieren Sie Modelle zur weiteren Anreicherung von Profilen und Umsetzung von modellgestützten Kundenerkenntnissen</li></ul> | <ul><li>Adobe Experience Platform Intelligence</li><li> [!UICONTROL Real-Time Customer Data Platform]</li></ul> |

@@ -4,10 +4,10 @@ description: Verwalten Sie Profile und Zielgruppen in Experience Platform und ge
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Die Aktivierung mithilfe von Experience Cloud-Programmen entspricht in etwa der 
 ## Programme
 
 * Adobe Experience Platform
-* [!UICONTROL Real-time Customer Data Platform]
+* [!UICONTROL Real-Time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud-Programme
    * Adobe Audience Manager
@@ -65,31 +65,31 @@ Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profi
 * In Aktivierungsszenarios, in denen Zielgruppen aus Experience Platform für Audience Manager freigegeben werden, werden die folgenden Identitäten automatisch freigegeben: ECID, IDFA, GAID, gehashte E-Mail-Adressen (EMAIL_LC_SHA256), AdCloud ID. Benutzerdefinierte Namespaces werden derzeit nicht freigegeben.
 * Die Zielgruppen aus Experience Platform können über Audience Manager-Ziele freigegeben werden, wenn die erforderlichen Zielidentitäten im [!UICONTROL Echtzeit-Kundenprofil] enthalten sind oder wenn Identitäten im [!UICONTROL Echtzeit-Kundenprofil] mit den erforderlichen Zielidentitäten verbunden werden können, die in Audience Manager verknüpft sind.
 
-### Zielgruppenfreigabe von Real-time Customer Data Platform an Target
+### Zielgruppenfreigabe aus Real-time Customer Data Platform für Target
 
-* Siehe [Bekannte Kundenpersonalisierung - Target- und RTCDP-Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=de) für zusätzliche Informationen zur Freigabe von Profilen und Zielgruppen von Real-time Customer Data Platform für Target.
+* In der Blueprint [Personalisierung für bekannte Kunden – Target und RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=de) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen aus Real-time Customer Data Platform für Target.
 
-### Zielgruppenfreigabe von Real-time Customer Data Platform für Campaign und Journey Optimizer
+### Zielgruppenfreigabe aus Real-time Customer Data Platform für Campaign und Journey Optimizer
 
-* Siehe [Journey-Blueprints für Kunden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=de) für weitere Informationen zur Freigabe von Profilen und Audiences von Real-time Customer Data Platform für Campaign und Journey Optimizer.
+* In den [Blueprints zu Customer Journeys](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=de) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen aus Real-time Customer Data Platform für Campaign und Journey Optimizer.
 
-### Zielgruppenfreigabe von Real-time Customer Data Platform nach Marketo Engage
+### Zielgruppenfreigabe von Real-time Customer Data Platform an Marketo Engage
 
-* Siehe [B2B-Aktivierungs-Blueprints](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=de) Weitere Informationen zur Freigabe von Profilen und Audiences von Real-time Customer Data Platform für Marketo Engage.
+* In den [Blueprints zur B2B-Aktivierung](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=de) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen in Real-time Customer Data Platform für Marketo Engage.
 
-### Zielgruppenfreigabe von Real-time Customer Data Platform an Customer Journey Analytics
+### Zielgruppenfreigabe in Real-time Customer Data Platform für Customer Journey Analytics
 
-* Siehe [Für Customer Journey Analytics freigegebene RTCDP-Zielgruppen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=de) Weitere Informationen zur Freigabe von Real-time Customer Data Platform-Zielgruppen für Customer Journey Analytics.
+* Weitere Informationen zur Freigabe von Real-time Customer Data Platform-Zielgruppen für Customer Journey Analytics finden Sie [in diesem Abschnitt](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=de).
 
 ## Verwandte Dokumentation
 
-* [[!UICONTROL Real-time Customer Data Platform] Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
+* Produktbeschreibung zu [[!UICONTROL Real-time Customer Data Platform] ](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlinien für Profile und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Dokumentation zur Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de)
 * [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 
 ## Verwandte Videos und Tutorials
 
-* [[!UICONTROL Real-time Customer Data Platform] Übersicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
-* [Demo von [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
+* Überblick über [[!UICONTROL Real-Time Customer Data Platform] ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* [Demo zu [!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=de)
 * [Erstellen von Segmenten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=de)

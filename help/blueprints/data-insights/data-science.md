@@ -4,16 +4,16 @@ description: Diese Blueprint zeigt, wie datenwissenschaftliche Erkenntnisse in E
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Blueprint: Benutzerdefinierte Datenwissenschaft zur Profilanreicherung
 
-Custom Data Science for Profile Enrichment Blueprint veranschaulicht, wie Daten zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um Einblicke in maschinelles Lernen in die Experience Platform und die Real-time Customer Data Platform aus Datenwissenschaft und maschinellen Lernwerkzeugen zu erhalten. Modellierte Erkenntnisse können in Experience Platform integriert werden, um das Echtzeit-Kundenprofil anzureichern. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
+Die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“ veranschaulicht, wie Daten zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um mithilfe von Datenwissenschafts- und Machine-Learning-Tools Erkenntnisse zu Experience Platform und Real-time Customer Data Platform zu erhalten. Modellierte Erkenntnisse können in Experience Platform integriert werden, um das Echtzeit-Kundenprofil anzureichern. Beispiele für ML-Erkenntnisse sind Lebenszeitwertbewertung, Produkt- und Kategorieaffinität, Konversions- oder Abwanderungsneigung.
 
 ## Anwendungsfälle
 

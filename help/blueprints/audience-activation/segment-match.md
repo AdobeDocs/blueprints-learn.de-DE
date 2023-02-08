@@ -3,10 +3,10 @@ title: Segment Match  Blueprint
 description: Erfahren Sie mehr zu [!UICONTROL Segment Match] in Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Sie Segmentdaten auf der Basis gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Segment Match ermöglicht es Partnermarken, Zielgruppen über ihre Experience Pl
 
 Dieser Service ermöglicht es Kunden, übereinstimmende IDs sicher und neutral zu identifizieren, ohne ihre gesamte Datenbank offenlegen zu müssen. Partner erhalten für übereinstimmende IDs nur zuvor festgelegte Attribute (Segmentname), was eine schnelle und einfache gemeinsame Nutzung ermöglicht, die kontrolliert ist und auf aktivem Einverständnis basiert.
 
-[!UICONTROL Segment Match] setzt auf dem Datenverwaltungs- und Einverständnis-Framework von AEP auf. Segment Match ist für alle B2C- und B2P-Kunden von Real-time Customer Data Platform verfügbar. Die Hauptfunktionen von [!UICONTROL [!UICONTROL Segment Match]]:
+[!UICONTROL Segment Match] setzt auf dem Datenverwaltungs- und Einverständnis-Framework von AEP auf. Es ist für alle B2C- und B2P-Real-time Customer Data Platform-Kunden verfügbar. Die Hauptfunktionen von [!UICONTROL [!UICONTROL Segment Match]]:
 
 * Segmentfreigabe für Profile, die sich überschneiden und ihr Einverständnis gegeben haben
 * Berichte vor der Datenfreigabe mit Informationen zum geschätzten Volumen der sich überschneidenden Identitäten

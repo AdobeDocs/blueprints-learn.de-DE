@@ -5,7 +5,7 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Die Blueprint beinhaltet zwei Arten von Datenzugriff über Experience Platform u
 
 Methoden für den Datenzugriff:
 
-* [Real-time Customer Profile Access API](#rtcp-profile-access-api)
+* [Real-Time Customer Profile Access API](#rtcp-profile-access-api)
 * [Data Access API](#data-access-api)
 * [Abfrage-Service](#query-service)
 
@@ -36,11 +36,11 @@ Methoden für den Datenexport:
 
 ## Methoden für den Datenzugriff
 
-### Real-time Customer Profile Access API {#rtcp-profile-access-api}
+### Real-Time Customer Profile Access API {#rtcp-profile-access-api}
 
-Kunden können über die Real-time Customer Profile Access API auf einzelne einheitliche Profile im Echtzeit-Kundenprofil-Datenspeicher zugreifen, einschließlich aller Profilidentitäten, Zielgruppen-Zugehörigkeiten, Attribute und Erlebnisereignisse.
+Kunden können über die Real-Time Customer Profile Access API auf einzelne einheitliche Profile im Echtzeit-Kundenprofil-Datenspeicher zugreifen, einschließlich aller Profilidentitäten, Zielgruppen-Zugehörigkeiten, Attribute und Erlebnisereignisse.
 
-Weitere Informationen finden Sie in der Dokumentation zur [Real-time Customer Profile Access API](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=de).
+Weitere Informationen finden Sie in der Dokumentation zur [Real-Time Customer Profile Access API](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=de).
 
 #### Anwendungsfälle
 

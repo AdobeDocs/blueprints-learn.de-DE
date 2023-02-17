@@ -13,7 +13,7 @@ ht-degree: 100%
 ---
 
 
-# Aktivierung von Zielgruppen und Profilen  Blueprints
+# Blueprints: Aktivierung von Zielgruppen und Profilen
 
 Die Zielgruppen- und Profilaktivierung für ist der Schlüssel zum Erfolg in der Welt des Data-driven Marketing. Allerdings orientieren sich viele Marken bei der Aktivierung noch immer zunächst am Kanal, was häufig in inkonsistenter Reichweite und Personalisierung endet.
 

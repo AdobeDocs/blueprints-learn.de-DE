@@ -1,18 +1,18 @@
 ---
-title: Entwürfe für digitale Erlebnisse
-description: Digitale Erlebniskonzepte sind wiederholbare Implementierungen, um strategische Lösungen zu finden und bestehende Geschäftsprobleme zu lösen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
+title: 'Blueprints: Digitale Erlebnisse'
+description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Entwürfe für digitale Erlebnisse
+# Blueprints: Digitale Erlebnisse
 
-Entwürfe für digitale Erlebnisse sind wiederholbare Implementierungen, mit denen Sie Strategien umsetzen und schnell festgestellte Geschäftsprobleme lösen können. Jede Blueprint bietet eine Reihe von Werkzeugen, die das jeweilige Geschäftsproblem, Architekturen, Implementierungsschritte, technische Überlegungen und Links zu entsprechender Dokumentation enthalten.
+Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Jede Blueprint bietet eine Reihe von Werkzeugen, die das jeweilige Geschäftsproblem, Architekturen, Implementierungsschritte, technische Überlegungen und Links zu entsprechender Dokumentation enthalten.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -23,9 +23,9 @@ Entwürfe für digitale Erlebnisse sind wiederholbare Implementierungen, mit den
 
 ## Neue Funktionen
 
-* **[Blueprint zur Zielgruppen- und Profilaktivierung für Enterprise-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[Blueprint: Zielgruppen- und Profilaktivierung für Unternehmensziele](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
-   *Halten Sie die Profile Ihrer Kunden auf allen Systemen auf dem neuesten Stand, um Ihre Vertriebs- und Supportteams zu unterstützen.*
+   *Halten Sie die Profile Ihrer Kunden auf allen Systemen auf dem neuesten Stand, um Ihre Vertriebs- und Support-Teams zu unterstützen.*
 * **[Blueprint: Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Bereitstellung von Kontext für mitarbeitergestützten Support und Vertrieb.*
@@ -33,7 +33,7 @@ Entwürfe für digitale Erlebnisse sind wiederholbare Implementierungen, mit den
 
    *Durchführung sondierender Abfragen und Analysen der Daten im Data Lake.*
 
-## Vorgestellte Blueprints
+## Präsentierte Blueprints
 
 <table style="table-layout:fixed">
 <tr>
@@ -55,7 +55,7 @@ Entwürfe für digitale Erlebnisse sind wiederholbare Implementierungen, mit den
 </tr>
 </table>
 
-## Blogbeiträge
+## Blog-Posts
 
 * [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)

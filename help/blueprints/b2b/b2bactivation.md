@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# B2B: Aktivierung von Zielgruppen und Profilen  Blueprint
+# Blueprint: B2B – Aktivierung von Zielgruppen und Profilen
 
 Verwenden Sie Account-, Opportunity- und Lead-Informationen, die mit einem einzelnen Kundinnen bzw. Kunden verknüpft sind, um verwertbare B2B-Profile für verbesserte Personalisierung und Targeting auf allen Kanälen zu erstellen.
 

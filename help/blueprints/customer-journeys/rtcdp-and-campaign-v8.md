@@ -4,8 +4,8 @@ description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil 
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '385'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 * Der Kunde muss über eine gültige IMS Org für Experience Cloud verfügen
 * Es wird empfohlen, bei Verwendung einer einzigen Anmelde-URL Adobe Experience Platform und Campaign in derselben IMS-Organisation bereitzustellen
 * Der Kunde muss über die v8-Instanz von Campaign verfügen
-* Der Kunde muss über eine Berechtigung und den Zugriff auf die Quellen und Ziele von Real-time Customer Data Platform verfügen.
+* Der Kunde muss über eine Berechtigung und den Zugriff auf die Quellen und Ziele von Real-Time Customer Data Platform verfügen.
 * Adobe Campaign-Produktkontext muss vorhanden sein
 
 <br>

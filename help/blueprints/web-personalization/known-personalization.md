@@ -1,5 +1,5 @@
 ---
-title: Übersicht über die Web-/Mobile-Personalisierung      – Adobe Target und RTCDP
+title: Übersicht über die Web-/Mobile-Personalisierung       – Adobe Target und RTCDP
 description: Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanalpersonalisierungen.
 landing-page-description: Synchronisieren Sie Web-Personalisierung mit E-Mail und anderen bekannten und anonymen Kanalpersonalisierungen.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -7,14 +7,14 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Web-/Mobile-Personalisierung mit bekannten Kundendaten  Blueprint
+# Web-/Mobile-Personalisierung mit bekannten Kundendaten   Blueprint
 
 ## Anwendungsfälle
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 | Streaming- und Batch-Zielgruppenfreigabe von Real-time Customer Data Platform für Target über den Edge-Ansatz | <ul><li>Freigeben von Streaming- und Batch-Zielgruppen aus Real-time Customer Data Platform für Target über das Edge Network In Echtzeit evaluierte Zielgruppen erfordern die Web SDK- und Edge Network-Implementierung.</li></ul> | <ul><li>Web/Mobile SDK oder die Edge API-Implementierung von Target ist nicht erforderlich für die Freigabe von Streaming- und Batch-RTCDP-Zielgruppen für Target. Es ist aber erforderlich, um Edge-Segmente wie oben beschrieben in Echtzeit auszuwerten.</li><li>Bei Verwendung von AT.js wird nur die Profilintegration mit dem ECID-Identity-Namespace unterstützt.</li><li>Für die Suche nach benutzerdefinierten Identity-Namespaces im Edge Network ist die Web SDK/Edge API-Implementierung erforderlich. Außerdem muss jede Identität in der Identity Map als Identität festgelegt sein.</li><li>Das Target-Ziel muss in den Zielen von Real-time Customer Data Platform konfiguriert werden. In Real-time Customer Data Platform wird nur die standardmäßige Produktions-Sandbox unterstützt.</li><li>Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.</li></ul> |
 | Freigeben von Streaming- und Batch-Zielgruppen aus Real-time Customer Data Platform für Target und Audience Manager über den Zielgruppenfreigabe-Service-Ansatz | <ul><li>Dieses Integrationsmuster kann genutzt werden, wenn eine zusätzliche Anreicherung mit Third-Party-Daten und -Zielgruppen in Audience Manager gewünscht wird.</li></ul> | <ul><li>Web/Mobile SDK ist nicht erforderlich für die Freigabe von Streaming- und Batch-Zielgruppen für Target. Es ist aber erforderlich, um Edge-Segmente in Echtzeit auszuwerten.</li><li>Bei Verwendung von AT.js wird nur die Profilintegration mit dem ECID-Identity-Namespace unterstützt.</li><li>Für die Suche nach benutzerdefinierten Identity-Namespaces im Edge Network ist die Web SDK/Edge API-Implementierung erforderlich. Außerdem muss jede Identität in der Identity Map als Identität festgelegt sein.</li><li>Die Zielgruppenprognose per Zielgruppenfreigabe-Service muss bereitgestellt werden.</li><li>Zur Integration mit Target ist dieselbe IMS-Org wie für die Experience Platform-Instanz erforderlich.</li><li>Nur Zielgruppen aus der standardmäßigen Produktions-Sandbox unterstützen den zentralen Service zur Zielgruppenfreigabe.</li></ul> |
 
-## Freigabe von Echtzeit-, Streaming- und Batch-Zielgruppen für Adobe Target
+## Echtzeit-, Streaming- und Batch-Zielgruppenfreigabe für Adobe Target
 
 Architektur
 
@@ -56,14 +56,14 @@ Sequenzdetails
 
 Die Personalisierung bekannter Kundinnen und Kunden wird über verschiedene Implementierungsverfahren unterstützt.
 
-### Implementierungsmuster 1 - Edge-Netzwerk mit Web/Mobile SDK oder Edge Network API (empfohlener Ansatz)
+### Implementierungsmuster 1 – Edge-Netzwerk mit Web/Mobile SDK oder Edge Network-API (empfohlener Ansatz)
 
 * Verwendung von Edge Network mit dem Web/Mobile SDK. Für die Edge-Echtzeit-Segmentierung ist das Implementierungsverfahren mit Web/Mobile SDKs oder der Edge-API erforderlich.
-* [Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../experience-platform/deployment/websdk.md)        für die SDK-basierte Implementierung.
+* [Weitere Informationen finden Sie in der Blueprint „Experience Platform Web and Mobile SDK“](../experience-platform/deployment/websdk.md)         für die SDK-basierte Implementierung.
 * Zur Verwendung im Mobile SDK muss die [Decisioning-Erweiterung von Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) im Mobile SDK installiert sein.
 * [Unter der Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) finden Sie Informationen zur API-basierten Implementierung von Adobe Target mit Edge-Profil.
 
-### Implementierungsmuster 2 - Anwendungsspezifische SDKs
+### Implementierungsmuster 2 – Anwendungsspezifische SDKs
 
 Verwendung herkömmlicher anwendungsspezifischer SDKs (z. B. AT.js und AppMeasurement.js). Die Edge-Echtzeit-Segmentevaluierung wird bei diesem Implementierungsverfahren nicht unterstützt. Doch das Streaming und die Batch-Zielgruppenfreigabe über den Experience Platform-Hub werden durch dieses Implementierungsverfahren unterstützt.
 
@@ -120,7 +120,7 @@ Voraussetzungen für Identitäten
 
 ### Tutorials
 
-* [Nächste Hit-Personalisierung mit Real-Time CDP und Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=de)
+* [Personalisierung des nächsten Treffers mit Real-Time CDP und Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=de)
 
 ### Verwandte Blog-Posts
 

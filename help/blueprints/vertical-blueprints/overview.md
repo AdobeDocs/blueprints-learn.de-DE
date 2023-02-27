@@ -2,9 +2,9 @@
 title: Erfolgsgeschichten mit Blueprints für digitale Erlebnisse
 description: Diese Erfolgsgeschichten mit Blueprints für digitale Erlebnisse zeigen, wie in verschiedenen Branchen ein Mehrwert für Unternehmen geschaffen werden kann, die Adobe Experience Platform gemeinsam mit Adobe Experience Cloud-Programmen nutzen.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
+workflow-type: tm+mt
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,10 @@ Erfahren Sie, wie Kunden mit Blueprints für digitale Erlebnisse erfolgreiche Ku
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=de"><img alt="Miniaturbild für ein Bekleidungsunternehmen, das Audience Activation, Customer Journey Analytics und Customer-Journey-Blueprints nutzt" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=de"><img alt="Miniaturbild für ein Bekleidungsunternehmen, das Audience Activation, Customer Journey Analytics und Customer-Journey-Blueprints nutzt" src="../experience-platform/assets/aep+apps.svg" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=de"><img alt="Miniaturbild für ein Einzelhandelsunternehmen, das die Aktivierung mit der Blueprint „Aktivierung mit Online-/Offline-Daten“ und der Blueprint „Journey Optimizer“ nutzt" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=de"><img alt="Miniaturbild für ein Einzelhandelsunternehmen, das die Aktivierung mit der Blueprint „Aktivierung mit Online-/Offline-Daten“ und der Blueprint „Journey Optimizer“ nutzt" src="../experience-platform/assets/aep+apps.svg" /></a>
 
 </td>
   <td>

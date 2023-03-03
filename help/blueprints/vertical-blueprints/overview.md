@@ -3,8 +3,8 @@ title: Erfolgsgeschichten mit Blueprints für digitale Erlebnisse
 description: Diese Erfolgsgeschichten mit Blueprints für digitale Erlebnisse zeigen, wie in verschiedenen Branchen ein Mehrwert für Unternehmen geschaffen werden kann, die Adobe Experience Platform gemeinsam mit Adobe Experience Cloud-Programmen nutzen.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: tm+mt
-source-wordcount: '255'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

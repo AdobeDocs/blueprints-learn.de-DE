@@ -3,13 +3,13 @@ title: 'Blueprint: Annahme und Erstellung'
 description: Annahme und Erstellung – Ablaufoptimierung bei der Durchführung von Kampagnen mit Marketo und Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Annahme und Erstellung  Blueprint {#intake-and-create}
+# Annahme und Erstellung   Blueprint {#intake-and-create}
 
 Ein Übermaß an Anfragen an ein Marketing-Team nach neuen Kampagnen kann aus einem gut eingespielten Team frustrierte Fließbandarbeiter machen. Was oft folgt, sind Burnout und ein Mangel an Innovation.
 
@@ -21,7 +21,7 @@ Erreicht wird diese Integration mithilfe von Workfront Fusion. Mit dieser Arbeit
 
 Der folgende Workflow stellt eine Webinar-Anfrage dar, die von der für die Kampagne verantwortlichen Person unter Verwendung eines Workfront-Anfrageformulars gestellt wird. Die in der Anfrage übermittelten Details lösen in Marketo Engage ein Programm und die Erstellung einer E-Mail für das Webinar aus. Zusätzlich werden Details aus dem Anfrageformular für die Inhaltserstellung der E-Mail übernommen.
 
-![Aufnahme und Erstellung eines Blueprints](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![Blueprint zu Annahme und Erstellung](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ In der [Marketo-Community](https://nation.marketo.com/t5/product-blogs/marketo-m
 
 In Marketo Engage können Inhalte mithilfe von Token in Kampagnen-Assets eingefügt werden. Nachdem Sie beispielsweise eine E-Mail-Vorlage in Ihrem Center of Excellence dupliziert haben, kann Workfront Fusion Details der Kampagnenanfrage in Workfront abrufen und an „My Tokens“ im Marketo Engage-Programm weiterleiten. Die Token-Werte können dann direkt an die E-Mail weitergegeben werden, um die E-Mail zu erstellen.
 
-![Verwenden von Token zum Ausfüllen des Inhaltsdiagramms](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![Diagramm zum Verwenden von Token zum Ausfüllen des Inhalts](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### Einfügen von Bildern aus AEM Assets {#populate-images-from-aem-assets}
 
@@ -149,7 +149,7 @@ Einige grundlegende Informationen, die Ihre Lookup-Bibliothek für Programmvorla
 
 Hier finden ein Beispiel dafür, wie die Workflow-Logik in Fusion mithilfe von vorgefertigten [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target="_blank"}-Modulen erstellt werden kann und dadurch eine schnellere Automatisierung ermöglicht.
 
-![Automatisierungsfluss aufnehmen und erstellen](assets/intake-and-create-3.png)Verwenden von Token zum Ausfüllen von Inhalten
+![Automatisierungsfluss für Annahme und Erstellung](assets/intake-and-create-3.png)Verwenden von Token zum Ausfüllen von Inhalten
 
 ## Ressourcen {#resources}
 

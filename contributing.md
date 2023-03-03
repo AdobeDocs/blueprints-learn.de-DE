@@ -1,6 +1,6 @@
 ---
-source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: ht
+source-git-commit: 139702439c38e3bafe1aa74a129934504aa95352
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -43,3 +43,4 @@ Wir freuen uns über jeden Beitrag aus unserer Community. Wenn Sie einen Schritt
 ## Sicherheitsprobleme
 
 Sicherheitsprobleme sollten nicht über den Anfragen-Tracker gemeldet werden. [Melden Sie ein solches Problem stattdessen unseren Sicherheitsexperten.](https://helpx.adobe.com/de/security/alertus.html)
+

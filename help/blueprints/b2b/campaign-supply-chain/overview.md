@@ -5,7 +5,7 @@ exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '1778'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Workfront Fusion hilft Marketing-Teams, manuelle Schritte und damit potenzielle 
 
 Unten finden Sie ein Workflow-Diagramm des Kampagnenentwicklungsprozesses im Fall einer Anfrage für eine Massen-E-Mail. Zusätzlich sehen Sie, wie mit Workfront Fusion, das zwischen Workfront und Marketo Engage geschaltet ist, die Workflow- und Prozessautomatisierung während des gesamten Kampagnenentwicklungszyklus verbessert wird.
 
-![Kampagnenplanung - Anwendungsfälle für Automatisierung](assets/overview-1.png){zoomable=&quot;yes&quot;}
+![Von der Planung bis zu Ausführung einer Kampagne – Anwendungsfälle für Automatisierung](assets/overview-1.png){zoomable=&quot;yes&quot;}
 
 Beachten Sie die verschiedenen Phasen des Kampagnenentwicklungsprozesses.
 
@@ -60,7 +60,7 @@ Mit Adobe Workfront können Unternehmen Arbeitsaufgaben verwalten und so Kampagn
 
 Dabei ist es wichtig zu verstehen, wie Workfront und Marketo Engage zusammenarbeiten, damit Sie Ihre Geschäftsprozesse diesen Objekten optimal zuordnen können.
 
-![Darstellung von Marketinginitiativen in Workfront](assets/overview-2.png){zoomable=&quot;yes&quot;}
+![Darstellung von Marketing-Aktionen in Workfront](assets/overview-2.png){zoomable=&quot;yes&quot;}
 
 ### Definition der Portfolio-Hierarchie {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ Das Unternehmen Zeplin bringt ein neues Modell seines kompakten Traktoranhänger
 
 Die nachstehende Hierarchie zeigt, wie die Strategie, Taktiken, Aufgaben und Assets für diese Marketing-Kampagne Workfront zugeordnet werden.
 
-![Workflow-Management für Marketinginitiativen](assets/overview-3.png){zoomable=&quot;yes&quot;}
+![Beispiel für Workflow-Management in einer Marketing-Initiative](assets/overview-3.png){zoomable=&quot;yes&quot;}
 
 ## Zuordnen von Workfront zu Marketo {#mapping-workfront-to-marketo}
 

@@ -1,19 +1,19 @@
 ---
-title: Aktivierung in Social- und Advertising-Zielen von der Echtzeit-Kundendatenplattform
-description: Aktivierung in Social- und Advertising-Zielen von der Echtzeit-Kundendatenplattform
+title: Aktivierung in Social-Media- und Advertising-Zielen aus Real-time Customer Data Platform
+description: Aktivierung in Social-Media- und Advertising-Zielen aus Real-time Customer Data Platform
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1184'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Aktivierung in Social- und Advertising-Zielen von der Echtzeit-Kundendatenplattform
+# Aktivierung in Social-Media- und Advertising-Zielen aus Real-time Customer Data Platform
 
-Erfassen Sie Kundendaten aus mehreren Quellen, um eine Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile in erstellte Zielgruppen für Marketing und Personalisierung, geben Sie diese Zielgruppen in Anzeigennetzwerken wie Facebook und Google frei, um Zielgruppen für diese Zielgruppen zu bestimmen und Personalisierungskampagnen zu erstellen.
+Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Ad Networks wie Facebook und Google, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren.
 
 ## Anwendungsfälle
 
@@ -73,7 +73,7 @@ Erfassen Sie Kundendaten aus mehreren Quellen, um eine Profilansicht des Kunden 
    * Prüfen Sie das Profil, das im Segment vorhanden sein sollte, um sicherzustellen, dass die Segmentzugehörigkeit im Bereich des Profils für die Segmentzugehörigkeit enthalten ist.
 1. Konfigurieren Sie die Übermittlung der Zielgruppe an das Ziel in der Konfiguration des Ziels.
    * Weitere Details zur Konfiguration von Facebook als Ziel finden Sie im [Handbuch für das Ziel Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=de).
-   * Siehe [Google-Kundenübereinstimmungsziel-Handbuch](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=de) für weitere Informationen zur Konfiguration des Google-Ziels.
+   * Weitere Details zur Konfiguration von Google Customer Match als Ziel finden Sie im [Handbuch für das Ziel Google Customer Match](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=de).
    * Wenn Sie ein Ziel konfigurieren, wählen Sie aus, welche Zielgruppe Sie für das Ziel aktivieren möchten.
    * Legen Sie das geplante Startdatum fest, an dem der Ziel-Datenfluss mit der Übermittlung der Zielgruppe für das Ziel beginnen soll.
    * Jedes Ziel hat erforderliche und optionale Attribute, die gesendet werden.
@@ -84,7 +84,7 @@ Erfassen Sie Kundendaten aus mehreren Quellen, um eine Profilansicht des Kunden 
       * Zielgruppen-Zugehörigkeiten werden für Google Customer Match via Streaming im JSON-Format an einen Google Customer Match-Endpunkt bereitgestellt.
       * Zielgruppenzugehörigkeiten werden im Streaming-Modus entsprechend der Streaming- oder Batch-Segmentierungs-Evaluierung in Experience Platform übermittelt.
 1. Stellen Sie sicher, dass der Zielfluss die Zielgruppe wie erwartet an das Ziel übermittelt hat.
-   * Prüfen Sie in der Monitoring-Schnittstelle, ob die Zielgruppe mit der erwarteten Anzahl an Profilen übermittelt wurde. Die Zielgruppengröße sollte die erwartete Anzahl aktivierter Profile widerspiegeln. Beachten Sie, dass für bestimmte Zielgruppen wie Facebook und Google bestimmte Felder erforderlich sind, z. B. eine E-Mail-Hash-Identität. Wenn diese nicht in dem Profil vorhanden ist, das Mitglied der Zielgruppe ist, wird sie nicht für das Ziel aktiviert.
+   * Prüfen Sie in der Monitoring-Schnittstelle, ob die Zielgruppe mit der erwarteten Anzahl an Profilen übermittelt wurde. Die Zielgruppengröße sollte die erwartete Anzahl aktivierter Profile widerspiegeln. Beachten Sie dabei, dass bestimmte Ziele wie Facebook und Google bestimmte Felder erfordern, z. B. eine E-Mail-Hash-Identität. Wenn diese Felder nicht in einem Profil vorhanden sind, das Teil der Zielgruppe ist, wird dieses im Ziel nicht aktiviert.
    * Prüfen Sie übersprungene Profile auf fehlende Profilidentitäten oder fehlende erforderliche Attribute.
    * Prüfen Sie, ob andere Fehler vorliegen, die behoben werden müssen.
 1. Prüfen Sie, ob die Zielgruppe im Ziel mit der erwarteten Anzahl an Zielgruppenzugehörigkeiten aktiviert wurde.

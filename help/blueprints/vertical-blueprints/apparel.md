@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey 
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -46,4 +46,4 @@ Sein globales Technologie-Team setzt Adobe Experience Platform und Adobe-Lösung
 
 ### Blueprint-Architektur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Bild für ein Bekleidungsgeschäft mit Zielgruppenaktivierung, Journey-Analyse für Kunden und Blueprints für Journey" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Bild zu Blueprints für ein Bekleidungsunternehmen, das Zielgruppen-Aktivierung, Customer Journey Analytics und Customer-Journey-Blueprints nutzt" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image"/></a>

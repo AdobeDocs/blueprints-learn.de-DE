@@ -55,7 +55,7 @@ Der zweite Ansatz erfolgt über das Experience Edge Network, eine global verteil
 * Online-Personalisierung über eingehende Web- oder mobile Erlebnisse.
 * Kanalübergreifende Journey-Ausführung - Konsistenz in Web, Mobile, E-Mail und auf anderen Interaktionskanälen über Adobe Journey Optimizer.
 
-### Entscheidungs-Management im Edge    Technische Überlegungen
+### Technische Überlegungen zu Entscheidungs-Management im Edge Network
 
 * Anfragen pro Sekunde = 5.000.
 * Latenz der Reaktion &lt; 250 ms.

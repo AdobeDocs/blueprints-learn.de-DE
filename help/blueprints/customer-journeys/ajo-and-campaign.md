@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Journey Optimizer mit Adobe Campaign  Blueprint
+# Journey Optimizer mit Adobe Campaign   Blueprint
 
 Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden.
 

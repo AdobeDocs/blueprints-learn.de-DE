@@ -9,7 +9,7 @@ ht-degree: 100%
 
 ---
 
-# Annahme und Erstellung   Blueprint {#intake-and-create}
+# Annahme und Erstellung    Blueprint {#intake-and-create}
 
 Ein Übermaß an Anfragen an ein Marketing-Team nach neuen Kampagnen kann aus einem gut eingespielten Team frustrierte Fließbandarbeiter machen. Was oft folgt, sind Burnout und ein Mangel an Innovation.
 

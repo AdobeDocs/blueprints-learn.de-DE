@@ -1,18 +1,18 @@
 ---
-title: Customer Journey Analytics    Blueprints
+title: Customer Journey Analytics     Blueprints
 description: Zusammenführung und Analyse von Daten und Kundenverhalten aus der gesamten Customer Journey.
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics    Blueprints
+# Customer Journey Analytics     Blueprints
 
 „Customer Journey Analytics“ zeigt, wie Marken Kundendaten und -verhalten aus unterschiedlichen Interaktionskanälen und -quellen zusammenführen können, um eine Journey-basierte Ansicht aller Kundeninteraktionen zu erstellen. Berichte und Analysen können im Programm-Service Customer Journey Analytics erstellt werden, um Kundeninteraktionen und Verhaltensmuster zu evaluieren und Erkenntnisse daraus zu gewinnen.
 
@@ -45,7 +45,7 @@ Beispiele für primäre Anwendungsfälle wie beispielsweise die folgenden.
 
 * Detaillierte Leitlinien und End-to-End-Latenzen finden Sie im Abschnitt [Leitlinien zur Implementierung](../experience-platform/deployment/guardrails.md)
 
-![Schutzdiagramm](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Leitlinien-Diagramm](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Verwandte Blog-Posts
 

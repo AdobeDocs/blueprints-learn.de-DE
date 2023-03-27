@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics mit Real-time Customer Data Platform   Blueprint
+title: Customer Journey Analytics mit Real-time Customer Data Platform    Blueprint
 description: Vereinheitlichen und analysieren Sie in Customer Journey Analytics Daten und Kundenverhalten von der gesamten Customer Journey und veröffentlichen Sie in CJA identifizierte Zielgruppe in RTCDP.
 solution: Customer Journey Analytics
 kt: null
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics mit Real-time Customer Data Platform   Blueprint
+# Customer Journey Analytics mit Real-time Customer Data Platform    Blueprint
 
 Erstellen und veröffentlichen Sie Zielgruppen, die in Customer Journey Analytics (CJA) identifiziert wurden, im Echtzeit-Kundenprofil in Adobe Experience Platform, um Zielgruppenbestimmung und Personalisierung durchzuführen. Ideal zur Erstellung von Zielgruppen mithilfe historischer Daten oder von präziseren Zielgruppen aus granularer Filterung und berechneten Feldern in Customer Journey Analytics.
 
@@ -28,7 +28,7 @@ In der folgenden Dokumentation finden Sie Anleitungen zur Implementierung und Ko
 
 * Detaillierte Leitlinien und End-to-End-Latenzen finden Sie im Abschnitt [Leitlinien zur Implementierung](../experience-platform/deployment/guardrails.md)
 
-![Leitliniendiagramm](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Leitlinien-Diagramm](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Häufig gestellte Fragen
 

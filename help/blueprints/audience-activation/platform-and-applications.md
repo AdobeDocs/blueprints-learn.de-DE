@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Weitere Architekturdiagramme für Experience Platform-Integrationen mit Experien
 
 ## Leitlinien
 
-Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profilaktivierung](overview.md).    und die Seite mit den [Implementierungsleitlinien](../experience-platform/deployment/guardrails.md).
+Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profilaktivierung](overview.md) und die Seite mit den [Implementierungsleitlinien](../experience-platform/deployment/guardrails.md).
 
 ## Überlegungen bei der Implementierung
 

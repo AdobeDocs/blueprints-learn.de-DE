@@ -1,12 +1,12 @@
 ---
 title: 'Blueprints: Aktivierung von Zielgruppen und Profilen'
-description: Stellen Sie mit Real-Time Customer Data Platform zielgruppenaktivierte und profilorientierte Kundenerlebnisse bereit.
+description: Stellen Sie mit Real-time Customer Data Platform zielgruppenaktivierte und profilorientierte Kundenerlebnisse bereit.
 solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
 ht-degree: 100%
 

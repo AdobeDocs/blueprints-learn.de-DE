@@ -6,13 +6,13 @@ kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
 source-git-commit: 21b688109ee8c3d209f2cac5267eb95258851dae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Architektur des Datenflusses in Adobe Experience Platform  Diagramme
+# Architektur des Datenflusses in Adobe Experience Platform   Diagramme
 
 ## Datenflussdiagramm
 
@@ -22,9 +22,9 @@ Das Diagramm unten veranschaulicht die verschiedenen Pfade für die Datenerfassu
 
 ## Dateneingangs- und -ausgangsmuster
 
-Eine detaillierte Liste aller Datenerfassungs-, Datenerfassungs- und Eingangsmuster finden Sie unter [Datenvorbereitung und Entnahmeplan](../data-ingestion/ingestion.md).
+Eine detaillierte Liste aller Datenaufnahme-, Datenerfassungs- und Dateneingangsmuster finden Sie in der [Blueprint für die Datenvorbereitung und -aufnahme](../data-ingestion/ingestion.md).
 
-Eine detaillierte Liste aller Datenausgangs- und Zugriffsmuster finden Sie unter [Data Access and Export Blueprint](../data-ingestion/egress.md).
+Eine detaillierte Liste aller Datenausgangs- und Datenzugriffsmuster finden Sie in der [Blueprint für den Datenzugriff und Datenexport](../data-ingestion/egress.md).
 
 ## Leitlinien für die Datenaufnahme
 

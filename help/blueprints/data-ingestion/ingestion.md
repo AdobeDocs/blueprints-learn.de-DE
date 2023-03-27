@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1095'
+ht-degree: 100%
 
 ---
 
@@ -57,8 +57,8 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Datenerfassung über Websites und mobile Apps.</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Bevorzugte Methode für die clientseitige Erfassung.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Datenerfassung über Websites und Mobile Apps.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Bevorzugte Methode für die Client-seitige Erfassung.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -66,17 +66,17 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Implementieren Sie mehrere Adobe Apps mit einem einzigen SDK.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Implementieren mehrerer Adobe-Anwendungen mit einem einzigen SDK.</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=en" style="color:#0563c1; text-decoration:underline">HTTP-API-Connector</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=de" style="color:#0563c1; text-decoration:underline">HTTP-API-Connector</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Sammlung aus Streaming-Quellen, Transaktionen, relevanten Kundenereignissen und -signalen</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Erfassung aus Streaming-Quellen, Transaktionen, relevanten Kundenereignissen und -signalen</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -90,11 +90,11 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en" style="color:#0563c1; text-decoration:underline">Edge Network-API</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de" style="color:#0563c1; text-decoration:underline">Edge Network API</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Sammlung aus Streaming-Quellen, Transaktionen, relevanten Kundenereignissen und -signalen aus dem global verteilten Edge-Netzwerk</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Erfassung aus Streaming-Quellen, Transaktionen, relevanten Kundenereignissen und -signalen aus dem global verteilten Edge Network</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -102,13 +102,13 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Die Daten werden über das Edge-Netzwerk gestreamt. Unterstützung für Echtzeit-Segmentierung an Edge. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Die Daten werden über das Edge Network gestreamt. Unterstützung für Echtzeit-Segmentierung im Edge Network. </span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de" style="color:#0563c1; text-decoration:underline">Adobe Apps</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de" style="color:#0563c1; text-decoration:underline">Adobe-Anwendungen</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
@@ -116,11 +116,11 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, Source Connectors und API</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, Quell-Connectoren und API</span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Der empfohlene Ansatz ist die Migration zu Web/Mobile SDK gegenüber herkömmlichen Anwendungs-SDKs.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Empfohlene Methode ist Migration zum Web/Mobile SDK gegenüber herkömmlichen Anwendungs-SDKs.</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -130,7 +130,7 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Erfassung eines Enterprise-Ereignisstreams, der normalerweise für die Freigabe von Unternehmensdaten für mehrere nachgelagerte Anwendungen verwendet wird. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Aufnahme eines Unternehmensereignis-Datenstroms, normalerweise verwendet für die Freigabe von Unternehmensdaten für mehrere nachgelagerte Anwendungen. </span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -148,7 +148,7 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ähnlich wie HTTP API Connector ermöglicht die Self-Service-Konfigurationskarte eines externen Datenstreams.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ähnlich wie HTTP-API-Connector, ermöglicht Self-Service-Konfigurationskarte eines externen Datenstroms.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -186,11 +186,11 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en" style="color:#0563c1; text-decoration:underline">Batch-Aufnahme-API</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=de" style="color:#0563c1; text-decoration:underline">Batch-Aufnahme-API</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Aufnahme aus einer von einem Unternehmen verwalteten que. Datenbereinigung und -umwandlung vor der Erfassung.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Aufnahme über eine vom Unternehmen verwaltete Warteschlange. Datenbereinigung und -umwandlung vor der Erfassung.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
@@ -204,11 +204,11 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob-s3.html?lang=en" style="color:#0563c1; text-decoration:underline">Batch-Quell-Connectoren</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob-s3.html?lang=de" style="color:#0563c1; text-decoration:underline">Batch-Quell-Connectoren</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Allgemeiner Ansatz für die Aufnahme von Dateien von Cloud-Speicher-Speicherorten.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Allgemeine Methode für die Aufnahme von Dateien von Cloud-Speichern.</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Connectoren für gängige CRM- und Marketing-Anwendungen.</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ideal für die Aufnahme großer Mengen historischer Daten.</span></span></span></li>
 </ul>
@@ -218,35 +218,35 @@ Das folgende Diagramm zeigt die Leitlinien zur Erlangung einer durchschnittliche
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Nicht immer auf, sofortige Aufnahme. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Nicht immer aktiv, sofortige Aufnahme. </span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Wiederholte Frequenzprüfungen zur Aufnahme von Delta-Dateien mindestens alle 15 Minuten.</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone.html?lang=en" style="color:#0563c1; text-decoration:underline">Data Landing Zone</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone.html?lang=de" style="color:#0563c1; text-decoration:underline">Data Landing Zone</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Die Adobe hat den Speicherort der Datei bereitgestellt, an den Dateien zur Aufnahme in gepusht werden können.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Von Adobe bereitgestellter Datei-Speicherort, an den Dateien zur Aufnahme gepusht werden können.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, CSV, JSON, Parquet</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">- Dateien erhalten eine TTL von 7 Tagen.</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">– Dateien erhalten eine TTL von 7 Tagen.</span></span></span></p>
 </td>
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/sdk/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">Batch Sources-SDK</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/sdk/overview.html?lang=de" style="color:#0563c1; text-decoration:underline">Batch Sources-SDK</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ermöglicht die Self-Service-Konfigurationskarte einer externen Datenquelle.</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ideal für Partner-Connectoren oder für ein maßgeschneidertes Workflow-Erlebnis zum Einrichten eines Enterprise-Connectors.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ermöglicht Self-Service-Konfigurationskarte einer externen Datenquelle.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ideal für Partner-Connectoren oder ein maßgeschneidertes Workflow-Erlebnis zum Einrichten eines Enterprise-Connectors.</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">

@@ -3,10 +3,10 @@ title: 'Blueprint: Journey Optimizer - Drittanbieter-Messaging'
 description: Zeigt, wie Adobe Journey Optimizer mit Drittanbieter-Messaging-Systemen genutzt werden kann, um personalisierte Kommunikation zu orchestrieren und zu senden.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: 342b039e62ff3a8fc8a42cf292f4fc28781c21de
+workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,12 @@ Drittanbieter-Messaging-System
    * Identität         für Edge Network
    * Mobile Core
 1. Stellen Sie sicher, dass Sie über einen dedizierten Daten-Stream für Mobile-App-Implementierungen verfügen, der sich von dem für Web-Implementierungen unterscheidet
-1. Weitere Informationen finden Sie im [Mobile-Handbuch für Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+1. Weitere Informationen finden Sie im [Mobile-Handbuch für Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/documentation/mobile-foundation-extensions/)
+
+<!--
+This step with a broken link was replaced by above step.
+1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+-->
 
 <br>
 

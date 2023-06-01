@@ -5,9 +5,9 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: ht
-source-wordcount: '250'
+source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
+workflow-type: tm+mt
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 100%
       + [Journey Optimizer mit Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Datenerfassung, Datenzugriff und Datenexport {#data-ingestion}
    + [Überblick](/help/blueprints/data-ingestion/overview.md)
+   + [: Datenerfassung bei Ereignisweiterleitung für mehrere Sandboxes](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)
    + [Datenzugriff und Datenexport](/help/blueprints/data-ingestion/egress.md)
    + [Ereignisweiterleitung](/help/blueprints/data-ingestion/server-side-collection.md)

@@ -4,10 +4,10 @@ description: Bereitstellung von Echtzeit-Kundenerlebnissen auf Social-Media-, E-
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: f03981dd3fe6ed9e60d2e60ca4eb91e129052a73
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 40%
 
 ---
 
@@ -24,18 +24,53 @@ Dieses integrierte Experience Business wollte die gesamte Customer Journey perso
 
 | Ziele | Taktik | Erzielter Wert |
 |---|---|---|
-| **Orchestrierung der Customer Journeys in Echtzeit **<br></br>** Anregen wiederholter Einkäufe durch neue Kunden **<br></br>** Verbesserung der Marketing-Effizienz und Senkung der Medienkosten**</ul> | <ul><li>Zuverlässige Daten- und Identitätsstrategie, um ein umfassendes Echtzeit-Profil zu erstellen</li><li>Kunden- und Transaktionsdaten-Streaming in Echtzeit, einschließlich historischer Daten über einen Zeitraum von 90 Tagen</li><li>Streaming-Segmentierung in Google und Adobe Target, um Medienausgaben und Personalisierung zu optimieren.</li><li>Customer Journeys in Echtzeit über Adobe Campaign einschließlich einer Strategie zur Performance-Messung</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Bereitstellung von Echtzeit-Kundenerlebnissen auf den Social-Media-, E-Mail-, Push- und Web-Kanälen</li><li><strong>Datenquellen:</strong> Streaming von Daten von den Profildatenbanken, vom Bestellsystem, vom Produktkatalog und von den Einzelhandelsgeschäften dieses Einzelhändlers</li><li><strong>Echtzeit-Medienaktivierung:</strong> Streaming von Segmenten an Google-Medien zur Attribution und Anzeigenunterdrückung</li><li><strong>Echtzeit-Web-Personalisierung:</strong> Streaming von Segmenten an Adobe Target zur Aktivierung des Web-Kanals des Einzelhändlers</li><li><strong>Skalierbare Journey-Orchestrierung:</strong> Automatisch ausgelöstes Messaging in Echtzeit, angereichert mit allen verfügbaren Kundendaten und Echtzeit-Aktivierung von E-Mail- und Push-Kanälen</li></ul> |
+| **Orchestrierung der Customer Journeys in Echtzeit **<br></br>** Anregen wiederholter Einkäufe durch neue Kunden **<br></br>** Verbesserung der Marketing-Effizienz und Senkung der Medienkosten**</ul> | <ul><li>Zuverlässige Daten- und Identitätsstrategie, um ein umfassendes Echtzeit-Profil zu erstellen</li><li>Kunden- und Transaktionsdaten-Streaming in Echtzeit, einschließlich einer historischen Belastung von 90 Tagen</li><li>Streaming der Segmentierung in Werbenetzwerke und Adobe Target, um die Medienausgaben und Personalisierungsmaßnahmen zu optimieren.</li><li>Echtzeit-Journey von Kunden über Adobe Campaign, die eine Strategie zur Leistungsmessung enthalten</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Bereitstellung von Echtzeit-Kundenerlebnissen auf den Social-Media-, E-Mail-, Push- und Web-Kanälen</li><li><strong>Datenquellen:</strong> Streaming von Daten von den Profildatenbanken, vom Bestellsystem, vom Produktkatalog und von den Einzelhandelsgeschäften dieses Einzelhändlers</li><li><strong>Aktivierung von Echtzeit-Medien:</strong>Streaming von Segmenten an Werbenetzwerke für Attribution und Anzeigenunterdrückung</li><li><strong>Echtzeit-Web-Personalisierung:</strong>Streaming-Segmente werden in Adobe Target aktiviert, um das Web-Erlebnis des Einzelhändlers zu aktivieren.</li><li><strong>Journey Orchestration bei Skalierung:</strong>Ausgelöstes Messaging in Echtzeit, angereichert mit verfügbaren Kundendaten und in Echtzeit aktiviert für E-Mail- und Push-Kanäle</li></ul> |
 
-## Primäre Blueprint: Zielgruppen und Aktivierung mit Experience Cloud-Programmen
 
-### Beschreibung
+## Anwendungsfälle
 
-<ul><li>Verwalten Sie Profile und Zielgruppen in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li><li>Erstellen Sie umfassende Kundensegmente und Erkenntnisse in Experience Platform und geben Sie sie für Experience Cloud-Programme frei.</li></ul>
+| Kategorie | Ziel | Anwendungsfall | Beschreibung |
+|:----|:----|:----|:----|
+| Customer Journeys | Akquise | Willkommensreihe | Willkommen neue Abonnenten mit Einführung in das Geschäft, die Produkte und Dienstleistungen |
+|  |  | Erstes Kaufprogramm |  |
+|  | Verkäufe verbessern | Abgebrochener Warenkorb/Durchsuchen | Rückgewinnung potenzieller Käufer und Umsatzsteigerung |
+|  |  | Produktprüfung/Cross-Selling | Verkaufen Sie mehr Artikel mit Produktbewertungen. |
+|  |  | Produktwerbung |  |
+|  |  | Zeit bis zur Neuanordnung | Wiederkehrende Erinnerung für zyklische Produkte/Dienste |
+|  | Markenloyalität | Win-back | Stellen Sie Kunden wieder her, die inaktiv waren. |
+|  |  | Geburtstagserinnerungen | Förderung einer persönlicheren Beziehung zu Ihren Kunden, indem sie Teil ihrer Geburtstagsfeier sind! |
+| Merchandising | Inventar verwalten | Zurück auf Lager | Verbessern Sie den Bestand, indem Sie den Kunden zeigen, dass die gewünschten Produkte wieder vorrätig sind. |
+|  |  | Nächste beste Kategorie | Identifizieren Sie die besten Kategorien/Verkäufe für Benutzer. |
+|  |  | Beste Verkäufer |  |
+|  |  | Preisabfall-Erinnerungen | Anzeigen von Benutzern, dass Artikel, die sie mögen, einen reduzierten Preis haben |
+|  |  | Ähnliche Produkte |  |
+| Personalisieren | Konversion erhöhen | Coupons/Angebote | Anzeigen der besten Angebote/Gutscheine für Kunden |
+|  |  | Personalisierte Produktsuche | Verbessern des Sucherlebnisses |
+|  |  | Produkt-Recommendations | Verbessern des Browser-Erlebnisses |
+|  |  | Omni-Channel-Erlebnis | Erreichen Sie Kunden über alle Kanäle hinweg. |
+| Maßnahme | Journey von Kunden | Kanalübergreifende Kampagne | Kanalübergreifende Kampagnen messen |
+|  |  | Segmentleistung | Grundlegendes zur Segmentleistung und zum Beitrag |
+|  |  | Fallout-Berichte | Konversionen in jeder Phase visualisieren |
+|  |  | Kohortenanalyse | Interaktion zwischen Segmentgruppen messen |
+|  |  | Click-to-Brick-Berichte | Erfahren Sie, wie Kundenkonversionen zu einem In-Store-Erlebnis führen. |
+|  |  | Quelle | Anzeigen, welcher Touchpoint/welches Erlebnis den größten Einfluss auf die Kaufkonversion hat |
+|  |  | Predictive Insights | Erfahren Sie mehr über Kundenabhängigkeiten |
 
-### Experience Cloud-Programme
+## Architektur
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud-Programme</li></ul>
+<img src="../vertical-blueprints/assets/retail-architecture.png" alt="Architektur von Einzelhandelsverweisen" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
-### Blueprint-Architektur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de"><img alt="Bild für einen Einzelhändler, der Echtzeit-Kundenerlebnisse auf den Social-Media-, E-Mail-, Push- und Web-Kanälen bereitstellt." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image" /></a>
+## Verwandte Blueprints
+
+
+| Anwendungsfall/Integration  | Link |
+|:----|:----|
+| CJA + AEP | [Übersicht über Customer Journey Analytics-Blueprints](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=de) |
+|  | [Customer Journey Analytics - Anwendungsbeispiele](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=de) |
+| AJO + AEP | [Adobe Journey Optimizer - Anwendungsfälle](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html?lang=en) |
+|  | [Entscheidungs-Management](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=de) |
+| RTCDP + AEP | [Online-/Offline-Zielgruppenaktivierung](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=de) |
+|  | [Experience Platform + Anwendungsaktivierung](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=de) |
+| Marketo + AEP | [B2B: Aktivierung und Marketing](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) |  |
+| Target + AEP | [Adobe Target-Anwendungsfall - verhaltensbasierte Web-/Mobilpersonalisierung](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=de) | [Web-/Mobile-Personalisierung mit bekannten Kundendaten](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) |  |

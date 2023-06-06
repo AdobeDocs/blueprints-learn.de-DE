@@ -2,7 +2,7 @@
 title: 'Blueprint: Annahme und Erstellung'
 description: Aufnahme und Erstellung - Integrations-Blueprint für Marketo Engage und Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 99%
@@ -25,7 +25,7 @@ Der folgende Workflow stellt eine Webinar-Anfrage dar, die von der für die Kamp
 
 >[!TIP]
 >
->Weitere Informationen zu den verschiedenen Objekttypen in Workfront, die für die Organisation von Marketing-Kampagnen verwendet werden, und zur Zuordnung zu einem Marketo Engage-Programm finden Sie im Abschnitt [Marketo und Workfront im Überblick](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
+>Weitere Informationen zu den verschiedenen Objekttypen in Workfront, die für die Organisation von Marketing-Kampagnen verwendet werden, und zur Zuordnung zu einem Marketo Engage-Programm finden Sie im Abschnitt [Marketo und Workfront im Überblick](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
 
 ## Vorbereiten Ihres Kampagnenerstellungsprozesses für die Automatisierung {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ Hier finden ein Beispiel dafür, wie die Workflow-Logik in Fusion mithilfe von v
 
 * [Adobe Workfront-Module](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target="_blank"}
 
-* [Marketo und Workfront im Überblick](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Marketo und Workfront im Überblick](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}

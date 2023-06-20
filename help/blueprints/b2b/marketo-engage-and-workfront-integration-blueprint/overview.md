@@ -1,17 +1,17 @@
 ---
-title: Übersicht über die Integrations-Blueprint von Marketo Engage und Workfront
-description: Übersicht - Übersicht über den Marketo Engage- und Workfront-Integrations-Blueprint
+title: 'Blueprint-Übersicht: Integration von Marketo Engage und Workfront'
+description: 'Blueprint-Übersicht: Integration von Marketo Engage und Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Übersicht über die Integrations-Blueprint von Marketo Engage und Workfront {#overview}
+# Blueprint-Übersicht: Integration von Marketo Engage und Workfront {#overview}
 
-## Schnellere Time-to-Market mit Marketo Engage und Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
+## Erzielen einer schnelleren Time-to-Market mit Marketo Engage und Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
 
 Laufend entstehen neue Kanäle und zusätzliche Personalisierungsmöglichkeiten für Nachrichten, sodass die Arbeitslast im Marketing immer stärker anwächst. Marketing-Teams benötigen deshalb Tools, um die Automatisierung voranzutreiben und sich auf die sich weltweit verändernden Marketing-Anforderungen einstellen zu können.
 
@@ -35,8 +35,8 @@ Workfront Fusion hilft Marketing-Teams, manuelle Schritte und damit potenzielle 
 ## Von der Planung bis zu Ausführung einer Kampagne – Anwendungsfälle für Automatisierung {#campaign-planning-to-execution-automation-use-cases}
 
 * Unterstützen Sie Marketing-Teams durch die automatisierte Erstellung von Kampagnen in Marketo Engage mithilfe von Anfragen in Workfront
-* Geben Sie in Marketo Engage erstellte Entwürfe von E-Mails und Landingpages für Workfront frei, damit sie abteilungsübergreifend geprüft und validiert werden können.
-* Geben Sie Kampagnenergebnisse in Marketo Engage für Workfront frei, um den Zugriff auf Kampagnenmetriken zu ermöglichen.
+* Geben Sie in Marketo Engage erstellte Entwürfe von E-Mails und Landingpages für Workfront frei, damit sie abteilungsübergreifend geprüft und validiert werden können
+* Geben Sie Kampagnenergebnisse in Marketo Engage für Workfront frei, um den Zugriff auf Kampagnenmetriken zu ermöglichen
 
 Unten finden Sie ein Workflow-Diagramm des Kampagnenentwicklungsprozesses im Fall einer Anfrage für eine Massen-E-Mail. Zusätzlich sehen Sie, wie mit Workfront Fusion, das zwischen Workfront und Marketo Engage geschaltet ist, die Workflow- und Prozessautomatisierung während des gesamten Kampagnenentwicklungszyklus verbessert wird.
 
@@ -153,7 +153,7 @@ Nachdem Sie nun ein grundlegendes Verständnis davon haben, wie Sie mit Workfron
 
 ### Verwalten von Marketo Engage-Kampagnennamen und ihren zugehörigen URLs {#managing-marketo-engage-campaign-names}
 
-Die Standardisierung Ihrer Benennungskonventionen für Kampagnen und URLs ist eine wichtige Grundlage für eine genaue Programmverwaltung in Marketo Engage und trägt dazu bei, einen konsistenteren Prozess über den gesamten Lebenszyklus der Kampagnenentwicklung hinweg zu erzielen. Wenn Sie Hilfe benötigen, empfehlen wir Ihnen die kostenlosen Open-Source-Tools von [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}, die Sie bei der konsistenten Erstellung und Verwaltung von Marketo Engage-Kampagnen und den zugehörigen URLs unterstützen.
+Die Standardisierung Ihrer Benennungskonventionen für Kampagnen und URLs ist eine wichtige Voraussetzung für ein gelungenes Programm-Management in Marketo Engage und verbessert die Konsistenz des Kampagnenerstellungsprozesses. Wenn Sie Hilfe benötigen, empfehlen wir Ihnen die kostenlosen Open-Source-Tools von [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}, die Sie bei der konsistenten Erstellung und Verwaltung von Marketo Engage-Kampagnen und den zugehörigen URLs unterstützen.
 
 ### Ressourcen {#resources}
 

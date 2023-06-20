@@ -1,11 +1,11 @@
 ---
 title: 'Blueprint: Annahme und Erstellung'
-description: Aufnahme und Erstellung - Integrations-Blueprint für Marketo Engage und Workfront
+description: Aufnahme und Erstellung - Blueprint für die Integration von Marketo Engage und Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

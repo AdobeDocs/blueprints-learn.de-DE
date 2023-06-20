@@ -7,7 +7,7 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,5 +21,5 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 |---|---|---|
 | **[B2B: Analysen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=de)** | <ul><li>Einbeziehen von B2B-Account-Informationen in die Customer-Journey-Analyse</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B: Zielgruppenaktivierung](b2bactivation.md)** | <ul><li>Sprechen Sie B2B-Zielgruppen auf Web-, E-Mail- und Werbe-Kanälen an</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul> |
-| **[Integrations-Blueprint für Marketo Engage und Workfront: Übersicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>Optimierung der Planung, Entwicklung und Ausführung von B2B-Marketingkampagnen</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
-| **[Integrations-Blueprint für Marketo Engage und Workfront: Aufnahme und Erstellung](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>Automatisieren der Anforderungsaufnahme von B2B-Marketing-Kampagnen zur Kampagnenentwicklung</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
+| **[Übersicht über die Blueprint zur Integration von Marketo Engage und Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>Optimierung der Planung, Entwicklung und Ausführung von B2B-Marketingkampagnen</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
+| **[Blueprint zur Integration von Marketo Engage und Workfront: Aufnahme und Erstellung](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>Automatisieren der Anforderungsaufnahme von B2B-Marketing-Kampagnen zur Kampagnenentwicklung</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: b3eddbfe943f45e1acbbb108652824df45c6c0e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, 
 
 [Leitlinien zu Identitäten](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=de)
 
-[Limits für die Zielgruppenfreigabe in Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
+[Limits für die Zielgruppenfreigabe in Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=de-DE#latency)
 
-[Limits für die Datenerfassung in Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+[Limits für die Datenerfassung in Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de-DE#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
 
 [Leitlinien zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=de)
 

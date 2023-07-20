@@ -3,8 +3,8 @@ title: 'Blueprint: Entscheidungs-Management auf dem Hub'
 description: Stellen Sie personalisierte Angebote für Verbraucher über Kanäle bereit, einschließlich Terminals, durch Agenten unterstützte Erlebnisse sowie in E-Mails und anderen ausgehenden Sendungen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
+workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 100%
 
@@ -63,13 +63,13 @@ Adobe Experience Platform
 
 ### Leitlinien für die Datenaufnahme
 
-<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
+<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### Leitlinien für die Aktivierung
 
-<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

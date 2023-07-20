@@ -4,10 +4,10 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: b3eddbfe943f45e1acbbb108652824df45c6c0e8
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+source-git-commit: 73815906905fbefa1402a78351076a7da7d4930c
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, die dafür sorgen, dass die Leistung optimiert wird und Fehler oder unerwartete Ergebnisse in Adobe Experience Platform und den Anwendungen vermieden werden. Die Leitlinien beschreiben Systemeinschränkungen und Leistungserwartungen, um die Einrichtung der Kundenarchitektur und die Optimierung der Leistung von Anwendungsfällen zu erleichtern. Bei den Leitlinien handelt es sich nicht um Service Level-Vereinbarungen (Service Level Agreements, SLA). Informationen zu produktspezifischen Service-Level-Vereinbarungen finden Sie in der unten stehenden Produktbeschreibung.
 
 
-## Leitlinien für Adobe Experience Platform und Anwendungen
+## Limits-Referenzdokumentation für Adobe Experience Platform und Anwendungen
 
 [Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
 
@@ -42,31 +42,31 @@ Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, 
 
 ### Datenaufnahme
 
-<img src="../assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Segmentierung
 
-<img src="../assets/segmentation_guardrails.svg" alt="Leitlinien zur Segmentierung in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/segmentation_guardrails.svg" alt="Leitlinien zur Segmentierung in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Real-time Customer Data Platform und Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="Leitlinien zu RTCDP und Target" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/RTCDP_Target_guardrails.svg" alt="Leitlinien zu RTCDP und Target" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="Leitlinien zu CJA" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/CJA_guardrails.svg" alt="Leitlinien zu CJA" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
+<img src="assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 

@@ -1,9 +1,9 @@
 ---
 title: Muster für die Integration von Real-Time CDP mit Adobe Campaign v7 und Campaign Standard
 description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
-solution: Real-time Customer Data Platform, Campaign
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
@@ -116,8 +116,8 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
    * Nähere Informationen finden Sie in der [Dokumentation zu Campaign SDK] (Campaign Mobile SDK
 Nähere Informationen finden Sie in der Implementierungsdokumentation hier)
 
-   >[!IMPORTANT]
-   >Wenn Sie das Campaign SDK implementieren und mit anderen Experience Cloud-Programmen arbeiten, muss zur Datenerfassung das Experience Platform Mobile SDK verwendet werden. Dadurch werden duplizierte Client-seitige Aufrufe auf dem Gerät erstellt.
+  >[!IMPORTANT]
+  >Wenn Sie das Campaign SDK implementieren und mit anderen Experience Cloud-Programmen arbeiten, muss zur Datenerfassung das Experience Platform Mobile SDK verwendet werden. Dadurch werden duplizierte Client-seitige Aufrufe auf dem Gerät erstellt.
 
 ## Verwandte Dokumentation
 

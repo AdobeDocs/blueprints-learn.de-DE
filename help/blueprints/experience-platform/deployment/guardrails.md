@@ -1,10 +1,10 @@
 ---
 title: Leitlinien für Experience Platform und Anwendungen
 description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung auf die Komponenten und Services in Adobe Experience Platform und den entsprechenden Anwendungen
-solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 73815906905fbefa1402a78351076a7da7d4930c
+source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 97%

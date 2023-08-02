@@ -5,9 +5,9 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, die dafür sorgen, dass die Leistung optimiert wird und Fehler oder unerwartete Ergebnisse in Adobe Experience Platform und den Anwendungen vermieden werden. Die Leitlinien beschreiben Systemeinschränkungen und Leistungserwartungen, um die Einrichtung der Kundenarchitektur und die Optimierung der Leistung von Anwendungsfällen zu erleichtern. Bei den Leitlinien handelt es sich nicht um Service Level-Vereinbarungen (Service Level Agreements, SLA). Informationen zu produktspezifischen Service-Level-Vereinbarungen finden Sie in der unten stehenden Produktbeschreibung.
 
 
-## Limits-Referenzdokumentation für Adobe Experience Platform und Anwendungen
+## Referenzdokumentation zu den Leitlinien für Adobe Experience Platform und Programmen
 
 [Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
 

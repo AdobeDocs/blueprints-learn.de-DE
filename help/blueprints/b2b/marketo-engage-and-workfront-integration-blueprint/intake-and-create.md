@@ -2,9 +2,9 @@
 title: 'Blueprint: Annahme und Erstellung'
 description: Aufnahme und Erstellung - Blueprint für die Integration von Marketo Engage und Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ Einige grundlegende Informationen, die Ihre Lookup-Bibliothek für Programmvorla
 
 Hier finden ein Beispiel dafür, wie die Workflow-Logik in Fusion mithilfe von vorgefertigten [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target="_blank"}-Modulen erstellt werden kann und dadurch eine schnellere Automatisierung ermöglicht.
 
-![Automatisierungsfluss für Annahme und Erstellung](assets/intake-and-create-3.png)Verwenden von Token zum Ausfüllen von Inhalten
+![Annahme und Erstellung – Automatisierungsfluss](assets/intake-and-create-3.png)
 
 ## Ressourcen {#resources}
 

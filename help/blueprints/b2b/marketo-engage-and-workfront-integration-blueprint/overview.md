@@ -2,10 +2,10 @@
 title: 'Blueprint-Übersicht: Integration von Marketo Engage und Workfront'
 description: 'Blueprint-Übersicht: Integration von Marketo Engage und Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 100%
+source-wordcount: '1767'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Beachten Sie die verschiedenen Phasen des Kampagnenentwicklungsprozesses.
 
 1. Annahme und Erstellung: Eine Anfrage zur Erstellung einer Kampagne wird gemacht und die Kampagnen-Assets werden programmgesteuert zusammengestellt.
 
-1. Prüfung und Freigabe: Nachdem die Kampagne zusammengestellt wurde, prüfen die Verantwortlichen die Kampagnen-Assets wie etwa E-Mails und Landingpages und geben sie frei.
+1. Überprüfen und genehmigen: Sobald die Kampagne zusammengestellt ist, ist es Zeit für Interessengruppen, Kampagnen-Assets wie E-Mails und Landingpages zu überprüfen und abzumelden.
 
 1. Berichte und Überwachung: Die Kampagnenergebnisse können für Workfront freigegeben werden, um die funktionsübergreifende Transparenz zu verbessern.
 
@@ -149,7 +149,7 @@ Nachdem Sie nun ein grundlegendes Verständnis davon haben, wie Sie mit Workfron
 
 * [Annahme und Erstellung](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} – Automatisierung der Kampagnenerstellung mit Marketo Engage und Workfront
 
-* Prüfung und Freigabe (in Kürze verfügbar)
+* [Überprüfen und genehmigen](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Verwalten von Marketo Engage-Kampagnennamen und ihren zugehörigen URLs {#managing-marketo-engage-campaign-names}
 

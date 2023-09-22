@@ -4,19 +4,23 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 72%
 
 ---
 
 # Leitlinien
 
-Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, die dafür sorgen, dass die Leistung optimiert wird und Fehler oder unerwartete Ergebnisse in Adobe Experience Platform und den Anwendungen vermieden werden. Die Leitlinien beschreiben Systemeinschränkungen und Leistungserwartungen, um die Einrichtung der Kundenarchitektur und die Optimierung der Leistung von Anwendungsfällen zu erleichtern. Bei den Leitlinien handelt es sich nicht um Service Level-Vereinbarungen (Service Level Agreements, SLA). Informationen zu produktspezifischen Service-Level-Vereinbarungen finden Sie in der unten stehenden Produktbeschreibung.
+Limits sind empfohlene Schwellenwerte für die Verwendung von Daten und Systemen in Adobe Experience Platform und Anwendungen. Limits spiegeln Systemeinschränkungen und Leistungserwartungen wider, um die Kundenarchitektur und die Leistung von Anwendungsfällen zu optimieren und Fehler oder unerwartete Ergebnisse zu vermeiden. Schutzmechanismen sind nicht als Service Level Agreement vorgesehen.
+
+Informationen zu spezifischen Service-Level-Vereinbarungen für Anwendungen und Funktionen finden Sie unter &quot;Anwendungs- und Funktionsbeschreibungen&quot;unten auf dieser Seite.
 
 
 ## Referenzdokumentation zu den Leitlinien für Adobe Experience Platform und Programmen
+
+Auf den folgenden Seiten finden Sie Informationen zu Limits für Adobe Experience Platform-Funktionen, -Dienste und -Anwendungen:
 
 [Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
 
@@ -70,7 +74,9 @@ Die Leitlinien sind empfohlene Schwellenwerte bei der Daten- und Systemnutzung, 
 
 <br>
 
-## Produktbeschreibungen
+## Beschreibung der Anwendungen und Funktionen
+
+Informationen zu funktionsspezifischen Service-Level-Vereinbarungen finden Sie in den folgenden Beschreibungen:
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 

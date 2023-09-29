@@ -24,14 +24,11 @@ Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, di
 ## Neue Funktionen
 
 * **[Blueprint: Zielgruppen- und Profilaktivierung für Unternehmensziele](/help/blueprints/audience-activation/enterprise-destinations.md)**
-
-   *Halten Sie die Profile Ihrer Kunden auf allen Systemen auf dem neuesten Stand, um Ihre Vertriebs- und Support-Teams zu unterstützen.*
+  *Halten Sie die Profile Ihrer Kunden auf allen Systemen auf dem neuesten Stand, um Ihre Vertriebs- und Support-Teams zu unterstützen.*
 * **[Blueprint: Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)**
-
-   *Bereitstellung von Kontext für mitarbeitergestützten Support und Vertrieb.*
+  *Bereitstellung von Kontext für mitarbeitergestützten Support und Vertrieb.*
 * **[Blueprint: Datenanalyse und Datenintelligenz](/help/blueprints/data-insights/analysis.md)**
-
-   *Durchführung sondierender Abfragen und Analysen der Daten im Data Lake.*
+  *Durchführung sondierender Abfragen und Analysen der Daten im Data Lake.*
 
 ## Präsentierte Blueprints
 

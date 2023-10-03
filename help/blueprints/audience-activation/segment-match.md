@@ -3,10 +3,10 @@ title: Segment Match    Blueprint
 description: Erfahren Sie mehr zu [!UICONTROL Segment Match] in Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Sie Segmentdaten auf der Basis gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
-source-wordcount: '1774'
-ht-degree: 100%
+source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
+workflow-type: tm+mt
+source-wordcount: '2180'
+ht-degree: 81%
 
 ---
 
@@ -100,25 +100,25 @@ Die Einverständniseinstellungen für [!UICONTROL Segment Match] können wie fol
 
 * Auf Unternehmensebene während des Onboardings durch die Verwendung der Opt-out- oder Opt-in-Einstellung zur Einverständnisprüfung.
 
-   Mit dieser Einstellung wird festgelegt, ob Benutzerdaten freigegeben werden können oder nicht. Die Standardeinstellung ist „Opt-out“, was bedeutet, dass Benutzerdaten unter der Voraussetzung freigegeben werden, dass der AEP-Kunde bereits über die erforderliche Einverständnisvereinbarung zur Verwendung der Datenfreigabe verfügt. Diese Einstellung kann in „Opt-in“ geändert werden, indem Sie den Kundenbetreuer von Adobe kontaktieren und eine zusätzliche Prüfung einrichten lassen, durch die AEP-Kunden das Einverständnis explizit einholen müssen.
+  Mit dieser Einstellung wird festgelegt, ob Benutzerdaten freigegeben werden können oder nicht. Die Standardeinstellung ist „Opt-out“, was bedeutet, dass Benutzerdaten unter der Voraussetzung freigegeben werden, dass der AEP-Kunde bereits über die erforderliche Einverständnisvereinbarung zur Verwendung der Datenfreigabe verfügt. Diese Einstellung kann in „Opt-in“ geändert werden, indem Sie den Kundenbetreuer von Adobe kontaktieren und eine zusätzliche Prüfung einrichten lassen, durch die AEP-Kunden das Einverständnis explizit einholen müssen.
 
 * Festlegen des für Identitäten spezifischen Freigabeattributs (idSpecific) mithilfe der [Feldergruppe „Einwilligungen und Voreinstellungen“](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de).
 
-   Diese Feldergruppe besitzt ein einziges Objekt-Feld mit der Bezeichnung „Einverständniserklärungen“, um Informationen zum Einverständnis und Voreinstellungen zu erfassen. [!UICONTROL Segment Match] schließt standardmäßig alle Identitäten ein, die nicht explizit ausgeschlossen wurden, z. B.:
+  Diese Feldergruppe besitzt ein einziges Objekt-Feld mit der Bezeichnung „Einverständniserklärungen“, um Informationen zum Einverständnis und Voreinstellungen zu erfassen. [!UICONTROL Segment Match] schließt standardmäßig alle Identitäten ein, die nicht explizit ausgeschlossen wurden, z. B.:
 
-   ```
-   "share": {
-   `                `"val": "n"
-   `     `}
-   ```
+  ```
+  "share": {
+  `                `"val": "n"
+  `     `}
+  ```
 
-   Diese Einstellung kann geändert werden, indem Sie sich an den Kundenbetreuer bzw. die Kundenbetreuerin von Adobe wenden und nur Identitäten mit explizitem Opt-in einschließen lassen, z. B.:
+  Diese Einstellung kann geändert werden, indem Sie sich an den Kundenbetreuer bzw. die Kundenbetreuerin von Adobe wenden und nur Identitäten mit explizitem Opt-in einschließen lassen, z. B.:
 
-   ```
-   "share": {
-   `                `"val": "y"
-   `     `}
-   ```
+  ```
+  "share": {
+  `                `"val": "y"
+  `     `}
+  ```
 
 ### Warnhinweise
 
@@ -163,6 +163,48 @@ Wenn während des täglichen Identitätsüberschneidungsprozesses die entspreche
 #### Segmentrücknahme
 
 Bei Bedarf kann beim Absender eine Segmentrücknahme/-löschung durchgeführt werden. Dabei werden dem Empfänger alle Profile mit den zurückgeforderten Segment-IDs wieder entzogen. Die Segment-IDs werden aus der Segmentzugehörigkeit dieser Identitäten entfernt und am Empfänger erneut aufgenommen. Dadurch wird das vorhandene Segmentzugehörigkeitsfragment überschrieben, wodurch die Zugehörigkeit für dieses Segment gelöscht wird.
+
+## Verwenden von Segmentübereinstimmungen in programmatischen Angeboten
+
+Aufgrund der zunehmenden Einschränkungen bei Drittanbieter-Cookies und Geräte-IDs sucht die programmatische Werbung nach neuen Möglichkeiten, Zielgruppen zu erstellen und auszurichten. Es wurde eine wachsende Anzahl von universellen ID-Lösungen vorgeschlagen, doch ist die Branche noch im Wandel, ohne dass eine vereinbarte, skalierbare Möglichkeit besteht, das gleiche Targeting-Niveau zu erreichen und dabei die geltenden Datenschutzanliegen auszugleichen.
+
+Sie können die Adobe Experience Platform-Segmentübereinstimmung in der datenschutzorientierten Zielgruppenzusammenarbeit verwenden und programmatische private Vereinbarungen zwischen Advertisern und Herausgebern verbessern. Mit Segmentübereinstimmung können Sie:
+
+* Aufspaltung **Anzeigenhandel** und **Zielgruppe** Workflows.
+* Ermöglichen Sie es Partnermarken, Zielgruppen-Metadaten für gemeinsam genutzte Identitäten freizugeben und Identitäten mit dauerhaften Kennungen wie Hash-E-Mail und Hash-Telefonnummer in einem Genehmigungsprozess zu genehmigen.
+
+### Anwendungsfälle
+
+* Targeting von Erstanbieterzielgruppen durch programmgesteuerte private Angebote.
+* Unterdrückung von Erstanbieterzielgruppen durch programmatische private Angebote.
+* Targeting von Look-alike-Zielgruppen aus Erstanbieterzielgruppen, die über programmgesteuerte private Angebote gesendet werden.
+
+>[!BEGINSHADEBOX]
+
+**Betrachten Sie den folgenden beispielhaften Workflow zwischen einer Marke (Luma) und einem Mediennetzwerk (ACME):**
+
+1. Eine Marke (Luma) führt über die Segmentübereinstimmung eine Zielgruppenübereinstimmung mit einem Mediennetzwerk (ACME) durch.
+2. ACME überträgt die Zielgruppe(n) über Adobe Real-Time CDP Destination(s) auf den Adserver oder programmatischen SSP.
+3. ACME richtet eine Private Inventory Deal (ID) mit den entsprechenden Targeting-Kriterien ein, einschließlich der im vorherigen Schritt festgelegten Zielgruppe. Die private Inventar-Deal-ID wird dann an die DSP von Luma gesendet.
+4. Luma richtet ein privates Inventar-Deal und Traffic-Kampagnen/-Anzeigen-Kreativelement ein.
+5. Die Kampagne wird dann über das programmatische Private Inventory Deal bereitgestellt.
+6. Als Nächstes liefert der Anzeigen-Server oder SSP Anzeigenimpressionen, die den festgelegten Targeting-Kriterien entsprechen. (Zusätzliche Targeting-Kriterien wie Frequenzlimitierung sind über den Adserver und/oder DSP verfügbar, je nachdem, ob im Abkommen ein garantiertes Geschäft oder ein bevorzugtes Geschäft festgelegt wurde.)
+7. Der Traffic wird zu den Markeneigenschaften von Luma geleitet.
+8. ACME gibt dann die Einblicke oder Zielgruppen aus der Nachkampagne über die Segmentübereinstimmung für das Retargeting weiter.
+
+>[!ENDSHADEBOX]
+
+![Abbildung des Workflows zwischen Marke und Herausgeber.](./assets/segment-match-blueprints.png)
+
+>[!IMPORTANT]
+>
+> Die oben beschriebene Lösung bietet zwar eine einfache Möglichkeit, Erstanbieterdaten über programmgesteuerte private Geschäfte anzusprechen, es kann jedoch einige Überlegungen vor der Ausführung geben, darunter auch die folgenden Beispiele:
+>
+>* Einverständnis: Anwendbare Einverständniserfassung durch die Marke, den Herausgeber oder das Retail-Media-Netzwerk, um Daten auf diese Weise zu nutzen.
+>
+>* Richtlinien und Lizenzvereinbarungen: Einhaltung aller geltenden Richtlinien (einschließlich Datenschutzrichtlinien, Vereinbarungen mit Drittanbietern) durch Marke, Herausgeber oder Retail-Media-Netzwerk, um Daten auf diese Weise zu nutzen und zu aktivieren.
+
+
 
 ## Weitere Informationen
 

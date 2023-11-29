@@ -4,10 +4,10 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4379f372241248ea6c70c766f13a182783fcac0c
+source-git-commit: 76ad3dceda37c5f991a43df5828a926f6dfc42a5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 64%
+source-wordcount: '625'
+ht-degree: 41%
 
 ---
 
@@ -38,39 +38,37 @@ Auf den folgenden Seiten finden Sie Informationen zu Limits für Adobe Experienc
 * [Leitlinien zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=de)
 * [Leiltlinien zur Zielaktivierung](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=de)
 
+## End-to-End-Latenzdiagramme {#end-to-end-latency}
 
+### Datenaufnahme {#data-ingestion}
 
-## End-to-End-Latenzdiagramme
+Das folgende Diagramm zeigt erwartete Datenaufnahme-Latenzwerte durch [Streaming-Erfassung](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) und [Batch-Erfassung](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=de) beim Einbringen von Daten in Real-Time CDP. Klicken Sie auf das Bild, um eine hochauflösende Version anzuzeigen.
 
-### Datenaufnahme
+![Allgemeine visuelle Übersicht über die Datenerfassung.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "Allgemeine visuelle Übersicht über die Datenerfassung und Latenzwerte"){width="1000" zoomable="yes"}
 
-<img src="assets/aep_data_flow_guardrails.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+### Segmentierung {#segmentation}
 
-<br>
+Das folgende Diagramm zeigt erwartete Latenzwerte beim Arbeiten mit Zielgruppen in der [Real-Time CDP-Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de). Klicken Sie auf das Bild, um eine hochauflösende Version anzuzeigen.
 
-### Segmentierung
+![Visuelle Übersicht über die Segmentierung auf hoher Ebene.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Visuelle Segmentierung auf oberster Ebene - Überblick und Latenzwerte"){width="1000" zoomable="yes"}
 
-<img src="assets/segmentation_guardrails.svg" alt="Leitlinien zur Segmentierung in Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+### Real-time Customer Data Platform und Adobe Target {#adobe-target-latency}
 
-<br>
+Das folgende Diagramm zeigt erwartete Latenzwerte beim Exportieren von Zielgruppen aus Real-Time CDP in [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de). Klicken Sie auf das Bild, um eine hochauflösende Version anzuzeigen.
 
-### Real-time Customer Data Platform und Adobe Target
+![Überblick über den Export in Adobe Target](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Exportieren von Zielgruppen in Adobe Target - Allgemeine visuelle Übersicht und Latenzwerte"){width="1000" zoomable="yes"}
 
-<img src="assets/RTCDP_Target_guardrails.svg" alt="Leitlinien zu RTCDP und Target" style="border:1px solid #4a4a4a" width="85%" />
+### Customer Journey Analytics     {#customer-journey-analytics}
 
-<br>
+Das folgende Diagramm zeigt erwartete Latenzwerte bei der Arbeit mit [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Klicken Sie auf das Bild, um eine hochauflösende Version anzuzeigen.
 
-### Customer Journey Analytics
+![Arbeiten mit einer allgemeinen visuellen Customer Journey Analytics-Übersicht.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Arbeiten mit einer allgemeinen visuellen Customer Journey Analytics-Übersicht und Latenzwerten"){width="1000" zoomable="yes"}
 
-<img src="assets/CJA_guardrails.svg" alt="Leitlinien zu CJA" style="border:1px solid #4a4a4a" width="85%" />
+### Journey Optimizer   {#journey-optimizer}
 
-<br>
+Das folgende Diagramm zeigt erwartete Latenzwerte bei der Arbeit mit [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Klicken Sie auf das Bild, um eine hochauflösende Version anzuzeigen.
 
-### Journey Optimizer
-
-<img src="assets/AJO_guardrails.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:85%; border:1px solid #4a4a4a" />
-
-<br>
+![Arbeiten mit einer allgemeinen visuellen Übersicht über Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Arbeiten mit Adobe Journey Optimizer - Allgemeine visuelle Übersicht und Latenzwerte"){width="1000" zoomable="yes"}
 
 ## Beschreibung der Anwendungen und Funktionen {#application-feature-descriptions}
 

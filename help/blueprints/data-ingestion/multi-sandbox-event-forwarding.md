@@ -3,10 +3,10 @@ title: Datenerfassung bei der Ereignisweiterleitung für mehrere Sandboxes
 description: Erfahren Sie, wie Sie mit den Experience Platform Web- und Mobile-SDKs erfasste Daten so konfigurieren können, dass sie ein einzelnes Ereignis erfassen und an mehrere Experience Platform-Sandboxes weiterleiten.
 solution: Data Collection
 kt: 7202
-exl-id: 3d9d312a-50b6-435f-b277-076e0c442a5f
-source-git-commit: cb36f47232261d6ddc6659949272c9832baec0da
+exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
+source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '793'
 ht-degree: 100%
 
 ---

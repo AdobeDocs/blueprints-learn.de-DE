@@ -4,16 +4,16 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 94197d1b450694f96eb1ef17245c0353494859b1
+source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 25%
+source-wordcount: '473'
+ht-degree: 22%
 
 ---
 
-# Leitlinien
+# Limits und End-to-End-Latenzen
 
-Limits sind empfohlene Schwellenwerte für die Verwendung von Daten und Systemen in Adobe Experience Platform und Anwendungen. Limits spiegeln Systemeinschränkungen und Leistungserwartungen wider, um die Kundenarchitektur und die Leistung von Anwendungsfällen zu optimieren und Fehler oder unerwartete Ergebnisse zu vermeiden. Schutzmechanismen sind nicht als Service Level Agreement vorgesehen.
+Limits sind empfohlene Schwellenwerte für Daten, beobachtete Latenzen und die Systemnutzung in Adobe Experience Platform und Anwendungen. Limits spiegeln Systemeinschränkungen und Leistungserwartungen wider, um die Kundenarchitektur und die Leistung von Anwendungsfällen zu optimieren und Fehler oder unerwartete Ergebnisse zu vermeiden. Schutzmechanismen sind nicht als Service Level Agreement vorgesehen.
 
 Informationen zu spezifischen Service-Level-Vereinbarungen für Anwendungen und Funktionen finden Sie im Abschnitt [Beschreibung der Anwendungen und Funktionen](#application-feature-descriptions) unten auf dieser Seite.
 
@@ -25,15 +25,15 @@ Auf den folgenden Seiten finden Sie Informationen zu Limits für Adobe Experienc
 **Experience Platform-Anwendungen**
 
 * [Übersicht über Real-Time CDP-Limits](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Limits bei der Freigabe von Customer Journey Analytics-Zielgruppen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=de-DE#latency)
-* [Limits bei der Customer Journey Analytics-Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de-DE#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Limits in Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de)
+* [Limits bei der Freigabe von Customer Journey Analytics-Zielgruppen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Limits bei der Customer Journey Analytics-Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Limits in Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Experience Platform-Dienste**
 
-* [Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
-* [Leitlinien für die Edge Network API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=de)
-* [Leitlinien zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+* [Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
+* [Leitlinien für die Edge Network API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Limits für das Echtzeit-Kundenprofil und die Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Leitlinien zu Identitäten](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=de)
 * [Leitlinien zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=de)
 * [Leiltlinien zur Zielaktivierung](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=de)

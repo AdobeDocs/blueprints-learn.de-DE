@@ -1,17 +1,17 @@
 ---
-title: Experience Platform- und Anwendungs-Limits und End-to-End-Latenzen
+title: Leitlinien für Experience Platform und Anwendungen
 description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung auf die Komponenten und Services in Adobe Experience Platform und den entsprechenden Anwendungen
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
+source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 22%
+source-wordcount: '463'
+ht-degree: 24%
 
 ---
 
-# Limits und End-to-End-Latenzen
+# Leitlinien
 
 Limits sind empfohlene Schwellenwerte für Daten, beobachtete Latenzen und die Systemnutzung in Adobe Experience Platform und Anwendungen. Limits spiegeln Systemeinschränkungen und Leistungserwartungen wider, um die Kundenarchitektur und die Leistung von Anwendungsfällen zu optimieren und Fehler oder unerwartete Ergebnisse zu vermeiden. Schutzmechanismen sind nicht als Service Level Agreement vorgesehen.
 

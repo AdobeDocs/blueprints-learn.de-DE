@@ -3,9 +3,9 @@ title: Muster für die Integration von Real-Time CDP mit Adobe Campaign v7 und C
 description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '663'
 ht-degree: 100%
 
 ---
@@ -46,15 +46,9 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 
 ### Segmentfreigabe in Experience Platform CDP
 
-* Begrenzung auf 20 Segmente empfohlen
-* Die Aktivierung ist auf einmal pro 24 Stunden begrenzt
-* Nur Vereinigungsschema-Attribute sind für die Aktivierung verfügbar (keine Unterstützung von Array/Karten/Erlebnisereignisse)
-* Begrenzung auf 20 Attribute pro Segment empfohlen
-* Eine Datei pro Segment von allen Profilen mit „realisierter“ Segmentzugehörigkeit ODER, wenn Segmentzugehörigkeit als Attribut in der Datei hinzugefügt wird, sowohl „realisierte“ als auch „verlassene“ Profile
-* Schrittweise und vollständige Segment-Exporte werden unterstützt
-* Datei-Verschlüsselung wird nicht unterstützt
+* Siehe den Ziel-Connector von Real-Time Customer Data Platform für Campaign – [Verbindung von Real-Time Customer Data Platform mit Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=de)
 
-<br>
+* Siehe Leitlinien für die Profil- und Datenaufnahme für AEP – [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 ## Implementierungsschritte
 

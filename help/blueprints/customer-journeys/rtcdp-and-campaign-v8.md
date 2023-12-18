@@ -3,9 +3,9 @@ title: Muster für die Integration von Real-Time CDP mit Adobe Campaign v8
 description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign v8 genutzt werden können, um personalisierte Konversationen bereitzustellen
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
@@ -54,12 +54,5 @@ Weitere Informationen zum Konfigurieren des Quell-Connectors von Campaign v8 fü
 ### Segmentfreigabe in Experience Platform Real-time Customer Data Platform
 
 * Siehe den Ziel-Connector von Real-time Customer Data Platform für Campaign – [Verbindung von Real-time Customer Data Platform mit Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=de)
-* Begrenzung auf 50 Segmente empfohlen
-* Beachten Sie, dass die Bestimmung der Segmentzugehörigkeit in AEP sowohl für Batch-Vorgänge (1 pro Tag) als auch für Streaming (~5 Minuten) verzögert ist und auf dem Segmentevaluierungs-Zeitplan basiert.
-* Die Aktivierungslatenz beträgt mindestens 3 Stunden
-* Nur Vereinigungsschema-Attribute sind für die Aktivierung verfügbar (keine Unterstützung von Array/Karten/Erlebnisereignisse)
-* Begrenzung auf 20 Attribute pro Segment empfohlen
-* Eine Datei pro Segment von allen Profilen mit „realisierter“ Segmentzugehörigkeit ODER, wenn Segmentzugehörigkeit als Attribut in der Datei hinzugefügt wird, sowohl „realisierte“ als auch „verlassene“ Profile
-* Schrittweise und vollständige Segment-Exporte werden unterstützt
-* Datei-Verschlüsselung wird nicht unterstützt
+
 * Siehe Leitlinien für die Profil- und Datenaufnahme für AEP – [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)

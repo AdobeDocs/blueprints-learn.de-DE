@@ -3,14 +3,14 @@ title: 'Blueprint: Journey Optimizer mit Adobe Campaign v8'
 description: Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 98%
 
 ---
 
-# Journey Optimizer mit Adobe Campaign    v8-Blueprint
+# Blueprint: Journey Optimizer mit Adobe Campaign v8
 
 Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden.
 
@@ -45,37 +45,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 
 [Produkt-Link zu Journey Optimizer-Leitlinien](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=de)
 
-### Weitere Leitlinien für Journey Optimizer
-
-* Die Begrenzung ist jetzt über eine API möglich. So wird sichergestellt, dass das Zielsystem nicht so überlastet wird, dass ein Fehler auftritt. Dies bedeutet, dass Nachrichten, die die Begrenzung überschreiten, vollständig ignoriert und niemals gesendet werden. Drosselung wird nicht unterstützt.
-   * Max. Verbindungen: Maximale Zahl der http/s-Verbindungen, die ein Ziel bewältigen kann
-   * Max. Aufrufanzahl: Maximale Aufrufzahl, die im Parameter periodInMs erfolgen kann
-   * periodInMs: Zeit in Millisekunden
-* Von der Segmentzugehörigkeit initiierte Journeys können in zwei Modi operieren:
-   * Batch-Segmente (alle 24 Stunden aktualisiert)
-   * Streaming-Segmente (Qualifikation &lt;5 Minuten)
-* Batch-Segmente: Stellen Sie sicher, dass Sie das tägliche Volumen an qualifizierten Nutzern verstehen und dass das Zielsystem den maximalen Durchsatz pro Journey und für sämtliche Journeys bewältigen kann
-* Streaming-Segmente: Stellen Sie sicher, dass der erste Strom von Profilqualifikationen neben täglichen Streaming-Volumen pro Journey und für sämtliche Journeys bewältigt werden kann
-* Entscheidungs-Management wird nicht unterstützt
-* Unternehmens-Events werden nicht unterstützt
-* Ausgehende Integrationen mit Drittanbietersystemen
-   * Keine Unterstützung für einzelne statische IPs, da wir eine Mehrmandanten-Infrastruktur verwenden (alle Daten-Center-IPs müssen aufgelistet sein)
-   * Nur die POST- und die PUT-Methode werden für benutzerdefinierte Aktionen unterstützt
-   * Authentifizierungsunterstützung: Token | Passwort | OAuth2
-* Keine Möglichkeit, einzelne Komponenten von Adobe Experience Platform oder Journey Optimizer zu packen und zwischen verschiedenen Sandboxes zu verschieben. Muss in neuen Umgebungen erneut implementiert werden
-
-<br>
-
-### Campaign (v8)
-
-* Ausführungsinstanz von Message Center muss von Adobe Managed Cloud Services gehostet werden
-* Messaging-Durchsatz
-   * AC (v8) bis zu 1 Mio. pro Stunde basierend auf Paket
-* AC (v8) unterstützt das Entscheidungs-Management in Nachrichten nicht
-* Keine Drosselung ausgehender API-Aufrufe an Campaign
-* Für Campaign v8.4 kann der Adobe Campaign Managed Services Source Connector in Experience Platform verwendet werden, um Bereitstellungs- und Tracking-Ereignisse von Campaign nach Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)
-
-<br>
+[Limits und End-to-End-Latenzrichtlinien](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Implementierungsschritte
 
@@ -119,7 +89,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * Identität         für Edge Network
+   * Identität für Edge Network
    * Mobile Core
 1. Stellen Sie sicher, dass Sie über einen dedizierten Daten-Stream für Mobile-App-Implementierungen verfügen, der sich von dem für Web-Implementierungen unterscheidet
 1. Weitere Informationen finden Sie im [Mobile-Handbuch für Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

@@ -4,18 +4,20 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
+source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 24%
+source-wordcount: '630'
+ht-degree: 18%
 
 ---
 
 # Leitlinien
 
-Limits sind empfohlene Schwellenwerte für Daten, beobachtete Latenzen und die Systemnutzung in Adobe Experience Platform und Anwendungen. Limits spiegeln Systemeinschränkungen und Leistungserwartungen wider, um die Kundenarchitektur und die Leistung von Anwendungsfällen zu optimieren und Fehler oder unerwartete Ergebnisse zu vermeiden. Schutzmechanismen sind nicht als Service Level Agreement vorgesehen.
+Limits sind empfohlene Schwellenwerte für Daten, beobachtete Latenzen und die Systemnutzung in Adobe Experience Platform und Anwendungen. Limits spiegeln Systemeinschränkungen und Leistungserwartungen wider, um die Kundenarchitektur und die Leistung von Anwendungsfällen zu optimieren und Fehler oder unerwartete Ergebnisse zu vermeiden. Limits sind nicht als Service Level Agreement vorgesehen, Service Level Agreements sind in den unten stehenden Produktbeschreibungen sowie in den Lizenzvereinbarungen für Kunden dokumentiert. Limits sollen bei der Architektur von Lösungen für spezifische Anwendungsfälle des Kunden Hinweise geben, um Stabilität und Ausführung zu gewährleisten.
 
 Informationen zu spezifischen Service-Level-Vereinbarungen für Anwendungen und Funktionen finden Sie im Abschnitt [Beschreibung der Anwendungen und Funktionen](#application-feature-descriptions) unten auf dieser Seite.
+
+Beachten Sie, dass Adobe bei allen Kundenanwendungsfällen mit strengen Latenz- oder Volumenanforderungen empfiehlt, Ihr Anwendungsbeispiel gemeinsam mit Ihrem Adobe-Account-Team und Implementierungspartner sorgfältig zu überprüfen. In bestimmten Fällen ist es ratsam, die Implementierung eines bestimmten Anwendungsfalls vor dem Start des Anwendungsfalls zu testen und zu beobachten, um das erwartete Verhalten zu beobachten und zu verstehen - da jede Kundenimplementierung unterschiedliche Faktoren spielt, einschließlich der Art und Häufigkeit der Datenerfassung, der Details der zu erstellenden Segmentregeln und der verschiedenen Aktivierungs- und Nutzlasten - wird jede Implementierung eines Anwendungsfalls eine unterschiedliche Performance aufweisen. Daher ist es am besten, die erwartete Leistung vorab festzulegen und zu testen, um eine ordnungsgemäße Architektur und Implementierung entsprechend den Latenz- und Leistungsanforderungen des Anwendungsfalls sicherzustellen.
 
 
 ## Referenzdokumentation zu den Leitlinien für Adobe Experience Platform und Programmen

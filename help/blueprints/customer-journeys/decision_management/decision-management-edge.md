@@ -3,10 +3,10 @@ title: 'Blueprint: Entscheidungs-Management im Edge'
 description: Stellen Sie personalisierte Angebote für Verbraucher über verschiedene Kanäle, einschließlich Echtzeit-Erlebnissen für Web und Mobile, bereit.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 98%
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der
 
 ## Anwendungsfälle für das Entscheidungs-Management im Edge
 
+* Streaming-Anwendungsfälle, in denen die Latenz des Profilkontexts strikt unter 15 Minuten Latenz liegt und die Ausführung der Entscheidungsverwaltung unter einer Sekunde erfolgt.
 * Online-Personalisierung über eingehende Web- oder mobile Erlebnisse.
 * Kanalübergreifende Journey-Ausführung - Konsistenz in Web, Mobile, E-Mail und auf anderen Interaktionskanälen über Adobe Journey Optimizer.
 

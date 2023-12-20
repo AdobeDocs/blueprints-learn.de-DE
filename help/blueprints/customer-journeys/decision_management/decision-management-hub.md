@@ -3,10 +3,10 @@ title: 'Blueprint: Entscheidungs-Management auf dem Hub'
 description: Stellen Sie personalisierte Angebote für Verbraucher über Kanäle bereit, einschließlich Terminals, durch Agenten unterstützte Erlebnisse sowie in E-Mails und anderen ausgehenden Sendungen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 98%
+source-wordcount: '832'
+ht-degree: 87%
 
 ---
 
@@ -28,11 +28,16 @@ Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blu
 
 ## Anwendungsfälle für das Entscheidungs-Management auf dem Hub
 
+* Streaming-Anwendungsfälle, in denen die Latenz des Profilkontexts nicht streng ist - Latenz 15 Minuten oder höher.
 * Personalisierte Angebote für Terminals und Erlebnisse im Laden.
 * Personalisierte Angebote über von Agenten unterstützte Erlebnisse wie Callcenter oder Vertriebsinteraktionen.
 * Angebote in E-Mails, SMS, Mobilgeräte-Push-Benachrichtigungen oder anderen ausgehenden Interaktionen.
 * Bereitstellung von Angeboten für externe ESP- und Messaging-Systeme, um sie unterbreiten zu können.
 * Kanalübergreifende Journey-Ausführung - Konsistenz in Web, Mobile, E-Mail und auf anderen Interaktionskanälen über Adobe Journey Optimizer.
+
+>[!IMPORTANT]
+>
+>Bei Angebots- und Journey-Anwendungsfällen, bei denen für zusätzliche Informationen und Kontext auf das Profil zugegriffen werden muss. Es ist wichtig, die damit verbundene Latenz der Aufnahme von Daten in das Profil auf dem Hub zu berücksichtigen, um sicherzustellen, dass sie zum Zeitpunkt der Entscheidung verfügbar ist. In Szenarien, in denen Kontext Streaming oder Aufnahme in ein Profil ist und für das Angebot oder die Journey dieser Kontext innerhalb von Sekunden oder Minuten nach der Angebotsentscheidung verfügbar sein muss, sollten diese Szenarien am besten mit der Entscheidungsverwaltung an Edge bereitgestellt werden.
 
 <br>
 

@@ -1,5 +1,5 @@
 ---
-title: Web- und Mobile-Personalisierung    Blueprints
+title: Entwürfe für Web- und Mobile-Personalisierung
 description: Stellen Sie mit dem [!UICONTROL Echtzeit-Kundenprofil] personalisierten Web- und Mobile-Content bereit.
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -7,12 +7,12 @@ thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 95%
 
 ---
 
-# Web- und Mobile-Personalisierung    Blueprints
+# Entwürfe für Web- und Mobile-Personalisierung
 
 Die Web- und Mobile-Personalisierung zeigt auf, wie Profil- und Zielgruppensegmentierung in mehreren Programmen zur Personalisierung und Optimierung von Kundenerlebnissen verwendet werden kann. Kundenverhalten, Demografie, Treuestufe und frühere Transaktionen können genutzt werden, um Layouts, Aktionsaufrufe und Inhalte zu personalisieren.
 

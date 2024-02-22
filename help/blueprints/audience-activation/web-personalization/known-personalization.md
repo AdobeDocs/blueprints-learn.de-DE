@@ -7,7 +7,7 @@ solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 1ee81e6e2e9847f53f51bc96e55ea434a0a1cbda
+source-git-commit: b0f106c4dce59137086c8806def34e98b554bb61
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 97%
@@ -60,7 +60,7 @@ Die Personalisierung bekannter Kundinnen und Kunden wird über verschiedene Impl
 ### Implementierungsmuster 1 – Edge-Netzwerk mit Web/Mobile SDK oder Edge Network-API (empfohlener Ansatz)
 
 * Verwendung von Edge Network mit dem Web/Mobile SDK. Für die Edge-Echtzeit-Segmentierung ist das Implementierungsverfahren mit Web/Mobile SDKs oder der Edge-API erforderlich.
-* [Siehe Experience Platform Web- und Mobile SDK-Blueprint](//experience-platform/deployment/websdk.md) für die SDK-basierte Implementierung.
+* [Siehe Experience Platform Web- und Mobile SDK-Blueprint](..//experience-platform/deployment/websdk.md) für die SDK-basierte Implementierung.
 * Zur Verwendung im Mobile SDK muss die [Decisioning-Erweiterung von Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) im Mobile SDK installiert sein.
 * [Unter der Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) finden Sie Informationen zur API-basierten Implementierung von Adobe Target mit Edge-Profil.
 
@@ -68,7 +68,7 @@ Die Personalisierung bekannter Kundinnen und Kunden wird über verschiedene Impl
 
 Verwendung herkömmlicher anwendungsspezifischer SDKs (z. B. AT.js und AppMeasurement.js). Die Edge-Echtzeit-Segmentevaluierung wird bei diesem Implementierungsverfahren nicht unterstützt. Doch das Streaming und die Batch-Zielgruppenfreigabe über den Experience Platform-Hub werden durch dieses Implementierungsverfahren unterstützt.
 
-[Weitere Informationen finden Sie im Blueprint für anwendungsspezifische SDKs.](//experience-platform/deployment/appsdk.md)
+[Weitere Informationen finden Sie im Blueprint für anwendungsspezifische SDKs.](..//experience-platform/deployment/appsdk.md)
 
 ### Implementierungsschritte
 

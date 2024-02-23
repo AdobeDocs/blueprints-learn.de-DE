@@ -4,10 +4,10 @@ description: Verwalten Sie Profile und Zielgruppen in Experience Platform und ge
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Weitere Architekturdiagramme für Experience Platform-Integrationen mit Experien
 
 ## Leitlinien
 
-Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profilaktivierung](overview.md) und die Seite mit den [Implementierungsleitlinien](../experience-platform/deployment/guardrails.md).
+Siehe Abschnitt [Limits auf der Seite Übersicht über die Zielgruppen- und Profilaktivierung](overview.md) und [Limits bei der Implementierung](../experience-platform/deployment/guardrails.md) Seite.
 
 ## Überlegungen bei der Implementierung
 
@@ -67,7 +67,7 @@ Beachten Sie die [Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profi
 
 ### Zielgruppenfreigabe aus Real-time Customer Data Platform für Target
 
-* In der Blueprint [Personalisierung für bekannte Kunden – Target und RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=de) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen aus Real-time Customer Data Platform für Target.
+* In der Blueprint [Personalisierung für bekannte Kunden – Target und RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html) finden Sie weitere Informationen zur Freigabe von Profilen und Zielgruppen aus Real-time Customer Data Platform für Target.
 
 ### Zielgruppenfreigabe aus Real-time Customer Data Platform für Campaign und Journey Optimizer
 

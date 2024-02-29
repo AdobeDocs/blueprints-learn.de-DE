@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 655545ab9e1b173244a239967b6c173d66f74633
+source-git-commit: acbf600dbfb711c99eda2029bd48549e673f0361
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 79%
@@ -20,7 +20,7 @@ Diese Diagramme zeigen, wie Experience Cloud-Anwendungen, Anwendungsdienste und 
 
 Das folgende Diagramm zeigt die verschiedenen Komponenten von Adobe Experience Cloud für die Bereiche „Datenerkenntnisse und Zielgruppen“, „Content und Handel“, „Customer Journeys“ und „Marketing-Workflow“, die auf der Grundlage von Adobe Experience Platform erstellt und integriert wurden.
 
-<img src="assets/AEC.jpg" alt="Experience Cloud – Übersicht" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.png" alt="Experience Cloud – Übersicht" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## Integrationsarchitektur von „Daten und Erkenntnissen“, „Content und Commerce“ und „Bereitstellung von Erlebnissen“

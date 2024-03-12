@@ -3,9 +3,9 @@ title: 'Blueprints: Digitale Erlebnisse'
 description: Die Blueprints für digitale Erlebnisse sind wiederholbare Implementierungen, die Strategien liefern und bei der Lösung bekannter Geschäftsprobleme helfen. Sie beschleunigen die Time-to-Value und führen schneller zum Erfolg.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: 48991029a990bbbc7d9be52d15fe19d3825341cb
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '201'
 ht-degree: 100%
 
 ---

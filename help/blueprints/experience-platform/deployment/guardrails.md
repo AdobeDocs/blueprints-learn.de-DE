@@ -4,9 +4,9 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ Auf den folgenden Seiten finden Sie Informationen zu Limits für Adobe Experienc
 **Experience Platform-Dienste**
 
 * [Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [Leitlinien für die Edge Network API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] API-Limits](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [Limits für das Echtzeit-Kundenprofil und die Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Leitlinien zu Identitäten](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=de)
 * [Leitlinien zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=de)
@@ -46,7 +46,7 @@ Auf den folgenden Seiten finden Sie Informationen zu Limits für Adobe Experienc
 
 Das folgende Diagramm zeigt die beobachteten primären Edge- und Hub-Latenzen, die bei der Architektur von Anwendungsfällen auf Experience Platform und Anwendungen berücksichtigt werden sollten.
 
-![Experience Platform Edge Network und Hub primäre beobachtete Latenzen.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network- und Hub-primäre beobachtete Latenzen"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] primär beobachtete Latenzen in Hub.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network- und Hub-primäre beobachtete Latenzen"){width="1000" zoomable="yes"}
 
 ### Datenaufnahme {#data-ingestion}
 
@@ -60,9 +60,9 @@ Das folgende Diagramm zeigt erwartete Latenzwerte beim Arbeiten mit Zielgruppen 
 
 ![Visuelle Übersicht über die Segmentierung auf hoher Ebene.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Visuelle Segmentierung auf oberster Ebene - Überblick und Latenzwerte"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform und Edge Network {#adobe-edge-latency}
+### REAL-TIME CUSTOMER DATA PLATFORM &amp; [!DNL Edge Network] {#adobe-edge-latency}
 
-Das folgende Diagramm zeigt erwartete Latenzwerte bei der Nutzung des Edge-Netzwerks, z. B. zur Nutzung von RTCDP-Zielgruppen in [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de). Klicken Sie auf das Bild, um eine hochauflösende Version anzuzeigen.
+Das folgende Diagramm zeigt erwartete Latenzwerte bei der Nutzung der Variablen [!DNL Edge Network] - zum Beispiel zur Nutzung von RTCDP-Zielgruppen in [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de). Klicken Sie auf das Bild, um eine hochauflösende Version anzuzeigen.
 
 ![Adobe Edge Network und Experience Platform - Überblick über die allgemeine Benutzeroberfläche.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Exportieren von Zielgruppen in Adobe Target - Allgemeine visuelle Übersicht und Latenz"){width="1000" zoomable="yes"}
 

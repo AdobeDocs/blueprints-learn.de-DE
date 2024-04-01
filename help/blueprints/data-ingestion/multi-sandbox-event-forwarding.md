@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit den Experience Platform Web- und Mobile-S
 solution: Data Collection
 kt: 7202
 exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
-source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 83%
 
 ---
 
@@ -44,7 +44,7 @@ Bei der [!UICONTROL Ereignisweiterleitung] als Ansatz zum Senden von Daten an me
 
 ### Verschiedene Datenströme und Streaming-Endpunkte
 
-Wenn Daten durch Datenströme vom [!UICONTROL Platform Edge Network] fließen, besteht bei der Verwendung der [!UICONTROL Ereignisweiterleitung] an eine andere AEP-Sandbox eine-Anforderung darin, Nie denselben Datenstrom oder Streaming-Endpunkt zu verwenden wie der Datenstrom, der die ursprüngliche Sammlung erstellt. Dies kann sich nachteilig auf die AEP-Instanz auswirken und möglicherweise eine DoS-Situation auslösen.
+Als Daten fließen durch Datenspeicher von der [!DNL Platform Edge Network]bei Verwendung von [!UICONTROL Ereignisweiterleitung] in eine andere AEP-Sandbox zu übertragen, ist es erforderlich, niemals denselben Datastream oder Streaming-Endpunkt zu verwenden wie den Datastream, der die ursprüngliche Sammlung erstellt. Dies kann sich nachteilig auf die AEP-Instanz auswirken und möglicherweise eine DoS-Situation auslösen.
 
 ### Geschätzte Traffic-Volumina
 
@@ -54,11 +54,11 @@ Traffic-Volumina sind in jedem Anwendungsfall für die Überprüfung erforderlic
 
 ![[!UICONTROL Ereignisweiterleitung für mehrere Sandboxes]](assets/multi-sandbox-data-collection.png)
 
-1. Zur Verwendung der [!UICONTROL Ereignisweiterleitung] ist das Erfassen und Senden von Ereignisdaten an das [!UICONTROL Platform Edge Network] erforderlich. Kunden können Adobe Tags für die Client-seitige Datenerfassung oder die [!UICONTROL Platform Edge Network Server-API] für die Server-zu-Server-Datenerfassung verwenden. Die [!UICONTROL Platform Edge Network-API] kann eine Server-zu-Server-Erfassungsfunktion bereitstellen. Dies erfordert jedoch ein anderes Programmiermodell zur Implementierung. Siehe [Übersicht über die Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de).
+1. Erfassen und Senden von Ereignisdaten an die [!DNL Platform Edge Network] erforderlich ist, um [!UICONTROL Ereignisweiterleitung]. Kunden können Adobe-Tags für Client-seitig oder die [!DNL Platform Edge Network Server API] für die Server-zu-Server-Datenerfassung. Die [!DNL Platform Edge Network API] kann eine Server-zu-Server-Erfassungsfunktion bereitstellen. Dies erfordert jedoch ein anderes Programmiermodell zur Implementierung. Siehe [Übersicht über die Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de).
 
-1. Die erfassten Payloads werden von der Tags-Implementierung an das [!UICONTROL Platform Edge Network] und an den Service für die [!UICONTROL Ereignisweiterleitung] gesendet und von eigenen [!UICONTROL Datenelementen], [!UICONTROL Regeln] und [!UICONTROL Aktionen] verarbeitet. Erfahren Sie mehr zu den Unterschieden zwischen [[!UICONTROL Tags und Ereignisweiterleitung]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=de#differences-from-tags).
+1. Die erfassten Payloads werden von der Tag-Implementierung an die [!DNL Platform Edge Network] der [!UICONTROL Ereignisweiterleitung] Dienst und Verarbeitung durch eigene [!UICONTROL Datenelemente], [!UICONTROL Regeln] und [!UICONTROL Aktionen]. Erfahren Sie mehr zu den Unterschieden zwischen [[!UICONTROL Tags und Ereignisweiterleitung]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=de#differences-from-tags).
 
-1. Eine Eigenschaft für die [!UICONTROL Ereignisweiterleitung] ist auch erforderlich, um erfasste Ereignisdaten vom [!UICONTROL Platform Edge Network] zu empfangen. Ob diese Ereignisdaten durch eine bereitgestellte Tags-Implementierung oder eine Server-zu-Server-Sammlung an das Platform Edge Network gesendet wurden. Autoren definieren die Datenelemente, Regeln und Aktionen, die zur Anreicherung der Ereignisdaten vor der Weiterleitung an die zweite Sandbox verwendet werden. Erwägen Sie die Verwendung des [!DNL JavaScript]-Datenelements „Benutzerspezifischer Code“, um Ihre Daten für die Sandbox-Aufnahme zu strukturieren. In Kombination mit den Datenvorbereitungsfunktionen von Platform haben Sie mehrere Möglichkeiten, Ihre Datenstruktur zu verwalten.
+1. Ein [!UICONTROL Ereignisweiterleitung] -Eigenschaft ist auch erforderlich, um erfasste Ereignisdaten aus der [!DNL Platform Edge Network]. Ob diese Ereignisdaten an die [!DNL Platform Edge Network] durch eine bereitgestellte Tag-Implementierung oder eine Server-zu-Server-Sammlung. Autoren definieren die Datenelemente, Regeln und Aktionen, die zur Anreicherung der Ereignisdaten vor der Weiterleitung an die zweite Sandbox verwendet werden. Erwägen Sie die Verwendung des [!DNL JavaScript]-Datenelements „Benutzerspezifischer Code“, um Ihre Daten für die Sandbox-Aufnahme zu strukturieren. In Kombination mit den Datenvorbereitungsfunktionen von Platform haben Sie mehrere Möglichkeiten, Ihre Datenstruktur zu verwalten.
 
 1. Derzeit ist die Verwendung der Adobe [!UICONTROL Cloud Connector-Erweiterung] in der Eigenschaft für die [!UICONTROL Ereignisweiterleitung] erforderlich. Sobald die Regeln die Ereignisdaten verarbeiten oder anreichern, wird der Cloud Connector in einem Abruf verwendet, der für eine POST-Sendung der Payload an die zweite Sandbox konfiguriert ist
 

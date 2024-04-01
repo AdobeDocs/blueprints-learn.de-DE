@@ -1,23 +1,27 @@
 ---
 title: 'Blueprint: Datenzugriff und Datenexport'
-description: Diese Blueprint bietet einen Überblick über alle Methoden, mit denen Daten aus Adobe Experience Platform und den zugehörigen Programmen abgerufen und exportiert werden können.
+description: Erfahren Sie mehr über die Methoden, mit denen Daten aus Adobe Experience Platform und Anwendungen abgerufen und exportiert werden können.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 91%
 
 ---
 
 # Blueprint: Datenzugriff und Datenexport
 
-Im Blueprint für den Datenzugriff und Datenexport werden alle möglichen Methoden beschrieben, mit denen Daten aus Adobe Experience Platform und den zugehörigen Anwendungen abgerufen oder exportiert werden können.
+Der Datenzugriffs- und -export-Blueprint beschreibt alle möglichen Methoden, mit denen Daten aus [!DNL Experience Platform] und Anwendungen.
 
-Die Blueprint beinhaltet zwei Arten von Datenzugriff über Experience Platform und die zugehörigen Anwendungen. Einerseits werden Methoden zum Export von Daten aus Experience Platform und den zugehörigen Anwendungen beschrieben. Hierbei wird eine Push-Methode verwendet. Andererseits werden Methoden für den Zugriff auf Daten in Experience Platform und den zugehörigen Anwendungen beschrieben. Hierzu wird eine Pull-Methode verwendet.
+Der Blueprint ist in zwei Kategorien für den Datenzugriff von [!DNL Experience Platform] und Anwendungen.
 
-Methoden für den Datenzugriff:
+Der erste umfasst Ansätze zum Auswerten von Daten aus Experience Platform und Anwendungen. Dies würde als _push_ Datenausgangsmethode.
+
+Das zweite umfasst Ansätze für den Zugriff auf Daten von Experience Platform und Anwendungen. Dies würde als _abrufen_ Typ der Datenzugriffsmethode.
+
+Datenzugriffsansätze:
 
 * [Real-Time Customer Profile Access API](#rtcp-profile-access-api)
 * [Data Access API](#data-access-api)
@@ -30,11 +34,11 @@ Methoden für den Datenexport:
 * [Ziele für Real-time Customer Data Platform](#RTCDP-destinations)
 * [Benutzerdefinierte Journey Optimizer-Aktionen](#jo-custom-actions)
 
-## Überblick über die Architektur für den Datenzugriff und Datenexport
+## Architektur mit Datenzugriffs- und Exportübersicht
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für die Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
-## Methoden für Datenzugriff und Datenexport
+## Datenzugriffs- und Exportmethoden
 
 <table cellspacing="0" class="Table" style="border-collapse:collapse; width:1133px">
 <tbody>
@@ -408,7 +412,7 @@ Weitere Informationen finden Sie in der Dokumentation zur [Übersicht über Tags
 
 ### Ereignisweiterleitung {#event-forwarding}
 
-Datenerfassungsanfragen werden direkt im Edge Network von Adobe erfasst. Im Edge Network können Anfragen an externe RESTful-Endpunkte konfiguriert werden, sodass diese Anfragen an das externe Ziel weitergeleitet werden.
+Datenerfassungsanfragen werden direkt in Adobe erfasst [!DNL Edge Network]. Aus dem [!DNL Edge Network] -Anfragen an externe RESTful-Endpunkte können so konfiguriert werden, dass sie an das externe Ziel weitergeleitet werden.
 
 Weitere Informationen finden Sie in der folgenden Dokumentation zur [Ereignisweiterleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=de).
 
@@ -418,7 +422,7 @@ Weitere Informationen finden Sie in der folgenden Dokumentation zur [Ereigniswei
 
 #### Allgemeine Überlegungen
 
-* Um die Ereignisweiterleitung zu verwenden, müssen die Daten mithilfe des Web SDK oder MobileSDK an das Edge Network gesendet werden.
+* Zur Verwendung der Ereignisweiterleitung müssen Daten an die [!DNL Edge Network] unter Verwendung des Web SDK oder MobileSDK.
 * Durch die Ereignisweiterleitung werden die Seitenladezeit und -last reduziert, da zusätzliche Tags zur Seite hinzugefügt werden.
 * Derzeit wird keine Anreicherung über das Edge-Profil oder andere Datenquellen unterstützt.
 * Eingeschränkte Datenfilterung und einfache Mapping-Umwandlungen werden unterstützt.

@@ -1,13 +1,13 @@
 ---
-title: Einzelhandelsbranche – Aktivierung mit Experience Cloud-Programmen
-description: Bereitstellung von Echtzeit-Kundenerlebnissen auf Social-Media-, E-Mail-, Push- und Web-Kanälen.
+title: Einzelhandelsbranche - Aktivierung mit Experience Cloud-Anwendungen
+description: Erfahren Sie mehr über die Bereitstellung von Echtzeit-Kundenerlebnissen über digitale Medien-, E-Mail-, Push- und Webkanäle hinweg.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 99%
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,6 @@ Dieses integrierte Experience Business wollte die gesamte Customer Journey perso
 
 
 ## Verwandte Blueprints
-
 
 | Anwendungsfall/Integration  | Link |
 |:----|:----|

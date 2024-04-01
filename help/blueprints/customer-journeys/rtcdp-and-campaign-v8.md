@@ -3,25 +3,21 @@ title: Muster für die Integration von Real-Time CDP mit Adobe Campaign v8
 description: Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign v8 genutzt werden können, um personalisierte Konversationen bereitzustellen
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 72%
 
 ---
 
-# Muster für die Integration von Real-Time CDP mit Adobe Campaign v8
+# [!DNL Real-Time CDP] mit Adobe [!DNL Campaign] Integrationsmuster v8
 
-Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe Campaign genutzt werden können, um personalisierte Konversationen bereitzustellen
-
-<br>
+Veranschaulicht, wie die Adobe [!DNL Experience Platform] und sein Echtzeit-Kundenprofil sowie das zentrale Segmentierungs-Tool können mit Adobe Campaign für personalisierte Konversationen genutzt werden.
 
 ## Programme
 
-* Adobe Experience Platform Real-Time CDP
-* Adobe Campaign v8
-
-<br>
+* Adobe [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Campaign] v8
 
 ## Architektur
 
@@ -32,10 +28,10 @@ Zeigt, wie Adobe Experience Platform und das Echtzeit-Kundenprofil sowie das zen
 ## Voraussetzungen
 
 * Der Kunde muss über eine gültige IMS Org für Experience Cloud verfügen
-* Es wird empfohlen, bei Verwendung einer einzigen Anmelde-URL Adobe Experience Platform und Campaign in derselben IMS-Organisation bereitzustellen
-* Der Kunde muss über die v8-Instanz von Campaign verfügen
+* Adobe Experience Platform und [!DNL Campaign] wird empfohlen, in derselben IMS-Organisation für die einmalige Anmelde-URL bereitgestellt zu werden
+* Der Kunde muss eine V8-Instanz von [!DNL Campaign]
 * Der Kunde muss über eine Berechtigung und den Zugriff auf die Quellen und Ziele von Real-Time Customer Data Platform verfügen.
-* Adobe Campaign-Produktkontext muss vorhanden sein
+* Adobe [!DNL Campaign] Der Produktkontext muss vorhanden sein
 <br>
 
 ## Implementierungsschritte

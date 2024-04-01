@@ -1,19 +1,19 @@
 ---
-title: Aktivierung in Social-Media- und Advertising-Zielen aus Real-time Customer Data Platform
-description: Aktivierung in Social-Media- und Advertising-Zielen aus Real-time Customer Data Platform
+title: Aktivierung für Social- und Werbeziele von RTCDP
+description: Erfahren Sie, wie Sie Kundendaten aus mehreren Quellen erfassen können, um eine einzige Profilansicht des Kunden zu erstellen.
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 100%
+source-wordcount: '1130'
+ht-degree: 92%
 
 ---
 
-# Aktivierung in Social-Media- und Advertising-Zielen aus Real-time Customer Data Platform
+# Aktivierung für Social- und Werbeziele von RTCDP
 
-Nehmen Sie Kundendaten aus mehreren Quellen auf, um eine zentrale Profilansicht des Kunden zu erstellen, segmentieren Sie diese Profile, um Zielgruppen für Marketing und Personalisierung aufzubauen, teilen Sie diese Zielgruppen in Ad Networks wie Facebook und Google, um Kampagnen für diese Zielgruppen zu entwerfen und zu personalisieren.
+Erfassen Sie Kundendaten aus mehreren Quellen, um eine einzige Profilansicht des Kunden zu erstellen. Sie können diese Profile zu erstellten Zielgruppen für Marketing und Personalisierung segmentieren und diese Zielgruppen in Werbenetzwerken wie Facebook und Google freigeben, um Zielgruppen mit diesen Zielgruppen zu verknüpfen und Personalisierungskampagnen durchzuführen.
 
 ## Anwendungsfälle
 

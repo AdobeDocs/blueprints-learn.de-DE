@@ -1,13 +1,13 @@
 ---
-title: Tourismus und Gastgewerbe – Aktivierung mit Online- und Offline-Daten
-description: Echtzeitentscheidungen mit einer konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg.
+title: Reise und Gastfreundschaft - Aktivierung mit Online- und Offline-Daten
+description: Erfahren Sie, wie Sie Echtzeitentscheidungen mit einer einzigen konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg treffen können.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Dank der Nutzung von Adobe-Technologien und -Services ist dieses Unternehmen nun
 |---|---|---|
 | **Bereitstellung relevanter Erlebnisse für den Gast **<br></br>** Umsetzbare Erkenntnisse und Datendemokratie durch Dashboards **<br></br>** Organisatorische und operative Effizienz**</ul> | <ul><li>Erstellung eines einheitlichen Prämienprogramms für Gastprofile, wobei Online- und Offline-Daten zur Aktivierung und Messung herangezogen wurden</li><li>Schnelle und skalierbare kanalübergreifende Aktivierung in Echtzeit</li><li>Analysefunktion auf Kundenebene durch Customer Journey Analysis</li><li>Nutzung von historischen Clickstream-Interaktionsdaten zur Verbesserung der Aktivierung.</li><li>Nutzung von Online- und Offline-Daten, um eine einheitliche Kundenansicht zu erreichen und Erkenntnisse über Kundenkanäle und Customer Journeys hinweg zu ermöglichen.</li></ul> | <ul><li><strong> Kanalübergreifende Aktivierung: </strong>Verdreifachung der Interaktion mit E-Mails, Zunahme der direkt ansprechbaren Zielgruppe und Steigerung der Impressions, stark personalisierte Web-Erlebnisse </li><li><strong>Intelligence: </strong>Im Rahmen des Prämienprogramms für Gäste wird eine Aktivierungskampagne durchgeführt, um die Abwanderungsrate von Mitgliedern zu senken</li><li><strong>Reporting: </strong>Kombination von Online-/Offline-Daten mit KI/ML-Erkenntnissen in einem benutzerfreundlichen Journey- und Attributions-Dashboard, während gleichzeitig die Latenz reduziert wird (um Tage)</li><li><strong>Zukunftssicherer Technologie-Stack: </strong>Millionen von Profilen auf sieben Kanälen, die für Crossselling, Upselling und Ausgabenoptimierung genutzt werden können</li></ul> |
 
-## Primäre Blueprint: Aktivierung mit Online- und Offline-Daten
+## Primärer Blueprint: Aktivierung mit Online- und Offline-Daten
 
 ### Beschreibung
 

@@ -1,17 +1,17 @@
 ---
-title: Erfolgsgeschichten mit Blueprints für digitale Erlebnisse
-description: Diese Erfolgsgeschichten mit Blueprints für digitale Erlebnisse zeigen, wie in verschiedenen Branchen ein Mehrwert für Unternehmen geschaffen werden kann, die Adobe Experience Platform gemeinsam mit Adobe Experience Cloud-Programmen nutzen.
+title: Digital Experience Blueprints - Erfolgsgeschichten aus der Branche
+description: Erfahren Sie mehr über Erfolgsgeschichten, wie verschiedene Branchen mithilfe von Experience Cloud-Applikationen, die auf Adobe Experience Platform basieren, Geschäftswert realisieren.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 78%
 
 ---
 
 # Geschäftserfolg mit Blueprints für digitale Erlebnisse
 
-Erfahren Sie, wie Kunden mit Blueprints für digitale Erlebnisse erfolgreiche Kundenerlebnisse schaffen. Diese bewährten, reproduzierbaren Implementierungen ermöglichen Ihnen die schnelle, strategische Lösung häufiger Geschäftsprobleme.
+Erfahren Sie, wie Kunden großartige Erlebnisse erstellen und mit digitalen Experience-Blueprints erfolgreich arbeiten. Diese bewährten, reproduzierbaren Implementierungen ermöglichen Ihnen die schnelle, strategische Lösung häufiger Geschäftsprobleme.
 
 ## Vorgestellte Erfolgsgeschichten
 

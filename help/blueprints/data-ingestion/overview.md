@@ -1,20 +1,20 @@
 ---
 title: Datenerfassung und -vorbereitung
-description: Diese Blueprint zeigt alle Methoden, mit denen Daten in Adobe Experience Platform aufgenommen und vorbereitet werden können.
+description: Erfahren Sie, wie Sie Daten in Adobe Experience Platform aufnehmen und vorbereiten können.
 solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 80%
 
 ---
 
-# Datenerfassung und -vorbereitung    Blueprints
+# Datenerfassungs- und Vorbereitungs-Blueprints
 
-In der Blueprint „Datenerfassung und -vorbereitung“ werden die Methoden erläutert, mit denen Daten in Adobe Experience Platform aufgenommen und vorbereitet werden können. Zusätzlich erfahren Sie, wie Daten für das Edge Network von Adobe Experience Platform erfasst und anschließend über die Server-seitige Weiterleitung an Ziele im Unternehmen übermittelt werden.
+In der Blueprint „Datenerfassung und -vorbereitung“ werden die Methoden erläutert, mit denen Daten in Adobe Experience Platform aufgenommen und vorbereitet werden können. sowie die Möglichkeit, Daten an Adobe zu erfassen [!DNL Experience Platform Edge Network] und anschließende Weiterleitung von Daten über die Seitenweiterleitung an Unternehmensziele.
 
 Die Datenvorbereitung umfasst die Zuordnung der Quelldaten zum Experience Data Model-Schema (XDM). Sie umfasst auch die Durchführung von Datentransformationen, einschließlich Datenformatierung, Feldaufteilung/-verknüpfung/-umwandlung und die Zusammenführung von Datensätzen sowie die Vergabe neuer Schlüssel. Die Datenvorbereitung hilft bei der Vereinheitlichung von Kundendaten für gesammelte/gefilterte Analysen, einschließlich Berichten oder der Vorbereitung von Daten für die Erstellung von Kundenprofilen, Datenwissenschaft und Aktivierung.
 

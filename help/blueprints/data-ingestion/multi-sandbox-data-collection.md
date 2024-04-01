@@ -4,10 +4,10 @@ description: Streamen von mit Experience Platform-SDKs erfassten Daten an mehrer
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -38,9 +38,9 @@ Ihre Ziel-Sandbox benötigt einen konfigurierten HTTP-Streaming-Endpunkt, der vo
 
 1. Tag-Autoren definieren sowohl eine Tag-Eigenschaft als auch eine Ereignisweiterleitungs-Eigenschaft. Hier definieren Autoren die Datenelemente, Regeln und Aktionen, die die Datenerfassung verwalten. Beachten Sie, dass Tag-Eigenschafts-Code auf dem Client ausgeführt und von einem CDN-Host verteilt wird. Der Eigenschafts-Code der Ereignisweiterleitung wird auf dem Adobe Edge-Server ausgeführt.
 
-1. Auf dem Client erfasste Daten werden an den Edge-Server gesendet. Kundinnen und Kunden haben auch die Möglichkeit, Daten zunächst zur Server-seitigen Erfassung an ihren eigenen Server zu senden. Das Web SDK kann eine Server-zu-Server-Erfassungsfunktion bereitstellen. Dies erfordert jedoch ein anderes Programmiermodell zur Implementierung. Weitere Informationen finden Sie in der Dokumentation **Edge Network Server-API – Übersicht** unten
+1. Auf dem Client erfasste Daten werden an die [!DNL Edge Network]. Kundinnen und Kunden haben auch die Möglichkeit, Daten zunächst zur Server-seitigen Erfassung an ihren eigenen Server zu senden. Das Web SDK kann eine Server-zu-Server-Erfassungsfunktion bereitstellen. Dies erfordert jedoch ein anderes Programmiermodell zur Implementierung. Weitere Informationen finden Sie in der Dokumentation . **[!DNL Edge Network]Übersicht über die Server-API** below
 
-1. Das Platform Edge Network empfängt Datenerfassungs-Payloads und orchestriert den Datenfluss an die erforderlichen Systeme wie Target und Analytics.
+1. Plattform [!DNL Edge Network] empfängt Datenerfassungs-Payloads und orchestriert den Datenfluss zu den erforderlichen Systemen wie Target und Analytics.
 
 1. Datenelemente der Ereignisweiterleitungs-Eigenschaft werden verwendet, um auf Ereignisdaten zuzugreifen, die in die Payload eingehen. Regeln können auch verwendet werden, um die Ereignisdaten vor der Weiterleitung nach Bedarf anzupassen. Beispielsweise können die Daten in das für die Streaming-Datenaufnahme erforderliche XDM formatiert werden
 
@@ -54,15 +54,15 @@ Ihre Ziel-Sandbox benötigt einen konfigurierten HTTP-Streaming-Endpunkt, der vo
 * [Videos zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=de)
 * [Lektion zur Ereignisweiterleitung](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=de) des Web SDK-Tutorials
 * [Überblick über das Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)
-* [Edge Network Server-API – Überblick](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)
+* [[!DNL Edge Network] Übersicht über die Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)
 
 ## Verwandte Blog-Posts
 
-* [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [[!DNL Adobe Experience Platform Web SDK — Adobe Target]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [[!DNL Adobe Experience Platform Web SDK Migration Scenarios for Adobe Analytics]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [[!DNL Unify Your Adobe Experience Platform Services with Adobe Experience Platform Web SDK]](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [[!DNL Accelerate Your Mobile Application Development with Adobe Experience Platform Mobile SDK and Launch]](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
-* [[!DNL Simplifying Customer Workflows with Adobe Experience Platform Web SDK]](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
+* [Verbesserung der Website-Leistung mit dem Adobe Experience Platform Web SDK und [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
+* [Lösen von Implementierungs-Pain-Punkten mit dem Adobe Experience Platform Web SDK und [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [Adobe Experience Platform Web SDK für Zielgruppen-Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [Adobe Experience Platform Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Migrationsszenarien für Adobe Experience Platform Web SDK und Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [Zusammenführen von Adobe Experience Platform-Services mit Adobe Experience Platform Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [Beschleunigung der Entwicklung von Mobile Apps mit Adobe Experience Platform Mobile SDK und Experience Platform Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Vereinfachung von Kunden-Workflows mit Adobe Experience Platform Web SDK](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

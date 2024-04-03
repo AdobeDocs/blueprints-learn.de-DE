@@ -4,22 +4,22 @@ description: Erfahren Sie mehr über die Methoden, mit denen Daten aus Adobe Exp
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1834'
 ht-degree: 91%
 
 ---
 
-# Blueprint: Datenzugriff und Datenexport
+# Blueprint für Datenzugriff und -export
 
 Der Datenzugriffs- und -export-Blueprint beschreibt alle möglichen Methoden, mit denen Daten aus [!DNL Experience Platform] und Anwendungen.
 
 Der Blueprint ist in zwei Kategorien für den Datenzugriff von [!DNL Experience Platform] und Anwendungen.
 
-Der erste umfasst Ansätze zum Auswerten von Daten aus Experience Platform und Anwendungen. Dies würde als _push_ Datenausgangsmethode.
+Das erste umfasst Ansätze zum Auswerten von Daten aus [!DNL Experience Platform] und Anwendungen. Dies würde als _push_ Datenausgangsmethode.
 
-Das zweite umfasst Ansätze für den Zugriff auf Daten von Experience Platform und Anwendungen. Dies würde als _abrufen_ Typ der Datenzugriffsmethode.
+Das zweite umfasst Ansätze für den Zugriff auf Daten aus [!DNL Experience Platform] und Anwendungen. Dies würde als _abrufen_ Typ der Datenzugriffsmethode.
 
 Datenzugriffsansätze:
 

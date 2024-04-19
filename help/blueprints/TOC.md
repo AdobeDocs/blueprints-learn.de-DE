@@ -5,10 +5,10 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 55%
+source-wordcount: '240'
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 55%
       + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Überblick](/help/blueprints/audience-activation/overview.md)
-   + [Anonyme Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Anonyme Zielgruppenaktivierung ](/help/blueprints/audience-activation/anonymous.md)
    + Aktivierung einer bekannten Kundin/eines bekannten Kunden (RTCDP) {#known-customer-audience-activation}
       + [Überblick](/help/blueprints/audience-activation/known.md)
       + [Aktivierung in Social- und Werbekanälen](/help/blueprints/audience-activation/advertising-activation.md)

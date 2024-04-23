@@ -5,7 +5,7 @@ solution: Real-Time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
+source-git-commit: f22376004f0e6feab1872b16ee2993ed22cc145e
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 76%
@@ -41,4 +41,4 @@ Weitere Dokumentationen zu Profil, Segmentierung und Aktivierung finden Sie in d
 
 ## Blueprints: Leitlinien für Zielgruppen- und Profilaktivierung
 
-* Detaillierte Leitlinien und End-to-End-Latenzen finden Sie im [Dokument zu den Implementierungsleitlinien](../experience-platform/deployment/guardrails.md) und [den Profil- und Segmentierungsleitlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de).
+Detaillierte Leitlinien und End-to-End-Latenzen finden Sie im [Dokument zu den Implementierungsleitlinien](../experience-platform/deployment/guardrails.md) und [den Profil- und Segmentierungsleitlinien](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de).

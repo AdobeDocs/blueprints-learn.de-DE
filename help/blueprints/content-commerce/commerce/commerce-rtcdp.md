@@ -3,7 +3,7 @@ title: Adobe Commerce - RTCDP-Blueprint
 description: Adobe Experience Platform-Integration mit Adobe Commerce , um eine zentrale Ansicht von Kunden zu erstellen und Erlebnisse in einem digitalen Storefront und kanalübergreifend intelligent zu personalisieren.
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
+source-git-commit: 80a4716a7ed64ec30b9c60b3444affc5bd8984e4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -69,4 +69,4 @@ Eine vollständige Liste der unterstützten Ereignisse finden Sie unter [Commerc
 |:----|:----|
 | Platform Connector | [Übersicht über den Adobe Commerce Experience Platform-Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Commerce-Ziel | [Adobe Commerce-Verbindung in RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
-| Edge-Personalisierung | [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) | |
+| Edge-Personalisierung | [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |

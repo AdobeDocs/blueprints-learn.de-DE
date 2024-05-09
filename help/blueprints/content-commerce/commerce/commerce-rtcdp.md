@@ -3,7 +3,7 @@ title: Adobe Commerce - RTCDP-Blueprint
 description: Adobe Experience Platform-Integration mit Adobe Commerce , um eine zentrale Ansicht von Kunden zu erstellen und Erlebnisse in einem digitalen Storefront und kanalübergreifend intelligent zu personalisieren.
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 8a47b73065a5591673804301c61a73947346813c
+source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Commerce und RTCDP
 
-Die [!DNL Data Connection] Die -Erweiterung unterstützt Adobe Commerce-Kunden bei der nahtlosen Integration mit Adobe Experience Platform, um das Kundenprofil zu erweitern und Erlebnisse in digitalen Storefront- und anderen Kanälen zu personalisieren.
+Die [!DNL Data Connection] -Erweiterung unterstützt Adobe Commerce-Kunden bei der nahtlosen Integration in Adobe Experience Platform, um das Kundenprofil zu erweitern und Erlebnisse in digitalen Storefront- und anderen Kanälen zu personalisieren.
 
 ## Technische Funktionen aktiviert
 

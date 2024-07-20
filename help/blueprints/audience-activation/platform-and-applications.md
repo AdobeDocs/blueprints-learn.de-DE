@@ -48,7 +48,7 @@ Weitere Architekturdiagramme für Experience Platform-Integrationen mit Experien
 
 ## Leitlinien
 
-Siehe Abschnitt [Limits auf der Seite Übersicht über die Zielgruppen- und Profilaktivierung](overview.md) und [Limits bei der Implementierung](../experience-platform/deployment/guardrails.md) Seite.
+Weitere Informationen finden Sie auf der Seite mit den [Limits auf der Seite Übersicht über die Aktivierung von Zielgruppen und Profilen](overview.md) und auf der Seite mit den [Limits für die Bereitstellung](../experience-platform/deployment/guardrails.md) .
 
 ## Überlegungen bei der Implementierung
 

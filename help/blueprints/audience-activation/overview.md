@@ -35,7 +35,7 @@ Blueprints in Zielgruppen- und Profilaktivierung
 
 In der folgenden Abbildung werden die Kernkomponenten des Echtzeit-Kundenprofils in Experience Platform beschrieben.
 
-Weitere Dokumentationen zu Profil, Segmentierung und Aktivierung finden Sie in der [Dokumentation zur RTCDP-Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) und [Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) Seiten.
+Eine zusätzliche Dokumentation zu Profil, Segmentierung und Aktivierung finden Sie auf den Seiten [RTCDP - Übersichtsdokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) und [Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) .
 
 <img src="assets/profile_architecture.jpg" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 

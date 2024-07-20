@@ -16,7 +16,7 @@ ht-degree: 56%
 # Blueprints: Digitale Erlebnisse {#architecture}
 
 + [Blueprints für digitale Erlebnisse](/help/blueprints/overview.md)
-+ Vertikale Branchenpläne{#vertical-blueprints}
++ Vertikale Branchen-Blueprints{#vertical-blueprints}
    + [Überblick](/help/blueprints/vertical-blueprints/overview.md)
    + [Bekleidung](/help/blueprints/vertical-blueprints/apparel.md)
    + [Einzelhandel](/help/blueprints/vertical-blueprints/retail.md)
@@ -27,7 +27,7 @@ ht-degree: 56%
    + [Experience Platform und Anwendungen](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform-Datenfluss](/help/blueprints/experience-platform/platform-data-flow.md)
    + Implementierung {#deployment}
-      + [Experience Platform Web SDK und [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [Anwendungs-SDKs](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}

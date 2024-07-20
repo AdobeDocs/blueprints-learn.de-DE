@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # Datenanalyse, Intelligenz und KI/ML-Blueprints
 
-Die Datenanalyse, Intelligenz und KI/ML umfasst die Fähigkeit innerhalb von Adobe [!DNL Experience Platform] zur Durchführung einer Sondierungsabfrage und -analyse der Daten, die im Data Lake vorhanden sind.
+Datenanalyse, Intelligenz und KI/ML ermöglichen es innerhalb von Adobe [!DNL Experience Platform], eine exploratorische Abfrage und Analyse der Daten durchzuführen, die im Data Lake vorhanden sind.
 
-[!DNL Experience Platform]s [!UICONTROL Query Service] ermöglicht die Ausführung von SQL-Abfragen für die Daten. Darüber hinaus [!DNL Experience Platform] ermöglicht Verbindungen mit SQL-Clients, Schnittstellen und Business Intelligence-Tools von Drittanbietern, direkt eine Verbindung zu den Daten herzustellen, darauf zuzugreifen und sie abzurufen innerhalb von [!DNL Experience Platform], wobei [!DNL PostgreSQL] Protokoll.
+Der [!UICONTROL Abfragedienst ] von [!DNL Experience Platform] ermöglicht die Durchführung von SQL-Abfragen für die Daten. Darüber hinaus ermöglicht [!DNL Experience Platform] Verbindungen mit SQL-Clients, Schnittstellen und Business Intelligence-Tools von Drittanbietern, mithilfe des [!DNL PostgreSQL] -Protokolls direkt eine Verbindung zu den Daten herzustellen, darauf zuzugreifen und sie abzufragen.[!DNL Experience Platform]
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[Datenanalyse und Datenintelligenz](analysis.md)** | <ul><li>Data Analysis und Intelligence Blueprint umfasst die Methoden, mit denen Daten abgefragt und analysiert werden können, um tiefere Einblicke in [!DNL Experience Platform]</ul></li> | <ul><li> [!DNL Experience Platform] Intelligence</ul></li> |
-| **[Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](data-science.md)** | <ul><li>Trainieren, bewerten und operationalisieren Sie Modelle zur weiteren Anreicherung von Profilen und Umsetzung von modellgestützten Kundenerkenntnissen</li></ul> | <ul><li>[!DNL Experience Platform] Intelligence</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
+| **[Datenanalyse und Datenintelligenz](analysis.md)** | <ul><li>Data Analysis und Intelligence Blueprint umfasst die Methoden, mit denen Daten abgefragt und analysiert werden können, um tiefere Einblicke in [!DNL Experience Platform] zu erhalten.</ul></li> | <ul><li> [!DNL Experience Platform] Intelligenz</ul></li> |
+| **[Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](data-science.md)** | <ul><li>Trainieren, bewerten und operationalisieren Sie Modelle zur weiteren Anreicherung von Profilen und Umsetzung von modellgestützten Kundenerkenntnissen</li></ul> | <ul><li>[!DNL Experience Platform] Intelligenz</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |

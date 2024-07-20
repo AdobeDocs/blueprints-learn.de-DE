@@ -12,9 +12,9 @@ ht-degree: 53%
 
 # [!DNL Journey Optimizer] Blueprints
 
-Adobe [!DNL Journey Optimizer] ist ein speziell entwickeltes System, mit dem Marketing-Teams in Echtzeit auf Kundenverhalten reagieren und sie dort treffen können, wo sie sich befinden. Die Datenverwaltungsfunktionen wurden auf die Adobe verschoben [!DNL Experience Platform] Marketing-Teams können sich auf das konzentrieren, was sie am besten machen: die Erstellung von erstklassigen Kunden-Journey und personalisierten Gesprächen.
+Adobe [!DNL Journey Optimizer] ist ein speziell entwickeltes System, mit dem Marketing-Teams in Echtzeit auf Kundenverhalten reagieren und sie dort treffen können, wo sie sich befinden. Die Data-Management-Funktionen wurden auf die Adobe [!DNL Experience Platform] verschoben, sodass sich Marketing-Teams auf das konzentrieren können, was sie am besten erreichen: die Erstellung von erstklassigem Journey und personalisierten Konversationen.
 
-In diesem Blueprint werden die technischen Funktionen der Anwendung vorgestellt und die verschiedenen architektonischen Komponenten, aus denen sich die Anwendung zusammensetzt, eingehend erläutert [!DNL Journey Optimizer].
+In diesem Blueprint werden die technischen Funktionen der Anwendung beschrieben und die verschiedenen architektonischen Komponenten, aus denen [!DNL Journey Optimizer] besteht, werden eingehend erläutert.
 
 ## Anwendungsfälle
 
@@ -33,7 +33,7 @@ In diesem Blueprint werden die technischen Funktionen der Anwendung vorgestellt 
 
 | Szenario | Beschreibung | Funktionen |
 | :-- | :--- | :--- |
-| [Drittanbieter-Messaging](3rd-party-messaging.md) | Veranschaulicht Adobe [!DNL Journey Optimizer] kann mit Drittanbieter-Messaging-Systemen verwendet werden, um personalisierte Kommunikation zu orchestrieren und zu senden | Stellen Sie in Echtzeit personalisierte 1:1-Kommunikationen für Kunden bereit, während diese mit Ihrer Marke oder Ihrem Unternehmen interagieren.<br><br>Überlegungen:<br><ul><li>Drittanbietersystem muss Inhaber-Token für die Authentifizierung unterstützen</li><li>Keine Unterstützung für statische IPs aufgrund der Mehrmandanten-Architektur</li><li>Beachten Sie Einschränkungen der Architektur bei Drittanbietersystemen hinsichtlich API-Aufrufen pro Sekunde. Möglicherweise ist es erforderlich, dass der Kunde zusätzliche Mengen von einem Drittanbieter kauft, um die Menge zu unterstützen, die von [!DNL Journey Optimizer]</li><li>Entscheidungs-Management wird in Nachrichten oder Payloads nicht unterstützt</li></ul> |
+| [Drittanbieter-Messaging](3rd-party-messaging.md) | Veranschaulicht, wie Adobe [!DNL Journey Optimizer] mit Drittanbieter-Messaging-Systemen verwendet werden kann, um personalisierte Nachrichten zu orchestrieren und zu senden | Stellen Sie in Echtzeit personalisierte 1:1-Kommunikationen für Kunden bereit, während diese mit Ihrer Marke oder Ihrem Unternehmen interagieren.<br><br>Überlegungen:<br><ul><li>Drittanbietersystem muss Inhaber-Token für die Authentifizierung unterstützen</li><li>Keine Unterstützung für statische IPs aufgrund der Mehrmandanten-Architektur</li><li>Beachten Sie Einschränkungen der Architektur bei Drittanbietersystemen hinsichtlich API-Aufrufen pro Sekunde. Möglicherweise muss der Kunde beim Drittanbieter zusätzliche Mengen kaufen, um das Volumen von [!DNL Journey Optimizer] zu unterstützen.</li><li>Entscheidungs-Management wird in Nachrichten oder Payloads nicht unterstützt</li></ul> |
 
 <br>
 
@@ -41,7 +41,7 @@ In diesem Blueprint werden die technischen Funktionen der Anwendung vorgestellt 
 
 | Integration | Beschreibung | Funktionen |
 | :-- | :--- | :--- |
-| [[!DNL Journey Optimizer] mit Adobe Campaign](ajo-and-campaign.md) | Zeigt, wie Sie Adobe verwenden können [!DNL Journey Optimizer] , um 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils zu orchestrieren und das native Adobe Campaign-Transaktionsnachrichtensystem zu nutzen, um die Nachricht zu senden. | Nutzen Sie das Echtzeit-Kundenprofil und die Vorteile von [!DNL Journey Optimizer] im Moment Erlebnisse zu orchestrieren und gleichzeitig die nativen Echtzeit-Messaging-Funktionen von Adobe Campaign für die Kommunikation der letzten Meile zu nutzen<br><br>Zu beachten:<br><ul><li>Campaign muss v7, Build >21.1 oder v8 sein</li><li>Messaging-Durchsatz</li><ul><li>Campaign v7 - bis zu 50.000 pro Stunde</li><li>Campaign v8 - bis zu 1 Mio. pro Stunde</li><li>Campaign Standard - bis zu 50.000 pro Stunde</li></ul><li>Es wird kein Throttling durchgeführt, Anwendungsfälle erfordern also eine technische Überprüfung durch einen Enterprise Architect</li><li>Keine Unterstützung für die Verwendung von Entscheidungs-Management in von Campaign versendeten Nachrichten</li></ul> |
+| [[!DNL Journey Optimizer] mit Adobe Campaign](ajo-and-campaign.md) | Zeigt, wie Sie Adobe [!DNL Journey Optimizer] verwenden können, um 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils zu orchestrieren und das native Adobe Campaign-Transaktionsnachrichtensystem zu nutzen, um die Nachricht zu senden | Nutzen Sie das Echtzeit-Kundenprofil und die Leistungsfähigkeit von [!DNL Journey Optimizer], um im Moment Erlebnisse zu orchestrieren und gleichzeitig die nativen Echtzeit-Messaging-Funktionen von Adobe Campaign zu nutzen, um die letzte Meilenkommunikation durchzuführen.<br><br>Zu beachten:<br><ul><li>Campaign muss v7, Build >21.1 oder v8 sein</li><li>Messaging-Durchsatz</li><ul><li>Campaign v7 - bis zu 50.000 pro Stunde</li><li>Campaign v8 - bis zu 1 Mio. pro Stunde</li><li>Campaign Standard - bis zu 50.000 pro Stunde</li></ul><li>Es wird kein Throttling durchgeführt, Anwendungsfälle erfordern also eine technische Überprüfung durch einen Enterprise Architect</li><li>Keine Unterstützung für die Verwendung von Entscheidungs-Management in von Campaign versendeten Nachrichten</li></ul> |
 
 <br>
 
@@ -49,9 +49,9 @@ In diesem Blueprint werden die technischen Funktionen der Anwendung vorgestellt 
 
 Adobe [!DNL Experience Platform]:
 
-* Schemas und Datensätze müssen im System konfiguriert werden, bevor Sie Folgendes konfigurieren können [!DNL Journey Optimizer] Datenquellen
+* Schemas und Datensätze müssen im System konfiguriert werden, bevor Sie [!DNL Journey Optimizer]-Datenquellen konfigurieren können
 * Fügen Sie für Schemas, die auf der Klasse „Erlebnisereignis“ basieren, die Feldgruppe „Orchestrierungsereignis-ID“ hinzu, wenn ein Ereignis ausgelöst werden soll, das kein regelbasiertes Ereignis ist.
-* Fügen Sie für klassenbasierte Einzelprofile die Feldergruppe &quot;Profiltestdetails&quot;hinzu, um Testprofile zur Verwendung mit [!DNL Journey Optimizer]
+* Fügen Sie für klassenbasierte Einzelprofile die Feldergruppe &quot;Profiltestdetails&quot;hinzu, um Testprofile zur Verwendung mit [!DNL Journey Optimizer] laden zu können.
 
 E-Mail:
 
@@ -66,9 +66,9 @@ Mobile Push:
 
 ## Leitlinien
 
-[[!DNL Journey Optimizer] Produktlink der Limits](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
+[[!DNL Journey Optimizer] Schutzmechanismen - Produktlink](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Limits und End-to-End-Latenzrichtlinien](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Limits und Ende-zu-Ende-Latenzrichtlinien](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Verwandte Dokumentation
 

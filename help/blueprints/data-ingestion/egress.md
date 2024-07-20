@@ -13,13 +13,13 @@ ht-degree: 91%
 
 # Blueprint für Datenzugriff und -export
 
-Der Datenzugriffs- und -export-Blueprint beschreibt alle möglichen Methoden, mit denen Daten aus [!DNL Experience Platform] und Anwendungen.
+Der Datenzugriffs- und -export-Blueprint beschreibt alle möglichen Methoden, mit denen Daten aus [!DNL Experience Platform] und Anwendungen abgerufen oder exportiert werden können.
 
-Der Blueprint ist in zwei Kategorien für den Datenzugriff von [!DNL Experience Platform] und Anwendungen.
+Der Blueprint ist in zwei Kategorien für den Datenzugriff von [!DNL Experience Platform] und Anwendungen unterteilt.
 
-Das erste umfasst Ansätze zum Auswerten von Daten aus [!DNL Experience Platform] und Anwendungen. Dies würde als _push_ Datenausgangsmethode.
+Der erste umfasst Ansätze zum Auswerten von Daten aus [!DNL Experience Platform] und Anwendungen. Dies würde als Methode vom Typ _push_ für Datenausgabe betrachtet.
 
-Das zweite umfasst Ansätze für den Zugriff auf Daten aus [!DNL Experience Platform] und Anwendungen. Dies würde als _abrufen_ Typ der Datenzugriffsmethode.
+Das zweite umfasst Ansätze für den Zugriff auf Daten von [!DNL Experience Platform] und Anwendungen. Dies würde als Methode des Datenzugriffs vom Typ _Pull_ betrachtet.
 
 Datenzugriffsansätze:
 
@@ -412,7 +412,7 @@ Weitere Informationen finden Sie in der Dokumentation zur [Übersicht über Tags
 
 ### Ereignisweiterleitung {#event-forwarding}
 
-Datenerfassungsanfragen werden direkt in Adobe erfasst [!DNL Edge Network]. Aus dem [!DNL Edge Network] -Anfragen an externe RESTful-Endpunkte können so konfiguriert werden, dass sie an das externe Ziel weitergeleitet werden.
+Datenerfassungsanforderungen werden direkt an Adobe [!DNL Edge Network] erfasst. Von den [!DNL Edge Network] -Anfragen an externe RESTful-Endpunkte können konfiguriert werden, um diese Anfragen an das externe Ziel weiterzuleiten.
 
 Weitere Informationen finden Sie in der folgenden Dokumentation zur [Ereignisweiterleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=de).
 
@@ -422,7 +422,7 @@ Weitere Informationen finden Sie in der folgenden Dokumentation zur [Ereigniswei
 
 #### Allgemeine Überlegungen
 
-* Zur Verwendung der Ereignisweiterleitung müssen Daten an die [!DNL Edge Network] unter Verwendung des Web SDK oder MobileSDK.
+* Um die Ereignisweiterleitung zu verwenden, müssen Daten mithilfe des Web SDK oder MobileSDK an die [!DNL Edge Network] gesendet werden.
 * Durch die Ereignisweiterleitung werden die Seitenladezeit und -last reduziert, da zusätzliche Tags zur Seite hinzugefügt werden.
 * Derzeit wird keine Anreicherung über das Edge-Profil oder andere Datenquellen unterstützt.
 * Eingeschränkte Datenfilterung und einfache Mapping-Umwandlungen werden unterstützt.

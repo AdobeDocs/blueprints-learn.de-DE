@@ -1,6 +1,6 @@
 ---
 title: Datenerfassung und -vorbereitung
-description: Erfahren Sie, wie Daten in Adobe erfasst und vorbereitet werden können. [!DNL Experience Platform].
+description: Erfahren Sie, wie Daten in Adobe [!DNL Experience Platform] erfasst und vorbereitet werden können.
 solution: Data Collection
 kt: 7204
 thumbnail: null
@@ -14,11 +14,11 @@ ht-degree: 61%
 
 # Entwürfe für Datenerfassung und -vorbereitung
 
-Die Datenerfassung und -vorbereitung umfasst alle Methoden, mit denen Daten vorbereitet und in Adobe erfasst werden können. [!DNL Experience Platform]. sowie die Möglichkeit, Daten an Adobe zu erfassen [!DNL Experience Platform Edge Network] und anschließende Weiterleitung von Daten über die Seitenweiterleitung an Unternehmensziele.
+Die Datenerfassung und -vorbereitung umfasst alle Methoden, mit denen Daten vorbereitet und in Adobe [!DNL Experience Platform] erfasst werden können. sowie die Möglichkeit, Daten an Adobe [!DNL Experience Platform Edge Network] zu erfassen und anschließend Daten über die Seitenweiterleitung an Unternehmensziele weiterzuleiten.
 
 Die Datenvorbereitung umfasst die Zuordnung der Quelldaten zum Experience Data Model-Schema (XDM). Sie umfasst auch die Durchführung von Datentransformationen, einschließlich Datenformatierung, Feldaufteilung/-verknüpfung/-umwandlung und die Zusammenführung von Datensätzen sowie die Vergabe neuer Schlüssel. Die Datenvorbereitung hilft bei der Vereinheitlichung von Kundendaten für gesammelte/gefilterte Analysen, einschließlich Berichten oder der Vorbereitung von Daten für die Erstellung von Kundenprofilen, Datenwissenschaft und Aktivierung.
 
 | Blueprint | Beschreibung | Experience Cloud-Programme |
 |---|---|---|
-| **[Datenvorbereitung und -aufnahme](ingestion.md)** | <ul><li>Datenvorbereitung und Aufnahme-Blueprint umfassen alle Methoden, mit denen Daten vorbereitet und in Adobe erfasst werden können. [!DNL Experience Platform].</ul></li> | <ul><li> Adobe [!DNL Experience Platform] </ul></li> |
+| **[Datenvorbereitung und -aufnahme](ingestion.md)** | <ul><li>Datenvorbereitung und Aufnahme-Blueprint umfassen alle Methoden, mit denen Daten vorbereitet und in Adobe [!DNL Experience Platform] aufgenommen werden können.</ul></li> | <ul><li> Adobe [!DNL Experience Platform] </ul></li> |
 | **[Server-seitige Erfassung von Unternehmensdaten](server-side-collection.md)** | <ul><li>Aktivierung für bekannte, profilbasierte Ziele, wie E-Mail-Anbieter, Social Media und Werbeziele. </li><li>Verwenden Sie Offline-Attribute und -Ereignisse, wie Offline-Bestellungen, Transaktionen, CRM oder Treue-Daten gemeinsam mit Online-Verhaltensdaten für Online-Targeting und Personalisierung.</li></ul> | <ul><li>Adobe [!DNL Experience Platform]</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |

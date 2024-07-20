@@ -116,7 +116,7 @@ Außerdem bietet es einen Echtzeit-Messaging-Server, mit dem Marketing-Teams vor
 
 ## Implementierungsschritte
 
-Siehe [Handbuch &quot;Erste Schritte&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=de) zur Implementierung von Adobe Campaign v7.
+Informationen zur Implementierung von Adobe Campaign v7 finden Sie im [Erste Schritte-Handbuch](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=de) .
 
 
 ## Verwandte Dokumentation

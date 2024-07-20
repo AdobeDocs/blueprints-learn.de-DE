@@ -27,7 +27,7 @@ Außerdem bietet es einen skalierbaren Echtzeit-Messaging-Server, mit dem Market
 
 ## Architekturdiagramme
 
-Weitere Informationen [Implementierungsmodelle für Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Erfahren Sie mehr über die [Campaign v8-Bereitstellungsmodelle](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
 
 ### Bereitstellung für Campaign Enterprise (FFDA)
 
@@ -41,8 +41,8 @@ Weitere Informationen [Implementierungsmodelle für Campaign v8](https://experie
 
 | Szenario | Beschreibung | Funktionen |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] mit Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Veranschaulicht, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungstool mit Adobe verwendet werden können [!DNL Campaign] um personalisierte Konversationen bereitzustellen | <ul><li>Freigeben von Profilen und Audiences über [!DNL Real-Time CDP] auf Adobe [!DNL Campaign] über den Austausch von Cloud-Speicher-Dateien und Adobe [!DNL Campaign] Aufnahme-Workflows </li><li>Einfaches Freigeben von Versand- und Interaktionsdaten aus Kundengesprächen zurück in die [!DNL Real-Time CDP] von Adobe [!DNL Campaign] zur Verbesserung des Echtzeit-Kundenprofils und zur Bereitstellung kanalübergreifender Berichte zu Messaging-Kampagnen.</li></ul> |
-| [[!DNL Journey Optimizer] mit Adobe [!DNL Campaign]](ajo-and-campaign.md) | Zeigt, wie Sie Adobe Journey Optimizer verwenden können, um 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils zu orchestrieren und die native Adobe zu nutzen [!DNL Campaign] Transaktionsnachrichtensystem zum Senden der Nachricht | Nutzen Sie das Echtzeit-Kundenprofil und die Vorteile von [!DNL Journey Optimizer] im Moment Erlebnisse koordinieren und dabei die nativen Echtzeit-Messaging-Funktionen von Adobe nutzen [!DNL Campaign] Kommunikation der letzten Meile<br><br>Zu beachten:<br><ul><li>Kann bis zu 1 Mio. Nachrichten pro Stunde über den Echtzeit-Messaging-Server senden<li>Es wird keine Drosselung durchgeführt von [!DNL Journey Optimizer] so sicherstellen, dass die technische Prüfung durch einen Unternehmensarchitekten vor dem Vertrieb erfolgt</li><li>Entscheidungs-Management wird in Payloads an Campaign v8 nicht unterstützt</li></ul> |
+| [[!DNL Real-time Customer Data Platform] mit Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Veranschaulicht, wie die Adobe Experience Platform und ihr Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungstool mit Adobe [!DNL Campaign] für personalisierte Konversationen verwendet werden können. | <ul><li>Freigeben von Profilen und Audiences von [!DNL Real-Time CDP] an Adobe [!DNL Campaign] durch Nutzung des Cloud-Speicher-Dateiaustauschs und Adobe [!DNL Campaign]-Aufnahme-Workflows </li><li>Einfaches Freigeben von Versand- und Interaktionsdaten aus Kundengesprächen zurück in die [!DNL Real-Time CDP] von Adobe [!DNL Campaign], um sowohl das Echtzeit-Kundenprofil zu verbessern als auch kanalübergreifende Berichte zu Nachrichtenkampagnen bereitzustellen</li></ul> |
+| [[!DNL Journey Optimizer] mit Adobe [!DNL Campaign]](ajo-and-campaign.md) | Zeigt, wie Sie Adobe Journey Optimizer verwenden können, um 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils zu orchestrieren und das native Adobe [!DNL Campaign] -Transaktionsnachrichtensystem zum Senden der Nachricht zu nutzen | Nutzen Sie das Echtzeit-Kundenprofil und die Leistungsfähigkeit von [!DNL Journey Optimizer], um im Moment Erlebnisse zu orchestrieren und gleichzeitig die nativen Echtzeit-Messaging-Funktionen von Adobe [!DNL Campaign] zu nutzen, um die letzte Meilenkommunikation durchzuführen.<br><br>Zu beachten:<br><ul><li>Kann bis zu 1 Mio. Nachrichten pro Stunde über den Echtzeit-Messaging-Server senden<li>Von [!DNL Journey Optimizer] werden keine Einschränkungen vorgenommen, sodass eine technische Überprüfung durch einen Unternehmensarchitekten vor dem Verkauf gewährleistet ist</li><li>Entscheidungs-Management wird in Payloads an Campaign v8 nicht unterstützt</li></ul> |
 
 ## Voraussetzungen
 
@@ -50,7 +50,7 @@ Für diesen Blueprint sind folgende Voraussetzungen erforderlich:
 
 ### Anwendungs-Server und Echtzeit-Messaging-Server
 
-* Die Adobe [!DNL Campaign] Die Client Console muss interagieren und die [!DNL Campaign] v8-Software. Dies ist ein Windows-basierter Client, der Standard-Internet-Protokolle verwendet (SOAP, HTTP usw.). Stellen Sie sicher, dass in Ihrem Unternehmen die erforderlichen Berechtigungen für das Verteilen, Installieren und Ausführen von Software aktiviert sind
+* Die Adobe [!DNL Campaign] Client Console ist erforderlich, um die [!DNL Campaign] v8-Software zu verwenden und zu interagieren. Dies ist ein Windows-basierter Client, der Standard-Internet-Protokolle verwendet (SOAP, HTTP usw.). Stellen Sie sicher, dass in Ihrem Unternehmen die erforderlichen Berechtigungen für das Verteilen, Installieren und Ausführen von Software aktiviert sind
 
 * Zulassungsauflistung von IP-Adressen:
    * Identifizieren Sie die IP-Bereiche, die alle Benutzer beim Zugriff auf die Client-Konsole nutzen.
@@ -83,11 +83,11 @@ Die Limits werden nachfolgend beschrieben.
 
 * Der Speicher kann auf bis zu 200 Millionen Profile skaliert werden, mit der Möglichkeit, bis zu 1B-Profile zu skalieren.
 * Einrichten und Steuern des Benutzerzugriffs über Adobe [!DNL Admin Console].
-* Laden von Daten in [!DNL Campaign] wird voraussichtlich über Batch-Dateien ausgeführt:
+* Das Laden von Daten in [!DNL Campaign] wird voraussichtlich über Batch-Dateien durchgeführt:
    * Unterstützung beim Laden von API-Daten ist vor allem für das Verwalten von Profilen oder simplen Objekten innerhalb der Datenbank erforderlich (d. h. Erstellen und Aktualisieren). Sie soll nicht für das Laden großer Datenvolumen oder Batch-artige Vorgänge verwendet werden.
    * Die Verwendung von APIs zum Lesen von Daten für benutzerdefinierte Anwendungszwecke wird nicht unterstützt
    * Über API geladene Daten werden in der Anwendungsdatenbank bereitgestellt und dann jede Stunde in der Cloud-Datenbank repliziert
-* Es gelten Beschränkungen für API-Aufrufe. Weitere Informationen finden Sie unter [Adobe Campaign-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+* Es gelten Beschränkungen für API-Aufrufe. Weitere Informationen finden Sie in der [Adobe Campaign-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### Größe des Batch-Messaging-Servers
 
@@ -103,9 +103,9 @@ Die Limits werden nachfolgend beschrieben.
 * Campaign bietet die Möglichkeit zur Integration mit einem SMS-Anbieter. Der Provider wird vom Kunden beschafft und in die Kampagne zum Senden von SMS-basierten Nachrichten integriert.
 * Die Unterstützung erfolgt über das SMPP-Protokoll.
 * Es gibt drei (3) verschiedene Arten von SMS, die Adobe alle unterstützen kann:
-   * SMS MT (Mobile Terminated): eine SMS, die von Adobe ausgegeben wird [!DNL Campaign] über den SMPP-Provider auf Mobiltelefone zusteuern.
-   * SMS MO (Mobile Originated): eine SMS, die von einem Mobiltelefon an Adobe gesendet wird [!DNL Campaign] über den SMPP-Provider.
-   * SMS SR (Status Report) oder DR oder DLR (Delivery Receipt): eine vom Mobiltelefon an Adobe gesendete Rückbestätigung [!DNL Campaign] über den SMPP-Provider, der angibt, dass die SMS erfolgreich empfangen wurde. Adobe [!DNL Campaign] kann auch einen SR empfangen, der angibt, dass die Nachricht nicht zugestellt werden konnte, oft mit einer Fehlerbeschreibung.
+   * SMS MT (Mobile Terminated): eine SMS, die von Adobe [!DNL Campaign] über den SMPP-Provider an Mobiltelefone ausgegeben wird.
+   * SMS MO (Mobile Originated): eine SMS, die von einem Mobiltelefon über den SMPP-Provider an Adobe [!DNL Campaign] gesendet wird.
+   * SMS SR (Status Report) oder DR oder DLR (Delivery Receipt): eine vom Mobiltelefon an Adobe [!DNL Campaign] über den SMPP-Provider gesendete Rücksendungsquittung, die angibt, dass die SMS erfolgreich empfangen wurde. Adobe [!DNL Campaign] kann auch einen SR erhalten, der angibt, dass die Nachricht nicht zugestellt werden konnte, oft mit einer Fehlerbeschreibung.
 
 ## Implementierungsschritte
 

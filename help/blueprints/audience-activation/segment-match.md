@@ -5,8 +5,8 @@ solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 79%
+source-wordcount: '2118'
+ht-degree: 80%
 
 ---
 
@@ -44,7 +44,7 @@ Für global tätige multinationale Unternehmen ist es oft schwierig, die gemeins
 
 ## Architektur
 
-![Segmentübereinstimmungsarchitektur](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![Die Architektur von Segment Match](assets/architecture-segment-match.png){zoomable="yes"}
 
 [!UICONTROL Segment Match] ist kein Daten-Marketplace, auf dem Daten gekauft werden können. Vielmehr handelt es sich dabei um eine AEP-Funktion, die ausgewählten Partnern den Austausch von First-Party-Daten ermöglicht. Steuerwerkzeuge sorgen dabei für die Einhaltung des Datenschutzes und die Prüfung des Einverständnisses. [!UICONTROL Segment Match] ermöglicht die Verbesserung der Kundenbeziehungen und die Steigerung des Geschäftswachstums. Dieser Service ist insbesondere dort von Vorteil, wo bereits Marken- oder Partnerbeziehungen bestehen. [!UICONTROL Segment Match] ist einfach zu verwalten, skalierbar und ermöglicht es Administratoren und Administratorinnen, Segmente kontrolliert per Opt-in freizugeben.
 
@@ -77,7 +77,7 @@ Die Voraussetzungen für die Verwendung von [!UICONTROL Segment Match] sind:
 
 Der [!UICONTROL Segment Match]-Fluss zur Verwaltung von Partnern wird durch eine rollenbasierte Zugriffskontrolle geschützt. Nur Personen mit der entsprechenden Berechtigung können Partner initiieren, akzeptieren oder verwalten. Dies kann im Abschnitt „Datenaufnahme“ des Produktprofils erfolgen. Die folgenden Berechtigungen sind erforderlich:
 
-![Audience Share-Verbindung](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![Zielgruppenfreigabe-Verbindung](assets/data-ingestion.png){zoomable="yes"}
 
 | Berechtigung | Beschreibung |
 |---|---|
@@ -140,13 +140,13 @@ Im Zuge dieses Segmentfreigabe-Workflows kann der sendenden Partner mithilfe von
 
 Der gesamte Prozessablauf sieht folgendermaßen aus:
 
-![Segmentfreigabe](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
+![Segmentfreigabe](assets/segment-sharing.png){zoomable="yes"}
 
 Diese Überschneidungsschätzungen bieten wichtige Informationen. Sie ermöglichen das Ermitteln von Partnern und liefern Daten, auf deren Basis Vereinbarungen zur Datenzusammenarbeit getroffen werden können. Um diese Metriken für die Überschneidungsschätzung zu erhalten, werden keine Kunden- oder Segmentdaten zischen Sandboxes ausgetauscht. Die vom Kunden ausgewählten, gehashten und anwendbaren Identitäten in einer Sandbox werden in eine probabilistischen Datenstruktur eingefügt, mit der Adobe Vereinigungs- und Schnittvorgänge durchführen kann. Durch diese Vorgänge kann [!UICONTROL Segment Match] die geschätzte Schnittmenge aus zwei Datenstrukturen abrufen, die aus Identitäten aus zwei verschiedenen Sandboxes bestehen, ohne die tatsächlichen Werte vergleichen zu müssen.
 
 Der Identitätsüberschneidungsprozess basiert auf dem Datensatz aus einem **vollständigen täglichen Profilexport** von sowohl der Absender- als auch der Empfänger-Sandbox, um gemeinsame Profile in den freigegebenen Segmenten identifizieren zu können. Der detaillierte Prozessablauf für den Überschneidungsprozess ist unten dargestellt:
 
-![Identitätsüberlappungsprozess](assets/overlap-process.png){zoomable=&quot;yes&quot;}
+![Identitätsüberschneidungsprozess](assets/overlap-process.png){zoomable="yes"}
 
 Nachdem die Segmentfreigabe beim Sendepartner abgeschlossen ist, erhält der Empfänger eine Benachrichtigung über den freigegebenen Segment-Feed. Dieser Segment-Feed muss für das Profil beim Empfänger aktiviert sein, damit der Segmentzugehörigkeits-Datenfluss gestartet wird. Nur die Segmentzugehörigkeit wird in die sich überschneidenden Profilfragmente der IMS-Organisation des Empfängers aufgenommen und keine zusätzliche Identität wird vom Absender an den Empfänger übertragen.
 
@@ -170,7 +170,7 @@ Aufgrund der zunehmenden Einschränkungen bei Drittanbieter-Cookies und Geräte-
 
 Sie können die Adobe Experience Platform-Segmentübereinstimmung in der datenschutzorientierten Zielgruppenzusammenarbeit verwenden und programmatische private Vereinbarungen zwischen Advertisern und Herausgebern verbessern. Mit Segmentübereinstimmung können Sie:
 
-* Aufspaltung **Anzeigenhandel** und **Zielgruppe** Workflows.
+* Aufspaltung der Workflows **Anzeigen-Traffic** und **Zielgruppe**.
 * Ermöglichen Sie es Partnermarken, Zielgruppen-Metadaten für gemeinsam genutzte Identitäten freizugeben und Identitäten mit dauerhaften Kennungen wie Hash-E-Mail und Hash-Telefonnummer in einem Genehmigungsprozess zu genehmigen.
 
 ### Anwendungsfälle
@@ -181,7 +181,7 @@ Sie können die Adobe Experience Platform-Segmentübereinstimmung in der datensc
 
 >[!BEGINSHADEBOX]
 
-**Betrachten Sie den folgenden beispielhaften Workflow zwischen einer Marke (Luma) und einem Mediennetzwerk (ACME):**
+**Betrachten Sie den folgenden Beispielworkflow zwischen einer Marke (Luma) und einem Mediennetzwerk (ACME):**
 
 1. Eine Marke (Luma) führt über die Segmentübereinstimmung eine Zielgruppenübereinstimmung mit einem Mediennetzwerk (ACME) durch.
 2. ACME überträgt die Zielgruppe(n) über Adobe Real-Time CDP Destination(s) auf den Adserver oder programmatischen SSP.
@@ -194,7 +194,7 @@ Sie können die Adobe Experience Platform-Segmentübereinstimmung in der datensc
 
 >[!ENDSHADEBOX]
 
-![Abbildung des Workflows zwischen Marke und Herausgeber.](./assets/segment-match-blueprints.png)
+![Ein Diagramm des Workflows zwischen Marke und Herausgeber.](./assets/segment-match-blueprints.png)
 
 >[!IMPORTANT]
 >

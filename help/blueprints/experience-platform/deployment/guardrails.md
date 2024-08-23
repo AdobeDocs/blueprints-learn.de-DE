@@ -4,7 +4,7 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 15%
@@ -46,7 +46,7 @@ Auf den folgenden Seiten finden Sie Informationen zu Limits für Adobe Experienc
 
 Das folgende Diagramm zeigt die beobachteten primären Edge- und Hub-Latenzen, die bei der Architektur von Anwendungsfällen auf Experience Platform und Anwendungen berücksichtigt werden sollten.
 
-![Experience Platform [!DNL Edge Network] und primäre beobachtete Latenzen der Nabe.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network- und Hub-primäre beobachtete Latenzen"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] und primäre beobachtete Latenzen der Nabe.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Experience Platform Edge Network- und Hub-primäre beobachtete Latenzen"){width="1000" zoomable="yes"}
 
 ### Datenaufnahme {#data-ingestion}
 

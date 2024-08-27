@@ -5,10 +5,10 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
+source-git-commit: 5095a3aed75c727f0e28aaa07587994a23020448
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 56%
+source-wordcount: '243'
+ht-degree: 55%
 
 ---
 
@@ -48,6 +48,7 @@ ht-degree: 56%
 + B2B: Aktivierung und Marketing {#b2b-activation}
    + [Überblick](/help/blueprints/b2b/overview.md)
    + [B2B-Aktivierung](/help/blueprints/b2b/b2bactivation.md)
+   + [Aktivierung des B2B-Kontos](/help/blueprints/b2b/b2b-account-activation.md)
    + Blueprint: Integration von Marketo Engage und Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Überblick](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [Aufnahme und Erstellung](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)

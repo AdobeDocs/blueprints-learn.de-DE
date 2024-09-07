@@ -4,21 +4,30 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
+source-git-commit: 7ccabe2d11467b02d7fb5a2f920ebc5af8a17983
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 15%
+source-wordcount: '603'
+ht-degree: 10%
 
 ---
 
 # Leitlinien
+Limits spiegeln Systembeschränkungen, erwartete Latenzen und Leistungserwartungen wider, um die Kundenarchitektur und die Anwendungsfallleistung zu optimieren und Stabilität zu gewährleisten, Fehler oder unerwartete Ergebnisse zu vermeiden.
 
-Limits sind empfohlene Schwellenwerte für Daten, beobachtete Latenzen und die Systemnutzung in Adobe Experience Platform und Anwendungen. Limits spiegeln Systemeinschränkungen und Leistungserwartungen wider, um die Kundenarchitektur und die Leistung von Anwendungsfällen zu optimieren und Fehler oder unerwartete Ergebnisse zu vermeiden. Limits sind nicht als Service Level Agreement vorgesehen, Service Level Agreements sind in den unten stehenden Produktbeschreibungen sowie in den Lizenzvereinbarungen für Kunden dokumentiert. Limits sollen bei der Architektur von Lösungen für spezifische Anwendungsfälle des Kunden Hinweise geben, um Stabilität und Ausführung zu gewährleisten.
+## Arten von Limits
 
-Informationen zu bestimmten Service-Level-Vereinbarungen für Anwendungen und Funktionen finden Sie im Abschnitt [Anwendungs- und Funktionsbeschreibungen](#application-feature-descriptions) unten auf dieser Seite.
+| Schutztyp | Beschreibung |
+|---|---|
+| Leistungsgarantie (weiche Begrenzung) | Leistungsgarantien sind Nutzungsbeschränkungen, die sich auf das Scoping Ihrer Anwendungsfälle beziehen und die erwartete Leistung unter normalen Bedingungen beschreiben. Bei einer Überschreitung können Leistungseinbußen und Latenzzeiten auftreten. Performance-Limits werden in den Experience League-Dokumenten unter den Limits für die einzelnen Lösungen dokumentiert, wie nachfolgend beschrieben. |
+| Statische Beschränkung (Hardbounce) | Hierbei handelt es sich um systemerzwungene Beschränkungen, die nicht überschritten werden können. Statische Beschränkungen sind in der Regel vertraglich gebunden und im Kundenvertrag und in den [Produktbeschreibungen](https://helpx.adobe.com/legal/product-descriptions.html) beschrieben. |
 
-Beachten Sie, dass Adobe bei allen Kundenanwendungsfällen mit strengen Latenz- oder Volumenanforderungen empfiehlt, Ihr Anwendungsbeispiel gemeinsam mit Ihrem Adobe-Account-Team und Implementierungspartner sorgfältig zu überprüfen. In bestimmten Fällen ist es ratsam, die Implementierung eines bestimmten Anwendungsfalls vor dem Start des Anwendungsfalls zu testen und zu beobachten, um das erwartete Verhalten zu beobachten und zu verstehen - da jede Kundenimplementierung unterschiedliche Faktoren spielt, einschließlich der Art und Häufigkeit der Datenerfassung, der Details der zu erstellenden Segmentregeln und der verschiedenen Aktivierungskanäle und Nutzlasten - wird jede Implementierung eines Anwendungsfalls eine unterschiedliche Performance aufweisen. Daher ist es am besten, die erwartete Leistung vorab festzulegen und zu testen, um eine ordnungsgemäße Architektur und Implementierung entsprechend den Latenz- und Leistungsanforderungen des Anwendungsfalls sicherzustellen.
+>[!NOTE]
+>
+> Limits sind nicht als Service Level Agreements gedacht, sondern als Orientierung für optimale Konfigurationen und erwartetes Systemverhalten. Sämtliche Garantien, die System- oder vertragliche Beschränkungen oder Service Level Agreements sind, werden speziell in den Kundenverträgen und Produktbeschreibungen dokumentiert. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie mehr über benutzerdefinierte Beschränkungen erfahren möchten.
 
+>[!NOTE]
+>
+> Für Anwendungsfälle mit strikter Latenz oder Leistungsanforderungen empfiehlt Adobe, die Details mit Ihrem Adobe-Account-Team und Implementierungspartner zu besprechen. Jedes Kundensetup kann je nach Datenerfassungsmuster, Segmentregeln und Aktivierungskanälen variieren. Es ist wichtig, Ihren Anwendungsfall zu testen und zu überprüfen, bevor Sie ihn starten, um zu verstehen, wie er sich verhält.
 
 ## Referenzdokumentation zu den Leitlinien für Adobe Experience Platform und Programmen
 
@@ -77,19 +86,3 @@ Das folgende Diagramm zeigt die erwarteten Latenzwerte bei der Arbeit mit [Custo
 Das folgende Diagramm zeigt die erwarteten Latenzwerte bei der Arbeit mit [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Klicken Sie auf das Bild, um eine hochauflösende Version anzuzeigen.
 
 ![Arbeiten mit einer allgemeinen visuellen Übersicht über Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Arbeiten mit Adobe Journey Optimizer - Überblick und Latenzwerten auf hoher Ebene"){width="1000" zoomable="yes"}
-
-## Beschreibung der Anwendungen und Funktionen {#application-feature-descriptions}
-
-Informationen zu funktionsspezifischen Service-Level-Vereinbarungen finden Sie in den folgenden Produktbeschreibungen:
-
-* [Experience Platform Collection Enterprise](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
-* [Real-time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform.html)
-* [B2B-Kundendatenplattform](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-b2b.html)
-* [Experience Platform Activation](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform0.html)
-* [Experience Platform Intelligence](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Intelligent Services](https://helpx.adobe.com/de/legal/product-descriptions/intelligent-services.html)
-* [Data Distiller](https://helpx.adobe.com/de/legal/product-descriptions/data-distiller.html)
-* [Customer Journey Analytics](https://helpx.adobe.com/de/legal/product-descriptions/customer-journey-analytics.html)
-* [Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Journey Orchestration](https://helpx.adobe.com/de/legal/product-descriptions/journey-orchestration.html)
-* [Offer Decisioning](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html)

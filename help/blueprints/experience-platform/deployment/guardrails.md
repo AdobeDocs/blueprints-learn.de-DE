@@ -4,9 +4,9 @@ description: Die Leitlinien definieren die Leistungserwartungen und -auswirkung 
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7e37677280c27302e650a96786035169573d9709
+source-git-commit: 8ab82995ad7762f8ed6f706aa4c4fe59d47abb20
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '612'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ Limits spiegeln Systembeschränkungen, erwartete Latenzen und Leistungserwartung
 
 >[!NOTE]
 >
-> Für Anwendungsfälle mit strikter Latenz oder Leistungsanforderungen empfiehlt Adobe, die Details mit Ihrem Adobe-Account-Team und Implementierungspartner zu besprechen. Jedes Kundensetup kann je nach Datenerfassungsmuster, Segmentregeln und Aktivierungskanälen variieren. Es ist wichtig, Ihren Anwendungsfall zu testen und zu überprüfen, bevor Sie ihn starten, um zu verstehen, wie er sich verhält.
+> Für Anwendungsfälle mit strikter Latenz oder Leistungsanforderungen empfiehlt Adobe, die Details mit Ihrem Adobe-Account-Team und Implementierungspartner zu besprechen. Jedes Kundensetup kann je nach Datenerfassungsmuster, Profilzählungen und Reichweite, Segmentregeln und Aktivierungskanälen variieren. Daher ist es wichtig, Ihren Anwendungsfall zu konstruieren und zu testen, um die Leistung zu optimieren und die erwarteten Leistungsmerkmale vollständig zu verstehen.
 
 ## Referenzdokumentation zu den Leitlinien für Adobe Experience Platform und Programmen
 

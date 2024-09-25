@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: 9fe44d93dcc05711c77ce1325b6549bb6c27a860
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -208,7 +208,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>In Real-time Customer Data Platform erstellte Profile und Zielgruppen können in Adobe Commerce zur Personalisierung bereitgestellt werden. </li>
+<li>In Real-time Customer Data Platform erstellte Profile und Zielgruppen können in Adobe Commerce für die Personalisierung bereitgestellt werden. </li>
 </ul>
 </td>
 <td colspan="1">

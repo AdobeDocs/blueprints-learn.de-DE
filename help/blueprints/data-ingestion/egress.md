@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die Methoden, mit denen Daten aus Adobe Exp
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
+source-git-commit: 9fe44d93dcc05711c77ce1325b6549bb6c27a860
 workflow-type: tm+mt
 source-wordcount: '1834'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -199,7 +199,7 @@ Methoden für den Datenexport:
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP – Profile Lookup Edge API* Beta</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Edge-API zur Profilsuche</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
@@ -313,7 +313,7 @@ Methoden für den Datenexport:
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de" style="color:#0563c1; text-decoration:underline">Datensatzexport* Beta</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de" style="color:#0563c1; text-decoration:underline">Datensatzexport</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <ul style="list-style-type:square">
@@ -330,7 +330,7 @@ Methoden für den Datenexport:
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Derzeit in der Betaphase, beginnt mit einer Untergruppe von Datensatztypen</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Untergruppen von Datensätzen werden unterstützt, wie in der Produktdokumentation beschrieben.</span></span></span></li>
 </ul>
 </td>
 </tr>

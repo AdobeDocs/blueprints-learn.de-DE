@@ -2,9 +2,9 @@
 title: Konzept für gruppenbasiertes Marketing und Journey-Management
 description: Erfahren Sie, wie Sie in Adobe Journey Optimizer B2B edition eine Journey finden, entwerfen und erstellen können, die sich als Leads zu einer Einkaufsgruppe qualifiziert.
 solution: Journey Optimizer B2B Edition
-source-git-commit: 5035c869aa5181fff66cbc20b03922f82832f126
+source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Die folgenden KPIs stimmen gut mit der Erfolgsmessung von Anwendungsfällen übe
 
 ## Account-basiertes Marketing
 
-Ein gängiger Anwendungsfall und der Schwerpunkt in diesem Blueprint ist eine kontobasierte Marketing-Initiative, die den Punkt untersucht, an dem Ihre erstellte Einkaufsgruppe mit einem Lead gefüllt wird, wenn sie mit einer Rolle und einem Lösungsinteresse verbunden sind.
+Ein gängiger Anwendungsfall und der Schwerpunkt in diesem Blueprint ist eine kontobasierte Marketing-Initiative. In diesem Anwendungsfall wird untersucht, an welchem Punkt Ihre erstellte Einkaufsgruppe mit einem Lead gefüllt wird, wenn sie mit einer Rolle und einem Lösungsinteresse verknüpft sind.
 
 Wenn Sie eine Person durch die Journey führen, sammeln Sie weitere Informationen über den Lead (Arbeitsablauf für die Gruppe &quot;Kaufen&quot;) über Formulare, CRM-Synchronisierung und LinkedIn-Aktivierung.
 
-Wenn ein Lead das Lösungsinteresse deutlich zeigt, zeigt er ein durch ein Business Linse definiertes Geschäftsereignis an. An dieser Stelle ist das Unternehmen zuversichtlich, dass sich dieser Leiter wirklich für ein Produkt interessiert, und in Journey Optimizer B2B edition wird der Leiter einer Gruppe mit Käufern für diese Lösung in einer Rollenvorlage (wie Einflussnehmer, Entscheidungsträger, Champions und Sponsoren) zugeordnet.
+Wenn ein Lead das Lösungsinteresse deutlich zeigt, zeigt er ein durch ein Business Linse definiertes Geschäftsereignis an. An diesem Punkt ist das Unternehmen zuversichtlich, dass dieser Leiter wirklich an einem Produkt interessiert ist. In Journey Optimizer B2B edition wird der Lead einer Käufergruppe für diese Lösung in einer Rollenvorlage zugeordnet (z. B. Einflussnehmer, Entscheidungsträger, Champions und Sponsoren).
 
 Wie das folgende Diagramm zeigt, können Sie Details in Formularen oder durch LinkedIn-Aktivierung erfassen und eine Lösungsabsicht qualifizieren, wenn eine Interaktion mit einem Chat-Bot stattgefunden hat.
 
@@ -85,7 +85,7 @@ Bei jeder Implementierung von datengesteuerter Marketing-Automatisierung ist die
 
 Die Schemas werden speziell mit B2B-Datenelementen angereichert, um die umfassende Beziehung in Profilen zu unterstützen, und enthalten die Kontoperspektive über den `sourceKey`, um Ereignisse und Profile mit dem Kontoschema zu verknüpfen. Schemas stellen eine Darstellung Ihrer organisatorischen Anforderungen sowie der erfassten und profilierten Daten dar. Um diese Anforderungen zu erfüllen, sind B2B-Schemata flexibel und stellen eine Erweiterung der erforderlichen B2B-Elemente dar.
 
-Beim Entwerfen des Datenschemas für Ihr Unternehmen empfiehlt es sich, die Hauptentitäten in Ihrem ERD mit den übergeordneten Entitäten im ersten Diagramm in der Dokumentation zum Schema [RTCDP B2B](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b) darzustellen und zu kennzeichnen. Dieser Prozess ist sehr hilfreich, um die erforderlichen Datenelemente zu verstehen, die Sie in jedem Schema definieren müssen.
+Beim Entwerfen des Datenschemas für Ihr Unternehmen empfiehlt es sich, die Hauptentitäten in Ihrem ERD mit den übergeordneten Entitäten zu repräsentieren und zu kennzeichnen. (Siehe erstes Diagramm in der Dokumentation zum Schema [RTCDP B2B](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)). Dieser Prozess ist sehr hilfreich, um die erforderlichen Datenelemente zu verstehen, die Sie in jedem Schema definieren müssen.
 
 Zum gegenwärtigen Zeitpunkt können Erlebnisereignisse Journey noch nicht beeinflussen. Zusätzlich zu den Erlebnisereignis-Schemata wird empfohlen, dem Konto Eigenschaften hinzuzufügen, die wichtige, auf Benutzeraktivitäten basierende Entscheidungen darstellen. Diese Eigenschaften werden für geteilte Pfadelemente im Journey Designer verwendet.
 
@@ -97,7 +97,7 @@ Zum gegenwärtigen Zeitpunkt können Erlebnisereignisse Journey noch nicht beein
 
 Zur Anreicherung der Kontodatenelemente können Sie Marketo Engage und die zugehörigen B2B-Daten verwenden, um die RTCDP- und Journey Optimizer B2B edition-Kontoansicht anzureichern. Durch die Einrichtung des Marketo Engage Source Connector und die Zuordnung von Marketo Engage-Daten zu RTCDP-Schemaattributen können Daten von Marketo Engage zu RTCDP und, falls bestimmt, zum Profil übertragen werden.
 
-Detaillierte Informationen zur Connector-Konfiguration und zur erforderlichen Feldzuordnung für das im vorherigen Schritt definierte Schema finden Sie in der Dokumentation zum [Marketo Engage-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) .
+Ausführliche Informationen zur Connector-Konfiguration und zur erforderlichen Feldzuordnung zum Schema finden Sie in der [Marketo Engage-Connector-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
 
 ### Leitlinien
 
@@ -118,7 +118,7 @@ Lesen Sie die Dokumentation zu den [Real-Time CDP-Schutzmechanismen](https://exp
 
 ## Implementierung
 
-Die folgenden Schritte enthalten eine Anleitung zur Aktivierung der Funktion &quot;Buying Group&quot;in Ihrer Journey Optimizer B2B edition-Instanz und eine zusätzliche Aktivierung, um die Erweiterung Ihrer Kontobasis zu unterstützen, wobei der Schwerpunkt auf dem Kauf von Gruppen liegt, denen Rollenvorlagen fehlen.
+Die folgenden Schritte enthalten Anleitungen zum Aktivieren von Einkaufsgruppen in Ihrer Journey Optimizer B2B edition-Instanz, einschließlich der Aktivierung der Zielgruppe, um die Erweiterung Ihrer Kontobasis zu unterstützen, wobei der Schwerpunkt auf fehlenden Bestellrollenvorlagen liegt.
 
 ### Erforderliche Schritte
 
@@ -131,7 +131,7 @@ Die folgenden Schritte enthalten eine Anleitung zur Aktivierung der Funktion &qu
    * Verwenden Sie das Skript [RTCDP B2B schema Creating script](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) , um das anfängliche Schema zu generieren
    * Fügen Sie den generierten Schemas anwendungsspezifische Felder hinzu, um das Schema entsprechend den Anforderungen der Organisation auszufüllen.
 
-   In dieser Phase haben Sie die Verbindung zwischen Marketo Engage und RTCDP eingerichtet und die Schemastruktur, um die Konto- und Personendaten zu akzeptieren, mit denen die Datensätze für die Kontosegmente gefüllt werden. Der nächste Schritt besteht darin, RTCDP mit Marketo Engage und Journey Optimizer B2B edition zu verbinden.
+   In dieser Phase besteht die Verbindung zwischen Marketo Engage und RTCDP und der Schemastruktur, um die Konto- und Personendaten zu akzeptieren, mit denen die Datensätze für die Kontosegmente gefüllt werden. Der nächste Schritt besteht darin, RTCDP mit Marketo Engage und Journey Optimizer B2B edition zu verbinden.
 
 1. Konfigurieren Sie den Marketo Engage-Connector, einschließlich der Zuordnung von Marketo Engage zur XDM-Struktur.
 

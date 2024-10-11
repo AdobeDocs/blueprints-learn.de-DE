@@ -3,16 +3,18 @@ title: 'Blueprints: Entscheidungs-Management'
 description: Bereitstellung personalisierter Angebote für alle Customer Journeys.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 96%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
 # Journey Optimizer – Blueprints zu Entscheidungs-Management
 
 Weitere Informationen zum Entscheidungs-Management finden Sie in der [Produktdokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de)
+
+Limits im Zusammenhang mit der Entscheidungsverwaltung finden Sie in der folgenden Dokumentation . [Limits für die Entscheidungsverwaltung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
 
 Das Entscheidungs-Management von Adobe ist ein Service, der im Rahmen von Adobe Journey Optimizer bereitgestellt wird. In dieser Blueprint werden die Anwendungsfälle und technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von und Überlegungen zu Entscheidungs-Management eingehend erläutert.
 
@@ -42,8 +44,6 @@ Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums
 
 ### Technische Überlegungen zu Entscheidungs-Management auf dem Hub
 
-* Anfragen pro Sekunde = 2.000.
-* Latenz der Reaktion &lt; 500 ms.
 * Zugriff auf das gesamte Echtzeit-Kundenprofil, einschließlich Zielgruppenzugehörigkeit, Attributen und Erlebnisereignissen.
 
 ## Entscheidungs-Management im Edge   
@@ -57,10 +57,7 @@ Der zweite Ansatz erfolgt über das Erlebnis [!DNL Edge Network], eine global ve
 
 ### Technische Überlegungen zu Entscheidungs-Management im Edge Network
 
-* Anfragen pro Sekunde = 5.000.
-* Latenz der Reaktion &lt; 250 ms.
 * Zugriff auf das Edge-Echtzeitprofil. Im Profil sind nur von Edge projizierte Zielgruppen und Profilattribute verfügbar.
-* Wenn in erstmaligen Erlebnissen eine Personalisierung erforderlich ist, ist der Hub ideal, da das vollständige Profil verfügbar ist. Das Edge-Profil muss für das erste Edge-Erlebnis vom Hub synchronisiert werden. Daher umfasst das allererste Erlebnis vom Edge keine zuvor in den Hub hochgeladenen Profildaten.
 
 ## Verwandte Dokumentation
 

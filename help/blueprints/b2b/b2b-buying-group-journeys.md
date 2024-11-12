@@ -2,7 +2,8 @@
 title: Konzept für gruppenbasiertes Marketing und Journey-Management
 description: Erfahren Sie, wie Sie in Adobe Journey Optimizer B2B edition eine Journey finden, entwerfen und erstellen können, die sich als Leads zu einer Einkaufsgruppe qualifiziert.
 solution: Journey Optimizer B2B Edition
-source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
+exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
+source-git-commit: b777ea5c301fb1fac39bc243b09a02a2f411f40e
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Einkaufsgruppen repräsentieren eine Gruppe von Personen im Unternehmen, die sic
 Dank der verbesserten B2B-Funktionen von Journey Optimizer B2B edition können Sie jetzt diese Herausforderungen bewältigen:
 
 * Fehlende Marketing-Kampagnen für _customer-first_.
-* Inkonsistente Konversion von Marketing Qualified Lead (MQL) in Sales Qualified Lead (SQL), was die Abstimmung von Initiativen mit Vertrieb zur Pflege von MQL erfordert
+* Inkonsistente Konversion von Marketing Qualified Lead (MQL) in Sales Qualified Lead (SQL), was die Ausrichtung von Initiativen an Vertrieb und Pflege von MQL erfordert
 * Fehlende verkäufliche Mechanismen zum Identifizieren und Targeting von _Konkurrenzkonten_.
 * Konzentrationsrisiko bei Umsatz und Pipeline.
 

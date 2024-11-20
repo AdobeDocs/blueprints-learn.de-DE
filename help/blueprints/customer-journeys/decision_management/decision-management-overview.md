@@ -3,10 +3,10 @@ title: 'Blueprints: Entscheidungs-Management'
 description: Bereitstellung personalisierter Angebote für alle Customer Journeys.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
+source-git-commit: e6ac3607ea3909acf921125cc5f8fd44c0b3e0f6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 94%
+source-wordcount: '650'
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Das Entscheidungs-Management kann auf zwei Arten bereitgestellt werden: im Edge 
 
 ## Entscheidungs-Management am Hub
 
-Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums-Architektur. Im „Hub“-Ansatz werden Angebote mit >500 ms Latenz ausgeführt, personalisiert und bereitgestellt. Die Hub-Architektur eignet sich daher am besten für Kundenerlebnisse, die keine Latenz unterhalb einer Sekunde erfordern. Beispiele sind Angebotsentscheidungen, die für Terminals oder durch Agenten unterstützte Erlebnisse wie in Callcentern oder in persönlichen Interaktionen bereitgestellt werden. Angebote, die in E-Mails, SMS-Nachrichten, Push-Benachrichtigungen und andere ausgehende Kampagnen eingefügt werden, werden ebenfalls vom Hub-Ansatz unterstützt. Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der Blueprint [Entscheidungs-Management auf dem Hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=de).
+Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums-Architektur. Die Hub-Architektur eignet sich am besten für Kundenerlebnisse, die keine niedrige Latenz und einen hohen Durchsatz erfordern, aber eine umfassendere Ansicht des Kundenprofils erfordern. Beispiele sind Angebotsentscheidungen, die für Kiosks oder durch Agenten unterstützte Erlebnisse wie in Callcentern oder bei Interaktionen mit Personen bereitgestellt werden. Angebote, die in E-Mails, SMS-Nachrichten, Push-Benachrichtigungen und andere ausgehende Kampagnen eingefügt werden, werden ebenfalls vom Hub-Ansatz unterstützt. Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der Blueprint [Entscheidungs-Management auf dem Hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=de).
 
 * Die Angebotseignung kann auf das gesamte Echtzeit-Kundenprofil einschließlich aller Attribute und Erlebnisereignisse angewendet werden.
 

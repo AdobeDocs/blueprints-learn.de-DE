@@ -1,9 +1,9 @@
 ---
-title: "[!DNL Journey Optimizer] - Ausgelöste Nachrichten und Adobe Experience Platform-Blueprint"
+title: '[!DNL Journey Optimizer] - Ausgelöste Nachrichten und Adobe Experience Platform-Blueprint'
 description: Führen Sie ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als Zentrale für gestreamte Daten, Kundenprofile und Segmentierung aus.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
+source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 53%
@@ -66,7 +66,7 @@ Mobile Push:
 
 ## Leitlinien
 
-[[!DNL Journey Optimizer] Schutzmechanismen - Produktlink](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
+[[!DNL Journey Optimizer] Schutzmechanismen - Produktlink](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 [Limits und Ende-zu-Ende-Latenzrichtlinien](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 

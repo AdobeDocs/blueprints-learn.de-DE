@@ -1,6 +1,6 @@
 ---
-title: Architekturdiagramme für Experience Platform (AEP) und Anwendungen
-description: Architekturdiagramme anzeigen, die zeigen, wie Adobe Experience Platform (AEP) mit anderen Experience Cloud-Anwendungen und Anwendungsdiensten in Beziehung steht.
+title: Experience Platform- (AEP) und Anwendungsarchitekturdiagramme
+description: Zeigen Sie Architekturdiagramme an, die zeigen, wie Adobe Experience Platform (AEP) mit anderen Experience Cloud-Anwendungen und Anwendungs-Services in Beziehung steht.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
@@ -12,9 +12,9 @@ ht-degree: 89%
 
 ---
 
-# Architekturdiagramme für Adobe Experience Platform und Anwendungen
+# Architekturdiagramme für Adobe Experience Platform und Programme
 
-Diese Architekturdiagramme zeigen, wie Experience Platform (AEP) mit anderen Experience Cloud-Anwendungen und Anwendungsdiensten in Beziehung steht.
+Diese Architekturdiagramme zeigen, wie Experience Platform (AEP) mit anderen Experience Cloud-Anwendungen und Anwendungs-Services zusammenhängt.
 
 >[!MORELIKETHIS]
 >
@@ -37,7 +37,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## AEP- und Experience Cloud-Anwendungsintegrationen
+## Integration von AEP- und Experience Cloud-Anwendungen
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>
@@ -208,7 +208,7 @@ Dieses Architekturdiagramm zeigt, wie Adobe Experience Platform mit Programmen u
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>In Real-time Customer Data Platform erstellte Profile und Zielgruppen können in Adobe Commerce für die Personalisierung bereitgestellt werden. </li>
+<li>In Real-time Customer Data Platform erstellte Profile und Audiences können in Adobe Commerce zur Personalisierung bereitgestellt werden. </li>
 </ul>
 </td>
 <td colspan="1">

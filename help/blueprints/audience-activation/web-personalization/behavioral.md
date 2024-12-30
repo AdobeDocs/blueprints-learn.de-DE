@@ -1,5 +1,5 @@
 ---
-title: Verhaltensbasierte Webpersonalisierung
+title: Blueprint zur Web-Personalisierung im Verhalten
 description: Hier erfahren Sie, wie Sie Inhalte basierend auf dem Online-Verhalten und den Zielgruppendaten personalisieren können.
 landing-page-description: Erfahren Sie, wie Sie basierend auf Daten zu Online-Verhalten und Zielgruppen personalisieren.
 short-description: Erfahren Sie, wie Sie basierend auf Daten zu Online-Verhalten und Zielgruppen personalisieren.
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 ---
 
-# Verhaltensbasiertes Web und Mobile-Personalisierung
+# Blueprint zur Web- und Mobile-Personalisierung für das Verhalten
 
 Personalisieren Sie basierend auf Daten zu Online-Verhalten und Zielgruppen.
 

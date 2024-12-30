@@ -1,6 +1,6 @@
 ---
 title: Architekturdiagramme zu Adobe Experience Cloud
-description: Erfahren Sie, wie Experience Cloud-Anwendungen, Anwendungsdienste und Experience Platform in eine Enterprise-Marketingarchitektur passen.
+description: Erfahren Sie, wie Experience Cloud-Anwendungen, Anwendungs-Services und Experience Platform in eine Unternehmens-Marketing-Architektur passen.
 solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7200
 thumbnail: null
@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # Architekturdiagramme zu Adobe Experience Cloud
 
-Diese Diagramme zeigen, wie Experience Cloud-Anwendungen, Anwendungsdienste und Experience Platform in eine Enterprise-Marketingarchitektur passen.
+Diese Diagramme zeigen, wie Experience Cloud-Anwendungen, Anwendungs-Services und Experience Platform in eine Unternehmens-Marketing-Architektur passen.
 
 ## Markt-Architektur von Adobe Experience Cloud
 
@@ -23,7 +23,7 @@ Das folgende Diagramm zeigt die verschiedenen Komponenten von Adobe Experience C
 <img src="assets/AEC.jpg" alt="Experience Cloud – Übersicht" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
-## Integrationsarchitektur von Daten &amp; Insights, Content &amp; Commerce und Erlebnisbereitstellung
+## Integrationsarchitektur von Daten und Einblicken, Content &amp; Commerce und Bereitstellung von Erlebnissen
 
 Das folgende Architekturdiagramm veranschaulicht, wie die verschiedenen Komponenten von Adobe Experience Cloud miteinander verbunden und integriert sind, um bei der Bereitstellung von Daten, Inhalten und Erlebnissen skalierbare Personalisierung zu ermöglichen.
 

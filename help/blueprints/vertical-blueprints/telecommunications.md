@@ -1,5 +1,5 @@
 ---
-title: Telekommunikationsindustrie - Journey Optimizer für ausgelöste Nachrichten
+title: Telekommunikationsbranche - Journey Optimizer für ausgelöstes Messaging
 description: Bereitstellung maßgeschneiderter Angebote in Echtzeit bei gleichzeitigem effizientem Onboarding von Kunden, das für langfristige Kundentreue sorgt.
 solution: Journey Optimizer
 kt: 9486
@@ -13,7 +13,7 @@ ht-degree: 85%
 
 # Telekommunikationsbranche – geschäftliche Herausforderung
 
-Vor der Implementierung dieses Blueprints stützten sich die E-Mail-Kampagnen des Telekommunikationsunternehmens auf die Frage, ob der Benutzer konvertiert hatte und danach erst nach einer Wartezeit von sieben Tagen überprüft wurde. Sobald diese Kriterien erfüllt waren, wurden weitere Touchpoints initiiert.
+Vor der Implementierung dieses Blueprints waren die E-Mail-Kampagnen des Telekommunikationsunternehmens „Neue Zeile hinzufügen“ davon abhängig, ob der Benutzer konvertiert war und erst nach einer siebentägigen Wartezeit darauf geprüft hat. Sobald diese Kriterien erfüllt waren, wurden weitere Touchpoints initiiert.
 
 Diese Einschränkung musste beseitigt werden, um ein schnelleres Follow-up bei Benutzern zu ermöglichen, die schon vor der aktuellen Wartezeit von sieben Tagen eine weitere Leitung erwerben wollten.
 
@@ -28,7 +28,7 @@ Diese Einschränkung musste beseitigt werden, um ein schnelleres Follow-up bei B
 |---|---|---|
 | **Erhöhung der Kampagnen-Konversionsraten **<br></br>** Steigerung des jährlichen Umsatzes pro Account**</ul> | <ul><li>Erstellen eines neuen Segments nahezu in Echtzeit für Benutzer, die durch Hinzufügen einer Leitung Interesse gezeigt, aber noch nicht gekauft haben.</li><li>Follow-up bei Kunden, die keinen Kauf getätigt haben, mit einem zweiten Touchpoint für interessierte Nicht-Käufer. </li><li>Verwenden einer Teststrategie, um die Journey-Performance zu messen und Konversionsraten über den E-Mail-Kanal zu optimieren.</li></ul> | <ul><li><strong>Hochqualitative, relevante Erlebnisse:</strong> Mit Journey Orchestration erhalten Kunden relevante Botschaften, wodurch sich weniger Personen von E-Mail-Listen abmelden.</li><li><strong>Skalierbare Journey-Orchestrierung:</strong> Durch die Bereitstellung einer personalisierten und zeitnahen Customer Journey können die Konversionen und der Gesamtumsatz gesteigert werden.</li></ul> |
 
-## Primärer Blueprint: Zielgruppe und Aktivierung mit Experience Cloud-Applikationen
+## Primärer Blueprint: Zielgruppe und Aktivierung mit Experience Cloud-Programmen
 
 ### Beschreibung
 

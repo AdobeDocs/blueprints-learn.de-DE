@@ -21,7 +21,7 @@ Erreicht wird diese Integration mithilfe von Workfront Fusion. Mit dieser Arbeit
 
 Der folgende Workflow stellt eine Webinar-Anfrage dar, die von der für die Kampagne verantwortlichen Person unter Verwendung eines Workfront-Anfrageformulars gestellt wird. Die in der Anfrage übermittelten Details lösen in Marketo Engage ein Programm und die Erstellung einer E-Mail für das Webinar aus. Zusätzlich werden Details aus dem Anfrageformular für die Inhaltserstellung der E-Mail übernommen.
 
-![Blueprint aufnehmen und erstellen](assets/intake-and-create-1.png){zoomable="yes"}
+![Aufnahme und Erstellen eines Blueprints](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ In der [Marketo-Community](https://nation.marketo.com/t5/product-blogs/marketo-m
 
 In Marketo Engage können Inhalte mithilfe von Token in Kampagnen-Assets eingefügt werden. Nachdem Sie beispielsweise eine E-Mail-Vorlage in Ihrem Center of Excellence dupliziert haben, kann Workfront Fusion Details der Kampagnenanfrage in Workfront abrufen und an „My Tokens“ im Marketo Engage-Programm weiterleiten. Die Token-Werte können dann direkt an die E-Mail weitergegeben werden, um die E-Mail zu erstellen.
 
-![Verwenden Sie Token zum Ausfüllen des Inhaltsdiagramms](assets/intake-and-create-2.png){zoomable="yes"}
+![Verwenden von Token zum Ausfüllen des Inhaltsdiagramms](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Einfügen von Bildern aus AEM Assets {#populate-images-from-aem-assets}
 
@@ -147,7 +147,7 @@ Einige grundlegende Informationen, die Ihre Lookup-Bibliothek für Programmvorla
 
 ## Annahme und Erstellung – Automatisierungsfluss {#intake-and-create-automation-flow}
 
-Im Folgenden finden Sie ein Beispiel dafür, wie die Workflow-Logik in Fusion mit vordefinierten Modulen [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target="_blank"} und [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target="_blank"} zusammengestellt werden kann, die eine schnellere Automatisierung ermöglichen.
+Im Folgenden finden Sie ein Beispiel dafür, wie die Workflow-Logik in Fusion mithilfe von vordefinierten [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=de){target="_blank"}- und [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=de){target="_blank"}-Modulen zusammengestellt werden kann, die eine schnellere Automatisierung ermöglichen.
 
 ![Annahme und Erstellung – Automatisierungsfluss](assets/intake-and-create-3.png)
 

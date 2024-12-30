@@ -1,5 +1,5 @@
 ---
-title: Architekturdiagramme für Experience Platform-Datenflüsse
+title: Experience Platform-Datenflussarchitekturdiagramme
 description: Dieses Architekturdiagramm zeigt, wie Daten in und aus Adobe Experience Platform fließen.
 solution: Data Collection
 kt: 7198
@@ -20,7 +20,7 @@ Das Diagramm unten veranschaulicht die verschiedenen Pfade für die Datenerfassu
 
 <img src="assets/aep_data_flow.svg" alt="Datenfluss in Experience Platform" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Dateneingabe- und -ausgangsmuster
+## Datenein- und -ausgangsmuster
 
 Eine detaillierte Liste aller Datenaufnahme-, Datenerfassungs- und Dateneingangsmuster finden Sie in der [Blueprint für die Datenvorbereitung und -aufnahme](../data-ingestion/ingestion.md).
 

@@ -1,6 +1,6 @@
 ---
 title: 'Blueprint: Campaign v7'
-description: Erfahren Sie mehr über den Campaign v7-Entwurf für Batch-basierte Messaging-Programme, Onboarding- und Remarketing-Kampagnen, Briefpost-Werbung und einfache Transaktionsnachrichten.
+description: Erfahren Sie mehr über die Campaign v7-Blueprint für Batch-basierte Messaging-Programme, Onboarding- und Remarketing-Kampagnen, Briefpost-Werbung und einfache Transaktionsnachrichten.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Blueprint: Campaign v7
 
-Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanäle wie E-Mail und Direkt-Mail entwickelt wurde. Es bietet robuste ETL- und Daten-Management-Funktionen, die Sie beim Entwurf und bei der Kuratierung der perfekten Kampagne unterstützen. Die Orchestrierungs-Engine bietet umfassende Multi-Touch-Marketingprogramme mit einem Schwerpunkt auf Batch-basierten Journey.
+Adobe Campaign v7 ist ein Kampagnen-Tool, das für traditionelle Marketing-Kanäle wie E-Mail und Direkt-Mail entwickelt wurde. Es bietet robuste ETL- und Daten-Management-Funktionen, die Sie beim Entwurf und bei der Kuratierung der perfekten Kampagne unterstützen. Die Orchestrierungs-Engine bietet umfassende Multitouch-Marketing-Programme mit einem Schwerpunkt auf Batch-basierten Journey.
 
 Außerdem bietet es einen Echtzeit-Messaging-Server, mit dem Marketing-Teams vordefinierte Mitteilungen auf Basis einer vollumfänglichen Payload aus beliebigen IT-Systemen senden können, wenn z. B. Passwörter zurückgesetzt, Bestellungen bestätigt oder Empfangsbelege versendet werden müssen.
 
@@ -36,7 +36,7 @@ Außerdem bietet es einen Echtzeit-Messaging-Server, mit dem Marketing-Teams vor
 
 ## Voraussetzungen
 
-Überprüfen Sie unten die folgenden Voraussetzungen.
+Überprüfen Sie die folgenden Voraussetzungen unten.
 
 ### Anwendungs-Server und Echtzeit-Messaging-Server
 
@@ -69,7 +69,7 @@ Außerdem bietet es einen Echtzeit-Messaging-Server, mit dem Marketing-Teams vor
 
 ## Leitlinien
 
-Überprüfen Sie die folgenden Limits.
+Überprüfen Sie die folgenden Leitplanken.
 
 ### Größe des Anwendungs-Servers
 
@@ -116,7 +116,7 @@ Außerdem bietet es einen Echtzeit-Messaging-Server, mit dem Marketing-Teams vor
 
 ## Implementierungsschritte
 
-Informationen zur Implementierung von Adobe Campaign v7 finden Sie im [Erste Schritte-Handbuch](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=de) .
+Siehe [ Erste Schritte für ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=de) Implementierung von Adobe Campaign v7.
 
 
 ## Verwandte Dokumentation

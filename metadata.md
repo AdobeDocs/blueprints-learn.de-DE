@@ -9,7 +9,7 @@ git-repo: https://github.com/AdobeDocs/blueprints-learn.de-DE
 index: true
 source-git-commit: f673054b9e0c459daed08157b4e05d2bda100470
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '53'
 ht-degree: 100%
 
 ---

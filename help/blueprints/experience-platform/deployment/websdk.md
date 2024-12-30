@@ -1,6 +1,6 @@
 ---
-title: Web/Mobile SDK,  [!DNL Edge Network] Architekturdiagramm zur Implementierung
-description: Dieser Blueprint zeigt die Architektur und Aufnahme über das Experience Platform Web und Mobile SDK und  [!DNL Edge Network]
+title: Architekturdiagramm für Web/Mobile [!DNL Edge Network] SDK,Bereitstellungsarchitektur
+description: Diese Blueprint zeigt die Architektur und Aufnahme über das Experience Platform Web und Mobile SDK und [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # Architekturdiagramm für Experience Platform Web SDK und [!DNL Edge Network]
 
-Eine Übersicht und Details zum Web- und Mobile-SDK sowie zur [!DNL Edge Network] Server-API finden Sie im Folgenden.
+Einen Überblick und Details zur Web- und Mobile-SDK sowie zur [!DNL Edge Network]-Server-API finden Sie unter folgenden Themen.
 
 * [Web SDK - Überblick](https://experienceleague.adobe.com/docs/web-sdk.html?lang=de)
 * [Mobile SDK - Überblick](https://developer.adobe.com/client-sdks/documentation/)
@@ -32,7 +32,7 @@ Weitere Informationen zur Migration von programmspezifischen SDKs zu Web- und Mo
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=de)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=de)
 
-## Experience Platform Web-/Mobile-SDK- oder [!DNL Edge Network] Server-API-Bereitstellung
+## Bereitstellung von Experience Platform Web/Mobile SDK oder [!DNL Edge Network] Server-API
 
 Das folgende Architekturdiagramm veranschaulicht die Implementierung und die Datenerfassung mit dem Experience Platform Web SDK.
 

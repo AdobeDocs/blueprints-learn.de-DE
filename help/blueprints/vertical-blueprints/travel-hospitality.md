@@ -1,6 +1,6 @@
 ---
-title: Reise und Gastfreundschaft - Aktivierung mit Online- und Offline-Daten
-description: Erfahren Sie, wie Sie Echtzeitentscheidungen mit einer einzigen konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg treffen können.
+title: Reisen und Gastgewerbe - Aktivierung mit Online- und Offline-Daten
+description: Lernen Sie, Echtzeit-Entscheidungen mit einer einzigen konsolidierten Ansicht des Kundenverhaltens über verschiedene Kanäle hinweg zu treffen.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3

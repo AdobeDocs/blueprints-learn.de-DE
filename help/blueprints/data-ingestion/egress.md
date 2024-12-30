@@ -1,6 +1,6 @@
 ---
 title: 'Blueprint: Datenzugriff und Datenexport'
-description: Erfahren Sie mehr über die Methoden, mit denen Daten aus Adobe Experience Platform und Anwendungen abgerufen und exportiert werden können.
+description: Erfahren Sie, mit welchen Methoden der Zugriff auf und der Export von Daten aus Adobe Experience Platform und Programmen möglich ist.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
@@ -13,15 +13,15 @@ ht-degree: 90%
 
 # Blueprint für Datenzugriff und -export
 
-Der Datenzugriffs- und -export-Blueprint beschreibt alle möglichen Methoden, mit denen Daten aus [!DNL Experience Platform] und Anwendungen abgerufen oder exportiert werden können.
+Der Datenzugriffs- und Exportierungs-Blueprint umreißt alle möglichen Methoden, mit denen Daten von [!DNL Experience Platform] und Programmen aufgerufen oder exportiert werden können.
 
-Der Blueprint ist in zwei Kategorien für den Datenzugriff von [!DNL Experience Platform] und Anwendungen unterteilt.
+Der Blueprint ist für den Datenzugriff von [!DNL Experience Platform] und Programmen in zwei Kategorien unterteilt.
 
-Der erste umfasst Ansätze zum Auswerten von Daten aus [!DNL Experience Platform] und Anwendungen. Dies würde als Methode vom Typ _push_ für Datenausgabe betrachtet.
+Die erste umfasst Ansätze für die Ausgabe von Daten aus [!DNL Experience Platform] und Programmen. Dies würde als Methode vom _Push_-Typ des Datenausgangs betrachtet.
 
-Das zweite umfasst Ansätze für den Zugriff auf Daten von [!DNL Experience Platform] und Anwendungen. Dies würde als Methode des Datenzugriffs vom Typ _Pull_ betrachtet.
+Das zweite umfasst Ansätze für den Zugriff auf Daten aus [!DNL Experience Platform] und Programmen. Dies wäre eine _-_-Methode für den Datenzugriff.
 
-Datenzugriffsansätze:
+Ansätze für den Datenzugriff:
 
 * [Real-Time Customer Profile Access API](#rtcp-profile-access-api)
 * [Data Access API](#data-access-api)
@@ -34,7 +34,7 @@ Methoden für den Datenexport:
 * [Ziele für Real-time Customer Data Platform](#RTCDP-destinations)
 * [Benutzerdefinierte Journey Optimizer-Aktionen](#jo-custom-actions)
 
-## Architektur mit Datenzugriffs- und Exportübersicht
+## Architektur für Datenzugriff und Exportübersicht
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Referenzarchitektur für die Blueprint „Datenvorbereitung und -aufnahme“" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
@@ -412,7 +412,7 @@ Weitere Informationen finden Sie in der Dokumentation zur [Übersicht über Tags
 
 ### Ereignisweiterleitung {#event-forwarding}
 
-Datenerfassungsanforderungen werden direkt an Adobe [!DNL Edge Network] erfasst. Von den [!DNL Edge Network] -Anfragen an externe RESTful-Endpunkte können konfiguriert werden, um diese Anfragen an das externe Ziel weiterzuleiten.
+Datenerfassungsanfragen werden direkt an die Adobe-[!DNL Edge Network] erfasst. Von den [!DNL Edge Network] an externe RESTful-Endpunkte können Sie so konfiguriert werden, dass diese Anfragen an das externe Ziel weitergeleitet werden.
 
 Weitere Informationen finden Sie in der folgenden Dokumentation zur [Ereignisweiterleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=de).
 
@@ -422,7 +422,7 @@ Weitere Informationen finden Sie in der folgenden Dokumentation zur [Ereigniswei
 
 #### Allgemeine Überlegungen
 
-* Um die Ereignisweiterleitung zu verwenden, müssen Daten mithilfe des Web SDK oder MobileSDK an die [!DNL Edge Network] gesendet werden.
+* Um die Ereignisweiterleitung zu verwenden, müssen Daten mithilfe von Web SDK oder Mobile SDK an den [!DNL Edge Network] gesendet werden.
 * Durch die Ereignisweiterleitung werden die Seitenladezeit und -last reduziert, da zusätzliche Tags zur Seite hinzugefügt werden.
 * Derzeit wird keine Anreicherung über das Edge-Profil oder andere Datenquellen unterstützt.
 * Eingeschränkte Datenfilterung und einfache Mapping-Umwandlungen werden unterstützt.

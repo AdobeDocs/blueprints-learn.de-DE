@@ -1,6 +1,6 @@
 ---
 title: Erfolgsgeschichten von Kunden
-description: Kundenerfolgsmeldungen - Entwurf für Marketo Engage- und Workfront-Integration
+description: Erfolgsgeschichten von Kunden - Blueprint zur Integration von Marketo Engage und Workfront
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt

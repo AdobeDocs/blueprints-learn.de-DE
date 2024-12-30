@@ -1,5 +1,5 @@
 ---
-title: B2B-Analyse-, Aktivierungs- und Marketing-Blueprints
+title: B2B-Analytics-, Aktivierungs- und Marketing-Blueprints
 description: Stellen Sie mit Real-time Customer Data Platform Account-basierte Zielgruppen und profilorientierte Kundenerlebnisse bereit.
 solution: Real-Time Customer Data Platform
 kt: 9311
@@ -11,7 +11,7 @@ ht-degree: 81%
 
 ---
 
-# B2B-Analyse-, Aktivierungs- und Marketing-Blueprints
+# B2B-Analytics-, Aktivierungs- und Marketing-Blueprints
 
 Die Zielgruppen- und Profilaktivierung für B2B ist der Schlüssel zum Erfolg in der Welt des Data-driven Marketing. Allerdings orientieren sich viele Marken bei der Aktivierung noch immer zunächst am Kanal, was häufig in inkonsistenter Reichweite und Personalisierung endet.
 
@@ -21,6 +21,6 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 |---|---|---|
 | **[B2B: Analysen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=de)** | <ul><li>Einbeziehen von B2B-Account-Informationen in die Customer-Journey-Analyse</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B: Zielgruppenaktivierung](b2bactivation.md)** | <ul><li>Sprechen Sie B2B-Zielgruppen auf Web-, E-Mail- und Werbe-Kanälen an</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul> |
-| **[Kaufen von gruppenbasiertem Marketing und Journey-Management](/help/blueprints/b2b/b2b-buying-group-journeys.md)** | <ul><li>Erstellen und Erstellen einer Account-Journey, die Leads für eine Einkaufsgruppe qualifiziert, die die Effektivität der Marketing-Aktivität beim Qualifizieren von Leads zu Verkaufsmöglichkeiten erhöht</li></ul> | <ul><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Real-time Customer Data Platform B2B Edition</li><li>Adobe Marketo Engage</li></ul> |
+| **[Kaufen von gruppenbasiertem Marketing und Journey-Management](/help/blueprints/b2b/b2b-buying-group-journeys.md)** | <ul><li>Entwerfen und erstellen Sie eine Account-Journey, die Leads für eine Einkaufsgruppe qualifiziert, wodurch die Marketing-Aktivität bei der Qualifizierung von Leads zu Verkaufsmöglichkeiten effektiver wird.</li></ul> | <ul><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Real-time Customer Data Platform B2B Edition</li><li>Adobe Marketo Engage</li></ul> |
 | **[Übersicht über die Blueprint zur Integration von Marketo Engage und Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>Optimierung der Planung, Entwicklung und Ausführung von B2B-Marketingkampagnen</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
 | **[Blueprint zur Integration von Marketo Engage und Workfront: Aufnahme und Erstellung](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>Automatisieren der Anforderungsaufnahme von B2B-Marketing-Kampagnen zur Kampagnenentwicklung</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |

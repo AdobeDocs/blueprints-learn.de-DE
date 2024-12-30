@@ -12,7 +12,7 @@ ht-degree: 64%
 
 # Blueprint: Journey Optimizer mit Adobe Campaign v8
 
-Veranschaulicht, wie Adobe [!DNL Journey Optimizer] mit Adobe [!DNL Campaign] verwendet werden kann, um Nachrichten nativ zu senden, indem der Echtzeit-Messaging-Server in [!DNL Campaign] verwendet wird.
+Veranschaulicht, wie Adobe-[!DNL Journey Optimizer] mit Adobe-[!DNL Campaign] verwendet werden können, um Nachrichten nativ zu senden, indem der Echtzeit-Messaging-Server in [!DNL Campaign] verwendet wird.
 
 ## Architektur
 
@@ -23,7 +23,7 @@ Veranschaulicht, wie Adobe [!DNL Journey Optimizer] mit Adobe [!DNL Campaign] ve
 
 ## Voraussetzungen
 
-Überprüfen Sie die folgenden Voraussetzungen für jede Anwendung.
+Überprüfen Sie für jedes Programm die folgenden Voraussetzungen.
 
 ### Adobe Experience Platform  
 
@@ -39,9 +39,9 @@ Veranschaulicht, wie Adobe [!DNL Journey Optimizer] mit Adobe [!DNL Campaign] ve
 
 ## Leitlinien
 
-* [Journey Optimizer-Schutzmechanismen - Produktbeschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Produktbeschränkungen für Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Limits und End-to-End-Latenzempfehlungen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [Leitplanken und End-to-End-Latenzleitfäden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Implementierungsschritte
 
@@ -52,7 +52,7 @@ Befolgen Sie die unten beschriebenen Implementierungen für jede Anwendung.
 #### Schema/Datensätze
 
 1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) in Experience Platform basierend auf den von der Kundin oder dem Kunden angegebenen Daten.
-1. (Optional) Erstellen Sie auf Experience Event-Klassen basierende Schemas für Adobe Campaign broadLog, trackingLog und Tabellen mit nicht zustellbaren Adressen.
+1. (Optional) Erstellen Sie klassenbasierte Erlebnisereignis-Schemas für die Tabellen Broadlog, trackingLog und Nicht zustellbare Adressen von Adobe Campaign.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) in Experience Platform für die aufzunehmenden Daten.
 1. [Fügen Sie dem Datensatz in Experience Platform Datennutzungskennzeichnungen hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=de), um ordnungsgemäße Governance zu gewährleisten.
 1. [Erstellen Sie Richtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=de), um die Governance an den Zielen umzusetzen.
@@ -67,30 +67,30 @@ Befolgen Sie die unten beschriebenen Implementierungen für jede Anwendung.
 
 #### Quellen/Ziele
 
-1. [Aufnehmen von Daten in  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) mithilfe von Streaming-APIs und Quell-Connectoren.
+1. [Aufnehmen von Daten in [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) mithilfe von Streaming-APIs und Quell-Connectoren.
 
 ### Journey Optimizer  
 
-1. Konfigurieren Sie Ihre [!DNL Experience Platform] -Datenquelle und legen Sie fest, welche Felder im Rahmen der profileStreaming-Daten, die zum Initiieren einer Journey verwendet werden, zwischengespeichert werden sollen. Diese Daten müssen zunächst in Journey Optimizer konfiguriert werden, um eine Orchestrierungs-ID zu erhalten. Die Orchestrierungs-ID wird dann an den Entwickler weitergegeben, der sie bei der Aufnahme nutzen kann.
+1. Konfigurieren Sie Ihre [!DNL Experience Platform] Datenquelle und bestimmen Sie, welche Felder als Teil der profileStreaming-Daten zwischengespeichert werden sollen, die zum Initiieren einer Kunden-Journey verwendet werden. Müssen Sie zunächst in Journey Optimizer konfigurieren, um eine Orchestrierungs-ID zu erhalten. Die Orchestrierungs-ID wird dann an den Entwickler weitergegeben, der sie bei der Aufnahme nutzen kann.
 1. Konfigurieren Sie externe Datenquellen.
 1. Konfigurieren Sie benutzerdefinierte Aktionen für die Campaign-Instanz.
 
 ### Campaign v8
 
-* Nachrichtenvorlagen müssen mit einem entsprechenden Personalisierungskontext konfiguriert werden.
-* Für [!DNL Campaign] Standard: Export-Workflows müssen konfiguriert werden, um die Transaktionsnachrichten-Logs zurück an die Experience Platform zu exportieren. Es wird empfohlen, maximal alle vier Stunden auszuführen.
-* Für [!DNL Campaign] v8.4 ist es möglich, Adobe [!DNL Campaign] Managed Services Source Connector im Experience Platform zu nutzen, um Bereitstellungs- und Tracking-Ereignisse von Campaign in Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zu [Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de) .
+* Messaging-Vorlagen müssen mit dem entsprechenden Personalisierungskontext konfiguriert werden.
+* Für [!DNL Campaign] Standard: Export-Workflows müssen so konfiguriert werden, dass die Transaktionsnachrichten-Protokolle zurück auf die Experience Platform exportiert werden. Es wird empfohlen, höchstens alle vier Stunden zu laufen.
+* Für [!DNL Campaign] v8.4 ist es möglich, Adobe [!DNL Campaign] Managed Services Source Connector in Experience Platform zu nutzen, um Versand- und Tracking-Ereignisse von Campaign mit Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum [Source](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)Connector.
 
 ### Mobilgeräte-Push-Konfiguration (optional)
 
-1. Implementieren Sie [!DNL Experience Platform] Mobile SDK , um Push-Token und Anmeldedaten zu erfassen und mit bekannten Kundenprofilen zu verbinden.
+1. Implementieren Sie [!DNL Experience Platform] Mobile SDK , um Push-Token und Anmeldeinformationen zu erfassen und so eine Verbindung zu bekannten Kundenprofilen herzustellen.
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:
    * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
    * Adobe [!DNL Experience Platform] [!DNL Edge Network]
    * Identität für [!DNL Edge Network]
    * Mobile Core
-1. Stellen Sie sicher, dass Sie über einen dedizierten Datastream für Mobile-App-Bereitstellungen im Vergleich zu Web-Bereitstellungen verfügen.
-1. Weitere Informationen finden Sie im [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+1. Stellen Sie sicher, dass Sie über einen dedizierten Datenstrom für Mobile-App-Bereitstellungen im Vergleich zu Web-Bereitstellungen verfügen.
+1. Weitere Informationen finden Sie im [Adobe Journey Optimizer Mobile-Handbuch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
 
    >[!IMPORTANT]
    >Mobile-Token müssen sowohl in Journey Optimizer als auch in Campaign erfasst werden, wenn Echtzeit-Kommunikation über Journey Optimizer gesendet werden soll und Push-Benachrichtigungen im Batch über Campaign übermittelt werden sollen. Campaign v8 erfordert die exklusive Verwendung des Campaign SDK für das Erfassen von Push-Tokens.

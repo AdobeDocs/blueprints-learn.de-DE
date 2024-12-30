@@ -20,7 +20,7 @@ Journey Optimizer wird verwendet, um Ihren Kunden zur richtigen Zeit auf allen T
 
 Entscheidungs-Management kann auf zwei Arten bereitgestellt werden. Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums-Architektur. Im „Hub“-Ansatz werden Angebote mit >500 ms Latenz ausgeführt, personalisiert und bereitgestellt. Die Hub-Architektur eignet sich daher am besten für Kundenerlebnisse, die keine Latenz unterhalb einer Sekunde erfordern. Beispiele sind Angebotsentscheidungen, die für Terminals oder durch Agenten unterstützte Erlebnisse wie in Callcentern oder in persönlichen Interaktionen bereitgestellt werden. In E-Mails und ausgehende Kampagnen eingefügt Angebote werden ebenfalls vom Hub-Ansatz unterstützt.
 
-Der zweite Ansatz erfolgt über das Erlebnis [!DNL [!DNL Edge Network]], eine global verteilte, geografisch verteilte Infrastruktur, die schnelle Erlebnisse auf einer Sekunde und einer Millisekunde bietet. Das Endverbrauchererlebnis wird von der Edge-Infrastruktur ausgeführt, die dem geografischen Standort der Verbraucher am nächsten ist, um Latenzzeiten zu minimieren. Das Entscheidungs-Management im Edge ist für Echtzeit-Kundenerlebnisse konzipiert, wie über Web oder Mobile eingehende Personalisierungsanfragen.
+Der zweite Ansatz erfolgt über Experience [!DNL [!DNL Edge Network]], eine global verteilte, geografisch lokalisierte Infrastruktur, die schnelle Erlebnisse in Unter- und Millisekunden bereitstellt. Das Endverbrauchererlebnis wird von der Edge-Infrastruktur ausgeführt, die dem geografischen Standort der Verbraucher am nächsten ist, um Latenzzeiten zu minimieren. Das Entscheidungs-Management im Edge ist für Echtzeit-Kundenerlebnisse konzipiert, wie über Web oder Mobile eingehende Personalisierungsanfragen.
 
 In dieser Blueprint werden die Besonderheiten des Entscheidungs-Managements auf dem Hub behandelt.
 
@@ -28,7 +28,7 @@ Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blu
 
 ## Anwendungsfälle für das Entscheidungs-Management auf dem Hub
 
-* Streaming-Anwendungsfälle, in denen die Latenz des Profilkontexts nicht streng ist - Latenz 15 Minuten oder höher.
+* Streaming-Anwendungsfälle, bei denen die Profilkontext-Latenz nicht streng ist - 15 Minuten oder mehr Latenz.
 * Personalisierte Angebote für Terminals und Erlebnisse im Laden.
 * Personalisierte Angebote über von Agenten unterstützte Erlebnisse wie Callcenter oder Vertriebsinteraktionen.
 * Angebote in E-Mails, SMS, Mobilgeräte-Push-Benachrichtigungen oder anderen ausgehenden Interaktionen.
@@ -37,7 +37,7 @@ Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blu
 
 >[!IMPORTANT]
 >
->Bei Angebots- und Journey-Anwendungsfällen, bei denen für zusätzliche Informationen und Kontext auf das Profil zugegriffen werden muss. Es ist wichtig, die damit verbundene Latenz der Aufnahme von Daten in das Profil auf dem Hub zu berücksichtigen, um sicherzustellen, dass sie zum Zeitpunkt der Entscheidung verfügbar ist. In Szenarien, in denen der Kontext Streaming oder Erfassen in das Profil ist und der Kontext bzw. die Journey diesen Kontext innerhalb von Sekunden oder Minuten nach der Angebotsentscheidung verfügbar machen muss, sollten diese Szenarien am besten mit der Entscheidungsverwaltung in der Edge bedient werden.
+>Für Anwendungsfälle von Angeboten und Journey, in denen auf das Profil zugegriffen werden muss, um zusätzliche Informationen und Kontext zu erhalten. Es ist wichtig, die damit verbundene Latenz bei der Aufnahme von Daten in ein Profil auf dem Hub zu berücksichtigen, um sicherzustellen, dass sie zum Zeitpunkt der Entscheidung verfügbar sind. Für Szenarien, in denen der Kontext in ein Profil gestreamt wird oder in das Profil aufgenommen wird und in denen das Angebot oder die Journey innerhalb von Sekunden oder Minuten nach der Angebotsentscheidung über diesen Kontext verfügen muss, eignen sich diese Szenarien am besten für das Entscheidungs-Management auf der Edge.
 
 ## Architektur
 
@@ -48,7 +48,7 @@ Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blu
 * Weitere Informationen zu Journey Optimizer finden Sie in den [Leitlinien zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=de).
 * Die Leitlinien für Entscheidungs-Management beziehen sich auf die folgende [Produktbeschreibung für Entscheidungs-Management](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Limits und Ende-zu-Ende-Latenzrichtlinien](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Implementierungsmuster
 

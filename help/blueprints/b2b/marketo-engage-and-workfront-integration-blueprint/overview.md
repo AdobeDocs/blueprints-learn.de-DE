@@ -40,7 +40,7 @@ Workfront Fusion hilft Marketing-Teams, manuelle Schritte und damit potenzielle 
 
 Unten finden Sie ein Workflow-Diagramm des Kampagnenentwicklungsprozesses im Fall einer Anfrage für eine Massen-E-Mail. Zusätzlich sehen Sie, wie mit Workfront Fusion, das zwischen Workfront und Marketo Engage geschaltet ist, die Workflow- und Prozessautomatisierung während des gesamten Kampagnenentwicklungszyklus verbessert wird.
 
-![Kampagnenplanung für die Ausführung - Anwendungsfälle für die Automatisierung](assets/overview-1.png){zoomable="yes"}
+![Kampagnenplanung bis zur Ausführung - Anwendungsfälle für die Automatisierung](assets/overview-1.png){zoomable="yes"}
 
 Beachten Sie die verschiedenen Phasen des Kampagnenentwicklungsprozesses.
 
@@ -60,7 +60,7 @@ Mit Adobe Workfront können Unternehmen Arbeitsaufgaben verwalten und so Kampagn
 
 Dabei ist es wichtig zu verstehen, wie Workfront und Marketo Engage zusammenarbeiten, damit Sie Ihre Geschäftsprozesse diesen Objekten optimal zuordnen können.
 
-![So werden Marketinginitiativen in Workfront dargestellt](assets/overview-2.png){zoomable="yes"}
+![Verstehen, wie Marketing-Initiativen in Workfront dargestellt werden](assets/overview-2.png){zoomable="yes"}
 
 ### Definition der Portfolio-Hierarchie {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ Das Unternehmen Zeplin bringt ein neues Modell seines kompakten Traktoranhänger
 
 Die nachstehende Hierarchie zeigt, wie die Strategie, Taktiken, Aufgaben und Assets für diese Marketing-Kampagne Workfront zugeordnet werden.
 
-![Arbeitsverwaltungsbeispiel für Marketinginitiativen](assets/overview-3.png){zoomable="yes"}
+![Beispiel für das Arbeitsmanagement einer Marketing-Initiative](assets/overview-3.png){zoomable="yes"}
 
 ## Zuordnen von Workfront zu Marketo {#mapping-workfront-to-marketo}
 

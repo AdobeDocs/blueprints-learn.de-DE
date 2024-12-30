@@ -14,7 +14,7 @@ ht-degree: 86%
 
 Weitere Informationen zum Entscheidungs-Management finden Sie in der [Produktdokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de)
 
-Limits im Zusammenhang mit der Entscheidungsverwaltung finden Sie in der folgenden Dokumentation . [Limits für die Entscheidungsverwaltung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
+In der folgenden Dokumentation finden Sie Leitplanken im Zusammenhang mit dem Entscheidungs-Management. [Leitplanken für das Entscheidungs-Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
 
 Das Entscheidungs-Management von Adobe ist ein Service, der im Rahmen von Adobe Journey Optimizer bereitgestellt wird. In dieser Blueprint werden die Anwendungsfälle und technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von und Überlegungen zu Entscheidungs-Management eingehend erläutert.
 
@@ -31,7 +31,7 @@ Das Entscheidungs-Management kann auf zwei Arten bereitgestellt werden: im Edge 
 
 ## Entscheidungs-Management am Hub
 
-Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums-Architektur. Die Hub-Architektur eignet sich am besten für Kundenerlebnisse, die keine niedrige Latenz und einen hohen Durchsatz erfordern, aber eine umfassendere Ansicht des Kundenprofils erfordern. Beispiele sind Angebotsentscheidungen, die für Kiosks oder durch Agenten unterstützte Erlebnisse wie in Callcentern oder bei Interaktionen mit Personen bereitgestellt werden. Angebote, die in E-Mails, SMS-Nachrichten, Push-Benachrichtigungen und andere ausgehende Kampagnen eingefügt werden, werden ebenfalls vom Hub-Ansatz unterstützt. Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der Blueprint [Entscheidungs-Management auf dem Hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=de).
+Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums-Architektur. Die Hub-Architektur eignet sich am besten für Kundenerlebnisse, die keine niedrige Latenz und einen hohen Durchsatz erfordern, aber eine umfassendere Ansicht des Kundenprofils erfordern. Beispiele sind Angebotsentscheidungen, die für Kiosks oder agentenunterstützte Erlebnisse wie in Callcentern oder in persönlichen Interaktionen bereitgestellt werden. Angebote, die in E-Mails, SMS-Nachrichten, Push-Benachrichtigungen und andere ausgehende Kampagnen eingefügt werden, werden ebenfalls vom Hub-Ansatz unterstützt. Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der Blueprint [Entscheidungs-Management auf dem Hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=de).
 
 * Die Angebotseignung kann auf das gesamte Echtzeit-Kundenprofil einschließlich aller Attribute und Erlebnisereignisse angewendet werden.
 
@@ -48,7 +48,7 @@ Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums
 
 ## Entscheidungs-Management im Edge   
 
-Der zweite Ansatz erfolgt über das Erlebnis [!DNL Edge Network], eine global verteilte, geografisch verteilte Infrastruktur, die schnelle Erlebnisse zwischen einer Sekunde und einer Millisekunde bereitstellt. Das Endverbrauchererlebnis wird von der Edge-Infrastruktur ausgeführt, die dem geografischen Standort der Verbraucher am nächsten ist, um Latenzzeiten zu minimieren. Das Entscheidungs-Management im Edge ist für Echtzeit-Kundenerlebnisse konzipiert, wie über Web oder Mobile eingehende Personalisierungsanfragen. Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blueprint [Entscheidungs-Management im Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=de).
+Der zweite Ansatz erfolgt über Experience [!DNL Edge Network], eine global verteilte, geografisch verteilte Infrastruktur, die schnelle Erlebnisse in Unter- und Millisekunden ermöglicht. Das Endverbrauchererlebnis wird von der Edge-Infrastruktur ausgeführt, die dem geografischen Standort der Verbraucher am nächsten ist, um Latenzzeiten zu minimieren. Das Entscheidungs-Management im Edge ist für Echtzeit-Kundenerlebnisse konzipiert, wie über Web oder Mobile eingehende Personalisierungsanfragen. Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blueprint [Entscheidungs-Management im Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=de).
 
 ### Anwendungsfälle für das Entscheidungs-Management im Edge
 

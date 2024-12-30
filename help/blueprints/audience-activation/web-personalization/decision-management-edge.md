@@ -12,6 +12,6 @@ ht-degree: 64%
 
 # Blueprint: Journey Optimizer – Entscheidungs-Management im Edge
 
-Adobe Journey Optimizer [!UICONTROL Decision Management] kann verwendet werden, um Angebote auf eingehenden Kanälen wie Websites, mobilen Apps, Kiosks und über andere Kunden-Touchpoints hinweg zu personalisieren und bereitzustellen.
+Adobe Journey Optimizer [!UICONTROL Entscheidungs-Management] kann verwendet werden, um Angebote auf eingehenden Kanälen wie Websites, mobilen Apps, Kiosks und anderen Kunden-Touchpoints zu personalisieren und bereitzustellen.
 
 Der Blueprint für die Web- und Mobile-Personalisierung mit Entscheidungs-Management finden Sie im Blueprint-Abschnitt „Entscheidungs-Management für die Customer Journey“ [HIER](../../customer-journeys/decision_management/decision-management-edge.md).

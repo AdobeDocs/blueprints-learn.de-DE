@@ -1,5 +1,5 @@
 ---
-title: Blueprint für Segmentübereinstimmungen
+title: Blueprint zu Segment Match
 description: Erfahren Sie mehr zu [!UICONTROL Segment Match] in Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Sie Segmentdaten auf der Basis gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
@@ -10,7 +10,7 @@ ht-degree: 80%
 
 ---
 
-# Blueprint für Segmentübereinstimmungen
+# Blueprint zu Segment Match
 
 Segment Match ermöglicht es Partnermarken, Zielgruppen über ihre Experience Platform-Umgebungen freizugeben. Der Schlüssel zu erfolgreicher Geschäftstätigkeit ist die Pflege von Kundenbeziehungen mithilfe von Daten, die über den direkten Kontakt mit Verbrauchern und Verbraucherinnen erfasst werden. Marketer haben nun die Möglichkeit, durch innovative Systeme zur Verwaltung von Daten-Governance, Berechtigungen und Einstellungen und durch die Zusammenarbeit mit Partnern eine präzisere Auswahl ihrer durch First-Party-Daten authentifizierten Zielgruppen zu treffen.
 
@@ -164,45 +164,45 @@ Wenn während des täglichen Identitätsüberschneidungsprozesses die entspreche
 
 Bei Bedarf kann beim Absender eine Segmentrücknahme/-löschung durchgeführt werden. Dabei werden dem Empfänger alle Profile mit den zurückgeforderten Segment-IDs wieder entzogen. Die Segment-IDs werden aus der Segmentzugehörigkeit dieser Identitäten entfernt und am Empfänger erneut aufgenommen. Dadurch wird das vorhandene Segmentzugehörigkeitsfragment überschrieben, wodurch die Zugehörigkeit für dieses Segment gelöscht wird.
 
-## Verwenden von Segmentübereinstimmungen in programmatischen Angeboten
+## Segment Match in programmatischen Angeboten verwenden
 
-Aufgrund der zunehmenden Einschränkungen bei Drittanbieter-Cookies und Geräte-IDs sucht die programmatische Werbung nach neuen Möglichkeiten, Zielgruppen zu erstellen und auszurichten. Es wurde eine wachsende Anzahl von universellen ID-Lösungen vorgeschlagen, doch ist die Branche noch im Wandel, ohne dass eine vereinbarte, skalierbare Möglichkeit besteht, das gleiche Targeting-Niveau zu erreichen und dabei die geltenden Datenschutzanliegen auszugleichen.
+Angesichts der zunehmenden Einschränkungen bei Third-Party-Cookies und Geräte-IDs sucht programmgesteuerte Werbung nach neuen Möglichkeiten, Zielgruppen zu erstellen und anzusprechen. Es wurden immer mehr „universelle ID“-Lösungen vorgeschlagen, doch die Branche ist noch im Umbruch, da es keine vereinbarte, skalierbare Möglichkeit gibt, dasselbe Targeting zu erreichen und dabei anwendbare Datenschutzbelange gegeneinander abzuwägen.
 
-Sie können die Adobe Experience Platform-Segmentübereinstimmung in der datenschutzorientierten Zielgruppenzusammenarbeit verwenden und programmatische private Vereinbarungen zwischen Advertisern und Herausgebern verbessern. Mit Segmentübereinstimmung können Sie:
+Sie können Adobe Experience Platform Segment Match in der datenschutzorientierten Zielgruppenkollektion verwenden und programmgesteuerte private Angebote zwischen Werbetreibenden und Publishern verbessern. Mit Segment Match können Sie:
 
-* Aufspaltung der Workflows **Anzeigen-Traffic** und **Zielgruppe**.
-* Ermöglichen Sie es Partnermarken, Zielgruppen-Metadaten für gemeinsam genutzte Identitäten freizugeben und Identitäten mit dauerhaften Kennungen wie Hash-E-Mail und Hash-Telefonnummer in einem Genehmigungsprozess zu genehmigen.
+* Aufspaltung **Workflows** Anzeigenhandel und **Zielgruppe**.
+* Zulassen, dass Partnermarken Zielgruppen-Metadaten für gemeinsam genutzte und mit Einverständnis übereinstimmende Identitäten mit dauerhaften Kennungen wie Hash-E-Mails und Hash-Telefonnummern innerhalb eines durch Einverständnis erzwungenen Prozesses freigeben können.
 
 ### Anwendungsfälle
 
-* Targeting von Erstanbieterzielgruppen durch programmgesteuerte private Angebote.
-* Unterdrückung von Erstanbieterzielgruppen durch programmatische private Angebote.
-* Targeting von Look-alike-Zielgruppen aus Erstanbieterzielgruppen, die über programmgesteuerte private Angebote gesendet werden.
+* Erstanbieter-Zielgruppen mithilfe programmatischer privater Angebote ansprechen.
+* Unterdrückung von First-Party-Zielgruppen über programmatische private Angebote.
+* Lookalike-Zielgruppen aus Erstanbieter-Zielgruppen ansprechen, die über programmatische private Angebote gesendet werden.
 
 >[!BEGINSHADEBOX]
 
-**Betrachten Sie den folgenden Beispielworkflow zwischen einer Marke (Luma) und einem Mediennetzwerk (ACME):**
+**Betrachten Sie den folgenden Beispiel-Workflow zwischen einer Marke (Luma) und einem Mediennetzwerk (ACME):**
 
-1. Eine Marke (Luma) führt über die Segmentübereinstimmung eine Zielgruppenübereinstimmung mit einem Mediennetzwerk (ACME) durch.
-2. ACME überträgt die Zielgruppe(n) über Adobe Real-Time CDP Destination(s) auf den Adserver oder programmatischen SSP.
-3. ACME richtet eine Private Inventory Deal (ID) mit den entsprechenden Targeting-Kriterien ein, einschließlich der im vorherigen Schritt festgelegten Zielgruppe. Die private Inventar-Deal-ID wird dann an die DSP von Luma gesendet.
-4. Luma richtet ein privates Inventar-Deal und Traffic-Kampagnen/-Anzeigen-Kreativelement ein.
-5. Die Kampagne wird dann über das programmatische Private Inventory Deal bereitgestellt.
-6. Als Nächstes liefert der Anzeigen-Server oder SSP Anzeigenimpressionen, die den festgelegten Targeting-Kriterien entsprechen. (Zusätzliche Targeting-Kriterien wie Frequenzlimitierung sind über den Adserver und/oder DSP verfügbar, je nachdem, ob im Abkommen ein garantiertes Geschäft oder ein bevorzugtes Geschäft festgelegt wurde.)
-7. Der Traffic wird zu den Markeneigenschaften von Luma geleitet.
-8. ACME gibt dann die Einblicke oder Zielgruppen aus der Nachkampagne über die Segmentübereinstimmung für das Retargeting weiter.
+1. Eine Marke (Luma) führt über Segment Match einen Audience Match mit einem Mediennetzwerk (ACME) durch.
+2. ACME überträgt die Zielgruppe(n) über Adobe Real-Time CDP Destination(s) an den Anzeigen-Server oder das programmgesteuerte SSP.
+3. ACME richtet einen Abschluss mit privatem Inventar (ID) mit den entsprechenden Zielgruppenkriterien ein, einschließlich der im vorherigen Schritt festgelegten Audience. Die Deal-ID des privaten Inventars wird dann an die DSP von Luma gesendet.
+4. Luma richtet ein privates Inventar-Geschäft und Traffic-Kampagne/Werbeanzeige-Kreative ein.
+5. Die Kampagne wird dann über einen programmgesteuerten Abschluss mit privatem Inventar bereitgestellt.
+6. Als Nächstes liefert der Anzeigen-Server oder das SSP Anzeigen-Impressions, die den festgelegten Targeting-Kriterien entsprechen. (Zusätzliche Zielgruppenkriterien, wie Frequenzlimitierung, sind über den Werbeserver und/oder DSP verfügbar, je nachdem, ob ein garantierter Abschluss oder ein Preferred Deal im Vertrag festgelegt wurde.)
+7. Der Traffic wird auf die Markeneigenschaften von Luma geleitet.
+8. ACME gibt dann die Erkenntnisse oder Zielgruppen nach der Kampagne über Segment Match für das Retargeting wieder frei.
 
 >[!ENDSHADEBOX]
 
-![Ein Diagramm des Workflows zwischen Marke und Herausgeber.](./assets/segment-match-blueprints.png)
+![Abbildung des Workflows zwischen Marke und Herausgeber.](./assets/segment-match-blueprints.png)
 
 >[!IMPORTANT]
 >
-> Die oben beschriebene Lösung bietet zwar eine einfache Möglichkeit, Erstanbieterdaten über programmgesteuerte private Geschäfte anzusprechen, es kann jedoch einige Überlegungen vor der Ausführung geben, darunter auch die folgenden Beispiele:
+> Die oben beschriebene Lösung bietet zwar eine einfache Möglichkeit, First-Party-Daten über programmatische private Angebote anzusprechen, es können jedoch einige Überlegungen vor der Ausführung anstehen, darunter die folgenden Beispiele:
 >
->* Einverständnis: Anwendbare Einverständniserfassung durch die Marke, den Herausgeber oder das Retail-Media-Netzwerk, um Daten auf diese Weise zu nutzen.
+>* Einverständnis : Gültige Einverständniserfassung durch die Marke, den Herausgeber oder das Retail-Media-Netzwerk, um Daten auf diese Weise zu nutzen.
 >
->* Richtlinien und Lizenzvereinbarungen: Einhaltung aller geltenden Richtlinien (einschließlich Datenschutzrichtlinien, Vereinbarungen mit Drittanbietern) durch Marke, Herausgeber oder Retail-Media-Netzwerk, um Daten auf diese Weise zu nutzen und zu aktivieren.
+>* Richtlinien und Lizenzvereinbarungen: Einhaltung der geltenden Richtlinien (einschließlich Datenschutzrichtlinien und Vereinbarungen mit Drittanbietern) durch die Marke, den Herausgeber oder das Retail-Media-Netzwerk, um Daten auf diese Weise zu nutzen und zu aktivieren.
 
 
 

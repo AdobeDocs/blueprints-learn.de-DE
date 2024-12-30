@@ -14,16 +14,16 @@ ht-degree: 67%
 
 # Customer-Journey-Blueprints
 
-Kunden-Journey ermöglichen es Marken, aktiv mit ihren Kunden über Kanäle wie E-Mail, SMS und Mobile-Warnhinweise zu interagieren und mit ihnen zu kommunizieren.
+Kunden-Journey ermöglichen es Marken, proaktiv mit ihren Kunden über Kanäle wie E-Mail, SMS und Benachrichtigungen auf Mobilgeräten zu interagieren und mit ihnen zu kommunizieren.
 
 Die Orchestrierungs-Tools können mit anderen Interaktionskanälen für Web- und Mobile-Personalisierung integriert werden (z. B. mit Inbound-Kanälen), indem der Zielgruppenstatus für die anderen kanalspezifischen Entscheidungs-Engines freigegeben wird. Bei der Auswahl der Programme und Implementierungslösungen für Customer Journeys sollten diverse Faktoren berücksichtigt werden, die sich jedoch in zwei unterschiedlichen Ansätzen zusammenfassen lassen: Reaktion auf einen interagierenden Kunden (ausgelöst) ODER Reaktion auf eine Gruppe interagierender Kunden (geplant).
 
-Heute gibt es zwei Optionen für Adobe, aus denen Kunden eine Journey-Lösung für Kunden auswählen können:
+Derzeit gibt es zwei Optionen für das Adobe, aus denen Kunden auswählen können, wenn sie eine Kunden-Journey-Lösung wünschen:
 
-<ul><li>Adobe [!DNL Campaign] Verwaltete Cloud Service</li><li>Adobe Journey Optimizer</li></ul>
+<ul><li>Adobe [!DNL Campaign] Managed Cloud Service</li><li>Adobe Journey Optimizer</li></ul>
 
 | Blueprint | Beschreibung | Architektur |
 |---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | Nativ auf der Basis des [!DNL Experience Platforms] Echtzeit-Kundenprofils erstellt, sodass Marketing-Teams in Echtzeit auf sich ändernde Kundenverhaltensweisen reagieren und sie jederzeit dort treffen können, wo sie sich in einem beliebigen Kanal befinden | <img src="assets/ajo-architecture.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Journey Optimizer](journey-optimizer.md)** | Nativ auf dem [!DNL Experience Platforms] Echtzeit-Kundenprofil aufgebaut, ermöglicht es Marketing-Teams, in Echtzeit auf sich ändernde Kundenverhaltensweisen zu reagieren und sie jederzeit an jedem beliebigen Kanal zu treffen | <img src="assets/ajo-architecture.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 | **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | Kampagnen-Tool der nächsten Generation, optimiert für hochkomplexes Daten-Management und Kampagnenprozesse. Bietet Kunden die Möglichkeit, die Suche zu kombinieren und umfangreiche Kommunikation für Marketing-Kampagnen zu erstellen | <img src="assets/campaign-v8-architecture.svg" alt="Referenzarchitektur für die Blueprint „Campaign v8“" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 | **[Adobe [!DNL Campaign] v7](campaign-v7.md)** | Traditionelles Kampagnen-Tool für Batch-basierte Marketing-Kampagnen für unterschiedliche Kanäle wie E-Mail, SMS und Direkt-Mail. Bietet Kunden die Möglichkeit, verschiedene Kundenkommunikationen an einem zentralen Ort zu orchestrieren und zu verwalten | <img src="assets/campaign-v7-architecture.svg" alt="Referenzarchitektur für die Blueprint „Campaign v7“" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |

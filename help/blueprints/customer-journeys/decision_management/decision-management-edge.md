@@ -10,17 +10,17 @@ ht-degree: 68%
 
 ---
 
-# Journey Optimizer - [!DNL Decision Management] auf dem Edge-Blueprint
+# Journey Optimizer - [!DNL Decision Management] zur Edge-Blueprint
 
-[!DNL Decision Management] ist ein Dienst, der als Teil von [!DNL Journey Optimizer] bereitgestellt wird. In dieser Blueprint werden die Anwendungsfälle und technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von und Überlegungen zu Entscheidungs-Management eingehend erläutert.
+[!DNL Decision Management] ist ein Service, der im Rahmen von [!DNL Journey Optimizer] bereitgestellt wird. In dieser Blueprint werden die Anwendungsfälle und technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von und Überlegungen zu Entscheidungs-Management eingehend erläutert.
 
 >[!MORELIKETHIS]
 >
 >Weitere Informationen zu [!DNL Decision Management] finden Sie in der [Blueprint-Übersicht](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=de) oder in der [Produktdokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de).
 
-[!DNL Decision Management] kann auf zwei Arten bereitgestellt werden. Der erste erfolgt über den [!DNL Experience Platform] Hub, einer zentralen Rechenzentrumsarchitektur. Im „Hub“-Ansatz werden Angebote in zweiter Latenz ausgeführt, personalisiert und bereitgestellt. Die Hub-Architektur eignet sich daher am besten für Kundenerlebnisse, die keine Latenz unterhalb einer Sekunde erfordern. Beispiele sind Angebotsentscheidungen, die für Terminals oder durch Agenten unterstützte Erlebnisse wie in Callcentern oder in persönlichen Interaktionen bereitgestellt werden.
+[!DNL Decision Management] kann auf zwei Arten bereitgestellt werden. Der erste erfolgt über den [!DNL Experience Platform] Hub, der eine zentrale Rechenzentrumsarchitektur darstellt. Im „Hub“-Ansatz werden Angebote in zweiter Latenz ausgeführt, personalisiert und bereitgestellt. Die Hub-Architektur eignet sich daher am besten für Kundenerlebnisse, die keine Latenz unterhalb einer Sekunde erfordern. Beispiele sind Angebotsentscheidungen, die für Terminals oder durch Agenten unterstützte Erlebnisse wie in Callcentern oder in persönlichen Interaktionen bereitgestellt werden.
 
-Der zweite Ansatz erfolgt über die Experience Platform [!DNL Edge Network], die eine global verteilte geografisch verteilte Infrastruktur ist, die schnelle Erlebnisse auf einer Sub- und Millisekunde ermöglicht. Das Endverbrauchererlebnis, das von der Edge-Infrastruktur ausgeführt wird, die dem geografischen Standort der Verbraucher am nächsten ist, um Latenzzeiten zu minimieren. [!DNL Decision Management] in der Edge ist für Echtzeit-Kundenerlebnisse konzipiert. Dazu gehören Erlebnisse wie über Web oder Mobile eingehende Personalisierungsanfragen.
+Der zweite Ansatz erfolgt über die Experience Platform-[!DNL Edge Network], die eine global verteilte, geografisch verteilte Infrastruktur ist, um schnelle Erlebnisse in Unter- und Millisekunden bereitzustellen. Das Endanwendererlebnis, das von der Edge-Infrastruktur ausgeführt wird, die dem geografischen Standort des Verbrauchers am nächsten ist, um die Latenz zu minimieren. [!DNL Decision Management] auf der Edge wurde entwickelt, um Echtzeit-Kundenerlebnisse zu bieten. Dazu gehören Erlebnisse wie über Web oder Mobile eingehende Personalisierungsanfragen.
 
 In dieser Blueprint werden die Besonderheiten des Entscheidungs-Managements im Edge behandelt.
 
@@ -28,7 +28,7 @@ Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der
 
 ## Anwendungsfälle für das Entscheidungs-Management im Edge
 
-* Streaming-Anwendungsfälle, in denen die Latenz des Profilkontexts strikt unter 15 Minuten Latenz liegt und die Ausführung der Entscheidungsverwaltung unter einer Sekunde erfolgt.
+* Streaming-Anwendungsfälle, bei denen die Profilkontextlatenz strikt unter einer Latenz von 15 Minuten liegt und die Ausführung des Entscheidungs-Managements in Subsekunden erfolgt.
 * Online-Personalisierung über eingehende Web- oder mobile Erlebnisse.
 * Kanalübergreifende Journey-Ausführung - Konsistenz in Web, Mobile, E-Mail und auf anderen Interaktionskanälen über Adobe Journey Optimizer.
 
@@ -48,7 +48,7 @@ Weitere Informationen zum Entscheidungs-Management auf dem Hub finden Sie in der
 
 * Die Leitlinien für Entscheidungs-Management beziehen sich auf die folgende [Produktbeschreibung für Entscheidungs-Management](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Limits und Ende-zu-Ende-Latenzrichtlinien](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Verwandte Dokumentation
 

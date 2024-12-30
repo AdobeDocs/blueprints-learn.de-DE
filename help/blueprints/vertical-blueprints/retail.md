@@ -1,6 +1,6 @@
 ---
-title: Einzelhandelsbranche - Aktivierung mit Experience Cloud-Anwendungen
-description: Erfahren Sie mehr über die Bereitstellung von Echtzeit-Kundenerlebnissen über digitale Medien-, E-Mail-, Push- und Webkanäle hinweg.
+title: Einzelhandel - Aktivierung mit Experience Cloud-Anwendungen
+description: Erfahren Sie mehr über die Bereitstellung von Kundenerlebnissen in Echtzeit über digitale Medien, E-Mail, Push und Web-Kanäle hinweg.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351

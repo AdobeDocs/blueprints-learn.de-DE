@@ -19,15 +19,15 @@ Die Zielgruppen- und Profilaktivierung für ist der Schlüssel zum Erfolg in der
 
 Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Personalisierung für Kunden erfolgt, die auf diesem Kanal mit der Marke interagieren. Diese Herangehensweise spiegelt nicht die Realität wider, in der Kunden über viele verschiedene Touchpoints hinweg mit der Marke interagieren. Mit Zielgruppen- und Profilaktivierung können Marken Kundeninteraktionen über verschiedene Kanäle hinweg miteinander verknüpfen und so Content für eine zentrale Zielgruppe bereitstellen, die auf allen Kanälen aktiviert werden kann.
 
-Blueprints in Zielgruppen- und Profilaktivierung
+Blueprints bei Zielgruppen- und Profilaktivierung
 
 - [Anonyme Zielgruppenaktivierung ](/help/blueprints/audience-activation/anonymous.md)
 - Bekannte Kundenaktivierung (RTCDP)
    - [Überblick](/help/blueprints/audience-activation/known.md)
-   - [Aktivierung in Social- und Werbekanälen](/help/blueprints/audience-activation/advertising-activation.md)
-   - [Aktivierung für Datei- und Enterprise-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
-   - [Kundenaktivitäts-Hub](/help/blueprints/audience-activation/customer-activity.md)
-   - [Segmentübereinstimmung](/help/blueprints/audience-activation/segment-match.md)
+   - [Aktivierung für Social-Media- und Werbekanäle](/help/blueprints/audience-activation/advertising-activation.md)
+   - [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
+   - [Kunden-Aktivitäts-Hub](/help/blueprints/audience-activation/customer-activity.md)
+   - [Segment Match](/help/blueprints/audience-activation/segment-match.md)
    - [Aktivierung mit Experience Cloud-Anwendungen](/help/blueprints/audience-activation/platform-and-applications.md)
 
 
@@ -35,7 +35,7 @@ Blueprints in Zielgruppen- und Profilaktivierung
 
 In der folgenden Abbildung werden die Kernkomponenten des Echtzeit-Kundenprofils in Experience Platform beschrieben.
 
-Eine zusätzliche Dokumentation zu Profil, Segmentierung und Aktivierung finden Sie auf den Seiten [RTCDP - Übersichtsdokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) und [Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) .
+Weitere Dokumentationen zu Profil, Segmentierung und Aktivierung finden Sie auf den Seiten [RTCDP-Übersichtsdokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) und [Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) .
 
 <img src="assets/profile_architecture.jpg" alt="Referenzarchitektur für das Echtzeit-Kundenprofil" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 

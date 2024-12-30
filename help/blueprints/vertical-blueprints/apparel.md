@@ -1,6 +1,6 @@
 ---
-title: Bekleidungsindustrie - Aktivierung mit Experience Cloud-Applikationen
-description: Verwendung mehrerer Blueprints zur Aktivierung von Echtzeit-Marketing, kanalübergreifender Aktivierung und kanalübergreifender Analyse.
+title: Bekleidungsindustrie - Aktivierung mit Experience Cloud-Anwendungen
+description: Verwendung mehrerer Blueprints zur Aktivierung von Echtzeit-Marketing, Cross-Channel-Aktivierung und Cross-Channel-Analyse.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810

@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
+source-git-commit: 1b35f6955a7bb10d07c6ce796e80a18b92f25d18
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 73%
+source-wordcount: '452'
+ht-degree: 83%
 
 ---
 
@@ -219,7 +219,6 @@ Die folgende Abbildung zeigt die durchschnittlichen Leitplanken für die Leistun
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Nicht immer aktiv, sofortige Aufnahme. </span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Wiederholte Frequenzprüfungen zur Aufnahme von Delta-Dateien mindestens alle 15 Minuten.</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -236,7 +235,6 @@ Die folgende Abbildung zeigt die durchschnittlichen Leitplanken für die Leistun
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, CSV, JSON, Parquet</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">– Dateien erhalten eine TTL von 7 Tagen.</span></span></span></p>
 </td>
 </tr>
 <tr>
@@ -254,7 +252,6 @@ Die folgende Abbildung zeigt die durchschnittlichen Leitplanken für die Leistun
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Mindestfrequenz von 15 Minuten</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Beispiele: MailChimp, One Trust, Zendesk</span></span></span></li>
 </ul>
 
@@ -263,33 +260,3 @@ Die folgende Abbildung zeigt die durchschnittlichen Leitplanken für die Leistun
 </tr>
 </tbody>
 </table>
-
-
-
-| Aufnahmemethoden | Beschreibung |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK | Latenz:<ul><li>Echtzeit - gleiche Seitensammlung zum [!DNL Edge Network]</li><li>Streaming-Aufnahme an Profil &lt; 15 Minuten im 95. Perzentil</li><li>Streaming-Aufnahme in Data Lake (Mikro-Batch ~15 Minuten)</ul>Dokumentation: <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=de)</li><li>[Tutorial zur Implementierung von Adobe Experience Cloud mit Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)</li><li>[Tutorial zur Implementierung von Adobe Experience Cloud in Mobile Apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=de)</li></ul> |
-| Streaming-Quellen | [Streaming-Quellen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#connectors)<br>Latenz:<ul><li>Echtzeit - gleiche Seitensammlung zum [!DNL Edge Network]</li><li>Streaming-Aufnahme in Profil ~1 Minute</li><li>Streaming-Aufnahme in Data Lake (Mikro-Batch ~15 Minuten)</li></ul> |
-| Streaming-API | [[!DNL Edge Network] Server-API (empfohlen)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de) - unterstützt Edge Services einschließlich Edge-Segmentierung und <br>[Datenerfassungs-Core-Service-API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=de) - unterstützt keine Edge Services und leitet direkt zum Hub weiter.<br>Latenz:<ul><li>Echtzeit - gleiche Seitensammlung zum [!DNL Edge Network]</li><li>Streaming-Aufnahme in Profil ~1 Minute</li><li>Streaming-Aufnahme in Data Lake (Mikro-Batch ~15 Minuten)</li><li>7 GB/Stunde</li></ul>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de#what-can-you-do-with-streaming-ingestion%3F) |
-| ETL-Tools | Verwenden Sie ETL-Tools, um Unternehmensdaten zu ändern und umzuwandeln, bevor sie in [!DNL Experience Platform] aufgenommen werden.<br><br>Latenz:<ul><li>Zeitrahmen abhängig vom externen Zeitplan des ETL-Tools, dann gelten Standardleitlinien für die Aufnahme basierend auf der Aufnahmemethode.</li></ul> |
-| Batch-Quellen | Geplanter Abruf aus Quellen<br>Latenz: ~ 200 GB/Stunde<br><br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#connectors)<br>[Video-Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=de) |
-| Batch-API | Latenz:<ul><li>Batch-Aufnahme in Profil abhängig von Größe und Traffic-Volumen ~45 Minuten</li><li>Batch-Aufnahme in Data Lake abhängig von Größe und Traffic-Volumen</li></ul>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=de#batch) |
-| Adobe-Programm-Connectoren | Automatische Aufnahme von Daten, die aus Adobe Experience Cloud-Programmen stammen<ul><li>Adobe Analytics: [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de#connectors) und [Video-Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=de)</li><li>Audience Manager: [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=de#connectors) und [Video-Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=de)</li></ul> |
-
-
-## Methoden der Datenvorbereitung
-
-| Methoden der Datenvorbereitung | Beschreibung |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Externes ETL-Tool ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] usw.) | Führen Sie komplexe Umwandlungen in ETL-Tools durch und verwenden Sie standardmäßige [!DNL Experience Platform][!UICONTROL  Flow Service]-APIs oder Quell-Connectoren, um die resultierenden Daten aufzunehmen. |
-| [!UICONTROL Abfrage-Service] – Datenvorbereitung | Verbinden, Teilen, Zusammenführen, Transformieren, Abfragen und Filtern von Daten und Erstellung eines neuen Datensatzes. Verwendung von „Create Table as Select“ (CTAS)<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de#sql) |
-| XDM-Mapper- und Datenvorbereitungsfunktionen (Streaming und Batch) | Ordnen Sie Quellattribute im CSV- oder JSON-Format während der [!DNL Experience Platform]-Aufnahme XDM-Attributen zu.<br>Berechnung von Funktionen bei der Aufnahme von Daten, d. h. Datenformatierung, Teilung, Verknüpfung usw.<br>[Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=de) |
-
-## Verwandte Blog-Posts
-
-* [Nutzung externer Datenplattformen in Adobe [!DNL Experience Platform] [!DNL Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page)
-* [Aufnahme bei hohem Durchsatz mit Iceberg](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page)
-* [Tricks für den Abfrage-Service beim Adobe [!DNL Experience Platform] (Schreiben von Abfragen und Speichern abgeleiteter Datensätze)](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page)
-* [Einblick in das Experience [!DNL Experience Platform]Datenmodell von Adobe, um die Leistungsfähigkeit des Echtzeit-Kundenprofils besser zu verstehen](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page)
-* [Einführungsvorschau zur explorativen Datenanalyse auf Adobe [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page)
-* [Modellieren von XDM-Daten für die Datenwissenschaft im großen Maßstab auf Adobe [!DNL Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page)

@@ -4,10 +4,10 @@ description: Zielgruppen- und Profilaktivierung für Unternehmensziele
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 98%
+source-wordcount: '308'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 
 ## Leitlinien
 
-[Beachten Sie die Leitlinien auf der Übersichtsseite zur Zielgruppen- und Profilaktivierung.](overview.md)
+[Verweisen Sie auf die Leitplanken, wie auf der Seite Leitplanken beschrieben.](../experience-platform/deployment/guardrails.md)
 
 ## Implementierungsschritte
 

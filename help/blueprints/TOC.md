@@ -5,9 +5,9 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6a13de73d7f61295092faccfc21172f5e188331d
+source-git-commit: 613c22fd6882144515bd91da64bb305be98dccf3
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '205'
 ht-degree: 54%
 
 ---
@@ -16,35 +16,24 @@ ht-degree: 54%
 # Blueprints: Digitale Erlebnisse {#architecture}
 
 + [Blueprints für digitale Erlebnisse](/help/blueprints/overview.md)
-+ Blueprints für vertikale Branchen{#vertical-blueprints}
-   + [Überblick](/help/blueprints/vertical-blueprints/overview.md)
-   + [Bekleidung](/help/blueprints/vertical-blueprints/apparel.md)
-   + [Einzelhandel](/help/blueprints/vertical-blueprints/retail.md)
-   + [Telekommunikation](/help/blueprints/vertical-blueprints/telecommunications.md)
-   + [Reisen und Gastgewerbe](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + Architekturübersicht {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform und Anwendungen](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform-Datenfluss](/help/blueprints/experience-platform/platform-data-flow.md)
    + Implementierung {#deployment}
-      + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [Experience Platform Web SDK und  [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [Anwendungs-SDKs](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Überblick](/help/blueprints/audience-activation/overview.md)
-   + [Anonyme Zielgruppenaktivierung ](/help/blueprints/audience-activation/anonymous.md)
-   + Aktivierung einer bekannten Kundin/eines bekannten Kunden (RTCDP) {#known-customer-audience-activation}
+   + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
+   + {#known-customer-audience-activation} von Real-time Customer Data Platform (RTCDP)
       + [Überblick](/help/blueprints/audience-activation/known.md)
       + [Aktivierung für Social-Media- und Werbekanäle](/help/blueprints/audience-activation/advertising-activation.md)
       + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Kunden-Aktivitäts-Hub](/help/blueprints/audience-activation/customer-activity.md)
       + [Segment Match](/help/blueprints/audience-activation/segment-match.md)
-   + [Aktivierung mit Experience Cloud-Anwendungen](/help/blueprints/audience-activation/platform-and-applications.md)
-   + Web- und Mobile-Personalisierung {#web-personalization}
-      + [Überblick](/help/blueprints/audience-activation/web-personalization/overview.md)
-      + [Verhaltenspersonalisierung - Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
-      + [Bekannte Kundenpersonalisierung - Target und RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
-      + [Entscheidungs-Management](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
+      + [Target und RTCDP](/help/blueprints/audience-activation/RTCDP-Target.md)
 + B2B: Aktivierung und Marketing {#b2b-activation}
    + [Überblick](/help/blueprints/b2b/overview.md)
    + [B2B-Aktivierung](/help/blueprints/b2b/b2bactivation.md)
@@ -82,13 +71,6 @@ ht-degree: 54%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP mit Adobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer mit Adobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Datenerfassung, Datenzugriff und Datenexport {#data-ingestion}
-   + [Überblick](/help/blueprints/data-ingestion/overview.md)
-   + [Datenerfassung bei der Ereignisweiterleitung für mehrere Sandboxes](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
-   + [Datenvorbereitung und -aufnahme](/help/blueprints/data-ingestion/ingestion.md)
-   + [Datenzugriff und -export](/help/blueprints/data-ingestion/egress.md)
-   + [Ereignisweiterleitung](/help/blueprints/data-ingestion/server-side-collection.md)
 + Datenanalyse, Datenintelligenz und KI/ML {#data-exploration}
-   + [Überblick](/help/blueprints/data-insights/overview.md)
    + [Datenanalyse und Intelligenz](/help/blueprints/data-insights/analysis.md)
    + [Benutzerdefinierte Datenwissenschaft zur Profilanreicherung](/help/blueprints/data-insights/data-science.md)

@@ -5,7 +5,7 @@ user-guide-description: Blueprints sind wiederholbare Implementierungen, die bek
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: bb04c412f2bfa5b4e02c0f37794f83f85c5105ed
+source-git-commit: bb3d3ec11809dceb9ecf46561b608e22bff855b9
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 53%
@@ -25,7 +25,7 @@ ht-degree: 53%
       + [Anwendungs-SDKs](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/audience_manager.md)
+   + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + {#known-customer-audience-activation} von Real-time Customer Data Platform (RTCDP)
       + [Aktivierung für Social-Media- und Werbekanäle](/help/blueprints/audience-activation/advertising-activation.md)
       + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)

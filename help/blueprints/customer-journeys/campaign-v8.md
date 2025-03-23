@@ -2,8 +2,9 @@
 title: Campaign v8-Blueprint, Campaign und Platform
 description: Erfahren Sie mehr über den Blueprint für Campaign v8.
 solution: Campaign,Campaign v8
+version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 16b233c7ea9077566ebf12238f0a87beec1c61ce
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 41%
@@ -41,8 +42,8 @@ Weitere Informationen zu [Bereitstellungsmodellen für Campaign v8](https://expe
 
 | Szenario | Beschreibung | Funktionen |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] mit Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Zeigt, wie Adobe Experience Platform und sein Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe-[!DNL Campaign] verwendet werden können, um personalisierte Konversationen bereitzustellen | <ul><li>Freigabe von Profilen und Audiences aus dem [!DNL Real-Time CDP] auf Adobe-[!DNL Campaign] über den Dateiaustausch im Cloud-Speicher und Adobe-[!DNL Campaign]-Aufnahme-Workflows </li><li>Geben Sie Versand- und Interaktionsdaten aus Kundengesprächen einfach von Adobe-[!DNL Campaign] wieder in die [!DNL Real-Time CDP] frei, um sowohl das Echtzeit-Kundenprofil zu verbessern als auch kanalübergreifende Berichte zu Messaging-Kampagnen bereitzustellen</li></ul> |
-| [[!DNL Journey Optimizer] mit Adobe [!DNL Campaign]](ajo-and-campaign.md) | Zeigt, wie Sie mit Adobe Journey Optimizer 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils orchestrieren und das native Adobe- [!DNL Campaign] Transaktionsnachrichtensystem nutzen können, um die Nachricht zu senden | Nutzen Sie das Echtzeit-Kundenprofil und die Leistungsfähigkeit von [!DNL Journey Optimizer], um Erlebnisse in Echtzeit zu orchestrieren, während Sie die nativen Echtzeit-Messaging-Funktionen von Adobe [!DNL Campaign] nutzen, um die letzte Meile der Kommunikation <br><br> tun.<br><ul><li>Kann bis zu 1 Mio. Nachrichten pro Stunde über den Echtzeit-Messaging-Server senden<li>Von [!DNL Journey Optimizer] wird keine Drosselung durchgeführt, um eine technische Überprüfung durch einen Pre-Sales Enterprise Architect sicherzustellen.</li><li>Entscheidungs-Management wird in Payloads an Campaign v8 nicht unterstützt</li></ul> |
+| [[!DNL Real-time Customer Data Platform] mit Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Zeigt, wie Adobe Experience Platform und sein Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe [!DNL Campaign] verwendet werden können, um personalisierte Konversationen bereitzustellen | <ul><li>Freigabe von Profilen und Audiences aus der [!DNL Real-Time CDP] in die Adobe-[!DNL Campaign] mithilfe von Cloud-Speicher-Dateiaustausch- und Adobe-[!DNL Campaign]-Aufnahme-Workflows </li><li>Geben Sie Versand- und Interaktionsdaten aus Kundengesprächen einfach von Adobe [!DNL Campaign] wieder in die [!DNL Real-Time CDP] frei, um sowohl das Echtzeit-Kundenprofil zu verbessern als auch kanalübergreifende Berichte zu Messaging-Kampagnen bereitzustellen</li></ul> |
+| [[!DNL Journey Optimizer] mit Adobe [!DNL Campaign]](ajo-and-campaign.md) | Zeigt, wie Sie mit Adobe Journey Optimizer 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils orchestrieren und das native Transaktionsnachrichtensystem von Adobe [!DNL Campaign] nutzen können, um die Nachricht zu senden | Nutzen Sie das Echtzeit-Kundenprofil und die Leistungsfähigkeit von [!DNL Journey Optimizer], um Erlebnisse in Echtzeit zu orchestrieren, während Sie die nativen Echtzeit-Messaging-Funktionen von Adobe [!DNL Campaign] nutzen, um die letzte Meile der <br><br> zu bewältigen<br><ul><li>Kann bis zu 1 Mio. Nachrichten pro Stunde über den Echtzeit-Messaging-Server senden<li>Von [!DNL Journey Optimizer] wird keine Drosselung durchgeführt, um eine technische Überprüfung durch einen Pre-Sales Enterprise Architect sicherzustellen.</li><li>Entscheidungs-Management wird in Payloads an Campaign v8 nicht unterstützt</li></ul> |
 
 ## Voraussetzungen
 
@@ -103,9 +104,9 @@ Die Leitplanken werden unten beschrieben.
 * Campaign bietet die Möglichkeit zur Integration mit einem SMS-Anbieter. Der Anbieter wird vom Kunden beschafft und in Campaign integriert, um SMS-basierte Nachrichten zu versenden.
 * Unterstützung erfolgt über das SMPP-Protokoll.
 * Es gibt drei (3) verschiedene Arten von SMS, die Adobe alle unterstützen kann:
-   * SMS-MT (Mobile Terminated): Eine SMS, die von Adobe-[!DNL Campaign] über den SMPP-Provider an Mobiltelefone gesendet wird.
+   * SMS-MT (Mobile Terminated): Eine SMS, die von Adobe [!DNL Campaign] über den SMPP-Provider an Mobiltelefone gesendet wird.
    * SMS-MO (Mobile Originated): eine SMS, die von einem Mobilgerät über den SMPP-Provider an Adobe [!DNL Campaign] gesendet wird.
-   * SMS SR (Statusbericht) oder DR oder DLR (Versandbestätigung): Eine vom Mobiltelefon über den SMPP-Provider an Adobe [!DNL Campaign] gesendete Rücksendung, die angibt, dass die SMS erfolgreich empfangen wurde. Adobe [!DNL Campaign] kann auch SR erhalten, die darauf hinweisen, dass die Nachricht nicht zugestellt werden konnte, und oft eine Fehlerbeschreibung enthalten.
+   * SMS SR (Statusbericht) oder DR oder DLR (Versandbestätigung): Eine Rücksendung, die vom Mobilgerät über den SMPP-Provider an Adobe [!DNL Campaign] gesendet wurde und die angibt, dass die SMS erfolgreich empfangen wurde. Adobe [!DNL Campaign] erhält möglicherweise auch eine Statusmeldung, dass die Nachricht nicht zugestellt werden konnte, häufig mit einer Beschreibung des Fehlers.
 
 ## Implementierungsschritte
 

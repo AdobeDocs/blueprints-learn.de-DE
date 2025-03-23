@@ -1,9 +1,10 @@
 ---
 title: 'Blueprint: Journey Optimizer mit Adobe Campaign v8'
 description: Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um nativ mithilfe des Echtzeit-Messaging-Servers in Campaign Nachrichten zu versenden
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
+version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 64%
@@ -12,7 +13,7 @@ ht-degree: 64%
 
 # Blueprint: Journey Optimizer mit Adobe Campaign v8
 
-Veranschaulicht, wie Adobe-[!DNL Journey Optimizer] mit Adobe-[!DNL Campaign] verwendet werden können, um Nachrichten nativ zu senden, indem der Echtzeit-Messaging-Server in [!DNL Campaign] verwendet wird.
+Veranschaulicht, wie Adobe [!DNL Journey Optimizer] mit Adobe [!DNL Campaign] verwendet werden kann, um Nachrichten nativ zu senden, indem der Echtzeit-Messaging-Server in [!DNL Campaign] verwendet wird.
 
 ## Architektur
 
@@ -78,8 +79,8 @@ Befolgen Sie die unten beschriebenen Implementierungen für jede Anwendung.
 ### Campaign v8
 
 * Messaging-Vorlagen müssen mit dem entsprechenden Personalisierungskontext konfiguriert werden.
-* Für [!DNL Campaign] Standard: Export-Workflows müssen so konfiguriert werden, dass die Transaktionsnachrichten-Protokolle zurück auf die Experience Platform exportiert werden. Es wird empfohlen, höchstens alle vier Stunden zu laufen.
-* Für [!DNL Campaign] v8.4 ist es möglich, Adobe [!DNL Campaign] Managed Services Source Connector in Experience Platform zu nutzen, um Versand- und Tracking-Ereignisse von Campaign mit Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum [Source](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)Connector.
+* Für [!DNL Campaign] Standard: Export-Workflows müssen so konfiguriert werden, dass die Transaktionsnachrichten-Protokolle zurück in die Experience Platform exportiert werden. Es wird empfohlen, höchstens alle vier Stunden zu laufen.
+* Für [!DNL Campaign] v8.4 ist es möglich, den Adobe [!DNL Campaign] Managed Services Source Connector in Experience Platform zu nutzen, um Versand- und Tracking-Ereignisse von Campaign mit Experience Platform zu synchronisieren. Weitere Informationen finden Sie in der Dokumentation zum [Source](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)Connector.
 
 ### Mobilgeräte-Push-Konfiguration (optional)
 

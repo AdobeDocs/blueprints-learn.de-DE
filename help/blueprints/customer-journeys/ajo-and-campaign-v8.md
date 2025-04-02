@@ -4,10 +4,10 @@ description: Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet wer
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -91,7 +91,7 @@ Befolgen Sie die unten beschriebenen Implementierungen für jede Anwendung.
    * Identität für [!DNL Edge Network]
    * Mobile Core
 1. Stellen Sie sicher, dass Sie über einen dedizierten Datenstrom für Mobile-App-Bereitstellungen im Vergleich zu Web-Bereitstellungen verfügen.
-1. Weitere Informationen finden Sie im [Adobe Journey Optimizer Mobile-Handbuch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+1. Weitere Informationen finden Sie im [Adobe Journey Optimizer Mobile-Handbuch](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/).
 
    >[!IMPORTANT]
    >Mobile-Token müssen sowohl in Journey Optimizer als auch in Campaign erfasst werden, wenn Echtzeit-Kommunikation über Journey Optimizer gesendet werden soll und Push-Benachrichtigungen im Batch über Campaign übermittelt werden sollen. Campaign v8 erfordert die exklusive Verwendung des Campaign SDK für das Erfassen von Push-Tokens.

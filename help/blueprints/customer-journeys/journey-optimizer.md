@@ -66,9 +66,9 @@ Mobile Push:
 
 ## Leitlinien
 
-[[!DNL Journey Optimizer] Leitplanken - Produktlink](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] Leitplanken - Produktlink](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/guardrails)
 
-[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=de)
 
 ## Verwandte Dokumentation
 

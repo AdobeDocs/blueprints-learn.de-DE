@@ -56,14 +56,14 @@ Durch Account-basierte Interaktion können Marketing-Experten drei wichtige Anwe
    * Bis zu 30 Tage Ereignis-Lookback, keine Sortierung von Ereignis-Eigenschaften.
    * UND/ODER werden unterstützt (sodass Sie sagen können: „A und B müssen passieren,“  aber man kann nicht sagen „A muss 3 Tage vor B passieren„).
 * Bei Cloud-Speicher-Zielen unterstützt der Exportzeitplan die Option „Nach der Segmentevaluierung“.
-* [Leitplanken für B2B-Profile und ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [Leitplanken für B2B-Profile und ](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Implementierungsschritte für Real-time Customer Data Platform B2B edition, Erstellung und Aktivierung von Konto-Zielgruppen
 
-* Implementierungsschritte für Real-time Customer Data Platform B2B edition finden Sie in der Dokumentation [Erste Schritte mit Real-time Customer Data Platform B2B Editions](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) .
-* Schritte zum Erstellen von Konto-Zielgruppen finden Sie in der Dokumentation [Konto-Zielgruppen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences) .
-* Die Schritte zum Account-Audience Activation finden Sie in der [Activate Account Audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)-Dokumentation.
-   * Erforderliche Zuordnung für das Ziel [Firmen) mit LinkedIn Matched Audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
+* Implementierungsschritte für Real-time Customer Data Platform B2B edition finden Sie in der Dokumentation [Erste Schritte mit Real-time Customer Data Platform B2B Editions](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) .
+* Schritte zum Erstellen von Konto-Zielgruppen finden Sie in der Dokumentation [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences) .
+* Die Schritte zum Account-Audience Activation finden Sie in der [Activate Account Audiences](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences)-Dokumentation.
+   * Erforderliche Zuordnung für das Ziel [Firmen) mit LinkedIn Matched Audiences](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
 
 ## Überlegungen bei der Implementierung
 
@@ -71,8 +71,8 @@ Für von linkedIn übereinstimmende Zielgruppen gelten einige Anforderungen, dar
 
 ## Verwandte Dokumentation
 
-* [B2B Edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [B2B Edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [Tutorial zum Erstellen und Aktivieren von Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [Konto-Zielgruppen erstellen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)
-* [Kontozielgruppen aktivieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - LinkedIn-Ziel-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+* [Konto-Zielgruppen erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences)
+* [Kontozielgruppen aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
+* [Adobe Experience Platform - LinkedIn-Ziel-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin)

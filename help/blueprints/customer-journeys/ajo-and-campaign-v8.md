@@ -40,9 +40,9 @@ Veranschaulicht, wie Adobe [!DNL Journey Optimizer] mit Adobe [!DNL Campaign] ve
 
 ## Leitlinien
 
-* [Produktbeschränkungen für Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Produktbeschränkungen für Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Leitplanken und End-to-End-Latenzleitfäden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [Leitplanken und End-to-End-Latenzleitfäden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=de)
 
 ## Implementierungsschritte
 
@@ -52,7 +52,7 @@ Befolgen Sie die unten beschriebenen Implementierungen für jede Anwendung.
 
 #### Schema/Datensätze
 
-1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) in Experience Platform basierend auf den von der Kundin oder dem Kunden angegebenen Daten.
+1. [Konfigurieren Sie das individuelle Profil, das Erlebnisereignis und Schemas mit mehreren Einheiten](https://experienceleague.adobe.com/?lang=de&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=de) in Experience Platform basierend auf den von der Kundin oder dem Kunden angegebenen Daten.
 1. (Optional) Erstellen Sie klassenbasierte Erlebnisereignis-Schemas für die Tabellen Broadlog, trackingLog und Nicht zustellbare Adressen von Adobe Campaign.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) in Experience Platform für die aufzunehmenden Daten.
 1. [Fügen Sie dem Datensatz in Experience Platform Datennutzungskennzeichnungen hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=de), um ordnungsgemäße Governance zu gewährleisten.
@@ -68,7 +68,7 @@ Befolgen Sie die unten beschriebenen Implementierungen für jede Anwendung.
 
 #### Quellen/Ziele
 
-1. [Aufnehmen von Daten in [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) mithilfe von Streaming-APIs und Quell-Connectoren.
+1. [Aufnehmen von Daten in [!DNL Experience Platform]](https://experienceleague.adobe.com/?lang=de&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=de) mithilfe von Streaming-APIs und Quell-Connectoren.
 
 ### Journey Optimizer  
 

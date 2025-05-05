@@ -28,7 +28,7 @@ Außerdem bietet es einen skalierbaren Echtzeit-Messaging-Server, mit dem Market
 
 ## Architekturdiagramme
 
-Weitere Informationen zu [Bereitstellungsmodellen für Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Weitere Informationen zu [Bereitstellungsmodellen für Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=de#ac-deployment){target="_blank"}.
 
 ### Bereitstellung von Campaign Enterprise (FFDA)
 
@@ -114,7 +114,7 @@ Weitere Informationen für die ersten Schritte finden Sie im Handbuch [Implement
 
 ## Verwandte Dokumentation
 
-* [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
+* [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de)
 * [Produktbeschreibung zu Campaign v8](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Dokumentation zu Experience Platform Tags ](https://experienceleague.adobe.com/docs/launch.html)
-* [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
+* [Dokumentation zu Experience Platform Tags ](https://experienceleague.adobe.com/docs/launch.html?lang=de)
+* [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)

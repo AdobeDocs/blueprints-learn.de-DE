@@ -68,11 +68,11 @@ Für die Lösung mit Schwerpunkt auf Kunden sind die folgenden Anwendungen und S
 >
 >Die Lizenzierung von Journey Optimizer B2B edition sollte die folgenden Elemente enthalten:
 ><ul><li>Journey Optimizer B2B edition-Instanz, die mit Experience Platform B2B verbunden ist</li><li>Marketo Engage-Instanz, die mit RTCDP synchronisiert wird</li></ul>
-&gt;<br/>
-&gt;Für bestehende Marketo Engage-Kunden ist eine Verbindung zur bestehenden Instanz der empfohlene Ansatz.
-&gt;<br/><br/>
-&gt;Es sind zusätzliche Erweiterungen für die Lösung verfügbar, um die Profilreichhaltigkeit zu verbessern:
-&gt;<ul><li>Zusätzliche Quellen zur RTCDP zur Anreicherung des Profils</li><li>RTCDP-Ziel auf Marketo Engage</li></ul>
+>&gt;<br/>
+>&gt;Für bestehende Marketo Engage-Kunden ist eine Verbindung zur bestehenden Instanz der empfohlene Ansatz.
+>&gt;<br/><br/>
+>&gt;Es sind zusätzliche Erweiterungen für die Lösung verfügbar, um die Profilreichhaltigkeit zu verbessern:
+>&gt;<ul><li>Zusätzliche Quellen zur RTCDP zur Anreicherung des Profils</li><li>RTCDP-Ziel auf Marketo Engage</li></ul>
 
 Die Implementierung dieser Lösung setzt auch ein klares Verständnis des Konzepts von _Account_ und _Buying Group_ voraus, sowie davon, wie diese Ihre Sales Lead-Qualifizierung verstärken und beschleunigen. Mit diesem Verständnis müssen Sie auch den gewünschten Kaufgruppen-Vollständigkeitswert identifizieren.
 
@@ -109,7 +109,7 @@ Leitplanken im Zusammenhang mit der Implementierung
 * Alle Leitplanken für B2B-Zielgruppen werden im Blueprint [B2B-Zielgruppen- und -Profilaktivierung](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails) beschrieben, der direkt auf den Erfolg von Journey Optimizer B2B edition übertragen wird.
 * Wenn die Aktivierung über Marketo Engage-Kanäle auf der Konto-Journey erforderlich ist oder wenn die CRM-Synchronisierung zur Anreicherung des Kontos verwendet wird, sind die [Schutzmechanismen in Bezug auf die Marketo Engage](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) von Bedeutung.
 
-Weitere Informationen zu RTCDP-Leitplanken finden Sie ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) Dokumentation zu [Real-Time CDP-Leitplanken .
+Weitere Informationen zu RTCDP-Leitplanken finden Sie [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) Dokumentation zu Real-Time CDP-Leitplanken .
 
 ### Bereitstellung
 

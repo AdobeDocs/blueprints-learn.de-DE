@@ -26,7 +26,7 @@ ht-degree: 53%
       + [Leitlinien](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Aktivierung von Zielgruppen und Profilen {#audience-activation}
    + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
-   + {#known-customer-audience-activation} von Real-time Customer Data Platform (RTCDP)
+   + von Real-time Customer Data Platform (RTCDP){#known-customer-audience-activation}
       + [Aktivierung für Social-Media- und Werbekanäle](/help/blueprints/audience-activation/advertising-activation.md)
       + [Aktivierung für Datei- und Unternehmens-Streaming-Ziele](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Kunden-Aktivitäts-Hub](/help/blueprints/audience-activation/customer-activity.md)

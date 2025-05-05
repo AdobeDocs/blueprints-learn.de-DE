@@ -56,7 +56,7 @@ Beachten Sie dazu die folgenden Schritte als Teil des Prozesses für eine integr
 
 ### Konfigurieren eines Workfront-Projekts mit einer Aufgabe Bereit für Überprüfung“ {#configure-a-workfront-project-with-a-ready-for-review-task}
 
-Verwenden Sie [Projektvorlagen](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html?lang=de),{target="_blank"} um die meisten der wiederholbaren Prozesse, Informationen und Einstellungen zu erfassen, die mit den Projekten in Ihrem Unternehmen verbunden sind. Sie können Aufgaben definieren, Themen in die Warteschlange stellen, benutzerdefinierte Formulare erstellen und Dokumente an Ihre Vorlage anhängen.
+Verwenden Sie [Projektvorlagen](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html?lang=de){target="_blank"}, um die meisten der wiederholbaren Prozesse, Informationen und Einstellungen zu erfassen, die mit den Projekten in Ihrem Unternehmen verbunden sind. Sie können Aufgaben definieren, Themen in die Warteschlange stellen, benutzerdefinierte Formulare erstellen und Dokumente an Ihre Vorlage anhängen.
 
 Nehmen Sie in Ihre Projektvorlage in Workfront Aufgaben für die Überprüfung von Assets auf, die Teil Ihrer Marketing-Kampagne sind. Darüber hinaus können Sie einen Genehmigungsprozess hinzufügen, um einzelne Genehmigungen oder komplexere mehrstufige Genehmigungen zu bearbeiten.
 
@@ -78,7 +78,7 @@ Sobald Ihre Aufgabe „Bereit zur Überprüfung“ in den Status „Marketo-E-Ma
 
 ### Verwenden des Workfront-Proofings zur Zusammenarbeit über Kommentare und Anmerkungen {#use-workfront-proofing-to-collaborate}
 
-Mit den Proofing](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"}-Funktionen von [Workfront kann Ihr Marketing-Team ein neues Asset wie ein Bild oder eine E-Mail aufnehmen und über Kommentare und Anmerkungen zusammenarbeiten. Sobald ein Korrekturabzug bereit für die Live-Schaltung ist, können Entscheidungsträger das Asset über das Proofing-Tool genehmigen.
+Mit den Proofing[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"}-Funktionen von Workfront kann Ihr Marketing-Team ein neues Asset wie ein Bild oder eine E-Mail aufnehmen und über Kommentare und Anmerkungen zusammenarbeiten. Sobald ein Korrekturabzug bereit für die Live-Schaltung ist, können Entscheidungsträger das Asset über das Proofing-Tool genehmigen.
 
 ![E-Mail-Bildschirm konvertieren](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 

@@ -121,7 +121,7 @@ Diese Abfrage gibt die Anzahl der Personendatensätze zurück, die im Rahmen der
 >[!NOTE]
 >
 >Die Datensatztabelle marketo_person_ajo_b2b wird verwendet, um ein vollständiges Beispiel für die Arbeit mit dem Marketo-Personendatensatz bereitzustellen.
->>Den Datensatz Ihrer Sandbox finden Sie im Arbeitsbereich [Datensätze](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) .
+>&#x200B;>Den Datensatz Ihrer Sandbox finden Sie im Arbeitsbereich [Datensätze](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) .
 
 ```sql
 select

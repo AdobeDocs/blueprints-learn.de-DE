@@ -4,7 +4,7 @@ description: Zielgruppen- und Profilaktivierung für Unternehmensziele
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 80%
@@ -29,8 +29,8 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 
 ## Verwandte Dokumentation
 
-Weitere Informationen zur Konfiguration von Cloud-Speicher- und Unternehmenszielen finden Sie in der [Dokumentation zu Zielen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Weitere Informationen zur Konfiguration von Cloud-Speicher- und Unternehmenszielen finden Sie in der [Dokumentation zu Zielen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Leitlinien
 
-[Verweisen Sie auf die Leitplanken, wie auf der Seite Leitplanken beschrieben.](../experience-platform/deployment/guardrails.md)
+[Verweisen Sie auf die Leitplanken, wie auf der Seite Leitplanken beschrieben.](../experience-platform/guardrails.md)

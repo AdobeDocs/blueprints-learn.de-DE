@@ -4,7 +4,7 @@ description: Stellen Sie mit Real-time Customer Data Platform Account-basierte Z
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 70816df06ec2dff5c3a4a94a8be701cb25e6f783
+source-git-commit: 0509c5a8ce92c25040262130a5f583cdd7f08e59
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 52%
@@ -38,7 +38,7 @@ Verwenden Sie Account-, Opportunity- und Lead-Informationen, die mit einem einze
 
 * Beachten Sie, dass Leitlinien und Implementierungsschritte für Marketo Engage nur relevant sind, wenn Marketo Engage als Quelle und/oder Ziel verwendet wird.
 
-* Weitere Informationen zu Datenmodellen, Größe und Segmentierung sowie Leitplanken finden Sie im Dokument [Bereitstellungsleitplanken](../experience-platform/deployment/guardrails.md)
+* Weitere Informationen zu Datenmodellen, Größe und Segmentierung sowie Leitplanken finden Sie im Dokument [Bereitstellungsleitplanken](../experience-platform/guardrails.md)
 
 
 ### Unterstützung mehrerer Instanzen und IMS-Organisationen:
@@ -99,8 +99,8 @@ Wenn die Implementierung Marketo Engage als Quelle verwendet und Marketo Engage 
 ## Verwandte Dokumentation
 
 * [B2B Edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=de)
-* [Erste Schritte mit Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [Leitplanken für Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Erste Schritte mit Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Leitplanken für Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=de)
 * [Adobe Experience Platform - Marketo-Quell-Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=de)

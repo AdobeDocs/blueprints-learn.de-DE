@@ -21,7 +21,7 @@ Leitplanken spiegeln Systemeinschränkungen, erwartete Latenzen und Leistungserw
 | Art der Leitplanke | Beschreibung |
 |---|---|
 | Leistungs-Schutzmaßnahme (weiches Limit) | Die Leistung betreffende Leitplanken sind Nutzungsbeschränkungen, die sich auf den Umfang Ihrer Anwendungsfälle beziehen und die erwartete Leistung unter normalen Bedingungen umreißen. Bei Überschreitung kann es zu Leistungseinbußen und Latenzen kommen. Die Leistung betreffende Leitplanken werden in den Experience League-Dokumenten in den Abschnitten zu den Leitplanken für jede Lösung beschrieben. |
-| Statische Grenze (feste Grenze) | Dies sind vom System erzwungene Grenzwerte, die nicht überschritten werden dürfen. Statische Beschränkungen sind in der Regel vertraglich gebunden und im Kundenvertrag und in den [Produktbeschreibungen](https://helpx.adobe.com/legal/product-descriptions.html) beschrieben. |
+| Statische Grenze (feste Grenze) | Dies sind vom System erzwungene Grenzwerte, die nicht überschritten werden dürfen. Statische Beschränkungen sind in der Regel vertraglich gebunden und im Kundenvertrag und in den [Produktbeschreibungen](https://helpx.adobe.com/de/legal/product-descriptions.html) beschrieben. |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ Die folgenden Seiten enthalten Informationen zu Leitplanken für Funktionen, Ser
 
 **Experience Platform-Programme**
 
-* Übersicht über die [Real-Time CDP-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* Leitplanken für die Freigabe von [Customer Journey Analytics-Zielgruppen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Leitplanken für die Datenaufnahme in Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* Übersicht über die [Real-Time CDP-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=de)
+* Leitplanken für die Freigabe von [Customer Journey Analytics-Zielgruppen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=de#latency)
+* [Leitplanken für die Datenaufnahme in Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de)
 
 **Experience Platform-Services**
 
-* [Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network] API-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Leitlinien für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
+* [[!DNL Edge Network] API-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=de)
 * [Leitplanken für Echtzeit-Kundenprofil und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Leitlinien zu Identitäten](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=de)
 * [Leitlinien zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=de)

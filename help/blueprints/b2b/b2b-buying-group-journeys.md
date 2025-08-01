@@ -68,11 +68,11 @@ Für die Lösung mit Schwerpunkt auf Kunden sind die folgenden Anwendungen und S
 >
 >Die Lizenzierung von Journey Optimizer B2B edition sollte die folgenden Elemente enthalten:
 ><ul><li>Journey Optimizer B2B edition-Instanz, die mit Experience Platform B2B verbunden ist</li><li>Marketo Engage-Instanz, die mit RTCDP synchronisiert wird</li></ul>
-&gt;<br/>
-&gt;Für bestehende Marketo Engage-Kunden ist eine Verbindung zur bestehenden Instanz der empfohlene Ansatz.
-&gt;<br/><br/>
-&gt;Es sind zusätzliche Erweiterungen für die Lösung verfügbar, um die Profilreichhaltigkeit zu verbessern:
-&gt;<ul><li>Zusätzliche Quellen für RTCDP zur Profilanreicherung</li><li>RTCDP-Ziel zu Marketo Engage</li></ul>
+>&gt;<br/>
+>&gt;Für bestehende Marketo Engage-Kunden ist eine Verbindung zur bestehenden Instanz der empfohlene Ansatz.
+>&gt;<br/><br/>
+>&gt;Es sind zusätzliche Erweiterungen für die Lösung verfügbar, um die Profilreichhaltigkeit zu verbessern:
+>&gt;<ul><li>Zusätzliche Quellen für RTCDP zur Profilanreicherung</li><li>RTCDP-Ziel zu Marketo Engage</li></ul>
 
 Die Implementierung dieser Lösung setzt auch ein klares Verständnis des Konzepts von _Account_ und _Buying Group_ voraus, sowie davon, wie diese Ihre Sales Lead-Qualifizierung verstärken und beschleunigen. Mit diesem Verständnis müssen Sie auch den gewünschten Kaufgruppen-Vollständigkeitswert identifizieren.
 

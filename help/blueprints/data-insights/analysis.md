@@ -16,7 +16,7 @@ ht-degree: 50%
 
 Datenanalyse und -intelligenz umfassen die Möglichkeit, innerhalb von [!DNL Experience Platform] explorative Abfragen und Analysen der Daten durchzuführen, die im Data Lake vorhanden sind.
 
-Der [!DNL Experience Platform]Abfrage-Service[!UICONTROL  von ] ermöglicht die Ausführung von SQL-Abfragen zu den Daten.
+Der [!DNL Experience Platform]Abfrage-Service[!UICONTROL &#x200B; von &#x200B;] ermöglicht die Ausführung von SQL-Abfragen zu den Daten.
 
 [!DNL Experience Platform] ermöglicht Verbindungen mit SQL-Clients, Schnittstellen und Business Intelligence-Tools (BI) von Drittanbietern, um mithilfe des [!DNL Experience Platform]-Protokolls direkt eine Verbindung zu den Daten in [!DNL PostgreSQL] herzustellen, darauf zuzugreifen und sie abzufragen.
 

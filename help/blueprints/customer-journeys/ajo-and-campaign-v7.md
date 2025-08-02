@@ -45,7 +45,7 @@ Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet werden kann, um 
 
 [Produkt-Link zu Journey Optimizer-Leitlinien](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/guardrails)
 
-[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=de)
 
 ## Implementierungsschritte
 

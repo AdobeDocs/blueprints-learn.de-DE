@@ -3,9 +3,9 @@ title: '[!DNL Journey Optimizer] - Journey Blueprint'
 description: Führen Sie ausgelöste Nachrichten und Erlebnisse mit Adobe Experience Platform als Zentrale für gestreamte Daten, Kundenprofile und Segmentierung aus.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '640'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ Dieser Blueprint skizziert die technischen Möglichkeiten des Programms und biet
 ## Anwendungsfälle
 
 >[!BEGINTABS]
->[!TAB Journey-Anwendungsfälle (ereignisgesteuert, in Echtzeit)]
+>[!TAB Journey (ereignisgesteuert, in Echtzeit)]
 
 - **Abbruch-Wiederherstellung:** Trigger personalisierte Nachrichten, wenn ein Benutzer einen Warenkorb, ein Formular oder eine Sitzung verlässt - per E-Mail, Push oder In-App.
 - **Neue Benutzerregistrierung:** Sie neue Benutzer sofort nach der Registrierung mit neuen Kontovoreinstellungen, relevanten Aktionen oder Vorteilen ein.
@@ -29,7 +29,7 @@ Dieser Blueprint skizziert die technischen Möglichkeiten des Programms und biet
 - **Kontextuelles Targeting:** Kommunizieren Sie mit Benutzern im Moment auf der Grundlage ihrer Signale und Standorte, um ihnen dabei zu helfen, ihr Erlebnis zu leiten und zu lenken
 - **Kontextueller Upsell/Crosssell** Stellen Sie personalisierte Angebote auf der Grundlage von Echtzeit-Profilattributen und aktuellen Interaktionen bereit.
 
->[!TAB Anwendungsfälle für die Kampagnenorchestrierung (geplant, markeninitiiert)]
+>[!TAB Kampagnenorchestrierung (geplant, markeninitiiert)]
 
 - **Werbekampagnen**: Starten Sie mehrstufige Multi-Channel-Kampagnen für Produkteinführungen, saisonale Angebote oder Verkaufsereignisse.
 - **Lebenszyklus-Marketing**: Automatisieren Sie wiederkehrende Kampagnen wie Geburtstagsnachrichten, Verlängerungserinnerungen oder Treue-Meilensteine.
@@ -94,12 +94,12 @@ Mobile Push:
 
 [[!DNL Journey Optimizer] Leitplanken - Produktlink](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=de)
+[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Verwandte Dokumentation
 
 - [[!DNL Experience Platform] Dokumentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 - [[!DNL Experience Platform] Tags-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
-- [[!DNL Experience Platform Mobile SDK] Dokumentation](https://experienceleague.adobe.com/docs/mobile.html?lang=de)
-- [[!DNL Journey Optimizer] Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=de)
+- [[!DNL Experience Platform Mobile SDK] Dokumentation](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)

@@ -42,9 +42,9 @@ Veranschaulicht, wie Adobe [!DNL Journey Optimizer] nativ mit Adobe [!DNL Campai
 
 ## Leitlinien
 
-* [Produktbeschränkungen für Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Produktbeschränkungen für Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Leitplanken und End-to-End-Latenzleitfäden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+* [Leitplanken und End-to-End-Latenzleitfäden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=de)
 
 ## Implementierungsschritte
 

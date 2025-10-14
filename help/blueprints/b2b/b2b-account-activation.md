@@ -56,7 +56,7 @@ Durch Account-basierte Interaktion können Marketing-Experten drei wichtige Anwe
    * Bis zu 30 Tage Ereignis-Lookback, keine Sortierung von Ereignis-Eigenschaften.
    * UND/ODER werden unterstützt (sodass Sie sagen können: „A und B müssen passieren,“  aber man kann nicht sagen „A muss 3 Tage vor B passieren„).
 * Bei Cloud-Speicher-Zielen unterstützt der Exportzeitplan die Option „Nach der Segmentevaluierung“.
-* [Leitplanken für B2B-Profile und ](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [Leitplanken für B2B-Profile und &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Implementierungsschritte für Real-time Customer Data Platform B2B edition, Erstellung und Aktivierung von Konto-Zielgruppen
 

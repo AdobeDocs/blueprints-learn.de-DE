@@ -102,14 +102,14 @@ Detaillierte Informationen zur Connector-Konfiguration und zur erforderlichen Fe
 
 ### Leitlinien
 
-Die Journey Optimizer B2B edition-Leitplanken werden auf der Seite [Produktbeschreibung“ ](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
+Die Journey Optimizer B2B edition-Leitplanken werden auf der Seite [Produktbeschreibung“ &#x200B;](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
 
 Leitplanken im Zusammenhang mit der Implementierung
 
 * Alle Leitplanken für B2B-Zielgruppen werden im Blueprint [B2B-Zielgruppen- und -Profilaktivierung](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2bactivation) beschrieben, der direkt auf den Erfolg von Journey Optimizer B2B edition übertragen wird.
 * Wenn die Aktivierung über Marketo Engage-Kanäle auf der Konto-Journey erforderlich ist oder wenn die CRM-Synchronisierung zur Anreicherung des Kontos verwendet wird, sind die [Leitplanken für Marketo Engage](https://helpx.adobe.com/de/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) relevant.
 
-Weitere Informationen zu Real-Time CDP-Leitplanken finden Sie in [ Dokumentation zu ](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/guardrails/overview)RTCDPLeitplanken .
+Weitere Informationen zu Real-Time CDP-Leitplanken finden Sie in [&#x200B; Dokumentation zu &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/guardrails/overview)RTCDPLeitplanken .
 
 ### Bereitstellung
 

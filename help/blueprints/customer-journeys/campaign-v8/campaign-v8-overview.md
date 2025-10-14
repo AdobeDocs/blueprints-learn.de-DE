@@ -143,5 +143,5 @@ Weitere Informationen für die ersten Schritte finden Sie im Handbuch [Implement
 
 - [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de)
 - [Produktbeschreibung zu Campaign v8](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Dokumentation zu Experience Platform Tags ](https://experienceleague.adobe.com/docs/launch.html?lang=de)
+- [Dokumentation zu Experience Platform Tags &#x200B;](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 - [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)

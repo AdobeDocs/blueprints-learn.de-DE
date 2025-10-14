@@ -51,13 +51,13 @@ In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Enga
 * Erstellen eines Datenwörterbuchs, das die Zuordnung zwischen Marketo-Feldern und dem Experience Platform-XDM-Schema definiert
    * Verwenden Sie die [Marketo](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/field-management/export-all-object-metadata)Objektmetadaten als Ausgangspunkt
    * [Anpassen des XDM-](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/fields/overview), um Ihre benutzerdefinierten Felder einzuschließen
-   * Überprüfen Sie die [ (XDM-Felder](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/accounts/field-mapping), die von Journey Optimizer B2B edition unterstützt werden. Wenn Sie zusätzliche Felder benötigen, öffnen Sie ein Support-Ticket, um sie konfigurieren zu lassen
+   * Überprüfen Sie die [&#x200B; (XDM-Felder](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/accounts/field-mapping), die von Journey Optimizer B2B edition unterstützt werden. Wenn Sie zusätzliche Felder benötigen, öffnen Sie ein Support-Ticket, um sie konfigurieren zu lassen
       * **workEmail.address** ist für den Personendatensatz erforderlich
       * **accountName** ist für den Kontodatensatz erforderlich
    * Fügen Sie eine neue XDM-Feldspalte zur exportierten Marketo-Metadaten-Tabelle hinzu, um die beabsichtigte Zuordnung aufzuzeichnen
 * Konfigurieren Sie den [Marketo Engage-Quell-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-   * Verwenden Sie das oben definierte Datenwörterbuch, um die [Importzuordnung“ ](https://experienceleague.adobe.com/de/docs/experience-platform/data-prep/ui/mapping#import-mapping) Quell-Connectors zu definieren
-   * Es wird nicht empfohlen, das Profil zu aktivieren, bevor die [Überlegungen zur Implementierung“ ](#implementation-considerations)
+   * Verwenden Sie das oben definierte Datenwörterbuch, um die [Importzuordnung“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/data-prep/ui/mapping#import-mapping) Quell-Connectors zu definieren
+   * Es wird nicht empfohlen, das Profil zu aktivieren, bevor die [Überlegungen zur Implementierung“ &#x200B;](#implementation-considerations)
    * Empfehlung, mindestens Personen, Unternehmen, Chancen und Aktivitäten aufzunehmen, da diese Objekte bei der Erstellung Ihrer Konto-Zielgruppen am nützlichsten sind
 * Implementieren [Verknüpfungsregeln für Identitätsdiagramme](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) für Personen:
    * Definieren, wie Personendatensätze mithilfe von Identity-Namespaces verknüpft werden.
@@ -80,7 +80,7 @@ Um die Implementierung zu optimieren und die Kompatibilität mit Adobe Journey O
 * **Verwenden von Standardzuordnungen für AJO B2B:**
    * Verwenden Sie die [Standardfeldzuordnungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/accounts/field-mapping) für Journey Optimizer B2B edition, um die Kompatibilität mit der Einkaufsgruppenlogik und der Journey-Orchestrierung sicherzustellen.
 * **Feldaktualisierungen für alle Felder außer E-Mail blockieren:**
-   * Konfigurieren Sie in Marketo Engage die Feldverwaltung so, [ Aktualisierungen für alle Felder ](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) Adobe Experience Platform blockiert werden (außer _E-Mail_. Dies hilft, die Datenintegrität aufrechtzuerhalten und gleichzeitig die Identitätsauflösung zu ermöglichen.
+   * Konfigurieren Sie in Marketo Engage die Feldverwaltung so, [&#x200B; Aktualisierungen für alle Felder &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) Adobe Experience Platform blockiert werden (außer _E-Mail_. Dies hilft, die Datenintegrität aufrechtzuerhalten und gleichzeitig die Identitätsauflösung zu ermöglichen.
 * **Implementieren von Identitätsverknüpfungsregeln mit E-Mail als eindeutigem Identity-Namespace**
    * Konfigurieren Sie [Regeln zur Identitätsdiagramm](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/overview)Verknüpfung) in Adobe Experience Platform so, dass _E-Mail_ explizit als eindeutiger Identity-Namespace verwendet wird. Diese Regeln stellen sicher, dass Profile korrekt über Datenquellen hinweg zugeordnet werden, in denen _E-Mail_ vorhanden ist, was eine robuste Identitätsauflösung ermöglicht. Gemäß den Best Practices von Adobe definieren Sie Verknüpfungsregeln, die E-Mail als stabile und global eindeutige Kennung priorisieren, um ein konsistentes und datenschutzkonformes Identitätsdiagramm zu erhalten.
 Diese Einrichtung bietet ein Gleichgewicht zwischen einfacher Bereitstellung und Data Governance und stellt eine zuverlässige Grundlage für die Orchestrierung von B2B-Journey sicher.
@@ -151,7 +151,7 @@ from
 
 #### E-Mail-Adressen mit doppelten Einträgen
 
-Diese Abfrage gibt die E-Mails mit den meisten doppelten Datensätzen im Datensatz zurück.  Diese Liste kann verwendet werden, um einige dieser Datensätze zu überprüfen, um besser zu verstehen, wie sich die Verknüpfung der Identitäten auf Marketo und CRM auswirken kann.  Weitere Informationen zur Funktionsweise [ Identitätsverknüpfung finden Sie ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home) „Identity Service - Übersicht“ .
+Diese Abfrage gibt die E-Mails mit den meisten doppelten Datensätzen im Datensatz zurück.  Diese Liste kann verwendet werden, um einige dieser Datensätze zu überprüfen, um besser zu verstehen, wie sich die Verknüpfung der Identitäten auf Marketo und CRM auswirken kann.  Weitere Informationen zur Funktionsweise [&#x200B; Identitätsverknüpfung finden Sie &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home) „Identity Service - Übersicht“ .
 
 ```sql
 select
@@ -188,7 +188,7 @@ order by
 
 #### E-Mail als Identität entfernen
 
-Wenn Sie nach der Analyse feststellen, dass E-Mail kein gültiges Feld ist, das als Identitätsfeld verwendet werden soll, kann das Personenschema geändert werden, um E-[ als Identitätsfeld zu entfernen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/fields/identity)
+Wenn Sie nach der Analyse feststellen, dass E-Mail kein gültiges Feld ist, das als Identitätsfeld verwendet werden soll, kann das Personenschema geändert werden, um E-[&#x200B; als Identitätsfeld zu entfernen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/fields/identity)
 
 #### Updates von Adobe Experience Platform blockieren
 

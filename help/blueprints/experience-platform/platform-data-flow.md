@@ -22,4 +22,4 @@ Das Diagramm unten veranschaulicht die verschiedenen Pfade für die Datenerfassu
 
 ## Datenein- und -ausgangsmuster
 
-Eine detaillierte Liste aller Datenaufnahme-, -erfassungs-, -eingangs- und -ausgangsmuster finden Sie unter [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/collection/home).
+Eine detaillierte Liste aller Datenaufnahme-, -erfassungs-, -eingangs- und -ausgangsmuster finden Sie unter [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home).

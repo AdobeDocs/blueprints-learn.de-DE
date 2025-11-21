@@ -52,7 +52,7 @@ ht-degree: 41%
 + Customer Journeys{#customer-journeys}
    + [Überblick](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer  ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [Journey von AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO-Kampagnen](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [Messaging von Drittanbietern](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -66,8 +66,8 @@ ht-degree: 41%
       + [Journey Optimizer mit Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Veraltete Blueprints{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/de/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP mit Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/de/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP mit Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Datenanalyse, Datenintelligenz und KI/ML {#data-exploration}

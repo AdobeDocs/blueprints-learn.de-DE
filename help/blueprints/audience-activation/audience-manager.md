@@ -44,4 +44,4 @@ Sowohl Audience Manager als auch Real-time Customer Data Platform können verwen
 
 ## Implementierungsschritte für Real-time Customer Data Platform
 
-* Informationen zu den Implementierungsschritten von Real-time Customer Data Platform finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home).
+* Informationen zu den Implementierungsschritten von Real-time Customer Data Platform finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).

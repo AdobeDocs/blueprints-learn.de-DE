@@ -48,7 +48,7 @@ In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Enga
    * [Postman-Sammlung verwenden](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}
    * Verwenden [Vorlagen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/templates) in der Platform-Benutzeroberfläche
 1. Erstellen Sie nach Bedarf relationale Schemata zur Darstellung von Geschäftsentitäten wie Käufen, Lizenzen oder Ereignisregistrierungen für Journey-Entscheidungen und E-Mail-Personalisierung.
-1. Schließen Sie die [XDM-Konfiguration“ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}.
+1. Schließen Sie die [XDM-Konfiguration“ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}.
    * Überprüfen Sie den Satz von XDM-Standardfeldern, die in Journey Optimizer B2B edition standardmäßig ausgewählt sind und auch als „verwaltete _&quot; bezeichnet_. Überprüfen Sie den Satz verwalteter Felder, indem Sie zu XDM-Konfiguration in **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]** wechseln.
       * Wählen Sie die Registerkarte **[!UICONTROL Standard]** aus und klicken Sie dann **[!UICONTROL Verwaltete Felder bearbeiten]** sowohl für XDM Individual Profile als auch für XDM Business Account.
       * Wählen Sie die Option **[!UICONTROL Nur ausgewählte Felder anzeigen]**, um die aktuelle Liste der ausgewählten Felder anzuzeigen.
@@ -65,7 +65,7 @@ In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Enga
       * Wählen Sie die Registerkarte **[!UICONTROL Ereignisse]** aus und klicken Sie dann auf **[!UICONTROL Erlebnisereignis auswählen]**.
       * Wählen Sie Erlebnisereignis und Felder aus, die Sie verwenden möchten.
 1. Konfigurieren Sie den [Marketo Engage-Quell-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
-   * Verwenden Sie das Datenwörterbuch, um die [Importzuordnung“ ](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/ui/mapping#import-mapping) Quell-Connectors zu definieren.
+   * Verwenden Sie das Datenwörterbuch, um die [Importzuordnung“ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/ui/mapping#import-mapping) Quell-Connectors zu definieren.
    * Es wird empfohlen, das Profil nicht zu aktivieren, bevor die [Überlegungen zur Implementierung](#implementation-considerations) berücksichtigt wurden.
    * Es wird außerdem empfohlen, mindestens Personen, Unternehmen, Chancen und Aktivitäten aufzunehmen, da diese Objekte bei der Erstellung Ihrer Konto-Zielgruppen am nützlichsten sind.
 1. Implementieren [Verknüpfungsregeln für Identitätsdiagramme](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) für Personen:
@@ -89,7 +89,7 @@ Um die Implementierung zu optimieren und die Kompatibilität mit Adobe Journey O
 * **Verwenden von Standardzuordnungen für AJO B2B:**
    * Verwenden Sie die [Standardfeldzuordnungen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) für Journey Optimizer B2B edition, um die Kompatibilität mit der Einkaufsgruppenlogik und der Journey-Orchestrierung sicherzustellen.
 * **Feldaktualisierungen für alle Felder außer E-Mail blockieren:**
-   * Konfigurieren Sie in Marketo Engage die Feldverwaltung so, [ Aktualisierungen für alle Felder ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) Adobe Experience Platform blockiert werden (außer _E-Mail_. Dies hilft, die Datenintegrität aufrechtzuerhalten und gleichzeitig die Identitätsauflösung zu ermöglichen.
+   * Konfigurieren Sie in Marketo Engage die Feldverwaltung so, [&#x200B; Aktualisierungen für alle Felder &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) Adobe Experience Platform blockiert werden (außer _E-Mail_. Dies hilft, die Datenintegrität aufrechtzuerhalten und gleichzeitig die Identitätsauflösung zu ermöglichen.
 * **Implementieren von Identitätsverknüpfungsregeln mit E-Mail als eindeutigem Identity-Namespace**
    * Konfigurieren Sie [Regeln zur Identitätsdiagramm](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview)Verknüpfung) in Adobe Experience Platform so, dass _E-Mail_ explizit als eindeutiger Identity-Namespace verwendet wird. Diese Regeln stellen sicher, dass Profile korrekt über Datenquellen hinweg zugeordnet werden, in denen _E-Mail_ vorhanden ist, was eine robuste Identitätsauflösung ermöglicht. Gemäß den Best Practices von Adobe definieren Sie Verknüpfungsregeln, die E-Mail als stabile und global eindeutige Kennung priorisieren, um ein konsistentes und datenschutzkonformes Identitätsdiagramm zu erhalten.
 Diese Einrichtung bietet ein Gleichgewicht zwischen einfacher Bereitstellung und Data Governance und stellt eine zuverlässige Grundlage für die Orchestrierung von B2B-Journey sicher.
@@ -160,7 +160,7 @@ from
 
 #### E-Mail-Adressen mit doppelten Einträgen
 
-Diese Abfrage gibt die E-Mails mit den meisten doppelten Datensätzen im Datensatz zurück.  Diese Liste kann verwendet werden, um einige dieser Datensätze zu überprüfen, um besser zu verstehen, wie sich die Verknüpfung der Identitäten auf Marketo und CRM auswirken kann.  Weitere Informationen zur Funktionsweise [ Identitätsverknüpfung finden Sie ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) „Identity Service - Übersicht“ .
+Diese Abfrage gibt die E-Mails mit den meisten doppelten Datensätzen im Datensatz zurück.  Diese Liste kann verwendet werden, um einige dieser Datensätze zu überprüfen, um besser zu verstehen, wie sich die Verknüpfung der Identitäten auf Marketo und CRM auswirken kann.  Weitere Informationen zur Funktionsweise [&#x200B; Identitätsverknüpfung finden Sie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) „Identity Service - Übersicht“ .
 
 ```sql
 select
@@ -197,7 +197,7 @@ order by
 
 #### E-Mail als Identität entfernen
 
-Wenn Sie nach der Analyse feststellen, dass E-Mail kein gültiges Feld ist, das als Identitätsfeld verwendet werden soll, kann das Personenschema geändert werden, um E-[ als Identitätsfeld zu entfernen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity)
+Wenn Sie nach der Analyse feststellen, dass E-Mail kein gültiges Feld ist, das als Identitätsfeld verwendet werden soll, kann das Personenschema geändert werden, um E-[&#x200B; als Identitätsfeld zu entfernen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity)
 
 #### Updates von Adobe Experience Platform blockieren
 

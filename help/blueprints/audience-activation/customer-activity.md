@@ -21,7 +21,7 @@ Mit dieser Funktion können Sie auf umfangreichen Kontext zugreifen, wenn ein Ku
 
 >[!NOTE]
 >
->Die Profilsuche im Hub ist nicht für Anwendungsfälle mit hohem Durchsatz und geringer Latenz vorgesehen, wie z. B. Personalisierung eingehender Web-/Mobilgeräte. Die Profilsuche im Hub ist für Szenarien mit niedrigerer Latenz vorgesehen, wie z. B. Support durch Agenten oder Vertriebsinteraktionen. Für Szenarien mit geringer Latenz, hohem Durchsatz, wie Web-/Mobile-Personalisierung oder Echtzeit-Offer Decisioning, sollte das Edge-Profil genutzt werden. Das Edge-Profil ermöglicht den Echtzeitzugriff über die [benutzerdefinierte Personalization-Verbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) von Real-time Customer Data Platform.
+>Die Profilsuche im Hub ist nicht für Anwendungsfälle mit hohem Durchsatz und geringer Latenz vorgesehen, wie z. B. Personalisierung eingehender Web-/Mobilgeräte. Die Profilsuche im Hub ist für Szenarien mit niedrigerer Latenz vorgesehen, wie z. B. Support durch Agenten oder Vertriebsinteraktionen. Für Szenarien mit geringer Latenz, hohem Durchsatz, wie Web-/Mobile-Personalisierung oder Echtzeit-Offer Decisioning, sollte das Edge-Profil genutzt werden. Das Edge-Profil ermöglicht den Echtzeitzugriff über die [benutzerdefinierte Personalization-Verbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/personalization/custom-personalization) von Real-time Customer Data Platform.
 
 ## Anwendungsfälle
 

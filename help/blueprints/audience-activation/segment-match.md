@@ -1,16 +1,16 @@
 ---
-title: Blueprint zu Segment Match
+title: Zielgruppen-Collaboration mit Segment Match
 description: Erfahren Sie mehr zu [!UICONTROL Segment Match] in Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Sie Segmentdaten auf der Basis gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2123'
 ht-degree: 80%
 
 ---
 
-# Blueprint zu Segment Match
+# Zielgruppen-Collaboration mit Segment Match-Blueprint
 
 Segment Match ermöglicht es Partnermarken, Zielgruppen über ihre Experience Platform-Umgebungen freizugeben. Der Schlüssel zu erfolgreicher Geschäftstätigkeit ist die Pflege von Kundenbeziehungen mithilfe von Daten, die über den direkten Kontakt mit Verbrauchern und Verbraucherinnen erfasst werden. Marketer haben nun die Möglichkeit, durch innovative Systeme zur Verwaltung von Daten-Governance, Berechtigungen und Einstellungen und durch die Zusammenarbeit mit Partnern eine präzisere Auswahl ihrer durch First-Party-Daten authentifizierten Zielgruppen zu treffen.
 

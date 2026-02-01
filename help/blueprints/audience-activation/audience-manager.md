@@ -1,5 +1,5 @@
 ---
-title: Audience Manager-Blueprint
+title: Gerätebasiert - Anonymes Audience-Targeting mit Audience Manager
 description: Erfahren Sie, wie Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg identifizieren. So erstellen Sie personalisierte und konsistente Echtzeit-Kundenerlebnisse auf allen Geräten.
 landing-page-description: Erfahren Sie, wie Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg identifizieren.
 short-description: Erfahren Sie, wie Sie Zielgruppen basierend auf anonymen und verhaltensbasierten Kundendaten über Web- und Werbekanäle hinweg identifizieren.
@@ -7,14 +7,14 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '246'
+ht-degree: 89%
 
 ---
 
-# Audience Manager-Blueprint
+# Gerätebasiert - Anonymes Audience-Targeting mit Audience Manager
 
 Die anonyme Zielgruppenaktivierung ermöglicht es Ihnen, Zielgruppen über Web-, Mobile- und Werbekanäle hinweg auf der Grundlage anonymer Geräte- und Verhaltensdaten anzusprechen und zu personalisieren.
 
@@ -44,4 +44,4 @@ Sowohl Audience Manager als auch Real-time Customer Data Platform können verwen
 
 ## Implementierungsschritte für Real-time Customer Data Platform
 
-* Informationen zu den Implementierungsschritten von Real-time Customer Data Platform finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home).
+* Informationen zu den Implementierungsschritten von Real-time Customer Data Platform finden Sie in der folgenden [Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).

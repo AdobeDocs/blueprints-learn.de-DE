@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # Echtzeit-Profilzugriff für Support- und Vertriebsszenarien
 
-Der Blueprint „Echtzeit-Profilzugriff für Support- und Vertriebsszenarien“ zeigt, wie externe Anwendungen auf das Echtzeit[!UICONTROL Kundenprofil von Adobe Experience Platform zugreifen ].
+Der Blueprint „Echtzeit-Profilzugriff für Support- und Vertriebsszenarien“ zeigt, wie externe Anwendungen auf das Echtzeit[!UICONTROL Kundenprofil von Adobe Experience Platform zugreifen &#x200B;].
 
 Externe Programme können über API-GET-Anfragen auf Profile zugreifen. Attribute, Ereignisse, Segmentzugehörigkeiten und modellgestützte Funktionen, die im Profil gespeichert sind, können dann in diesen externen Drittanbieterprogrammen verwendet werden.
 

@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Echtzeit-Edge-Profilzugriff für Web- und Mobile-Personalization
 
-Der Blueprint „Echtzeit-Edge-Profilzugriff für Web und Mobile Personalization&quot; zeigt, wie Web- und mobile Anwendungen [!UICONTROL  Echtzeit-Kundenprofil von Adobe Experience Platform ] können, um Personalisierung mit hohem Durchsatz und geringer Latenz zu ermöglichen.
+Der Blueprint „Echtzeit-Edge-Profilzugriff für Web und Mobile Personalization&quot; zeigt, wie Web- und mobile Anwendungen [!UICONTROL &#x200B; Echtzeit-Kundenprofil von Adobe Experience Platform &#x200B;] können, um Personalisierung mit hohem Durchsatz und geringer Latenz zu ermöglichen.
 
 Anwendungen können am Edge mit Millisekunden-Latenz auf Echtzeit-Profilattribute und Zielgruppen zugreifen. Attribute, Zielgruppenzugehörigkeiten und modellgesteuerte Funktionen, die im Profil als Attribute gespeichert sind, können in Echtzeit für die Personalisierung der gleichen Seite und der nächsten Seite über Web- und mobile Kanäle aufgerufen werden.
 
@@ -47,7 +47,7 @@ Dieser Blueprint erfordert die Verwendung einer der folgenden Datenerfassungsmet
 
 >[!IMPORTANT]
 >
->Bevor Sie die Edge-Personalisierung implementieren, lesen Sie das Handbuch zum Aktivieren [ Zielgruppendaten für Edge-Personalisierungsziele ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations). Dieses Handbuch führt Sie durch die erforderlichen Konfigurationsschritte für die Anwendungsfälle der Personalisierung der gleichen Seite und der nächsten Seite für mehrere Experience Platform-Komponenten.
+>Bevor Sie die Edge-Personalisierung implementieren, lesen Sie das Handbuch zum Aktivieren [&#x200B; Zielgruppendaten für Edge-Personalisierungsziele &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations). Dieses Handbuch führt Sie durch die erforderlichen Konfigurationsschritte für die Anwendungsfälle der Personalisierung der gleichen Seite und der nächsten Seite für mehrere Experience Platform-Komponenten.
 
 ## Architekturdiagramm
 
@@ -70,14 +70,14 @@ Die Edge-Personalisierung kann mit dem Ziel [Benutzerdefinierte Personalization-
 * Dieser Ansatz bietet niedrige Latenz und beste Leistung für die Edge-Personalisierung basierend auf Zielgruppenmitgliedschaften.
 * Für die Echtzeit-Edge-Segmentierung ist die Implementierung von Web/Mobile SDK erforderlich.
 * Web SDK und Mobile SDK **unterstützen nur Personalisierung basierend auf der Zielgruppenzugehörigkeit**.
-* [ Informationen zur SDK-basierten Implementierung finden Sie ](../experience-platform/deployment/websdk.md) Experience Platform Web and Mobile SDK Blueprint .
+* [&#x200B; Informationen zur SDK-basierten Implementierung finden Sie &#x200B;](../experience-platform/deployment/websdk.md) Experience Platform Web and Mobile SDK Blueprint .
 * Für die Implementierung von Mobile SDK muss die Erweiterung [Adobe Journey Optimizer - Decisioning](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) in der Mobile SDK installiert werden.
 
 ### Muster 2: Attributbasierte Personalisierung mit Edge Network Server-API (erforderlich für Profilattribute)
 
 >[!IMPORTANT]
 >
->**Attributbasierte Personalisierungsanforderungen:** Wenn Sie eine Personalisierung anhand von Profilattributen (nicht nur der Zielgruppenzugehörigkeit) vornehmen möchten, **** Sie die [Edge Network-Server-](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) mit authentifizierter serverseitiger Integration verwenden, unabhängig davon, ob Sie auch Web SDK oder Mobile SDK für die Datenerfassung verwenden.
+>**Attributbasierte Personalisierungsanforderungen:** Wenn Sie eine Personalisierung anhand von Profilattributen (nicht nur der Zielgruppenzugehörigkeit) vornehmen möchten, **&#x200B;**&#x200B;Sie die [Edge Network-Server-](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) mit authentifizierter serverseitiger Integration verwenden, unabhängig davon, ob Sie auch Web SDK oder Mobile SDK für die Datenerfassung verwenden.
 
 * Ermöglicht die Integration mit Personalisierungs-Engines von Drittanbietern und CDN-basierter Personalisierung.
 * Die Edge Network-Server **API ist erforderlich** um Profilattribute für die Personalisierung sicher abzurufen.
@@ -116,7 +116,7 @@ Die Edge-Personalisierung kann mit dem Ziel [Benutzerdefinierte Personalization-
 
 >[!IMPORTANT]
 >
->Profilattribute können vertrauliche Daten enthalten. Um diese Daten zu schützen, **müssen** beim Konfigurieren des benutzerdefinierten Personalization-Ziels für [ Attribut-basierte Personalisierung die ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)Edge Network-Server-API verwenden. Alle Aufrufe der Edge Network Server-API müssen in einem authentifizierten Kontext erfolgen.
+>Profilattribute können vertrauliche Daten enthalten. Um diese Daten zu schützen, **müssen** beim Konfigurieren des benutzerdefinierten Personalization-Ziels für [&#x200B; Attribut-basierte Personalisierung die &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)Edge Network-Server-API verwenden. Alle Aufrufe der Edge Network Server-API müssen in einem authentifizierten Kontext erfolgen.
 
 * Für die attributbasierte Personalisierung mit Profilattributen müssen Sie eine serverseitige Integration mit der Edge Network-Server-API hinzufügen, die denselben Datenstrom verwendet, den Sie für Ihre Web- oder mobile SDK-Implementierung verwenden.
 * Sie müssen konfigurieren, welche Profilattribute über die benutzerdefinierte Personalization-Verbindungszielkonfiguration in die Edge-Projektion einbezogen werden sollen.
@@ -144,7 +144,7 @@ Die Edge-Personalisierung kann mit dem Ziel [Benutzerdefinierte Personalization-
 * [Dokumentation zu Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
 * [Dokumentation zu Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)
 * [Dokumentation zur Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)
-* [Dokumentation zu Experience Platform Tags ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
+* [Dokumentation zu Experience Platform Tags &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
 * [Befehlsantworten in Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)
 
 ### Dokumentation zu Profilen und Segmentierung

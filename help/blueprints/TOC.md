@@ -53,7 +53,7 @@ ht-degree: 35%
 + Customer Journeys{#customer-journeys}
    + [Überblick](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [Journey von AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO-Kampagnen](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [Messaging von Drittanbietern](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)

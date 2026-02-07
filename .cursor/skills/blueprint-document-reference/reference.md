@@ -15,7 +15,7 @@ ht-degree: 2%
 | **Szenario-Blueprint** | Einzelner Anwendungsfall: Architektur, Schritte, Leitplanken | z. B. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **TOC** | Navigation; nicht als Inhaltsvorlage verwenden | `help/blueprints/TOC.md` |
 
----
+&#x200B;---
 
 ## Vollständiger Abschnitt
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 - **Blueprint-Szenarien** oder **Integrationsmuster**: Tabelle mit Szenarionamen, Kurzbeschreibung und Link zur Szenario-Blueprint.
 - **Voraussetzungen**, **Leitplanken**, **Verwandte Dokumentation**: Wie oben; kurz halten.
 
----
+&#x200B;---
 
 ## Adobe Experience League - Agenten-Anleitungen
 
@@ -110,7 +110,7 @@ Beispiel:
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
----
+&#x200B;---
 
 ## Repository und Inhaltsverzeichnis
 
@@ -118,7 +118,7 @@ Beispiel:
 - **Assets**: Verwenden Sie die Blueprint (z. B. `assets/`, `images/`) oder einen freigegebenen Ordner (z. B. `experience-platform/assets/`).
 - **TOC**: `help/blueprints/TOC.md` beim Hinzufügen, Umbenennen oder Verschieben von Blueprint-Seiten bearbeiten. Bewahren Sie die Frontansicht (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) und die `+` Hierarchie auf.
 
----
+&#x200B;---
 
 ## Beispielverweise in diesem Repository
 

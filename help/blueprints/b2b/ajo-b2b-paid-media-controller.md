@@ -67,8 +67,8 @@ Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig.
 
 ### Leitlinien
 
-- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
-- **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
+- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
+- **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
 
 ## Implementierung
 
@@ -121,6 +121,6 @@ Der Blueprint **Paid Media Controller** zeigt, wie **AJO B2B und AEP** zusammena
 
 ## Verwandte Dokumentation
 
-- [Kaufen von Blueprint für gruppenbasiertes Marketing und Journey-Management](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Konto- und Kaufen von Journey-Gruppen in AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) - Produktdokumentation.
+- [Kaufen von Blueprint für gruppenbasiertes Marketing und Journey-Management](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Konto- und Kaufen von Journey-Gruppen in AJO B2B.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b) - Produktdokumentation.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - Kontozielgruppen und -aktivierung.

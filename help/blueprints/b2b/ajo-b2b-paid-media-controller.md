@@ -1,10 +1,14 @@
 ---
-source-git-commit: 9d0eebd5d84671db1c86d73e7e0de50cb926235d
+title: Bezahlter AJO B2B-Medien-Controller
+description: Priorität von Kampagnen und Aktivierung von Konten für Paid-Media-Ziele
+solution: Journey Optimizer B2B Edition
+source-git-commit: dff5608af92fa1140419d6834d8374df75de98d3
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
+
 # Überblick
 
 Marketing-Teams, die skalierte, bezahlte B2B-Medien betreiben, stehen vor einem wiederkehrenden Problem: **Konten landen gleichzeitig in mehreren Kampagnen** (Persona, Kategorieerkennung, lösungsgesteuert, Verfolgung), was das Messaging verwässert, zu Zielgruppenermüdung führt und manuelle Listenarbeit - Uploads, Ausschlüsse und Unterdrückung - über LinkedIn Account Match (Account-Ziel) erzwingt. Ohne **Wasserfallpriorisierung** und **automatisierte Kampagnenzuweisung** kann nicht an einer Stelle entschieden werden, welches Konto welche Nachricht erhält, und Vorgänge werden nicht skaliert.
@@ -67,8 +71,8 @@ Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig.
 
 ### Leitlinien
 
-- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
-- **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
+- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
+- **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
 
 ## Implementierung
 
@@ -121,6 +125,6 @@ Der Blueprint **Paid Media Controller** zeigt, wie **AJO B2B und AEP** zusammena
 
 ## Verwandte Dokumentation
 
-- [Kaufen von Blueprint für gruppenbasiertes Marketing und Journey-Management](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Konto- und Kaufen von Journey-Gruppen in AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b) - Produktdokumentation.
+- [Kaufen von Blueprint für gruppenbasiertes Marketing und Journey-Management](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Konto- und Kaufen von Journey-Gruppen in AJO B2B.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) - Produktdokumentation.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - Kontozielgruppen und -aktivierung.

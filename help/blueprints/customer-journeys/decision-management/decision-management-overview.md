@@ -3,18 +3,18 @@ title: 'Blueprints: Entscheidungs-Management'
 description: Bereitstellung personalisierter Angebote für alle Customer Journeys.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
-# Journey Optimizer - Blueprints für das Entscheidungs-Management
+# Journey Optimizer – Blueprints zu Entscheidungs-Management
 
 Weitere Informationen finden Sie in der folgenden Dokumentation zu [Entscheidungs-Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de)
 
-In der folgenden Dokumentation finden Sie Leitplanken im Zusammenhang mit dem Entscheidungs-Management. [Leitplanken für das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+In der folgenden Dokumentation finden Sie Leitplanken im Zusammenhang mit dem Entscheidungs-Management. [Leitplanken für das Entscheidungs-Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 Das Entscheidungs-Management von Adobe ist ein Service, der im Rahmen von Adobe Journey Optimizer bereitgestellt wird. In dieser Blueprint werden die Anwendungsfälle und technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von und Überlegungen zu Entscheidungs-Management eingehend erläutert.
 

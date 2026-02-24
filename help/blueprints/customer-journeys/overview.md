@@ -3,14 +3,14 @@ title: Customer-Journey-Blueprints
 description: Liefern Sie individuelle, zeitgenaue und abgestimmte Kundenerlebnisse über Bildschirme hinweg.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# Kunden-Journey - Blueprints
+# Customer-Journey-Blueprints
 
 Moderne Marketing-Teams benötigen Plattformen, die sowohl die reaktive Interaktion - die Reaktion auf individuelle Kundenverhaltensweisen - als auch die proaktive Öffentlichkeitsarbeit unterstützen. Dies führt zu Kampagnen, die Zielgruppen in Konversionstrichter führen. Diese Anwendungsfälle umfassen Kanäle wie E-Mail, SMS, Push-Benachrichtigungen und zunehmend auch Web- und In-App-Erlebnisse.
 

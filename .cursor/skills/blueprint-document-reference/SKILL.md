@@ -98,7 +98,7 @@ Verwenden Sie für Übersichts- oder Hub-Seiten eine kürzere Struktur: Einführ
 ## Verweisen auf Adobe Experience League
 
 - **Wann eine Verknüpfung erstellt**: Verknüpfung zu Experience League für Produktdokumentation, API-Referenzen, Leitplanken, Tutorials und Konfigurationsschritte. Keine langwierigen Verfahren duplizieren; zusammenfassen und verknüpfen.
-- **URL-**: Verwenden Sie vollständige URLs. Bevorzugen Sie `https://experienceleague.adobe.com/docs/...` oder `https://experienceleague.adobe.com/en/docs/...`. Für Entwicklerdokumente ist `https://developer.adobe.com/...` ebenfalls gültig.
+- **URL-**: Verwenden Sie vollständige URLs. Bevorzugen Sie `https://experienceleague.adobe.com/docs/?lang=de...` oder `https://experienceleague.adobe.com/de/docs/...`. Für Entwicklerdokumente ist `https://developer.adobe.com/...` ebenfalls gültig.
 - **Verknüpfungstext**: Verwenden Sie einen beschreibenden Text (z. B. &quot;[Schemata erstellen] (url) und nicht „Hier klicken„). Für Produktnamen im Link-Text verwenden Sie gegebenenfalls `[!DNL Product Name]`.
 - **Abschnitt zur zugehörigen Dokumentation**: Beenden Sie Blueprints mit dem Abschnitt „Verwandte Dokumentation“, in dem Links nach Kategorie gruppiert sind (z. B. Zielkonfigurationen, SDK-Dokumentation, Profil und Segmentierung, Tutorials).
 

@@ -37,228 +37,23 @@ Behalten Sie nach dem crawlen die Schlüsselregeln und Richtlinien sofort in Ihr
 
 Ihr Agentenspeicher enthält zwar die vollständigen crawlen Richtlinien, hier sind jedoch die grundlegenden Kategorien aufgeführt, die Sie immer überprüfen müssen:
 
-### &#x200B;1. Metadaten und Titelmaterie
-- Dateien müssen die richtige YAML-Frontanzeige mit erforderlichen Feldern enthalten (Titel, Beschreibung, Lösung, Rolle, Ebene usw.)
-- Der Titel sollte kurz und beschreibend sein und Best Practices für SEO befolgen
-- Beschreibung muss 60-160 Zeichen lang sein
+### &#x200B;1. Metadaten und Titelmaterie- Dateien müssen die richtige YAML-Frontanzeige mit erforderlichen Feldern enthalten (Titel, Beschreibung, Lösung, Rolle, Ebene usw.)- Der Titel sollte kurz und beschreibend sein und Best Practices für SEO befolgen- Beschreibung muss 60-160 Zeichen lang sein
 
-### &#x200B;2. Markdown-Syntax (Adobe-verfeinert)
-- Verwenden der spezifischen Markdown-Erweiterungen von Adobe (z. B. `>[!NOTE]`, `>[!TIP]`, `>[!WARNING]`, `>[!CAUTION]`, `>[!IMPORTANT]`)
-- DNL-Tags (Nicht lokalisieren): `[!DNL ProductName]` für Produktnamen, die nicht übersetzt werden sollen
-- UICONTROL-Tags: `[!UICONTROL Button Label]` für Benutzeroberflächenelement-Verweise
-- Badge-Syntax zum Kennzeichnen des Inhaltsstatus
-- Ordnungsgemäße Überschriftenhierarchie (H1 nur einmal, sequenzielle Verschachtelung)
+### &#x200B;2. Markdown-Syntax (Adobe-verfeinert)- Verwenden der spezifischen Markdown-Erweiterungen von Adobe (z. B. `>[!NOTE]`, `>[!TIP]`, `>[!WARNING]`, `>[!CAUTION]`, `>[!IMPORTANT]`)- DNL-Tags (Nicht lokalisieren): `[!DNL ProductName]` für Produktnamen, die nicht übersetzt werden sollen- UICONTROL-Tags: `[!UICONTROL Button Label]` für Benutzeroberflächenelement-Verweise- Badge-Syntax zum Kennzeichnen des Inhaltsstatus- Ordnungsgemäße Überschriftenhierarchie (H1 nur einmal, sequenzielle Verschachtelung)
 
-### &#x200B;3. Formatierungsstandards
-- Verwenden von Überschriften im ATX-Stil (`#` Syntax, nicht Unterstrichsyntax)
-- Ein H1 pro Dokument (wird normalerweise automatisch aus Titel-Metadaten generiert)
-- Sortierte und ungeordnete Listenformatierung
-- Tabellenausrichtung und -formatierung
-- Codeblöcke mit Sprachkennungen
-- Korrektes Maskieren von Sonderzeichen
+### &#x200B;3. Formatierungsstandards- Verwenden von Überschriften im ATX-Stil (`#` Syntax, nicht Unterstrichsyntax)- Ein H1 pro Dokument (wird normalerweise automatisch aus Titel-Metadaten generiert)- Sortierte und ungeordnete Listenformatierung- Tabellenausrichtung und -formatierung- Codeblöcke mit Sprachkennungen- Korrektes Maskieren von Sonderzeichen
 
-### &#x200B;4. Links und Verweise
-- Relative Links für die interne Dokumentation
-- Korrekte Querverweissyntax
-- Externe Links sollten gegebenenfalls auf neuen Registerkarten geöffnet werden
-- Beschädigte oder inaktive Links vermeiden
-- Definierte Verknüpfungsmuster verwenden
+### &#x200B;4. Links und Verweise- Relative Links für die interne Dokumentation- Korrekte Querverweissyntax- Externe Links sollten gegebenenfalls auf neuen Registerkarten geöffnet werden- Beschädigte oder inaktive Links vermeiden- Definierte Verknüpfungsmuster verwenden
 
-### &#x200B;5. Bilder und Medien
-- Alternativtext ist für alle Bilder erforderlich
-- Konventionen für den Bildpfad
-- Benennungskonventionen für Bilddateien (Kleinbuchstaben, Bindestriche)
-- Geeignete Bildgröße und -format
+### &#x200B;5. Bilder und Medien- Alternativtext ist für alle Bilder erforderlich- Konventionen für den Bildpfad- Benennungskonventionen für Bilddateien (Kleinbuchstaben, Bindestriche)- Geeignete Bildgröße und -format
 
-### &#x200B;6. Content-Qualität
-- Aktive Stimme bevorzugt
-- Zweite Person („Sie„) für Anleitungsinhalte
-- Konsistente Terminologie
-- Groß-/Kleinschreibung des Produktnamens
-- Jargon ohne Erklärung vermeiden
-- Die Schritte sollten nummeriert und ausführbar sein
+### &#x200B;6. Content-Qualität- Aktive Stimme bevorzugt- Zweite Person („Sie„) für Anleitungsinhalte- Konsistente Terminologie- Groß-/Kleinschreibung des Produktnamens- Jargon ohne Erklärung vermeiden- Die Schritte sollten nummeriert und ausführbar sein
 
-### &#x200B;7. Datei- und Ordnerkonventionen
-- Dateinamen in Kleinbuchstaben mit Bindestrichen (keine Leerzeichen oder Unterstriche)
-- Logische Ordnerhierarchie
-- Einhaltung der TOC-Dateistruktur
+### &#x200B;7. Datei- und Ordnerkonventionen- Dateinamen in Kleinbuchstaben mit Bindestrichen (keine Leerzeichen oder Unterstriche)- Logische Ordnerhierarchie- Einhaltung der TOC-Dateistruktur
 
-### &#x200B;8. Gültige Produktwerte
-„Produkt“:
-- „Adobe Analytics“
-- &quot;Adobe Analytics
-- „Analytics“
-- „Analytics“
-- „AA“
-- „Adobe Audience Manager“
-- &quot;Adobe Audience Manager
-- „Audience Manager“
-- &quot;Audience Manager
-- „Adobe Campaign“
-- &quot;Adobe Campaign
-- „Kampagne“
-- „Kampagne“
-- „AC“
-- „Adobe Experience Manager“
-- &quot;Adobe Experience Manager
-- „Experience Manager“
-- &quot;Experience Manager
-- AEM
-- „Adobe Experience Manager Cloud Manager“
-- &quot;Adobe Experience Manager Cloud Manager&quot;
-- „Experience Manager Cloud Manager“
-- &quot;Experience Manager Cloud Manager&quot;
-- „cm“
-- „Adobe Livefyre“
-- &quot;Adobe Livefyre“
-- „Livefyre“
-- „Livefyre“
-- „ALF“
-- „Adobe Marketing Cloud“
-- „Marketing Cloud“
-- „Experience Cloud“
-- Experience Cloud
-- &quot;Experience Cloud
-- „Zentrale Dienste“
-- „AMC“
-- „Adobe Advertising Cloud“
-- &quot;Adobe Advertising Cloud“
-- „Advertising Cloud“
-- „Advertising Cloud“
-- „ADC“
-- Adobe Media Optimizer
-- Adobe Media Optimizer
-- „Media Optimizer“
-- „Media Optimizer“
-- „AMO“
-- „Adobe Target“
-- &quot;Adobe Target
-- „Zielgruppe“
-- „Zielgruppe“
-- „at“
-- „Adobe Dynamic Tag Management“
-- „Dynamic Tag Management“
-- „DTM“
-- „Adobe Experience Platform“
-- &quot;Adobe Experience Platform
-- „Experience Platform“
-- &quot;Experience Platform
-- „Plattform“
-- „Plattform“
-- „Adobe Customer Journey Analytics“
-- &quot;Adobe Customer Journey Analytics
-- „Customer Journey Analytics“
-- &quot;Customer Journey Analytics
-- „CJA“
-- „Adobe Intelligent Services“
-- Adobe Intelligent Services
-- „Intelligent Services“
-- Intelligent Services
-- „ist“
-- „Adobe Real-time Customer Data Platform“
-- &quot;Adobe Real-time Customer Data Platform“
-- „Real-Time CDP“
-- „Real-Time CDP“
-- „RTCDP“
-- „Adobe Marketo“
-- &quot;Adobe Marketo&quot;
-- „Marketo“
-- &quot;Marketo
-- „AMK“
-- „Adobe Bizible“
-- &quot;Adobe Bizible“
-- „Bizible“
-- „Bizible“
-- Biz
-- „Adobe Magento“
-- &quot;Adobe Magento&quot;
-- „Magento“
-- &quot;Magento
-- „Mag“
-- Adobe Acrobat
-- &quot;Adobe Acrobat
-- „Acrobat“
-- &quot;Acrobat
-- „ACR“
-- „Adobe Sign“
-- „Adobe Sign“
-- „Zeichen“
-- „Signieren“
-- „ASI“
-- „Adobe Document Cloud“
-- &quot;Adobe Document Cloud
-- „Document Cloud“
-- &quot;Document Cloud
-- „DCL“
-- „Adobe Search and Promote“
-- &quot;Adobe Search and Promote“
-- „Suchen und Bewerben“
-- „Suchen und Bewerben“
-- „ASP“
-- „Adobe Dynamic Media Classic“
-- &quot;Adobe Dynamic Media Classic
-- Dynamic Media Classic
-- &quot;Dynamic Media Classic
-- „DMC“
-- „Adobe Launch“
-- &quot;Adobe Launch“
-- „Launch“
-- „Starten“
-- „Adobe Primetime“
-- „Adobe Primetime“
-- „Primetime“
-- „Primetime“
-- „Adobe Social“
-- „Sozial“
-- „Auditor“
-- „Auditor“
-- „Adobe Journey Orchestration“
-- &quot;Adobe Journey Orchestration&quot;
-- &quot;Journey Orchestration“
-- &quot;Journey Orchestration
-- „JO“
-- „Adobe-Gerätekooperation“
-- &quot;Adobe Device Co-op“
-- „Gerätekooperation“
-- „Gerätekooperation“
-- „DCP“
-- „Adobe Debugger“
-- &quot;Adobe Debugger
-- „Debugger“
-- „Debugger“
-- „dbg“
-- „Adobe Web SDK“
-- &quot;Adobe Web SDK&quot;
-- „Web SDK“
-- „Web-SDK&quot;
-- „SDK“
-- „Adobe Places Service“
-- „Adobe Places Service“
-- „Places Service“
-- „Places Service“
-- „APS“
-- „Adobe ID-Service“
-- &quot;Adobe ID-Service“
-- „ID-Dienst“
-- „ID-Dienst“
-- „IDs“
-- „Adobe Mobile SDK“
-- &quot;Adobe Mobile SDK&quot;
-- „Mobile SDK“
-- „Mobile SDK&quot;
-- „MDK“
-- &quot;Journey Optimizer
-- &quot;Journey Optimizer“
+### &#x200B;8. Gültige Produktwerte„Produkt“:- „Adobe Analytics“- &quot;Adobe Analytics- „Analytics“- „Analytics“- „AA“- „Adobe Audience Manager“- &quot;Adobe Audience Manager- „Audience Manager“- &quot;Audience Manager- „Adobe Campaign“- &quot;Adobe Campaign- „Kampagne“- „Kampagne“- „AC“- „Adobe Experience Manager“- &quot;Adobe Experience Manager- „Experience Manager“- &quot;Experience Manager- AEM- „Adobe Experience Manager Cloud Manager“- &quot;Adobe Experience Manager Cloud Manager&quot;- „Experience Manager Cloud Manager“- &quot;Experience Manager Cloud Manager&quot;- „cm“- „Adobe Livefyre“- &quot;Adobe Livefyre“- „Livefyre“- „Livefyre“- „ALF“- „Adobe Marketing Cloud“- „Marketing Cloud“- „Experience Cloud“- Experience Cloud- &quot;Experience Cloud- „Zentrale Dienste“- „AMC“- „Adobe Advertising Cloud“- &quot;Adobe Advertising Cloud“- „Advertising Cloud“- „Advertising Cloud“- „ADC“- Adobe Media Optimizer- Adobe Media Optimizer- „Media Optimizer“- „Media Optimizer“- „AMO“- „Adobe Target“- &quot;Adobe Target- „Zielgruppe“- „Zielgruppe“- „at“- „Adobe Dynamic Tag Management“- „Dynamic Tag Management“- „DTM“- „Adobe Experience Platform“- &quot;Adobe Experience Platform- „Experience Platform“- &quot;Experience Platform- „Plattform“- „Plattform“- „Adobe Customer Journey Analytics“- &quot;Adobe Customer Journey Analytics- „Customer Journey Analytics“- &quot;Customer Journey Analytics- „CJA“- „Adobe Intelligent Services“- Adobe Intelligent Services- „Intelligent Services“- Intelligent Services- „ist“- „Adobe Real-time Customer Data Platform“- &quot;Adobe Real-time Customer Data Platform“- „Real-Time CDP“- „Real-Time CDP“- „RTCDP“- „Adobe Marketo“- &quot;Adobe Marketo&quot;- „Marketo“- &quot;Marketo- „AMK“- „Adobe Bizible“- &quot;Adobe Bizible“- „Bizible“- „Bizible“- Biz- „Adobe Magento“- &quot;Adobe Magento&quot;- „Magento“- &quot;Magento- „Mag“- Adobe Acrobat- &quot;Adobe Acrobat- „Acrobat“- &quot;Acrobat- „ACR“- „Adobe Sign“- „Adobe Sign“- „Zeichen“- „Signieren“- „ASI“- „Adobe Document Cloud“- &quot;Adobe Document Cloud- „Document Cloud“- &quot;Document Cloud- „DCL“- „Adobe Search and Promote“- &quot;Adobe Search and Promote“- „Suchen und Bewerben“- „Suchen und Bewerben“- „ASP“- „Adobe Dynamic Media Classic“- &quot;Adobe Dynamic Media Classic- Dynamic Media Classic- &quot;Dynamic Media Classic- „DMC“- „Adobe Launch“- &quot;Adobe Launch“- „Launch“- „Starten“- „Adobe Primetime“- „Adobe Primetime“- „Primetime“- „Primetime“- „Adobe Social“- „Sozial“- „Auditor“- „Auditor“- „Adobe Journey Orchestration“- &quot;Adobe Journey Orchestration&quot;- &quot;Journey Orchestration“- &quot;Journey Orchestration- „JO“- „Adobe-Gerätekooperation“- &quot;Adobe Device Co-op“- „Gerätekooperation“- „Gerätekooperation“- „DCP“- „Adobe Debugger“- &quot;Adobe Debugger- „Debugger“- „Debugger“- „dbg“- „Adobe Web SDK“- &quot;Adobe Web SDK&quot;- „Web SDK“- „Web-SDK&quot;- „SDK“- „Adobe Places Service“- „Adobe Places Service“- „Places Service“- „Places Service“- „APS“- „Adobe ID-Service“- &quot;Adobe ID-Service“- „ID-Dienst“- „ID-Dienst“- „IDs“- „Adobe Mobile SDK“- &quot;Adobe Mobile SDK&quot;- „Mobile SDK“- „Mobile SDK&quot;- „MDK“- &quot;Journey Optimizer- &quot;Journey Optimizer“
 
-### &#x200B;9. Gültige Rollenwerte
-„role“:
-- „Admin“
-- „Architekt“
-- „Datenarchitekt“
-- „Data Engineer“
-- „Entwickler“
-- „Leader“
-- „Benutzer“
+### &#x200B;9. Gültige Rollenwerte„role“:- „Admin“- „Architekt“- „Datenarchitekt“- „Data Engineer“- „Entwickler“- „Leader“- „Benutzer“
 
 ## Überprüfungsprozess
 
@@ -279,20 +74,11 @@ Befolgen Sie bei der Überprüfung einer Datei diesen systematischen Ansatz:
 
 Geben Sie bei jeder Überprüfung Folgendes an:
 
-### Zusammenfassung
-Kurze Gesamtbewertung (Bestehen/Bedarfsänderungen/Hauptprobleme)
+### ZusammenfassungKurze Gesamtbewertung (Bestehen/Bedarfsänderungen/Hauptprobleme)
 
-### Probleme gefunden
-Für jede Ausgabe:
-- **Schweregrad**: 🔴 Fehler (muss behoben werden) | 🟡 Warnung (sollte korrigiert werden) | 🔵 Vorschlag (nett zu haben)
-- **Zeile/**: Wo das Problem auftritt
-- **Regel**: Welche Richtlinie verletzt wird
-- **Aktuell**: Was die Datei derzeit enthält
-- **Erwartet**: Was es sein sollte
-- **Korrektur**: Anzuwendende spezifische Korrektur
+### Probleme gefundenFür jede Ausgabe:- **Schweregrad**: 🔴 Fehler (muss behoben werden) | 🟡 Warnung (sollte korrigiert werden) | 🔵 Vorschlag (nett zu haben)- **Zeile/**: Wo das Problem auftritt- **Regel**: Welche Richtlinie verletzt wird- **Aktuell**: Was die Datei derzeit enthält- **Erwartet**: Was es sein sollte- **Korrektur**: Anzuwendende spezifische Korrektur
 
-### Checkliste
-Eine schnelle Checkliste mit Bestanden/Fehlgeschlagen für jede Hauptkategorie.
+### ChecklisteEine schnelle Checkliste mit Bestanden/Fehlgeschlagen für jede Hauptkategorie.
 
 ## Wichtige Verhaltensweisen
 

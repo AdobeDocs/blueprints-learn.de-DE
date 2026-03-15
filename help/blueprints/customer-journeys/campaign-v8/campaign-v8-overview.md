@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über den Blueprint für Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 31%
+source-wordcount: '1045'
+ht-degree: 29%
 
 ---
 
@@ -47,7 +47,7 @@ Sie enthält außerdem einen skalierbaren Echtzeit-Messaging-Server, der Transak
 
 ## Architekturdiagramme
 
-Weitere Informationen zu [Bereitstellungsmodellen für Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=de#ac-deployment){target="_blank"}.
+Weitere Informationen zu [Bereitstellungsmodellen für Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
 
 ### Bereitstellung von Campaign Enterprise (FFDA)
 
@@ -65,7 +65,7 @@ Weitere Informationen zu [Bereitstellungsmodellen für Campaign v8](https://expe
 
 | Szenario | Beschreibung | Technische Überlegungen |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] mit Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Zeigt, wie Adobe Experience Platform und sein Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe [!DNL Campaign] verwendet werden können, um personalisierte Konversationen bereitzustellen | <ul><li>Freigabe von Profilen und Audiences aus der [!DNL Real-Time CDP] in die Adobe-[!DNL Campaign] mithilfe von Cloud-Speicher-Dateiaustausch- und Adobe-[!DNL Campaign]-Aufnahme-Workflows </li><li>Geben Sie Versand- und Interaktionsdaten aus Kundengesprächen einfach von Adobe [!DNL Real-Time CDP] wieder in die [!DNL Campaign] frei, um sowohl das Echtzeit-Kundenprofil zu verbessern als auch kanalübergreifende Berichte zu Messaging-Kampagnen bereitzustellen</li></ul> |
+| [[!DNL Real-time Customer Data Platform] mit Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Zeigt, wie Adobe Experience Platform und sein Echtzeit-Kundenprofil sowie das zentralisierte Segmentierungs-Tool mit Adobe [!DNL Campaign] verwendet werden können, um personalisierte Konversationen bereitzustellen | <ul><li>Freigabe von Profilen und Audiences aus der [!DNL Real-Time CDP] in die Adobe-[!DNL Campaign] mithilfe von Cloud-Speicher-Dateiaustausch- und Adobe-[!DNL Campaign]-Aufnahme-Workflows </li><li>Geben Sie Versand- und Interaktionsdaten aus Kundengesprächen einfach von Adobe [!DNL Campaign] wieder in die [!DNL Real-Time CDP] frei, um sowohl das Echtzeit-Kundenprofil zu verbessern als auch kanalübergreifende Berichte zu Messaging-Kampagnen bereitzustellen</li></ul> |
 | [[!DNL Journey Optimizer] mit Adobe [!DNL Campaign]](ajo-and-campaign-v8.md) | Zeigt, wie Sie mit Adobe Journey Optimizer 1:1-Erlebnisse mithilfe des Echtzeit-Kundenprofils orchestrieren und das native Adobe [!DNL Campaign]-Transaktionsnachrichtensystem nutzen können, um die Nachricht zu senden | <ul><li>Kann bis zu 1 Mio. Nachrichten pro Stunde über den Echtzeit-Messaging-Server senden<li>Von [!DNL Journey Optimizer] wird keine Drosselung durchgeführt, um eine technische Überprüfung durch einen Pre-Sales Enterprise Architect sicherzustellen.</li><li>Entscheidungs-Management wird in Payloads an Campaign v8 nicht unterstützt</li></ul> |
 
 <br>
@@ -137,11 +137,11 @@ Die folgenden Voraussetzungen sind für diesen Blueprint vorhanden.
 
 ## Implementierungsschritte
 
-Weitere Informationen für die ersten Schritte finden Sie im Handbuch [Implementierung von Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=de)
+Weitere Informationen für die ersten Schritte finden Sie im Handbuch [Implementierung von Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
 
 ## Verwandte Dokumentation
 
-- [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de)
-- [Produktbeschreibung zu Campaign v8](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Dokumentation zu Experience Platform Tags &#x200B;](https://experienceleague.adobe.com/docs/launch.html?lang=de)
-- [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)
+- [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
+- [Campaign v8 - Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+- [Dokumentation zu Experience Platform Tags](https://experienceleague.adobe.com/docs/launch.html)
+- [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)

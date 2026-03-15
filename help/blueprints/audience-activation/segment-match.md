@@ -1,12 +1,12 @@
 ---
 title: Zielgruppen-Collaboration mit Segment Match
-description: Erfahren Sie mehr zu [!UICONTROL Segment Match] in Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service zur gemeinsamen Nutzung von Daten, mit dem Sie Segmentdaten auf der Basis gemeinsamer Branchenkennungen auf sichere, kontrollierte und datenschutzkonforme Weise austauschen können.
+description: Erfahren Sie mehr über [!UICONTROL Segment Match] für Adobe Experience Platform (AEP). [!UICONTROL Segment Match] ist ein Service für die Zusammenarbeit mit Daten, mit dem Sie Segmentdaten basierend auf gängigen Branchenkennungen auf sichere, verwaltete und datenschutzfreundliche Weise austauschen können.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 80%
+source-wordcount: '2235'
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ Dieser Service ermöglicht es Kunden, übereinstimmende IDs sicher und neutral z
 
 Zwischen Marke und Publisher:
 
-Der „Publisher-Anwendungsfall“ ist am stärksten vom Wegfall von Third-Party-Cookies und ID-Daten für mobile Werbung betroffen. Dieser Anwendungsfall hat erhebliche Auswirkungen auf die Medien- und Unterhaltungsbranche, deren Geschäftsmodell auf dem Verkauf von Werbung basiert. [!UICONTROL Segment Match] bietet Publishern, die über große Mengen an First-Party-Zielgruppendaten verfügen und direkt mit Advertisern zusammenarbeiten möchten, eine neue Umsatzchance. Advertiser wiederum können direkt mit Publishern zusammenarbeiten und in granularen Targeting- oder Kundengewinnungskampagnen Werbung für übereinstimmende Zielgruppen auf Publisher-Properties schalten.
+Der „Publisher-Anwendungsfall“ ist am stärksten vom Wegfall von Third-Party-Cookies und ID-Daten für mobile Werbung betroffen. Dieser Anwendungsfall hat große Auswirkungen auf die Medien- und Unterhaltungsbranche, die sich auf den Verkauf von Werbung als Geschäftsmodell konzentriert. [!UICONTROL Segment Match] ist ein Pfad für Herausgeber mit großen First-Party-Zielgruppen, die direkt mit ihren Werbetreibenden zusammenarbeiten möchten. Advertiser wiederum können direkt mit Publishern zusammenarbeiten und in granularen Targeting- oder Kundengewinnungskampagnen Werbung für übereinstimmende Zielgruppen auf Publisher-Properties schalten.
 
 ### Zwischen Marke und Marke:
 
@@ -46,7 +46,7 @@ Für global tätige multinationale Unternehmen ist es oft schwierig, die gemeins
 
 ![Die Architektur von Segment Match](assets/architecture-segment-match.png){zoomable="yes"}
 
-[!UICONTROL Segment Match] ist kein Daten-Marketplace, auf dem Daten gekauft werden können. Vielmehr handelt es sich dabei um eine AEP-Funktion, die ausgewählten Partnern den Austausch von First-Party-Daten ermöglicht. Steuerwerkzeuge sorgen dabei für die Einhaltung des Datenschutzes und die Prüfung des Einverständnisses. [!UICONTROL Segment Match] ermöglicht die Verbesserung der Kundenbeziehungen und die Steigerung des Geschäftswachstums. Dieser Service ist insbesondere dort von Vorteil, wo bereits Marken- oder Partnerbeziehungen bestehen. [!UICONTROL Segment Match] ist einfach zu verwalten, skalierbar und ermöglicht es Administratoren und Administratorinnen, Segmente kontrolliert per Opt-in freizugeben.
+[!UICONTROL Segment Match] ist kein Daten-Marketplace, auf dem Daten gekauft werden können. Vielmehr handelt es sich um eine AEP-Funktion, die First-Party-Daten mit ausgewählten Partnern nutzt und Datenschutz- und Einverständniskontrollen nutzt, um die Zusammenarbeit zu erleichtern. [!UICONTROL Segment Match] konzentriert seine Bemühungen auf die Verbesserung der Kundenbeziehungen und den Ausbau der Marke. Es ist von Vorteil, wenn bereits bestehende Marken oder Partnerbeziehungen bestehen. [!UICONTROL Segment Match] ist einfach zu verwalten, skalierbar und ermöglicht es Admins, Segmente auf kontrollierbare Weise per Opt-in freizugeben.
 
 [!UICONTROL Segment Match] bietet Folgendes:
 
@@ -104,7 +104,7 @@ Die Einverständniseinstellungen für [!UICONTROL Segment Match] können wie fol
 
 * Festlegen des für Identitäten spezifischen Freigabeattributs (idSpecific) mithilfe der [Feldergruppe „Einwilligungen und Voreinstellungen“](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de).
 
-  Diese Feldergruppe besitzt ein einziges Objekt-Feld mit der Bezeichnung „Einverständniserklärungen“, um Informationen zum Einverständnis und Voreinstellungen zu erfassen. [!UICONTROL Segment Match] schließt standardmäßig alle Identitäten ein, die nicht explizit ausgeschlossen wurden, z. B.:
+  Diese Feldergruppe bietet ein einzelnes Feld vom Typ „Einverständnis“, um Einverständnis- und Voreinstellungsinformationen zu erfassen. [!UICONTROL Segment Match] enthält standardmäßig alle Identitäten, die nicht explizit abgemeldet wurden, z. B.:
 
   ```
   "share": {

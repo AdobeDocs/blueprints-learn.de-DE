@@ -3,10 +3,10 @@ title: 'Blueprint: Campaign v7'
 description: Erfahren Sie mehr über die Campaign v7-Blueprint für Batch-basierte Messaging-Programme, Onboarding- und Remarketing-Kampagnen, Briefpost-Werbung und einfache Transaktionsnachrichten.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 10d49e3b712fc9d4ecdf41defe6e62dde2a86b72
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 37%
+source-wordcount: '119'
+ht-degree: 36%
 
 ---
 
@@ -29,6 +29,6 @@ ht-degree: 37%
 ## Verwandte Dokumentation
 
 * [Dokumentation zu Campaign v7](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=de)
-* [Produktbeschreibung zu Campaign v7](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Dokumentation zu Experience Platform Tags &#x200B;](https://experienceleague.adobe.com/docs/launch.html?lang=de)
+* [Campaign v7 - Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [Dokumentation zu Experience Platform Tags](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 * [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)

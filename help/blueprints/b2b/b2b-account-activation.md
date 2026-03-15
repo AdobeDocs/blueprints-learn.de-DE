@@ -3,16 +3,16 @@ title: B2B-Kontoaktivierung für Advertising-Ziele und Dateiziele
 description: Verwenden Sie die Account-basierte Interaktion, um Audiences zu erstellen und sie über Ziele anzusprechen.
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: c8538554c936bb1cb95c39fcab4597b1321f1688
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '718'
 ht-degree: 4%
 
 ---
 
 # B2B-Kontoaktivierung für Werbeziele und Dateiziele
 
-Account-Based Engagement ermöglicht es B2B-Marketing-Experten, Zielgruppen von Konten (d. h. Unternehmenslisten) zu erstellen und diese Unternehmen über Ziele wie LinkedIn anzusprechen, die Listen von Unternehmen als Eingabe akzeptieren oder zur Zielsetzung von Cloud-Speicher für Targeting und Verkaufsförderung in exportieren.
+Account-Based Engagement ermöglicht es B2B-Marketing-Experten, Zielgruppen von Konten (d. h. Unternehmenslisten) zu erstellen und diese Unternehmen über Ziele wie LinkedIn anzusprechen, die Listen von Unternehmen als Eingabe akzeptieren oder zur Zielsetzung von Cloud-Speicher für Targeting und Verkaufsförderung exportieren.
 
 ## Anwendungsfälle
 
@@ -20,7 +20,7 @@ Durch Account-basierte Interaktion können Marketing-Experten drei wichtige Anwe
 
 * **Lücken in der Einkaufsgruppe schließen:** Ein Marketer kann auf Konten werben, auf denen er noch keine Kontakte für die CMO- oder CIO-Rollen hat. Sie können zunächst eine Audience von Accounts ohne Kontakt mit dem Titel „CMO“ oder „CIO“ erstellen und dann die Audience auf LinkedIn aktivieren. Innerhalb des Ziels, LinkedIn, können sie dann eine Kampagne starten, die auf diese Zielgruppe und bestimmte Personen mit „CMO“- oder „CIO“-Stellenbezeichnungen abzielt, um diese neuen Kontakte zu erreichen und die Vorteile ihrer Angebote hervorzuheben.
 * **Upsell oder Crosssell an andere Abteilungen eines Unternehmens, das ein bestehender Kunde ist:** Ein Marketing-Experte kann eine Account-Zielgruppe erstellen, die Produkt X vor 3 bis 9 Monaten gekauft hat, aber noch kein Produkt Y besitzt. Anschließend können sie aktiviert und die Vorteile von Produkt Y für diese Zielgruppe hervorgehoben werden.
-* **Targeting von Unternehmen, die konkurrierende Produkte verwenden:** Ein Marketing-Experte kann Konten vermarkten, um die Produkte eines Konkurrenten zu verdrängen, selbst wenn er bei diesen Konten keine Kontakte hat. Sie können eine Zielgruppe von Konten erstellen, die auf Partnerdaten basiert, aus denen die Eigentümerschaft oder Nutzung des Produkts eines Mitbewerbers hervorgeht, und dann über LinkedIn aktivieren, um Kontakte bei Zielkonten für die Erweiterung zu beschaffen.
+* **Targeting von Unternehmen, die konkurrierende Produkte verwenden:** Ein Marketing-Experte kann Konten vermarkten, um die Produkte eines Konkurrenten zu verdrängen, selbst wenn er bei diesen Konten keine Kontakte hat. Sie können eine Zielgruppe von Konten erstellen, die auf Partnerdaten basiert, aus denen die Eigentümerschaft oder Nutzung des Produkts eines Mitbewerbers hervorgeht, und dann über LinkedIn aktivieren, um Kontakte bei Zielkonten zur Erweiterung zu beziehen.
 
 ## Programme
 
@@ -33,11 +33,11 @@ Durch Account-basierte Interaktion können Marketing-Experten drei wichtige Anwe
 
 ## Architektur
 
-![Referenzarchitektur für B2B-Konto-Audience Activation-Blueprint](assets/b2b-blueprint-account-audience-activation.png)
+![Referenzarchitektur für B2B-Account Audience Activation Blueprint](assets/b2b-blueprint-account-audience-activation.png)
 
 ## Konten-Audience-Ziele
 
-* (Firmen) Abgestimmte Zielgruppen in LinkedIn
+* (Firmen) Abgestimmte LinkedIn-Zielgruppen
 * Cloud-Speicher-Ziele
    * Azure Data Lake
    * Data Landing Zone
@@ -56,23 +56,23 @@ Durch Account-basierte Interaktion können Marketing-Experten drei wichtige Anwe
    * Bis zu 30 Tage Ereignis-Lookback, keine Sortierung von Ereignis-Eigenschaften.
    * UND/ODER werden unterstützt (sodass Sie sagen können: „A und B müssen passieren,“  aber man kann nicht sagen „A muss 3 Tage vor B passieren„).
 * Bei Cloud-Speicher-Zielen unterstützt der Exportzeitplan die Option „Nach der Segmentevaluierung“.
-* [Leitplanken für B2B-Profile und &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [Leitplanken für B2B-Profile und ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Implementierungsschritte für Real-time Customer Data Platform B2B edition, Erstellung und Aktivierung von Konto-Zielgruppen
 
-* Implementierungsschritte für Real-time Customer Data Platform B2B edition finden Sie in der Dokumentation [Erste Schritte mit Real-time Customer Data Platform B2B Editions](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) .
-* Schritte zum Erstellen von Konto-Zielgruppen finden Sie in der Dokumentation [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences) .
-* Die Schritte zum Account-Audience Activation finden Sie in der [Activate Account Audiences](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences)-Dokumentation.
-   * Erforderliche Zuordnung für das Ziel [Firmen) mit LinkedIn Matched Audiences](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
+* Implementierungsschritte von Real-time Customer Data Platform B2B edition finden Sie in der Dokumentation [Erste Schritte mit Real-Time Customer Data Platform B2B Editiond](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
+* Schritte zum Erstellen von Konto-Zielgruppen finden Sie in der Dokumentation [Konto-Zielgruppen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences) .
+* Die Schritte zur Konto-Audience Activation finden Sie in der Dokumentation [Aktivieren von Konto](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)Zielgruppen .
+   * Erforderliche Zuordnung für das Ziel &quot;[(Unternehmen) LinkedIn Matched Audiences“](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
 
 ## Überlegungen bei der Implementierung
 
-Für von linkedIn übereinstimmende Zielgruppen gelten einige Anforderungen, darunter die Mindestgröße der Zielgruppe von 300 übereinstimmenden Mitgliedern. Wenn die für das Ziel der verknüpften übereinstimmenden Zielgruppe des Unternehmens aktivierte Zielgruppe des Kontos die Anforderung nicht erfüllt, muss die Zielgruppendefinition geändert werden, um die Zielgruppengröße für den Start einer LinkedIn-Kampagne zu erhöhen.
+Für abgeglichene LinkedIn-Zielgruppen gelten einige Anforderungen, darunter die Mindestgröße der Zielgruppe von 300 abgeglichenen Mitgliedern. Wenn die für das Ziel der verknüpften übereinstimmenden Zielgruppe des Unternehmens aktivierte Zielgruppe des Kontos die Anforderung nicht erfüllt, muss die Zielgruppendefinition geändert werden, um die Zielgruppengröße zum Starten einer LinkedIn-Kampagne zu erhöhen.
 
 ## Verwandte Dokumentation
 
-* [B2B Edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-* [Tutorial zum Erstellen und Aktivieren von Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [Konto-Zielgruppen erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences)
-* [Kontozielgruppen aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - LinkedIn-Ziel-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin)
+* [B2B edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [Tutorial-Video zur Erstellung und Aktivierung von Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
+* [Konto-Zielgruppen erstellen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)
+* [Account-Zielgruppen aktivieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
+* [Adobe Experience Platform - LinkedIn-Ziel-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)

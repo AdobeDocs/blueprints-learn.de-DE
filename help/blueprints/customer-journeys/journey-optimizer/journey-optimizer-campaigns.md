@@ -2,10 +2,11 @@
 title: '[!DNL Journey Optimizer] - Kampagnenorchestrierung'
 description: Ermöglicht es Marketing-Experten, geplante, zielgruppenbasierte, mehrstufige Marketing-Nachrichten über ausgehende Messaging-Kanäle hinweg zu koordinieren.
 solution: Journey Optimizer
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+exl-id: a8ff16f8-146d-4e1f-9bd0-9eda6af0c69b
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 2%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
@@ -46,7 +47,7 @@ Mit AJO Campaign Orchestration können Marketing-Experten geplante, zielgruppenb
 
 ## Leitlinien
 
-[Orchestrierte Kampagnen - Produktlink](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
+[Produkt-Link für orchestrierte Kampagnen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
 
 [Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
 
@@ -54,9 +55,9 @@ Mit AJO Campaign Orchestration können Marketing-Experten geplante, zielgruppenb
 
 ## Verwandte Dokumentation
 
-- [[!DNL Journey Optimizer] Orchestrierte Kampagnen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
+- [Orchestrierte Kampagnen [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
 - [[!DNL Experience Platform] Dokumentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
-- [[!DNL Experience Platform] Tags-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
-- [[!DNL Experience Platform Mobile SDK] Dokumentation](https://experienceleague.adobe.com/docs/mobile.html?lang=de)
-- [[!DNL Journey Optimizer] Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=de)
+- [Dokumentation zu [!DNL Experience Platform] Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
+- [[!DNL Experience Platform Mobile SDK] Dokumentation](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)

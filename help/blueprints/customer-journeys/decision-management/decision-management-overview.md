@@ -3,18 +3,18 @@ title: 'Blueprints: Entscheidungs-Management'
 description: Bereitstellung personalisierter Angebote für alle Customer Journeys.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
+source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 78%
+source-wordcount: '731'
+ht-degree: 76%
 
 ---
 
-# Journey Optimizer – Blueprints zu Entscheidungs-Management
+# Journey Optimizer - Blueprints für das Entscheidungs-Management
 
 Weitere Informationen finden Sie in der folgenden Dokumentation zu [Entscheidungs-Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de)
 
-In der folgenden Dokumentation finden Sie Leitplanken im Zusammenhang mit dem Entscheidungs-Management. [Leitplanken für das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+In der folgenden Dokumentation finden Sie Leitplanken im Zusammenhang mit dem Entscheidungs-Management. [Leitplanken für das Entscheidungs-Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 Das Entscheidungs-Management von Adobe ist ein Service, der im Rahmen von Adobe Journey Optimizer bereitgestellt wird. In dieser Blueprint werden die Anwendungsfälle und technischen Funktionen des Programms vorgestellt und die verschiedenen Komponenten der Architektur von und Überlegungen zu Entscheidungs-Management eingehend erläutert.
 
@@ -46,7 +46,7 @@ Einerseits über den Adobe Experience Platform-Hub, eine zentrale Rechenzentrums
 
 * Zugriff auf das gesamte Echtzeit-Kundenprofil, einschließlich Zielgruppenzugehörigkeit, Attributen und Erlebnisereignissen.
 
-## Entscheidungs-Management im Edge   
+## Entscheidungs-Management im Edge
 
 Der zweite Ansatz erfolgt über Experience [!DNL Edge Network], eine global verteilte, geografisch verteilte Infrastruktur, die schnelle Erlebnisse in Unter- und Millisekunden ermöglicht. Das Endverbrauchererlebnis wird von der Edge-Infrastruktur ausgeführt, die dem geografischen Standort der Verbraucher am nächsten ist, um Latenzzeiten zu minimieren. Das Entscheidungs-Management im Edge ist für Echtzeit-Kundenerlebnisse konzipiert, wie über Web oder Mobile eingehende Personalisierungsanfragen. Weitere Informationen zum Entscheidungs-Management im Edge finden Sie in der Blueprint [Entscheidungs-Management im Edge](decision-management-edge.md).
 
@@ -64,5 +64,5 @@ Der zweite Ansatz erfolgt über Experience [!DNL Edge Network], eine global vert
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)
 * [Entscheidungs-Management in Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=de)
-* [Produktbeschreibung zu Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Produktbeschreibung für das Entscheidungs-Management von Adobe](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe-Produktbeschreibung für das Entscheidungs-Management](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html)

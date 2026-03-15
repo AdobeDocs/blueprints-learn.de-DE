@@ -4,10 +4,10 @@ description: Zeigt, wie Adobe Journey Optimizer mit Adobe Campaign verwendet wer
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 6ec61ae7e1cfe3bad7beff127dc2e80873424d53
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 52%
+source-wordcount: '795'
+ht-degree: 56%
 
 ---
 
@@ -28,7 +28,7 @@ Veranschaulicht, wie Adobe [!DNL Journey Optimizer] nativ mit Adobe [!DNL Campai
 
 Überprüfen Sie für jedes Programm die folgenden Voraussetzungen.
 
-### Adobe Experience Platform  
+### Adobe Experience Platform
 
 * Schemas und Datensätze müssen im System konfiguriert werden, bevor Sie Journey Optimizer-Datenquellen konfigurieren können.
 * Fügen Sie für klassenbasierte Erlebnisereignis-Schemata die Feldergruppe „Orchestration eventID“ hinzu, wenn Sie ein Ereignis auslösen möchten, das kein regelbasiertes Ereignis ist
@@ -42,9 +42,9 @@ Veranschaulicht, wie Adobe [!DNL Journey Optimizer] nativ mit Adobe [!DNL Campai
 
 ## Leitlinien
 
-* [Produktbeschränkungen für Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer-Leitplanken - Produktbeschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Leitplanken und End-to-End-Latenzleitfäden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=de)
+* [Leitplanken und End-to-End-Latenzleitfäden](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Implementierungsschritte
 
@@ -72,7 +72,7 @@ Befolgen Sie die unten beschriebenen Implementierungen für jede Anwendung.
 
 1. [Aufnehmen von Daten in [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=de) mithilfe von Streaming-APIs und Quell-Connectoren.
 
-### Journey Optimizer  
+### Journey Optimizer
 
 1. Konfigurieren Sie Ihre [!DNL Experience Platform] Datenquelle und bestimmen Sie, welche Felder zwischengespeichert werden sollen
 1. Streaming-Daten, die zur Initiierung einer Customer Journey genutzt werden, müssen zunächst in Journey Optimizer konfiguriert werden, um eine Orchestrierungs-ID zu erhalten. Die Orchestrierungs-ID wird dann an den Entwickler weitergegeben, der sie bei der Aufnahme nutzen kann.
@@ -102,5 +102,5 @@ Befolgen Sie die unten beschriebenen Implementierungen für jede Anwendung.
 ## Verwandte Dokumentation
 
 * [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=de)
-* [Produktbeschreibung zu Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de)

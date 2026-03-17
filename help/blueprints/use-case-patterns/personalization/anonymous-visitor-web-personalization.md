@@ -100,9 +100,9 @@ Bereitstellen personalisierter Inhalte, die auf sitzungsinternen Verhaltenssigna
 
 Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** - Konfiguration der Web-Kanaloberfläche, Inhaltserstellung (Web- und Code-basierte Erlebnisse), Kampagnenausführung, Inhaltsexperimente (A/B-Tests), Entscheidungsfindung (dynamische Inhaltsauswahl) und Reporting
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - Edge-Segmentierung für die Echtzeit-Zielgruppenbewertung auf der Grundlage von Verhaltenssignalen in der Sitzung; Verwaltung anonymer Edge-Profile
-- **[!DNL Adobe Experience Platform](AEP)** - [!DNL Web SDK] für die Erfassung von Verhaltenssignalen, [!DNL Edge Network] für das Echtzeit-Datenrouting und die Bereitstellung von Personalisierung, Konfiguration des Datenstroms
+- **[!DNL Adobe Journey Optimizer] (AJO)** - Konfiguration der Web-Kanaloberfläche, Inhaltserstellung (Web- und Code-basierte Erlebnisse), Kampagnenausführung, Inhaltsexperimente (A/B-Tests), Entscheidungsfindung (dynamische Inhaltsauswahl) und Reporting
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - Edge-Segmentierung für die Echtzeit-Zielgruppenbewertung auf der Grundlage von Verhaltenssignalen in der Sitzung; Verwaltung anonymer Edge-Profile
+- **[!DNL Adobe Experience Platform] (AEP)** - [!DNL Web SDK] für die Erfassung von Verhaltenssignalen, [!DNL Edge Network] für das Echtzeit-Datenrouting und die Bereitstellung von Personalisierung, Konfiguration des Datenstroms
 
 ## Grundlegende Funktionen
 

@@ -3,14 +3,14 @@ title: Anwendungsfälle, Architekturdiagramme und Blueprints für Customer Exper
 description: Informieren Sie sich über wichtige Geschäftsziele, Anwendungsfallmuster und branchenspezifische Anwendungsfälle für Adobe Experience Platform und Programme. Visuelle Architekturdiagramme und Blueprints bieten technische Referenzen für Systemintegration, Datenflüsse und Lösungsdesign und verbinden den geschäftlichen Nutzen mit der Implementierung.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: cb112d3fe3c6a95437de69815efb50492c9bf13b
+source-git-commit: 62c69ab5ba773172b5b3b55a6c3766c58331135c
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 2%
 
 ---
 
-# Blueprints zur Orchestrierung des Kundenerlebnisses
+# Unternehmensziele, Anwendungsfälle und Architekturdiagramme in Customer Experience Orchestration
 
 Diese Website enthält **Wichtige Geschäftsziele** die Beispiele für den primären Geschäftswert und die Ziele beschreiben, die mit Adobe Experience Platform und Anwendungen erreicht werden können. **Anwendungsfallmuster: Beschreiben** allgemeinen Plattform- und Anwendungsfunktionen mit wiederholbaren Implementierungsansätzen. **Anwendungsfälle für die Branche** Wenden Sie Muster auf vertikale Geschäftsszenarien an. **Architekturdiagramme und Blueprints** sind visuelle Architekturdiagramme und Datenflussreferenzdiagramme, die Systemintegrationspunkte, Daten- und Inhaltsflüsse sowie die Abfolge von Vorgängen veranschaulichen und eine technische Referenz für den Lösungsentwurf bieten. Gemeinsam verbinden diese Ebenen den geschäftlichen Nutzen mit Implementierungsabhängigkeiten und Architektur.
 

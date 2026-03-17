@@ -44,7 +44,7 @@ Personalisierte Crosssell-Empfehlungen bewirken in der Regel eine Verbesserung d
 
 ### Implementieren
 
-Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Die Echtzeit-Entscheidungsfindung bewertet die vorhandene Abdeckung, das Lebensstadium und die Verhaltenssignale jedes Kunden, um die relevanteste Produktempfehlung aus dem verfügbaren Katalog auszuwählen.
+Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Die Echtzeit-Entscheidungsfindung bewertet die vorhandene Abdeckung, das Lebensstadium und die Verhaltenssignale jedes Kunden, um die relevanteste Produktempfehlung aus dem verfügbaren Katalog auszuwählen.
 
 ### Technische Überlegungen
 
@@ -164,7 +164,7 @@ Personalisierte Rabatt- und Sparkommunikation führt in der Regel zu einer 25- b
 
 ### Implementieren
 
-Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Die Echtzeit-Entscheidungsfindung bewertet die Berechtigung jedes Kunden für verfügbare Rabatte und wählt die wirkungsvollste Sparmöglichkeit aus, die er zum richtigen Zeitpunkt bieten kann.
+Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Die Echtzeit-Entscheidungsfindung bewertet die Berechtigung jedes Kunden für verfügbare Rabatte und wählt die wirkungsvollste Sparmöglichkeit aus, die er zum richtigen Zeitpunkt bieten kann.
 
 ### Technische Überlegungen
 
@@ -224,7 +224,7 @@ Effektive Agent- und Broker-Koordinationskommunikation führt in der Regel zu ei
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Die Agentenkoordination wird am besten durch geplante Batch-Aktivierungen bereitgestellt, die Agenten regelmäßig mit priorisierten Kontaktlisten, Gesprächspunkten und empfohlenen Aktionen versorgen.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Die Agentenkoordination wird am besten durch geplante Batch-Aktivierungen bereitgestellt, die Agenten regelmäßig mit priorisierten Kontaktlisten, Gesprächspunkten und empfohlenen Aktionen versorgen.
 
 ### Technische Überlegungen
 

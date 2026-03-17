@@ -64,7 +64,7 @@ Proaktive präventive Gesundheitsarbeit führt in der Regel zu einer 25-35-proze
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Erinnerungen zur Vorsorge werden am besten über geplante Batch-Kampagnen bereitgestellt, die die Eignung des Patienten regelmäßig anhand klinischer Richtlinien bewerten.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Erinnerungen zur Vorsorge werden am besten über geplante Batch-Kampagnen bereitgestellt, die die Eignung des Patienten regelmäßig anhand klinischer Richtlinien bewerten.
 
 ### Technische Überlegungen
 

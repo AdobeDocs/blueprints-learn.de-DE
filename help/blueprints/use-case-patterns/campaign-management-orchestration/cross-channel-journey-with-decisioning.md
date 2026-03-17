@@ -91,10 +91,10 @@ Orchestrieren Sie eine mehrstufige Multi-Channel-Journey, die Echtzeit-Entscheid
 
 Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu implementieren.
 
-- **[!DNL Adobe Journey Optimizer]([!DNL AJO])** - Journey-Orchestrierung (mehrstufiges Canvas-Design, Einstiegsbedingungen, Wartezeiten, Bedingungen, Ausstiegskriterien), Nachrichten-Authoring kanalübergreifend, Kanaloberflächenkonfiguration, Konflikt- und Prioritätsverwaltung
+- **[!DNL Adobe Journey Optimizer] ([!DNL AJO])** - Journey-Orchestrierung (mehrstufiges Canvas-Design, Einstiegsbedingungen, Wartezeiten, Bedingungen, Ausstiegskriterien), Nachrichten-Authoring kanalübergreifend, Kanaloberflächenkonfiguration, Konflikt- und Prioritätsverwaltung
 - **[!DNL Adobe Journey Optimizer]Decisioning** - Verwaltung von Angeboten und Inhaltselementen, Eignungsregeln, Rangfolgestrategien (Priorität, Formel, KI), Entscheidungsrichtlinien, Platzierungen, Fallback-Angebote
-- **[!DNL Adobe Real-Time Customer Data Platform]([!DNL RT-CDP])** - Zielgruppenbewertung für Journey-Eintritts- und Angebotseignungssegmente, Profilanreicherung mit berechneten Attributen und Tendenzwerten, Einverständnis- und Governance-Durchsetzung
-- **[!DNL Adobe Experience Platform]([!DNL AEP])** — Echtzeit-Kundenprofilspeicher, Identity Service für Cross-Channel-Auflösung, Datenmodellierung und Aufnahmeinfrastruktur
+- **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])** - Zielgruppenbewertung für Journey-Eintritts- und Angebotseignungssegmente, Profilanreicherung mit berechneten Attributen und Tendenzwerten, Einverständnis- und Governance-Durchsetzung
+- **[!DNL Adobe Experience Platform] ([!DNL AEP])** — Echtzeit-Kundenprofilspeicher, Identity Service für Cross-Channel-Auflösung, Datenmodellierung und Aufnahmeinfrastruktur
 
 ## Grundlegende Funktionen
 

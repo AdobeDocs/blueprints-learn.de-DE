@@ -84,7 +84,7 @@ Gut ausgeführte Crosssell- und Upsell-Strategien erhöhen den durchschnittliche
 
 ### Implementieren
 
-Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz verwendet eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und die beste Crosssell- oder Upsell-Option für jeden Kunden und Kontext auszuwählen.
+Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz verwendet eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und die beste Crosssell- oder Upsell-Option für jeden Kunden und Kontext auszuwählen.
 
 ### Technische Überlegungen
 

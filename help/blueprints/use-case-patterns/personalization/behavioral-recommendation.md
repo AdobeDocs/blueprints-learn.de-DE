@@ -99,9 +99,9 @@ Anleitungen zum Kombinieren von Mustern finden Sie im Abschnitt zur Musterkompos
 
 Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Adobe Journey Optimizer](AJO) Decisioning** - Auswahlstrategien, Rangfolgemodelle, Elementkataloge und Entscheidungsrichtlinien, die Verhaltenssignale auswerten und für jeden Besucher die relevantesten Elemente zurückgeben
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Akkumulation von Verhaltensprofildaten, Zielgruppenbewertung für das Recommendations-Scoping und berechnete Attribute für die Bewertung der Affinität im Verhalten
-- **[!DNL Adobe Experience Platform](AEP)** - Aufnahme von Verhaltensereignissen über [!DNL Web SDK] und [!DNL Mobile SDK], [!DNL Edge Network] Verarbeitung, XDM-Schemaverwaltung für Ereignis- und Katalogdaten
+- **[!DNL Adobe Journey Optimizer] (AJO) Decisioning** - Auswahlstrategien, Rangfolgemodelle, Elementkataloge und Entscheidungsrichtlinien, die Verhaltenssignale auswerten und für jeden Besucher die relevantesten Elemente zurückgeben
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Akkumulation von Verhaltensprofildaten, Zielgruppenbewertung für das Recommendations-Scoping und berechnete Attribute für die Bewertung der Affinität im Verhalten
+- **[!DNL Adobe Experience Platform] (AEP)** - Aufnahme von Verhaltensereignissen über [!DNL Web SDK] und [!DNL Mobile SDK], [!DNL Edge Network] Verarbeitung, XDM-Schemaverwaltung für Ereignis- und Katalogdaten
 
 ## Grundlegende Funktionen
 

@@ -164,7 +164,7 @@ Exitintent-Modale mit personalisierten Reiseangeboten erzielen eine Konversionsr
 
 ### Implementieren
 
-Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen.
+Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen.
 
 ### Technische Überlegungen
 
@@ -224,7 +224,7 @@ Saisonale personalisierte Kampagnen steigern die saisonale Buchungsumrechnung um
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden.
 
 ### Technische Überlegungen
 

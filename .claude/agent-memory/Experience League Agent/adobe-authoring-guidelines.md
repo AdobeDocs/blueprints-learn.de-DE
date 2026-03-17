@@ -15,7 +15,7 @@ ht-degree: 0%
 Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 Crawlen: 15.03.2026
 
----
+&#x200B;---
 
 ## &#x200B;1. METADATEN/VORDERE MATERIE
 
@@ -54,7 +54,7 @@ Crawlen: 15.03.2026
 ### Verworfene Felder
 SEO-Titel, SEO-Beschreibung, Zielgruppe, Schwierigkeit, UUID (aus dem Migrationszeitalter)
 
----
+&#x200B;---
 
 ## &#x200B;2. MARKDOWN-SYNTAX (MIT ADOBE-VERSION)
 
@@ -120,10 +120,13 @@ SEO-Titel, SEO-Beschreibung, Zielgruppe, Schwierigkeit, UUID (aus dem Migrations
 
   ```
   ```javascript
+
   code here
+
   ```
 
   ```
+
   
   
 - Optionen: `{line-numbers="true"}`, `{start-line="7"}`, `{highlight="11-13, 16"}`
@@ -140,7 +143,7 @@ SEO-Titel, SEO-Beschreibung, Zielgruppe, Schwierigkeit, UUID (aus dem Migrations
 - Option „Markdown-Tabellen-Layout“: `{style="table-layout:auto"}` nach Tabelle mit Leerzeilen hinzufügen
 - Vermeiden Sie sehr breite/hohe Tabellen aufgrund von Problemen mit der Sichtbarkeit der horizontalen Bildlaufleiste.
 
----
+&#x200B;---
 
 ## &#x200B;3. BESONDERE ADOBE-SYNTAXERWEITERUNGEN
 
@@ -174,7 +177,8 @@ SEO-Titel, SEO-Beschreibung, Zielgruppe, Schwierigkeit, UUID (aus dem Migrations
 >[!ERROR]
 >[!SUCCESS]
 ```
-- KRITISCH: Kein Abstand zwischen `>` und `[!` — `>[!NOTE]` NICHT `> [!NOTE]`
+
+- KRITISCH: Kein Abstand zwischen `>` und `[ !` — `>[!NOTE]` NICHT `> [!NOTE]`
 - Leerzeile zwischen `>[!NOTE]` und Textzeile des Textkörpers hinzufügen
 
 ### Registerkarten
@@ -198,6 +202,7 @@ Content here
 Content inside
 +++
 ```
+
 Hinweis: Verschachtelte ausblendbare Abschnitte werden NICHT unterstützt.
 
 ### Schattenboxen
@@ -213,6 +218,7 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
+
 `{transcript=true}` für Transkripte hinzufügen.
 
 ### Ähnliche Themen
@@ -238,6 +244,7 @@ Content here
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
+
 Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (grau), `Caution` (gelb)
 
 ### Texthervorhebung (Vorschau)
@@ -271,7 +278,7 @@ Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (gr
 - Horizontale Regeln
 - Verschachtelte ausblendbare Abschnitte
 
----
+&#x200B;---
 
 ## &#x200B;4. DATEIBENENNUNG UND ORDNERSTRUKTUR
 
@@ -301,7 +308,7 @@ Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (gr
 - Inhaltsverzeichnismetadaten: `user-guide-description`, optional `breadcrumb-title`
 - `mini-toc-levels`: Steuert die Anzeige der rechten Navigationskopfzeile (1-6, Standard 2)
 
----
+&#x200B;---
 
 ## &#x200B;5. INHALTSQUALITÄT UND REDAKTIONELLE STANDARDS
 
@@ -347,7 +354,7 @@ Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (gr
 - Nur Groß-/Kleinschreibung für `title` Metadatenfeld
 - Eigennamen werden immer großgeschrieben
 
----
+&#x200B;---
 
 ## &#x200B;6. BEST PRACTICES FÜR SEO
 
@@ -364,7 +371,7 @@ Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (gr
 - Verwenden Sie Tools wie AnswerThePublic, Google Trends, um Keywords zu recherchieren
 - Die Inhalte sollten E-E-A-T (Erfahrung, Fachwissen, Autorität, Vertrauenswürdigkeit) nachweisen
 
----
+&#x200B;---
 
 ## &#x200B;7. LOKALISIERUNG
 
@@ -384,7 +391,7 @@ Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (gr
 - `[!DNL ProductName]` - verhindert die Übersetzung von Produkt-/Markennamen
 - Bilder in einem Ordner „nicht lokalisieren“ sind von der Lokalisierung ausgeschlossen
 
----
+&#x200B;---
 
 ## &#x200B;8. CONTENT-TYPEN
 
@@ -395,13 +402,13 @@ Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (gr
 - **Knowledge Base-Artikel**: Kurzer, vorübergehend relevanter Fehlerbehebungsinhalt
 - **Landingpage/Startseite**: Separat verwaltet (SCCM)
 
----
+&#x200B;---
 
 ## &#x200B;9. HÄUFIGE ZU VERMEIDENDE VALIDIERUNGSFEHLER
 
 - Fehlende oder leere `title` oder `description` Metadaten
 - `description` nicht mit „Weitere Informationen…“ oder „Learn how to…“
-- Leerzeichen zwischen `>` und `[!` in der Callout-Syntax (`> [!NOTE]` statt `>[!NOTE]`)
+- Leerzeichen zwischen `>` und `[ !` in der Callout-Syntax (`> [!NOTE]` statt `>[!NOTE]`)
 - Leerzeichen in fett gedruckten Markierungen: `**text **` (Leerzeichen am Ende werden fett umbrochen)
 - Markdown-Syntax in HTML-Tabellen (Callouts funktionieren dort z. B. nicht)
 - Doppelte Anker-IDs für Überschriften in einem Dokument

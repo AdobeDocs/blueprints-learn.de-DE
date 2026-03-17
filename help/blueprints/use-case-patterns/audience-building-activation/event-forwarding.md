@@ -80,9 +80,9 @@ In diesem Abschnitt werden das Muster und die Funktionskette beschrieben, die zu
 
 Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Adobe Experience Platform](Edge Network)** - Empfängt Echtzeit-Ereignisdaten von Web SDK, Mobile SDK oder der Server-API und leitet sie über konfigurierte Datenströme weiter.
-- **[!DNL Adobe Experience Platform](Ereignisweiterleitung)** - Stellt die Server-seitige Regel-Engine zum Auswerten, Filtern, Transformieren und Weiterleiten von Ereignisdaten an externe Ziele bereit
-- **[!DNL Adobe Experience Platform](Tags/Datenerfassung)** - Verwaltet den Lebenszyklus, die Erweiterungen, die Regeln und den Veröffentlichungs-Workflow der Ereignisweiterleitungs-Eigenschaft
+- **[!DNL Adobe Experience Platform] (Edge Network)** - Empfängt Echtzeit-Ereignisdaten von Web SDK, Mobile SDK oder der Server-API und leitet sie über konfigurierte Datenströme weiter.
+- **[!DNL Adobe Experience Platform] (Ereignisweiterleitung)** - Stellt die Server-seitige Regel-Engine zum Auswerten, Filtern, Transformieren und Weiterleiten von Ereignisdaten an externe Ziele bereit
+- **[!DNL Adobe Experience Platform] (Tags/Datenerfassung)** - Verwaltet den Lebenszyklus, die Erweiterungen, die Regeln und den Veröffentlichungs-Workflow der Ereignisweiterleitungs-Eigenschaft
 
 ## Grundlegende Funktionen
 
@@ -153,7 +153,7 @@ Der Nachteil besteht darin, dass die Verfügbarkeit der Erweiterung bestimmt, we
 
 **Wichtige Aspekte:**
 
-- Verfügbarkeit der Erweiterungen variiert — prüfen Sie vor [ Planung den ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)Datenerfassungs-Erweiterungskatalog“.
+- Verfügbarkeit der Erweiterungen variiert — prüfen Sie vor [&#x200B; Planung den &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)Datenerfassungs-Erweiterungskatalog“.
 - Erweiterungen werden von Adobe oder Partnern verwaltet; Aktualisierungen können grundlegende Änderungen mit sich bringen, die Regelanpassungen erfordern
 - Einige Erweiterungen unterstützen nur bestimmte Ereignistypen oder erfordern bestimmte XDM-Feldzuordnungen
 - Erweiterungen handhaben die Authentifizierung und die Verwaltung von Berechtigungen innerhalb ihrer Konfigurations-Benutzeroberfläche

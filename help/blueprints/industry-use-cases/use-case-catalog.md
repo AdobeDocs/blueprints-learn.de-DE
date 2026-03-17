@@ -53,7 +53,7 @@ Automotive-Anwendungsfälle kommen bald. [Zeigen Sie aktuelle Anwendungsfälle f
 
 >[!TAB Reisen und Gastgewerbe]
 
-Anwendungsfälle für Reisen und Gastgewerbe werden bald verfügbar sein. [Aktuelle Anwendungsfälle für Reisen und Gastgewerbe ](travel-hospitality/travel-hospitality-overview.md).
+Anwendungsfälle für Reisen und Gastgewerbe werden bald verfügbar sein. [Aktuelle Anwendungsfälle für Reisen und Gastgewerbe &#x200B;](travel-hospitality/travel-hospitality-overview.md).
 
 >[!TAB Telekommunikation]
 

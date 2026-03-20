@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Diese Datei enthält die vollständige Markdown-Vorlage für eine Anwendungsfall-Musterseite. Ersetzen Sie beim Generieren eines neuen Musters alle `{{placeholder}}` Werte durch den tatsächlichen Inhalt.
 
----
+&#x200B;---
 
 ## Vorlage
 
@@ -227,7 +227,7 @@ Complete the following before beginning the implementation.
 | Scalability | {{description}} | {{description}} | {{description}} |
 ````
 
----
+&#x200B;---
 
 ## Hinweise zur Verwendung dieser Vorlage
 

@@ -117,9 +117,9 @@ Dabei ist `{Alt Text}` der für Menschen lesbare Name des Anwendungsfalls.
 
 Formatieren Sie die Ausgabe mit diesen Abschnitten deutlich:
 
----
+&#x200B;---
 
-### Symbolspezifikation: {Use Case Name}
+### Symbolspezifikation: &lbrace;Use Case Name&rbrace;
 
 **Branche:** {Industry}
 
@@ -151,7 +151,7 @@ Formatieren Sie die Ausgabe mit diesen Abschnitten deutlich:
 6. Stellen Sie sicher, dass das Symbol bei einer Displaygröße von 40 Pixel klar und erkennbar aussieht.
 7. Verwenden Sie das Snippet Catalog HTML , wenn Sie diesen Anwendungsfall zur Katalogtabelle hinzufügen.
 
----
+&#x200B;---
 
 ## Richtlinien
 

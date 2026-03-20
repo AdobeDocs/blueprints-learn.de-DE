@@ -157,7 +157,7 @@ Nachdem alle Dateien erstellt und aktualisiert wurden, überprüfen Sie Folgende
 
 5. **Vollständigkeit von Frontend** - Die Musterdatei enthält Titel, Beschreibung, Lösung und exl-id in der YAML-Schriftart.
 
-6. **Experience League-Links** - Überprüfen Sie vor Ort, ob Experience League-URLs plausibel sind (beginnen Sie mit `https://experienceleague.adobe.com/`).
+6. **Experience League-Links** - Überprüfen Sie vor Ort, ob Experience League-URLs plausibel sind (beginnen Sie mit `https://experienceleague.adobe.com/de`).
 
 Melden Sie etwaige Validierungsfehler dem Benutzer und beheben Sie diese, bevor Sie die Aufgabe als abgeschlossen betrachten.
 

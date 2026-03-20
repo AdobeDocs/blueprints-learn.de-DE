@@ -3,16 +3,16 @@ title: Anwendungsfallkatalog
 description: Durchsuchen Sie branchenspezifische Anwendungsfälle nach Vertikalen, um den richtigen Ausgangspunkt für Ihre Adobe Experience Platform-Journey mit Links zu Implementierungsmustern und Geschäftszielen zu finden.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: b0fe19570fb5b649b063d0ba7d99e77ab166983d
+source-git-commit: 9d1ba8ce3fed83b1bd2b2615309ae7e3683e14f1
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2379'
 ht-degree: 1%
 
 ---
 
 # Anwendungsfallkatalog
 
-Anwendungsfälle aus der Branche zeigen, wie Unternehmen in bestimmten Branchen Adobe Experience Platform und Anwendungen einsetzen, um messbare Geschäftsergebnisse zu erzielen. Jeder Anwendungsfall beschreibt ein konkretes Geschäftsszenario, dessen erwartete Auswirkungen und Links zum Anwendungsfallmuster[&#x200B; das &#x200B;](/help/blueprints/use-case-patterns/overview.md) Implementierungshandbücher bietet.
+Anwendungsfälle aus der Branche zeigen, wie Unternehmen in bestimmten Branchen Adobe Experience Platform und Anwendungen einsetzen, um messbare Geschäftsergebnisse zu erzielen. Jeder Anwendungsfall beschreibt ein konkretes Geschäftsszenario, dessen erwartete Auswirkungen und Links zum Anwendungsfallmuster[ das ](/help/blueprints/use-case-patterns/overview.md) Implementierungshandbücher bietet.
 
 Durchsuchen Sie die nach Branchen geordneten Seiten, um Anwendungsfälle zu finden, die für Ihr Unternehmen relevant sind, und folgen Sie dann den Muster-Links für Implementierungsreferenzen, einschließlich Entscheidungshilfen, Funktionsketten und Experience League-Dokumentation.
 
@@ -122,7 +122,7 @@ Industry Use Case → Use Case Pattern → Key Business Objective
 | | [Risikobewertung und -prävention](insurance/insurance-overview.md#risk-assessment-and-prevention) | Bereitstellen von Informationen zur personalisierten Risikobewertung und Tipps zur Prävention | [!BADGE Emerging]{type=Informative} | [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
 | | [Wellness- und Präventionsprogramme](insurance/insurance-overview.md#wellness-and-prevention-programs) | Personalisieren von Mitteilungen und Prämien des Wellness-Programms für Versicherungskunden | [!BADGE Emerging]{type=Informative} | [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
 | <img src="assets/use-case-icons/insurance/icon-cross-sell.png" alt="Crosssell" width="40"> | [Crosssell-Produktempfehlungen](insurance/insurance-overview.md#cross-sell-product-recommendations) | Auf bestehenden Versicherungspolicen und Lebensstadien basierende Empfehlung zusätzlicher Versicherungsprodukte | [!BADGE Erweitert]{type=Caution} | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| | [Life Stage-basierte Produktangebote](insurance/insurance-overview.md#life-stage-based-product-offers) | Identifizieren Sie Kunden, die in neue Lebensstadien eintreten, und bieten Sie relevante Versicherungsprodukte an | [!BADGE Erweitert]{type=Caution} | [Cross-Channel-Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
+| <img src="assets/use-case-icons/insurance/icon-life-stage-based-product-offers.png" alt="Lebensphase" width="40"> | [Life Stage-basierte Produktangebote](insurance/insurance-overview.md#life-stage-based-product-offers) | Identifizieren Sie Kunden, die in neue Lebensstadien eintreten, und bieten Sie relevante Versicherungsprodukte an | [!BADGE Erweitert]{type=Caution} | [Cross-Channel-Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | | [Rabatt und Sparmöglichkeiten](insurance/insurance-overview.md#discount-and-savings-opportunities) | Identifizieren und Kommunizieren personalisierter Rabattangebote | [!BADGE Erweitert]{type=Caution} | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
 
 >[!TAB Medien und Unterhaltung]

@@ -505,11 +505,11 @@ Wichtige Konfigurationsdetails:
 - [Übersicht über Workspace](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home)
 - [Erstellen eines Projekts](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
 - [Freiformtabelle](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Attributionsbedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
-- [Flussvisualisierung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Flussvisualisierung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
 - [Fallout-Visualisierung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
 - [Kohortentabelle](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Übersicht über Filter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Übersicht über Filter](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
 - [Übersicht über berechnete Metriken](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
 - [Berechnete Metriken erstellen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
 - [Anmerkungen - Übersicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/annotations/overview)
@@ -663,17 +663,17 @@ Die folgenden Ressourcen enthalten zusätzliche Informationen zur Implementierun
 - [Übersicht über Workspace](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home)
 - [Erstellen eines Projekts](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
 - [Freiformtabelle](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Flussvisualisierung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Flussvisualisierung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
 - [Fallout-Visualisierung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
 - [Kohortentabelle](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Attributionsbedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution)
 - [Freigeben von Projekten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
 - [Planen von Projekten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [Aufschlüsselungsdimensionen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
 
 **Komponenten**
 
-- [Übersicht über Filter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Übersicht über Filter](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
 - [Erstellen von Filtern](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
 - [Übersicht über berechnete Metriken](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
 - [Berechnete Metriken erstellen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
@@ -696,8 +696,8 @@ Die folgenden Ressourcen enthalten zusätzliche Informationen zur Implementierun
 
 - [Geführte Analyse - Übersicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel-Ansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Trend-Ansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [Aufbewahrungsansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Trend-Ansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [Aufbewahrungsansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
 
 **[!DNL RT-CDP]B2B edition**
 

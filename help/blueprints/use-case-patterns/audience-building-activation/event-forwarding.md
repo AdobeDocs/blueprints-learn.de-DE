@@ -90,9 +90,9 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 | Grundfunktion | Status | Was muss vorhanden sein | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Administration und Governance | Erforderlich | Eine Sandbox muss mit den entsprechenden konfigurierten Benutzerrollen und Berechtigungen aktiv sein. Benutzende, die die Ereignisweiterleitung verwalten, benötigen Datenerfassungsberechtigungen in [!DNL Adobe Admin Console], einschließlich Berechtigungen zum Verwalten von Eigenschaften, Erweiterungen und Regeln für die Ereignisweiterleitung. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Datenmodellierung und -vorbereitung | Erforderlich | XDM-Schemata müssen für die Ereignisdaten definiert werden, die durch die Edge Network fließen. Der Datenstrom muss auf ein gültiges XDM ExperienceEvent-Schema verweisen, damit die Regeln für die Ereignisweiterleitung zum Filtern, Transformieren und Zuordnen auf strukturierte Felder zugreifen können. | [XDM-System - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Datenquellen und Sammlung | Erforderlich | Ein Datenerfassungsmechanismus muss aktiv sein - Web SDK, Mobile SDK oder Edge Network Server API - und Ereignisse über einen konfigurierten Datenstrom senden. Der Datenstrom ist die grundlegende Routing-Ebene, die die Client-seitige Erfassung mit der Server-seitigen Ereignisweiterleitung verbindet. | [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| Administration und Governance | Erforderlich | Eine Sandbox muss mit den entsprechenden konfigurierten Benutzerrollen und Berechtigungen aktiv sein. Benutzende, die die Ereignisweiterleitung verwalten, benötigen Datenerfassungsberechtigungen in [!DNL Adobe Admin Console], einschließlich Berechtigungen zum Verwalten von Eigenschaften, Erweiterungen und Regeln für die Ereignisweiterleitung. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
+| Datenmodellierung und -vorbereitung | Erforderlich | XDM-Schemata müssen für die Ereignisdaten definiert werden, die durch die Edge Network fließen. Der Datenstrom muss auf ein gültiges XDM ExperienceEvent-Schema verweisen, damit die Regeln für die Ereignisweiterleitung zum Filtern, Transformieren und Zuordnen auf strukturierte Felder zugreifen können. | [XDM-System - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) |
+| Datenquellen und Sammlung | Erforderlich | Ein Datenerfassungsmechanismus muss aktiv sein - Web SDK, Mobile SDK oder Edge Network Server API - und Ereignisse über einen konfigurierten Datenstrom senden. Der Datenstrom ist die grundlegende Routing-Ebene, die die Client-seitige Erfassung mit der Server-seitigen Ereignisweiterleitung verbindet. | [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure) |
 | Identitäts- und Profilkonfiguration | Nicht zutreffend | Die Ereignisweiterleitung verarbeitet unformatierte Ereignisdaten auf Edge Network-Ebene, bevor die Identitätsauflösung oder Profilvereinheitlichung erfolgt. Identity-Namespaces und Zusammenführungsrichtlinien sind nicht erforderlich, es sei denn, die weitergeleiteten Ereignisse müssen auch zum Echtzeit-Kundenprofil beitragen (bei dem es sich um eine separate Datenstrom-Service-Konfiguration und nicht um eine Ereignisweiterleitung handelt). | |
 | Zielgruppendefinition und Segmentierung | Nicht zutreffend | Die Ereignisweiterleitung verarbeitet einzelne Ereignisse in Echtzeit und bewertet die Zielgruppenzugehörigkeit nicht. Die zielgruppenbasierte Filterung ist nicht Teil der Funktionskette der Ereignisweiterleitung. Wenn eine zielgruppenbasierte Aktivierung erforderlich ist, finden Sie weitere Informationen im Referenzplan Audience Activation zu Zielen . | |
 
@@ -103,10 +103,10 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 | unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Nicht zutreffend | Die Ereignisweiterleitung basiert auf Rohdaten von Ereignissen, nicht auf berechneten Attributen auf Profilebene. Berechnete Attribute sind im Ereignisweiterleitungskontext nicht verfügbar. | |
-| Data Lifecycle Management | Empfohlen | Wenn Ereignisdaten ebenfalls (über denselben Datenstrom) in AEP-Datensätze aufgenommen werden, sollten für diese Datensätze Richtlinien zur Datenaufbewahrung (Gültigkeit) konfiguriert werden, um die Speicherkosten und die Einhaltung behördlicher Auflagen zu verwalten. Die Ereignisweiterleitung selbst speichert keine Daten, der parallele Aufnahmepfad von AEP jedoch schon. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Während die Regeln für die Ereignisweiterleitung eine Filterung auf Feldebene ermöglichen (sodass Sie sensible Daten von weitergeleiteten Payloads ausschließen können), stellt das Anwenden von Datennutzungskennzeichnungen auf die zugrunde liegenden Schemata und Datensätze sicher, dass Governance-Richtlinien durchgesetzt werden, wenn dieselben Daten für die Aktivierung oder Personalisierung der Zielgruppe verwendet werden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Überwachung und Beobachtbarkeit | Eingeschlossen | Überwachung ist für die Ereignisweiterleitung unerlässlich. Das Dashboard zur Überwachung der Ereignisweiterleitung bietet Einblicke in Erfolgsraten, Fehlerquoten und Ziel-Antwort-Codes für die Weiterleitung. Warnhinweise sollten für Zielfehler konfiguriert werden. | [Überwachung der Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
-| Reporting und Analyse | Empfohlen | Wenn weitergeleitete Ereignisse eine Analyseplattform eines Drittanbieters verwenden, sollten Sie dieselben AEP-Ereignisdatensätze mit CJA verbinden, um eine einheitliche kanalübergreifende Ansicht zu erzielen. Dies ermöglicht einen Vergleich zwischen Adobe-seitigen und Third-Party-seitigen Analysen. | [Übersicht über CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Data Lifecycle Management | Empfohlen | Wenn Ereignisdaten ebenfalls (über denselben Datenstrom) in AEP-Datensätze aufgenommen werden, sollten für diese Datensätze Richtlinien zur Datenaufbewahrung (Gültigkeit) konfiguriert werden, um die Speicherkosten und die Einhaltung behördlicher Auflagen zu verwalten. Die Ereignisweiterleitung selbst speichert keine Daten, der parallele Aufnahmepfad von AEP jedoch schon. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
+| Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Während die Regeln für die Ereignisweiterleitung eine Filterung auf Feldebene ermöglichen (sodass Sie sensible Daten von weitergeleiteten Payloads ausschließen können), stellt das Anwenden von Datennutzungskennzeichnungen auf die zugrunde liegenden Schemata und Datensätze sicher, dass Governance-Richtlinien durchgesetzt werden, wenn dieselben Daten für die Aktivierung oder Personalisierung der Zielgruppe verwendet werden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home) |
+| Überwachung und Beobachtbarkeit | Eingeschlossen | Überwachung ist für die Ereignisweiterleitung unerlässlich. Das Dashboard zur Überwachung der Ereignisweiterleitung bietet Einblicke in Erfolgsraten, Fehlerquoten und Ziel-Antwort-Codes für die Weiterleitung. Warnhinweise sollten für Zielfehler konfiguriert werden. | [Überwachung der Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/monitoring) |
+| Reporting und Analyse | Empfohlen | Wenn weitergeleitete Ereignisse eine Analyseplattform eines Drittanbieters verwenden, sollten Sie dieselben AEP-Ereignisdatensätze mit CJA verbinden, um eine einheitliche kanalübergreifende Ansicht zu erzielen. Dies ermöglicht einen Vergleich zwischen Adobe-seitigen und Third-Party-seitigen Analysen. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Anwendungsfunktionen
 
@@ -153,7 +153,7 @@ Der Nachteil besteht darin, dass die Verfügbarkeit der Erweiterung bestimmt, we
 
 **Wichtige Aspekte:**
 
-- Verfügbarkeit der Erweiterungen variiert — prüfen Sie vor [&#x200B; Planung den &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)Datenerfassungs-Erweiterungskatalog“.
+- Verfügbarkeit der Erweiterungen variiert — prüfen Sie vor [&#x200B; Planung den &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/overview)Datenerfassungs-Erweiterungskatalog“.
 - Erweiterungen werden von Adobe oder Partnern verwaltet; Aktualisierungen können grundlegende Änderungen mit sich bringen, die Regelanpassungen erfordern
 - Einige Erweiterungen unterstützen nur bestimmte Ereignistypen oder erfordern bestimmte XDM-Feldzuordnungen
 - Erweiterungen handhaben die Authentifizierung und die Verwaltung von Berechtigungen innerhalb ihrer Konfigurations-Benutzeroberfläche
@@ -175,11 +175,11 @@ Der Nachteil besteht darin, dass die Verfügbarkeit der Erweiterung bestimmt, we
 
 **Experience League:**
 
-- [Erweiterungskatalog für die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Meta Conversions-API-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [AWS-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Erweiterungskatalog für die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/overview)
+- [Meta Conversions-API-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [AWS-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Snowflake-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/snowflake/overview)
 
 ### Option B: Benutzerdefinierter Webhook (Fetch-API)-Ereignisweiterleitung
 
@@ -218,8 +218,8 @@ Der Nachteil ist ein höherer Implementierungsaufwand und eine kontinuierliche W
 
 **Experience League:**
 
-- [Adobe Cloud Connector-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Geheimnisse für die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Adobe Cloud Connector-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Geheimnisse für die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/secrets)
 
 ### Option C: Hybrid (Erweiterungen + benutzerdefinierte Webhooks)
 
@@ -253,8 +253,8 @@ Dieser Ansatz maximiert die Abdeckung und minimiert gleichzeitig unnötige benut
 
 **Experience League:**
 
-- [Übersicht über die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Erste Schritte mit der Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Übersicht über die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/overview)
+- [Erste Schritte mit der Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/getting-started)
 
 ### Vergleich von Optionen
 
@@ -325,9 +325,9 @@ Die folgenden Phasen beschreiben den End-to-End-Implementierungsprozess für die
 
 **Dokumentation zu Experience League:**
 
-- [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Übersicht über Datenströme](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Übersicht über die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure)
+- [Übersicht über Datenströme](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview)
+- [Übersicht über die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/overview)
 
 ### Phase 2: Ereignisweiterleitungseigenschaft und Erweiterungen
 
@@ -372,10 +372,10 @@ Die folgenden Phasen beschreiben den End-to-End-Implementierungsprozess für die
 
 **Dokumentation zu Experience League:**
 
-- [Erste Schritte mit der Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Erweiterungskatalog für die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Geheimnisse für die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
-- [Adobe Cloud Connector-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Erste Schritte mit der Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Erweiterungskatalog für die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/overview)
+- [Geheimnisse für die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/secrets)
+- [Adobe Cloud Connector-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### Phase 3: Definition der Ereignisregel
 
@@ -448,10 +448,10 @@ Erstellen Sie separate Regeln für jedes Ziel. Erweiterungsbasierte Regeln verwe
 
 **Dokumentation zu Experience League:**
 
-- [Regeln für die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Datenelemente in der Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)
-- [Regeln in der Datenerfassung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
-- [Adobe Cloud Connector-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Regeln für die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/overview)
+- [Datenelemente in der Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/data-elements)
+- [Regeln in der Datenerfassung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/rules)
+- [Adobe Cloud Connector-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### Phase 4: Veröffentlichung und Aktivierung
 
@@ -484,10 +484,10 @@ Erstellen Sie separate Regeln für jedes Ziel. Erweiterungsbasierte Regeln verwe
 
 **Dokumentation zu Experience League:**
 
-- [Publishing-Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
-- [Bibliotheken](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)
+- [Publishing-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview)
+- [Bibliotheken](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/libraries)
 - [Umgebungen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments)
-- [Builds](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/builds)
+- [Builds](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/builds)
 
 ### Phase 5: Überwachung und Validierung
 
@@ -521,9 +521,9 @@ Erstellen Sie separate Regeln für jedes Ziel. Erweiterungsbasierte Regeln verwe
 
 **Dokumentation zu Experience League:**
 
-- [Überwachung der Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)
-- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Überwachung der Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/de/docs/experience-platform/debugger/home)
+- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview)
 
 ## Überlegungen bei der Implementierung
 
@@ -605,26 +605,26 @@ In den folgenden Ressourcen finden Sie weitere Details zu den Themen, die in die
 
 **Ereignisweiterleitung**
 
-- [Übersicht über die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Erste Schritte mit der Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Überwachung der Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Geheimnisse für die Ereignisweiterleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Übersicht über die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/overview)
+- [Erste Schritte mit der Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Überwachung der Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Geheimnisse für die Ereignisweiterleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/event-forwarding/secrets)
 
 **Erweiterungen für die Ereignisweiterleitung**
 
-- [Katalog der Server-seitigen Erweiterungen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Adobe Cloud Connector-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Meta Conversions-API-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [AWS-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Google Ads Enhanced Conversions-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Mailchimp-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [Katalog der Server-seitigen Erweiterungen](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/overview)
+- [Adobe Cloud Connector-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Meta Conversions-API-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [AWS-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Snowflake-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Google Ads Enhanced Conversions-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Mailchimp-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **Datenerfassung und Edge Network**
 
-- [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Übersicht über Datenströme](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Übersicht über Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Übersicht über die Edge Network Server-API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure)
+- [Übersicht über Datenströme](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview)
+- [Übersicht über Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home)
+- [Übersicht über die Edge Network Server-API](https://experienceleague.adobe.com/de/docs/experience-platform/edge-network-server-api/overview)
 - [Übersicht über Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)

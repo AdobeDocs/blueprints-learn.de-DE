@@ -93,11 +93,11 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 | Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Administration und Governance | Angenommen an Ort und Stelle | RT-CDP-Sandbox bereitgestellt und aktiv. Berechtigungen für die Zielverwaltung und -aktivierung, die Implementierungsrollen zugewiesen sind. Für die Zielplattformen verfügbare Anmeldedaten für Zielkonten. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Datenmodellierung und -vorbereitung | Erforderlich | Profilschema muss Attribute enthalten, die Zielfeldern zugeordnet werden (z. B. E-Mail, Telefon, Hash-Kennungen, demografische Attribute). Das Schema muss profilaktiviert sein, wobei Datensätze aktiv Daten empfangen. | [XDM-Systemübersicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| Datenquellen und Sammlung | Angenommen an Ort und Stelle | Profildaten, die die Zielgruppenauswertung ermöglichen, müssen aufgenommen und aktuell sein. Batch- und/oder Streaming-Aufnahme-Pipelines sind betriebsbereit. Web SDK, Quell-Connectoren oder Batch-Aufnahme, die Daten in profilaktivierte Datensätze liefern. | [Quellen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [Übersicht über Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
-| Identitäts- und Profilkonfiguration | Erforderlich | Identity-Namespaces für den Zielabgleich müssen konfiguriert sein (z. B. gehashte E-Mail für benutzerdefinierte Facebook-Zielgruppen, Google Ads-Kundenabgleich). Zusammenführungsrichtlinien müssen einheitliche Profile mit allen erforderlichen Attributen für die Aktivierung erzeugen. | [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home), [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| Zielgruppendefinition und Segmentierung | Erforderlich | Mit Segment Builder, Audience-Komposition oder Federated Audience-Komposition definierte Zielgruppe. Auswertungsmethode (Batch, Streaming oder Edge) basierend auf den Anforderungen an die Aktivierungslatenz ausgewählt. Diese Funktion wird in Phase 1 dieses Plans ausgeübt. | [Segmentation Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| Administration und Governance | Angenommen an Ort und Stelle | RT-CDP-Sandbox bereitgestellt und aktiv. Berechtigungen für die Zielverwaltung und -aktivierung, die Implementierungsrollen zugewiesen sind. Für die Zielplattformen verfügbare Anmeldedaten für Zielkonten. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
+| Datenmodellierung und -vorbereitung | Erforderlich | Profilschema muss Attribute enthalten, die Zielfeldern zugeordnet werden (z. B. E-Mail, Telefon, Hash-Kennungen, demografische Attribute). Das Schema muss profilaktiviert sein, wobei Datensätze aktiv Daten empfangen. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition) |
+| Datenquellen und Sammlung | Angenommen an Ort und Stelle | Profildaten, die die Zielgruppenauswertung ermöglichen, müssen aufgenommen und aktuell sein. Batch- und/oder Streaming-Aufnahme-Pipelines sind betriebsbereit. Web SDK, Quell-Connectoren oder Batch-Aufnahme, die Daten in profilaktivierte Datensätze liefern. | [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home), [Übersicht über Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home) |
+| Identitäts- und Profilkonfiguration | Erforderlich | Identity-Namespaces für den Zielabgleich müssen konfiguriert sein (z. B. gehashte E-Mail für benutzerdefinierte Facebook-Zielgruppen, Google Ads-Kundenabgleich). Zusammenführungsrichtlinien müssen einheitliche Profile mit allen erforderlichen Attributen für die Aktivierung erzeugen. | [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home), [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview) |
+| Zielgruppendefinition und Segmentierung | Erforderlich | Mit Segment Builder, Audience-Komposition oder Federated Audience-Komposition definierte Zielgruppe. Auswertungsmethode (Batch, Streaming oder Edge) basierend auf den Anforderungen an die Aktivierungslatenz ausgewählt. Diese Funktion wird in Phase 1 dieses Plans ausgeübt. | [Segmentation Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home), [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Unterstützende Funktionen
 
@@ -105,11 +105,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 | Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie Lebenszeitwert, Interaktionswert oder Tendenzwert verbessern die Genauigkeit der Zielgruppe und bieten Anreicherungsattribute für die Zuordnung zu Zielen. Dies ist besonders nützlich, wenn Ziele von einer wertbasierten oder Score-basierten Zielgruppensegmentierung profitieren. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Data Lifecycle Management | Empfohlen | Richtlinien zur Datensatz- und Profilgültigkeit gewährleisten die Aktualität und Einhaltung von Daten. Die Konfiguration des Einverständnisschemas stellt sicher, dass nur einverstandene Profile aktiviert werden. Kritisch für die Einhaltung von Vorschriften beim Export von Daten in externe Systeme. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen und -Richtlinien verhindern die Aktivierung eingeschränkter Daten für nicht autorisierte Ziele (z. B. personenbezogene Daten für Anzeigenplattformen, sensible Segmente für Datenpartner). Dies ist besonders wichtig für die Zielgruppenaktivierung auf externe Drittanbietersysteme. | [Data Governance - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Übersicht über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview) |
-| Überwachung und Beobachtbarkeit | Eingeschlossen | Die Aktivierungsüberwachung ist Teil der Funktionskette (Phase 5). Behandelt die Überwachung der Datenflussausführung, Versandstatus-Warnhinweise, die Verfolgung der Zielgruppenpopulation und die Sichtbarkeit der Lizenznutzung. | [Überwachen von Zieldatenflüssen](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations), [Warnhinweise - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Reporting und Analyse | Empfohlen | Die CJA-Analyse der Effektivität der Zielgruppenaktivierung ermöglicht die Messung der Leistung für aktivierte Zielgruppen (z. B. Steigerung der Konversionsrate durch Unterdrückung, ROAS von Lookalike-Zielgruppen). | [Übersicht über CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie Lebenszeitwert, Interaktionswert oder Tendenzwert verbessern die Genauigkeit der Zielgruppe und bieten Anreicherungsattribute für die Zuordnung zu Zielen. Dies ist besonders nützlich, wenn Ziele von einer wertbasierten oder Score-basierten Zielgruppensegmentierung profitieren. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
+| Data Lifecycle Management | Empfohlen | Richtlinien zur Datensatz- und Profilgültigkeit gewährleisten die Aktualität und Einhaltung von Daten. Die Konfiguration des Einverständnisschemas stellt sicher, dass nur einverstandene Profile aktiviert werden. Kritisch für die Einhaltung von Vorschriften beim Export von Daten in externe Systeme. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
+| Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen und -Richtlinien verhindern die Aktivierung eingeschränkter Daten für nicht autorisierte Ziele (z. B. personenbezogene Daten für Anzeigenplattformen, sensible Segmente für Datenpartner). Dies ist besonders wichtig für die Zielgruppenaktivierung auf externe Drittanbietersysteme. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home), [Übersicht über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview) |
+| Überwachung und Beobachtbarkeit | Eingeschlossen | Die Aktivierungsüberwachung ist Teil der Funktionskette (Phase 5). Behandelt die Überwachung der Datenflussausführung, Versandstatus-Warnhinweise, die Verfolgung der Zielgruppenpopulation und die Sichtbarkeit der Lizenznutzung. | [Überwachen von Zieldatenflüssen](https://experienceleague.adobe.com/de/docs/experience-platform/dataflows/ui/monitor-destinations), [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview) |
+| Reporting und Analyse | Empfohlen | Die CJA-Analyse der Effektivität der Zielgruppenaktivierung ermöglicht die Messung der Leistung für aktivierte Zielgruppen (z. B. Steigerung der Konversionsrate durch Unterdrückung, ROAS von Lookalike-Zielgruppen). | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Anwendungsfunktionen
 
@@ -176,8 +176,8 @@ Die Streaming-Aktivierung ist die Standardeinstellung für die meisten Werbeplat
 
 **Experience League:**
 
-- [Aktivieren von Zielgruppen für Streaming-Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Streaming-Zielkatalog](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Aktivieren von Zielgruppen für Streaming-Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Streaming-Zielkatalog](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/overview)
 
 ### Option B: Batch-Zielaktivierung (Dateiexport)
 
@@ -215,7 +215,7 @@ Dieser Ansatz unterstützt die breiteste Palette nachgelagerter Verbraucher, da 
 
 **Experience League:**
 
-- [Aktivieren von Zielgruppen für Batch-Profil-Exportziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Aktivieren von Zielgruppen für Batch-Profil-Exportziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [Dateibasierter Zielkatalog](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage)
 
 ### Option C: Aktivierung für mehrere Ziele
@@ -253,8 +253,8 @@ Dies ist ein gängiges Produktionsmuster für Organisationen, die über mehrere 
 
 **Experience League:**
 
-- [Übersicht über Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Zielkatalog](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Übersicht über Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home)
+- [Zielkatalog](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/overview)
 
 ### Vergleich von Optionen
 
@@ -349,13 +349,13 @@ Die Auswertungsmethode sollte das anspruchsvollste Ziel berücksichtigen. Wenn f
 
 **Dokumentation zu Experience League:**
 
-- [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language-Referenz](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Streaming-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Edge-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Zielgruppenkomposition - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Auswertungsmethoden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
+- [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home)
+- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language-Referenz](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview)
+- [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Edge-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Zielgruppenkomposition - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-composition)
+- [Auswertungsmethoden](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home#evaluation-methods)
 
 
 ### Phase 2: Zielkonfiguration
@@ -427,12 +427,12 @@ Wiederholen Sie diese Phase für jedes Ziel. Jede Verbindung ist unabhängig - S
 
 **Dokumentation zu Experience League:**
 
-- [Zielkatalog](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Übersicht über Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Aktivieren von Zielgruppen für Batch-Profil-Exportziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Aktivieren von Zielgruppen für Streaming-Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Übersicht über Destination SDK](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
-- [Destination SDK-Konfigurationsoptionen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [Zielkatalog](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/overview)
+- [Übersicht über Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home)
+- [Aktivieren von Zielgruppen für Batch-Profil-Exportziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Aktivieren von Zielgruppen für Streaming-Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Übersicht über Destination SDK](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/destination-sdk/overview)
+- [Destination SDK-Konfigurationsoptionen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### Phase 3: Zielgruppenaktivierung
@@ -490,10 +490,10 @@ Wiederholen Sie den Aktivierungs-Workflow für jedes Ziel. Dieselbe Zielgruppe k
 
 **Dokumentation zu Experience League:**
 
-- [Aktivieren von Zielgruppen für Streaming-Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Aktivieren von Zielgruppen für Batch-Profil-Exportziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Zielgruppen bei Bedarf für Batch-Ziele aktivieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Aktivieren von Zielgruppen für Streaming-Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Aktivieren von Zielgruppen für Batch-Profil-Exportziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Zielgruppen bei Bedarf für Batch-Ziele aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 
 ### Phase 4: Governance-Validierung
@@ -537,11 +537,11 @@ Wiederholen Sie den Aktivierungs-Workflow für jedes Ziel. Dieselbe Zielgruppe k
 
 **Dokumentation zu Experience League:**
 
-- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home)
+- [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/overview)
 - [Datennutzungs-Labels – Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview)
 - [Einverständnis und Einstellungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [Durchsetzung von Einverständnisrichtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
+- [Durchsetzung von Einverständnisrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/policies/user-guide)
 
 
 ### Phase 5: Überwachung und Validierung
@@ -562,9 +562,9 @@ Wiederholen Sie den Aktivierungs-Workflow für jedes Ziel. Dieselbe Zielgruppe k
 
 **Dokumentation zu Experience League:**
 
-- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Observability Insights - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview)
+- [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home)
 - [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 ## Überlegungen bei der Implementierung
@@ -573,15 +573,15 @@ Beachten Sie die folgenden Überlegungen vor und während der Implementierung.
 
 ### Leitplanken und Beschränkungen
 
-- **Segmentdefinitionslimit:** Maximal 4.000 Segmentdefinitionen pro Sandbox — [Segmentierungsleitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- **Datenflüsse pro Ziel:** Maximal 100 Datenflüsse pro Zielverbindung — [Leitplanken für Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **Segmentdefinitionslimit:** Maximal 4.000 Segmentdefinitionen pro Sandbox — [Segmentierungsleitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails)
+- **Datenflüsse pro Ziel:** Maximal 100 Datenflüsse pro Zielverbindung — [Leitplanken für Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails)
 - **Größe der Batch-Exportdatei:** Dateibasierte Ziele haben maximale Dateigrößenbeschränkungen für den Export; große Zielgruppen werden automatisch auf mehrere Dateien aufgeteilt
 - **Streaming-Zieldurchsatz:** Durchsatzbeschränkungen pro Sekunde werden von jedem Zielpartner festgelegt; Änderungen an großen Zielgruppen können gedrosselt werden
 - **Batch-Auswertungskapazität:** bis zu 24 Millionen Profile pro Segmentauswertungsauftrag
 - **Zielgruppenkomposition:** Maximal 10 Kompositionsblöcke pro Arbeitsfläche; zusammengesetzte Zielgruppen werden nur per Batch ausgewertet
-- **Identitätsdiagramm:** Maximal 50 Identitäten pro Diagramm - [Identity Service-Leitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- **Berechnete Attribute:** Maximal 25 berechnete Attribute pro Sandbox - [Leitplanken für berechnete Attribute](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
-- **Übersicht über Aktivierungsleitplanken:** [Aktivierungsleitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **Identitätsdiagramm:** Maximal 50 Identitäten pro Diagramm - [Identity Service-Leitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/identity/guardrails)
+- **Berechnete Attribute:** Maximal 25 berechnete Attribute pro Sandbox - [Leitplanken für berechnete Attribute](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **Übersicht über Aktivierungsleitplanken:** [Aktivierungsleitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails)
 
 ### Häufige Fehler
 
@@ -651,72 +651,72 @@ Beachten Sie die folgenden Überlegungen vor und während der Implementierung.
 
 **Ziele**
 
-- [Übersicht über Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Zielkatalog](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Aktivieren von Zielgruppen für Streaming-Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Aktivieren von Zielgruppen für Batch-Profil-Exportziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Zielgruppen bei Bedarf für Batch-Ziele aktivieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [Leitplanken für Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Übersicht über Destination SDK](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
+- [Übersicht über Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home)
+- [Zielkatalog](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/overview)
+- [Aktivieren von Zielgruppen für Streaming-Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Aktivieren von Zielgruppen für Batch-Profil-Exportziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Zielgruppen bei Bedarf für Batch-Ziele aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [Leitplanken für Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails)
+- [Übersicht über Destination SDK](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/destination-sdk/overview)
 
 **Zielgruppen und Segmentierung**
 
-- [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language-Referenz](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Streaming-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Edge-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Zielgruppenkomposition - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Schutzmaßnahmen bei der Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home)
+- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language-Referenz](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview)
+- [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Edge-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Zielgruppenkomposition - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-composition)
+- [Schutzmaßnahmen bei der Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails)
 
 **Identität und Profil**
 
 - [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)
 - [Übersicht über Identity-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces)
-- [Verknüpfungsregeln für Identitätsdiagramme](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [Profilübersicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [Verknüpfungsregeln für Identitätsdiagramme](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-linking-logic)
+- [Profilübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home)
+- [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview)
 
 **Datenmodellierung und Schemata**
 
-- [XDM-Systemübersicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home)
+- [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition)
 
 **Data Governance**
 
-- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home)
 - [Datennutzungs-Labels – Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview)
-- [Data Governance-Richtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
-- [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [Data Governance-Richtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/policies/overview)
+- [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/overview)
 - [Einverständnis und Einstellungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **Überwachung und Beobachtbarkeit**
 
-- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Observability Insights - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview)
+- [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home)
 - [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **Berechnete Attribute**
 
-- [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [Handbuch zur Benutzeroberfläche für berechnete Attribute](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview)
+- [Handbuch zur Benutzeroberfläche für berechnete Attribute](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/ui)
 
 **Datenerfassung und Quellen**
 
-- [Quellen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Übersicht über Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+- [Übersicht über Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home)
+- [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure)
 
 **Administration**
 
 - [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home)
-- [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
-- [Attributbasierte Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home)
+- [Attributbasierte Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/overview)
 
 **Leitplanken**
 
-- [Leitplanken für Echtzeit-Kundenprofile](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Leitplanken für Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- [Aktivierungsleitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Schutzmaßnahmen bei der Aufnahme](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [Leitplanken für Echtzeit-Kundenprofile](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails)
+- [Leitplanken für Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/guardrails)
+- [Aktivierungsleitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails)
+- [Schutzmaßnahmen bei der Aufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/guardrails)

@@ -2,13 +2,13 @@
 title: B2B-Anwendungsfälle
 description: Erfahren Sie, wie B2B-Unternehmen Adobe Experience Platform verwenden, um die Pipeline zu beschleunigen, die Lead-Qualität zu verbessern und die Kundenexpansion zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
+source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 1%
+source-wordcount: '3479'
+ht-degree: 0%
 
 ---
-
 
 # B2B-Anwendungsfälle
 
@@ -24,11 +24,11 @@ Personalisieren Sie die Marketing-Kommunikation und den Inhalt für Zielkonten a
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen, die Account-basierte Marketing-Personalisierung implementieren, verzeichnen in der Regel einen Anstieg der Account-Interaktionsrate um 30-40 %, was zu einer stärkeren Pipeline und einem schnelleren Abschluss-Fortschritt führt.
+Unternehmen, die Account-basierte Marketing-Personalisierung implementieren, profitieren von einer verbesserten Account-Interaktion, einer stärkeren Pipeline und einem schnelleren Abschluss.
 
 ### Implementieren
 
-Verwenden Sie das [B2B-Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)-Muster, um Zielgruppen auf Kontoebene zu erstellen und kanalübergreifend personalisierte Inhalte zu aktivieren. Dieses Muster wurde speziell für Account-basierte Strategien entwickelt und unterstützt sowohl das Targeting auf Konto- als auch auf Personenebene.
+Verwenden Sie das [B2B-Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)-Muster, um Zielgruppen auf Kontoebene zu erstellen und kanalübergreifend personalisierte Inhalte zu aktivieren. Dieses Muster wurde speziell für Account-basierte Strategien entwickelt und unterstützt sowohl das Targeting auf Konto- als auch auf Personenebene. Dies ist das richtige Muster, wenn das Targeting auf Kontoebene und nicht auf individueller Ebene erfolgen muss - die standardmäßige RT-CDP-Zielgruppenaktivierung unterstützt nicht das Account-basierte Datenmodell, das für ABM-Strategien erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -44,11 +44,11 @@ Führt automatisch eine Bewertung für Leads anhand von Profildaten und -verhalt
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen, die verhaltensorientierte Lead-Bewertung und automatisierte Pflege implementieren, erreichen in der Regel einen Anstieg der Lead-zu-Opportunity-Konversionen um 25-35 %, wodurch die Pipeline-Geschwindigkeit beschleunigt und die Verkaufsproduktivität verbessert wird.
+Unternehmen, die verhaltensorientierte Lead-Bewertung und automatisierte Pflege implementieren, sehen eine verbesserte Lead-zu-Opportunity-Konversion, eine beschleunigte Pipeline-Geschwindigkeit und eine verbesserte Verkaufsproduktivität.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um verzweigende Journey zu entwickeln, die auf Änderungen der Lead-Bewertung und Verhaltens-Trigger reagieren. Dieses Muster unterstützt die bedingte Logik, die zum Routen von Leads zwischen Nurture-Tracks und Workflows zur Verkaufsübergabe erforderlich ist.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um verzweigende Journey zu entwickeln, die auf Änderungen der Lead-Bewertung und Verhaltens-Trigger reagieren. Dieses Muster unterstützt die bedingte Logik, die zum Routen von Leads zwischen Nurture-Tracks und Workflows zur Verkaufsübergabe erforderlich ist. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenziellen Fluss mit mehreren Nachrichten über Tage mit bedingter Verzweigung basierend auf Lead-Score-Änderungen und Verhaltensereignissen erfordert - eine einzelne ausgelöste Nachricht kann die Abhängigkeitslogik zwischen Scoring-Stadien und Routing-Entscheidungen nicht berücksichtigen.
 
 ### Technische Überlegungen
 
@@ -64,11 +64,11 @@ Personalisieren Sie den Inhalt, die Ressourcen und die Angebote der Website basi
 
 ### Auswirkung auf den Betrieb
 
-B2B-Unternehmen, die Web-Erlebnisse für bekannte Interessenten personalisieren, verzeichnen in der Regel einen Anstieg der Interaktion mit Inhalten um 20-30 %, was zu einer stärker qualifizierten Pipeline und kürzeren Verkaufszyklen führt.
+B2B-Organisationen, die Web-Erlebnisse für bekannte Interessenten personalisieren, erzielen eine verbesserte Content-Interaktion, was zu einer stärker qualifizierten Pipeline und kürzeren Verkaufszyklen führt.
 
 ### Implementieren
 
-Verwenden Sie das [Web-/App-Personalization für bekannte Besucher](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md), um auf der Grundlage einheitlicher Profile potenzieller Kundinnen und Kunden maßgeschneiderte Inhaltserlebnisse bereitzustellen. Dieses Muster nutzt Echtzeit-Profildaten, um für jeden Besucher die relevantesten Ressourcen, Fallstudien und Aktionsaufrufe bereitzustellen.
+Verwenden Sie das [Web-/App-Personalization für bekannte Besucher](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md), um auf der Grundlage einheitlicher Profile potenzieller Kundinnen und Kunden maßgeschneiderte Inhaltserlebnisse bereitzustellen. Dieses Muster nutzt Echtzeit-Profildaten, um für jeden Besucher die relevantesten Ressourcen, Fallstudien und Aktionsaufrufe bereitzustellen. Dies ist das richtige Muster, wenn die Personalisierung von Profilattributen und Segmentzugehörigkeit und nicht von einem verhaltensbezogenen Affinitätsmodell gesteuert wird - sodass Attribute auf Konto- und individueller Ebene das Erlebnis steuern können.
 
 ### Technische Überlegungen
 
@@ -84,11 +84,11 @@ Personalisierte Bestätigungen, Erinnerungen und Follow-up für Veranstaltungen 
 
 ### Auswirkung auf den Betrieb
 
-Automatisierte, personalisierte Workflows für die Veranstaltungskommunikation steigern in der Regel die Teilnahme an Veranstaltungen um 40-50 %, maximieren die Rendite aus Investitionen in Veranstaltungen und stärken die Beziehungen zu Interessenten.
+Automatisierte, personalisierte Workflows für die Veranstaltungskommunikation steigern die Anwesenheitsrate von Veranstaltungen, maximieren den ROI von Veranstaltungsinvestitionen und stärken die Beziehungen mit potenziellen Kunden.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um den gesamten Ereignislebenszyklus von der Registrierung bis hin zur Pflege nach dem Ereignis zu orchestrieren. Dieses Muster unterstützt zeitbasierte Trigger, bedingte Verzweigungen nach Ereignistyp und mehrkanalige Folgesequenzen.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um den gesamten Ereignislebenszyklus von der Registrierung bis hin zur Pflege nach dem Ereignis zu orchestrieren. Dieses Muster unterstützt zeitbasierte Trigger, bedingte Verzweigungen nach Ereignistyp und mehrkanalige Folgesequenzen. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenziellen Fluss mit mehreren Nachrichten über Tage mit bedingter Verzweigung basierend auf der Ereignisregistrierung und der Anwesenheit erfordert - zeitbasiertes Messaging allein kann die komplexe Verzweigungslogik zwischen registrierten, teilnehmenden und nicht angezeigten Pfaden nicht verarbeiten.
 
 ### Technische Überlegungen
 
@@ -104,11 +104,11 @@ Ansprechen Sie Testanwender mit personalisierten Produktempfehlungen, Schulungsr
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen, die personalisierte Testkonversionskampagnen bereitstellen, verzeichnen in der Regel einen Anstieg der Konversionen zwischen Testversand und Paid um 25-35 %, was sich direkt auf den Unternehmensumsatz auswirkt und die Kosten für die Kundenakquise senkt.
+Unternehmen, die personalisierte Testkonversionskampagnen bereitstellen, profitieren von einer verbesserten Konversion zu Testpreisen, die sich direkt auf den Unternehmensumsatz auswirkt und die Kosten für die Kundenakquise senkt.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um zeit- und verhaltensbasierte Konversions-Journey für Testanwender zu erstellen. Dieses Muster unterstützt bedingte Pfade, die auf Produktnutzungs-Meilensteinen basieren, und ermöglicht gezielte Nudges zum richtigen Zeitpunkt.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um zeit- und verhaltensbasierte Konversions-Journey für Testanwender zu erstellen. Dieses Muster unterstützt bedingte Pfade, die auf Produktnutzungs-Meilensteinen basieren, und ermöglicht gezielte Nudges zum richtigen Zeitpunkt. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenziellen, mehrfachen Nachrichtenfluss erfordert, der durch Nutzungsmeilensteine mit bedingter Verzweigung ausgelöst wird - ereignisgesteuertes Messaging kann die prädiktive Timing- und Abhängigkeitslogik, die für die Meilenstein-basierte Pflege erforderlich ist, nicht verarbeiten.
 
 ### Technische Überlegungen
 
@@ -124,11 +124,11 @@ Personalisieren Sie Onboarding-Journey für Kunden mit relevanten Schulungen, Re
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen mit personalisierten Onboarding-Programmen erzielen in der Regel innerhalb der ersten 90 Tage eine 50-60%ige Steigerung der Funktionsübernahme, was direkt zu höheren Bindungs- und Expansionsumsätzen beiträgt.
+Unternehmen mit personalisierten Onboarding-Programmen profitieren von einer verbesserten Implementierung von Funktionen in den ersten 90 Tagen, was direkt zu höheren Umsätzen bei Kundenbindung und Erweiterung beiträgt.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um Onboarding-Sequenzen zu orchestrieren, die auf Produkt, Planebene und Kundensegment zugeschnitten sind. Dieses Muster unterstützt einen Milestone-basierten Fortschritt und stellt sicher, dass Kunden in jeder Phase ihres Onboarding die richtige Anleitung erhalten.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um Onboarding-Sequenzen zu orchestrieren, die auf Produkt, Planebene und Kundensegment zugeschnitten sind. Dieses Muster unterstützt einen Milestone-basierten Fortschritt und stellt sicher, dass Kunden in jeder Phase ihres Onboarding die richtige Anleitung erhalten. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenzierten Fluss mit mehreren Nachrichten mit bedingter Weiterentwicklung basierend auf Produktnutzungs-Meilensteinen erfordert - ereignisgesteuertes Messaging kann die komplexe Staging-Logik, die für einen geführten Onboarding-Fortschritt erforderlich ist, nicht berücksichtigen.
 
 ### Technische Überlegungen
 
@@ -144,11 +144,11 @@ Proaktive Interaktion mit Kunden, die eine Vertragsverlängerung anstreben, mit 
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen, die proaktive, personalisierte Verlängerungskampagnen durchführen, verzeichnen in der Regel einen Anstieg der Verlängerungsrate um 30-40 %, wodurch der wiederkehrende Umsatz geschützt und die Kosten für die Wiederbeschaffung von Kunden gesenkt werden.
+Unternehmen, die proaktive, personalisierte Verlängerungskampagnen durchführen, profitieren von höheren Verlängerungsraten, dem Schutz wiederkehrender Umsätze und der Senkung der Kosten für die Rückgewinnung von Kunden.
 
 ### Implementieren
 
-Verwenden Sie das [Cross-Channel-Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster, um das richtige Erneuerungsangebot über den richtigen Kanal zum richtigen Zeitpunkt bereitzustellen. Dieses Muster kombiniert die Journey-Orchestrierung mit Offer Decisioning und ermöglicht dynamische Verlängerungsanreize basierend auf dem Wert und der Nutzung des Kontos.
+Verwenden Sie das [Cross-Channel-Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster, um das richtige Erneuerungsangebot über den richtigen Kanal zum richtigen Zeitpunkt bereitzustellen. Dieses Muster kombiniert die Journey-Orchestrierung mit Offer Decisioning und ermöglicht dynamische Verlängerungsanreize basierend auf dem Wert und der Nutzung des Kontos. Dies ist das richtige Muster, wenn die Journey die Bereitstellung kanalübergreifend koordinieren muss und die Angebotsauswahl Kontowert- und Nutzungsbeschränkungen erfordert. Die Journey-Orchestrierung allein bietet nicht die Echtzeit-Entscheidungsebene, die erforderlich ist, um Verlängerungsanreize dynamisch abzustimmen.
 
 ### Technische Überlegungen
 
@@ -164,11 +164,11 @@ Identifizieren Sie Kunden, die für Produkt-Upgrades oder zusätzliche Lizenzen 
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen, die Expansionssignale systematisch identifizieren und darauf reagieren, generieren in der Regel eine Steigerung des Expansionsumsatzes um 20-30 %, wodurch die Nettoumsatzbindung und der Kundenlebenszeitwert verbessert werden.
+Organisationen, die Erweiterungssignale systematisch identifizieren und darauf reagieren, generieren höhere Expansionsumsätze, verbessern die Nettoumsatzbindung und den Kundenlebenszeitwert.
 
 ### Implementieren
 
-Verwenden Sie das [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster, um personalisierte Upsell- und Expansionsangebote auf der Grundlage von Echtzeit-Nutzung und Kontosignalen bereitzustellen. Dieses Muster verwendet die Entscheidungsfindung, um jedes Konto kanalübergreifend mit dem relevantesten Erweiterungsangebot abzugleichen.
+Verwenden Sie das [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster, um personalisierte Upsell- und Expansionsangebote auf der Grundlage von Echtzeit-Nutzung und Kontosignalen bereitzustellen. Dieses Muster verwendet die Entscheidungsfindung, um jedes Konto kanalübergreifend mit dem relevantesten Erweiterungsangebot abzugleichen. Dies ist das richtige Muster, wenn die Journey die Bereitstellung kanalübergreifend koordinieren muss und die Angebotsauswahl Eignungsregeln erfordert, die regeln, welche Erweiterungsangebote mit bestimmten Konten übereinstimmen. Die Journey-Orchestrierung allein bietet nicht die Entscheidungsebene, die für den einschränkungsgesteuerten Angebotsabgleich erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -184,11 +184,11 @@ Targeting von potenziellen Kunden durch Verwendung von Produkten von Mitbewerber
 
 ### Auswirkung auf den Betrieb
 
-B2B-Organisationen, die zielgerichtete wettbewerbsorientierte Ersatzkampagnen durchführen, erreichen in der Regel eine Steigerung der wettbewerbsfähigen Gewinnquote um 15-25 %, erobern Marktanteile und verdrängen etablierte Anbieter.
+B2B-Organisationen, die zielgerichtete wettbewerbsorientierte Ersatzkampagnen durchführen, erzielen verbesserte wettbewerbsfähige Gewinnraten, gewinnen Marktanteile und verdrängen etablierte Anbieter.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um Multi-Touch-Kampagnen im Wettbewerb zu orchestrieren, die auf die spezifischen Wettbewerber- und Interessentenprofile zugeschnitten sind. Dieses Muster unterstützt eine bedingte Verzweigung auf der Grundlage der vom Mitbewerber identifizierten Inhalte und ermöglicht so eine Botschaft, die die individuellen Probleme jedes Wettbewerbsszenarios adressiert.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um Multi-Touch-Kampagnen im Wettbewerb zu orchestrieren, die auf die spezifischen Wettbewerber- und Interessentenprofile zugeschnitten sind. Dieses Muster unterstützt eine bedingte Verzweigung auf der Grundlage der vom Mitbewerber identifizierten Inhalte und ermöglicht so eine Botschaft, die die individuellen Probleme jedes Wettbewerbsszenarios adressiert. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenziellen Fluss mit mehreren Nachrichten mit bedingter Verzweigung basierend auf dem spezifischen Mitbewerber- und Interessentenprofil erfordert - ereignisgesteuertes Messaging kann die Komplexität der mitbewerberspezifischen Verzweigungslogik über mehrere Touchpoints hinweg nicht verarbeiten.
 
 ### Technische Überlegungen
 
@@ -204,11 +204,11 @@ Personalisieren Sie die Einladungen zu Webinaren und die Planung der Demos auf d
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Einladungsprogramme für Webinare und Demos steigern in der Regel die Teilnahme an Webinaren um 35-45 %, wodurch die Möglichkeiten der Live-Interaktion noch besser qualifiziert werden.
+Personalisierte Webinar- und Demo-Einladungsprogramme steigern die Anwesenheitsraten von Webinaren und fördern so die qualifizierte Nutzung von Live-Interaktionsmöglichkeiten.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöste Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um personalisierte Einladungen zu senden, wenn Interessenten Interessensignale zeigen, die auf kommende Webinar- oder Demothemen abgestimmt sind. Dieses Muster reagiert in Echtzeit auf verhaltensbezogene Trigger und stellt sicher, dass Einladungen ankommen, wenn das Interesse am größten ist.
+Verwenden Sie das [Ereignis-ausgelöste Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um personalisierte Einladungen zu senden, wenn Interessenten Interessensignale zeigen, die auf kommende Webinar- oder Demothemen abgestimmt sind. Dieses Muster reagiert in Echtzeit auf verhaltensbezogene Trigger und stellt sicher, dass Einladungen ankommen, wenn das Interesse am größten ist. Dies ist das richtige Muster, wenn der Trigger eine diskrete Kundenaktion ist, die mit der Webinar-Relevanz abgestimmt ist, und die erforderliche Antwort eine einzige, zeitkritische Einladung ist - und keine mehrstufige Sequenz oder ein fortlaufendes Nurture-Programm.
 
 ### Technische Überlegungen
 
@@ -224,11 +224,11 @@ Stellen Sie personalisierte Fallstudien, ROI-Rechner und Erfolgsgeschichten bere
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen, die Korrekturabzugsinhalte personalisieren, verzeichnen in der Regel einen Anstieg der Interaktion mit Fallstudien um 25-35 %, was zu stärkerem Abschlussvertrauen und schnelleren Abschlussraten beiträgt.
+Organisationen, die Korrekturabzugsinhalte personalisieren, profitieren von einer verbesserten Interaktion mit Fallstudien, die zu einem stärkeren Vertrauen in Abschlüsse und schnelleren Abschlussraten führt.
 
 ### Implementieren
 
-Verwenden Sie das [Web-/App-Personalization für bekannte Besucher](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md), um die relevantesten Fallstudien und ROI-Erkenntnisse dynamisch basierend auf dem Profil jedes potenziellen Kunden darzustellen. Dieses Muster ordnet Besucherattribute einer Inhaltsbibliothek zu und stellt sicher, dass jeder Interessent Testpunkte aus seiner Branche und aus anderen Gruppen erhält.
+Verwenden Sie das [Web-/App-Personalization für bekannte Besucher](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md), um die relevantesten Fallstudien und ROI-Erkenntnisse dynamisch basierend auf dem Profil jedes potenziellen Kunden darzustellen. Dieses Muster ordnet Besucherattribute einer Inhaltsbibliothek zu und stellt sicher, dass jeder Interessent Testpunkte aus seiner Branche und aus anderen Gruppen erhält. Dies ist das richtige Muster, wenn die Personalisierung von Profilattributen und Segmentzugehörigkeit und nicht von einem verhaltensbezogenen Affinitätsmodell gesteuert wird, sodass Attribute der Branche und der Unternehmensgröße potenzielle Kunden mit relevanten Korrekturpunkten abgleichen können.
 
 ### Technische Überlegungen
 
@@ -244,11 +244,11 @@ Identifizieren und gewinnen Sie zufriedene Kunden für Advocacy-Möglichkeiten w
 
 ### Auswirkung auf den Betrieb
 
-Strukturierte Programme zur Kundeninteraktion fördern in der Regel eine Steigerung der Interessensvertretung um 20-30 %, wodurch ein stetiger Strom von Referenzen, Fallstudien und Testimonials generiert wird, die die Akquise neuer Unternehmen unterstützen.
+Strukturierte Programme zur Kundenunterstützung fördern eine verbesserte Interessensvertretung und erzeugen einen stetigen Strom von Referenzen, Fallstudien und Testimonials, die die Akquise neuer Unternehmen unterstützen.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um Advocacy-Identifikations- und Interaktions-Workflows zu erstellen, die auf Zufriedenheits- und Nutzungssignale reagieren. Dieses Muster unterstützt progressive Advocacy-Aufgaben, beginnend mit einer geringen Beteiligung (z. B. einer Überprüfung) und dem Voranschreiten zu tieferen Verpflichtungen (z. B. einem Referenzaufruf oder einer Fallstudie).
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster, um Advocacy-Identifikations- und Interaktions-Workflows zu erstellen, die auf Zufriedenheits- und Nutzungssignale reagieren. Dieses Muster unterstützt progressive Advocacy-Aufgaben, beginnend mit einer geringen Beteiligung (z. B. einer Überprüfung) und dem Voranschreiten zu tieferen Verpflichtungen (z. B. einem Referenzaufruf oder einer Fallstudie). Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenzierten Fluss mit mehreren Nachrichten mit bedingter Weiterentwicklung basierend auf Zufriedenheits- und Nutzungssignalen erfordert - eine einzelne ausgelöste Nachricht kann die progressive Interaktionslogik nicht verarbeiten, die zum Eskalieren von Advocacy-Anfragen im Laufe der Zeit erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -256,3 +256,62 @@ Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-
 - Definieren Sie Eignungskriterien für die Advocacy-Kampagne, die Zufriedenheitsschwellen, Nutzungsmeilensteine und Kontobeschäftigungen kombinieren, um eine verfrühte Kontaktaufnahme zu vermeiden.
 - Synchronisieren Sie den Advocacy-Status und den Teilnahmeverlauf wieder mit [!DNL Salesforce] oder [!DNL Microsoft Dynamics], damit die Vertriebs-Teams bei der Interessentenakquise auf die Advocates der Kunden verweisen können.
 - Koordinieren Sie sich mit [!DNL Marketo Engage], um die Kontaktaufnahme zu Interessengruppen während aktiver Support-Eskalationen oder Verlängerungsverhandlungen zu unterbinden.
+
+## B2B-Account-Based Audience Activation
+
+Erstellen Sie Zielgruppen auf Kontoebene, die firmografische Daten, Kaufgruppensignale und Interaktionen auf Personenebene kombinieren, und aktivieren Sie sie dann für LinkedIn, nachfrageseitige Plattformen und CRM-Ziele. Account-basierte Zielgruppenaktivierung ermöglicht es B2B-Unternehmen, ganze Einkaufsorganisationen mit koordinierter digitaler Werbung anstatt einzelner Kontakte anzusprechen und bezahlte Medienausgaben mit den Prioritäten der Account-Pipeline abzustimmen.
+
+### Auswirkung auf den Betrieb
+
+B2B-Organisationen mit Account-basierter Zielgruppenaktivierung sehen einen stärkeren Pipeline-Einfluss von Paid-Media-Programmen. Dies hat besonders große Auswirkungen, wenn Zielgruppensegmente an den Prioritäten des Vertriebsgebiets ausgerichtet und häufig aktualisiert werden, wenn sich die Scores für die Account-Interaktion ändern.
+
+### Implementieren
+
+Verwenden Sie das [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)-Muster, um Segmente auf Kontoebene mithilfe von Konto-Personen-Beziehungen zu erstellen und für B2B-fähige Paid-Media-Ziele zu aktivieren. Dies ist das richtige Muster, wenn die Erstellung von Zielgruppen auf Kontoebene erfolgen muss - wobei Signale von mehreren Kontakten innerhalb einer kaufenden Organisation kombiniert werden - und nicht auf der Ebene einzelner Personen.
+
+### Technische Überlegungen
+
+- Die Konfiguration des B2B-Identitätsdiagramms muss bekannte Personen genau mit ihren Kontoaufzeichnungen verknüpfen. Lücken in den Konto-Personen-Verknüpfungen führen zu einer unvollständigen Aggregation der Kaufgruppensignale.
+- Die Segmente der Konto-Zielgruppe sollten entsprechend einem Zeitplan aktualisiert werden, der den Kampagnenflugdaten und der Pipeline-Überprüfungskadenz entspricht. Segmente, die vom aktuellen Pipeline-Status abweichen, reduzieren die Effizienz der Medienausgaben.
+- LinkedIn Matched Audiences und ähnliche B2B-Plattformen stimmen auf professionellen E-Mail-Adressen überein, die sich von den im CRM gespeicherten persönlichen E-Mail-Adressen unterscheiden können. Beide E-Mail-Typen sollten in Audience-Payloads enthalten sein.
+- Aktivierungs-Zielgruppen sollten Konten in aktiven Deal-Phasen ausschließen, in denen bezahlte Werbung eine unangenehme Überschneidung mit der Reichweite des Direktverkaufs verursachen könnte.
+
+
+## Einkaufsgruppe Journey Orchestration
+
+Orchestrieren Sie Journey auf Kontoebene, die Mitglieder der Einkaufsgruppe basierend auf ihren Rollen, Interaktionswerten und dem Kontoqualifizierungsstatus pflegen, mit automatisierter Übergabe an den Vertrieb. Durch die Koordinierung der Journey-Logik auf der Ebene der Einkaufsgruppe und nicht auf individueller Ebene wird sichergestellt, dass jeder Stakeholder die seiner Rolle und Entscheidungsstufe entsprechende Botschaft erhält, während die Konsistenz innerhalb des Accounts gewahrt bleibt.
+
+### Auswirkung auf den Betrieb
+
+B2B-Unternehmen, die die Journey-Orchestrierung für eine Einkaufsgruppe verwenden, sehen verbesserte Opportunity-Erstellungsraten von der Marketing-basierten Pipeline und einen schnelleren Fortschritt bis hin zu frühen Abschlussphasen, insbesondere wenn die Verkaufsübergabe automatisch auf der Grundlage messbarer Interaktionsschwellen ausgelöst wird.
+
+### Implementieren
+
+Verwenden Sie das Muster [Kaufen gruppenbasiertes Marketing](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md), um kontoqualifizierte Journey zu erstellen, die Käufergruppenmitglieder nach Rolle segmentieren, Interaktionssignale auf Gruppenebene auswerten und koordinierte Multi-Person-Multi-Touch-Kampagnen mit bedingter Verzweigung basierend auf dem Kontostatus orchestrieren. Dies ist das richtige Muster, wenn die Journey-Logik auf der Ebene der Kontengruppe und nicht auf der Ebene der Einzelperson agieren muss - eine standardmäßige Journey-Orchestrierung auf Personenebene kann die Anforderungen der Gruppenqualifizierung und der personenübergreifenden Koordinierung der B2B-Einkaufsgruppenverwaltung nicht erfüllen.
+
+### Technische Überlegungen
+
+- Definitionen der Einkaufsgruppenmitgliedschaft müssen im B2B-Datenmodell beibehalten werden, indem bekannte Kontakte mit ihren Konten verknüpft und ihnen Rollen wie „Champion“, „Economic Buyer“ oder „Technical Evaluator“ zugewiesen werden.
+- Die Bewertung der Kontointeraktion muss Signale mehrerer Personen innerhalb der Einkaufsgruppe aggregieren. Die Interaktion eines einzelnen Kontakts reicht nicht aus, um die Bereitschaft auf Kontoebene zu bestimmen.
+- Die Journey-Unterdrückung muss mit den CRM-Opportunity-Stadien synchronisiert werden, um zu verhindern, dass Nachrichten zur Marketing-Automatisierung mit aktiven Verkaufsgesprächen in Konflikt geraten.
+- Warnhinweise und Übergabebenachrichtigungen müssen in die CRM- und Vertriebsaktivitätsplattform integriert werden, damit die Mitarbeiter rechtzeitig einen umsetzbaren Kontext erhalten, wenn Konten den Schwellenwert für die Übergabe erreichen.
+
+
+## Account-Based Marketing (ABM) Personalization
+
+Personalisieren Sie die Marketing-Kommunikation und den Inhalt für Zielkonten auf der Grundlage des Kontoprofils, des Interaktionsverlaufs und der Kaufsignale. Die ABM-Personalisierung geht über das Targeting von Konten hinaus, indem der Nachrichteninhalt und das Web-Erlebnis an die spezifische Branche, Größe und bekannten geschäftlichen Herausforderungen jedes Kontos angepasst werden. So wird eine Relevanz geschaffen, die generische Kampagnenbotschaften nicht erreichen können.
+
+### Auswirkung auf den Betrieb
+
+B2B-Organisationen mit Personalisierung auf Kontoebene melden verbesserte Interaktionsraten bei ausgehenden Kampagnen und höhere Konversionsraten von der Web- zur Pipeline für zielgerichtete Konten. Dies hat besonders starke Ergebnisse, wenn sich die Personalisierung auf Landingpages und Website-Erlebnisse erstreckt, die über bezahlte Medien besucht wurden.
+
+### Implementieren
+
+Verwenden Sie das [B2B-Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)-Muster, um Profile auf Kontoebene für die Personalisierung über Web- und ausgehende Kanäle hinweg zu aktivieren. Dies ist das richtige Muster, wenn die Hauptanforderung das Targeting auf Kontoebene für die Personalisierung und nicht die Journey-Orchestrierung auf Kontaktebene ist - Account-Profildaten bestimmen die Personalisierungsentscheidungen und nicht die individuellen Verhaltenssignale.
+
+### Technische Überlegungen
+
+- Account-Firmographiedaten - Branche, Unternehmensgröße, Geografie, Technologie-Stack - müssen aktuell und konsistent modelliert sein, um eine aussagekräftige Personalisierung von Inhalten über das allgemeine Targeting auf Branchenebene hinaus zu ermöglichen.
+- Die Web-Personalisierung für bekannte B2B-Besucher erfordert eine IP-zu-Account-Auflösung oder direkte Authentifizierung. Die IP-basierte Auflösung hat eine geringere Genauigkeit und sollte nicht für hochwertige Account-Entscheidungen verwendet werden.
+- Inhalte müssen für jedes Konto-Segment entwickelt werden, das an die Personalisierung gebunden ist. Wenn Sie die Personalisierung aktivieren, ohne dass ausreichende Inhaltsvarianten vorhanden sind, erhalten einige Konten unveränderte Erlebnisse.
+- Personalization-Entscheidungen auf Kontoebene sollten mit der aktuellen CRM-Phase und der Vertriebsaktivität übereinstimmen, um zu vermeiden, dass funnel-Awareness-Top-Inhalte an Accounts übermittelt werden, die bereits aktiv sind.

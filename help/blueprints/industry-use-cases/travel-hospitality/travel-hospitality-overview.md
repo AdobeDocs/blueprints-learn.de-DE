@@ -2,13 +2,13 @@
 title: Anwendungsfälle für Reisen und Gastgewerbe
 description: Erfahren Sie, wie Reise- und Gastgewerbeunternehmen Adobe Experience Platform verwenden, um Buchungen zu personalisieren, abgebrochene Reservierungen wiederherzustellen und die Kundentreue der Gäste zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '3648'
 ht-degree: 0%
 
 ---
-
 
 # Anwendungsfälle für Reisen und Gastgewerbe
 
@@ -20,11 +20,11 @@ Zeigen Sie auf der Startseite personalisierte Empfehlungen für Kreuzfahrten, Ho
 
 ### Auswirkung auf den Betrieb
 
-Die Personalisierung der Homepage für neue Besucher steigert in der Regel die Konversionsrate um 15-20 %, indem Reiseoptionen präsentiert werden, die dem Standort und den Interessen des Besuchers entsprechen, anstatt allgemeine Inhalte zu präsentieren.
+Die Personalisierung der Homepage für neue Besucher steigert die Konversionsraten, indem Reiseoptionen präsentiert werden, die dem Standort und den Interessen des Besuchers entsprechen, anstatt allgemeine Inhalte zu präsentieren.
 
 ### Implementieren
 
-Verwenden Sie das [Anonymer Besucher Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)-Muster. Dieser Ansatz liefert maßgeschneiderte Inhalte für Besuchende, die sich noch nicht identifiziert haben, und nutzt verfügbare Signale wie Geolokalisierung, Gerätetyp und Empfehlungsquelle, um das Erlebnis von der ersten Seite an zu personalisieren.
+Verwenden Sie das [Anonymer Besucher Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)-Muster. Dieser Ansatz liefert maßgeschneiderte Inhalte für Besuchende, die sich noch nicht identifiziert haben, und nutzt verfügbare Signale wie Geolokalisierung, Gerätetyp und Empfehlungsquelle, um das Erlebnis von der ersten Seite an zu personalisieren. Dies ist das richtige Muster, wenn der Besucher sich noch nicht identifiziert hat und die Personalisierung auf verfügbaren Signalen wie Geolokalisierung, Gerätetyp und Empfehlungsquelle basieren muss. Die Personalisierung bekannter Besucher erfordert ein authentifiziertes Profil, das noch nicht vorhanden ist.
 
 ### Technische Überlegungen
 
@@ -36,15 +36,15 @@ Verwenden Sie das [Anonymer Besucher Web Personalization](/help/blueprints/use-c
 
 ## Warenkorbabbruch Recovery-Journey
 
-Erkennen Sie automatisch, wenn ein Kunde seinen Warenkorb verlässt, und erstellen Sie einen mehrstufigen E-Mail-Trigger Journey mit personalisierten Angeboten, um zum Abschluss zu ermutigen. Aufgegebene Reservierungen stellen einen der größten Einnahmeverluste in den Bereichen Reisen und Gastgewerbe dar, und eine rechtzeitige Nachverfolgung während der Reiseabsicht noch frisch ist, deckt einen bedeutenden Anteil dieser Buchungen ab.
+Erkennen Sie automatisch, wenn ein Kunde seinen Warenkorb verlässt, und erstellen Sie einen mehrstufigen E-Mail-Trigger mit personalisierten Angeboten, um zum Abschluss zu ermutigen. Aufgegebene Reservierungen stellen einen der größten Einnahmeverluste in den Bereichen Reisen und Gastgewerbe dar, und eine rechtzeitige Nachverfolgung während der Reiseabsicht noch frisch ist, deckt einen bedeutenden Anteil dieser Buchungen ab.
 
 ### Auswirkung auf den Betrieb
 
-Effektive Buchungs-Recovery-Programme erreichen eine Warenkorb-Recovery-Rate von 25-35 % und können zusätzliche 50.000 bis 200.000 USD an monatlichem Umsatz generieren, je nach Buchungsvolumen und durchschnittlichem Reisewert.
+Effektive Buchungs-Recovery-Programme erzielen aussagekräftige Warenkorb-Recovery-Raten und können je nach Buchungsvolumen und durchschnittlichem Reisewert signifikante inkrementelle Einnahmen generieren.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz reagiert auf ein Echtzeit-Warenkorbabbruchs-Ereignis und sendet eine rechtzeitige Erinnerung, während die Reiseabsicht des Kunden immer noch hoch ist.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz reagiert auf ein Echtzeit-Warenkorbabbruchs-Ereignis und sendet eine rechtzeitige Erinnerung, während die Reiseabsicht des Kunden immer noch hoch ist. Dies ist das richtige Muster, wenn der Trigger ein Echtzeit-Kundenverhaltensereignis ist und die erforderliche Antwort eine einzige, zeitabhängige Nachricht ist - und keine mehrstufige Nurture-Sequenz oder dynamische Angebotsauswahl, die sich je nach Kundenantwort ändert.
 
 ### Technische Überlegungen
 
@@ -60,11 +60,11 @@ Identifizieren Sie Besucher mit hoher Kaufabsicht mithilfe einer KI-gestützten 
 
 ### Auswirkung auf den Betrieb
 
-Wenn Sie Besucher mit hohen Absichten mit personalisierten Angeboten ansprechen, steigern Sie die Konversionsrate für diese Segmente um 30-40 %, sodass sich die Marketing-Investitionen auf die Bereiche konzentrieren, in denen sie die größte Rendite erbringen.
+Wenn Sie Besucher mit hohen Absichten mit personalisierten Angeboten ansprechen, steigert dies die Konversionsrate für diese Segmente, da sich die Marketing-Investitionen auf die Bereiche konzentrieren, in denen sie die größte Rendite erbringen.
 
 ### Implementieren
 
-Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz verwendet Echtzeit-Profildaten und Verhaltenssignale, um das Web-Erlebnis für identifizierte Besucher zu personalisieren und maßgeschneiderte Inhalte und Angebote bereitzustellen, die ihrem Grad der Kaufbereitschaft entsprechen.
+Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz verwendet Echtzeit-Profildaten und Verhaltenssignale, um das Web-Erlebnis für identifizierte Besucher zu personalisieren und maßgeschneiderte Inhalte und Angebote bereitzustellen, die ihrem Grad der Kaufbereitschaft entsprechen. Dies ist das richtige Muster, wenn die Personalisierung von Profilattributen und Tendenzwerten für identifizierte Kundinnen und Kunden und nicht von einem Affinitätsmodell mit Verhalten gesteuert wird - und wenn sich die Kundin oder der Kunde bereits authentifiziert hat, sodass ihre Segmentzugehörigkeit und Absichtssignale verfügbar sind.
 
 ### Technische Überlegungen
 
@@ -80,11 +80,11 @@ Nachdem ein Kunde eine Buchung abgeschlossen hat, führen Sie automatisch Trigge
 
 ### Auswirkung auf den Betrieb
 
-Upsell-Kampagnen nach der Buchung erhöhen typischerweise den durchschnittlichen Bestellwert um 200 bis 500 US-Dollar und steigern den Nebenumsatz um 15 bis 25 %, wodurch eine einzelne Buchung zu einer deutlich wertvolleren Transaktion wird.
+Upsell-Kampagnen nach der Buchung erhöhen den durchschnittlichen Bestellwert und erhöhen den Nebenumsatz, wodurch eine einzelne Buchung zu einer deutlich wertvolleren Transaktion wird.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Diese mehrstufige Journey führt die gebuchten Kunden durch eine zeitgesteuerte Abfolge von Upsell-Möglichkeiten, wobei die Angebote auf der Grundlage dessen angepasst werden, was der Gast bereits gekauft hat, und die Interaktion mit früheren Nachrichten.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Diese mehrstufige Journey führt die gebuchten Kunden durch eine zeitgesteuerte Abfolge von Upsell-Möglichkeiten, wobei die Angebote auf der Grundlage dessen angepasst werden, was der Gast bereits gekauft hat, und die Interaktion mit früheren Nachrichten. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenziellen Fluss mit mehreren Nachrichten über Tage mit bedingter Verzweigung basierend auf Interaktionsereignissen und Inventarverfügbarkeit erfordert. Eine einzelne ausgelöste Nachricht kann die Abhängigkeitslogik zwischen Upsell-Momenten oder Timing-Anpassungen basierend auf der Nähe des Reisedatums nicht berücksichtigen.
 
 ### Technische Überlegungen
 
@@ -100,11 +100,11 @@ Ermitteln Sie Kunden, die in zwölf oder mehr Monaten nicht gebucht haben, und k
 
 ### Auswirkung auf den Betrieb
 
-Bei zielgerichteten Win-back-Kampagnen beträgt die Reaktivierungsrate bei abgelaufenen Kundinnen und Kunden 10-15 %. So werden Umsätze von Gästen erzielt, die andernfalls möglicherweise nie zurückkehren.
+Durch zielgerichtete Win-back-Kampagnen werden signifikante Reaktivierungsraten bei abgelaufenen Kundinnen und Kunden erzielt, wodurch Umsätze von Gästen erzielt werden, die andernfalls möglicherweise nie zurückkehren.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Diese mehrstufige Journey interagiert abgelaufene Kundinnen und Kunden erneut mit einer progressiven Reihe von Nachrichten, die sich je nach Kundenreaktion von der Inspiration zum Incentive entwickeln.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Diese mehrstufige Journey interagiert abgelaufene Kundinnen und Kunden erneut mit einer progressiven Reihe von Nachrichten, die sich je nach Kundenreaktion von der Inspiration zum Incentive entwickeln. Dies ist das richtige Muster, wenn es kein diskretes auslösendes Ereignis gibt und der Zeitpunkt anhand von Kunden-Lebenszyklusmodellen und saisonalen Buchungsmustern berechnet werden muss - ereignisausgelöstes Messaging kann die progressive Eskalationslogik oder die Notwendigkeit, Zeitangebote für typische Reiseplanungs-Zeitfenster zu nutzen, nicht verarbeiten.
 
 ### Technische Überlegungen
 
@@ -120,11 +120,11 @@ Zeigen Sie personalisierte Reisepläne und Ziele für Kreuzfahrten basierend auf
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Empfehlungen zur Reiseroute steigern die Interaktion mit Reiseroutenseiten um 20-30 %, helfen Kunden, die richtige Reise schneller zu finden, und reduzieren die Abbrüche, die auftreten, wenn sich Reisende von zu vielen Optionen überfordert fühlen.
+Personalisierte Reiseplanempfehlungen fördern die Interaktion mit Reiseseiten, helfen Kunden, die richtige Reise schneller zu finden und die Abbrüche zu reduzieren, die auftreten, wenn sich Reisende von zu vielen Optionen überfordert fühlen.
 
 ### Implementieren
 
-Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz personalisiert Website-Inhalte für identifizierte Besucher und nutzt deren Profildaten und Verhaltensverlauf, um die relevantesten Routen und Ziele aufzudecken.
+Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz personalisiert Website-Inhalte für identifizierte Besucher und nutzt deren Profildaten und Verhaltensverlauf, um die relevantesten Routen und Ziele aufzudecken. Dies ist das richtige Muster, wenn die Personalisierung von Profilattributen und dem Buchungsverlauf und nicht von einem verhaltensbezogenen Affinitätsmodell gesteuert wird. Dadurch wird eine regelbasierte Logik ermöglicht, die Reiselogistik wie Abflughäfen und Termine ebenso wie Kundenpräferenzen berücksichtigt.
 
 ### Technische Überlegungen
 
@@ -140,11 +140,11 @@ Zeigen Sie kürzlich angesehene Kreuzfahrten, Hotels oder Ziele auf der Homepage
 
 ### Auswirkung auf den Betrieb
 
-Die Anzeige kürzlich durchsuchter Reiseprodukte auf der Homepage steigert die Interaktion mit Rückbesuchen um 15-20 %, sodass Kunden leichter von ihrem Ausgangspunkt profitieren und den Weg zur Buchung verkürzen können.
+Die Anzeige kürzlich durchsuchter Reiseprodukte auf der Startseite erhöht die Interaktion mit wiederkehrenden Besuchen, hilft Kunden, dort anzukommen, wo sie aufgehört haben, und verkürzt den Weg zur Buchung.
 
 ### Implementieren
 
-Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz verwendet die gespeicherten Profildaten des Besuchers, um zuvor angezeigte Elemente auf der Homepage zu rendern und so Kontinuität über Browser-Sitzungen hinweg zu schaffen.
+Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz verwendet die gespeicherten Profildaten des Besuchers, um zuvor angezeigte Elemente auf der Homepage zu rendern und so Kontinuität über Browser-Sitzungen hinweg zu schaffen. Dies ist das richtige Muster, wenn die Personalisierung auf beständigen Profildaten über Sitzungen und Geräte hinweg und nicht auf der Affinität zum Verhalten in Echtzeit beruht - und wenn die Regeln für die Relevanz zeitbasiert (Neuigkeit) und nicht auf algorithmischem Ranking basieren.
 
 ### Technische Überlegungen
 
@@ -160,11 +160,11 @@ Wenn ein Besucher die Absicht zum Beenden zeigt, zeigt er ein personalisiertes m
 
 ### Auswirkung auf den Betrieb
 
-Exitintent-Modale mit personalisierten Reiseangeboten erzielen eine Konversionsrate von 5-10 % bei Besucherinnen und Besuchern, die ansonsten ohne Buchung abreisen würden, wodurch Umsätze erfasst werden, die vollständig verloren gehen würden.
+Mit Exitintent-Modalen mit personalisierten Reiseangeboten werden aussagekräftige Konversionen von Besucherinnen und Besuchern wiederhergestellt, die andernfalls ohne Buchung gehen würden, wobei Einnahmen erfasst werden, die vollständig verloren gehen würden.
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl die Eignung für die Treuestufe und geschäftliche Einschränkungen im Zusammenhang mit der Frequenzlimitierung berücksichtigt werden müssen - Einschränkungen, für die eine gesteuerte Entscheidungslogik anstelle einer einfachen Verhaltensempfehlung oder einer einzelnen ausgelösten Nachricht erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -180,11 +180,11 @@ Personalisieren Sie das Website-Erlebnis, die Angebote und die Kommunikation bas
 
 ### Auswirkung auf den Betrieb
 
-Die mehrstufige Personalisierung steigert die Interaktion der Mitglieder des Treueprogramms um 25-35 %, vertieft die Beziehung und beschleunigt das Verdienst- und Tilgungsverhalten, das den langfristigen Umsatz sichert.
+Die mehrstufige Personalisierung fördert die Interaktion der Mitglieder des Treueprogramms, vertieft die Beziehung und beschleunigt das Verdienst- und Rücknahmeverhalten, das den langfristigen Umsatz sichert.
 
 ### Implementieren
 
-Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Dieser Ansatz kombiniert Journey-Orchestrierung mit Echtzeit-Entscheidungsfindung, um für jedes Mitglied des Treueprogramms das richtige Angebot über den richtigen Kanal bereitzustellen und es an seine Stufe, seine Vorlieben und die jüngsten Aktivitäten anzupassen.
+Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Dieser Ansatz kombiniert Journey-Orchestrierung mit Echtzeit-Entscheidungsfindung, um für jedes Mitglied des Treueprogramms das richtige Angebot über den richtigen Kanal bereitzustellen und es an seine Stufe, seine Vorlieben und die jüngsten Aktivitäten anzupassen. Dies ist das richtige Muster, wenn die Journey den Versand kanalübergreifend koordinieren muss, um doppelte Angebote zu verhindern, und wenn die Angebotsauswahl stufenbasierte Eignungsregeln und Einlösungsbeschränkungen erfordert - Journey Orchestration allein bietet nicht die erforderliche Entscheidungsebene für mehrere Kanäle.
 
 ### Technische Überlegungen
 
@@ -200,11 +200,11 @@ Senden Sie personalisierte Buchungserinnerungen per E-Mail, SMS und Push-Benachr
 
 ### Auswirkung auf den Betrieb
 
-Multi-Channel-Buchungserinnerungen verbessern die Buchungsabschlussraten um 20-30 % und erzielen so signifikante Umsätze von Kunden, die eine Buchung beabsichtigten, aber vor dem Abschluss übersprungen wurden.
+Multi-Channel-Buchungserinnerungen verbessern die Buchungsabschlussraten und erzielen so erhebliche Umsätze von Kunden, die eine Buchung beabsichtigten, aber vor der Fertigstellung nicht berücksichtigt wurden.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz erinnert Trigger automatisch daran, wenn ein unvollständiges Buchungsereignis erkannt wird, wodurch zeitnahe Nachrichten über die bevorzugten Kanäle des Kunden gesendet werden.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz erinnert Trigger automatisch daran, wenn ein unvollständiges Buchungsereignis erkannt wird, wodurch zeitnahe Nachrichten über die bevorzugten Kanäle des Kunden gesendet werden. Dies ist das richtige Muster, wenn es sich bei dem Trigger um eine diskrete Kundenaktion handelt (die eine Buchung startet) und die erforderliche Antwort der zeitabhängige Versand über die bevorzugten Kanäle ist - und nicht um eine mehrstufige Sequenz, in der jede Nachricht von der vorherigen Interaktion oder Verfügbarkeit abhängt.
 
 ### Technische Überlegungen
 
@@ -220,11 +220,11 @@ Personalisieren Sie Kampagnen und Angebote basierend auf saisonalen Präferenzen
 
 ### Auswirkung auf den Betrieb
 
-Saisonale personalisierte Kampagnen steigern die saisonale Buchungsumrechnung um 15-25 %, sodass sich die Marketing-Investitionen auf die Reiseziele und -produkte konzentrieren, die am ehesten bei jedem Kunden Anklang finden.
+Saisonale personalisierte Kampagnen steigern die saisonale Buchungsumrechnung und stellen sicher, dass sich die Marketing-Investitionen auf die Ziele und Reiseprodukte konzentrieren, die am ehesten bei jedem Kunden Anklang finden.
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden. Dies ist das richtige Muster, wenn die Zielgruppe groß ist und durch den saisonalen Buchungsverlauf vordefiniert, der Versandzeitpunkt auf der Grundlage saisonaler Planungsfenster und nicht ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -240,11 +240,11 @@ Identifizieren Sie Kunden, die häufig Gruppenreisen buchen, und empfehlen Sie p
 
 ### Auswirkung auf den Betrieb
 
-Proaktive Empfehlungen für die Gruppenbuchung erhöhen den durchschnittlichen Bestellwert um 1.000 bis 3.000 US-Dollar pro Buchung, wobei der gesamte Wert von Gruppenreisetransaktionen erfasst wird, die andernfalls auf mehrere einzelne Buchungen aufgeteilt werden könnten.
+Proaktive Empfehlungen zur Gruppenbuchung erhöhen den durchschnittlichen Bestellwert pro Buchung und erfassen den vollständigen Wert von Gruppenreisetransaktionen, die andernfalls auf mehrere einzelne Buchungen aufgeteilt werden könnten.
 
 ### Implementieren
 
-Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Bei diesem Ansatz werden KI-gesteuerte Modelle verwendet, die aus den Buchungsmustern und dem Verhalten der Kunden lernen, um jedem Kunden die relevantesten Gruppenreiseoptionen zu empfehlen.
+Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Bei diesem Ansatz werden KI-gesteuerte Modelle verwendet, die aus den Buchungsmustern und dem Verhalten der Kunden lernen, um jedem Kunden die relevantesten Gruppenreiseoptionen zu empfehlen. Dies ist das richtige Muster, wenn der Artikelsatz groß ist und sich ständig ändert - Gruppenpakete entwickeln sich mit Preisen und Verfügbarkeit - und die Auswahl wird durch Verhaltensmuster des Gruppenbuchungsverlaufs gesteuert und nicht durch einen begrenzten Satz von Angeboten, die durch Eignungsregeln geregelt sind.
 
 ### Technische Überlegungen
 
@@ -252,3 +252,23 @@ Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalizati
 - Gruppenpaketpreise müssen dynamisch aus dem Reservierungssystem gezogen werden, da Gruppenpreise oft von individuellen Preisen abweichen und minimale Parteigrößen oder Vorbuchungsfenster erfordern können.
 - Der Empfehlungsinhalt sollte auf die individuellen Bedürfnisse von Gruppenorganisatoren zugeschnitten sein, einschließlich Informationen zu den gastronomischen Optionen für Gruppen, Besprechungsräumen, Rabatten bei der Blockbuchung und der Verfügbarkeit von Gruppenausflügen.
 - [!DNL Real-Time Customer Data Platform] der Profilanreicherung sollten Kundinnen und Kunden auf der Grundlage ihrer Buchungsmuster als Gruppenreiseveranstalter gekennzeichnet werden, um gezielte Kampagnen während der Spitzenzeiten der Gruppenplanung zu ermöglichen, z. B. während der Familienzusammenführungssaison oder in Rückzugsfenstern für Unternehmen.
+
+
+## KI-Buchungs-Concierge
+
+Reise- und Gastgewerbeunternehmen bieten komplexe, überlegte Journey, in denen Sie Flüge, Zimmer, Zimmerkategorien, Nebendienstleistungen und Treueprogramm bedienen müssen, bevor Sie sich für eine Buchung entscheiden. Statische Browse- und Filterschnittstellen erzeugen Entscheidungsermüdung und erhöhen die Abfallrate. Ein KI-Buchungs-Concierge engagiert Gäste in natürliche Gespräche, um ihre Reiseabsicht, ihre Parteigröße, ihre Vorlieben und ihr Budget zu verstehen. Anschließend führt er sie Schritt für Schritt durch die Reiseplanung, die Unterkunftsauswahl und die Add-on-Optionen - und zeigt dabei Treuevorteile auf, die für die Besuchergruppe relevant sind.
+
+### Auswirkung auf den Betrieb
+
+Die Gesprächsführerschaft verbessert die Abschlussraten der Reiseroute und die zusätzlichen Anhänge, während das Callcenter-Volumen für Gäste reduziert wird, die ansonsten anrufen würden, um die Optionen zu klären.
+
+### Implementieren
+
+Verwenden Sie das [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)-Muster. Dieser Ansatz stellt die Product Advisor Agent anhand des Eigenschafts- und Reiseroutenkatalogs bereit und nutzt AEP Agent Orchestrator- und Echtzeit-Kundenprofildaten, um personalisierte Optionen und treueprogramm-relevante Empfehlungen durch geführte Dialogfelder mit mehreren Durchgängen bereitzustellen. Dies ist das richtige Muster, wenn das Ziel eine interaktive, interaktive, interaktive, interaktive Entdeckung ist, die auf eine komplexe Buchungsentscheidung hindeutet - im Gegensatz zu ereignisgesteuertem Messaging, das auf diskrete Reiseaktionen mit einseitiger Reichweite reagiert, und von personalisierten Web-Erlebnissen, die Empfehlungen passiv präsentieren, ohne den Gast in einen Dialog einzubinden. Dies erfordert die Konfiguration von AEP Agent Orchestrator und Brand Governance.
+
+### Technische Überlegungen
+
+- Verfügbarkeits- und Tarifdaten müssen durch die nahezu in Echtzeit erfolgende Integration zwischen dem Reservierungssystem und der Brand Concierge-Inhaltsebene auf dem neuesten Stand gehalten werden, da die Empfehlung nicht verfügbarer Zimmertypen oder falscher Preise innerhalb eines Gesprächs das Vertrauen sofort untergräbt.
+- Bei der Echtzeit-Kundenprofilsuche muss die Treuestufe, der Aufenthaltsverlauf und die angegebenen Voreinstellungen angezeigt werden, damit der Agent den Status des Gasts proaktiv bestätigen und die Empfehlungen anpassen kann, ohne dass der Gast seine Voreinstellungen bei jedem Besuch erneut erklären muss.
+- Die Markenverwaltung muss definieren, wie der Agent Anfragen zu Tarifvergleichen, Referenzen von Mitbewerbern und Situationen handhabt, in denen die bevorzugten Daten oder der Zimmertyp des Gastes nicht verfügbar sind, um sicherzustellen, dass der Agent innerhalb der Markensprache ordnungsgemäß reagiert, anstatt eine Sackgasse zu präsentieren.
+- Signale für eine Gesprächsabsicht - einschließlich Zielinteresse, Zusammensetzung von Reiseparteien und während des Dialogs geäußerte zusätzliche Voreinstellungen - müssen als ExperienceEvent-Daten an AEP zurückfließen und Gastprofile anreichern, um nachgelagerte E-Mail-, Treue- und Rückgewinnungskampagnen zu informieren.

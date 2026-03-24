@@ -1,16 +1,16 @@
 ---
-title: Zielgruppen-Collaboration mit Segment Match
+title: Zielgruppen-Collaboration
 description: Erfahren Sie, wie Sie Zielgruppensegmente mithilfe von Segment Match in Sandboxes oder Organisationen freigeben und abgleichen können.
 solution: Real-Time Customer Data Platform, Experience Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 7014849c-5e32-4ec3-a531-c0e8ce896f44
+source-git-commit: 27f7e230982807ec70ca96af7f737944a6588f27
 workflow-type: tm+mt
-source-wordcount: '6238'
+source-wordcount: '6232'
 ht-degree: 1%
 
 ---
 
-
-# Audience-Zusammenarbeit mit Segment Match
+# Zielgruppen-Collaboration
 
 Dieses Handbuch bietet eine umfassende Implementierungsreferenz für die Zusammenarbeit mit Zielgruppen unter Verwendung von [!DNL Segment Match] in [!DNL Real-Time CDP] und [!DNL Adobe Experience Platform]. Sie wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die Zielgruppensegmente über Sandboxes oder Organisationen hinweg auf datenschutzsichere Weise freigeben und abgleichen müssen.
 
@@ -66,7 +66,7 @@ Verbessern Sie den ROI Ihrer Marketing-Investitionen durch bessere Zielgruppenbe
 
 Die folgenden KPIs helfen, den Erfolg von Implementierungen der Audience-Zusammenarbeit zu messen.
 
-| KPI | Beschreibung | Messverfahren |
+| KPI | Beschreibung | Messansatz |
 | --- | --- | --- |
 | Rate der Zielgruppenüberschneidungen | Prozentsatz der Profile im freigegebenen Segment, die zwischen Absender und Empfänger übereinstimmen | Bericht [!DNL Segment Match] Überschneidungsschätzung |
 | Übereinstimmende Zielgruppengröße | Anzahl der Profile, die erfolgreich abgeglichen wurden und für die Aktivierung verfügbar sind | [!DNL Segment Match] Freigabestatus und Anzahl der Zielgruppen |
@@ -97,11 +97,11 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 | Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Administration und Governance | Erforderlich | Sowohl für Absender- als auch für Empfängerorganisationen müssen Sandboxes mit entsprechenden Rollen und Berechtigungen bereitgestellt werden. Benutzer, die [!DNL Segment Match] verwalten, müssen über Berechtigungen zum Anzeigen und Freigeben von Segmenten, zum Konfigurieren von Verbindungen und zum Verwalten von Partner-Feeds verfügen. ABAC-Richtlinien sollten so konfiguriert werden, dass gesteuert wird, welche Benutzenden Segmentfreigaben initiieren und akzeptieren können. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
-| Datenmodellierung und -vorbereitung | Angenommen an Ort und Stelle | XDM-Schemata für Profile und Ereignisse müssen mit den erforderlichen Feldergruppen vorhanden sein. Profil- und Ereignisdatensätze müssen erstellt und für die [!DNL Real-Time Customer Profile] aktiviert werden. Das Datenmodell muss die Identity-Namespaces unterstützen, die für den Segmentabgleich verwendet werden (normalerweise gehashte E-Mails oder gehashte Telefonnummern). | [XDM-System - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) |
-| Datenquellen und Sammlung | Angenommen an Ort und Stelle | Kundendaten müssen aktiv über konfigurierte Datenquellen (SDKs, Quell-Connectoren, Batch-Aufnahme) in [!DNL Experience Platform] fließen. Profile müssen mit den Identitätstypen gefüllt werden, die für die [!DNL Segment Match] verwendet werden (z. B. gehashte E-Mail). | [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home) |
-| Identitäts- und Profilkonfiguration | Erforderlich | Identity-Namespaces müssen für die Kennungen konfiguriert werden, die beim Segmentabgleich verwendet werden. Sowohl Absender als auch Empfänger müssen kompatible Identity-Namespaces verwenden. Zusammenführungsrichtlinien müssen konfiguriert werden, um Profile korrekt zu vereinheitlichen. Es sollten Regeln für die Identitätsverknüpfung festgelegt werden, um eine genaue Profilauflösung zu gewährleisten. | [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home) |
-| Zielgruppendefinition und Segmentierung | Erforderlich | Source-Zielgruppen müssen definiert und ausgewertet werden, bevor sie über [!DNL Segment Match] freigegeben werden können. Zielgruppen sollten mithilfe von [!DNL Segment Builder] oder [!DNL Audience Composition] erstellt werden, wobei die Batch-Auswertung abgeschlossen sein sollte. Die Freigabe von [!DNL Segment Match] ist nur für Batch-ausgewertete Zielgruppen möglich. | [Segmentierungs-Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home) |
+| Administration und Governance | Erforderlich | Sowohl für Absender- als auch für Empfängerorganisationen müssen Sandboxes mit entsprechenden Rollen und Berechtigungen bereitgestellt werden. Benutzer, die [!DNL Segment Match] verwalten, müssen über Berechtigungen zum Anzeigen und Freigeben von Segmenten, zum Konfigurieren von Verbindungen und zum Verwalten von Partner-Feeds verfügen. ABAC-Richtlinien sollten so konfiguriert werden, dass gesteuert wird, welche Benutzenden Segmentfreigaben initiieren und akzeptieren können. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Datenmodellierung und -vorbereitung | Angenommen an Ort und Stelle | XDM-Schemata für Profile und Ereignisse müssen mit den erforderlichen Feldergruppen vorhanden sein. Profil- und Ereignisdatensätze müssen erstellt und für die [!DNL Real-Time Customer Profile] aktiviert werden. Das Datenmodell muss die Identity-Namespaces unterstützen, die für den Segmentabgleich verwendet werden (normalerweise gehashte E-Mails oder gehashte Telefonnummern). | [XDM-System - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| Datenquellen und Sammlung | Angenommen an Ort und Stelle | Kundendaten müssen aktiv über konfigurierte Datenquellen (SDKs, Quell-Connectoren, Batch-Aufnahme) in [!DNL Experience Platform] fließen. Profile müssen mit den Identitätstypen gefüllt werden, die für die [!DNL Segment Match] verwendet werden (z. B. gehashte E-Mail). | [Quellen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
+| Identitäts- und Profilkonfiguration | Erforderlich | Identity-Namespaces müssen für die Kennungen konfiguriert werden, die beim Segmentabgleich verwendet werden. Sowohl Absender als auch Empfänger müssen kompatible Identity-Namespaces verwenden. Zusammenführungsrichtlinien müssen konfiguriert werden, um Profile korrekt zu vereinheitlichen. Es sollten Regeln für die Identitätsverknüpfung festgelegt werden, um eine genaue Profilauflösung zu gewährleisten. | [Identity Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| Zielgruppendefinition und Segmentierung | Erforderlich | Source-Zielgruppen müssen definiert und ausgewertet werden, bevor sie über [!DNL Segment Match] freigegeben werden können. Zielgruppen sollten mithilfe von [!DNL Segment Builder] oder [!DNL Audience Composition] erstellt werden, wobei die Batch-Auswertung abgeschlossen sein sollte. Die Freigabe von [!DNL Segment Match] ist nur für Batch-ausgewertete Zielgruppen möglich. | [Segmentierungs-Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## Unterstützende Funktionen
 
@@ -109,11 +109,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 | Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie der lebenslange Kaufwert, der Interaktionswert oder die Produktaffinität können präzisere Segmente für die Freigabe erstellen. Hochwertigere Eingabesegmente führen zu einer wertvolleren Zusammenarbeit mit den Zielgruppen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
-| Data Lifecycle Management | Empfohlen | Einverständnis- und Datenspeicherungsrichtlinien stellen sicher, dass freigegebene Segmente die Datenschutzbestimmungen einhalten. Richtlinien zur Datensatzgültigkeit helfen beim Verwalten des Lebenszyklus der empfangenen Zielgruppendaten. Die Durchsetzung des Einverständnisses verhindert die Freigabe von Profilen, die sich abgemeldet haben. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
-| Datennutzungskennzeichnung und -durchsetzung | Eingeschlossen | Data-Governance-Richtlinien müssen vor der Freigabe von Segmenten evaluiert werden, um die Einhaltung der Vorgaben sicherzustellen. Kennzeichnungen für Identitätsfelder und Profilattribute bestimmen, was freigegeben werden kann. Die Durchsetzung von Governance verhindert, dass nicht autorisierte Daten in Segmentfreigaben aufgenommen werden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home) |
-| Überwachung und Beobachtbarkeit | Empfohlen | Durch die Überwachung des [!DNL Segment Match], der Überschneidungsschätzungsvorgänge und der Aktivierungsdatenflüsse können Fehler frühzeitig erkannt werden. Warnhinweise können für Freigabefehler oder unerwartet niedrige Übereinstimmungsraten konfiguriert werden. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home) |
-| Reporting und Analyse | Empfohlen | Die Messung der Leistung von Kampagnen, die übereinstimmende Zielgruppen verwenden, bestätigt den Wert der Zusammenarbeit. [!DNL Customer Journey Analytics] Die Analyse kann die Leistung der abgeglichenen Audience-Kampagnen mit den Kontrollgruppen vergleichen. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie der lebenslange Kaufwert, der Interaktionswert oder die Produktaffinität können präzisere Segmente für die Freigabe erstellen. Hochwertigere Eingabesegmente führen zu einer wertvolleren Zusammenarbeit mit den Zielgruppen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| Data Lifecycle Management | Empfohlen | Einverständnis- und Datenspeicherungsrichtlinien stellen sicher, dass freigegebene Segmente die Datenschutzbestimmungen einhalten. Richtlinien zur Datensatzgültigkeit helfen beim Verwalten des Lebenszyklus der empfangenen Zielgruppendaten. Die Durchsetzung des Einverständnisses verhindert die Freigabe von Profilen, die sich abgemeldet haben. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Datennutzungskennzeichnung und -durchsetzung | Eingeschlossen | Data-Governance-Richtlinien müssen vor der Freigabe von Segmenten evaluiert werden, um die Einhaltung der Vorgaben sicherzustellen. Kennzeichnungen für Identitätsfelder und Profilattribute bestimmen, was freigegeben werden kann. Die Durchsetzung von Governance verhindert, dass nicht autorisierte Daten in Segmentfreigaben aufgenommen werden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Überwachung und Beobachtbarkeit | Empfohlen | Durch die Überwachung des [!DNL Segment Match], der Überschneidungsschätzungsvorgänge und der Aktivierungsdatenflüsse können Fehler frühzeitig erkannt werden. Warnhinweise können für Freigabefehler oder unerwartet niedrige Übereinstimmungsraten konfiguriert werden. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Reporting und Analyse | Empfohlen | Die Messung der Leistung von Kampagnen, die übereinstimmende Zielgruppen verwenden, bestätigt den Wert der Zusammenarbeit. [!DNL Customer Journey Analytics] Die Analyse kann die Leistung der abgeglichenen Audience-Kampagnen mit den Kontrollgruppen vergleichen. | [Übersicht über CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Anwendungsfunktionen
 
@@ -179,8 +179,8 @@ Dieser Ansatz ist einfach und bietet beiden Parteien volle Kontrolle. Der Absend
 
 **Experience League:**
 
-- [Übersicht zu Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Fehlerbehebung bei Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Übersicht zu Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Fehlerbehebung bei Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Option B: Segmentverteilung über mehrere Partner (Eins-zu-Viele)
 
@@ -217,7 +217,7 @@ Bei diesem Ansatz wird derselbe zugrunde liegende [!DNL Segment Match] wie bei O
 
 **Experience League:**
 
-- [Übersicht zu Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Übersicht zu Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### Option C: Sandbox-übergreifende Zielgruppen-Federation
 
@@ -254,7 +254,7 @@ Dieser Ansatz ist besonders nützlich, wenn Anforderungen an den Datenresidenz d
 
 **Experience League:**
 
-- [Übersicht zu Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Übersicht zu Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home)
 
 ### Vergleich von Optionen
@@ -344,10 +344,10 @@ Stellen Sie sicher, dass die Quell-Zielgruppen in der Sende-Sandbox Identity-Nam
 
 **Dokumentation zu Experience League:**
 
-- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder)
-- [Zielgruppenkomposition - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-composition)
-- [Auswertungsmethoden](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home#evaluation-methods)
-- [Profile Query Language-Referenz](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview)
+- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Zielgruppenkomposition - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [Auswertungsmethoden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
+- [Profile Query Language-Referenz](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
 
 ### Phase 2: Konfigurieren von Abgleich und Governance
 
@@ -405,9 +405,9 @@ Erstellen Sie Sandbox-zu-Sandbox-Verbindungen innerhalb der Organisation. Die Go
 
 **Dokumentation zu Experience League:**
 
-- [Übersicht zu Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home)
-- [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/overview)
+- [Übersicht zu Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
 - [Einverständnis und Einstellungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 ### Phase 3: Überschneidung schätzen
@@ -443,7 +443,7 @@ In dieser Phase wird die Überschneidungsschätzung zwischen den Segmenten des A
 
 **Dokumentation zu Experience League:**
 
-- [Übersicht zu Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Übersicht zu Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### Phase 4: Audiences freigeben
 
@@ -498,8 +498,8 @@ Ausführen der Sandbox-übergreifenden Freigabe. Die übereinstimmende Zielgrupp
 
 **Dokumentation zu Experience League:**
 
-- [Übersicht zu Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Fehlerbehebung bei Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Übersicht zu Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Fehlerbehebung bei Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Phase 5: Aktivieren übereinstimmender Zielgruppen
 
@@ -557,10 +557,10 @@ Die empfangende Sandbox muss über eigene Zielkonfigurationen verfügen. Ziele k
 
 **Dokumentation zu Experience League:**
 
-- [Übersicht über Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home)
-- [Zielkatalog](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/overview)
-- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Aktivierungsleitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails)
+- [Übersicht über Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [Zielkatalog](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Aktivierungsleitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
 ## Überlegungen bei der Implementierung
 
@@ -568,11 +568,11 @@ Lesen Sie die folgenden Überlegungen vor und während der Implementierung, um h
 
 ### Leitplanken und Beschränkungen
 
-- [!DNL Segment Match] verwendet Hash-Kennungen für den Abgleich - keine personenbezogenen Daten überschreiten die Organisationsgrenzen. Siehe [Übersicht zu Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/overview).
+- [!DNL Segment Match] verwendet Hash-Kennungen für den Abgleich - keine personenbezogenen Daten überschreiten die Organisationsgrenzen. Siehe [Übersicht zu Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview).
 - Nur im Batch ausgewertete Zielgruppen können über [!DNL Segment Match] freigegeben werden. Streaming- und Edge-ausgewertete Segmente müssen vor der Freigabe in eine Batch-Auswertung konvertiert werden.
-- Maximal 4.000 Segmentdefinitionen pro Sandbox gelten sowohl für Quell- als auch für empfangene Segmente. Siehe [Segmentierungsleitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails).
+- Maximal 4.000 Segmentdefinitionen pro Sandbox gelten sowohl für Quell- als auch für empfangene Segmente. Siehe [Segmentierungsleitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails).
 - Die Genauigkeit der Überschneidungsschätzung hängt vom Volumen der übereinstimmenden Kennungen ab. Kleine Zielgruppen zeigen möglicherweise weniger präzise Schätzungen an.
-- Aktivierungsleitplanken gelten für übereinstimmende Zielgruppen genauso wie für jede andere Zielgruppe - maximal 100 Datenflüsse pro Ziel. Siehe [Aktivierungsleitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails).
+- Aktivierungsleitplanken gelten für übereinstimmende Zielgruppen genauso wie für jede andere Zielgruppe - maximal 100 Datenflüsse pro Ziel. Siehe [Aktivierungsleitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails).
 - Zusammengestellte Zielgruppen werden nach einem Batch-Zeitplan ausgewertet und sind auf 10 Kompositions-Arbeitsflächen pro Sandbox beschränkt. Siehe [Leitplanken für die Zielgruppenkomposition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails).
 
 ### Häufige Fehler
@@ -630,61 +630,61 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 
 ### [!DNL Segment Match]
 
-- [Übersicht zu Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Fehlerbehebung bei Segment Match](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Übersicht zu Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Fehlerbehebung bei Segment Match](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Segmentierung und Audiences
 
-- [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home)
-- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder)
-- [Zielgruppenkomposition - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-composition)
-- [Profile Query Language-Referenz](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview)
-- [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Edge-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Zielgruppenkomposition - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [Profile Query Language-Referenz](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [Streaming-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Edge-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### Identität und Profil
 
-- [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)
+- [Identity Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [Übersicht über Identity-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces)
-- [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview)
-- [Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home)
+- [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 ### Data Governance und Einverständnis
 
-- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home)
+- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [Datennutzungs-Labels – Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview)
-- [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/overview)
+- [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
 - [Einverständnis und Einstellungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [Feldgruppe „Einverständnis und Voreinstellungen“](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Feldgruppe „Einverständnis und Voreinstellungen“](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
 
 ### Ziele und Aktivierung
 
-- [Übersicht über Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home)
-- [Zielkatalog](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/overview)
-- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Übersicht über Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [Zielkatalog](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Überwachen von Datenflüssen für Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 ### Datenmodellierung und Schema
 
-- [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home)
-- [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition)
+- [XDM-Systemübersicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 ### Verwaltung und Zugriffskontrolle
 
-- [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home)
+- [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 - [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home)
 
 ### Überwachung und Beobachtbarkeit
 
-- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview)
-- [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home)
+- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Observability Insights - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
 
 ### Leitlinien
 
-- [Leitplanken für Echtzeit-Kundenprofile](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails)
+- [Leitplanken für Echtzeit-Kundenprofile](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - [Schutzmaßnahmen bei der Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
-- [Aktivierungsleitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails)
+- [Aktivierungsleitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
 ### Tutorials
 
 - [Erstellen eines Schemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/union-schema)
-- [Aktivieren eines Datensatzes für Profil](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-for-profile)
+- [Aktivieren eines Datensatzes für Profil](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile)

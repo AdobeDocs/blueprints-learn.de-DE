@@ -2,17 +2,20 @@
 title: Anwendungsfälle für das Gesundheitswesen
 description: Erfahren Sie, wie Unternehmen im Gesundheitswesen Adobe Experience Platform verwenden, um die Interaktion mit Patienten zu verbessern, die Koordinierung der Pflege zu optimieren und bessere Ergebnisse im Gesundheitswesen zu erzielen.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
+source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 1%
+source-wordcount: '3818'
+ht-degree: 0%
 
 ---
-
 
 # Anwendungsfälle für das Gesundheitswesen
 
 Gesundheitseinrichtungen verwenden Adobe Experience Platform, um einheitliche Patientenprofile zu erstellen und personalisierte, zeitnahe Kommunikation über jeden Touchpoint bereitzustellen. Durch die Verbindung von klinischen Daten, Verhaltens- und Präferenzdaten an einem Ort können Betreuungsteams Patienten effektiver einbinden und dabei die höchsten Standards in Bezug auf Datenschutz und Compliance beibehalten.
+
+>[!IMPORTANT]
+>Anwendungsfälle im Gesundheitswesen umfassen geschützte Gesundheitsinformationen (PHI), die den HIPAA und anderen geltenden Vorschriften unterliegen. Bevor Sie eines dieser Muster implementieren, stellen Sie sicher, dass [!DNL Adobe Experience Platform] als HIPAA-fähiger Service bereitgestellt wird und dass mit Adobe ein Business Associate Agreement (BAA) geschlossen wurde. Die technischen Überlegungen in jedem Abschnitt heben wichtige Compliance-Anforderungen hervor, erschöpfen diese jedoch nicht. Arbeiten Sie mit Ihren Rechts-, Compliance- und Sicherheits-Teams zusammen, um Ihre Implementierung anhand aller geltenden gesetzlichen Anforderungen zu validieren.
 
 ## Automatisierung der Terminerinnerung
 
@@ -20,11 +23,11 @@ Senden Sie personalisierte Terminerinnerungen per E-Mail, SMS und Push-Benachric
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen, die automatisierte Terminerinnerungen implementieren, erzielen in der Regel eine 30- bis 40-prozentige Verbesserung der Terminanzeigeraten und eine deutliche Verringerung der kostenintensiven „No-Shows“.
+Unternehmen, die automatisierte Terminerinnerungen implementieren, sehen messbare Verbesserungen bei den Terminanzeigesätzen und eine deutliche Verringerung der kostspieligen No-Shows.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Terminerstellung und Aktualisierungsereignisse aus dem Terminplanungssystem dienen als natürliche Trigger für zeitnahe, relevante Erinnerungsnachrichten.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Terminerstellung und Aktualisierungsereignisse aus dem Terminplanungssystem dienen als natürliche Trigger für zeitnahe, relevante Erinnerungsnachrichten. Dies ist das richtige Muster, wenn ein diskretes Terminereignis der Trigger ist und die erforderliche Reaktion eine einzige, zeitkritische Benachrichtigung ist - anstelle einer anhaltenden Interaktionssequenz, da Patienten eine sofortige Bestätigung ohne nachfolgende Schritte benötigen.
 
 ### Technische Überlegungen
 
@@ -40,11 +43,11 @@ Senden Sie personalisierte Erinnerungen und Schulungsinhalte, damit die Patiente
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Kampagnen zur Einhaltung von Medikamenten führen in der Regel zu einer 20- bis 30-prozentigen Verbesserung der Einhaltungsraten, was zu messbar besseren Gesundheitsergebnissen und weniger Krankenhauseinweisungen führt.
+Personalisierte Kampagnen zur Einhaltung von Medikamenten tragen dazu bei, die Einhaltungsraten zu verbessern, was zu besseren gesundheitlichen Ergebnissen und weniger Rückübernahmen in Krankenhäusern führt.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Die Einhaltung der Medikation erfordert einen anhaltenden Multi-Touch-Ansatz mit eskalierenden Erinnerungen, Touchpoints zur Aufklärung und Follow-up-Check-ins im Verlauf eines Behandlungsplans.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Die Einhaltung der Medikation erfordert einen anhaltenden Multi-Touch-Ansatz mit eskalierenden Erinnerungen, Touchpoints zur Aufklärung und Follow-up-Check-ins im Verlauf eines Behandlungsplans. Dies ist das richtige Muster, da das Medikamentenmanagement einen sequenziellen Fluss mit mehreren Nachrichten über Tage oder Wochen mit bedingter Verzweigung basierend auf Nachfüllereignissen und Interaktionssignalen erfordert - eine einzelne ausgelöste Nachricht kann die Abhängigkeitslogik zwischen Bildungsschritten und Eskalationspfaden nicht berücksichtigen.
 
 ### Technische Überlegungen
 
@@ -60,11 +63,11 @@ Proaktive Erinnerung der Patienten an empfohlene Vorsorgemaßnahmen wie Impfunge
 
 ### Auswirkung auf den Betrieb
 
-Proaktive präventive Gesundheitsarbeit führt in der Regel zu einer 25-35-prozentigen Steigerung der Abschlussraten der präventiven Pflege, was zu einer verbesserten Gesundheit der Bevölkerung und niedrigeren Langzeitbehandlungskosten beiträgt.
+Proaktive Präventionsarbeit führt zu besseren Abschlussraten in der Präventivversorgung, was zu einer besseren Gesundheit der Bevölkerung und niedrigeren Langzeitbehandlungskosten beiträgt.
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Erinnerungen zur Vorsorge werden am besten über geplante Batch-Kampagnen bereitgestellt, die die Eignung des Patienten regelmäßig anhand klinischer Richtlinien bewerten.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Erinnerungen zur Vorsorge werden am besten über geplante Batch-Kampagnen bereitgestellt, die die Eignung des Patienten regelmäßig anhand klinischer Richtlinien bewerten. Dies ist das richtige Muster, wenn die Zielgruppe durch klinische Richtlinienkriterien vordefiniert ist, der Bereitstellungszeitpunkt eher in einem regelmäßigen Rhythmus als ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -80,11 +83,11 @@ Senden Sie nach dem Besuch automatisch Umfragen, Pflegehinweise und Follow-up-Te
 
 ### Auswirkung auf den Betrieb
 
-Automatisierte Follow-up-Kampagnen nach der Visite erreichen in der Regel eine Verbesserung der Antwortraten in der Befragung um 40 bis 50 Prozent und messbar höhere Patientenzufriedenheitswerte.
+Automatisierte Follow-up-Kampagnen nach der Visite führen zu besseren Antwortraten in der Umfrage und höheren Scores für die Patientenzufriedenheit.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Besuchsabschlussereignisse aus dem elektronischen Patientendatensystem bieten einen natürlichen, zeitnahen Trigger für die Nachfolgekommunikation, die auf den jeweiligen Begegnungstyp zugeschnitten ist.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Besuchsabschlussereignisse aus dem elektronischen Patientendatensystem bieten einen natürlichen, zeitnahen Trigger für die Nachfolgekommunikation, die auf den jeweiligen Begegnungstyp zugeschnitten ist. Dies ist das richtige Muster, wenn ein diskretes Besuchsereignis der Trigger ist und die erforderliche Antwort eine sofortige Nachbereitung ist, die auf den jeweiligen Begegnungstyp zugeschnitten ist - und nicht auf eine mehrstufige Sequenz, da jeder Besuch seinen eigenen unabhängigen Nachverfolgungsbedarf erzeugt.
 
 ### Technische Überlegungen
 
@@ -100,11 +103,11 @@ Personalisieren Sie die Kommunikation zum Management chronischer Krankheiten, di
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Programme für das Management chronischer Krankheiten verzeichnen in der Regel einen Anstieg der Interaktionsraten um 30 bis 40 Prozent, was zu verbesserten Krankheitsmanagementergebnissen und einer reduzierten Nutzung der Notfallversorgung führt.
+Personalisierte Programme für die Behandlung chronischer Krankheiten führen zu höheren Interaktionsraten bei Programmen, was zu verbesserten Ergebnissen beim Krankheitsmanagement und einer reduzierten Nutzung der Notfallversorgung führt.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Chronisches Krankheitsmanagement ist von Natur aus ein langjähriges, an mehrere Touchpoints geknüpftes Erlebnis, das adaptive Messaging auf der Grundlage von Patienteninteraktion und Meilensteinen im Gesundheitswesen erfordert.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Chronisches Krankheitsmanagement ist von Natur aus ein langjähriges, an mehrere Touchpoints geknüpftes Erlebnis, das adaptive Messaging auf der Grundlage von Patienteninteraktion und Meilensteinen im Gesundheitswesen erfordert. Dies ist das richtige Muster, da das Management chronischer Krankheiten adaptives Messaging über einen längeren Zeitraum mit bedingten Verzweigungen basierend auf klinischen Metriken und Interaktionsmustern erfordert - ereignisgesteuertes Messaging kann die laufende, dynamische Neubewertung nicht verarbeiten, die erforderlich ist, um Interventionen auf der Grundlage sich entwickelnder Gesundheitsdaten anzupassen.
 
 ### Technische Überlegungen
 
@@ -120,11 +123,11 @@ Automatisieren Sie eine mehrstufige Onboarding-Journey für neue Patienten, die 
 
 ### Auswirkung auf den Betrieb
 
-Automatisiertes Onboarding neuer Journey für Patienten führt in der Regel zu einer 50- bis 60-prozentigen Verbesserung der Portalaktivierungsraten und zu einer signifikant höheren frühzeitigen Patienteninteraktion.
+Automatisiertes Onboarding neuer Journey für Patienten trägt dazu bei, die Portalaktivierungsraten zu verbessern und die frühzeitige Patienteninteraktion zu verbessern.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Das Onboarding von Patienten ist ein von Natur aus sequenzieller, mehrstufiger Prozess, bei dem jede Kommunikation auf der vorherigen aufbaut und sich daran anpasst, ob der Patient wichtige Aktionen abgeschlossen hat.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Das Onboarding von Patienten ist ein von Natur aus sequenzieller, mehrstufiger Prozess, bei dem jede Kommunikation auf der vorherigen aufbaut und sich daran anpasst, ob der Patient wichtige Aktionen abgeschlossen hat. Dies ist das richtige Muster, da das Onboarding einen sequenziellen, abhängigen Fluss über mehrere Tage mit Verzweigungen basierend auf Patientenaktionen (Portalaktivierung, Formularvervollständigung) erfordert - ein einzelner Nachrichten- oder Batch-Ansatz kann die Interdependenzen zwischen den Schritten nicht berücksichtigen oder sich an den progressiven Abschluss anpassen.
 
 ### Technische Überlegungen
 
@@ -140,11 +143,11 @@ Stellen Sie personalisierte Inhalte, Wellness-Tipps und Ressourcen bereit, die a
 
 ### Auswirkung auf den Betrieb
 
-Die Bereitstellung personalisierter Gesundheitsinhalte erzielt in der Regel eine Steigerung der Interaktionsraten von Inhalten um 35 bis 45 Prozent, was zu einer messbar verbesserten Patientenaufklärung und Gesundheitskompetenz führt.
+Durch die Bereitstellung personalisierter Gesundheitsinhalte werden höhere Interaktionsraten erzielt, was zu einer verbesserten Patientenaufklärung und Gesundheitskompetenz führt.
 
 ### Implementieren
 
-Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Die Bereitstellung von Gesundheitsinhalten profitiert von der Echtzeit-Entscheidungsfindung , die den relevantesten Inhalt für jeden Patienten basierend auf seinen Bedingungen, Vorlieben und vergangenen Interaktionen auswählt, die über seinen bevorzugten Kanal bereitgestellt werden.
+Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Die Bereitstellung von Gesundheitsinhalten profitiert von der Echtzeit-Entscheidungsfindung , die den relevantesten Inhalt für jeden Patienten basierend auf seinen Bedingungen, Vorlieben und vergangenen Interaktionen auswählt, die über seinen bevorzugten Kanal bereitgestellt werden. Dies ist das richtige Muster, wenn bei der Inhaltsauswahl die Patientenbedingungen, Einverständnisvoreinstellungen und Kanalvoreinstellungen berücksichtigt werden müssen, während eine doppelte oder ermüdende Bereitstellung verhindert werden muss - eine mehrstufige Orchestrierung allein bietet nicht die Echtzeit-Entscheidungsebene, die erforderlich ist, um dynamische Inhaltsinventare an die individuellen Bedürfnisse des Patienten anzupassen.
 
 ### Technische Überlegungen
 
@@ -160,11 +163,11 @@ Benachrichtigen Sie die Patienten, wenn Laborergebnisse über ihren bevorzugten 
 
 ### Auswirkung auf den Betrieb
 
-Automatisierte Benachrichtigungen zu Laborergebnissen führen normalerweise zu einer Steigerung der Ergebnisanzeigeraten um 60 bis 70 Prozent, verbessern die Kommunikation mit den Patienten und ermöglichen eine schnellere klinische Nachverfolgung, wenn Ergebnisse Maßnahmen erfordern.
+Automatisierte Benachrichtigungen zu Laborergebnissen tragen dazu bei, höhere Ergebnisanzeigeraten zu erzielen, die Kommunikation mit den Patienten zu verbessern und eine schnellere klinische Nachverfolgung zu ermöglichen, wenn Ergebnisse Maßnahmen erfordern.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Die Verfügbarkeit von Laborergebnissen ist ein diskretes Ereignis, das eine sofortige, einmalige Benachrichtigung über den bevorzugten Kanal des Patienten erfordert.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Die Verfügbarkeit von Laborergebnissen ist ein diskretes Ereignis, das eine sofortige, einmalige Benachrichtigung über den bevorzugten Kanal des Patienten erfordert. Dies ist das richtige Muster, wenn ein diskretes Laborergebnisereignis der Trigger ist und die erforderliche Reaktion eine einzige, sofortige Benachrichtigung ist - anstelle einer Sequenz mit mehreren Nachrichten, da die Patienten einen sofortigen Alarm benötigen, um ihr Portal ohne zusätzliche Folgenachrichten zu überprüfen.
 
 ### Technische Überlegungen
 
@@ -180,11 +183,11 @@ Proaktive Verifizierung und Kommunikation der Informationen zum Versicherungssch
 
 ### Auswirkung auf den Betrieb
 
-Die proaktive Überprüfung des Versicherungsschutzes führt in der Regel zu einer Verbesserung der Bestätigungsraten für den Versicherungsschutz vor einem Besuch um 25 bis 35 Prozent und zu einer deutlichen Verringerung von Abrechnungsstreitigkeiten und Patientenbeschwerden.
+Die proaktive Überprüfung des Versicherungsschutzes führt zu besseren Bestätigungsraten vor einem Besuch und einer deutlichen Verringerung von Abrechnungsstreitigkeiten und Patientenbeschwerden.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Termintermine dienen als Trigger, um eine Abdeckungsprüfung einzuleiten und dem Patienten vor dem Besuch Ergebnisse zu kommunizieren.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Termintermine dienen als Trigger, um eine Abdeckungsprüfung einzuleiten und dem Patienten vor dem Besuch Ergebnisse zu kommunizieren. Dies ist das richtige Muster, wenn ein diskretes Terminplanungsereignis der Trigger ist und die erforderliche Reaktion eine einzige, zeitkritische Benachrichtigung über die Abdeckung ist - anstelle einer mehrstufigen Interaktionssequenz, da der Patient vor seinem Termin eine eindeutige Nachricht benötigt.
 
 ### Technische Überlegungen
 
@@ -200,11 +203,11 @@ Senden Sie personalisierte Erinnerungen an Telehealth-Termine, die Verbindungsan
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Telehealth-Terminerinnerungen bewirken in der Regel eine 40- bis 50-prozentige Verbesserung der virtuellen Besuchsraten und beschleunigen die allgemeine Einführung von Telehealth in der gesamten Patientenpopulation.
+Personalisierte Erinnerungen zu Terminen im Telehealth-Bereich helfen dabei, die Anzahl der virtuellen Besuche zu erhöhen und die Akzeptanz des Telehealth-Programms in der gesamten Patientenpopulation zu beschleunigen.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Terminplanungsereignisse für Telemedizintermine bieten einen natürlichen Trigger für rechtzeitige Erinnerungen, die Verbindungsdetails und Anleitungen zur Vorbereitung enthalten.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Terminplanungsereignisse für Telemedizintermine bieten einen natürlichen Trigger für rechtzeitige Erinnerungen, die Verbindungsdetails und Anleitungen zur Vorbereitung enthalten. Dies ist das richtige Muster, wenn ein diskretes Telemedizintereignis der Trigger ist und die erforderliche Reaktion eine einzige, sofortige Erinnerung mit technischer Anleitung ist - und nicht eine mehrstufige Abfolge, da Patienten klare Anweisungen vor der Verabredung benötigen, ohne dass eine nachfolgende Meldung erfolgt.
 
 ### Technische Überlegungen
 
@@ -220,11 +223,11 @@ Personalisieren Sie die Kommunikation, Herausforderungen und Prämien des Wellne
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Kampagnen zur Interaktion mit Wellness-Programmen erreichen in der Regel eine Steigerung der Programmteilnahmequoten um 30 bis 40 Prozent, was zu verbesserten gesundheitlichen Ergebnissen und einer stärkeren Patientenloyalität beiträgt.
+Personalisierte Kampagnen zur Interaktion mit Wellness-Programmen führen zu höheren Teilnahmeraten, was zu verbesserten gesundheitlichen Ergebnissen und einer stärkeren Patientenloyalität beiträgt.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Wellness-Programme sind nachhaltige Interaktionserlebnisse mit mehreren Meilensteinen, Herausforderungen und Belohnungs-Touchpoints, für die eine adaptive Orchestrierung auf der Grundlage der Patientenbeteiligung und des Fortschritts erforderlich ist.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Wellness-Programme sind nachhaltige Interaktionserlebnisse mit mehreren Meilensteinen, Herausforderungen und Belohnungs-Touchpoints, für die eine adaptive Orchestrierung auf der Grundlage der Patientenbeteiligung und des Fortschritts erforderlich ist. Dies ist das richtige Muster, da Wellness-Programme einen sequenziellen Fluss mit mehreren Nachrichten über einen längeren Zeitraum mit bedingter Verzweigung basierend auf Teilnahme-Meilensteinen und Interaktionsmustern erfordern - ereignisgesteuertes Messaging kann die nachhaltige, adaptive Orchestrierung nicht bewältigen, die erforderlich ist, um Herausforderungen und Belohnungen auf der Grundlage der kontinuierlichen Fortschrittsverfolgung anzupassen.
 
 ### Technische Überlegungen
 
@@ -240,11 +243,11 @@ Ermöglichen Sie eine personalisierte Kommunikation und Koordination zwischen de
 
 ### Auswirkung auf den Betrieb
 
-Eine effektive Koordinationskommunikation zwischen Betreuungsteams führt in der Regel zu einer 35- bis 45-prozentigen Verbesserung der Interaktion mit Betreuungsteams und messbar besseren Ergebnissen bei der Pflegekoordination in den Betreuungsplänen mehrerer Anbieter.
+Eine effektive Koordinationskommunikation zwischen Betreuungsteams führt zu einer verbesserten Interaktion mit Betreuungsteams und zu besseren Ergebnissen bei der Koordinierung der Betreuung über mehrere Anbieter hinweg.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Die Koordination des Betreuungsteams umfasst mehrere Stakeholder und fortlaufende Kommunikationsflüsse, die sich auf der Grundlage von Meilensteinen des Behandlungsplans, Änderungen des Patientenstatus und Maßnahmen des Anbieters anpassen müssen.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Die Koordination des Betreuungsteams umfasst mehrere Stakeholder und fortlaufende Kommunikationsflüsse, die sich auf der Grundlage von Meilensteinen des Behandlungsplans, Änderungen des Patientenstatus und Maßnahmen des Anbieters anpassen müssen. Dies ist das richtige Muster, da die Koordinierung der Versorgung adaptive, mehrstufige Messaging-Flüsse erfordert, die sich auf der Grundlage von Meilensteinen des Behandlungsplans und Anbieteraktionen über mehrere Stakeholder hinweg verzweigen - eine einzige Nachricht oder ein einfacheres Muster kann nicht die komplexen gegenseitigen Abhängigkeiten und rollenbasierten Weiterleitungen von Nachrichten berücksichtigen, die für klinische Teams erforderlich sind.
 
 ### Technische Überlegungen
 
@@ -252,3 +255,62 @@ Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-
 - Integration mit dem Betreuungs-Management und elektronischen Patientendatensystemen, um Pflegeplanaktualisierungen, Überweisungsabschlüsse und Versorgungsübergangsereignisse zu erhalten, die Trigger-Koordinationsnachrichten sind.
 - Entwerfen Sie separate Kommunikationswege für patienten- und anbieterorientierte Nachrichten, um sicherzustellen, dass klinische Terminologie für Anbieter angemessen verwendet wird, während Patientennachrichten klar und zugänglich bleiben.
 - Pflegen Sie einen vollständigen Audit-Protokoll aller Pflege-Koordinationskommunikationen zur Einhaltung von Pflege-Kontinuitätsvorschriften und Akkreditierungsanforderungen.
+
+
+## Journey Funnel und Pflegelückenanalyse für Patienten
+
+Ordnen Sie das End-to-End-Journey des Patienten von der anfänglichen Web-Recherche über Terminplanung, Pflegebereitstellung und Nachsorge zu, um zu ermitteln, wo Patienten sich zurückziehen und welche Populationen Lücken in der empfohlenen präventiven oder chronischen Pflege haben. Gesundheitssysteme, denen die Sichtbarkeit des Cross-Channel-Journey fehlt, können nicht zwischen Reibung beim Terminieren und der Entbindung der Patienten unterscheiden - was ihre Fähigkeit einschränkt, den Zugang zu verbessern und Versorgungslücken im großen Maßstab zu schließen.
+
+### Auswirkung auf den Betrieb
+
+Wenn man weiß, wo Patienten die Versorgungswege abbrechen und welche Mitglieder die höchste Konzentration an Versorgungslücken aufweisen, kann das Betreuungs-Management und das Marketing-Team die Ressourcen auf die Populationen und Reibungspunkte konzentrieren, die die größte Verbesserung bei der Einhaltung der Versorgungsvorschriften bewirken.
+
+### Implementieren
+
+Verwenden Sie das [Muster Customer Analytics &amp; Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) . Dieser Ansatz verbindet Web- und Portal-Verhaltensdaten, Termindatensätze und Pflegeanfragedaten mit Customer Journey Analytics, wo die Fallout-Analyse den Abbruch bei jedem Zeitplan- oder Pflegeschritt misst und die Kohortenanalyse identifiziert, welche Mitgliedersegmente die niedrigsten Pflege-Compliance-Raten haben. Wenn das Ziel in der Generierung und Populationsanalyse von insight besteht, ist dies das richtige Muster - zu verstehen, wo die Journey aufbrechen und wer am meisten gefährdet ist - anstatt eine Kontaktaufnahme auszulösen oder eine Unterdrückungsliste zu aktivieren.
+
+### Technische Überlegungen
+
+- Termins- und Anspruchsdaten aus klinischen Systemen müssen vor der Aufnahme in AEP HIPAA-konformen XDM-Schemata zugeordnet werden. Außerdem müssen Datennutzungskennzeichnungen angewendet werden, um den Zugriff auf geschützte Gesundheitsinformationen in CJA-Datenansichten zu beschränken.
+- Patienten- oder Mitgliedsidentifikatoren im Web-Portal, im Zeitplansystem und in der EHR müssen in eine konsistente Personen-ID in der CJA-Verbindung aufgelöst werden, um eine kohärente systemübergreifende Journey-Ansicht zu erstellen, ohne Einzelpersonen zu duplizieren.
+- Die Pflegelückenanalyse erfordert Suchdatensätze, die klinische Richtliniendefinitionen codieren - z. B. empfohlene Vorsorgeintervalle nach Alter und Zustand -, damit aus CJA abgeleitete Felder Mitglieder kennzeichnen können, die die empfohlene Behandlung nicht innerhalb des Richtlinienfensters abgeschlossen haben.
+- Planung Die funnel-Analyse sollte sowohl abgeschlossene als auch abgebrochene Planungssitzungen erfassen, einschließlich Ausgangspunkte in mehrstufigen Planungsflüssen, damit Reibungspunkte auf Schrittebene und nicht als aggregierte Abbruchraten sichtbar sind.
+
+
+## Inhalt des Patientenportals - Personalization
+
+Personalisieren Sie das authentifizierte Patientenportal-Erlebnis, indem Sie die relevantesten Inhalte, Tools und Ressourcen für das Gesundheitswesen basierend auf dem Verhalten und der Interaktionsgeschichte jedes einzelnen Patienten während der Sitzung aufdecken. Ein Portal, das sich an das anpasst, woran ein Patient aktiv forscht - anstatt jedem Besucher dasselbe statische Erlebnis zu präsentieren - erleichtert es den Patienten, das zu finden, was sie brauchen, und ermutigt zu einer stärkeren Interaktion mit den verfügbaren Gesundheitsressourcen.
+
+### Auswirkung auf den Betrieb
+
+Die Personalisierung des Patientenportalerlebnisses auf der Grundlage des Interaktionsverhaltens steigert die Erkennung von Inhalten und die Selbstbedienungsrate. Patienten können so sicherer durch ihre Versorgung navigieren, ohne dass ein Eingreifen des Betreuungsteams erforderlich ist.
+
+### Implementieren
+
+Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). In-Session-Verhaltenssignalen aus dem authentifizierten Portal - einschließlich Seitenansichten der Inhalte, Nutzung von Gesundheitstools, Interaktion mit FAQ-Themen und Terminplanung - wird ein Empfehlungsmodell trainiert, das die relevantesten Ressourcen für jeden Patienten basierend auf dem, was er aktiv untersucht, aufzeigt, ohne dass klinische Daten als Eingabe erforderlich sind. Dies ist das richtige Muster, wenn die Personalisierung durch implizite Verhaltenssignale innerhalb einer authentifizierten Sitzung gesteuert wird und das Ziel das Ranking der Relevanz eines Inhalts und eines Ressourcenkatalogs ist - anstelle einer geregelten Eignungsentscheidung, die besser geeignet ist, wenn klinische Kriterien bewerten müssen, was ein Patient sieht.
+
+### Technische Überlegungen
+
+- Beschränken Sie Verhaltenssignale, die für Recommendations verwendet werden, auf Daten zu Portalinteraktionen - Inhaltsansichten, Tool-Nutzung und Navigationsmuster - und implementieren Sie Datennutzungskennzeichnungen, die verhindern, dass abgeleitete Gesundheitsinteressen außerhalb der authentifizierten Portalsitzung oder in Marketing-Kanäle fließen.
+- Implementieren Sie eine klinisch geprüfte Inhaltsbibliothek als Empfehlungspool, sodass das Modell nur vorab genehmigte Gesundheitserziehungsmaterialien aufdecken kann, um sicherzustellen, dass jede empfohlene Ressource vor der Bereitstellung auf ihre Genauigkeit überprüft wurde.
+- Stellen Sie sicher, dass das Empfehlungssystem die HIPAA-Anforderungen an die technische Sicherheit für die authentifizierte Portal-Umgebung erfüllt, einschließlich der Steuerung von Sitzungs-Timeouts und der Auditprotokollierung, welche Inhalte jedem Patienten zu welchem Zeitpunkt präsentiert wurden.
+- Stellen Sie Patienten sichtbare Kontrollmöglichkeiten zur Verfügung, um den Navigationsverlauf des Portals zu löschen und die Verhaltenspersonalisierung zu deaktivieren, sodass die Transparenz und das Vertrauen in die Verwendung ihrer Interaktionsdaten innerhalb des Portalerlebnisses gewahrt bleiben.
+
+## Patienteninteraktion und Terminerinnerungen
+
+Senden Sie personalisierte Terminerinnerungen, Gesundheitstipps und Folgenachrichten über konforme, einverständnisbewusste Multi-Channel-Journey. Automatisierte, personalisierte Erinnerungen an Termine senken die Abwesenheitsraten und stellen gleichzeitig sicher, dass die Kommunikation den Datenschutzbestimmungen des Gesundheitswesens und den Präferenzen des Patienten entspricht.
+
+### Auswirkung auf den Betrieb
+
+Gesundheitsorganisationen mit automatisierten Erinnerungsprogrammen für Termine können signifikante Senkungen der No-Show- und Late-Cancellation-Raten feststellen, was durch bessere Einhaltung von Terminen die Auslastung des Anbieterzeitplans und die Ergebnisse für die Gesundheit der Patienten verbessert.
+
+### Implementieren
+
+Verwenden Sie das [Ereignisgesteuerte Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um auf Terminplanungsereignisse mit zeitnahen, personalisierten Erinnerungen zu reagieren, die in optimalen Intervallen vor dem Termindatum stattfinden. Dies ist das richtige Muster, wenn die Kommunikation durch ein bestimmtes Patienteninteraktionsereignis ausgelöst wird und die Reaktion eine zeitabhängige, individualisierte Nachricht ist - und keine mehrwöchige Pflegesequenz oder komplexe Angebotsauswahl.
+
+### Technische Überlegungen
+
+- Alle Patientenmitteilungen müssen den geltenden Datenschutzbestimmungen für das Gesundheitswesen entsprechen. Der Nachrichteninhalt muss vermeiden, geschützte Gesundheitsinformationen über das für die Kommunikation unbedingt erforderliche Maß hinaus einzuschließen.
+- Die Einverständnisverwaltung muss auf Kanalebene durchgesetzt werden - Patienten, die sich nicht für SMS-Erinnerungen entschieden haben, dürfen keine Texte erhalten, selbst wenn SMS der effektivste Erinnerungskanal für ihre Demografie wäre.
+- Die Integration mit dem Terminplanungssystem muss Terminereignisse nahezu in Echtzeit bereitstellen, damit der Erinnerungszeitpunkt dem tatsächlichen Terminplan entspricht, einschließlich der Neutermine und Absagen am selben Tag.
+- Mehrkanalige Erinnerungssequenzen müssen eine Unterdrückungslogik enthalten, damit Patienten, die ihren Termin bestätigen, keine Erinnerungsnachrichten für diesen Termin erhalten.

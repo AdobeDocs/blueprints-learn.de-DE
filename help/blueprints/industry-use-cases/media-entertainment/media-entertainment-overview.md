@@ -2,13 +2,13 @@
 title: Anwendungsfälle für Medien und Unterhaltung
 description: Erfahren Sie, wie Medien- und Unterhaltungsunternehmen Adobe Experience Platform verwenden, um die Inhaltssuche zu personalisieren, die Abwanderung von Abonnenten zu reduzieren und die Interaktion mit Zielgruppen zu steigern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2644'
+source-wordcount: '3363'
 ht-degree: 0%
 
 ---
-
 
 # Anwendungsfälle für Medien und Unterhaltung
 
@@ -20,11 +20,11 @@ Bereitstellen von personalisierten Inhaltsempfehlungen, einschließlich Filmen, 
 
 ### Auswirkung auf den Betrieb
 
-Organisationen, die personalisierte Inhaltsempfehlungs-Engines bereitstellen, verzeichnen in der Regel einen Anstieg der Inhaltsinteraktion um 30-40 % und eine bedeutsame Steigerung der gesamten Zeit beim Beobachten oder Hören pro Benutzer.
+Organisationen, die personalisierte Inhaltsempfehlungs-Engines bereitstellen, sehen eine verbesserte Inhaltsinteraktion und eine bedeutsame Steigerung der gesamten Zeit beim Beobachten oder Hören pro Benutzer.
 
 ### Implementieren
 
-Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Bei diesem Ansatz werden KI-gesteuerte Empfehlungsmodelle verwendet, die kontinuierlich aus den Interaktionen mit den Zielgruppen lernen, um für jede Person die relevantesten Inhalte zu ermitteln.
+Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Bei diesem Ansatz werden KI-gesteuerte Empfehlungsmodelle verwendet, die kontinuierlich aus den Interaktionen mit den Zielgruppen lernen, um für jede Person die relevantesten Inhalte zu ermitteln. Dies ist das richtige Muster, wenn die Elementgruppe groß ist und sich ständig ändert (Inhaltskataloge) und die Auswahl von der aus dem Verlauf erlernten Verhaltensaffinität gesteuert wird - und nicht von einer begrenzten Anzahl von Angeboten, die durch Eignungsregeln geregelt sind.
 
 ### Technische Überlegungen
 
@@ -40,11 +40,11 @@ Identifizieren Sie Abonnentinnen und Abonnenten, bei denen das Risiko einer Stor
 
 ### Auswirkung auf den Betrieb
 
-Effektive Abwanderungspräventionsprogramme führen zu einer 20-30%igen Verringerung der Abwanderung von Abonnenten, schützen den wiederkehrenden Umsatz und verbessern den langfristigen Wert der Zielgruppenlebensdauer.
+Effektive Abwanderungspräventionsprogramme führen zu einer deutlichen Verringerung der Abwanderung von Abonnenten, schützen den wiederkehrenden Umsatz und verbessern den langfristigen Wert der Zielgruppenlebensdauer.
 
 ### Implementieren
 
-Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Bei diesem Ansatz wird die Journey-Orchestrierung mit der Echtzeit-Entscheidungsfindung kombiniert, um für jeden gefährdeten Abonnenten über jeden Kanal hinweg das beste Aufbewahrungsangebot oder die beste Inhaltsempfehlung auszuwählen.
+Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Bei diesem Ansatz wird die Journey-Orchestrierung mit der Echtzeit-Entscheidungsfindung kombiniert, um für jeden gefährdeten Abonnenten über jeden Kanal hinweg das beste Aufbewahrungsangebot oder die beste Inhaltsempfehlung auszuwählen. Dies ist das richtige Muster, wenn die Journey die Bereitstellung kanalübergreifend koordinieren muss, um doppelte Aufbewahrungsangebote zu verhindern, und wenn die Angebotsauswahl Eignungsregeln auf der Grundlage des Abonnentenwerts und des Risikograds erfordert - eine mehrstufige Orchestrierung allein bietet nicht die erforderliche Entscheidungsebene in Echtzeit.
 
 ### Technische Überlegungen
 
@@ -60,11 +60,11 @@ Benachrichtigen Sie Abonnentinnen und Abonnenten über neue Inhaltsveröffentlic
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Versionshinweise steigern in der Regel die Interaktion mit neuen Inhalten innerhalb der ersten Woche nach der Veröffentlichung um 40-50 %, beschleunigen die Zuschauerzahlen und verbessern die Metriken zur Content-Performance.
+Personalisierte Versionsbenachrichtigungen fördern die Interaktion mit neuen Inhalten innerhalb der ersten Woche nach der Veröffentlichung, beschleunigen die Zuschauerzahlen und verbessern die Metriken zur Inhaltsleistung.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz reagiert auf Ereignisse zur Inhaltsveröffentlichung und gleicht neue Titel mit Abonnentenpräferenzprofilen ab, um zeitnahe und relevante Benachrichtigungen bereitzustellen.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz reagiert auf Ereignisse zur Inhaltsveröffentlichung und gleicht neue Titel mit Abonnentenpräferenzprofilen ab, um zeitnahe und relevante Benachrichtigungen bereitzustellen. Dies ist das richtige Muster, wenn der Trigger ein Systemereignis (Inhaltsveröffentlichung) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und reaktiv erfolgt und keine nachhaltige Näherungssequenz ist.
 
 ### Technische Überlegungen
 
@@ -80,11 +80,11 @@ Personalisieren Sie die Homepage und die Inhaltserkennungsseiten dynamisch, um z
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Homepage-Erlebnisse steigern die Interaktion mit Homepage um 25-35 % und verbessern die Inhaltserkennung deutlich, insbesondere für Plattformen mit großen und wachsenden Inhaltsbibliotheken.
+Personalisierte Homepage-Erlebnisse fördern die bessere Interaktion mit der Homepage und verbessern die Inhaltssuche erheblich, insbesondere für Plattformen mit großen und wachsenden Inhaltsbibliotheken.
 
 ### Implementieren
 
-Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Bei diesem Ansatz werden Auswahlstrategien und Rangfolgemodelle verwendet, um Inhaltszeilen und vorgestellte Titel auf der Homepage basierend auf dem Profil jedes Besuchers und dem Echtzeitverhalten neu anzuordnen.
+Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Bei diesem Ansatz werden Auswahlstrategien und Rangfolgemodelle verwendet, um Inhaltszeilen und vorgestellte Titel auf der Homepage basierend auf dem Profil jedes Besuchers und dem Echtzeitverhalten neu anzuordnen. Dies ist das richtige Muster, wenn die Elementgruppe groß ist und sich ständig ändert und die Auswahl durch eine Verhaltensauffinität gesteuert wird, um Inhaltszeilen dynamisch zu reihen - anstelle eines statisch kuratierten Satzes oder einer einfachen attributbasierten Personalisierung.
 
 ### Technische Überlegungen
 
@@ -100,11 +100,11 @@ Senden Sie Benutzern Erinnerungen zu Inhalten in ihrer Watchlist, die sie noch n
 
 ### Auswirkung auf den Betrieb
 
-Erinnerungsprogramme für Watchlisten erzielen in der Regel eine Steigerung der Abschlussrate von Watchlisten um 30-40 %, wodurch die gespeicherte Absicht in aktive Interaktion umgewandelt und die allgemeine Plattformnutzung erhöht wird.
+Erinnerungsprogramme für Watchlisten fördern die Abschlussraten von Watchlisten, wodurch aus gespeicherter Absicht aktive Interaktion wird und die allgemeine Plattformnutzung zunimmt.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz sendet Trigger-Erinnerungen basierend auf Aktivitäten auf der Watchlist und Inaktivitätssignalen, wobei zeitnahe Nudges gesendet werden, wenn Inhalte gespeichert, aber noch nicht gestartet wurden.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz sendet Trigger-Erinnerungen basierend auf Aktivitäten auf der Watchlist und Inaktivitätssignalen, wobei zeitnahe Nudges gesendet werden, wenn Inhalte gespeichert, aber noch nicht gestartet wurden. Dies ist das richtige Muster, wenn ein diskretes Verhaltenssignal (Watchlist-Inaktivität) der Trigger ist und die erforderliche Antwort eine einzige, zeitabhängige Nachricht ist - und keine mehrstufige Sequenz oder ein kontinuierlicher Empfehlungs-Stream.
 
 ### Technische Überlegungen
 
@@ -120,11 +120,11 @@ Gewinnen Sie kostenlose Testbenutzer mit personalisierten Inhaltsempfehlungen un
 
 ### Auswirkung auf den Betrieb
 
-Gut durchdachte Probekonvertierungs-Kampagnen bieten eine Verbesserung der Konversionsraten von 25-35 % bei der gebührenpflichtigen Testversion, was die Effizienz der Abonnentenerfassung direkt steigert und die Kosten pro Akquise senkt.
+Gut durchdachte Probekonvertierungs-Kampagnen bieten deutliche Verbesserungen der Konversionsraten von Testversand an Paid und steigern so direkt die Effizienz der Abonnentenerfassung und senken die Kosten pro Akquise.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Dieses Multi-Touch-Nurture-Journey führt Testanwender durch eine Abfolge von Content-Entdeckungen, Wertemeldungen und Konversionsnachrichten und passt sich während der gesamten Testphase an ihre Interaktion an.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Dieses Multi-Touch-Nurture-Journey führt Testanwender durch eine Abfolge von Content-Entdeckungen, Wertemeldungen und Konversionsnachrichten und passt sich während der gesamten Testphase an ihre Interaktion an. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenziellen Fluss mit mehreren Nachrichten über Tage mit bedingter Verzweigung basierend auf Interaktionsereignissen und der verbleibenden Testzeit erfordert - eine einzelne ausgelöste Nachricht kann die Abhängigkeitslogik zwischen Schritten oder die Notwendigkeit von Kadenzanpassungen nicht berücksichtigen.
 
 ### Technische Überlegungen
 
@@ -140,11 +140,11 @@ Benachrichtigen Sie Benutzer über bevorstehende Live-Ereignisse, Sportspiele od
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Live-Ereigniserinnerungen steigern in der Regel die Zuschauerzahlen bei Live-Ereignissen um 50-60 %, wodurch die Zielgruppe für hochwertige Echtzeit-Programmierung maximiert wird.
+Personalisierte Live-Ereigniserinnerungen fördern die Verbesserung der Zuschauerzahlen bei Live-Ereignissen und maximieren die Zielgruppe für hochwertige Echtzeit-Programmierung.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz ermöglicht den Trigger von Benachrichtigungen auf der Grundlage von Ereigniszeitplandaten, wobei bevorstehende Ereignisse mit Abonnenteninteressenprofilen abgeglichen werden, um rechtzeitige Erinnerungen bereitzustellen.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz ermöglicht den Trigger von Benachrichtigungen auf der Grundlage von Ereigniszeitplandaten, wobei bevorstehende Ereignisse mit Abonnenteninteressenprofilen abgeglichen werden, um rechtzeitige Erinnerungen bereitzustellen. Dies ist das richtige Muster, wenn der Trigger ein Systemereignis (Ereigniszeitplan) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und zeitgebunden erfolgt und keine nachhaltige Nurture-Sequenz ist.
 
 ### Technische Überlegungen
 
@@ -160,11 +160,11 @@ Automatische Generierung und Aktualisierung personalisierter Wiedergabelisten ba
 
 ### Auswirkung auf den Betrieb
 
-Die Generierung personalisierter Wiedergabelisten steigert die Interaktion mit Wiedergabelisten um 40-50 % und verlängert die durchschnittliche Dauer von Hörsitzungen bedeutend, wodurch die täglichen Gewohnheiten der Plattformnutzung gestärkt werden.
+Die Generierung personalisierter Wiedergabelisten trägt zu einer verbesserten Interaktion mit Wiedergabelisten bei und verlängert die durchschnittliche Dauer von Hörsitzungen bedeutend, wodurch die täglichen Gewohnheiten bei der Nutzung der Plattform gestärkt werden.
 
 ### Implementieren
 
-Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Dieser Ansatz verwendet KI-gesteuerte Modelle, die Hörmuster, Überspringungsverhalten und kontextuelle Signale analysieren, um Wiedergabelisten zu generieren und zu aktualisieren, die auf jeden Benutzer zugeschnitten sind.
+Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Dieser Ansatz verwendet KI-gesteuerte Modelle, die Hörmuster, Überspringungsverhalten und kontextuelle Signale analysieren, um Wiedergabelisten zu generieren und zu aktualisieren, die auf jeden Benutzer zugeschnitten sind. Dies ist das richtige Muster, wenn die Elementgruppe groß ist und sich ständig ändert und die Auswahl durch eine Verhaltensauffinität aus dem Hörverlauf und Stimmungssignalen gesteuert wird - und nicht durch eine begrenzte Menge von Wiedergabelisten, die durch redaktionelle Regeln geregelt werden.
 
 ### Technische Überlegungen
 
@@ -180,11 +180,11 @@ Stellen Sie ein nahtloses Inhaltserlebnis auf allen Geräten bereit, indem Sie d
 
 ### Auswirkung auf den Betrieb
 
-Die plattformübergreifende Inhaltssynchronisierung steigert die geräteübergreifende Interaktion um 30-40 % und reduziert auf sinnvolle Weise die Reibungsverluste, die beim Wechsel zwischen Geräten zum Abbruch einer Sitzung führen können.
+Die plattformübergreifende Inhaltssynchronisierung verbessert die geräteübergreifende Interaktion und verringert Reibungsverluste, die zum Abbruch von Sitzungen führen können, wenn Benutzer zwischen Geräten wechseln.
 
 ### Implementieren
 
-Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz personalisiert das Erlebnis für identifizierte Benutzer über Web- und App-Plattformen hinweg und stellt so einen konsistenten Inhaltsstatus und Empfehlungen unabhängig vom Gerät sicher.
+Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz personalisiert das Erlebnis für identifizierte Benutzer über Web- und App-Plattformen hinweg und stellt so einen konsistenten Inhaltsstatus und Empfehlungen unabhängig vom Gerät sicher. Dies ist das richtige Muster, wenn die Personalisierung durch Profilattribute (geräteübergreifende Identität, Status des überwachten Fortschritts) und Segmentzugehörigkeit gesteuert wird und nicht durch ein Affinitätsmodell des Verhaltens oder eine Journey-Orchestrierungssequenz.
 
 ### Technische Überlegungen
 
@@ -200,11 +200,11 @@ Personalisieren Sie Eingabeaufforderungen und Empfehlungen für die Social Shari
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Social-Sharing-Eingabeaufforderungen erzielen in der Regel eine Steigerung der Social-Sharing-Rate um 20-30 %, erhöhen die organische Reichweite und senken die bezahlten Anschaffungskosten.
+Personalisierte Social Sharing-Eingabeaufforderungen erzielen verbesserte Social Sharing-Raten, steigern die organische Reichweite und senken die bezahlten Anschaffungskosten.
 
 ### Implementieren
 
-Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz personalisiert In-App-Freigabeerlebnisse für identifizierte Benutzende und zeigt kontextuell relevante Freigabeaufforderungen basierend auf den Voreinstellungen und Interaktionsmustern der Benutzenden.
+Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz personalisiert In-App-Freigabeerlebnisse für identifizierte Benutzende und zeigt kontextuell relevante Freigabeaufforderungen basierend auf den Voreinstellungen und Interaktionsmustern der Benutzenden. Dies ist das richtige Muster, wenn die Personalisierung von Profilattributen und dem bekannten Interaktionskontext und nicht von einem verhaltensbezogenen Affinitätsmodell gesteuert wird. Ziel ist es, das Erlebnis im Augenblick zu verbessern, ohne eine Journey-Sequenz zu orchestrieren.
 
 ### Technische Überlegungen
 
@@ -220,11 +220,11 @@ Identifizieren Sie Benutzer, die von Premium-Funktionen profitieren würden, und
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Premium-Upsell-Kampagnen steigern die Akzeptanz von Premium-Funktionen um 15-25 %, steigern den durchschnittlichen Umsatz pro Anwender und bieten Funktionen, die den Bedürfnissen der Abonnenten entsprechen.
+Personalisierte Premium-Upsell-Kampagnen steigern die Akzeptanz von Premium-Funktionen, steigern den durchschnittlichen Umsatz pro Benutzer und bieten gleichzeitig Funktionen, die den Anforderungen der Abonnenten entsprechen.
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um die Nutzungsmuster jedes Abonnenten zu bewerten und das relevanteste Premium-Angebot zum richtigen Zeitpunkt auszuwählen.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um die Nutzungsmuster jedes Abonnenten zu bewerten und das relevanteste Premium-Angebot zum richtigen Zeitpunkt auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Einschränkungen für Nutzungsmuster und Eignungsregeln der Premium-Ebene berücksichtigt werden müssen - Einschränkungen, für die eine geregelte Entscheidungslogik erforderlich ist, anstatt nur das Ranking der Affinität mit dem Verhalten zu berücksichtigen.
 
 ### Technische Überlegungen
 
@@ -240,11 +240,11 @@ Erinnern Sie Benutzer daran, Inhalte anzusehen oder anzuhören, die sie begonnen
 
 ### Auswirkung auf den Betrieb
 
-Inhaltsabschlusskampagnen erzielen in der Regel eine Verbesserung der Abschlussrate von Inhalten um 35-45 %, was die gesamte Interaktionszeit verlängert und die Wahrnehmung der Abonnentinnen und Abonnenten hinsichtlich des Plattformwerts stärkt.
+Inhaltsabschlusskampagnen fördern verbesserte Inhaltsabschlussraten, erhöhen die Gesamtinteraktionszeit und stärken die Wahrnehmung der Abonnentinnen und Abonnenten hinsichtlich des Plattformwerts.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz erinnert Trigger auf der Grundlage von Ereignissen, die bei einem Inhaltsabbruch ausgelöst wurden, an rechtzeitige Nachrichten, wenn ein Benutzer teilweise durch einen Titel pausiert hat und nicht innerhalb eines definierten Fensters zurückgegeben wurde.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz erinnert Trigger auf der Grundlage von Ereignissen, die bei einem Inhaltsabbruch ausgelöst wurden, an rechtzeitige Nachrichten, wenn ein Benutzer teilweise durch einen Titel pausiert hat und nicht innerhalb eines definierten Fensters zurückgegeben wurde. Dies ist das richtige Muster, wenn ein diskretes Verhaltenssignal (Inhaltsabbruch) der Trigger ist und die erforderliche Antwort eine einzige, zeitabhängige Nachricht mit Kontext ist - und keine mehrstufige Journey oder dynamische Angebotsauswahl.
 
 ### Technische Überlegungen
 
@@ -252,3 +252,23 @@ Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-pa
 - Erinnerungsnachrichten sollten den spezifischen Inhaltstitel, eine visuelle Miniaturansicht und einen direkten Deep-Link enthalten, der die Wiedergabe an der Stelle fortsetzt, an der der Benutzer aufgehört hat.
 - Die Frequenzlimitierung muss übermäßige Erinnerungen für Benutzende verhindern, die routinemäßig Inhalte testen, ohne sie zu Ende zu führen. Wiederholte Stupser für Inhalte, die eine Benutzende aufgeben möchte, können sich aufdringlich anfühlen.
 - Die Verfügbarkeit von Inhalten muss zum Zeitpunkt des Versands überprüft werden, da Titel die Plattform verlassen oder die Verfügbarkeitsregionen zwischen dem Abbruchs-Ereignis und dem Versand der Erinnerung ändern können.
+
+
+## Analyse der Abonnentenabwanderung und der Inhaltsinteraktion
+
+Ermitteln Sie, welche Muster bei der Nutzung von Inhalten, Änderungen der Interaktionsfrequenz und Verhaltensweisen bei Kataloginteraktionen einer Abmeldung von Abonnenten vorangehen, und messen Sie, wie die Inhaltsaffinität zwischen Abonnentensegmenten und Akquisekohorten variiert. Streaming- und Publishing-Unternehmen, die das Verhalten von Inhalten nicht mit Abwanderungsergebnissen verbinden können, treffen Inhaltsinvestitionsentscheidungen auf der Grundlage der aggregierten Ansichtsanzahl und nicht der Auswirkungen auf die Kundenbindung.
+
+### Auswirkung auf den Betrieb
+
+Die Korrelation von Interaktionsmustern bei Inhalten mit Abonnenten-Kundenbindungsergebnissen bietet Produkt-, Content-Strategie- und Marketing-Teams eine sachliche Grundlage für die Priorisierung von Kataloginvestitionen und die Gestaltung von Rückgewinnungskampagnen rund um die Verhaltensweisen, die tatsächlich Abonnements unterstützen.
+
+### Implementieren
+
+Verwenden Sie das [Muster Customer Analytics &amp; Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) . Dieser Ansatz verbindet Streaming-Ereignisdaten, Inhaltsmetadaten, Abonnement-Lebenszyklusdatensätze und den Kampagneninteraktionsverlauf mit Customer Journey Analytics, wobei die Analyse der Kohortenbeibehaltung misst, wie die Inhaltsaffinität mit der Abonnentenzeit korreliert, und die Fallout-Analyse die Interaktionsabbruchmuster identifiziert, die einer Absage vorausgehen. Wenn es das Ziel ist, die verhaltensbezogenen Treiber der Abwanderung und die Content-Performance zu verstehen, ist dies das richtige Muster. Es geht nicht darum, eine Win-back-Nachricht auszulösen oder eine Zielgruppe mit Abwanderungsrisiko für die Unterdrückung zu aktivieren.
+
+### Technische Überlegungen
+
+- Ereignisse zur Inhaltsnutzung müssen sowohl Inhaltskennungen als auch Metadaten auf Sitzungsebene - Start-, Pause-, Fertigstellungs- und Überspringereignisse - enthalten, damit die Interaktionstiefe über die Anzahl der Rohwiedergaben in CJA hinaus gemessen werden kann.
+- Abonnement-Lebenszyklusereignisse, einschließlich Teststart, Konversion, Zahlungsfehler, Downgrade und Stornierung, müssen als diskrete Ereignisse mit genauen Zeitstempeln aufgenommen werden, damit Verhaltensfenster für die Stornierung vor der Stornierung in CJA-Filtern genau definiert werden können.
+- Inhaltskatalogattribute wie Genre, Format, Serienzuordnung und Versionsaktualität müssen als Lookup-Datensatz in der CJA-Verbindung verfügbar sein, damit die Inhaltsinteraktionsanalyse nach Katalogdimension aufgeschlüsselt werden kann, anstatt eine Analyse auf individueller Titelebene zu erfordern.
+- Eine Kohortenanalyse, die die Kundenbindungskurven nach Akquise-Kanal und den angezeigten Originalinhalt vergleicht, erfordert, dass sowohl die Akquise-Quelle als auch der zuerst angezeigte Inhalt als Profil- oder Erstereignisdimensionen erfasst werden, die in CJA für die Kohortendefinition verfügbar sind.

@@ -2,13 +2,13 @@
 title: Anwendungsfälle für Versicherungen
 description: Erfahren Sie, wie Versicherungsunternehmen Adobe Experience Platform verwenden, um die Richtlinienverwaltung zu personalisieren, die Schadenerfahrung zu verbessern und die Kundenbindung zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: a082598f-555b-49a4-b201-a55bee793959
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
-
 
 # Anwendungsfälle für Versicherungen
 
@@ -20,11 +20,11 @@ Senden Sie personalisierte Erinnerungen und Angebote zur Richtlinienverlängerun
 
 ### Auswirkung auf den Betrieb
 
-Unternehmen, die personalisierte Kampagnen zur Erneuerung von Richtlinien implementieren, erzielen in der Regel eine Verbesserung der Erneuerungsraten um 25 bis 35 Prozent, was die Kundenabwanderung direkt reduziert und den wiederkehrenden Prämienumsatz schützt.
+Unternehmen, die personalisierte Kampagnen zur Erneuerung von Policys implementieren, profitieren von verbesserten Verlängerungsraten, die die Kundenabwanderung direkt reduzieren und den wiederkehrenden Prämienumsatz schützen.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Die Verlängerungstermine der Police sind natürliche Trigger, die in dem Moment, in dem die Versicherungsnehmer ihre Verlängerungsentscheidung treffen, eine rechtzeitige, personalisierte Öffentlichkeitsarbeit einleiten.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Bei diesem Ansatz wird eine zeitgesteuerte Erneuerungssequenz erstellt, die von der ersten Benachrichtigung über eskalierende Erinnerungen und bei Bedarf über eine letzte Dringlichkeitsmeldung fortschreitet, wobei die Kadenz und das Angebot auf der Grundlage der Frage angepasst werden, ob der Versicherungsnehmer frühere Maßnahmen ergriffen hat. Dies ist das richtige Muster, wenn das Timing von einem Vertragsdatum und nicht von einem diskreten Kundenereignis gesteuert wird und die Geschäftsabsicht einen sequenziellen Fluss mit mehreren Nachrichten über 30 oder mehr Tage mit bedingter Verzweigung basierend auf Interaktion erfordert. Ereignisausgelöstes Messaging verarbeitet reaktive Antworten auf diskrete Ereignisse, kann jedoch nicht die kalenderbasierte Planungslogik oder Eskalationsabhängigkeiten berücksichtigen, die für eine Verlängerungskampagne erforderlich sind.
 
 ### Technische Überlegungen
 
@@ -40,17 +40,17 @@ Auf der Grundlage der bestehenden Versicherungspolicen, des Lebensstadiums und d
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Crosssell-Empfehlungen bewirken in der Regel eine Verbesserung der Crosssell-Konversionsraten um 20 bis 30 Prozent, wodurch die Policys pro Haushalt und der Gesamtwert der Kundenlebensdauer erhöht werden.
+Personalisierte Crosssell-Empfehlungen steigern die Crosssell-Konversionsraten, erhöhen die Policys pro Haushalt und den Gesamtwert der Kundenlebensdauer.
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Die Echtzeit-Entscheidungsfindung bewertet die vorhandene Abdeckung, das Lebensstadium und die Verhaltenssignale jedes Kunden, um die relevanteste Produktempfehlung aus dem verfügbaren Katalog auszuwählen.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Die Echtzeit-Entscheidungsfindung bewertet die vorhandene Abdeckung, das Lebensstadium und die Verhaltenssignale jedes Kunden, um die relevanteste Produktempfehlung aus dem verfügbaren Katalog auszuwählen. Dies ist das richtige Muster, wenn die Produktauswahl Eignungsregeln, Underwriting-Richtlinien und regulatorische Eignungsanforderungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der Verhaltensauffinität zu erstellen.
 
 ### Technische Überlegungen
 
 - Integrieren Sie Richtliniendaten aus allen Produktlinien in ein einheitliches Kundenprofil, damit die Entscheidungs-Engine bei der Auswahl von Empfehlungen einen vollständigen Überblick über die vorhandene Abdeckung hat.
 - Konfigurieren Sie die Eignungsregeln innerhalb des Entscheidungsmodells, um Produkte auszuschließen, die bereits im Besitz eines Kunden sind oder die mit den Underwriting-Richtlinien für sein Risikoprofil kollidieren.
-- Wenden Sie regulatorische Compliance-Regeln an, um sicherzustellen, dass Produktempfehlungen den bundesstaatlichen Versicherungs- und Marketing-Anforderungen entsprechen.
+- Wenden Sie sich vor der Live-Schaltung an Ihre Rechts- und Compliance-Teams, um zu überprüfen, ob die Eignungsregeln für Produktempfehlungen mit den geltenden staatlichen Marketing- und Eignungsanforderungen für Versicherungen übereinstimmen.
 - Koordinieren Sie die Entscheidungsausgabe mit dem Agentenportal, sodass empfohlene Produkte für zugewiesene Agenten sichtbar sind, die möglicherweise direkte Gespräche mit dem Kunden führen.
 
 
@@ -60,11 +60,11 @@ Personalisieren Sie die Kommunikation zum Schadenprozess, Statusaktualisierungen
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Schadensmeldungen führen in der Regel zu einer Verbesserung der Schadenzufriedenheitswerte um 40 bis 50 Prozent, wodurch Beschwerden reduziert und die Wahrscheinlichkeit einer Richtlinienverlängerung nach einem Anspruch erhöht wird.
+Personalisierte Mitteilungen über Schadensfälle führen zu besseren Scores für die Schadenzufriedenheit, reduzieren Beschwerden und erhöhen die Wahrscheinlichkeit einer Erneuerung der Police nach einem Schaden.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Der Schadenprozess ist ein mehrstufiges Erlebnis mit unterschiedlichen Phasen - Einreichung, Untersuchung, Anpassung und Abwicklung -, die jeweils maßgeschneiderte Kommunikation und adaptives Timing erfordern.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Der Schadenprozess ist ein mehrstufiges Erlebnis mit unterschiedlichen Phasen - Einreichung, Untersuchung, Anpassung und Abwicklung -, die jeweils maßgeschneiderte Kommunikation und adaptives Timing erfordern. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenziellen Fluss mit mehreren Nachrichten über Tage mit bedingter Verzweigung basierend auf Anspruchsstatusereignissen erfordert - eine einzelne ausgelöste Nachricht kann die Abhängigkeitslogik zwischen sequenziellen Anspruchsphasen nicht berücksichtigen.
 
 ### Technische Überlegungen
 
@@ -80,11 +80,11 @@ Stellen Sie personalisierte Informationen zur Risikobewertung und Tipps zur Prä
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Maßnahmen zur Risikovermeidung tragen in der Regel zu einer 30- bis 40-prozentigen Verbesserung des präventiven Engagements bei, wodurch die Schadenshäufigkeit reduziert und die Kundenzufriedenheit erhöht werden.
+Personalisierte Kontaktaufnahme zur Risikovermeidung trägt zu einer verbesserten präventiven Interaktion bei, wodurch weniger Ansprüche geltend gemacht werden müssen und die Kundenzufriedenheit steigt.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Risikopräventionsschulung ist am effektivsten als nachhaltige Multi-Touch-Journey, die im Laufe der Zeit relevante Anleitungen bietet und sich an die Kundeninteraktion und saisonalen Risikofaktoren anpasst.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Risikopräventionsschulung ist am effektivsten als nachhaltige Multi-Touch-Journey, die im Laufe der Zeit relevante Anleitungen bietet und sich an die Kundeninteraktion und saisonalen Risikofaktoren anpasst. Dies ist das richtige Muster, wenn der Journey Inhalte über längere Zeiträume mit saisonalen Zeitplananpassungen und interaktionsbasierten Verzweigungen bereitstellen muss - ereignisgesteuertes Messaging kann keinen prädiktiven Zeitplan oder den mehrstufigen Kadenz bewältigen, der für eine nachhaltige Ausbildung erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -100,16 +100,16 @@ Senden Sie personalisierte Benachrichtigungen über Richtlinienänderungen, Aktu
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Benachrichtigungen zu Richtlinienänderungen erzielen in der Regel eine Verbesserung der Benachrichtigungsbestätigungsraten um 50 bis 60 Prozent, reduzieren Kundendienstanfragen und verbessern das Verständnis der Versicherungsnehmer insgesamt.
+Personalisierte Benachrichtigungen zu Richtlinienänderungen führen zu verbesserten Bestätigungsraten für Benachrichtigungen, reduzierten Anfragen beim Kundendienst und einem besseren Verständnis der Versicherungsnehmer insgesamt.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Richtlinienänderungsereignisse aus dem Administrationssystem dienen als natürliche Trigger für sofortige, relevante Benachrichtigungen über den bevorzugten Kanal jedes Kunden.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Richtlinienänderungsereignisse aus dem Administrationssystem dienen als natürliche Trigger für sofortige, relevante Benachrichtigungen über den bevorzugten Kanal jedes Kunden. Dies ist das richtige Muster, wenn der Trigger ein Systemereignis (Richtlinienänderung) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und reaktiv erfolgt und keine nachhaltige Nurture-Sequenz ist.
 
 ### Technische Überlegungen
 
 - Integration mit dem Richtlinienverwaltungssystem, um Änderungen von Empfehlungen, Änderungen und Erneuerungen in Echtzeit zu erfassen und so sicherzustellen, dass Benachrichtigungen den aktuellen Richtlinienstatus widerspiegeln.
-- Wenden Sie regulatorische Compliance-Regeln an, um sicherzustellen, dass Benachrichtigungen die staatlich vorgeschriebenen Kommunikationsanforderungen für Richtlinienänderungen erfüllen, einschließlich der erforderlichen Sprache und der erforderlichen Bereitstellungszeiträume.
+- Arbeiten Sie vor der Aktivierung automatisierter Kommunikation mit Ihrer Rechtsabteilung zusammen, um zu bestätigen, dass Benachrichtigungen zu Richtlinienänderungen die geltenden gesetzlichen Anforderungen an den Zeitpunkt, die Sprache und den Versandkanal erfüllen.
 - Konfigurieren Sie die Kanalprioritätslogik basierend auf der Dringlichkeit und dem Typ der Änderung - beispielsweise können Abdeckungsreduzierungen sofortigere Kanäle erfordern als informative Aktualisierungen.
 - Pflegen Sie ein Versand-Audit-Protokoll für alle Benachrichtigungen zu Richtlinienänderungen, um die Dokumentation zur Einhaltung von Vorschriften und zur Streitbeilegung zu unterstützen.
 
@@ -120,11 +120,11 @@ Rückgewinnung von Kunden, die begonnen, aber kein Versicherungsangebot abgeschl
 
 ### Auswirkung auf den Betrieb
 
-Recovery-Kampagnen zur Angebotsabbruch führen in der Regel zu einer Verbesserung der Quote-Abschlussraten um 20 bis 30 Prozent, wodurch mehr potenzielle Kunden in Versicherungsnehmer umgewandelt und die Kosten für die Kundenakquise gesenkt werden.
+Recovery-Kampagnen zur Angebotsabbruch fördern verbesserte Quote-Abschlussraten, verwandeln mehr potenzielle Kunden in Versicherungsnehmer und senken die Kosten für die Kundenakquise.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Ein Zitatabbruch ist ein Verhaltensereignis, das die Trigger rechtzeitig verfolgen, solange das Interesse und die Absicht des potenziellen Kunden noch aktuell sind.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Ein Zitatabbruch ist ein Verhaltensereignis, das die Trigger rechtzeitig verfolgen, solange das Interesse und die Absicht des potenziellen Kunden noch aktuell sind. Dies ist das richtige Muster, wenn ein diskretes Kundenverhalten (Abbruch) der Trigger ist und die erforderliche Reaktion die zeitabhängige Rückgewinnung ist - anstelle einer mehrstufigen Nurture-Sequenz oder einer komplexen Angebotsentscheidung.
 
 ### Technische Überlegungen
 
@@ -140,11 +140,11 @@ Identifizieren Sie Kunden, die in neue Lebensstadien eintreten - z. B. Heirat, W
 
 ### Auswirkung auf den Betrieb
 
-Produktangebote in der Lebensphase bewirken in der Regel eine 35- bis 45-prozentige Verbesserung der Akzeptanzraten von Produkten in der Lebensphase und vertiefen die Kundenbeziehungen in wichtigen Entscheidungsprozessen.
+Produktangebote in der Lebensphase verbessern die Akzeptanzraten von Produkten in der Lebensphase und vertiefen die Kundenbeziehungen in wichtigen Entscheidungsprozessen.
 
 ### Implementieren
 
-Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Transitionen in der Lebensphase profitieren von einer kanalübergreifenden Orchestrierung in Kombination mit Echtzeit-Entscheidungen, um das relevanteste Produkt auszuwählen und es zum optimalen Zeitpunkt über den bevorzugten Kanal des Kunden bereitzustellen.
+Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Transitionen in der Lebensphase profitieren von einer kanalübergreifenden Orchestrierung in Kombination mit Echtzeit-Entscheidungen, um das relevanteste Produkt auszuwählen und es zum optimalen Zeitpunkt über den bevorzugten Kanal des Kunden bereitzustellen. Dies ist das richtige Muster, wenn der Journey die Bereitstellung über mehrere Kanäle hinweg koordinieren muss, um konsistente Angebote zu gewährleisten, während gleichzeitig die Entscheidungsfindung genutzt werden muss, um das am besten geeignete Produkt für die erkannte Lebensdauer auszuwählen. Eine mehrstufige Orchestrierung allein kann nicht die Echtzeit-Eignungs- und Eignungsbewertung bieten, die für Empfehlungen zu Versicherungsprodukten erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -160,11 +160,11 @@ Identifizieren und kommunizieren Sie personalisierte Rabattmöglichkeiten - wie 
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Rabatt- und Sparkommunikation führt in der Regel zu einer 25- bis 35-prozentigen Verbesserung der Rabattnutzungsraten, einer Verbesserung der Kundenzufriedenheit und einer Reduzierung der preisbedingten Abwanderung.
+Personalisierte Rabatt- und Sparkommunikation sorgt für eine bessere Rabattnutzung, eine höhere Kundenzufriedenheit und eine geringere Abwanderung zu Preisen.
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Die Echtzeit-Entscheidungsfindung bewertet die Berechtigung jedes Kunden für verfügbare Rabatte und wählt die wirkungsvollste Sparmöglichkeit aus, die er zum richtigen Zeitpunkt bieten kann.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Die Echtzeit-Entscheidungsfindung bewertet die Berechtigung jedes Kunden für verfügbare Rabatte und wählt die wirkungsvollste Sparmöglichkeit aus, die er zum richtigen Zeitpunkt bieten kann. Dies ist das richtige Muster, wenn die Rabattauswahl Stackingbeschränkungen, regulatorische Einschränkungen und genaue versicherungsmathematische Berechnungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur einfache Eignungsprüfungen durchzuführen.
 
 ### Technische Überlegungen
 
@@ -180,11 +180,11 @@ Verwenden Sie intelligente Betrugserkennung, um verdächtige Schadenmuster zu id
 
 ### Auswirkung auf den Betrieb
 
-Intelligente Programme zur Betrugsbekämpfung erreichen in der Regel eine 15- bis 25-prozentige Verbesserung der Aufdeckungsraten von Betrug, wodurch betrügerische Auszahlungen reduziert und die Gesamtkosten für Schadenersatzansprüche gesenkt werden.
+Mit intelligenten Programmen zur Betrugsbekämpfung werden die Aufdeckungsraten bei Betrug verbessert, betrügerische Auszahlungen reduziert und die Gesamtkosten für Schadenersatzansprüche gesenkt.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Betrugsrisiko-Bewertungsereignisse Trigger geeigneter Ermittlungsmitteilungen und Prozessanpassungen in Echtzeit, um sicherzustellen, dass gekennzeichnete Schadensfälle sofort bearbeitet werden.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Betrugsrisiko-Bewertungsereignisse Trigger geeigneter Ermittlungsmitteilungen und Prozessanpassungen in Echtzeit, um sicherzustellen, dass gekennzeichnete Schadensfälle sofort bearbeitet werden. Dies ist das richtige Muster, wenn ein vom System abgeleitetes Ereignis (Betrugsrisikobewertung) der Trigger ist und die erforderliche Maßnahme eine sofortige interne Prozessanpassung mit sorgfältiger Kundenkommunikation ist - und nicht ein mehrstufiges Journey- oder Entscheidungsszenario.
 
 ### Technische Überlegungen
 
@@ -200,18 +200,18 @@ Personalisieren Sie die Kommunikation zum Wellness-Programm, Teilnahmerinnerunge
 
 ### Auswirkung auf den Betrieb
 
-Personalisierte Mitteilungen über Wellness- und Präventionsprogramme führen in der Regel zu einer 30- bis 40-prozentigen Verbesserung der Teilnahmeraten an Programmen, was zu besseren gesundheitlichen Ergebnissen und einer reduzierten Schadenshäufigkeit beiträgt.
+Personalisierte Mitteilungen über Wellness- und Präventionsprogramme fördern die Teilnahme an Programmen, tragen zu besseren gesundheitlichen Ergebnissen bei und reduzieren die Schadenshäufigkeit.
 
 ### Implementieren
 
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Wellnessprogramme sind nachhaltige Interaktionserlebnisse mit Meilensteinen, Herausforderungen und Belohnungen, die eine adaptive Orchestrierung basierend auf der Aktivität und dem Fortschritt jedes Teilnehmers erfordern.
+Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Wellnessprogramme sind nachhaltige Interaktionserlebnisse mit Meilensteinen, Herausforderungen und Belohnungen, die eine adaptive Orchestrierung basierend auf der Aktivität und dem Fortschritt jedes Teilnehmers erfordern. Dies ist das richtige Muster, wenn der Anwendungsfall einen langfristigen, mehrfachen Nachrichtenfluss mit interaktionsbasierter Verzweigung und adaptiven Timing-Anpassungen erfordert - ereignisgesteuertes Messaging kann die komplexe Meilenstein-Logik nicht verarbeiten oder die Notwendigkeit, die Kommunikationskadenz auf der Grundlage von nachhaltigem Aktivitäts-Tracking anzupassen.
 
 ### Technische Überlegungen
 
 - Integration mit Daten-Feeds für Wearable-Geräte und Gesundheitsanwendungen mithilfe [!DNL Adobe Experience Platform] Streaming-Aufnahme, wobei klare Data Governance-Kennzeichnungen angewendet werden, um Wellness-Daten von Versicherungs- oder Schadensdaten zu unterscheiden.
 - Implementieren Sie separate Einverständnismechanismen für die Wellness-Datenerfassung, um sicherzustellen, dass die Teilnehmer verstehen, wie ihre Gesundheitsaktivitätsdaten verwendet werden, und sich abmelden können, ohne ihre Richtlinie zu beeinflussen.
 - Entwerfen Sie eine Journey-Logik, die die Programmintensität und die Kommunikationsfrequenz auf der Grundlage des Interaktionsniveaus jedes Teilnehmers anpasst, um Ermüdung zu vermeiden und anhaltende Teilnahme zu fördern.
-- Stellen Sie sicher, dass die Wellness-Incentive- und Belohnungsverfolgung den geltenden Versicherungsvorschriften für Versicherungsanreize und Prämienrabattprogramme entspricht.
+- Wenden Sie sich vor dem Start an Ihre Rechts- und Compliance-Teams, um die Strukturen der Wellness-Incentive-Programme und die Prämienrabatte auf die Einhaltung der geltenden staatlichen Versicherungsvorschriften zu überprüfen.
 
 
 ## Koordination von Agent und Broker
@@ -220,11 +220,11 @@ Personalisierte Kommunikation und Koordination zwischen Kunden und ihren zugewie
 
 ### Auswirkung auf den Betrieb
 
-Effektive Agent- und Broker-Koordinationskommunikation führt in der Regel zu einer 35- bis 45-prozentigen Verbesserung der Interaktion mit Agenten, was zu stärkeren Kundenbeziehungen und einer höheren Kundenbindung führt, die durch vertrauenswürdige Beratungsinteraktionen angetrieben wird.
+Effektive Agent- und Broker-Koordinationskommunikation führt zu einer verbesserten Agent-Interaktion, was zu stärkeren Kundenbeziehungen und einer höheren Kundenbindung führt, die durch vertrauenswürdige Beratungsinteraktionen angetrieben wird.
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Die Agentenkoordination wird am besten durch geplante Batch-Aktivierungen bereitgestellt, die Agenten regelmäßig mit priorisierten Kontaktlisten, Gesprächspunkten und empfohlenen Aktionen versorgen.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Die Agentenkoordination wird am besten durch geplante Batch-Aktivierungen bereitgestellt, die Agenten regelmäßig mit priorisierten Kontaktlisten, Gesprächspunkten und empfohlenen Aktionen versorgen. Dies ist das richtige Muster, wenn die Zielgruppe groß und vordefiniert ist, der Versandzeitpunkt auf wiederkehrender Basis geplant wird und nicht ereignisgesteuert ist und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -240,11 +240,11 @@ Proaktive Kommunikation mit Kunden in betroffenen Gebieten während Naturkatastr
 
 ### Auswirkung auf den Betrieb
 
-Proaktive Kommunikation über die Reaktion auf Katastrophenereignisse erzielt in der Regel eine Verbesserung der Kundenkommunikationsraten um 60 bis 70 Prozent bei Ereignissen, wodurch die Antragstellung erheblich beschleunigt und das langfristige Vertrauen und die Kundentreue gestärkt werden.
+Proaktive Kommunikation zur Reaktion auf Katastrophenereignisse verbessert die Kundenkommunikationsraten bei Ereignissen, beschleunigt die Einreichung von Anträgen und stärkt das langfristige Vertrauen und die Loyalität der Kunden.
 
 ### Implementieren
 
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Katastrophenereignis-Deklarationen dienen als hochprioritäre Trigger für eine sofortige, personalisierte Kontaktaufnahme zu allen Versicherungsnehmern im betroffenen geografischen Gebiet.
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Katastrophenereignis-Deklarationen dienen als hochprioritäre Trigger für eine sofortige, personalisierte Kontaktaufnahme zu allen Versicherungsnehmern im betroffenen geografischen Gebiet. Dies ist das richtige Muster, wenn der Trigger ein externes Ereignis mit hoher Priorität ist und die erforderliche Reaktion eine sofortige, umfassende geografische Reichweite mit zeitkritischen Informationen ist - und nicht etwa individuelle Kundenverhaltensmuster oder eine komplexe Sequenzierung.
 
 ### Technische Überlegungen
 
@@ -252,3 +252,23 @@ Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-pa
 - Erstellen Sie geografische Zielgruppensegmente mithilfe von Adressdaten des Versicherungsnehmers und Standortinformationen der Immobilien, um Kunden im betroffenen Bereich genau zu identifizieren, ohne zu stark mit nicht betroffenen Kunden zu kommunizieren.
 - Konfigurieren Sie ein Routing für Nachrichten mit hoher Priorität, bei dem die standardmäßigen Frequenzlimitierungs- und Unterdrückungsregeln außer Kraft gesetzt werden, um sicherzustellen, dass wichtige Sicherheits- und Schadensinformationen Kunden sofort erreichen.
 - Erstellen Sie Nachrichtenvorlagen und Journey-Konfigurationen für gängige Katastrophenereignistypen vorab, damit die Kommunikation innerhalb von Stunden nach einer Ereignisdeklaration aktiviert werden kann, anstatt die Erstellung von Inhalten während der Krise zu erfordern.
+
+
+## Personalization für Policeninhaber-Portal
+
+Personalisieren Sie das authentifizierte Self-Service-Portal und die Mobile App für Versicherungsnehmer, indem Sie die relevantesten Informationen, Tools und Ressourcen basierend auf ihrem Browsing-Verhalten, ihrem Policy-Portfolio und den letzten Service-Interaktionen aufdecken. Ein Portal, das sich an den aktuellen Kontext jedes Versicherungsnehmers anpasst, reduziert Reibungen und erleichtert es den Kunden, das zu finden, was sie brauchen, wenn sie es brauchen.
+
+### Auswirkung auf den Betrieb
+
+Durch die Personalisierung des Portals für Versicherungsnehmer werden messbare Verbesserungen bei der Erfüllung von Selbstbedienungsaufgaben und der digitalen Interaktion erzielt, das Volumen der eingehenden Kontaktzentren verringert und die Kundenzufriedenheit mit dem digitalen Kanal erhöht.
+
+### Implementieren
+
+Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)). Verhaltenssignale aus authentifizierten Portal-Sitzungen - Nutzung des Abdeckungsrechners, Ansichten von Richtliniendokumenten, Statusprüfungen von Ansprüchen und Interaktion mit häufig gestellten Themen - trainieren ein Empfehlungsmodell, das dynamisch die relevantesten Inhalte und Tools für den aktuellen Kontext jedes Versicherungsnehmers aufzeigt. Dies ist das richtige Muster, wenn die Personalisierung durch implizite Verhaltenssignale innerhalb einer authentifizierten Sitzung gesteuert wird und das Ziel die Rangfolge der Relevanz eines Inhalts oder Ressourcenkatalogs ist - anstelle von Offer Decisioning, das eine geregelte Eignung und versicherungsmathematische Genehmigung erfordert, bevor ein Produktangebot unterbreitet wird, oder Cross-Channel with Decisioning, das bei der Koordinierung eines Produktangebots über mehrere Kanäle hinweg besser geeignet ist.
+
+### Technische Überlegungen
+
+- Wenden Sie Data Governance-Kennzeichnungen auf Verhaltenssignale an, die im Portal für Versicherungsnehmer erfasst werden, um die Interaktionsanalyse von den regulierten Versicherungsdaten zu unterscheiden, und beschränken Sie alle Signale aus dem Schadenverlauf, die ohne explizite versicherungsmathematische und Compliance-Prüfung in Personalisierungsmodelle fließen.
+- Integrieren Sie das Verhaltensmodell in das Policy-Management-System, um sicherzustellen, dass die Inhalts- und Tool-Empfehlungen das aktive Policy-Portfolio jedes Versicherungsnehmers widerspiegeln, d. h. Tools zur automatischen Abdeckung für Kfz-Versicherungsnehmer und Immobilienressourcen für Hauseigentümer, ohne dem Empfehlungsmodell über die Klassifizierung der Produktlinie hinaus rohe Policy-Daten zur Verfügung zu stellen.
+- Implementieren Sie landesspezifische Compliance-Kontrollen, um sicherzustellen, dass die Verhaltenspersonalisierung keine Versicherungs- oder Marketing-Empfehlung gemäß den geltenden staatlichen Vorschriften darstellt, insbesondere wenn Verhaltenssignale eine Erkennung von Abdeckungslücken implizieren könnten.
+- Koordinieren Sie die Portalpersonalisierungssignale mit dem Agentenportal, damit Agenten für Versicherungsnehmer, die ein ausgeprägtes Selbstbedienungs-Forschungsverhalten gezeigt haben, neben der Servicegeschichte auch einen konsolidierten Überblick über das digitale Engagement des Kunden erhalten.

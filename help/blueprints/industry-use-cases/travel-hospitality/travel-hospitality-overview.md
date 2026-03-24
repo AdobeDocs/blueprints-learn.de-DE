@@ -164,7 +164,7 @@ Mit Exitintent-Modalen mit personalisierten Reiseangeboten werden aussagekräfti
 
 ### Implementieren
 
-Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl die Eignung für die Treuestufe und geschäftliche Einschränkungen im Zusammenhang mit der Frequenzlimitierung berücksichtigt werden müssen - Einschränkungen, für die eine gesteuerte Entscheidungslogik anstelle einer einfachen Verhaltensempfehlung oder einer einzelnen ausgelösten Nachricht erforderlich ist.
+Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl die Eignung für die Treuestufe und geschäftliche Einschränkungen im Zusammenhang mit der Frequenzlimitierung berücksichtigt werden müssen - Einschränkungen, für die eine gesteuerte Entscheidungslogik anstelle einer einfachen Verhaltensempfehlung oder einer einzelnen ausgelösten Nachricht erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -224,7 +224,7 @@ Saisonale personalisierte Kampagnen steigern die saisonale Buchungsumrechnung un
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden. Dies ist das richtige Muster, wenn die Zielgruppe groß ist und durch den saisonalen Buchungsverlauf vordefiniert, der Versandzeitpunkt auf der Grundlage saisonaler Planungsfenster und nicht ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden. Dies ist das richtige Muster, wenn die Zielgruppe groß ist und durch den saisonalen Buchungsverlauf vordefiniert, der Versandzeitpunkt auf der Grundlage saisonaler Planungsfenster und nicht ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 

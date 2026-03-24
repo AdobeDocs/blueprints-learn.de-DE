@@ -224,7 +224,7 @@ Personalisierte Premium-Upsell-Kampagnen steigern die Akzeptanz von Premium-Funk
 
 ### Implementieren
 
-Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um die Nutzungsmuster jedes Abonnenten zu bewerten und das relevanteste Premium-Angebot zum richtigen Zeitpunkt auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Einschränkungen für Nutzungsmuster und Eignungsregeln der Premium-Ebene berücksichtigt werden müssen - Einschränkungen, für die eine geregelte Entscheidungslogik erforderlich ist, anstatt nur das Ranking der Affinität mit dem Verhalten zu berücksichtigen.
+Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um die Nutzungsmuster jedes Abonnenten zu bewerten und das relevanteste Premium-Angebot zum richtigen Zeitpunkt auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Einschränkungen für Nutzungsmuster und Eignungsregeln der Premium-Ebene berücksichtigt werden müssen - Einschränkungen, für die eine geregelte Entscheidungslogik erforderlich ist, anstatt nur das Ranking der Affinität mit dem Verhalten zu berücksichtigen.
 
 ### Technische Überlegungen
 

@@ -38,7 +38,7 @@ Passen Sie Inhalte, Angebote und Nachrichten an individuelle Voreinstellungen, V
 
 ### Website-Interaktion steigern
 
-Verbesserung der Besuchszeit auf der Site, der Seiten pro Sitzung und der Interaktion mit Web-Inhalten durch relevante Erlebnisse. Weitere Informationen finden Sie unter [Website-Interaktion ](../../business-objectives/acquisition-growth/increase-website-engagement.md).
+Verbesserung der Besuchszeit auf der Site, der Seiten pro Sitzung und der Interaktion mit Web-Inhalten durch relevante Erlebnisse. Weitere Informationen finden Sie unter [Website-Interaktion &#x200B;](../../business-objectives/acquisition-growth/increase-website-engagement.md).
 
 **KPIs:** Besuchszeit pro Seite (Web), Interaktion, Konversionsraten
 
@@ -90,9 +90,9 @@ Stellen Sie einem identifizierten Besucher auf der Grundlage von Echtzeit-Profil
 
 Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** - Web-Kanalkonfiguration, In-App-Kanalkonfiguration, Konfiguration des Inhaltskarten-Kanals, Entscheidungsfindung (Angebotsauswahl und Rangfolge), Nachrichtenbearbeitung (Erstellung personalisierter Inhalte), Kampagnenausführung, Inhaltsexperimentierung und Reporting
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - Zielgruppenbewertung (Edge, Streaming und Batch), Echtzeit-Profilsuche über Edge Network, Profilanreicherung mit berechneten Attributen und Tendenzwerten
-- **[!DNL Adobe Experience Platform](AEP)** - Profilspeicher, Identity Service, Web SDK, Mobile SDK, Datenstromkonfiguration, Edge Network-Bereitstellung
+- **[!DNL Adobe Journey Optimizer] (AJO)** - Web-Kanalkonfiguration, In-App-Kanalkonfiguration, Konfiguration des Inhaltskarten-Kanals, Entscheidungsfindung (Angebotsauswahl und Rangfolge), Nachrichtenbearbeitung (Erstellung personalisierter Inhalte), Kampagnenausführung, Inhaltsexperimentierung und Reporting
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - Zielgruppenbewertung (Edge, Streaming und Batch), Echtzeit-Profilsuche über Edge Network, Profilanreicherung mit berechneten Attributen und Tendenzwerten
+- **[!DNL Adobe Experience Platform] (AEP)** - Profilspeicher, Identity Service, Web SDK, Mobile SDK, Datenstromkonfiguration, Edge Network-Bereitstellung
 
 ## Grundlegende Funktionen
 

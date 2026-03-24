@@ -67,7 +67,7 @@ Proaktive Präventionsarbeit führt zu besseren Abschlussraten in der Präventiv
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Erinnerungen zur Vorsorge werden am besten über geplante Batch-Kampagnen bereitgestellt, die die Eignung des Patienten regelmäßig anhand klinischer Richtlinien bewerten. Dies ist das richtige Muster, wenn die Zielgruppe durch klinische Richtlinienkriterien vordefiniert ist, der Bereitstellungszeitpunkt eher in einem regelmäßigen Rhythmus als ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Erinnerungen zur Vorsorge werden am besten über geplante Batch-Kampagnen bereitgestellt, die die Eignung des Patienten regelmäßig anhand klinischer Richtlinien bewerten. Dies ist das richtige Muster, wenn die Zielgruppe durch klinische Richtlinienkriterien vordefiniert ist, der Bereitstellungszeitpunkt eher in einem regelmäßigen Rhythmus als ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 

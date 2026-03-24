@@ -44,7 +44,7 @@ Personalisierte Crosssell-Empfehlungen steigern die Crosssell-Konversionsraten, 
 
 ### Implementieren
 
-Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Die Echtzeit-Entscheidungsfindung bewertet die vorhandene Abdeckung, das Lebensstadium und die Verhaltenssignale jedes Kunden, um die relevanteste Produktempfehlung aus dem verfügbaren Katalog auszuwählen. Dies ist das richtige Muster, wenn die Produktauswahl Eignungsregeln, Underwriting-Richtlinien und regulatorische Eignungsanforderungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der Verhaltensauffinität zu erstellen.
+Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Die Echtzeit-Entscheidungsfindung bewertet die vorhandene Abdeckung, das Lebensstadium und die Verhaltenssignale jedes Kunden, um die relevanteste Produktempfehlung aus dem verfügbaren Katalog auszuwählen. Dies ist das richtige Muster, wenn die Produktauswahl Eignungsregeln, Underwriting-Richtlinien und regulatorische Eignungsanforderungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der Verhaltensauffinität zu erstellen.
 
 ### Technische Überlegungen
 
@@ -164,7 +164,7 @@ Personalisierte Rabatt- und Sparkommunikation sorgt für eine bessere Rabattnutz
 
 ### Implementieren
 
-Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Die Echtzeit-Entscheidungsfindung bewertet die Berechtigung jedes Kunden für verfügbare Rabatte und wählt die wirkungsvollste Sparmöglichkeit aus, die er zum richtigen Zeitpunkt bieten kann. Dies ist das richtige Muster, wenn die Rabattauswahl Stackingbeschränkungen, regulatorische Einschränkungen und genaue versicherungsmathematische Berechnungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur einfache Eignungsprüfungen durchzuführen.
+Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Die Echtzeit-Entscheidungsfindung bewertet die Berechtigung jedes Kunden für verfügbare Rabatte und wählt die wirkungsvollste Sparmöglichkeit aus, die er zum richtigen Zeitpunkt bieten kann. Dies ist das richtige Muster, wenn die Rabattauswahl Stackingbeschränkungen, regulatorische Einschränkungen und genaue versicherungsmathematische Berechnungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur einfache Eignungsprüfungen durchzuführen.
 
 ### Technische Überlegungen
 
@@ -224,7 +224,7 @@ Effektive Agent- und Broker-Koordinationskommunikation führt zu einer verbesser
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Die Agentenkoordination wird am besten durch geplante Batch-Aktivierungen bereitgestellt, die Agenten regelmäßig mit priorisierten Kontaktlisten, Gesprächspunkten und empfohlenen Aktionen versorgen. Dies ist das richtige Muster, wenn die Zielgruppe groß und vordefiniert ist, der Versandzeitpunkt auf wiederkehrender Basis geplant wird und nicht ereignisgesteuert ist und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Die Agentenkoordination wird am besten durch geplante Batch-Aktivierungen bereitgestellt, die Agenten regelmäßig mit priorisierten Kontaktlisten, Gesprächspunkten und empfohlenen Aktionen versorgen. Dies ist das richtige Muster, wenn die Zielgruppe groß und vordefiniert ist, der Versandzeitpunkt auf wiederkehrender Basis geplant wird und nicht ereignisgesteuert ist und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 

@@ -106,9 +106,9 @@ Achten Sie auf ein Echtzeit-Verhaltens- oder Systemereignis und senden Sie dann 
 
 Die folgenden Adobe-Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** - Journey-Orchestrierung mit unitärer Ereigniseingabe, Bedingungsauswertung, Warteschritten, Nachrichtenbearbeitung, Kanalkonfiguration, Frequenzverwaltung und Versandberichten
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - Zielgruppenbewertung für bedingungsbasierte Filterung innerhalb von Journeys, Durchsetzung von Einverständnis und Governance, Profilanreicherung
-- **[!DNL Adobe Experience Platform](AEP)** - Echtzeit-Ereignisaufnahme über Web SDK, Mobile SDK oder Server-seitige API; Datenmodellierung; Identitätsauflösung; Edge Network
+- **[!DNL Adobe Journey Optimizer] (AJO)** - Journey-Orchestrierung mit unitärer Ereigniseingabe, Bedingungsauswertung, Warteschritten, Nachrichtenbearbeitung, Kanalkonfiguration, Frequenzverwaltung und Versandberichten
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - Zielgruppenbewertung für bedingungsbasierte Filterung innerhalb von Journeys, Durchsetzung von Einverständnis und Governance, Profilanreicherung
+- **[!DNL Adobe Experience Platform] (AEP)** - Echtzeit-Ereignisaufnahme über Web SDK, Mobile SDK oder Server-seitige API; Datenmodellierung; Identitätsauflösung; Edge Network
 
 ## Grundlegende Funktionen
 
@@ -673,7 +673,7 @@ Dieser Abschnitt enthält Informationen zu Leitplanken, allgemeinen Fallstricken
 Die folgenden Leitplanken und Einschränkungen gelten für Implementierungen von ereignisausgelöstem Messaging.
 
 - **Durchsatz von unitären Ereignissen:** Maximal 5.000 Journey pro Sekunde für unitäre Ereignisse - [Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- **Limit für Live-Journey:** Maximal 500 Live-Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)[
+- **Limit für Live-Journey:** Maximal 500 Live-Journey[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - **Journey-Arbeitsfläche Limit:** Maximal 50 Aktivitäten pro Journey-Arbeitsfläche
 - **Journey-Zeitüberschreitung:** Die maximale Journey-Dauer beträgt 91 Tage (globales Zeitlimit)
 - **Abklingzeit für erneuten Eintritt:** Mindestabklingzeit für erneuten Eintritt beträgt 5 Minuten.

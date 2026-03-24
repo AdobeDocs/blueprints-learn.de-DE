@@ -84,9 +84,9 @@ Im Abschnitt [Implementierungsoptionen](#implementation-options) finden Sie Info
 
 Die folgenden Adobe-Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** - Entscheidungs-Management-Engine für die Angebotserstellung, Eignungsregeln, Ranking-Strategien, Platzierungen und Entscheidungsrichtlinien; Kanalkonfiguration und Nachrichtenbearbeitung für den Versand von Angeboten; Kampagnen und Journey-Ausführung
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - Zielgruppenbewertung für Angebotseignungssegmente; Profildaten und berechnete Attribute, die in Eignung und Ranking verwendet werden
-- **[!DNL Adobe Experience Platform](AEP)** - Einheitlicher Profilspeicher, Identitätsauflösung und Data Foundation, die sowohl AJO als auch RT-CDP unterstützen
+- **[!DNL Adobe Journey Optimizer] (AJO)** - Entscheidungs-Management-Engine für die Angebotserstellung, Eignungsregeln, Ranking-Strategien, Platzierungen und Entscheidungsrichtlinien; Kanalkonfiguration und Nachrichtenbearbeitung für den Versand von Angeboten; Kampagnen und Journey-Ausführung
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - Zielgruppenbewertung für Angebotseignungssegmente; Profildaten und berechnete Attribute, die in Eignung und Ranking verwendet werden
+- **[!DNL Adobe Experience Platform] (AEP)** - Einheitlicher Profilspeicher, Identitätsauflösung und Data Foundation, die sowohl AJO als auch RT-CDP unterstützen
 
 ## Grundlegende Funktionen
 

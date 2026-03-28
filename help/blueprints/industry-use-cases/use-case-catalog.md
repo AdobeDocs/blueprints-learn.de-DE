@@ -12,7 +12,7 @@ ht-degree: 32%
 
 # Anwendungsfallkatalog
 
-Anwendungsfälle aus der Branche zeigen, wie Unternehmen in bestimmten Branchen Adobe Experience Platform und Anwendungen einsetzen, um messbare Geschäftsergebnisse zu erzielen. Jeder Anwendungsfall beschreibt ein konkretes Geschäftsszenario, dessen erwartete Auswirkungen und Links zum Anwendungsfallmuster[ das ](/help/blueprints/use-case-patterns/overview.md) Implementierungshandbücher bietet.
+Anwendungsfälle aus der Branche zeigen, wie Unternehmen in bestimmten Branchen Adobe Experience Platform und Anwendungen einsetzen, um messbare Geschäftsergebnisse zu erzielen. Jeder Anwendungsfall beschreibt ein konkretes Geschäftsszenario, dessen erwartete Auswirkungen und Links zum Anwendungsfallmuster[&#x200B; das &#x200B;](/help/blueprints/use-case-patterns/overview.md) Implementierungshandbücher bietet.
 
 Durchsuchen Sie die nach Branchen geordneten Seiten, um Anwendungsfälle zu finden, die für Ihr Unternehmen relevant sind, und folgen Sie dann den Muster-Links für Implementierungsreferenzen, einschließlich Entscheidungshilfen, Funktionsketten und Experience League-Dokumentation.
 

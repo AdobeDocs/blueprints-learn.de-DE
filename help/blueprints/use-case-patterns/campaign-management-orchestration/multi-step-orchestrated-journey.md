@@ -111,7 +111,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 | Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit Berechtigungen zum Erstellen und Veröffentlichen von Journey. Kanaloberflächen für alle auf der Journey verwendeten Kanäle müssen konfiguriert werden. Benutzende müssen über die entsprechenden Rollen (Marketing-Experten, Journey-Manager) mit Journey- und Kampagnenberechtigungen verfügen. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit Berechtigungen zum Erstellen und Veröffentlichen von Journey. Kanaloberflächen für alle auf der Journey verwendeten Kanäle müssen konfiguriert werden. Benutzende müssen über die entsprechenden Rollen (Marketing-Experten, Journey-Manager) mit Journey- und Kampagnenberechtigungen verfügen. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | XDM-Profilschema mit Attributen, die für die Bedingungsverzweigung und Personalisierung über mehrere Nachrichten hinweg verwendet werden (z. B. Treuestufe, Produktzweck, Interaktionswert). Erlebnisereignis-Schemata für Konversionsereignisse, die die Ausstiegskriterien und die Auswertung von Bedingungen steuern (z. B. Kaufereignisse, Formularübermittlungen). | [XDM-Systemübersicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
 | Datenquellen und Sammlung | Angenommen an Ort und Stelle | Ereignis-Streaming muss aktiv sein, wenn die Beendigungskriterien oder -bedingungen von Echtzeit-Ereignissen abhängen (z. B. Kaufereignis zum Beenden des Journey). Batch-Aufnahme für Profilattribute, die in der Verzweigung verwendet werden. Web SDK oder Server-seitige API für die Erfassung verhaltensbezogener Ereignisse. | [Streaming-Aufnahme - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview), [Quellen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | Identitäts- und Profilkonfiguration | Angenommen an Ort und Stelle | Profile müssen über alle in der Journey verwendeten Kanäle (E-Mail, SMS, Push) aufgelöst werden können. Geräteübergreifende Identitäten müssen konfiguriert werden, wenn die Journey Web- und Mobile-Touchpoints umfasst. Die Zusammenführungsrichtlinie muss für die Sandbox konfiguriert werden. | [Identity Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
@@ -125,8 +125,8 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie Interaktionswerte, Tage seit der letzten Aktivität oder der Lebenszeitkaufwert verbessern die Logik der Bedingungsverzweigung und ermöglichen intelligentere Journey-Pfadentscheidungen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Die Aufbewahrung von Journey-Ereignisdaten sollte mit Datensatz-Ablaufrichtlinien konfiguriert werden, um den Speicher zu verwalten und die Vorschriften zur Datenaufbewahrung einzuhalten. Durch die Durchsetzung des Einverständnisses wird sichergestellt, dass nur angemeldete Profile Nachrichten an jedem Kanal-Touchpoint erhalten. | [Erweiterte Übersicht über das Data Lifecycle Management](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Datensatzgültigkeiten](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen stellen eine konforme Personalisierung über mehrere Nachrichten-Touchpoints hinweg sicher. Dies ist besonders wichtig, wenn Journey personenbezogene Daten oder vertrauliche Daten für die kanalübergreifende Personalisierung verwenden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Übersicht über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview) |
-| Überwachung und Beobachtbarkeit | Eingeschlossen | Warnhinweise zur Journey-Ausführungsüberwachung bei Verarbeitungsfehlern, Engpässen bei der Profileingabe und Versandproblemen. Wesentlich für Produktions-Journey, bei denen Verzögerungen oder Ausfälle das Kundenerlebnis beeinträchtigen. | [Warnhinweise - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Observability Insights - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen stellen eine konforme Personalisierung über mehrere Nachrichten-Touchpoints hinweg sicher. Dies ist besonders wichtig, wenn Journey personenbezogene Daten oder vertrauliche Daten für die kanalübergreifende Personalisierung verwenden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home), [Übersicht über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview) |
+| Überwachung und Beobachtbarkeit | Eingeschlossen | Warnhinweise zur Journey-Ausführungsüberwachung bei Verarbeitungsfehlern, Engpässen bei der Profileingabe und Versandproblemen. Wesentlich für Produktions-Journey, bei denen Verzögerungen oder Ausfälle das Kundenerlebnis beeinträchtigen. | [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview), [Observability Insights - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting und Analyse | Eingeschlossen | CJA funnel und Fallout-Analysen auf der gesamten Journey bieten eine tiefere insight als native AJO-Berichte allein. Ermöglicht die schrittweise Konversionsanalyse, den Kohortenvergleich und die Journey-Optimierung. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Übersicht über Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
 
 ## Anwendungsfunktionen
@@ -276,7 +276,7 @@ Cross-Channel-Journey benötigen Kanaloberflächen für jeden verwendeten Kanal 
 
 **Experience League:**
 
-- [SMS-Kanal konfigurieren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [SMS-Kanal konfigurieren](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Konfigurieren des Push-Benachrichtigungskanals](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 
 ### Vergleich von Optionen
@@ -373,9 +373,9 @@ Konfigurieren Sie Kanaloberflächen für jeden auf der Journey verwendeten Kanal
 
 #### Dokumentation zu Experience League
 
-- [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [Erste Schritte mit der E-Mail-Konfiguration](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [SMS-Kanal konfigurieren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Erste Schritte mit der E-Mail-Konfiguration](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [SMS-Kanal konfigurieren](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Konfigurieren des Push-Benachrichtigungskanals](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 - [IP-Aufwärmpläne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
 - [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
@@ -443,7 +443,7 @@ Sollten freigegebene Inhaltsblöcke (Kopfzeilen, Fußzeilen, Rechtstext) als wie
 - [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
 - [Erstellen einer SMS-Nachricht](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/create-sms)
 - [Gestalten einer Push-Benachrichtigung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/design-push)
-- [Anzeigen einer Vorschau und Testen der Inhalte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Anzeigen einer Vorschau und Testen der Inhalte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 
 ### Phase 3: Journey entwerfen und aktivieren
@@ -559,7 +559,7 @@ Wie lange kann ein Profil maximal auf der Journey bleiben?
 #### Dokumentation zu Experience League
 
 - [Erstellen einer Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [Journey-Eigenschaften](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [Journey-Eigenschaften](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Aktivität „Zielgruppe lesen“](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [Allgemeine Ereignisse](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Zielgruppen-Qualifizierungsereignisse](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
@@ -685,7 +685,7 @@ Welche Journey-Fehler sollten Trigger-Warnhinweise anzeigen?
 - [Journey-Live-Bericht](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [Globaler Journey-Bericht](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Arbeiten mit Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview)
 - [Übersicht über Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
 - [Handbuch zur Integration von AJO und CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
@@ -775,7 +775,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in dieser Implementi
 
 - [Erste Schritte mit Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Erstellen einer Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [Journey-Eigenschaften](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [Journey-Eigenschaften](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Journey veröffentlichen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 - [Journeys testen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 
@@ -797,12 +797,12 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in dieser Implementi
 
 ### Kanalkonfiguration
 
-- [Erste Schritte mit der E-Mail-Konfiguration](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Erste Schritte mit der E-Mail-Konfiguration](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
 - [Delegieren von Subdomains](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [Erstellen von IP-Pools](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [IP-Aufwärmpläne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [SMS-Kanal konfigurieren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [SMS-Kanal konfigurieren](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Konfigurieren des Push-Benachrichtigungskanals](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 
 ### Verfassen und Personalisieren von Nachrichten
@@ -816,7 +816,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in dieser Implementi
 - [Dynamische Inhalte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 - [Arbeiten mit Inhaltsvorlagen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [Anzeigen einer Vorschau und Testen der Inhalte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Anzeigen einer Vorschau und Testen der Inhalte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 ### Inhaltsexperiment
 
@@ -854,7 +854,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in dieser Implementi
 ### Einverständnis und Governance
 
 - [Einverständnis in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
-- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home)
 - [Verwalten der Unterdrückungsliste](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### Datengrundlage

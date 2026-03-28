@@ -3,9 +3,9 @@ title: Anwendungsfälle für Reisen und Gastgewerbe
 description: Erfahren Sie, wie Reise- und Gastgewerbeunternehmen Adobe Experience Platform verwenden, um Buchungen zu personalisieren, abgebrochene Reservierungen wiederherzustellen und die Kundentreue der Gäste zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3648'
+source-wordcount: '4015'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ Mit Exitintent-Modalen mit personalisierten Reiseangeboten werden aussagekräfti
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl die Eignung für die Treuestufe und geschäftliche Einschränkungen im Zusammenhang mit der Frequenzlimitierung berücksichtigt werden müssen - Einschränkungen, für die eine gesteuerte Entscheidungslogik anstelle einer einfachen Verhaltensempfehlung oder einer einzelnen ausgelösten Nachricht erforderlich ist.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl die Eignung für die Treuestufe und geschäftliche Einschränkungen im Zusammenhang mit der Frequenzlimitierung berücksichtigt werden müssen - Einschränkungen, für die eine gesteuerte Entscheidungslogik anstelle einer einfachen Verhaltensempfehlung oder einer einzelnen ausgelösten Nachricht erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -224,7 +224,7 @@ Saisonale personalisierte Kampagnen steigern die saisonale Buchungsumrechnung un
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden. Dies ist das richtige Muster, wenn die Zielgruppe groß ist und durch den saisonalen Buchungsverlauf vordefiniert, der Versandzeitpunkt auf der Grundlage saisonaler Planungsfenster und nicht ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden. Dies ist das richtige Muster, wenn die Zielgruppe groß ist und durch den saisonalen Buchungsverlauf vordefiniert, der Versandzeitpunkt auf der Grundlage saisonaler Planungsfenster und nicht ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -272,3 +272,40 @@ Verwenden Sie das [Brand Concierge Conversational Experience](/help/blueprints/u
 - Bei der Echtzeit-Kundenprofilsuche muss die Treuestufe, der Aufenthaltsverlauf und die angegebenen Voreinstellungen angezeigt werden, damit der Agent den Status des Gasts proaktiv bestätigen und die Empfehlungen anpassen kann, ohne dass der Gast seine Voreinstellungen bei jedem Besuch erneut erklären muss.
 - Die Markenverwaltung muss definieren, wie der Agent Anfragen zu Tarifvergleichen, Referenzen von Mitbewerbern und Situationen handhabt, in denen die bevorzugten Daten oder der Zimmertyp des Gastes nicht verfügbar sind, um sicherzustellen, dass der Agent innerhalb der Markensprache ordnungsgemäß reagiert, anstatt eine Sackgasse zu präsentieren.
 - Signale für eine Gesprächsabsicht - einschließlich Zielinteresse, Zusammensetzung von Reiseparteien und während des Dialogs geäußerte zusätzliche Voreinstellungen - müssen als ExperienceEvent-Daten an AEP zurückfließen und Gastprofile anreichern, um nachgelagerte E-Mail-, Treue- und Rückgewinnungskampagnen zu informieren.
+
+## Geburtstagskampagnen für Gäste
+
+Sprechen Sie Ihre Gäste an ihrem Geburtstag mit einer persönlichen Geburtstagsnachricht und einem exklusiven Angebot an. Geburtstagskampagnen stärken Gastbeziehungen, indem sie einen persönlichen Meilenstein anerkennen und eine feierliche Buchung oder einen Besuch anregen.
+
+### Auswirkung auf den Betrieb
+
+Geburtstagsnachrichten schaffen einen emotionalen Touchpoint, der die Marke unterscheidet und zu inkrementellen Buchungen führt, da Gäste bei der Präsentation eines überzeugenden, personalisierten Angebots eher einen Kurzurlaub oder ein Restauranterlebnis rund um ihren Geburtstag planen.
+
+### Implementieren
+
+Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um eine personalisierte Geburtstagsnachricht und ein personalisiertes Angebot zu senden, wenn das Geburtstagsdatum des Gastes eintrifft. Dies ist das richtige Muster, wenn eine einzelne ereignisgesteuerte Nachricht auf der Grundlage eines Datums-Triggers des Profilattributs gesendet wird.
+
+### Technische Überlegungen
+
+- Das Geburtstagsdatum muss im Gastprofil erfasst und validiert werden, um zu verhindern, dass Nachrichten an falsche Daten gesendet werden.
+- Angebote sollten ein definiertes Gültigkeitsfenster haben (z. B. den Geburtstagsmonat), um den Gästen ausreichend Zeit zu geben, einen Aufenthalt oder ein Erlebnis zu planen und zu buchen.
+- Gäste ohne hinterlegte Geburtstagsdaten sollten von der Kampagne ausgeschlossen und nicht an eine allgemeine Nachricht gesendet werden.
+- Bei der Personalisierung des Angebots sollten frühere Buchungsvorlieben (Ziel, Immobilientyp, Zimmerkategorie) berücksichtigt werden, um relevante Vorschläge zu unterbreiten.
+
+## Kampagnen zur Zielweiterleitung
+
+Targeting von Gästen, um eine Reservierung während einer laufenden Reisezielaktion zu machen. Destination Promotions fördern Buchungen, indem sie Reisende mit zeitnahen Angeboten für beworbene Ziele verbinden, die auf ihre Interessen abgestimmt sind.
+
+### Auswirkung auf den Betrieb
+
+Gezielte Zielangebote verbessern die Buchungsumrechnung, indem sie Reisende erreichen, die aufgrund früherer Reisegeschichten und erklärter Präferenzen am wahrscheinlichsten daran interessiert sind, und so die Werbeverschwendung reduzieren und den Kampagnen-ROI verbessern.
+
+### Implementieren
+
+Verwenden Sie das [Batch-Aktivierung ausgehender Nachrichten](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) um während aktiver Zielkampagnenfenster Werbenachrichten an qualifizierte Zielgruppensegmente zu senden. Dies ist das richtige Muster, wenn ein geplanter Batch personalisierter Werbenachrichten während einer zeitgebundenen Kampagne eine definierte Zielgruppe erreichen muss.
+
+### Technische Überlegungen
+
+- Start- und Enddatum der Promotion müssen verwaltet werden, um sicherzustellen, dass Nachrichten nur während des aktiven Promotion-Fensters gesendet werden.
+- Bei der Zielgruppensegmentierung sollten der bisherige Buchungsverlauf, das Browser-Verhalten und die Zielaffinität genutzt werden, um Gäste anzusprechen, die mit größter Wahrscheinlichkeit mit dem beworbenen Ziel interagieren.
+- Gäste, die bereits für das beworbene Ziel und die Reisedaten gebucht haben, sollten von Akquisemeldungen ausgeschlossen werden.

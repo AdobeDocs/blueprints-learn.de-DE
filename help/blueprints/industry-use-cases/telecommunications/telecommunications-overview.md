@@ -3,9 +3,9 @@ title: Telekommunikations-Anwendungsfälle
 description: Erfahren Sie, wie Telekommunikationsunternehmen Adobe Experience Platform nutzen, um Abwanderung zu reduzieren, Geräte-Upgrades zu fördern und die Kundeninteraktion zu verbessern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3533'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Personalisierte Erinnerungen zu Rechnungszahlungen verbessern die pünktlichen Z
 
 ### Implementieren
 
-Verwenden Sie [&#x200B; Muster „Ereignisgesteuertes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md), um Erinnerungen zu optimalen Zeiten vor dem Fälligkeitsdatum zu senden, die mit dem Kontostand des Abonnenten, der bevorzugten Zahlungsmethode und einem direkten Link personalisiert sind, um die Zahlung abzuschließen. Dies ist das richtige Muster, wenn der Trigger ein zeitbasiertes Systemereignis (Fälligkeitsdatum der Abrechnung) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und transaktional erfolgt und keine mehrstufige Interaktionssequenz ist.
+Verwenden Sie [ Muster „Ereignisgesteuertes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md), um Erinnerungen zu optimalen Zeiten vor dem Fälligkeitsdatum zu senden, die mit dem Kontostand des Abonnenten, der bevorzugten Zahlungsmethode und einem direkten Link personalisiert sind, um die Zahlung abzuschließen. Dies ist das richtige Muster, wenn der Trigger ein zeitbasiertes Systemereignis (Fälligkeitsdatum der Abrechnung) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und transaktional erfolgt und keine mehrstufige Interaktionssequenz ist.
 
 ### Technische Überlegungen
 
@@ -232,26 +232,6 @@ Verwenden Sie das [Web-/App-Personalization für bekannte Besucher](/help/bluepr
 - Schließen Sie Gerätediagnosedaten an, um maßgeschneiderte Empfehlungen zur Fehlerbehebung auf der Grundlage des spezifischen Gerätemodells und der Softwareversion des Abonnenten anzubieten.
 - Verwenden Sie [!DNL Adobe Experience Platform] Edge-Services, um Personalisierung mit niedriger Latenz innerhalb des App-Erlebnisses bereitzustellen, ohne die Leistung zu beeinträchtigen.
 - Implementieren Sie Feedback-Schleifen, damit Abonnentinnen und Abonnenten Probleme mit der Abdeckung melden können, wobei die Netzwerkdaten angereichert werden und gleichzeitig Reaktionen auf ihr Erlebnis gezeigt werden.
-
-
-## Interaktion mit Treueprogrammen
-
-Personalisieren Sie die Kommunikation, Prämien und Angebote im Rahmen des Treueprogramms auf der Grundlage der Stufe, des Punktesaldos und des Einlösungsverlaufs des Kunden und entscheiden Sie in Echtzeit über App-, Web-, SMS- und Einzelhandelsspeicherkanäle hinweg, um zu verhindern, dass doppelte oder widersprüchliche Angebote denselben Abonnenten erreichen. Stufenbasierte Eignungsbegrenzungen bestimmen, auf welche Belohnungen, Partnereinlösungen und Promotions jeder Abonnent zugreifen kann. Diese Regeln müssen auf der Entscheidungsebene durchgesetzt werden, anstatt in die individuelle Kampagnenlogik eingebettet zu sein. Das Treueprogramm muss auch mit aktiven Aufbewahrungs- und Upgrade-Kampagnen koordiniert werden, damit Abwanderungspräventionsangebote und Treueprämien sich ergänzen und nicht doppelt an Abonnentinnen und Abonnenten gesendet werden, die sich gleichzeitig in mehreren Journey befinden.
-
-### Auswirkung auf den Betrieb
-
-Durch die personalisierte Interaktion mit Treueprogrammen werden die Programmteilnahme und die Einlösung von Prämien verbessert, was zu höheren Kundenbindungsraten bei registrierten Abonnenten führt.
-
-### Implementieren
-
-Verwenden Sie das [Cross-Channel-Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster, um personalisierte Treuekommunikation zu orchestrieren, die relevante Belohnungen hervorheben, Abonnentinnen und Abonnenten über den Fortschritt der Stufe informieren und Einlösungsmöglichkeiten präsentieren, die an ihren Präferenzen und Verhaltensweisen ausgerichtet sind. Dies ist das richtige Muster, wenn die Journey den Versand kanalübergreifend koordinieren muss, um doppelte Treueangebote zu verhindern, und wenn die Angebotsauswahl einen Stufenstatus und einen Einlösungshistorie erfordert - eine mehrstufige Orchestrierung allein bietet nicht die erforderliche Entscheidungsebene in Echtzeit.
-
-### Technische Überlegungen
-
-- Integrieren Sie die Treueplattform für den Zugriff auf Echtzeit-Punktestände, den Stufenstatus und den Einlösungsverlauf, um eine präzise Personalisierung zu ermöglichen.
-- Verbinden Sie Partnerprämienkataloge, um eine breite Palette von Einlösungsoptionen zu präsentieren, die auf die demonstrierten Interessen und früheren Einlösungen jedes Abonnenten zugeschnitten sind.
-- Koordinieren Sie Treuemeldungen mit anderen Campaign-Journey, um sicherzustellen, dass Bindungsangebote und Treueprämien sich ergänzen und nicht miteinander in Konflikt geraten.
-- Unterstützen Sie Stufen-Progressionstreiber, indem Sie berechnen, wie nah ein Abonnent der nächsten Stufe ist, und umsetzbare Schritte vorstellen, um sie zu erreichen.
 
 
 ## KI-Planberater

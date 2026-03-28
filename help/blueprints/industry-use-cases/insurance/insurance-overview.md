@@ -3,9 +3,9 @@ title: Anwendungsfälle für Versicherungen
 description: Erfahren Sie, wie Versicherungsunternehmen Adobe Experience Platform verwenden, um die Richtlinienverwaltung zu personalisieren, die Schadenerfahrung zu verbessern und die Kundenbindung zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Personalisierte Crosssell-Empfehlungen steigern die Crosssell-Konversionsraten, 
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Die Echtzeit-Entscheidungsfindung bewertet die vorhandene Abdeckung, das Lebensstadium und die Verhaltenssignale jedes Kunden, um die relevanteste Produktempfehlung aus dem verfügbaren Katalog auszuwählen. Dies ist das richtige Muster, wenn die Produktauswahl Eignungsregeln, Underwriting-Richtlinien und regulatorische Eignungsanforderungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der Verhaltensauffinität zu erstellen.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Die Echtzeit-Entscheidungsfindung bewertet die vorhandene Abdeckung, das Lebensstadium und die Verhaltenssignale jedes Kunden, um die relevanteste Produktempfehlung aus dem verfügbaren Katalog auszuwählen. Dies ist das richtige Muster, wenn die Produktauswahl Eignungsregeln, Underwriting-Richtlinien und regulatorische Eignungsanforderungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der Verhaltensauffinität zu erstellen.
 
 ### Technische Überlegungen
 
@@ -134,26 +134,6 @@ Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-pa
 - Schließen Sie Deep-Links ein, die den potenziellen Kunden direkt zu seinem gespeicherten Angebot zurückführen, anstatt ihn zu verpflichten, den Prozess von Anfang an neu zu starten.
 
 
-## Produktangebote auf Basis der Lebensphase
-
-Identifizieren Sie Kunden, die in neue Lebensstadien eintreten - z. B. Heirat, Wohnungskauf, wachsende Familie oder Ruhestand - und bieten Sie relevante Versicherungsprodukte an, die ihren sich verändernden Schutzbedürfnissen entsprechen. Das Life Stage Targeting hilft Versicherungsnehmern, die richtige Abdeckung zum richtigen Zeitpunkt aufzubauen.
-
-### Auswirkung auf den Betrieb
-
-Produktangebote in der Lebensphase verbessern die Akzeptanzraten von Produkten in der Lebensphase und vertiefen die Kundenbeziehungen in wichtigen Entscheidungsprozessen.
-
-### Implementieren
-
-Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)-Muster. Transitionen in der Lebensphase profitieren von einer kanalübergreifenden Orchestrierung in Kombination mit Echtzeit-Entscheidungen, um das relevanteste Produkt auszuwählen und es zum optimalen Zeitpunkt über den bevorzugten Kanal des Kunden bereitzustellen. Dies ist das richtige Muster, wenn der Journey die Bereitstellung über mehrere Kanäle hinweg koordinieren muss, um konsistente Angebote zu gewährleisten, während gleichzeitig die Entscheidungsfindung genutzt werden muss, um das am besten geeignete Produkt für die erkannte Lebensdauer auszuwählen. Eine mehrstufige Orchestrierung allein kann nicht die Echtzeit-Eignungs- und Eignungsbewertung bieten, die für Empfehlungen zu Versicherungsprodukten erforderlich ist.
-
-### Technische Überlegungen
-
-- Erstellen Sie Modelle zur Erkennung von Lebensstadien mithilfe von Verhaltenssignalen wie Adressänderungen, Empfängeraktualisierungen und Online-Forschungsmustern in Kombination mit Ereignissen zur Richtlinienänderung.
-- Konfigurieren Sie die Entscheidungs-Engine mit Produkteignungs- und Eignungsregeln, die jedes Lebensstadium den entsprechenden Abdeckungsempfehlungen entsprechen.
-- Koordinieren Sie die Life-Stage-Angebote mit dem zugewiesenen Agenten oder Broker, damit diese bereit sind, den Kunden bei der Unterbreitung des Angebots mit einem Beratungsgespräch zu unterstützen.
-- Wenden Sie Data-Governance-Kennzeichnungen auf alle Datenquellen von Drittanbietern an, die für den Lebensstadium-Rückschluss verwendet werden, um die Einhaltung von Datenschutzbestimmungen und fairen Marketing-Praktiken sicherzustellen.
-
-
 ## Rabatt und Sparmöglichkeiten
 
 Identifizieren und kommunizieren Sie personalisierte Rabattmöglichkeiten - wie z. B. Paketangebote, sichere Treiber, Treuerabatte und papierlose Abrechnungsrabatte - basierend auf dem Profil und Verhalten jedes Kunden. Proaktive Sparkommunikation zeigt Wert und stärkt das Preis-Nutzen-Verhältnis.
@@ -164,7 +144,7 @@ Personalisierte Rabatt- und Sparkommunikation sorgt für eine bessere Rabattnutz
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Die Echtzeit-Entscheidungsfindung bewertet die Berechtigung jedes Kunden für verfügbare Rabatte und wählt die wirkungsvollste Sparmöglichkeit aus, die er zum richtigen Zeitpunkt bieten kann. Dies ist das richtige Muster, wenn die Rabattauswahl Stackingbeschränkungen, regulatorische Einschränkungen und genaue versicherungsmathematische Berechnungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur einfache Eignungsprüfungen durchzuführen.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Die Echtzeit-Entscheidungsfindung bewertet die Berechtigung jedes Kunden für verfügbare Rabatte und wählt die wirkungsvollste Sparmöglichkeit aus, die er zum richtigen Zeitpunkt bieten kann. Dies ist das richtige Muster, wenn die Rabattauswahl Stackingbeschränkungen, regulatorische Einschränkungen und genaue versicherungsmathematische Berechnungen berücksichtigen muss - Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur einfache Eignungsprüfungen durchzuführen.
 
 ### Technische Überlegungen
 
@@ -224,7 +204,7 @@ Effektive Agent- und Broker-Koordinationskommunikation führt zu einer verbesser
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Die Agentenkoordination wird am besten durch geplante Batch-Aktivierungen bereitgestellt, die Agenten regelmäßig mit priorisierten Kontaktlisten, Gesprächspunkten und empfohlenen Aktionen versorgen. Dies ist das richtige Muster, wenn die Zielgruppe groß und vordefiniert ist, der Versandzeitpunkt auf wiederkehrender Basis geplant wird und nicht ereignisgesteuert ist und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Die Agentenkoordination wird am besten durch geplante Batch-Aktivierungen bereitgestellt, die Agenten regelmäßig mit priorisierten Kontaktlisten, Gesprächspunkten und empfohlenen Aktionen versorgen. Dies ist das richtige Muster, wenn die Zielgruppe groß und vordefiniert ist, der Versandzeitpunkt auf wiederkehrender Basis geplant wird und nicht ereignisgesteuert ist und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 

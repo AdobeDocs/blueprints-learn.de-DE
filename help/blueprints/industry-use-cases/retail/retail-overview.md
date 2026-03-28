@@ -3,9 +3,9 @@ title: Anwendungsfälle für den Einzelhandel
 description: Erfahren Sie, wie Einzelhandelsunternehmen Adobe Experience Platform verwenden, um Einkaufserlebnisse zu personalisieren, Transaktionsabbrüche zu beheben und die Kundentreue zu steigern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '6166'
+source-wordcount: '7216'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Gut ausgeführte Crosssell- und Upsell-Strategien erhöhen den durchschnittliche
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz verwendet eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und die beste Crosssell- oder Upsell-Option für jeden Kunden und Kontext auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Gewinnspannen, Lagerverfügbarkeit und Produktbeziehungsregeln berücksichtigt werden müssen - geschäftliche Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der verhaltensbezogenen Affinität zu erstellen.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz verwendet eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und die beste Crosssell- oder Upsell-Option für jeden Kunden und Kontext auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Gewinnspannen, Lagerverfügbarkeit und Produktbeziehungsregeln berücksichtigt werden müssen - geschäftliche Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der verhaltensbezogenen Affinität zu erstellen.
 
 ### Technische Überlegungen
 
@@ -491,3 +491,111 @@ Verwenden Sie das [Brand Concierge Conversational Experience](/help/blueprints/u
 - Die Markensicherheit muss so konfiguriert sein, dass der Agent keine Wettbewerbsprodukte diskutieren, Preisverpflichtungen eingehen kann, die mit Werbeaktionen kollidieren, oder auf Off-Topic-Anfragen reagiert.
 - Die Übergabelogik an Live-Agenten erfordert die Integration mit der Service-Plattform und sollte ausgelöst werden, wenn der KI-Agent die Kundenabfrage nach einer definierten Anzahl von Runden nicht lösen kann.
 - Die Profildatenintegration ermöglicht es dem Agenten, Antworten basierend auf dem Kaufverlauf und dem Treuestatus zu personalisieren. Dies erfordert jedoch eine Identitätsauflösung vor Beginn der Gesprächssitzung.
+
+## Check-in-Erinnerung mit App Download CTA
+
+Erinnern Sie die Gäste daran, einzuchecken, und ermutigen Sie sie, die App herunterzuladen, um leicht auf Informationen zuzugreifen. Rechtzeitige Check-in-Erinnerungen zusammen mit Eingabeaufforderungen zum Herunterladen von Apps fördern die Interaktion mit Mobilgeräten und ermöglichen umfangreichere Erlebnisse am Veranstaltungsort.
+
+### Auswirkung auf den Betrieb
+
+Einzelhändler, die Check-in-Erinnerungen mit Appdownload-Aktionsaufrufen kombinieren, sehen höhere App-Akzeptanzraten und höhere Interaktionen im Geschäft, da Kunden, die die Mobile App verwenden, häufiger mit Werbe- und Veranstaltungsort-Inhalten interagieren.
+
+### Implementieren
+
+Verwenden Sie das [Ereignisausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um eine Check-in-Erinnerung mit der Mobile App zum Herunterladen von CTA auf der Grundlage von Ereignisteilnahme- oder Reservierungsdaten Trigger. Dies ist das richtige Muster, wenn als Reaktion auf ein bekanntes Ereignis oder einen Trigger beim Planen eine einzige zeitnahe Nachricht gesendet werden muss.
+
+### Technische Überlegungen
+
+- Check-in-Erinnerungen müssen zeitlich am Ereignis- oder Besuchsdatum ausgerichtet sein, um die Interaktion zu maximieren, ohne dass sie als zu früh oder zu spät wahrgenommen werden.
+- Deep-Links zum App-Download sollten basierend auf der Geräteplattform des Kunden (iOS oder Android) zum richtigen App Store weitergeleitet werden.
+- Kunden, die die App bereits installiert haben, sollten eine andere Nachrichtenvariante erhalten, bei der der CTA-Download übersprungen wird und der Schwerpunkt auf der Eincheckfunktion liegt.
+
+## Geburtstagskampagnen für Fans
+
+Sprechen Sie Fans an ihrem Geburtstag mit einer personalisierten Geburtstagsnachricht und einem exklusiven Angebot an. Geburtstagskampagnen schaffen emotionale Verbindungen zu Fans und fördern inkrementelle Käufe durch zeitnahe, personalisierte Öffentlichkeitsarbeit.
+
+### Auswirkung auf den Betrieb
+
+Geburtstagskampagnen liefern durchgängig überdurchschnittliche Öffnungs- und Konversionsraten, da sie zu einem Zeitpunkt von persönlicher Bedeutung kommen, Wohlwollen schaffen und Fans ermutigen, sich mit einem speziellen Kauf zu behandeln.
+
+### Implementieren
+
+Verwenden Sie das [Ereignis-ausgelöste Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um eine personalisierte Geburtstagsnachricht zu senden, wenn das Geburtstagsdatum des Kunden eintrifft. Dies ist das richtige Muster, wenn eine einzelne ereignisgesteuerte Nachricht auf der Grundlage eines Datums-Triggers des Profilattributs gesendet wird.
+
+### Technische Überlegungen
+
+- Das Geburtstagsdatum muss im Kundenprofil erfasst und validiert werden, um zu verhindern, dass Nachrichten an falsche Daten gesendet werden.
+- Angebote sollten über ein definiertes Gültigkeitsfenster verfügen (z. B. die Geburtstagswoche), um eine Dringlichkeit zu erstellen und den Kunden gleichzeitig eine angemessene Zeit zum Einlösen zu geben.
+- Fans, die keinen Geburtstag haben, sollten von der Kampagne ausgeschlossen werden, anstatt eine allgemeine Nachricht zu senden.
+
+## Geburtstagskampagnen für Käufer
+
+Targeting von Kunden zu ihrem Geburtstag mit einer personalisierten Geburtstagsnachricht und einem exklusiven Angebot. Geburtstagskampagnen fördern die Markentreue, indem sie Kunden persönlich ansprechen und zum Kauf anregen.
+
+### Auswirkung auf den Betrieb
+
+Personalisierte Geburtstagsangebote führen zu höheren Einlösungsraten als allgemeine Werbeaktionen, da sie mit einem Moment übereinstimmen, in dem Käufer bereits geneigt sind, diskretionäre Käufe für sich selbst zu tätigen.
+
+### Implementieren
+
+Verwenden Sie das [Ereignisausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um einen Trigger für eine Geburtstagsnachricht und ein Angebot basierend auf dem Geburtsdatums-Profilattribut des Käufers auszuführen. Dies ist das richtige Muster, wenn eine einzelne personalisierte Nachricht an einem bestimmten Kalenderdatum gesendet werden muss, das mit dem Kundenprofil verknüpft ist.
+
+### Technische Überlegungen
+
+- Das Geburtstagsdatum muss als Profilattribut gespeichert werden und sollte bei der Registrierung oder bei der Treueprogramm-Anmeldung erfasst werden.
+- Bei der Personalisierung von Angeboten sollten der Kaufverlauf und die Voreinstellungen des Käufers berücksichtigt werden, um relevante Produktvorschläge zusammen mit dem Geburtstagsrabatt zu präsentieren.
+- Für Kunden, die in mehreren Systemen auftauchen, ist eine doppelte Unterdrückungslogik erforderlich, um das Senden mehrerer Geburtstagsnachrichten zu vermeiden.
+
+## Werbekampagnen zum Spieltag
+
+Targeting-Fans, um Tickets für ein bevorstehendes Spiel mit personalisierten Aktionen und Angeboten zu kaufen. Werbeaktionen am Spieltag fördern den Ticketverkauf, indem sie mit zeitnahem, ereignisspezifischem Messaging die richtige Zielgruppe erreichen.
+
+### Auswirkung auf den Betrieb
+
+Gezielte Game Day-Werbeaktionen verbessern die Ticket-Durchverkaufsraten, indem sie Fans mit relevanten Angeboten ansprechen, die auf ihren Team-Vorlieben, der bisherigen Anwesenheit und der Nähe zum Veranstaltungsort basieren.
+
+### Implementieren
+
+Verwenden Sie das [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)-Muster, um im Vorfeld bevorstehender Spiele Werbenachrichten an segmentierte Fan-Zielgruppen zu senden. Dies ist das richtige Muster, wenn ein Batch personalisierter Nachrichten planmäßig an ein vordefiniertes Zielgruppensegment gesendet werden muss.
+
+### Technische Überlegungen
+
+- Spielplandaten müssen vor jedem Trigger zur richtigen Vorlaufzeit in die Werbeaktionen integriert werden.
+- Bei der Zielgruppensegmentierung sollten die Team-Affinität, die geografische Nähe und vergangene Anwesenheitsmuster berücksichtigt werden, um die Relevanz zu maximieren.
+- Kunden, die bereits Tickets für das beworbene Spiel gekauft haben, sollten von Akquise-Nachrichten ausgeschlossen werden und erhalten stattdessen möglicherweise Upsell-Angebote für Upgrades oder Add-ons.
+
+## Kampagnen zur Produktwerbung
+
+Targeting von Kundinnen und Kunden zum Kauf von Produkten während einer laufenden Produktförderungskampagne. Werbekampagnen steigern den Umsatz, indem sie die richtigen Kunden mit zeitnahen Angeboten verbinden, die auf aktive Werbeaktionen abgestimmt sind.
+
+### Auswirkung auf den Betrieb
+
+Gezielte Produktförderkampagnen übertreffen breit angelegte Werbeaktionen, indem sie sich auf die Käufer konzentrieren, die am ehesten konvertieren, und so die Werbeverschwendung reduzieren und den Return on Marketing-Ausgaben verbessern.
+
+### Implementieren
+
+Verwenden Sie das [Aktivierungsmuster für Batch-](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) ausgehende Nachrichten), um während aktiver Kampagnenfenster Werbenachrichten an qualifizierte Zielgruppensegmente zu senden. Dies ist das richtige Muster, wenn ein geplanter Batch personalisierter Werbenachrichten während einer zeitgebundenen Kampagne eine definierte Zielgruppe erreichen muss.
+
+### Technische Überlegungen
+
+- Start- und Enddatum der Promotion müssen verwaltet werden, um sicherzustellen, dass Nachrichten nur während des aktiven Promotion-Fensters gesendet werden.
+- Bei der Zielgruppensegmentierung sollten der Kaufverlauf, das Browser-Verhalten und die Produktaffinität genutzt werden, um Kunden anzusprechen, die mit größter Wahrscheinlichkeit mit den beworbenen Produkten interagieren.
+- Die Frequenzlimitierung sollte angewendet werden, um Werbe-Ermüdung zu vermeiden, insbesondere wenn mehrere Kampagnen gleichzeitig ausgeführt werden.
+
+## Warenkorbabbruch
+
+Binden Sie Kunden, die ihren Warenkorb verlassen, erneut mit personalisierten Erinnerungen und Anreizen ein, um den Kauf abzuschließen. Die Wiederherstellung bei Warenkorbabbrüchen ist einer der Anwendungsfälle mit dem höchsten ROI im Einzelhandelsmarketing.
+
+### Auswirkung auf den Betrieb
+
+Warenkorbabbruch-Recovery-Kampagnen erzielen einen aussagekräftigen Prozentsatz des sonst verlorenen Umsatzes, indem sie Kunden zum Zeitpunkt der höchsten Kaufabsicht mit personalisierten Erinnerungen und Anreizen erneut kontaktieren.
+
+### Implementieren
+
+Verwenden Sie das [Ereignis-ausgelöste Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um eine Wiederherstellungsmeldung Trigger, wenn ein Warenkorbabbruchs-Ereignis erkannt wird. Dies ist das richtige Muster, wenn als Reaktion auf ein Verhaltensereignis eine einzelne Echtzeitnachricht gesendet werden muss, z. B. wenn Artikel im Warenkorb gelassen werden, ohne den Checkout abzuschließen.
+
+### Technische Überlegungen
+
+- Die Erkennung eines Warenkorbabbruchs erfordert einen definierten Inaktivitätsschwellenwert (in der Regel 30-60 Minuten), um einen echten Abbruch von Kunden zu unterscheiden, die noch im Internet surfen.
+- Der Inhalt des Warenkorbs muss in der Ereignis-Payload übergeben werden, um personalisierte Produkterinnerungen in der Wiederherstellungsmeldung zu ermöglichen.
+- Kunden, die ihren Kauf zwischen dem Abbruchs-Ereignis und dem Versand der Nachricht abschließen, müssen unterdrückt werden, um irrelevante Nachrichten zu vermeiden.

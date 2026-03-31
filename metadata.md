@@ -2,21 +2,23 @@
 cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
+landing-page-name: home-tutorials
+landing-page-breadcrumb-title: Tutorials
 type: Tutorial
 doc-type: blueprint
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/blueprints-learn.de-DE
+git-repo: https://github.com/AdobeDocs/blueprints-learn.en
 index: true
-source-git-commit: f673054b9e0c459daed08157b4e05d2bda100470
+source-git-commit: 343911ea0a701ab9689b4939d508b54dca1ceecb
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 100%
+source-wordcount: '71'
+ht-degree: 19%
 
 ---
 
 
-# Metadaten für den internen Gebrauch.
+# Metadaten für die interne Verwendung
 
-Die Datei „metadata.md“ enthält Metadaten auf Repository-Ebene, die an die für Benutzerhandbücher verwendeten Dateien namens „TOC.md“ im Repository übergeben werden. Änderungen des Inhalts von „metadata.md“ für ein Benutzerhandbuch können Sie bei Bedarf in der entsprechenden TOC.md-Datei vornehmen.
+Die Datei „metadata.md“ enthält Metadaten auf Repo-Ebene, die an die im Repository enthaltenen TOC.md-Dateien des Benutzerhandbuchs weitergegeben werden. Wenn Sie den Inhalt von „metadata.md“ für ein Benutzerhandbuch ändern möchten, verwenden Sie dazu eine beliebige Inhaltsverzeichnisdatei (.md).
 
-Unter [Metadaten](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=de) finden Sie eine Liste gültiger Werte für **solution**, **product** und **type**.
+Unter [Metadaten](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=de) finden Sie eine Liste gültiger Werte für **Lösung**, **** und **Typ**.

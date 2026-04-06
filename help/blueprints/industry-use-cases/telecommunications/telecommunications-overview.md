@@ -1,11 +1,11 @@
 ---
 title: Telekommunikations-Anwendungsfälle
-description: Erfahren Sie, wie Telekommunikationsunternehmen Adobe Experience Platform nutzen, um Abwanderung zu reduzieren, Geräte-Upgrades zu fördern und die Kundeninteraktion zu verbessern.
+description: Erfahren Sie, wie Telekommunikationsunternehmen Adobe Experience Platform einsetzen, um Abwanderung zu reduzieren, Geräte zu fördern, Upgrades zu planen und die Kundeninteraktion zu verbessern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 4b4d85f80abaa6219e7ea210864a07a141564921
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3527'
 ht-degree: 0%
 
 ---
@@ -154,22 +154,22 @@ Verwenden Sie das [Cross-Channel Journey mit Decisioning](/help/blueprints/use-c
 - Stellen Sie sicher, dass Datenschutzkontrollen vorhanden sind, sodass individuelle Nutzungsdetails auf der Grundlage von Kontoberechtigungen ordnungsgemäß mit dem Planadministrator geteilt werden.
 
 
-## 5G-Upgrade-Kampagnen
+## Aktualisieren von Kampagnen
 
-Kunden, die für 5G-Netzaktualisierungen infrage kommen, erhalten auf der Grundlage ihres Standorts und ihrer Nutzungsmuster personalisierte Angebote und Vorteile. Mit zunehmender 5G-Abdeckung beschleunigt die Anbindung von Abonnentinnen und Abonnenten in neu abgedeckten Gebieten mit relevanter Nachrichtenübermittlung die Akzeptanz und erhöht die Netzauslastung.
+Targeting von Kunden, die für Upgrades infrage kommen, mit personalisierten Angeboten und Vorteilen basierend auf ihrem Standort und Nutzungsmuster. Mit der Ausweitung der neuen Abdeckung beschleunigt das Erreichen von Abonnentinnen und Abonnenten in neu abgedeckten Bereichen mit relevantem Messaging die Akzeptanz und erhöht die Netzwerkauslastung.
 
 ### Auswirkung auf den Betrieb
 
-Gezielte 5G-Upgrade-Kampagnen fördern eine höhere 5G-Akzeptanzrate bei den geeigneten Abonnentinnen und Abonnenten, unterstützen die Rendite von Netzwerkinvestitionen und die Differenzierung im Wettbewerb.
+Gezielte Upgrade-Kampagnen steigern die Akzeptanzraten bei den geeigneten Abonnentinnen und Abonnenten und unterstützen die Rendite von Netzwerkinvestitionen und die Differenzierung gegenüber dem Wettbewerb.
 
 ### Implementieren
 
-Verwenden Sie das [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)-Muster, um Abonnentinnen und Abonnenten auf der Grundlage der Verfügbarkeit der 5G-Abdeckung, der Gerätekompatibilität und der Planeignung zu segmentieren, und führen Sie dann personalisierte Upgrade-Kampagnen durch, die die Vorteile hervorheben, die für das Nutzungsprofil der einzelnen Abonnentinnen und Abonnenten am relevantesten sind. Dies ist das richtige Muster, wenn die Zielgruppe vordefiniert und groß ist, der Versand zeitlich geplant und nicht ereignisgesteuert ist und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist. Die Kampagne kann basierend auf den Rollout-Zeitplänen der Abdeckung vollständig im Voraus geplant werden.
+Verwenden Sie das [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)-Muster, um Abonnentinnen und Abonnenten auf der Grundlage der Abdeckungsverfügbarkeit, der Gerätekompatibilität und der Planberechtigung zu segmentieren und dann personalisierte Upgrade-Kampagnen zu senden, die die Vorteile hervorheben, die für das Nutzungsprofil der einzelnen Abonnentinnen und Abonnenten am relevantesten sind. Dies ist das richtige Muster, wenn die Zielgruppe vordefiniert und groß ist, der Versand zeitlich geplant und nicht ereignisgesteuert ist und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist. Die Kampagne kann basierend auf den Rollout-Zeitplänen der Abdeckung vollständig im Voraus geplant werden.
 
 ### Technische Überlegungen
 
-- Netzabdeckungskarten integrieren, um Abonnenten in Gebieten mit aktiven 5G-Diensten genau zu identifizieren und Upgrades zu vermeiden, in denen die Abdeckung noch nicht verfügbar ist.
-- Verbinden Sie Gerätekompatibilitätsdaten, um zu bestimmen, welche Abonnenten ein neues Gerät benötigen, im Vergleich zu denen, die bereits über 5G-fähige Hardware verfügen.
+- Netzwerkabdeckung-Karten integrieren, um Abonnentinnen und Abonnenten in Gebieten mit aktivem Service genau zu identifizieren und Upgrades zu vermeiden, in denen die Abdeckung noch nicht verfügbar ist.
+- Verbinden Sie Gerätekompatibilitätsdaten, um zu bestimmen, welche Abonnenten ein neues Gerät benötigen, anstatt diejenigen, die bereits über leistungsfähige Hardware verfügen.
 - Abstimmung mit Einzelhandelsinventarsystemen, um sicherzustellen, dass beworbene Geräte und Pläne im bevorzugten Geschäft des Abonnenten oder online verfügbar sind.
 - Segmentieren Sie das Messaging nach Nutzungsprofil, sodass Benutzer mit umfangreichen Datenmengen leistungsorientierte Vorteile erhalten, während gelegentliche Benutzer Nachrichten zur Abdeckung und Zuverlässigkeit erhalten.
 
@@ -184,7 +184,7 @@ Personalisierte Erinnerungen zu Rechnungszahlungen verbessern die pünktlichen Z
 
 ### Implementieren
 
-Verwenden Sie [&#x200B; Muster „Ereignisgesteuertes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md), um Erinnerungen zu optimalen Zeiten vor dem Fälligkeitsdatum zu senden, die mit dem Kontostand des Abonnenten, der bevorzugten Zahlungsmethode und einem direkten Link personalisiert sind, um die Zahlung abzuschließen. Dies ist das richtige Muster, wenn der Trigger ein zeitbasiertes Systemereignis (Fälligkeitsdatum der Abrechnung) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und transaktional erfolgt und keine mehrstufige Interaktionssequenz ist.
+Verwenden Sie [ Muster „Ereignisgesteuertes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md), um Erinnerungen zu optimalen Zeiten vor dem Fälligkeitsdatum zu senden, die mit dem Kontostand des Abonnenten, der bevorzugten Zahlungsmethode und einem direkten Link personalisiert sind, um die Zahlung abzuschließen. Dies ist das richtige Muster, wenn der Trigger ein zeitbasiertes Systemereignis (Fälligkeitsdatum der Abrechnung) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und transaktional erfolgt und keine mehrstufige Interaktionssequenz ist.
 
 ### Technische Überlegungen
 

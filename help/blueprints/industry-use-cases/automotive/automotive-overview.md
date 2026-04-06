@@ -3,9 +3,9 @@ title: Anwendungsfälle für Automobile
 description: Erfahren Sie, wie Automobilunternehmen Adobe Experience Platform verwenden, um die Fahrzeugkauf-Journey zu personalisieren, die Kundenbindung zu verbessern und die Loyalität der Eigentümer zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e5c88f240fe86bbc494402842a3d974f803aab03
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1802'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,6 @@ Automobilunternehmen verwenden Adobe Experience Platform, um Kundendaten aus Hä
 | [Empfehlungen für Teile und Zubehör](#parts-and-accessories-recommendations) | Empfehlen Sie relevante Teile, Zubehör und Upgrades basierend auf dem Fahrzeugmodell, der Eigentümerdauer und den Kundenpräferenzen. Personalisierte Aftermarket-Empfehlungen steigern den Umsatz und helfen den Eigentümern, ihr Fahrzeug besser zu nutzen. | Verbesserte Einkaufsquoten für Teile und Zubehör und höhere Aftermarket-Umsätze | [Verhaltensempfehlung](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
 | [Rückrufaktionen für Fahrzeuge](#vehicle-recall-notifications) | Senden Sie personalisierte Rückrufbenachrichtigungen mit Serviceplanungsoptionen und Sicherheitsinformationen. Zeitnahe, klare Rückrufaktionen schützen die Sicherheit der Kunden und zeigen das Engagement der Marke für eine verantwortungsvolle Unterstützung im Hinblick auf das Eigentum. | Verbesserte Rückrufantwortraten und strengere Sicherheitsvorschriften | [Ereignisausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [Neue Modellstart-Kampagnen](#new-model-launch-campaigns) | Targeting von Kunden, die sich für neue Modellstarts interessieren könnten, basierend auf ihrem aktuellen Fahrzeug, ihren Präferenzen und ihrer Kaufhistorie. Gezieltes Zielgruppen-Targeting maximiert die Wirkung von Launches und sorgt für eine frühe Auftragsdynamik. | Verbesserte Interaktion mit Launch-Kampagnen und größeres Interesse an neuen Modellen | [Batch-Aktivierung ausgehender Nachrichten](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| [Finanzierungs- und Versicherungsangebote](#financing-and-insurance-offers) | Präsentieren Sie personalisierte Finanzierungs- und Versicherungsangebote basierend auf Kreditprofil, Fahrzeugauswahl und Kaufzeitplan. Maßgeschneiderte Finanzprodukte beseitigen Hindernisse beim Kauf und helfen Kunden, sich mit ihren Bedingungen vertraut zu machen. | Verbesserte Akzeptanzraten bei der Finanzierung und höhere Umsätze pro Verkauf | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
 | [Planung der Testfahrt](#test-drive-scheduling) | Personalisierte Planung von Testfahrten mit Händlerempfehlungen und Fahrzeugverfügbarkeit. Wenn sich interessierte Käufer mühelos hinter das Steuer setzen, beschleunigt sich der Weg zum Kauf. | Verbesserte Abschlussraten der Testfahrten und stärkere Konversionsrate | [Ereignisausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [Treueprogramme für Inhaber](#owner-loyalty-programs) | Koordinieren Sie die Treuekommunikation über Händler-, OEM-Digital- und vernetzte Autokanäle hinweg und wenden Sie stufenbasierte Eignungsregeln an, um zu steuern, welche Eigentümer exklusive Angebote, frühzeitigen Fahrzeugzugang und Partnerprämien erhalten. Durch die Angebotsschlichtung werden widersprüchliche Werbeaktionen verhindert, bei denen Händler und OEM-Kanäle gleichzeitig denselben Eigentümer erreichen. | Verbesserte Interaktion mit Treueprogrammen und vermehrte Wiederholungskäufe | [Cross-Channel-Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | [Garantiepläne und erweiterte Servicepläne](#warranty-and-extended-service-plans) | Empfehlen Sie Garantiepläne und erweiterte Servicepläne zu optimalen Zeiten basierend auf Fahrzeugalter, Kilometerstand und Kaufmuster. Zeitgerechte Outreach-Maßnahmen erfassen den Umsatz noch vor Ablauf der Werksgewährleistung. | Verbesserte Akzeptanzraten im erweiterten Service und höhere Service-Umsätze | [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
@@ -75,13 +74,6 @@ Automobilunternehmen verwenden Adobe Experience Platform, um Kundendaten aus Hä
 - Der Zeitpunkt der Kampagnen muss mit Embargodaten und regionalen Startzeitplänen abgestimmt sein, um sicherzustellen, dass Kunden Informationen zum richtigen Zeitpunkt für ihren Markt erhalten.
 - [!DNL Real-Time Customer Data Platform] Zielgruppenaktivierung sollte Launch-Segmente mit Werbeplattformen synchronisieren, um eine koordinierte Paid-Media-Unterstützung zusammen mit der eigenen Kanalinteraktion zu ermöglichen.
 
-### Finanzierungs- und Versicherungsangebote
-
-- Die Regeln für die Eignung finanzieller Angebote müssen sorgfältig so konfiguriert werden, dass sie den Kreditvergaberegeln entsprechen und sicherstellen, dass die den Kunden unterbreiteten Angebote tatsächlich die Angebote sind, für die sie qualifiziert sind.
-- Die Integration von Kreditprofildaten erfordert eine sichere Handhabung und strenge Zugriffskontrollen, da Finanzinformationen strengeren Datenschutz- und Regulierungsanforderungen unterliegen.
-- Die Angebotsunterbreitung muss die Bedingungen, Preise und Konditionen in Übereinstimmung mit den Finanzvorschriften für Verbraucher in jedem anwendbaren Markt klar offenlegen.
-- [!DNL Journey Optimizer] Entscheidungsregeln sollten Fahrzeugpreise, Anzahlungen und Präferenzen für die Kreditlaufzeit berücksichtigen, um Angebote nach Relevanz und nicht nur nach Zinssatz zu ordnen.
-
 ### Planung der Testfahrt
 
 - Händlerinventarsysteme müssen integriert werden, um zu bestätigen, dass das jeweilige Fahrzeugmodell und die Verkleidung, an der der Kunde interessiert ist, für die Testfahrt beim empfohlenen Händler zur Verfügung steht.
@@ -119,3 +111,4 @@ Automobilunternehmen verwenden Adobe Experience Platform, um Kundendaten aus Hä
 - Die Zuweisungslogik zwischen Kunden und Händlern sollte die räumliche Nähe, die Spezialisierung der Händler, die Sprachpräferenzen und jede bestehende Händlerbeziehung berücksichtigen, um eine optimale Übereinstimmung zu gewährleisten.
 - Die Lead-Routing-Regeln müssen sicherstellen, dass eine Anfrage, die einen Kunden online zum Kauf auffordert, den entsprechenden Händler schnell und in vollem Kontext über die Forschungsaktivität des Kunden erreicht.
 - [!DNL Experience Platform] Identitätsauflösung muss Szenarien handhaben, in denen ein Kunde mit mehreren Händlern interagiert, ein einheitliches Profil pflegt und dabei die Sicht jedes Händlers auf seine eigenen Kundenbeziehungen respektiert.
+

@@ -3,9 +3,9 @@ title: Anwendungsfälle für das Gesundheitswesen
 description: Erfahren Sie, wie Unternehmen im Gesundheitswesen Adobe Experience Platform verwenden, um die Interaktion mit Patienten zu verbessern, die Koordinierung der Pflege zu optimieren und bessere Ergebnisse im Gesundheitswesen zu erzielen.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '3589'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Proaktive Präventionsarbeit führt zu besseren Abschlussraten in der Präventiv
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Erinnerungen zur Vorsorge werden am besten über geplante Batch-Kampagnen bereitgestellt, die die Eignung des Patienten regelmäßig anhand klinischer Richtlinien bewerten. Dies ist das richtige Muster, wenn die Zielgruppe durch klinische Richtlinienkriterien vordefiniert ist, der Bereitstellungszeitpunkt eher in einem regelmäßigen Rhythmus als ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Erinnerungen zur Vorsorge werden am besten über geplante Batch-Kampagnen bereitgestellt, die die Eignung des Patienten regelmäßig anhand klinischer Richtlinien bewerten. Dies ist das richtige Muster, wenn die Zielgruppe durch klinische Richtlinienkriterien vordefiniert ist, der Bereitstellungszeitpunkt eher in einem regelmäßigen Rhythmus als ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -95,26 +95,6 @@ Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-pa
 - Wenden Sie Datennutzungskennzeichnungen auf alle Inhalte von Pflegehinweisen an, um sicherzustellen, dass geschützte Gesundheitsinformationen nur über sichere, vom Patienten autorisierte Kanäle weitergegeben werden.
 - Konfigurieren Sie Zeitregeln, die dem Besuchstyp Rechnung tragen - z. B. können postoperative Nachuntersuchungen einen anderen Zeitpunkt erfordern als routinemäßige Untersuchungen.
 - Sichere Links zum Patientenportal für den Abschluss von Umfragen und die Terminplanung, anstatt Gesundheitsinformationen über ungesicherte Kanäle zu erfassen.
-
-
-## Programme zur Behandlung chronischer Krankheiten
-
-Personalisieren Sie die Kommunikation zum Management chronischer Krankheiten, die informativen Inhalte und die Überwachung der Erinnerungen basierend auf dem spezifischen Zustand und Behandlungsplan jedes Patienten. Ein nachhaltiges, relevantes Engagement hilft den Patienten, im Laufe der Zeit eine aktive Rolle bei der Verwaltung ihrer Gesundheit zu übernehmen.
-
-### Auswirkung auf den Betrieb
-
-Personalisierte Programme für die Behandlung chronischer Krankheiten führen zu höheren Interaktionsraten bei Programmen, was zu verbesserten Ergebnissen beim Krankheitsmanagement und einer reduzierten Nutzung der Notfallversorgung führt.
-
-### Implementieren
-
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Chronisches Krankheitsmanagement ist von Natur aus ein langjähriges, an mehrere Touchpoints geknüpftes Erlebnis, das adaptive Messaging auf der Grundlage von Patienteninteraktion und Meilensteinen im Gesundheitswesen erfordert. Dies ist das richtige Muster, da das Management chronischer Krankheiten adaptives Messaging über einen längeren Zeitraum mit bedingten Verzweigungen basierend auf klinischen Metriken und Interaktionsmustern erfordert - ereignisgesteuertes Messaging kann die laufende, dynamische Neubewertung nicht verarbeiten, die erforderlich ist, um Interventionen auf der Grundlage sich entwickelnder Gesundheitsdaten anzupassen.
-
-### Technische Überlegungen
-
-- Entwerfen Sie eine Journey-Verzweigungslogik, die sich anhand von zustandsspezifischen Metriken anpasst (z. B. Blutzuckertrends für das Diabetesmanagement oder Blutdruckmessungen für Hypertonieprogramme).
-- Implementieren Sie eine strikte Data Governance mit [!DNL Adobe Experience Platform] Datennutzungskennzeichnungen, um zustandsspezifische Gesundheitsdaten im gesamten Journey zu klassifizieren und zu schützen.
-- Integration mit Patientenfernüberwachungsgeräten und Patientenberichtssystemen, um Gesundheitsdaten in Echtzeit in Journey-Entscheidungspunkte einzuspeisen.
-- Erstellen Sie im Journey Eskalationspfade für das Betreuungsteam, damit die Trigger bei Nichtinteraktion oder Gesundheitstrends den entsprechenden Klinikmitarbeitern Warnmeldungen senden.
 
 
 ## Neue Patienten-Onboarding-Journey

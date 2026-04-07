@@ -3,9 +3,9 @@ title: Anwendungsfälle für den Einzelhandel
 description: Erfahren Sie, wie Einzelhandelsunternehmen Adobe Experience Platform verwenden, um Einkaufserlebnisse zu personalisieren, Transaktionsabbrüche zu beheben und die Kundentreue zu steigern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '7216'
+source-wordcount: '6082'
 ht-degree: 0%
 
 ---
@@ -34,26 +34,6 @@ Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalizati
 - Die Seitenladeleistung muss sorgfältig überwacht werden, da Personalisierungsaufrufe keine merkliche Latenz zum Einkaufserlebnis hinzufügen sollten.
 
 
-## E-Mail-Wiederherstellung bei Transaktionsabbruch
-
-Senden Sie automatisch personalisierte E-Mail-Erinnerungen an Kunden, die ihren Warenkorb verlassen haben, einschließlich der genauen hinterlassenen Artikel und relevanter Angebote, um die Fertigstellung zu fördern. Warenkorbabbrüche sind eine der größten Quellen für Umsatzeinbußen im Einzelhandel, und rechtzeitige Folgemaßnahmen können einen erheblichen Teil dieser Verkäufe zurückgewinnen.
-
-### Auswirkung auf den Betrieb
-
-Effektive Programme zur Wiederherstellung des Warenkorbs verbessern die Wiederherstellungsraten des Warenkorbs und können je nach Speichervolumen einen bedeutenden zusätzlichen Umsatz generieren.
-
-### Implementieren
-
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz reagiert auf ein Echtzeit-Warenkorbabbruchs-Ereignis und sendet eine rechtzeitige Erinnerung, während die Kaufabsicht immer noch hoch ist. Dies ist das richtige Muster, wenn eine diskrete Kundenaktion der Trigger ist und die erforderliche Antwort eine einzige, zeitkritische Nachricht ist - und keine mehrstufige Sequenz oder dynamische Angebotsauswahl.
-
-### Technische Überlegungen
-
-- Zur Erkennung eines Warenkorbabbruchs muss ein Schwellenwert für Inaktivität (in der Regel 30-60 Minuten) definiert werden, bevor die erste Erinnerung ausgelöst wird. So werden Nachrichten an Kunden vermieden, die noch aktiv einkaufen.
-- E-Mail-Inhalte müssen aktuelle Produktbilder, Preise und Verfügbarkeit zum Versandzeitpunkt dynamisch aus dem Katalog abrufen, da sich Artikel zwischen Abbruch und Versand ausverkaufen oder den Preis ändern können.
-- Die Regeln zur Frequenzlimitierung sollten verhindern, dass Kundinnen und Kunden innerhalb eines kurzen Zeitraums mehrere E-Mails zum Warenkorb mit Abbruch erhalten, insbesondere wenn sie den Warenkorb häufig verlassen.
-- Einverständnis- und Unterdrückungslisten müssen vor dem Senden überprüft werden, und Kunden, die ihren Kauf über einen anderen Kanal abgeschlossen haben, sollten in Echtzeit ausgeschlossen werden.
-
-
 ## Inventarbasierte Dringlichkeitskampagnen
 
 Trigger-Echtzeitwarnungen und -kampagnen, wenn der Produktbestand niedrig ist, wodurch eine Dringlichkeit entsteht und zum sofortigen Kauf ermutigt wird. Kunden, die sehen, dass nur noch wenige Artikel übrig sind, sind motiviert, schnell zu handeln, anstatt ihre Entscheidung zu verzögern.
@@ -72,7 +52,6 @@ Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-pa
 - Schwellenwerte sollten für jede Produktkategorie konfiguriert werden, da sich ein Schwellenwert für „niedrige Lagerbestände“ bei einem großen Warenvolumen erheblich von einem für einen Luxusartikel unterscheidet.
 - Die Werbebotschaft muss wahrheitsgetreu sein und den Verbraucherschutzbestimmungen entsprechen. Eine falsche Verknappung kann das Vertrauen der Marke schädigen und in bestimmten Märkten gegen die Werbestandards verstoßen.
 - Die Messaging- und E-Mail-Kanäle vor Ort sollten so koordiniert werden, dass ein Kunde, der bereits gekauft hat, nicht weiterhin Benachrichtigungen zur Dringlichkeit für dasselbe Produkt erhält.
-
 
 ## Crosssell- und Upsell-Empfehlungen
 
@@ -93,27 +72,6 @@ Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/person
 - Crosssell-Empfehlungen an der Kasse müssen schnell geladen werden und dürfen den Kauffluss nicht stören. Langsame oder aufdringliche Vorschläge können die Konversionsrate tatsächlich verringern.
 - [!DNL Journey Optimizer] Entscheidungsregeln sollten Fallback-Angebote enthalten, damit jeder geeignete Kunde eine Empfehlung erhält, selbst wenn die am häufigsten platzierte Option nicht verfügbar ist.
 
-
-## Neue Kunden-Begrüßungsreihe
-
-Automatisieren Sie eine Willkommensreihe mit mehreren E-Mails für neue Kunden mit personalisierten Produktempfehlungen, Marken-storytelling und Sonderangeboten. Die ersten Interaktionen nach dem Beitritt eines Kunden prägen seine langfristige Beziehung zur Marke und machen diese Serie zu einem der wirkungsvollsten Programme, die ein retailer ausführen kann.
-
-### Auswirkung auf den Betrieb
-
-Eine gut gestaltete Willkommensserie fördert die starke Interaktion unter neuen Kunden und verbessert den Lebenszeitwert bedeutend, indem die Markenaffinität frühzeitig aufgebaut wird.
-
-### Implementieren
-
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Dieser Multi-Touch-Nurture-Journey führt neue Kunden durch eine Reihe von Markeneinführungen, Produktentdeckungen und Incentive-Botschaften, die sich an ihr Engagement anpassen. Dies ist das richtige Muster, wenn der Anwendungsfall einen sequenziellen Fluss mit mehreren Nachrichten über Tage mit bedingter Verzweigung basierend auf Interaktionsereignissen erfordert - eine einzelne ausgelöste Nachricht kann die Abhängigkeitslogik zwischen den Schritten nicht berücksichtigen.
-
-### Technische Überlegungen
-
-- Der Journey-Einstiegs-Trigger muss Neukundenerstellungsereignisse aus allen Registrierungsquellen zuverlässig erfassen, einschließlich Web, Mobile App, Verkaufsstellen in Geschäften und Drittanbieter-Marketplaces.
-- Warteschritte zwischen E-Mails sollten auf der Grundlage von Interaktionsdaten konfiguriert werden. Kunden, die sich öffnen und klicken, erhalten die nächste Nachricht möglicherweise früher, während weniger interaktive Kunden von mehr Abstand profitieren.
-- Produktempfehlungen in Begrüßungs-E-Mails sollten widerspiegeln, was der Kunde bei seinem ersten Besuch angesehen oder gekauft hat, und nicht allgemeine Bestseller.
-- Kunden, die während der Begrüßungsserie einen Kauf tätigen, sollten sich in einen Post-Purchase-Fluss verzweigen, anstatt weiterhin akquisitionsorientierte Nachrichten zu erhalten.
-
-
 ## Warnhinweise bei Preisverfall
 
 Benachrichtigen Sie Kunden per E-Mail oder Push-Benachrichtigung, wenn Produkte auf ihrer Wunschliste oder zuvor angesehene Artikel im Preis fallen. Interessenten, die nicht eingekauft haben, reagieren sehr schnell auf Preisnachlässe, was dies zu einer der effizientesten Möglichkeiten macht, Überlegungen in Umsätze umzuwandeln.
@@ -132,7 +90,6 @@ Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-pa
 - Kundeninteressensignale (Hinzufügungen zur Wunschliste, Produktseitenansichten, auf Produktseiten verbrachte Zeit) müssen effizient gespeichert und mit potenziell Tausenden von täglichen Preisänderungen abgeglichen werden.
 - Die Benachrichtigungen sollten den ursprünglichen Preis, den neuen Preis und den Einsparbetrag enthalten, um den Wert klar zu kommunizieren. Vage „preisreduzierte“ Meldungen führen zu weniger spezifischen Einsparhinweisen.
 - [!DNL Real-Time Customer Data Platform] Segmente für preisbewusste Käufer können verwendet werden, um den Versand von Warnhinweisen zu priorisieren und den Nachrichtenton anzupassen.
-
 
 ## Erinnerungs-Wiederauffüllung
 
@@ -153,7 +110,6 @@ Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-
 - Erinnerungen sollten einen direkten Link zur Neuanordnung oder eine Ein-Klick-Rückkaufoption enthalten, um die Reibung zu minimieren und die Konversion aus der Benachrichtigung zu maximieren.
 - Kunden, die bereits über einen anderen Kanal (In-Store, Abonnement-Service) neu bestellt haben, müssen unterdrückt werden, um das Senden irrelevanter Erinnerungen zu vermeiden.
 
-
 ## Personalisierte Kategorieseiten
 
 Kategorieseiten dynamisch personalisieren, um zunächst die relevantesten Produkte basierend auf den Vorlieben, früheren Käufen und dem Browserverhalten jedes Kunden anzuzeigen. Wenn Käufer oben auf der Seite Produkte sehen, die ihrem Geschmack entsprechen, entdecken sie, was sie schneller möchten, und konvertieren zu höheren Raten.
@@ -173,7 +129,6 @@ Verwenden Sie das [Verhaltens-](/help/blueprints/use-case-patterns/personalizati
 - Es sollte eine Infrastruktur für A/B-Tests vorhanden sein, um die Umsatzauswirkungen von personalisierter Sortierung gegenüber standardmäßigen Merchandising-Regeln laufend zu messen.
 - [!DNL Experience Platform] Web SDK-Implementierung muss Kategorieseiteninteraktionen (Bildlauftiefe, Produktklicks, Filternutzung) erfassen, um die Rangfolgemodelle kontinuierlich zu verfeinern.
 
-
 ## Follow-up-Kampagnen nach dem Kauf
 
 Senden Sie E-Mails nach dem Kauf mit Tipps zur Produktpflege, zugehörigen Produktvorschlägen, Prüfungsanfragen und Informationen zum Treueprogramm. Der Zeitraum unmittelbar nach dem Kauf ist der Zeitraum, in dem Kunden die Marke am meisten interagieren, was sie zu einem idealen Fenster macht, um die Beziehung zu vertiefen und zukünftige Aktivitäten zu fördern.
@@ -192,7 +147,6 @@ Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-
 - Produktspezifische Inhalte (Pflegehinweise, Benutzerhandbücher, Zubehörvorschläge) erfordern ein Content-Mapping-System, das jede Produktkategorie mit relevanten Folgematerialien verknüpft.
 - Der Zeitpunkt der Überprüfungsanfrage sollte basierend auf der Produktkategorie optimiert werden. Elektronik benötigt möglicherweise eine längere Nutzungsdauer, bevor eine aussagekräftige Überprüfung durchgeführt wird, während Bekleidung kurz nach der Lieferung überprüft werden kann.
 - Kunden, die eine Rückgabe oder einen Austausch einleiten, sollten automatisch aus dem standardmäßigen Post-Purchase-Fluss entfernt und zu einem Service-Wiederherstellungspfad weitergeleitet werden.
-
 
 ## Exklusive VIP-Kundenangebote
 
@@ -232,27 +186,6 @@ Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-pa
 - Wenn ein beliebtes Produkt in begrenzter Menge wieder vorrätig ist, sollten Benachrichtigungen nach dem Anmeldedatum gestaffelt oder priorisiert sein, um zu vermeiden, dass Warnhinweise an mehr Kunden gesendet werden, als der verfügbare Bestand bereitstellen kann.
 - Der Anmeldungsmechanismus für Benachrichtigungen muss die Kanalpräferenz (E-Mail oder Textnachricht) erfassen und die Opt-in-Anforderungen für jeden Kanal erfüllen, insbesondere für SMS.
 - [!DNL Real-Time Customer Data Platform] Profilattribute sollten verfolgen, welche Produkte jeder Kunde beobachtet, damit doppelte Benachrichtigungen verhindert werden, wenn dasselbe Produkt mehrmals wiederhergestellt wird.
-
-
-## Social Proof Personalization
-
-Zeigen Sie personalisierte Social-Proof-Nachrichten an, einschließlich Bewertungen, Bewertungen und Empfehlungen von „Kunden, die dies gekauft haben, haben auch gekauft“, die auf dem Profil und den Präferenzen jedes Kunden basieren. Durch die Anpassung des sozialen Beweises an die Erfahrungen ähnlicher Kunden wird Vertrauen effektiver aufgebaut als durch Bewertungen allein.
-
-### Auswirkung auf den Betrieb
-
-Personalisierter sozialer Korrekturabzug erhöht Konversionsraten und verbessert das Kundenvertrauen, insbesondere bei Erstkäufern und teureren Produkten, bei denen die Kaufzurückhaltung am größten ist.
-
-### Implementieren
-
-Verwenden Sie das [Web-/App-Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)Muster für bekannte Besucher. Dieser Ansatz personalisiert Web-Inhalte für identifizierte Besucher und wählt die relevantesten Reviews und Social-Proof-Elemente basierend auf dem Kundenprofil, den Voreinstellungen und dem Browserkontext aus. Dies ist das richtige Muster, wenn die Personalisierung von Profilattributen und Segmentzugehörigkeit und nicht von einem verhaltensbezogenen Affinitätsmodell gesteuert wird. Verhaltensempfehlungen sind hier nicht geeignet, da die Auswahl des Social-Proof-Tests davon abhängt, wer der Kunde ist, und nicht davon, welche Elemente er durchsucht hat.
-
-### Technische Überlegungen
-
-- Überprüfungs- und Bewertungsdaten müssen nach Kundenattributen strukturiert und getaggt sein (z. B. Kaufkontext, Kundensegment und Produktanwendungsfall), um eine aussagekräftige Filterung und Personalisierung zu ermöglichen.
-- Elemente des sozialen Testversands sollten asynchron geladen werden, um zu vermeiden, dass das Rendern der Haupt-Produktseite blockiert wird, da Überprüfungsdaten von einer Prüfplattform eines Drittanbieters mit variablen Antwortzeiten stammen können.
-- Datenschutzbestimmungen verlangen, dass Kundendaten, die zum Abgleichen von Bewertungen mit Besuchern verwendet werden, gemäß den Einverständnisvoreinstellungen verarbeitet werden. Die Anzeige von Inhalten des Typs „Kunden wie Sie“ impliziert Profiling, das möglicherweise offen gelegt werden muss.
-- [!DNL Experience Platform] Zielgruppenzugehörigkeit kann verwendet werden, um auszuwählen, welche Rezensionen hervorgehoben werden sollen, wobei Outdoor-Enthusiasten-Rezensionen von anderen Outdoor-Käufern anstelle von generischen, top bewerteten Rezensionen angezeigt werden.
-
 
 ## KI-Produktberater
 
@@ -312,7 +245,6 @@ Verwenden Sie das Muster [Audience Activation to Destinations](/help/blueprints/
 - Die Häufigkeit der Segmentaktualisierung sollte mit den Kampagnenzielen übereinstimmen. Möglicherweise müssen die Akquise-Zielgruppen täglich aktualisiert werden, während das Retargeting von Zielgruppen von nahezu in Echtzeit durchgeführten Aktualisierungen profitiert, um aktuelle Käufer auszuschließen.
 - Die Überschneidungsanalyse zwischen Akquise- und Bindungs-Audiences hilft dabei, eine Kreuzkontamination zu vermeiden, wenn Bestandskunden Nachrichten zur Neukundenakquise erhalten.
 
-
 ## Kundenunterdrückung für Akquise-Kampagnen
 
 Unterdrücken Sie bestehende Kundinnen und Kunden sowie aktuelle Konvertierer von Akquise und Ausgaben, indem Sie Ausschlusszielgruppen für Paid-Media-Ziele aktivieren und so verschwendete Ausgaben reduzieren. Durch das kontinuierliche Synchronisieren von Unterdrückungslisten wird sichergestellt, dass bezahlte Budgets auf neue Interessenten abzielen und nicht auf Personen, die bereits konvertiert sind oder aktiv interagieren.
@@ -352,7 +284,6 @@ Verwenden Sie das [Web-/App-Personalization für bekannte Besucher](/help/bluepr
 - Inhaltsvarianten müssen für alle Zielgruppensegmente entworfen werden, die angesprochen werden sollen, einschließlich eines Standarderlebnisses für Besuchende, die keiner Personalisierungsregel entsprechen.
 - Personalization-Entscheidungen sollten zur Analyse protokolliert werden, um A/B-Tests von Inhaltsvarianten und die Attribution von Interaktionsverbesserungen auf bestimmte Segmente zu ermöglichen.
 
-
 ## Web-Personalization für anonyme Besucher
 
 Personalisieren Sie Inhalte für nicht identifizierte Website-Besuchende mithilfe von In-Session-Verhaltenssignalen wie aufgerufene Seiten, durchsuchte Produktkategorien und Empfehlungsquelle. Da der Großteil des Web-Traffics im Einzelhandel anonym ist, wird durch die Personalisierung für nicht erkannte Besucher die Reichweite der Personalisierung auf der Site über das authentifizierte Segment hinaus erheblich erweitert.
@@ -372,7 +303,6 @@ Verwenden Sie das [Anonymer Besucher Web Personalization](/help/blueprints/use-c
 - Die Datenschutzanforderungen müssen sorgfältig bewertet werden; einige Gerichtsbarkeiten behandeln die Verhaltenspersonalisierung auch für anonyme Besucher als Einverständnispflicht.
 - Personalization-Regeln für anonyme Besucher sollten einfacher und schneller auszuwerten sein als Regeln für bekannte Besucher, da Edge-Latenzbeschränkungen strenger sind.
 
-
 ## Begrüßungs-Journey
 
 Gestalten Sie eine mehrstufige Willkommens-Journey für neu registrierte Kunden und stellen Sie Onboarding-Inhalte, Produktschulungen und einen Erstankaufsanreiz über E-Mail- und Push-Kanäle bereit. Eine gut durchdachte Begrüßungsserie gibt den Ton für die Kundenbeziehung vor und erhöht die Wahrscheinlichkeit, dass ein neuer Registrant zu seinem ersten Kauf konvertiert, erheblich.
@@ -391,7 +321,6 @@ Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-
 - Die Journey muss Ausstiegsbedingungen enthalten, die verbleibende Nachrichten unterdrücken, wenn ein neuer Kunde seinen ersten Kauf abschließt - die Fortsetzung der Begrüßungsreihe nach dem Kauf untergräbt die Relevanz der Nachricht.
 - Die Kanalpräferenz muss überall eingehalten werden. Push-Benachrichtigungsschritte erfordern eine App-Installation und Push-Opt-in mit E-Mail-Fallback für Kunden ohne Opt-in.
 - Personalization in der Welcome Series verbessert die Konversionsrate, erfordert jedoch genügend Profildaten, um aussagekräftig zu sein. Neue Profile benötigen daher häufig ein Fallback auf Bestseller oder Trend-Produkte.
-
 
 ## Warenkorbabbruch-Wiederherstellung
 
@@ -432,7 +361,6 @@ Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-
 - Nachrichten zu Überprüfungsanfragen müssen den Servicebedingungen der Plattform entsprechen, damit Anreize für Überprüfungen gegeben werden können, und sollten rechtzeitig versandt werden, nachdem der Kunde ausreichend Zeit hatte, das Produkt zu verwenden.
 - Die Kanalkoordination ist wichtig - Kundinnen und Kunden sollten nicht beide E-Mails und Push-Benachrichtigungen für denselben Meilenstein erhalten, es sei denn, sie haben mit dem ersten Kanal interagiert.
 
-
 ## Upgrade-Kampagne für Treuestufe
 
 Ermitteln Sie Kundinnen und Kunden, die sich den Schwellenwerten für die Treuestufe nähern, und stellen Sie zielgerichtete Kampagnen bereit, mit personalisierten Angeboten, die auf dem Kaufverlauf und den Präferenzen basieren, die nächste Stufe zu erreichen. Wenn Kunden ein Stufenupgrade in Reichweite haben, sorgt zielgerichtetes Messaging mit personalisierten Anreizen für Dringlichkeit und steigert das Kaufverhalten.
@@ -451,7 +379,6 @@ Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-
 - Kampagnen mit Stufenupgrades sollten für Kundinnen und Kunden unterdrückt werden, die die Zielstufe bereits erreicht haben oder deren Treuestatus sich seit dem Kampagneneintritt geändert hat.
 - Personalisierte Anreize im Rahmen der Upgrade-Kampagne sollten sich auf Angebote beschränken, für die der Kunde tatsächlich infrage kommt und die den wahrgenommenen Wert der Stufenstruktur nicht untergraben.
 - Die Kampagne muss eindeutige Ausstiegsbedingungen für Kunden enthalten, die ihr Stufenupgrade Mitte Journey abgeschlossen haben, sodass sie lieber eine Glückwunschnachricht senden, als die Überredungssequenz fortzusetzen.
-
 
 ## Kanalübergreifende Orchestrierung einer Kampagne
 
@@ -472,7 +399,6 @@ Verwenden Sie das [Cross-Channel Journey with Decisioning](/help/blueprints/use-
 - Die Journey-Orchestrierungslogik sollte den erneuten Eintritt problemlos handhaben und Kunden daran hindern, zweimal in dieselbe Kampagne einzutreten, und gleichzeitig sicherstellen, dass sie nicht von wirklich neuen Kampagnen ausgeschlossen werden.
 - Echtzeit-Interaktionssignale (E-Mail-Öffnungen, Link-Klicks, Websitzungen) sollten zurück auf die Journey geleitet werden, um einen Kanalwechsel und einen frühzeitigen Ausstieg für Kunden zu ermöglichen, die bereits konvertiert haben.
 
-
 ## Brand Concierge - Gesprächserlebnis
 
 Stellen Sie einen KI-gestützten, markensicheren Konversationsagenten für digitale Eigenschaften bereit, um personalisierte Produktanleitung, Hilfe bei der Site-Navigation und nahtlose Übergabe an Live-Agenten bereitzustellen. Ein KI-Concierge vor Ort erweitert den personalisierten Service in großem Umfang und hilft Käufern, Produkte zu finden, Optionen zu vergleichen und Käufe abzuschließen, ohne dass ein menschlicher Agent für gängige Fragen erforderlich ist.
@@ -491,24 +417,6 @@ Verwenden Sie das [Brand Concierge Conversational Experience](/help/blueprints/u
 - Die Markensicherheit muss so konfiguriert sein, dass der Agent keine Wettbewerbsprodukte diskutieren, Preisverpflichtungen eingehen kann, die mit Werbeaktionen kollidieren, oder auf Off-Topic-Anfragen reagiert.
 - Die Übergabelogik an Live-Agenten erfordert die Integration mit der Service-Plattform und sollte ausgelöst werden, wenn der KI-Agent die Kundenabfrage nach einer definierten Anzahl von Runden nicht lösen kann.
 - Die Profildatenintegration ermöglicht es dem Agenten, Antworten basierend auf dem Kaufverlauf und dem Treuestatus zu personalisieren. Dies erfordert jedoch eine Identitätsauflösung vor Beginn der Gesprächssitzung.
-
-## Check-in-Erinnerung mit App Download CTA
-
-Erinnern Sie die Gäste daran, einzuchecken, und ermutigen Sie sie, die App herunterzuladen, um leicht auf Informationen zuzugreifen. Rechtzeitige Check-in-Erinnerungen zusammen mit Eingabeaufforderungen zum Herunterladen von Apps fördern die Interaktion mit Mobilgeräten und ermöglichen umfangreichere Erlebnisse am Veranstaltungsort.
-
-### Auswirkung auf den Betrieb
-
-Einzelhändler, die Check-in-Erinnerungen mit Appdownload-Aktionsaufrufen kombinieren, sehen höhere App-Akzeptanzraten und höhere Interaktionen im Geschäft, da Kunden, die die Mobile App verwenden, häufiger mit Werbe- und Veranstaltungsort-Inhalten interagieren.
-
-### Implementieren
-
-Verwenden Sie das [Ereignisausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um eine Check-in-Erinnerung mit der Mobile App zum Herunterladen von CTA auf der Grundlage von Ereignisteilnahme- oder Reservierungsdaten Trigger. Dies ist das richtige Muster, wenn als Reaktion auf ein bekanntes Ereignis oder einen Trigger beim Planen eine einzige zeitnahe Nachricht gesendet werden muss.
-
-### Technische Überlegungen
-
-- Check-in-Erinnerungen müssen zeitlich am Ereignis- oder Besuchsdatum ausgerichtet sein, um die Interaktion zu maximieren, ohne dass sie als zu früh oder zu spät wahrgenommen werden.
-- Deep-Links zum App-Download sollten basierend auf der Geräteplattform des Kunden (iOS oder Android) zum richtigen App Store weitergeleitet werden.
-- Kunden, die die App bereits installiert haben, sollten eine andere Nachrichtenvariante erhalten, bei der der CTA-Download übersprungen wird und der Schwerpunkt auf der Eincheckfunktion liegt.
 
 ## Geburtstagskampagnen für Fans
 
@@ -582,20 +490,3 @@ Verwenden Sie das [Aktivierungsmuster für Batch-](/help/blueprints/use-case-pat
 - Bei der Zielgruppensegmentierung sollten der Kaufverlauf, das Browser-Verhalten und die Produktaffinität genutzt werden, um Kunden anzusprechen, die mit größter Wahrscheinlichkeit mit den beworbenen Produkten interagieren.
 - Die Frequenzlimitierung sollte angewendet werden, um Werbe-Ermüdung zu vermeiden, insbesondere wenn mehrere Kampagnen gleichzeitig ausgeführt werden.
 
-## Warenkorbabbruch
-
-Binden Sie Kunden, die ihren Warenkorb verlassen, erneut mit personalisierten Erinnerungen und Anreizen ein, um den Kauf abzuschließen. Die Wiederherstellung bei Warenkorbabbrüchen ist einer der Anwendungsfälle mit dem höchsten ROI im Einzelhandelsmarketing.
-
-### Auswirkung auf den Betrieb
-
-Warenkorbabbruch-Recovery-Kampagnen erzielen einen aussagekräftigen Prozentsatz des sonst verlorenen Umsatzes, indem sie Kunden zum Zeitpunkt der höchsten Kaufabsicht mit personalisierten Erinnerungen und Anreizen erneut kontaktieren.
-
-### Implementieren
-
-Verwenden Sie das [Ereignis-ausgelöste Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster, um eine Wiederherstellungsmeldung Trigger, wenn ein Warenkorbabbruchs-Ereignis erkannt wird. Dies ist das richtige Muster, wenn als Reaktion auf ein Verhaltensereignis eine einzelne Echtzeitnachricht gesendet werden muss, z. B. wenn Artikel im Warenkorb gelassen werden, ohne den Checkout abzuschließen.
-
-### Technische Überlegungen
-
-- Die Erkennung eines Warenkorbabbruchs erfordert einen definierten Inaktivitätsschwellenwert (in der Regel 30-60 Minuten), um einen echten Abbruch von Kunden zu unterscheiden, die noch im Internet surfen.
-- Der Inhalt des Warenkorbs muss in der Ereignis-Payload übergeben werden, um personalisierte Produkterinnerungen in der Wiederherstellungsmeldung zu ermöglichen.
-- Kunden, die ihren Kauf zwischen dem Abbruchs-Ereignis und dem Versand der Nachricht abschließen, müssen unterdrückt werden, um irrelevante Nachrichten zu vermeiden.

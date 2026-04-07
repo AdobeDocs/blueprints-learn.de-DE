@@ -3,9 +3,9 @@ title: Anwendungsfälle für Versicherungen
 description: Erfahren Sie, wie Versicherungsunternehmen Adobe Experience Platform verwenden, um die Richtlinienverwaltung zu personalisieren, die Schadenerfahrung zu verbessern und die Kundenbindung zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3016'
+source-wordcount: '2543'
 ht-degree: 0%
 
 ---
@@ -152,46 +152,6 @@ Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/person
 - Konfigurieren Sie Entscheidungsregeln, die den Einschränkungen für die Rabattstapelung Rechnung tragen und sicherstellen, dass die kommunizierten Einsparbeträge genau sind und vom Preisfindungs-Team genehmigt wurden.
 - Anwendung bundesstaatlicher Regeln für Rabattmitteilungen, da bestimmte Staaten Beschränkungen für den Vertrieb und die Anwendung von Versicherungsrabatten haben.
 - Verfolgen Sie die Ergebnisse der Rabattakzeptanz, um das Entscheidungsmodell kontinuierlich zu verfeinern und die Sparbotschaften zu priorisieren, die bei den verschiedenen Kundensegmenten am meisten Anklang finden.
-
-
-## Betrugsbekämpfung bei Schadensfällen
-
-Verwenden Sie intelligente Betrugserkennung, um verdächtige Schadenmuster zu identifizieren und die Ermittlungskommunikation zu personalisieren, während das Vertrauen der Kunden gewahrt bleibt. Eine wirksame Betrugsprävention schützt ehrliche Versicherungsnehmer, indem sie die Prämien fair hält und sicherstellt, dass berechtigte Ansprüche schnell bearbeitet werden.
-
-### Auswirkung auf den Betrieb
-
-Mit intelligenten Programmen zur Betrugsbekämpfung werden die Aufdeckungsraten bei Betrug verbessert, betrügerische Auszahlungen reduziert und die Gesamtkosten für Schadenersatzansprüche gesenkt.
-
-### Implementieren
-
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Betrugsrisiko-Bewertungsereignisse Trigger geeigneter Ermittlungsmitteilungen und Prozessanpassungen in Echtzeit, um sicherzustellen, dass gekennzeichnete Schadensfälle sofort bearbeitet werden. Dies ist das richtige Muster, wenn ein vom System abgeleitetes Ereignis (Betrugsrisikobewertung) der Trigger ist und die erforderliche Maßnahme eine sofortige interne Prozessanpassung mit sorgfältiger Kundenkommunikation ist - und nicht ein mehrstufiges Journey- oder Entscheidungsszenario.
-
-### Technische Überlegungen
-
-- Integrieren Sie Betrugsrisikobewertungen aus dem Schadensanalysesystem in das Kundenprofil, während Sie strenge Data-Governance-Kennzeichnungen anwenden, um zu verhindern, dass Betrugsuntersuchungsdaten in kundenorientierten Kommunikationen angezeigt werden.
-- Entwerfen Sie Kommunikationswege, die einen professionellen, respektvollen Ton für Kunden aufrechterhalten, deren Ansprüche überprüft werden, und bewahren Sie die Beziehung unabhängig vom Untersuchungsergebnis.
-- Implementieren Sie rollenbasierte Zugriffskontrollen, um sicherzustellen, dass Betrugsindikatoren nur für autorisierte Ermittlungsteams sichtbar sind und nie in den standardmäßigen Agenten- oder Kundendienstansichten angezeigt werden.
-- Koordinieren Sie sich mit dem [!DNL Adobe Experience Platform] Identity Resolution Service, um Muster in verwandten Profilen zu erkennen, z. B. freigegebene Adressen oder Telefonnummern, die mit mehreren verdächtigen Ansprüchen verknüpft sind.
-
-
-## Wellness- und Präventionsprogramme
-
-Personalisieren Sie die Kommunikation zum Wellness-Programm, Teilnahmerinnerungen und Prämienbenachrichtigungen für Kund*innen von Kranken- und Lebensversicherungen auf Grundlage ihrer Ziele und Interaktionsstufen. Aktive Wellness-Programme verbessern die Gesundheit der Versicherungsnehmer und schaffen einen stärkeren, engagierteren Kundenstamm.
-
-### Auswirkung auf den Betrieb
-
-Personalisierte Mitteilungen über Wellness- und Präventionsprogramme fördern die Teilnahme an Programmen, tragen zu besseren gesundheitlichen Ergebnissen bei und reduzieren die Schadenshäufigkeit.
-
-### Implementieren
-
-Verwenden Sie das [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)-Muster. Wellnessprogramme sind nachhaltige Interaktionserlebnisse mit Meilensteinen, Herausforderungen und Belohnungen, die eine adaptive Orchestrierung basierend auf der Aktivität und dem Fortschritt jedes Teilnehmers erfordern. Dies ist das richtige Muster, wenn der Anwendungsfall einen langfristigen, mehrfachen Nachrichtenfluss mit interaktionsbasierter Verzweigung und adaptiven Timing-Anpassungen erfordert - ereignisgesteuertes Messaging kann die komplexe Meilenstein-Logik nicht verarbeiten oder die Notwendigkeit, die Kommunikationskadenz auf der Grundlage von nachhaltigem Aktivitäts-Tracking anzupassen.
-
-### Technische Überlegungen
-
-- Integration mit Daten-Feeds für Wearable-Geräte und Gesundheitsanwendungen mithilfe [!DNL Adobe Experience Platform] Streaming-Aufnahme, wobei klare Data Governance-Kennzeichnungen angewendet werden, um Wellness-Daten von Versicherungs- oder Schadensdaten zu unterscheiden.
-- Implementieren Sie separate Einverständnismechanismen für die Wellness-Datenerfassung, um sicherzustellen, dass die Teilnehmer verstehen, wie ihre Gesundheitsaktivitätsdaten verwendet werden, und sich abmelden können, ohne ihre Richtlinie zu beeinflussen.
-- Entwerfen Sie eine Journey-Logik, die die Programmintensität und die Kommunikationsfrequenz auf der Grundlage des Interaktionsniveaus jedes Teilnehmers anpasst, um Ermüdung zu vermeiden und anhaltende Teilnahme zu fördern.
-- Wenden Sie sich vor dem Start an Ihre Rechts- und Compliance-Teams, um die Strukturen der Wellness-Incentive-Programme und die Prämienrabatte auf die Einhaltung der geltenden staatlichen Versicherungsvorschriften zu überprüfen.
 
 
 ## Koordination von Agent und Broker

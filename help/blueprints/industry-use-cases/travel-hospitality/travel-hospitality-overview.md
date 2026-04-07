@@ -3,9 +3,9 @@ title: Anwendungsfälle für Reisen und Gastgewerbe
 description: Erfahren Sie, wie Reise- und Gastgewerbeunternehmen Adobe Experience Platform verwenden, um Buchungen zu personalisieren, abgebrochene Reservierungen wiederherzustellen und die Kundentreue der Gäste zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '4015'
+source-wordcount: '3744'
 ht-degree: 0%
 
 ---
@@ -32,26 +32,6 @@ Verwenden Sie das [Anonymer Besucher Web Personalization](/help/blueprints/use-c
 - Die Personalization-Regeln sollten saisonale Reisetrends nach Region berücksichtigen, zum Beispiel Warmwetterdestinationen für Besucher in kalten Klimazonen während der Wintermonate.
 - Fallback-Inhaltsstrategien sind für Besuchende von entscheidender Bedeutung, deren Standort nicht ermittelt werden kann oder die über Anonymisierungsdienste ankommen.
 - Die Integration mit dem Verfügbarkeits-Feed des Reservierungssystems stellt sicher, dass die vorgestellten Objekte und Reiserouten tatsächlich buchbar sind, sodass Frustration nicht durch ausverkaufte Optionen verursacht wird.
-
-
-## Warenkorbabbruch Recovery-Journey
-
-Erkennen Sie automatisch, wenn ein Kunde seinen Warenkorb verlässt, und erstellen Sie einen mehrstufigen E-Mail-Trigger mit personalisierten Angeboten, um zum Abschluss zu ermutigen. Aufgegebene Reservierungen stellen einen der größten Einnahmeverluste in den Bereichen Reisen und Gastgewerbe dar, und eine rechtzeitige Nachverfolgung während der Reiseabsicht noch frisch ist, deckt einen bedeutenden Anteil dieser Buchungen ab.
-
-### Auswirkung auf den Betrieb
-
-Effektive Buchungs-Recovery-Programme erzielen aussagekräftige Warenkorb-Recovery-Raten und können je nach Buchungsvolumen und durchschnittlichem Reisewert signifikante inkrementelle Einnahmen generieren.
-
-### Implementieren
-
-Verwenden Sie das [Ereignis-ausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)-Muster. Dieser Ansatz reagiert auf ein Echtzeit-Warenkorbabbruchs-Ereignis und sendet eine rechtzeitige Erinnerung, während die Reiseabsicht des Kunden immer noch hoch ist. Dies ist das richtige Muster, wenn der Trigger ein Echtzeit-Kundenverhaltensereignis ist und die erforderliche Antwort eine einzige, zeitabhängige Nachricht ist - und keine mehrstufige Nurture-Sequenz oder dynamische Angebotsauswahl, die sich je nach Kundenantwort ändert.
-
-### Technische Überlegungen
-
-- Die Schwellenwerte für die Warenkorbabbruch-Erkennung sollten die längeren Betrachtungszyklen berücksichtigen, die bei Reisekäufen typisch sind; eine Verzögerung von 2-4 Stunden vor der ersten Erinnerung ist oft besser geeignet als die 30-60 Minuten, die im Einzelhandel verwendet werden.
-- Der E-Mail-Inhalt muss zum Versandzeitpunkt die aktuellen Preise, die Verfügbarkeit von Zimmern oder Kabinen sowie Bilder aus dem Reservierungssystem dynamisch abrufen, da sich Reisebestände und Tarife häufig ändern.
-- Personalisierte Anreize wie kostenlose Upgrades oder Resort-Credits sollten durch Geschäftsregeln verwaltet werden, die Marge, Saisonabhängigkeit und die Treuestufe des Kunden berücksichtigen.
-- Um irrelevante Folgenachrichten zu vermeiden, muss die Unterdrückungslogik Kunden ausschließen, die ihre Buchung über einen anderen Kanal durchgeführt haben, z. B. ein Callcenter oder ein Reisebüro.
 
 
 ## Zielgruppenbestimmung bei Besuchern mit hoher Absicht

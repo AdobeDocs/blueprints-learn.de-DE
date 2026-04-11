@@ -797,7 +797,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 - [Dynamische Inhalte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 - [Arbeiten mit Inhaltsvorlagen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [Anzeigen einer Vorschau und Testen der Inhalte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Anzeigen einer Vorschau und Testen der Inhalte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 ### Konflikt-, Prioritäts- und Frequenzverwaltung
 

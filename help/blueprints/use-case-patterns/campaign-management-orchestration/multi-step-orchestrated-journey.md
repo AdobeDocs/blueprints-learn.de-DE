@@ -124,7 +124,7 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 | Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie Interaktionswerte, Tage seit der letzten Aktivität oder der Lebenszeitkaufwert verbessern die Logik der Bedingungsverzweigung und ermöglichen intelligentere Journey-Pfadentscheidungen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
-| Data Lifecycle Management | Empfohlen | Die Aufbewahrung von Journey-Ereignisdaten sollte mit Datensatz-Ablaufrichtlinien konfiguriert werden, um den Speicher zu verwalten und die Vorschriften zur Datenaufbewahrung einzuhalten. Durch die Durchsetzung des Einverständnisses wird sichergestellt, dass nur angemeldete Profile Nachrichten an jedem Kanal-Touchpoint erhalten. | [Erweiterte Übersicht über das Data Lifecycle Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home), [Datensatzgültigkeiten](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| Data Lifecycle Management | Empfohlen | Die Aufbewahrung von Journey-Ereignisdaten sollte mit Datensatz-Ablaufrichtlinien konfiguriert werden, um den Speicher zu verwalten und die Vorschriften zur Datenaufbewahrung einzuhalten. Durch die Durchsetzung des Einverständnisses wird sichergestellt, dass nur angemeldete Profile Nachrichten an jedem Kanal-Touchpoint erhalten. | [Erweiterte Übersicht über das Data Lifecycle Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home), [Datensatzgültigkeiten](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
 | Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen stellen eine konforme Personalisierung über mehrere Nachrichten-Touchpoints hinweg sicher. Dies ist besonders wichtig, wenn Journey personenbezogene Daten oder vertrauliche Daten für die kanalübergreifende Personalisierung verwenden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home), [Übersicht über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview) |
 | Überwachung und Beobachtbarkeit | Eingeschlossen | Warnhinweise zur Journey-Ausführungsüberwachung bei Verarbeitungsfehlern, Engpässen bei der Profileingabe und Versandproblemen. Wesentlich für Produktions-Journey, bei denen Verzögerungen oder Ausfälle das Kundenerlebnis beeinträchtigen. | [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview), [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home) |
 | Reporting und Analyse | Eingeschlossen | CJA funnel und Fallout-Analysen auf der gesamten Journey bieten eine tiefere insight als native AJO-Berichte allein. Ermöglicht die schrittweise Konversionsanalyse, den Kohortenvergleich und die Journey-Optimierung. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Übersicht über Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home) |
@@ -441,7 +441,7 @@ Sollten freigegebene Inhaltsblöcke (Kopfzeilen, Fußzeilen, Rechtstext) als wie
 - [Dynamische Inhalte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 - [Arbeiten mit Inhaltsvorlagen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [Erstellen einer SMS-Nachricht](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/create-sms)
+- [Erstellen einer SMS-Nachricht](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/create-sms)
 - [Gestalten einer Push-Benachrichtigung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/push/design-push)
 - [Anzeigen einer Vorschau und Testen der Inhalte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
@@ -627,9 +627,9 @@ Sollte eine Journey-Nachricht einen A/B- oder Multivarianz-Test enthalten?
 
 - [Häufigkeitsregeln](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [Übersicht über Geschäftsregeln](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/business-rules)
-- [Prioritätswerte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [Prioritätswerte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
 - [Identifizieren potenzieller Konflikte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/conflicts)
-- [Journey-Begrenzung und Schlichtung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [Journey-Begrenzung und Schlichtung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
 - [Erste Schritte mit einem Inhaltsexperiment](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Erstellen eines Inhaltsexperiments](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [Einverständnis in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
@@ -773,7 +773,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in dieser Implementi
 
 ### Journeys
 
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Erstellen einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Journey-Eigenschaften](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Journey veröffentlichen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
@@ -829,17 +829,17 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in dieser Implementi
 
 - [Häufigkeitsregeln](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [Übersicht über Geschäftsregeln](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/business-rules)
-- [Erste Schritte mit Konflikt- und Prioritätsverwaltung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
-- [Prioritätswerte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [Journey-Begrenzung und Schlichtung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [Erste Schritte mit Konflikt- und Prioritätsverwaltung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
+- [Prioritätswerte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [Journey-Begrenzung und Schlichtung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
 - [Identifizieren potenzieller Konflikte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/conflicts)
 
 ### Zielgruppen und Segmentierung
 
 - [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home)
 - [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language-Referenz](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Streaming-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/streaming-segmentation)
+- [Profile Query Language-Referenz](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview)
+- [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/streaming-segmentation)
 - [Edge-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/edge-segmentation)
 
 ### Reporting und Analysen

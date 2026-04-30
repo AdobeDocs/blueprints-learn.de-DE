@@ -43,7 +43,7 @@ Geben Sie Profil- und Zielgruppenänderungen und -ereignisse per Streaming oder 
 
 ## Verwandte Dokumentation
 
-Weitere Informationen zur Konfiguration von Cloud-Speicher- und Unternehmenszielen finden Sie in der [Dokumentation zu Zielen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Weitere Informationen zur Konfiguration von Cloud-Speicher- und Unternehmenszielen finden Sie in der [Dokumentation zu Zielen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Leitlinien
 

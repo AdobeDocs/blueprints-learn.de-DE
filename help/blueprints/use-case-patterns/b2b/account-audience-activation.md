@@ -118,7 +118,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 | Datenmodellierung und -vorbereitung | Erforderlich | B2B-XDM-Schemata, die mit den Klassen XDM Business Account, XDM Business Opportunity, XDM Business Campaign und XDM Individual Profile konfiguriert wurden. B2B-Feldergruppen werden auf Kontoattribute, Personen-Konto-Beziehungen und Opportunity-Daten angewendet. Für jede B2B-Entität wurden Datensätze erstellt und für Profile aktiviert. Schemabeziehungen definiert zwischen Konto-, Personen-, Opportunity- und Kampagnenentitäten. | [XDM-Systemübersicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [B2B-Schemata in Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
 | Datenquellen und Sammlung | Erforderlich | Für CRM ([!DNL Salesforce], [!DNL Microsoft Dynamics]) und Marketing-Automatisierung ([!DNL Marketo Engage]) konfigurierte Source-Connectoren zur Aufnahme von Konto-, Personen-, Opportunity- und Kampagnendaten. Batch- oder Streaming-Aufnahme-Pipelines sind aktiv. Zuordnungen der Datenvorbereitung, die zum Transformieren von Quelldaten in B2B-XDM-Schemata konfiguriert sind. | [Quellen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [Marketo Engage-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
 | Identitäts- und Profilkonfiguration | Erforderlich | B2B-Identitäts-Namespaces, die für Kontokennungen (Konto-ID, CRM-Konto-ID) und Personenkennungen (E-Mail, CRM-Kontakt-ID, Marketo-Lead-ID) konfiguriert sind. Durch B2B-Identitätsauflösung aufgelöste Personen-Konto-Beziehungen. Für die Kontoprofilvereinheitlichung konfigurierte Zusammenführungsrichtlinien. | [Identity Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [B2B edition of Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b) |
-| Zielgruppendefinition und Segmentierung | Erforderlich | Zielgruppendefinitionen auf Kontoebene, die mit Kontoattributen, Personenattributen und Aktivitätsdaten erstellt wurden. Für Konto-Zielgruppen konfigurierte Auswertungszeitpläne. Für den Ausschluss nicht auswählbarer Konten definierte Unterdrückungszielgruppen. | [Segmentierungs-Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Konto-Zielgruppen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences) |
+| Zielgruppendefinition und Segmentierung | Erforderlich | Zielgruppendefinitionen auf Kontoebene, die mit Kontoattributen, Personenattributen und Aktivitätsdaten erstellt wurden. Für Konto-Zielgruppen konfigurierte Auswertungszeitpläne. Für den Ausschluss nicht auswählbarer Konten definierte Unterdrückungszielgruppen. | [Segmentierungs-Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/types/account-audiences) |
 
 ## Unterstützende Funktionen
 
@@ -459,8 +459,8 @@ In dieser Phase werden Zielgruppen auf Kontoebene definiert und ausgewertet, ind
 
 **Dokumentation zu Experience League:**
 
-- [Konto-Zielgruppen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
-- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/types/account-audiences)
+- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder)
 - [Audience-Komposition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
 
@@ -741,13 +741,13 @@ Die folgenden Ressourcen bieten zusätzlichen Kontext und detaillierte Anleitung
 
 - [Übersicht über Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b)
 - [B2B-Schemata in Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Konto-Zielgruppen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/types/account-audiences)
 - [RT-CDP B2B edition - Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
 
 **Zielgruppenauswertung und Segmentierung**
 
 - [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder)
 - [Audience-Komposition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [Streaming-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Schutzmaßnahmen bei der Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
@@ -794,7 +794,7 @@ Die folgenden Ressourcen bieten zusätzlichen Kontext und detaillierte Anleitung
 **Reporting und Analysen**
 
 - [Übersicht über CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Verbindungen - Übersicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [Verbindungen - Übersicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/overview)
 - [Übersicht über Datenansichten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 
 **Tutorials und Handbücher**

@@ -4,11 +4,32 @@ description: Blueprint für die schnelle Bereitstellung von Journey Optimizer B2
 solution: Journey Optimizer B2B Edition
 exl-id: d7bd0bd3-0f61-4e59-855f-27afc147c9aa
 TQID: https://experienceleague.adobe.com/C1YHOokFyO9UCtTyu0ynDUYg133kP2mHMLfPZHHffpU
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e935834c-48b7-43d8-b754-a815196a1b05
-subfeature_v2: id: c3d6e661-d372-4e98-9fd9-eac771e7e4eeid: d5e018de-9479-48a8-96a8-176c73166631id: f09c7f30-c554-44cf-884c-7557ed69d0c6id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+subfeature_v2:
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
 source-wordcount: 2093
@@ -19,7 +40,7 @@ ht-degree: 2%
 # B2B-Journey, die Marketo Data Blueprint verwenden
 
 >[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [ B2B](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md)Aktivierung und Marketing verfügbar.
+>Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; B2B](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md)Aktivierung und Marketing verfügbar.
 
 In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Engage in Adobe Journey Optimizer B2B edition beschrieben. Es behandelt die Konfiguration benutzerdefinierter Schemata, die Aufnahme von Profilen und Konten sowie die Orchestrierung personalisierter Journey für Einkaufsgruppen. Durch die Verwendung von Marketo Engage-Daten stellt dieser Blueprint eine präzise Zielgruppenbestimmung und Interaktion über mehrere Kanäle hinweg sicher, was zu einer höheren Nachfrage und verbesserten Kundenerlebnissen führt.
 
@@ -57,7 +78,7 @@ In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Enga
    * [Postman-Sammlung verwenden](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}
    * Verwenden [Vorlagen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/templates) in der Platform-Benutzeroberfläche
 1. Erstellen Sie nach Bedarf relationale Schemata zur Darstellung von Geschäftsentitäten wie Käufen, Lizenzen oder Ereignisregistrierungen für Journey-Entscheidungen und E-Mail-Personalisierung.
-1. Schließen Sie die [XDM-Konfiguration“ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}.
+1. Schließen Sie die [XDM-Konfiguration“ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}.
    * Überprüfen Sie den Satz von XDM-Standardfeldern, die in Journey Optimizer B2B edition standardmäßig ausgewählt sind und auch als „verwaltete _&quot; bezeichnet_. Überprüfen Sie den Satz verwalteter Felder, indem Sie zu XDM-Konfiguration in **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]** wechseln.
       * Wählen Sie die Registerkarte **[!UICONTROL Standard]** aus und klicken Sie dann **[!UICONTROL Verwaltete Felder bearbeiten]** sowohl für XDM Individual Profile als auch für XDM Business Account.
       * Wählen Sie die Option **[!UICONTROL Nur ausgewählte Felder anzeigen]**, um die aktuelle Liste der ausgewählten Felder anzuzeigen.
@@ -74,7 +95,7 @@ In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Enga
       * Wählen Sie die Registerkarte **[!UICONTROL Ereignisse]** aus und klicken Sie dann auf **[!UICONTROL Erlebnisereignis auswählen]**.
       * Wählen Sie Erlebnisereignis und Felder aus, die Sie verwenden möchten.
 1. Konfigurieren Sie den [Marketo Engage-Quell-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
-   * Verwenden Sie das Datenwörterbuch, um die [Importzuordnung“ ](https://experienceleague.adobe.com/de/docs/experience-platform/data-prep/ui/mapping#import-mapping) Quell-Connectors zu definieren.
+   * Verwenden Sie das Datenwörterbuch, um die [Importzuordnung“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/data-prep/ui/mapping#import-mapping) Quell-Connectors zu definieren.
    * Es wird empfohlen, das Profil nicht zu aktivieren, bevor die [Überlegungen zur Implementierung](#implementation-considerations) berücksichtigt wurden.
    * Es wird außerdem empfohlen, mindestens Personen, Unternehmen, Chancen und Aktivitäten aufzunehmen, da diese Objekte bei der Erstellung Ihrer Konto-Zielgruppen am nützlichsten sind.
 1. Implementieren [Verknüpfungsregeln für Identitätsdiagramme](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) für Personen:
@@ -98,7 +119,7 @@ Um die Implementierung zu optimieren und die Kompatibilität mit Adobe Journey O
 * **Verwenden von Standardzuordnungen für AJO B2B:**
    * Verwenden Sie die [Standardfeldzuordnungen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) für Journey Optimizer B2B edition, um die Kompatibilität mit der Einkaufsgruppenlogik und der Journey-Orchestrierung sicherzustellen.
 * **Feldaktualisierungen für alle Felder außer E-Mail blockieren:**
-   * Konfigurieren Sie in Marketo Engage die Feldverwaltung so, [ Aktualisierungen für alle Felder ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) Adobe Experience Platform blockiert werden (außer _E-Mail_. Dies hilft, die Datenintegrität aufrechtzuerhalten und gleichzeitig die Identitätsauflösung zu ermöglichen.
+   * Konfigurieren Sie in Marketo Engage die Feldverwaltung so, [&#x200B; Aktualisierungen für alle Felder &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) Adobe Experience Platform blockiert werden (außer _E-Mail_. Dies hilft, die Datenintegrität aufrechtzuerhalten und gleichzeitig die Identitätsauflösung zu ermöglichen.
 * **Implementieren von Identitätsverknüpfungsregeln mit E-Mail als eindeutigem Identity-Namespace**
    * Konfigurieren Sie [Regeln zur Identitätsdiagramm](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview)Verknüpfung) in Adobe Experience Platform so, dass _E-Mail_ explizit als eindeutiger Identity-Namespace verwendet wird. Diese Regeln stellen sicher, dass Profile korrekt über Datenquellen hinweg zugeordnet werden, in denen _E-Mail_ vorhanden ist, was eine robuste Identitätsauflösung ermöglicht. Gemäß den Best Practices von Adobe definieren Sie Verknüpfungsregeln, die E-Mail als stabile und global eindeutige Kennung priorisieren, um ein konsistentes und datenschutzkonformes Identitätsdiagramm zu erhalten.
 Diese Einrichtung bietet ein Gleichgewicht zwischen einfacher Bereitstellung und Data Governance und stellt eine zuverlässige Grundlage für die Orchestrierung von B2B-Journey sicher.
@@ -169,7 +190,7 @@ from
 
 #### E-Mail-Adressen mit doppelten Einträgen
 
-Diese Abfrage gibt die E-Mails mit den meisten doppelten Datensätzen im Datensatz zurück.  Diese Liste kann verwendet werden, um einige dieser Datensätze zu überprüfen, um besser zu verstehen, wie sich die Verknüpfung der Identitäten auf Marketo und CRM auswirken kann.  Weitere Informationen zur Funktionsweise [ Identitätsverknüpfung finden Sie ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) „Identity Service - Übersicht“ .
+Diese Abfrage gibt die E-Mails mit den meisten doppelten Datensätzen im Datensatz zurück.  Diese Liste kann verwendet werden, um einige dieser Datensätze zu überprüfen, um besser zu verstehen, wie sich die Verknüpfung der Identitäten auf Marketo und CRM auswirken kann.  Weitere Informationen zur Funktionsweise [&#x200B; Identitätsverknüpfung finden Sie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) „Identity Service - Übersicht“ .
 
 ```sql
 select
@@ -206,7 +227,7 @@ order by
 
 #### E-Mail als Identität entfernen
 
-Wenn Sie nach der Analyse feststellen, dass E-Mail kein gültiges Feld ist, das als Identitätsfeld verwendet werden soll, kann das Personenschema geändert werden, um E-[ als Identitätsfeld zu entfernen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity)
+Wenn Sie nach der Analyse feststellen, dass E-Mail kein gültiges Feld ist, das als Identitätsfeld verwendet werden soll, kann das Personenschema geändert werden, um E-[&#x200B; als Identitätsfeld zu entfernen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity)
 
 #### Updates von Adobe Experience Platform blockieren
 

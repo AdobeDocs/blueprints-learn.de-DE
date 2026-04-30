@@ -14,7 +14,7 @@ ht-degree: 52%
 # Benutzerdefinierte Datenwissenschaft für den Blueprint zur Profilanreicherung
 
 >[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [ Audience Building ](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md) Activation verfügbar.
+>Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; Audience Building &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md) Activation verfügbar.
 
 Der Blueprint Benutzerdefinierte Datenwissenschaft für die Profilanreicherung veranschaulicht, wie Daten zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um Einblicke in maschinelles Lernen in [!DNL Experience Platform] und die [!DNL Real-Time Customer Data Platform] aus Datenwissenschaft und Tools für maschinelles Lernen zu bieten.
 
@@ -32,7 +32,7 @@ Modellierte Einblicke können in [!DNL Experience Platform] aufgenommen werden, 
 
 ## Leitlinien
 
-* Detaillierte Informationen zu Leitplanken und End-to-End-Latenzen bei der Aufnahme datenwissenschaftlicher Ergebnisse in [!DNL Experience Platform] und das Echtzeit-Kundenprofil finden Sie in den Leitplanken für die Datenaufnahme und im Latenzdiagramm, auf das im Dokument [Bereitstellungsleitplanken“ verwiesen ](../experience-platform/guardrails.md).
+* Detaillierte Informationen zu Leitplanken und End-to-End-Latenzen bei der Aufnahme datenwissenschaftlicher Ergebnisse in [!DNL Experience Platform] und das Echtzeit-Kundenprofil finden Sie in den Leitplanken für die Datenaufnahme und im Latenzdiagramm, auf das im Dokument [Bereitstellungsleitplanken“ verwiesen &#x200B;](../experience-platform/guardrails.md).
 
 ## Verwandte Dokumentation
 

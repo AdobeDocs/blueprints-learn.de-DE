@@ -2,18 +2,14 @@
 title: Bezahlter AJO B2B-Medien-Controller
 description: Priorität von Kampagnen und Aktivierung von Konten für Paid-Media-Ziele
 solution: Journey Optimizer B2B Edition
-exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
 source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
 
 # AJO B2B - Account Journey Orchestration - Paid Media Controller
-
->[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [ B2B](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)Aktivierung und Marketing verfügbar.
 
 ## Übersicht
 
@@ -67,7 +63,7 @@ Allgemeiner Fluss:
 
 ## Architekturdiagramm
 
-<img src="assets/ajo-b2b-paid-media-activation-architecture.svg" alt="Architektur mit bezahltem B2B-Medien-Controller in AJO" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="Architektur mit bezahltem B2B-Medien-Controller in AJO" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Datenmodellierung in B2B-AEP
 
@@ -113,7 +109,7 @@ Die folgenden Schritte enthalten Anleitungen für die Implementierung des Paid M
 
 ## Implementierungsdiagramm
 
-<img src="assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Arbeitsfläche des bezahlten AJO B2B-Medien-Controllers" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Arbeitsfläche des bezahlten AJO B2B-Medien-Controllers" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ### Zielgruppenaktivierung
 

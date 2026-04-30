@@ -5,10 +5,10 @@ user-guide-description: Informieren Sie sich über wichtige Geschäftsziele, Anw
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: abed39b6b6f63f2eef6cb36b400319910f8cf472
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 25%
+source-wordcount: '539'
+ht-degree: 23%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 25%
 
 + [Blueprints zur Orchestrierung des Kundenerlebnisses](/help/blueprints/overview.md)
 + Wichtige Geschäftsziele für AEP und Apps{#business-objectives}
-   + [Überblick](/help/blueprints/business-objectives/overview.md)
+   + [Übersicht](/help/blueprints/business-objectives/overview.md)
    + Akquise und Wachstum{#acquisition-growth}
       + [Neue Kunden gewinnen](/help/blueprints/business-objectives/acquisition-growth/acquire-new-customers.md)
       + [Lead-Generierung erhöhen](/help/blueprints/business-objectives/acquisition-growth/increase-lead-generation.md)
@@ -45,26 +45,37 @@ ht-degree: 25%
       + [Verbessern der Lead-Qualifizierung und -Konversion](/help/blueprints/business-objectives/qualification-sales-b2b/improve-lead-qualification-conversion.md)
       + [Verbessern der Kundeninteraktion](/help/blueprints/business-objectives/qualification-sales-b2b/improve-customer-engagement.md)
 + Anwendungsfallmuster{#use-case-patterns}
-   + [Überblick](/help/blueprints/use-case-patterns/overview.md)
+   + [Übersicht](/help/blueprints/use-case-patterns/overview.md)
    + Zielgruppenbildung und -aktivierung{#audience-building-activation}
       + [Audience Activation zu Zielen](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md)
       + [Zielgruppen-Collaboration mit Segment Match](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)
       + [Ereignisweiterleitung](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md)
-      + [B2B-Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)
+      + [Echtzeit-Profilsuche für Support und Vertrieb](/help/blueprints/use-case-patterns/audience-building-activation/real-time-profile-lookup.md)
+      + [Benutzerdefinierte Datenwissenschaft für die Profilanreicherung](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md)
    + Personalisierung{#personalization-patterns}
       + [Web-Personalization für anonyme Besucher](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)
       + [Web-/App-Personalization für bekannte Besucher](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)
       + [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)
       + [Verhaltensempfehlung](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)
+      + [Edge-Profilzugriff für Web/Mobile Personalization](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md)
+      + [Audience-Freigabe mit Adobe Target](/help/blueprints/use-case-patterns/personalization/audience-sharing-with-target.md)
    + Kampagnenverwaltung und -orchestrierung{#campaign-orchestration-patterns}
       + [Batch-Aktivierung ausgehender Nachrichten](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)
       + [Ereignisausgelöstes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)
       + [Mehrstufige orchestrierte Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
       + [Cross-Channel-Journey mit Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-      + [Einkauf von gruppenbasiertem Marketing und Journey-Management](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md)
+      + [Batch-Orchestrierung und Transaktionsnachrichten in Campaign v8](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)
+      + [Integration von Drittanbieter-Messaging mit Journey Optimizer](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
    + Analyse{#analysis-patterns}
       + [Generierung von Customer Analytics und Insight](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
-      + [B2B-Analyse](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md)
+   + B2B: Aktivierung und Marketing{#b2b-patterns}
+      + [B2B-Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)
+      + [Einkauf von gruppenbasiertem Marketing und Journey-Management](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md)
+      + [B2B-Analyse](/help/blueprints/use-case-patterns/b2b/account-analytics.md)
+      + [B2B-Journey, die Marketo-Daten verwenden](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md)
+      + [Bezahlter AJO B2B-Medien-Controller](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)
+      + [Aufnahme und Erstellung von Marketo und Workfront](/help/blueprints/use-case-patterns/b2b/campaign-intake-and-creation.md)
+      + [Überprüfen und Genehmigen von Marketo und Workfront](/help/blueprints/use-case-patterns/b2b/campaign-review-and-approval.md)
    + Dialogerfahrung{#conversational-experience-patterns}
       + [Brand Concierge - Gesprächserlebnis](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
 + Anwendungsfälle der Branche - Beispiele{#industry-use-cases}
@@ -133,7 +144,7 @@ ht-degree: 25%
          + [Journey Optimizer mit Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + Veraltete Blueprints{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/de/docs/campaign-standard){target="_blank"}
-            + [Real-Time CDP mit Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/de/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [Real-Time CDP mit Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)

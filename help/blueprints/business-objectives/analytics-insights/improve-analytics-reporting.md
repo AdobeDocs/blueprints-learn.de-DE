@@ -2,13 +2,13 @@
 title: Analyse und Reporting verbessern
 description: Erfahren Sie, wie Sie die Reporting-Funktionen durch einheitliche Dashboards und Self-Service-Tools für schnellere, umsetzbarere Marketing-Einblicke verbessern können.
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 9a663191-c89a-41f6-9a10-f99101880ac9
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # Analyse und Reporting verbessern
 
@@ -30,4 +30,4 @@ Die folgenden Anwendungsfallmuster unterstützen dieses Geschäftsziel.
 | Muster | Kategorie | Unterstützung dieses Ziels |
 | --- | --- | --- |
 | [Customer Analytics und Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analyse | Erstellt kanalübergreifende Analyse-Arbeitsbereiche, berechnete Metriken und Dashboards für umfassende Verhaltens- und Leistungsberichte |
-| [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Analyse | bietet Reporting auf Kontoebene und kanalübergreifende B2B-Journey-Analysefunktionen |
+| [B2B Analytics](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | Analyse | bietet Reporting auf Kontoebene und kanalübergreifende B2B-Journey-Analysefunktionen |

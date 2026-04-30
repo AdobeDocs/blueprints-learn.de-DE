@@ -3,7 +3,7 @@ title: B2B-Anwendungsfälle
 description: Erfahren Sie, wie B2B-Unternehmen Adobe Experience Platform verwenden, um die Pipeline zu beschleunigen, die Lead-Qualität zu verbessern und die Kundenexpansion zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Unternehmen, die Account-basierte Marketing-Personalisierung implementieren, pro
 
 ### Implementieren
 
-Verwenden Sie das [B2B-Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)-Muster, um Zielgruppen auf Kontoebene zu erstellen und kanalübergreifend personalisierte Inhalte zu aktivieren. Dieses Muster wurde speziell für Account-basierte Strategien entwickelt und unterstützt sowohl das Targeting auf Konto- als auch auf Personenebene. Dies ist das richtige Muster, wenn das Targeting auf Kontoebene und nicht auf individueller Ebene erfolgen muss - die standardmäßige RT-CDP-Zielgruppenaktivierung unterstützt nicht das Account-basierte Datenmodell, das für ABM-Strategien erforderlich ist.
+Verwenden Sie das [B2B-Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)-Muster, um Zielgruppen auf Kontoebene zu erstellen und kanalübergreifend personalisierte Inhalte zu aktivieren. Dieses Muster wurde speziell für Account-basierte Strategien entwickelt und unterstützt sowohl das Targeting auf Konto- als auch auf Personenebene. Dies ist das richtige Muster, wenn das Targeting auf Kontoebene und nicht auf individueller Ebene erfolgen muss - die standardmäßige RT-CDP-Zielgruppenaktivierung unterstützt nicht das Account-basierte Datenmodell, das für ABM-Strategien erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -267,7 +267,7 @@ B2B-Organisationen mit Account-basierter Zielgruppenaktivierung sehen einen stä
 
 ### Implementieren
 
-Verwenden Sie das [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)-Muster, um Segmente auf Kontoebene mithilfe von Konto-Personen-Beziehungen zu erstellen und für B2B-fähige Paid-Media-Ziele zu aktivieren. Dies ist das richtige Muster, wenn die Erstellung von Zielgruppen auf Kontoebene erfolgen muss - wobei Signale von mehreren Kontakten innerhalb einer kaufenden Organisation kombiniert werden - und nicht auf der Ebene einzelner Personen.
+Verwenden Sie das [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)-Muster, um Segmente auf Kontoebene mithilfe von Konto-Personen-Beziehungen zu erstellen und für B2B-fähige Paid-Media-Ziele zu aktivieren. Dies ist das richtige Muster, wenn die Erstellung von Zielgruppen auf Kontoebene erfolgen muss - wobei Signale von mehreren Kontakten innerhalb einer kaufenden Organisation kombiniert werden - und nicht auf der Ebene einzelner Personen.
 
 ### Technische Überlegungen
 
@@ -287,7 +287,7 @@ B2B-Unternehmen, die die Journey-Orchestrierung für eine Einkaufsgruppe verwend
 
 ### Implementieren
 
-Verwenden Sie das Muster [Kaufen gruppenbasiertes Marketing](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md), um kontoqualifizierte Journey zu erstellen, die Käufergruppenmitglieder nach Rolle segmentieren, Interaktionssignale auf Gruppenebene auswerten und koordinierte Multi-Person-Multi-Touch-Kampagnen mit bedingter Verzweigung basierend auf dem Kontostatus orchestrieren. Dies ist das richtige Muster, wenn die Journey-Logik auf der Ebene der Kontengruppe und nicht auf der Ebene der Einzelperson agieren muss - eine standardmäßige Journey-Orchestrierung auf Personenebene kann die Anforderungen der Gruppenqualifizierung und der personenübergreifenden Koordinierung der B2B-Einkaufsgruppenverwaltung nicht erfüllen.
+Verwenden Sie das Muster [Kaufen gruppenbasiertes Marketing](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md), um kontoqualifizierte Journey zu erstellen, die Käufergruppenmitglieder nach Rolle segmentieren, Interaktionssignale auf Gruppenebene auswerten und koordinierte Multi-Person-Multi-Touch-Kampagnen mit bedingter Verzweigung basierend auf dem Kontostatus orchestrieren. Dies ist das richtige Muster, wenn die Journey-Logik auf der Ebene der Kontengruppe und nicht auf der Ebene der Einzelperson agieren muss - eine standardmäßige Journey-Orchestrierung auf Personenebene kann die Anforderungen der Gruppenqualifizierung und der personenübergreifenden Koordinierung der B2B-Einkaufsgruppenverwaltung nicht erfüllen.
 
 ### Technische Überlegungen
 
@@ -307,7 +307,7 @@ B2B-Organisationen mit Personalisierung auf Kontoebene melden verbesserte Intera
 
 ### Implementieren
 
-Verwenden Sie das [B2B-Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)-Muster, um Profile auf Kontoebene für die Personalisierung über Web- und ausgehende Kanäle hinweg zu aktivieren. Dies ist das richtige Muster, wenn die Hauptanforderung das Targeting auf Kontoebene für die Personalisierung und nicht die Journey-Orchestrierung auf Kontaktebene ist - Account-Profildaten bestimmen die Personalisierungsentscheidungen und nicht die individuellen Verhaltenssignale.
+Verwenden Sie das [B2B-Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)-Muster, um Profile auf Kontoebene für die Personalisierung über Web- und ausgehende Kanäle hinweg zu aktivieren. Dies ist das richtige Muster, wenn die Hauptanforderung das Targeting auf Kontoebene für die Personalisierung und nicht die Journey-Orchestrierung auf Kontaktebene ist - Account-Profildaten bestimmen die Personalisierungsentscheidungen und nicht die individuellen Verhaltenssignale.
 
 ### Technische Überlegungen
 

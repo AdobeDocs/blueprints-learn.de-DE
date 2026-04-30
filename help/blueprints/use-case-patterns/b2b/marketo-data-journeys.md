@@ -2,45 +2,14 @@
 title: B2B-Journey, die Marketo Data Blueprint verwenden
 description: Blueprint für die schnelle Bereitstellung von Journey Optimizer B2B edition mithilfe von Marketo Engage-Daten.
 solution: Journey Optimizer B2B Edition
-exl-id: d7bd0bd3-0f61-4e59-855f-27afc147c9aa
-TQID: https://experienceleague.adobe.com/C1YHOokFyO9UCtTyu0ynDUYg133kP2mHMLfPZHHffpU
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-subfeature_v2:
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-  - id: d5e018de-9479-48a8-96a8-176c73166631
-  - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 2093
+source-wordcount: '2079'
 ht-degree: 2%
 
 ---
 
 # B2B-Journey, die Marketo Data Blueprint verwenden
-
->[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; B2B](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md)Aktivierung und Marketing verfügbar.
 
 In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Engage in Adobe Journey Optimizer B2B edition beschrieben. Es behandelt die Konfiguration benutzerdefinierter Schemata, die Aufnahme von Profilen und Konten sowie die Orchestrierung personalisierter Journey für Einkaufsgruppen. Durch die Verwendung von Marketo Engage-Daten stellt dieser Blueprint eine präzise Zielgruppenbestimmung und Interaktion über mehrere Kanäle hinweg sicher, was zu einer höheren Nachfrage und verbesserten Kundenerlebnissen führt.
 
@@ -70,7 +39,7 @@ In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Enga
 
 ## Architektur
 
-![Lösungsarchitektur für Journey Optimizer B2B edition mit Marketo-Daten](./assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
+![Lösungsarchitektur für Journey Optimizer B2B edition mit Marketo-Daten](/help/blueprints/b2b/assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
 
 ## Implementierungsschritte
 
@@ -102,9 +71,9 @@ In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Enga
    * Definieren, wie Personendatensätze mithilfe von Identity-Namespaces verknüpft werden.
    * Konfigurieren von Identitäts-Namespaces und Identitätszuordnungsregeln in Experience Platform.
    * Validieren der Verknüpfung mit Beispieldaten für Personen und Vorschau-Tools.
-1. Aktivieren der Datensätze „Person“, „Unternehmen“, „Vertriebschancen“ und „Aktivitäten“ für [Profile](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
-1. Definieren Sie Ihr erstes [Konto-Audience](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
-1. Verwenden Sie die Konto-Audience, um eine [Einkaufsgruppe](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) oder eine [Konto-Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) zu definieren.
+1. Aktivieren der Datensätze „Person“, „Unternehmen“, „Vertriebschancen“ und „Aktivitäten“ für [Profile](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+1. Definieren Sie Ihr erstes [Konto-Audience](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
+1. Verwenden Sie die Konto-Audience, um eine [Einkaufsgruppe](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) oder eine [Konto-Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) zu definieren.
    * Wenn ein Konto für die Konto-Zielgruppe qualifiziert ist, wird der Kauf-Gruppenvorgang täglich ausgeführt, um Kaufgruppen zu erstellen und den zugehörigen Personen Rollen zuzuweisen, sobald die Zielgruppe aktualisiert wird.
    * Darüber hinaus wird die Gruppenwartung jeden Freitag um Mitternacht CT durchgeführt. Dieser wöchentliche Prozess behandelt Aktualisierungen, wie das Entfernen von Mitgliedern, die sich nicht mehr qualifizieren, oder das Hinzufügen neu qualifizierter Mitglieder, die während der ursprünglichen Zielgruppenaktualisierung nicht erfasst wurden.
 
@@ -117,7 +86,7 @@ Um die Implementierung zu optimieren und die Kompatibilität mit Adobe Journey O
 * **Verwenden Sie die Standardzuordnungen für den Marketo Source-Connector:**
    * Nutzen Sie die von Adobe bereitgestellten vordefinierten Feldzuordnungen, um die Datenaufnahme zu vereinfachen und den Konfigurationsaufwand zu reduzieren.
 * **Verwenden von Standardzuordnungen für AJO B2B:**
-   * Verwenden Sie die [Standardfeldzuordnungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) für Journey Optimizer B2B edition, um die Kompatibilität mit der Einkaufsgruppenlogik und der Journey-Orchestrierung sicherzustellen.
+   * Verwenden Sie die [Standardfeldzuordnungen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) für Journey Optimizer B2B edition, um die Kompatibilität mit der Einkaufsgruppenlogik und der Journey-Orchestrierung sicherzustellen.
 * **Feldaktualisierungen für alle Felder außer E-Mail blockieren:**
    * Konfigurieren Sie in Marketo Engage die Feldverwaltung so, [&#x200B; Aktualisierungen für alle Felder &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) Adobe Experience Platform blockiert werden (außer _E-Mail_. Dies hilft, die Datenintegrität aufrechtzuerhalten und gleichzeitig die Identitätsauflösung zu ermöglichen.
 * **Implementieren von Identitätsverknüpfungsregeln mit E-Mail als eindeutigem Identity-Namespace**
@@ -239,7 +208,7 @@ Die Leitplanken für B2B-Journey mit Marketo Engage finden Sie in der folgenden 
 
 * [Adobe Journey Optimizer B2B edition - Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Enthält spezifische Leitplanken und Nutzungsparameter für Journey Optimizer B2B edition.
-* Leitplanken für die Bereitstellung von [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* Leitplanken für die Bereitstellung von [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Behandelt allgemeine Leitplanken für die Architektur und Bereitstellung in allen Adobe Experience Platform-Lösungen.
 * [Adobe Marketo Engage - Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 Details zu Leistungs- und Nutzungsschutzmechanismen für Marketo Engage, einschließlich Überlegungen zur Aktivierung und CRM-Synchronisierung.
@@ -253,7 +222,7 @@ Enthält Anleitungen zu Datenaufnahme, Segmentierung und Aktivierungsbeschränku
 * [Leitplanken für Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform)
 * [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)
-* [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/home)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
 * [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 * [Dokumentation zu Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/guide-overview)
 * [XDM-Feldverwaltung (Journey Optimizer B2B edition)](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management)

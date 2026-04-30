@@ -3,9 +3,9 @@ title: Web-Personalization für anonyme Besucher
 description: Erfahren Sie, wie Sie nicht identifizierten Besuchern auf der Grundlage von Verhaltenssignalen während der Sitzung personalisierte Webinhalte bereitstellen können.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '8076'
+source-wordcount: '8109'
 ht-degree: 1%
 
 ---
@@ -104,13 +104,19 @@ Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - Edge-Segmentierung für die Echtzeit-Zielgruppenbewertung auf der Grundlage von Verhaltenssignalen in der Sitzung; Verwaltung anonymer Edge-Profile
 - **[!DNL Adobe Experience Platform] (AEP)** - [!DNL Web SDK] für die Erfassung von Verhaltenssignalen, [!DNL Edge Network] für das Echtzeit-Datenrouting und die Bereitstellung von Personalisierung, Konfiguration des Datenstroms
 
+## Architektur
+
+Die folgende Referenzarchitektur veranschaulicht, wie anonyme Besuchersignale am Edge gesammelt, anhand von Zielgruppenregeln bewertet und zur Bereitstellung personalisierter Inhalte verwendet werden.
+
+![Referenzarchitektur für die Aktivierung und Personalisierung anonymer Zielgruppen](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+
 ## Grundlegende Funktionen
 
 Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
 
 | Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit konfigurierten Web-Kanal-Berechtigungen. [!DNL Web SDK] Implementierungsberechtigungen und Datenstromzugriff, die dem Implementierungs-Team gewährt werden. Benutzende mit Rollen, die die Konfiguration von Web-Kanälen, die Verwaltung von Audiences und die Ausführung von Kampagnen ermöglichen. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
+| Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit konfigurierten Web-Kanal-Berechtigungen. [!DNL Web SDK] Implementierungsberechtigungen und Datenstromzugriff, die dem Implementierungs-Team gewährt wurden. Benutzende mit Rollen, die die Konfiguration von Web-Kanälen, die Verwaltung von Audiences und die Ausführung von Kampagnen ermöglichen. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | Erlebnisereignis-Schema, das Web-Verhaltenssignale erfasst (Seitenansichten, Klicks, Bildlauftiefe, Verweisdaten, UTM-Parameter). Das Schema muss Standardfeldgruppen für Web-Interaktionen enthalten und für das Edge-Profil aktiviert sein, um die Echtzeitauswertung zu unterstützen. Ein entsprechender Datensatz muss erstellt und für das Profil aktiviert werden. | [XDM-System - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) |
 | Datenquellen und Sammlung | Erforderlich | [!DNL Web SDK] muss in allen Ziel-Web-Eigenschaften implementiert werden. Dabei muss ein Datenstrom konfiguriert sein, um Daten an [!DNL AEP Edge Network] weiterzuleiten. Für den Datenstrom müssen die [!DNL Adobe Experience Platform]- und [!DNL Adobe Journey Optimizer]-Services aktiviert sein. Dies ist eine kritische Abhängigkeit - ohne [!DNL Web SDK] ist keine Erfassung von Verhaltenssignalen oder die Bereitstellung von Erlebnissen möglich. | [Web SDK - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home) |
 | Identitäts- und Profilkonfiguration | Erforderlich | ECID ([!DNL Experience Cloud ID]), konfiguriert als primärer Identity-Namespace für anonyme Besucher. Die Edge-Zusammenführungsrichtlinie muss mit `isActiveOnEdge: true` konfiguriert werden, um anonyme Profildaten am Edge aufzulösen. Pro Sandbox kann nur eine Zusammenführungsrichtlinie am Edge aktiv sein. | [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home) |
@@ -707,7 +713,7 @@ Die folgenden Experience League-Ressourcen bieten zusätzliche Details zu den in
 
 - [Überblick über das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Erstellen von Platzierungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Entscheidungsregeln erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Personalisierte Angebote erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Erstellen von Fallback-Angeboten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Erstellen von Sammlungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)

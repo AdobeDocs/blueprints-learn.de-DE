@@ -3,18 +3,14 @@ title: 'Blueprint: Benutzerdefinierte Datenwissenschaft zur Profilanreicherung'
 description: Erfahren Sie, wie datenwissenschaftsbasierte Einblicke in aufgenommen werden können [!DNL Experience Platform]  um das Echtzeit-Kundenprofil zu bereichern.
 solution: Data Collection
 kt: 7203
-exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 52%
+source-wordcount: '432'
+ht-degree: 64%
 
 ---
 
 # Benutzerdefinierte Datenwissenschaft für den Blueprint zur Profilanreicherung
-
->[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; Audience Building &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md) Activation verfügbar.
 
 Der Blueprint Benutzerdefinierte Datenwissenschaft für die Profilanreicherung veranschaulicht, wie Daten zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um Einblicke in maschinelles Lernen in [!DNL Experience Platform] und die [!DNL Real-Time Customer Data Platform] aus Datenwissenschaft und Tools für maschinelles Lernen zu bieten.
 
@@ -28,11 +24,16 @@ Modellierte Einblicke können in [!DNL Experience Platform] aufgenommen werden, 
 
 ## Architektur
 
-<img src="assets/data_science.svg" alt="Referenzarchitektur für die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“" style="width:90%; border:1px solid #4a4a4a" />
+<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="Referenzarchitektur für die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Leitlinien
 
-* Detaillierte Informationen zu Leitplanken und End-to-End-Latenzen bei der Aufnahme datenwissenschaftlicher Ergebnisse in [!DNL Experience Platform] und das Echtzeit-Kundenprofil finden Sie in den Leitplanken für die Datenaufnahme und im Latenzdiagramm, auf das im Dokument [Bereitstellungsleitplanken“ verwiesen &#x200B;](../experience-platform/guardrails.md).
+* Detaillierte Informationen zu Leitplanken und End-to-End-Latenzen bei der Aufnahme datenwissenschaftlicher Ergebnisse in [!DNL Experience Platform] und das Echtzeit-Kundenprofil finden Sie in den Leitplanken für die Datenaufnahme und im Latenzdiagramm, auf das im Dokument [Bereitstellungsleitplanken“ verwiesen &#x200B;](/help/blueprints/experience-platform/guardrails.md).
+
+## Überlegungen bei der Implementierung
+
+* In den meisten Fällen muss das Modellergebnis als Profilattribute und nicht als Erlebnisereignisse erfasst werden. Bei den Modellergebnissen kann es sich um einfache Attributzeichenfolgen handeln. Wenn mehrere Modellergebnisse aufgenommen werden sollen, wird empfohlen, ein Feld vom Typ Array oder Zuordnung zu verwenden.
+* Der tägliche Datensatz mit dem Profil-Schnappschuss, der einen täglichen Export der einheitlichen Profilattributdaten darstellt, kann genutzt werden, um Modelle für Profilattributdaten zu trainieren. Die Dokumentation zu Profildatensätzen ist [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=de#profile-attribute-datasets) verfügbar.
 
 ## Verwandte Dokumentation
 

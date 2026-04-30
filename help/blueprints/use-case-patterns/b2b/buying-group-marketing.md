@@ -3,7 +3,7 @@ title: Einkauf von gruppenbasiertem Marketing und Journey-Management
 description: Erfahren Sie, wie Sie Journey auf Kontoebene entwickeln, die Leads zu Einkaufsgruppen qualifizieren, um die B2B-Marketing-Effektivität zu verbessern.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -103,11 +103,11 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 | Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Administration und Governance | Erforderlich | Sandbox mit aktivierten Berechtigungen für [!DNL AJO B2B Edition] und [!DNL RT-CDP B2B Edition]. Rollen, die für B2B-Marketing-Experten, Vertriebsmitarbeiter und Administratoren mit entsprechenden Berechtigungen für die Einkaufsgruppenverwaltung, Account-Journey und CRM-Integrationseinstellungen konfiguriert sind. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
-| Datenmodellierung und -vorbereitung | Erforderlich | B2B-XDM-Schemata, die mit B2B-spezifischen Klassen konfiguriert wurden: XDM Business Account, XDM Business Opportunity, XDM Business Person (Lead/Kontakt), XDM Business Campaign und XDM Business Marketing List. Feldergruppen für Kontoattribute, Personenattribute und Aktivitäts-/Interaktionsdaten müssen vorhanden sein. Für jedes Schema wurden Datensätze erstellt und für das Profil aktiviert. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [B2B-Schemaklassen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition) |
+| Administration und Governance | Erforderlich | Sandbox mit aktivierten Berechtigungen für [!DNL AJO B2B Edition] und [!DNL RT-CDP B2B Edition]. Rollen, die für B2B-Marketing-Experten, Vertriebsmitarbeiter und Administratoren mit entsprechenden Berechtigungen für die Einkaufsgruppenverwaltung, Account-Journey und CRM-Integrationseinstellungen konfiguriert sind. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Datenmodellierung und -vorbereitung | Erforderlich | B2B-XDM-Schemata, die mit B2B-spezifischen Klassen konfiguriert wurden: XDM Business Account, XDM Business Opportunity, XDM Business Person (Lead/Kontakt), XDM Business Campaign und XDM Business Marketing List. Feldergruppen für Kontoattribute, Personenattribute und Aktivitäts-/Interaktionsdaten müssen vorhanden sein. Für jedes Schema wurden Datensätze erstellt und für das Profil aktiviert. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [B2B-Schemaklassen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
 | Datenquellen und Sammlung | Erforderlich | Einrichtung von B2B-Datenaufnahme-Pipelines, normalerweise über den [!DNL Marketo Engage]-Quell-Connector oder [!DNL Salesforce]/[!DNL Dynamics] CRM-Quell-Connectoren. Daten zu Konten, Personen, Opportunities, Kampagnen und Kampagnenmitgliedern müssen in AEP-Datensätze fließen. Verhaltensbezogene Interaktionsdaten (Web-Besuche, E-Mail-Interaktionen, Inhalts-Downloads) müssen ebenfalls zur Interaktionsbewertung aufgenommen werden. | [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home), [Marketo Engage-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
 | Identitäts- und Profilkonfiguration | Erforderlich | B2B-Identitätsauflösung, die zum Auflösen von Personen-Konto-Beziehungen konfiguriert ist. Identity-Namespaces für B2B-Kennungen ([!DNL Marketo] Personen-ID, [!DNL Salesforce] Lead/Kontakt-ID, Konto-ID) müssen vorhanden sein. Für die B2B-Profilvereinheitlichung konfigurierte Zusammenführungsrichtlinien. Kontoprofile müssen aus quellenübergreifenden Daten vereinheitlicht werden. | [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home), [B2B-Identitätsauflösung](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) |
-| Zielgruppendefinition und Segmentierung | Erforderlich | Zielgruppendefinitionen auf Kontoebene, die mit Kontoattributen, Personenattributen und Aktivitätsdaten erstellt wurden. Konto-Zielgruppen identifizieren, welche Konten in die Journey der Einkaufsgruppe eintreten. Die Batch-Auswertung ist in der Regel ausreichend für B2B-Account-Journey, obwohl die Streaming-Auswertung für Trigger der Echtzeit-Kontoqualifizierung verwendet werden kann. | [Segmentierungs-Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home), [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/types/account-audiences) |
+| Zielgruppendefinition und Segmentierung | Erforderlich | Zielgruppendefinitionen auf Kontoebene, die mit Kontoattributen, Personenattributen und Aktivitätsdaten erstellt wurden. Konto-Zielgruppen identifizieren, welche Konten in die Journey der Einkaufsgruppe eintreten. Die Batch-Auswertung ist in der Regel ausreichend für B2B-Account-Journey, obwohl die Streaming-Auswertung für Trigger der Echtzeit-Kontoqualifizierung verwendet werden kann. | [Segmentierungs-Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/types/account-audiences) |
 
 ## Unterstützende Funktionen
 
@@ -117,9 +117,9 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute können Interaktionsereignisse auf Personenebene (E-Mail-Öffnungen, Inhalts-Downloads, Webinar-Anwesenheit) in Interaktionsmetriken auf Kontoebene aggregieren, die die Logik der Einkaufsgruppenbewertung und Kontoqualifizierung unterstützen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Die Einverständnisverwaltung ist für die B2B-E-Mail- und SMS-Kommunikation von entscheidender Bedeutung. Richtlinien zur Datensatzgültigkeit helfen beim Management des Lebenszyklus von Daten mit vorübergehender Interaktion und stellen die Einhaltung von Datenspeicherungsanforderungen sicher. | [Erweitertes Daten-Lifecycle-Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
-| Datennutzungskennzeichnung und -durchsetzung | Empfohlen | B2B-Daten enthalten oft sensible Firmeninformationen und persönliche Daten von Geschäftskontakten. Data-Governance-Richtlinien stellen die konforme Nutzung von B2B-Daten über Ziele hinweg sicher, insbesondere bei der Aktivierung auf Werbeplattformen oder Drittanbietersystemen. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home) |
-| Überwachung und Beobachtbarkeit | Empfohlen | Überwachung stellt sicher, dass B2B-Datenpipelines (CRM/[!DNL Marketo]-Synchronisationen) fehlerfrei sind, Kontoprofile aktualisiert werden und Account-Journey-Ausführungen ohne Fehler fortgesetzt werden. Warnhinweise bei Fehlern im Quelldatenfluss sind wichtig, um die Datenwährung aufrechtzuerhalten. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home) |
-| Reporting und Analyse | Eingeschlossen | B2B-Analytics-Dashboards in [!DNL AJO B2B Edition] bieten Kaufgruppeninteraktionen, Account-Journey-Performance und Pipeline-Metriken. [!DNL CJA B2B Edition] erweitert die -Analyse mit Analysis Workspace auf Kontoebene, Analyse der Einkaufsgruppe und Opportunity-Korrelation. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Datennutzungskennzeichnung und -durchsetzung | Empfohlen | B2B-Daten enthalten oft sensible Firmeninformationen und persönliche Daten von Geschäftskontakten. Data-Governance-Richtlinien stellen die konforme Nutzung von B2B-Daten über Ziele hinweg sicher, insbesondere bei der Aktivierung auf Werbeplattformen oder Drittanbietersystemen. | [Data Governance - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Überwachung und Beobachtbarkeit | Empfohlen | Überwachung stellt sicher, dass B2B-Datenpipelines (CRM/[!DNL Marketo]-Synchronisationen) fehlerfrei sind, Kontoprofile aktualisiert werden und Account-Journey-Ausführungen ohne Fehler fortgesetzt werden. Warnhinweise bei Fehlern im Quelldatenfluss sind wichtig, um die Datenwährung aufrechtzuerhalten. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Reporting und Analyse | Eingeschlossen | B2B-Analytics-Dashboards in [!DNL AJO B2B Edition] bieten Kaufgruppeninteraktionen, Account-Journey-Performance und Pipeline-Metriken. [!DNL CJA B2B Edition] erweitert die Analyse um eine Arbeitsbereichsanalyse auf Kontoebene, eine Einkaufsgruppenanalyse und eine Opportunity-Korrelation. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Anwendungsfunktionen
 
@@ -512,7 +512,7 @@ Entwerfen Sie einen Journey, bei dem Bedingungsknoten den KI-Qualifizierungswert
 **Dokumentation zu Experience League:**
 
 - [Übersicht über Account Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [Konto-Journey-Knoten](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [Konto-Journey-Knoten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [B2B-E-Mail-Authoring](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/email-authoring)
 - [SMS-Kanal in AJO B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sms-authoring)
 - [KI-Assistent für E-Mail-Authoring](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/ai-assistant-emails)
@@ -566,7 +566,7 @@ Wie tief sollten Kaufgruppendaten im CRM angezeigt werden?
 
 **Anwendungsfunktionen:** [!DNL AJO B2B]: B2B-Analytics-Dashboards
 
-In dieser Phase wird ein Framework für das Reporting und die Analyse erstellt, um die Leistung der Einkaufsgruppe, die Effektivität beim Account-Journey und die Pipeline-Wirkung zu messen. [!DNL AJO B2B Edition] bietet integrierte Analytics-Dashboards; [!DNL CJA B2B Edition] erweitert die Analyse (falls lizenziert) um tiefere kanalübergreifende Einblicke auf Kontoebene.
+In dieser Phase wird ein Framework für das Reporting und die Analyse erstellt, um die Leistung der Einkaufsgruppe, die Effektivität beim Account-Journey und die Pipeline-Wirkung zu messen. [!DNL AJO B2B Edition] bietet integrierte Analytics-Dashboards. [!DNL CJA B2B Edition] erweitert die Analyse (falls lizenziert) um tiefere kanalübergreifende Einblicke auf Kontoebene.
 
 #### Entscheidung: Berichterstattungsansatz
 
@@ -591,7 +591,7 @@ Welche Analytics-Tools sollten für die laufende Leistungsüberwachung konfiguri
 **Dokumentation zu Experience League:**
 
 - [B2B-Analytics-Dashboards](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [Interaktions-Dashboard](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [Interaktions-Dashboard](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
 - [Intelligentes Dashboard](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [Übersicht über CJA B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
@@ -667,7 +667,7 @@ Die folgenden Ressourcen enthalten weitere Details zu den Programmen und Funktio
 - [Erstellen von Einkaufsgruppen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
 - [Käufergruppenphasen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
 - [Übersicht über Account Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [Konto-Journey-Knoten](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [Konto-Journey-Knoten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [Warnungs-E-Mails für Verkauf](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
 - [CRM-Vertriebserkenntnisse](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
 
@@ -680,7 +680,7 @@ Die folgenden Ressourcen enthalten weitere Details zu den Programmen und Funktio
 ### B2B-Analysen und Dashboards
 
 - [Dashboard für Einkaufsgruppen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [Interaktions-Dashboard](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [Interaktions-Dashboard](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
 - [Intelligentes Dashboard](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [Übersicht über CJA B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
@@ -695,8 +695,8 @@ Die folgenden Ressourcen enthalten weitere Details zu den Programmen und Funktio
 
 - [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home)
 - [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)
-- [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
-- [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home)
+- [Überblick über Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+- [Übersicht über den Segmentierungs-Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
 
 ### Kanalkonfiguration
 
@@ -705,7 +705,7 @@ Die folgenden Ressourcen enthalten weitere Details zu den Programmen und Funktio
 
 ### Data Governance und Datenschutz
 
-- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home)
+- [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [Erweitertes Data Lifecycle Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home)
 
 ### Ziele

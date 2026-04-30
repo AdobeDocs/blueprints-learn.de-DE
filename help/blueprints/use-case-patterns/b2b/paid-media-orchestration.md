@@ -2,18 +2,14 @@
 title: Bezahlter AJO B2B-Medien-Controller
 description: Priorität von Kampagnen und Aktivierung von Konten für Paid-Media-Ziele
 solution: Journey Optimizer B2B Edition
-exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
 source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
 
 # AJO B2B - Account Journey Orchestration - Paid Media Controller
-
->[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; B2B](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)Aktivierung und Marketing verfügbar.
 
 ## Übersicht
 
@@ -67,7 +63,7 @@ Allgemeiner Fluss:
 
 ## Architekturdiagramm
 
-<img src="assets/ajo-b2b-paid-media-activation-architecture.svg" alt="Architektur mit bezahltem B2B-Medien-Controller in AJO" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="Architektur mit bezahltem B2B-Medien-Controller in AJO" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Datenmodellierung in B2B-AEP
 
@@ -113,7 +109,7 @@ Die folgenden Schritte enthalten Anleitungen für die Implementierung des Paid M
 
 ## Implementierungsdiagramm
 
-<img src="assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Arbeitsfläche des bezahlten AJO B2B-Medien-Controllers" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Arbeitsfläche des bezahlten AJO B2B-Medien-Controllers" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ### Zielgruppenaktivierung
 
@@ -132,5 +128,5 @@ Der Blueprint **Paid Media Controller** zeigt, wie **AJO B2B und AEP** zusammena
 ## Verwandte Dokumentation
 
 - [Kaufen von Blueprint für gruppenbasiertes Marketing und Journey-Management](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Konto- und Kaufen von Journey-Gruppen in AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b) - Produktdokumentation.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) - Produktdokumentation.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - Kontozielgruppen und -aktivierung.

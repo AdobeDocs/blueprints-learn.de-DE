@@ -3,14 +3,33 @@ title: Kaufen von gruppenbasiertem Marketing und Journey-Management-Blueprint
 description: Erfahren Sie, wie Sie eine Journey entwickeln, entwerfen und erstellen, die für eine Einkaufsgruppe in Adobe Journey Optimizer B2B edition qualifiziert ist.
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: 2349
 ht-degree: 0%
 
 ---
 
 # Einkauf von gruppenbasiertem Marketing und Journey-Management-Blueprint
+
+>[!TIP]
+>Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; B2B](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md)Aktivierung und Marketing verfügbar.
 
 Marketing-Teams sehen sich derzeit vielen Herausforderungen gegenüber, wenn es darum geht, dem Vertrieb qualifizierte Leads zur Verfügung zu stellen. Eine dieser Herausforderungen besteht darin, mit den richtigen Personen in der Organisation zusammenzuarbeiten, was sich in der Regel in Anstrengung und Genauigkeit widerspiegelt. Bei _Lead-Scoring_ ist die Gruppe zu eng gefasst und die Teams vermissen möglicherweise die richtigen Mitarbeiter. Bei _Account-Bewertung_ ist ein größerer Aufwand erforderlich, um die richtige Person mit einer solch umfassenden Ansicht eines Accounts zu identifizieren.
 
@@ -144,7 +163,7 @@ Die folgenden Schritte bieten Anleitungen zur Aktivierung von Einkaufsgruppen in
 
    Aktivieren Sie die Option Planung für alle Zielgruppen auf der Seite Durchsuchen der → „Zielgruppen →&quot;, um Konto-Zielgruppen zu aktivieren. (In Fällen, in denen dies nicht funktioniert, müssen Sie ein Kundenprofilsegment erstellen, um Kontozielgruppen erstellen zu können.)
 
-   Um ein Segment zu erstellen, befolgen Sie die Schritte in der [Dokumentation zu Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). Die Verwendung von Segment Builder mit den Datenfeldern, die Sie als Schlüssel für Ihre Konto-Zielgruppe identifiziert haben, wäre die wichtigste Aktivität bei der Definition der Zielgruppe.
+   Um ein Segment zu erstellen, befolgen Sie die Schritte in der [Dokumentation zu Konto-Zielgruppen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). Die Verwendung von Segment Builder mit den Datenfeldern, die Sie als Schlüssel für Ihre Konto-Zielgruppe identifiziert haben, wäre die wichtigste Aktivität bei der Definition der Zielgruppe.
 
    In dieser Phase wissen Sie, dass sich der Account auf über RTCDP konzentriert und für die Bausteine der Einkaufsgruppe verwendet wird.
 

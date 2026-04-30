@@ -3,7 +3,7 @@ title: B2B-Analyse
 description: Erfahren Sie, wie Sie Informationen auf B2B-Kontoebene in die kanalübergreifende Journey-Analyse für Kunden einbeziehen.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7528'
 ht-degree: 1%
@@ -107,7 +107,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 | --- | --- | --- | --- |
 | Administration und Governance | Erforderlich | Sandbox mit [!DNL CJA] Berechtigungen für B2B edition und [!DNL RT-CDP] B2B edition konfiguriert. Rollen, die für Dateningenieure, Analysten und Marketing-Operations-Benutzende mit Zugriff auf [!DNL CJA] und das B2B-Datenmodell bereitgestellt wurden. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | B2B-XDM-Schemata, die mithilfe von B2B-Klassen konfiguriert wurden: XDM Business Account, XDM Business Opportunity, XDM Business Account Person Relation, XDM Business Opportunity Person Relation und XDM Business Marketing List Members. Es müssen Feldergruppen für Kontoattribute, Opportunity-Stadien und Einkaufsgruppenrollen definiert werden. Für Profil erstellte und aktivierte Datensätze. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [B2B edition-Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b) |
-| Datenquellen und Sammlung | Erforderlich | B2B-Datenquellen verbunden, normalerweise über den [!DNL Marketo Engage]-Quell-Connector oder [!DNL Salesforce] CRM-Quell-Connector. Account-Datensätze, Opportunity-Datensätze, Personen-Account-Beziehungen und verhaltensbezogene Interaktionsereignisse müssen in AEP-Datensätze fließen. [!DNL Web SDK] Oder [!DNL Marketo] Integration muss Verhaltensereignisse mit Kontoverknüpfung erfassen. | [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home), [Marketo Engage-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| Datenquellen und Sammlung | Erforderlich | B2B-Datenquellen verbunden, normalerweise über den [!DNL Marketo Engage]-Quell-Connector oder [!DNL Salesforce] CRM-Quell-Connector. Account-Datensätze, Opportunity-Datensätze, Personen-Account-Beziehungen und verhaltensbezogene Interaktionsereignisse müssen in AEP-Datensätze fließen. Die [!DNL Web SDK]- oder [!DNL Marketo]-Integration muss Verhaltensereignisse mit Kontozuordnung erfassen. | [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home), [Marketo Engage-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
 | Identitäts- und Profilkonfiguration | Erforderlich | B2B-Identitätsauflösung, die zum Auflösen von Personen-Konto-Beziehungen konfiguriert ist. Konto-ID, Personen-ID ([!DNL Marketo] Lead-ID oder CRM-Kontakt-ID) und geräteübergreifende Identitäten (ECID, E-Mail) müssen verknüpft sein. Das Identitätsdiagramm muss die Viele-zu-viele-Personen-zu-Konto-Zuordnung unterstützen, die bei B2B-Datenmodellen inhärent ist. | [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home), [B2B-Identitätsauflösung](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b) |
 | Zielgruppendefinition und Segmentierung | Angenommen an Ort und Stelle | Zielgruppendefinitionen auf Kontoebene sollten verfügbar sein, wenn B2B-Segmente von [!DNL CJA] zur Aktivierung wieder in AEP veröffentlicht werden. Für Anwendungsfälle, die nur Analytics betreffen, ist dies keine strikte Voraussetzung, wird aber für die segmentbasierte Analyse empfohlen. | [Segmentierungs-Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home) |
 
@@ -360,7 +360,7 @@ Legen Sie die primäre Kennung auf Konto-ID fest. Fügen Sie Datensätze für Ko
 **Für Option B (Global Account-Centric):**
 Legen Sie die primäre Kennung auf Globale Konto-ID fest. Stellen Sie sicher, dass die Kontohierarchiedaten das Feld Globale Konto-ID enthalten. Alle Datensätze müssen die globale Konto-ID enthalten oder mit ihr verknüpft sein, damit sie ordnungsgemäß aggregiert werden können.
 
-**Für Option C (Hybrid):**
+**Bei Option C (Hybrid):**
 Erstellen Sie eine einzige Verbindung mit allen B2B-Datensätzen. Konto-ID als primäre Kennung verwenden. Die personenorientierte Ansicht wird in Phase 2 erstellt, indem eine andere Datenansichtskonfiguration für dieselbe Verbindung verwendet wird.
 
 **Dokumentation zu Experience League:**
@@ -431,7 +431,7 @@ Konfigurieren Sie eine einzelne Datenansicht mit Konto als Container der oberste
 **Für Option B (Global Account-Centric):**
 Konfigurieren Sie das globale Konto als Container der obersten Ebene. Konto als Unter-Container einbeziehen, um sowohl globale als auch untergeordnete Analysen zu ermöglichen.
 
-**Für Option C (Hybrid):**
+**Bei Option C (Hybrid):**
 Erstellen Sie zwei Datenansichten aus derselben Verbindung. Datenansicht 1 verwendet Person als primären Container ([!DNL CJA]). Datenansicht 2 verwendet Konto als primären Container mit B2B-Containern. Ordnen Sie ggf. identische Metriken beiden Ansichten zu.
 
 **Dokumentation zu Experience League:**
@@ -557,11 +557,11 @@ Wichtige Konfigurationsdetails:
 
 **Dokumentation zu Experience League:**
 
-- [Erstellen einer mobilen Scorecard](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Erstellen einer mobilen Scorecard](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [Freigeben von Projekten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
 - [Planen von Projekten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [Scorecards konfigurieren und kuratieren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics-Dashboards - Leitfaden für Führungskräfte](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Adobe Analytics-Dashboards - Leitfaden für Führungskräfte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
 - [Zielgruppen - Übersicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
 - [Erstellen und Veröffentlichen von Zielgruppen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/audiences/publish)
 
@@ -571,7 +571,7 @@ In den folgenden Abschnitten werden Leitplanken, häufige Fallstricke, Best Prac
 
 ### Leitplanken und Beschränkungen
 
-- [!DNL CJA] Verbindungen können Datensätze aus nur einer AEP-Sandbox enthalten - [CJA-Leitplanken](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-admin/guardrails)
+- [!DNL CJA] Verbindungen können Datensätze aus nur einer AEP-Sandbox enthalten - [CJA-Leitplanken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 - Maximal 5.000 Dimensionen und 5.000 Metriken pro Datenansicht
 - Maximal 100 abgeleitete Felder pro Datenansicht
 - Die B2B-Attribution unterstützt Lookback-Fenster von bis zu 13 Monaten für Analysen auf Kontoebene
@@ -639,7 +639,7 @@ Die folgenden Ressourcen enthalten zusätzliche Informationen zur Implementierun
 
 - [Übersicht über CJA B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 - [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJA-Leitplanken](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-admin/guardrails)
+- [CJA-Leitplanken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 
 **Verbindungen**
 
@@ -654,7 +654,7 @@ Die folgenden Ressourcen enthalten zusätzliche Informationen zur Implementierun
 - [Komponenteneinstellungen - Übersicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
 - [Persistenzeinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
 - [Attributionseinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Formateinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [Formateinstellungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
 - [Abgeleitete Felder](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/derived-fields)
 - [Sitzungseinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/session-settings)
 
@@ -674,7 +674,7 @@ Die folgenden Ressourcen enthalten zusätzliche Informationen zur Implementierun
 **Komponenten**
 
 - [Übersicht über Filter](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Erstellen von Filtern](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [Erstellen von Filtern](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
 - [Übersicht über berechnete Metriken](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
 - [Berechnete Metriken erstellen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
 - [Anmerkungen - Übersicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/annotations/overview)
@@ -684,31 +684,31 @@ Die folgenden Ressourcen enthalten zusätzliche Informationen zur Implementierun
 
 - [Zielgruppen - Übersicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
 - [Erstellen und Veröffentlichen von Zielgruppen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/audiences/publish)
-- [Verwalten von Audiences](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/audiences/manage)
+- [Verwalten von Audiences](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
 
 **Dashboards und Scorecards**
 
-- [Erstellen einer mobilen Scorecard](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Erstellen einer mobilen Scorecard](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [Scorecards konfigurieren und kuratieren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics-Dashboards - Leitfaden für Führungskräfte](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Adobe Analytics-Dashboards - Leitfaden für Führungskräfte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
 
 **Geführte Analyse**
 
 - [Geführte Analyse - Übersicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel-Ansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Trend-Ansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [Aufbewahrungsansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Trend-Ansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [Aufbewahrungsansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
 
 **[!DNL RT-CDP]B2B edition**
 
 - [Übersicht über RT-CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#702702)
 - [B2B edition-Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b)
-- [Übersicht über B2B-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/sources/b2b)
+- [Übersicht über B2B-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/sources/b2b)
 
 **AEP Data Foundation**
 
 - [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home)
-- [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+- [Überblick über Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
 - [Marketo Engage-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 - [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)
 - [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home)
@@ -720,6 +720,6 @@ Die folgenden Ressourcen enthalten zusätzliche Informationen zur Implementierun
 
 **Tutorials und Handbücher**
 
-- [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition)
+- [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 - [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview)
 - [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home)

@@ -3,9 +3,9 @@ title: Zielgruppenaktivierung für Ziele
 description: Erfahren Sie, wie Sie Zielgruppensegmente mithilfe von Adobe Real-Time CDP für das Targeting oder die Unterdrückung auswerten und für externe Ziele veröffentlichen können.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '7043'
+source-wordcount: '7080'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Dieses Muster gilt immer dann, wenn das Ziel darin besteht, Zielgruppendaten zum
 Zu den typischen Stakeholdern gehören Teams für digitales Marketing, die bezahlte Medien verwalten, Daten-Teams, die Warehouses anreichern, CRM-Teams, die Kontaktlisten für Kampagnen vorbereiten, und Datenschutz-Teams, die die Einhaltung von Governance-Richtlinien bei ausgehenden Datenflüssen sicherstellen.
 
 >[!NOTE]
->Wenn Ihr Unternehmen [!DNL Real-Time CDP] B2B edition verwendet und für kontobasierte Ziele aktiviert, finden Sie weitere Informationen unter [B2B-Zielgruppenaktivierung](b2b-audience-activation.md). Dieses Muster verwendet dieselbe Aktivierungsmechanik, verwendet jedoch ein B2B-Konto-und-Person-Datenmodell und erfordert eine B2B edition-Lizenz.
+>Wenn Ihr Unternehmen [!DNL Real-Time CDP] B2B edition verwendet und für kontobasierte Ziele aktiviert, finden Sie weitere Informationen unter [B2B-Zielgruppenaktivierung](../b2b/account-audience-activation.md). Dieses Muster verwendet dieselbe Aktivierungsmechanik, verwendet jedoch ein B2B-Konto-und-Person-Datenmodell und erfordert eine B2B edition-Lizenz.
 
 ## Wichtige Geschäftsziele
 
@@ -89,6 +89,12 @@ Verbessern Sie den ROI Ihrer Marketing-Investitionen durch bessere Zielgruppenbe
 
 - **Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP)** - Zielgruppenbewertung, Zielverwaltung, Zielgruppenaktivierung, Einverständnis und Durchsetzung der Governance
 - **Adobe [!DNL Experience Platform] (AEP)** - Profilspeicher, Identity Service, Segmentierungs-Engine, Data Governance
+
+## Architektur
+
+Die folgende Referenzarchitektur veranschaulicht, wie Zielgruppen- und Profildaten von Real-Time CDP zu Unternehmenszielen fließen, einschließlich Cloud-Speicher, Streaming-Endpunkten und SaaS-Programmen.
+
+![Referenzarchitektur für Zielgruppen- und Profilaktivierung für Unternehmensziele](/help/blueprints/audience-activation/assets/known_activation.svg)
 
 ## Grundlegende Funktionen
 
@@ -707,7 +713,7 @@ Beachten Sie die folgenden Überlegungen vor und während der Implementierung.
 
 **Datenerfassung und Quellen**
 
-- [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+- [Überblick über Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
 - [Übersicht über Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home)
 - [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure)
 

@@ -163,7 +163,7 @@ Die folgenden Schritte bieten Anleitungen zur Aktivierung von Einkaufsgruppen in
 
    Aktivieren Sie die Option Planung für alle Zielgruppen auf der Seite Durchsuchen der → „Zielgruppen →&quot;, um Konto-Zielgruppen zu aktivieren. (In Fällen, in denen dies nicht funktioniert, müssen Sie ein Kundenprofilsegment erstellen, um Kontozielgruppen erstellen zu können.)
 
-   Um ein Segment zu erstellen, befolgen Sie die Schritte in der [Dokumentation zu Konto-Zielgruppen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). Die Verwendung von Segment Builder mit den Datenfeldern, die Sie als Schlüssel für Ihre Konto-Zielgruppe identifiziert haben, wäre die wichtigste Aktivität bei der Definition der Zielgruppe.
+   Um ein Segment zu erstellen, befolgen Sie die Schritte in der [Dokumentation zu Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). Die Verwendung von Segment Builder mit den Datenfeldern, die Sie als Schlüssel für Ihre Konto-Zielgruppe identifiziert haben, wäre die wichtigste Aktivität bei der Definition der Zielgruppe.
 
    In dieser Phase wissen Sie, dass sich der Account auf über RTCDP konzentriert und für die Bausteine der Einkaufsgruppe verwendet wird.
 

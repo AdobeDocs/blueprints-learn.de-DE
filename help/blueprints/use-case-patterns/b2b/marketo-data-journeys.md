@@ -71,9 +71,9 @@ In diesem umfassenden Handbuch wird der Prozess der Integration von Marketo Enga
    * Definieren, wie Personendatensätze mithilfe von Identity-Namespaces verknüpft werden.
    * Konfigurieren von Identitäts-Namespaces und Identitätszuordnungsregeln in Experience Platform.
    * Validieren der Verknüpfung mit Beispieldaten für Personen und Vorschau-Tools.
-1. Aktivieren der Datensätze „Person“, „Unternehmen“, „Vertriebschancen“ und „Aktivitäten“ für [Profile](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
-1. Definieren Sie Ihr erstes [Konto-Audience](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
-1. Verwenden Sie die Konto-Audience, um eine [Einkaufsgruppe](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) oder eine [Konto-Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) zu definieren.
+1. Aktivieren der Datensätze „Person“, „Unternehmen“, „Vertriebschancen“ und „Aktivitäten“ für [Profile](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+1. Definieren Sie Ihr erstes [Konto-Audience](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
+1. Verwenden Sie die Konto-Audience, um eine [Einkaufsgruppe](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) oder eine [Konto-Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) zu definieren.
    * Wenn ein Konto für die Konto-Zielgruppe qualifiziert ist, wird der Kauf-Gruppenvorgang täglich ausgeführt, um Kaufgruppen zu erstellen und den zugehörigen Personen Rollen zuzuweisen, sobald die Zielgruppe aktualisiert wird.
    * Darüber hinaus wird die Gruppenwartung jeden Freitag um Mitternacht CT durchgeführt. Dieser wöchentliche Prozess behandelt Aktualisierungen, wie das Entfernen von Mitgliedern, die sich nicht mehr qualifizieren, oder das Hinzufügen neu qualifizierter Mitglieder, die während der ursprünglichen Zielgruppenaktualisierung nicht erfasst wurden.
 
@@ -86,7 +86,7 @@ Um die Implementierung zu optimieren und die Kompatibilität mit Adobe Journey O
 * **Verwenden Sie die Standardzuordnungen für den Marketo Source-Connector:**
    * Nutzen Sie die von Adobe bereitgestellten vordefinierten Feldzuordnungen, um die Datenaufnahme zu vereinfachen und den Konfigurationsaufwand zu reduzieren.
 * **Verwenden von Standardzuordnungen für AJO B2B:**
-   * Verwenden Sie die [Standardfeldzuordnungen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) für Journey Optimizer B2B edition, um die Kompatibilität mit der Einkaufsgruppenlogik und der Journey-Orchestrierung sicherzustellen.
+   * Verwenden Sie die [Standardfeldzuordnungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) für Journey Optimizer B2B edition, um die Kompatibilität mit der Einkaufsgruppenlogik und der Journey-Orchestrierung sicherzustellen.
 * **Feldaktualisierungen für alle Felder außer E-Mail blockieren:**
    * Konfigurieren Sie in Marketo Engage die Feldverwaltung so, [&#x200B; Aktualisierungen für alle Felder &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) Adobe Experience Platform blockiert werden (außer _E-Mail_. Dies hilft, die Datenintegrität aufrechtzuerhalten und gleichzeitig die Identitätsauflösung zu ermöglichen.
 * **Implementieren von Identitätsverknüpfungsregeln mit E-Mail als eindeutigem Identity-Namespace**
@@ -208,7 +208,7 @@ Die Leitplanken für B2B-Journey mit Marketo Engage finden Sie in der folgenden 
 
 * [Adobe Journey Optimizer B2B edition - Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Enthält spezifische Leitplanken und Nutzungsparameter für Journey Optimizer B2B edition.
-* Leitplanken für die Bereitstellung von [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* Leitplanken für die Bereitstellung von [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Behandelt allgemeine Leitplanken für die Architektur und Bereitstellung in allen Adobe Experience Platform-Lösungen.
 * [Adobe Marketo Engage - Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 Details zu Leistungs- und Nutzungsschutzmechanismen für Marketo Engage, einschließlich Überlegungen zur Aktivierung und CRM-Synchronisierung.
@@ -222,7 +222,7 @@ Enthält Anleitungen zu Datenaufnahme, Segmentierung und Aktivierungsbeschränku
 * [Leitplanken für Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform)
 * [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
+* [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/home)
 * [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 * [Dokumentation zu Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/guide-overview)
 * [XDM-Feldverwaltung (Journey Optimizer B2B edition)](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management)

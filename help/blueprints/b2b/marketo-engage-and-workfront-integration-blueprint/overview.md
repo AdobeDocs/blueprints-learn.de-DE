@@ -2,10 +2,22 @@
 title: 'Blueprint-Übersicht: Integration von Marketo Engage und Workfront'
 description: 'Blueprint-Übersicht: Integration von Marketo Engage und Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/EbAEhF-UwPQKQA16T6GtZoP0YlqsgQWHby-MLP-bYuc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2:
+  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 81%
+source-wordcount: 1797
+ht-degree: 89%
 
 ---
 
@@ -71,22 +83,22 @@ Dabei ist es wichtig zu verstehen, wie Workfront und Marketo Engage zusammenarbe
   </tr>
   <tr> 
    <td>Portfolio</td>
-   <td>Sie können in Workfront Projekte mithilfe von Portfolios und Programmen organisieren. Durch die Organisation von Projekten können Sie ähnliche Projekte vergleichen und bestimmen, wo Ressourcen am besten eingesetzt werden.<br /><br />
+   <td>Sie können in Workfront Projekte mithilfe von Portfolios und Programmen organisieren. Durch die Organisation von Projekten können Sie ähnliche Projekte miteinander vergleichen und erkennen, wo Ressourcen am besten eingesetzt werden sollten.<br /><br />
    (Beispielsweise wird eine Portfolio für eine Geschäftseinheit innerhalb eines Unternehmens erstellt, die sich auf den Verkauf von Dienstleistungen und/oder Produkten konzentriert.)</td>
   </tr>
   <tr>
    <td>Programm</td>
-   <td>Mithilfe von Workfront-Programmen können Projekte organisiert werden. Durch die Organisation von Projekten können Sie ähnliche Projekte vergleichen und bestimmen, wo Ressourcen am besten eingesetzt werden.<br /><br />
+   <td>Mithilfe von Workfront-Programmen können Projekte organisiert werden. Durch die Organisation von Projekten können Sie ähnliche Projekte miteinander vergleichen und erkennen, wo Ressourcen am besten eingesetzt werden sollten.<br /><br />
    (z. B. eine Marketing-Strategie mit einem übergeordneten Ziel, z. B. Sensibilisierung und Steigerung der Nachfrage nach einer neuen Produkteinführung.)</td>
   </tr>
   <tr>
    <td>Projekt</td>
-   <td>Workfront-Projekte sind eine Sammlung von Arbeitselementen, die ausgeführt werden müssen, um ein bestimmtes Ziel, eine bestimmte Leistung, ein bestimmtes Produkt usw. zu erreichen<br /><br />
-   (z. B. eine Marketing-Taktik wie eine E-Mail-Explosion, eine Pflegekampagne, ein Webinar oder ein persönliches Ereignis). Ein einzelnes Projekt kann auch komplexer sein, wenn es mehrere Taktiken umfasst, z. B. eine E-Mail, eine Display-Anzeige, eine Landingpage und ein herunterladbares Whitepaper, die alle dasselbe Ziel haben.)</td>
+   <td>Workfront-Projekte bestehen aus einer Reihe von Arbeitsschritten, die zur Erreichung eines bestimmten Ziels oder Ergebnisses oder zur Herstellung eines bestimmten Produkts usw. durchgeführt werden müssen.<br /><br />
+   (Beispiel: eine Marketing-Taktik wie eine Massen-E-Mail, eine Nurture-Kampagne, ein Webinar oder eine Präsenzveranstaltung. Ein einzelnes Projekt kann auch komplexer sein, wenn es mehrere Taktiken umfasst, z. B. eine E-Mail, eine Display-Anzeige, eine Landingpage und ein herunterladbares Whitepaper, die alle dasselbe Ziel haben.)</td>
   </tr>
   <tr>
    <td>Aufgabe</td>
-   <td>Workfront-Aufgaben sind geplante Arbeitsschritte, die Teil eines Projekts oder einer Aktion sein können. Aufgaben werden Benutzern oder Teams zugewiesen, die diese abschließen sollen.<br /><br />
+   <td>Workfront-Aufgaben sind geplante Arbeitsschritte, die Teil eines Projekts oder einer Aktion sein können. Aufgaben werden einzelnen Personen oder ganzen Teams zugewiesen.<br /><br />
    (Beispielsweise kann eine Aufgabe zum Erstellen eines Zielgruppensegments oder zum Erstellen eines E-Mail-Entwurfs eine Aufgabe sein, die mit einem Projekt zum Entwickeln eines Marketo Engage-E-Mail-Programms verknüpft ist.)</td>
   </tr>
   <tr>
@@ -96,12 +108,12 @@ Dabei ist es wichtig zu verstehen, wie Workfront und Marketo Engage zusammenarbe
   </tr>
   <tr>
    <td>Dokument</td>
-   <td>Bei Dokumenten kann es sich um herkömmliche Dokumente wie Textdokumente oder Präsentationen handeln. Auch Grafikdateien sind möglich. Workfront ermöglicht das Testen von Assets durch Kommentare und Anmerkungen zu Dokumenten und Bildern, um die Zusammenarbeit zwischen Teams zu ermöglichen.<br /><br />
+   <td>Bei Dokumenten kann es sich um herkömmliche Dokumente wie Textdokumente oder Präsentationen handeln. Auch Grafikdateien sind möglich. In Workfront können beim Überprüfen von Assets Kommentare und Anmerkungen zu Dokumenten und Bildern hinzugefügt werden, um die Zusammenarbeit zwischen den Teams zu verbessern.<br /><br />
    (z. B. ein E-Mail-Kopfzeilenbild, das überprüft werden muss.)</td>
   </tr>
   <tr>
    <td>Aktualisierung</td>
-   <td>Beinhaltet Kommentare und Audit-Protokolle, um die Arbeit in Workfront zu verfolgen und die Zusammenarbeit zu erleichtern.<br /><br />
+   <td>Enthält Kommentare und Überwachungsprotokolle, um die Arbeitsschritte zu verfolgen und die Zusammenarbeit in Workfront zu erleichtern.<br /><br />
    (z. B. Audit-Protokoll der neuen Image-Version.)</td>
   </tr>
   </tbody>

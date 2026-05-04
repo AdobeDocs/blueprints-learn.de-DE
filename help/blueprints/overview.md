@@ -3,16 +3,26 @@ title: Anwendungsfälle, Architekturdiagramme und Blueprints für Customer Exper
 description: Informieren Sie sich über wichtige Geschäftsziele, Anwendungsfallmuster und branchenspezifische Anwendungsfälle für Adobe Experience Platform und Programme. Visuelle Architekturdiagramme und Blueprints bieten technische Referenzen für Systemintegration, Datenflüsse und Lösungsdesign und verbinden den geschäftlichen Nutzen mit der Implementierung.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 63154ca158b773287f0d1a7f88a81ac3181c43a0
+TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 2%
+source-wordcount: 328
+ht-degree: 4%
 
 ---
 
 # Unternehmensziele, Anwendungsfälle und Architekturdiagramme in Customer Experience Orchestration
 
-Diese Website enthält **Wichtige Geschäftsziele** die Beispiele für den primären Geschäftswert und die Ziele beschreiben, die mit Adobe Experience Platform und Anwendungen erreicht werden können. **Anwendungsfallmuster: Beschreiben** allgemeinen Plattform- und Anwendungsfunktionen mit wiederholbaren Implementierungsansätzen. **Anwendungsfälle für die Branche** Wenden Sie Muster auf vertikale Geschäftsszenarien an. **Architekturdiagramme und Blueprints** sind visuelle Architekturdiagramme und Datenflussreferenzdiagramme, die Systemintegrationspunkte, Daten- und Inhaltsflüsse sowie die Abfolge von Vorgängen veranschaulichen und eine technische Referenz für den Lösungsentwurf bieten. Gemeinsam verbinden diese Ebenen den geschäftlichen Nutzen mit Implementierungsabhängigkeiten und Architektur.
+Diese Website enthält **Wichtige Geschäftsziele** die Beispiele für den primären Geschäftswert und die Ziele beschreiben, die mit Adobe Experience Platform und Anwendungen erreicht werden können. **Anwendungsfallmuster** beschreiben allgemeine Plattform- und Anwendungsfunktionen mit wiederholbaren Implementierungsansätzen. **Anwendungsfälle der Branche** Wenden Sie Muster auf vertikale Geschäftsszenarien an. **Architekturdiagramme und Blueprints** sind visuelle Architekturdiagramme und Datenflussreferenzdiagramme, die Systemintegrationspunkte, Daten- und Inhaltsflüsse sowie die Abfolge von Vorgängen veranschaulichen und eine technische Referenz für den Lösungsentwurf bieten. Gemeinsam verbinden diese Ebenen den geschäftlichen Nutzen mit Implementierungsabhängigkeiten und Architektur.
 
 ## Wichtige Geschäftsziele
 

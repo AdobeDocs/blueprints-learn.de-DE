@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Dies ist die vollständige Markdown-Vorlage für eine Architekturdiagrammseite. Ersetzen Sie alle `{placeholder}` durch den Wert, der in Phase 1 des Qualifikations-Workflows erfasst wurde. Entfernen Sie alle optionalen Abschnitte, die nicht anwendbar sind (z. B. den `>[!MORELIKETHIS]` Block) - lassen Sie keine leeren Platzhalter in der generierten Datei.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -60,7 +60,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
----
+&#x200B;---
 
 ## Regeln der Frontend-Materie
 

@@ -6,7 +6,7 @@ exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
 source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '9040'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -245,7 +245,7 @@ Dieser Ansatz reduziert unnötige Nachrichten, da Kunden Zeit zur Selbstkonverti
 **Experience League:**
 
 - [Warteaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Bedingungsaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Bedingungsaktivität](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Ausstiegskriterien](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
 ### Option C: Ereignisgesteuert mit Frequency Governance
@@ -596,7 +596,7 @@ Konfigurieren Sie Häufigkeitsbegrenzungen auf Organisationsebene über Administ
 - [Erstellen einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Journey-Eigenschaften](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Allgemeine Ereignisse](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [Bedingungsaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Bedingungsaktivität](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Warteaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [Hinzufügen einer Nachricht zu einer Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Ausstiegskriterien](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
@@ -759,12 +759,12 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in dieser Implementi
 
 ### Journey-Orchestrierung
 
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Erstellen einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Journey-Eigenschaften](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Allgemeine Ereignisse](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Zielgruppen-Qualifizierungsereignisse](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [Bedingungsaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Bedingungsaktivität](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Warteaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [Hinzufügen einer Nachricht zu einer Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Ausstiegskriterien](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)

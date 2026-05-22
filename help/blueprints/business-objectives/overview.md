@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Wichtige Geschäftsziele
 
-Die wichtigsten Geschäftsziele definieren die strategischen Ergebnisse, die Unternehmen durch ihre Initiativen für digitale Erlebnisse erreichen möchten. Jedes Ziel ist einem oder mehreren Anwendungsfallmustern zugeordnet[ in ](/help/blueprints/use-case-patterns/overview.md) beschrieben wird, wie Adobe Experience Platform und Anwendungen implementiert werden, um diese Ergebnisse zu erzielen.
+Die wichtigsten Geschäftsziele definieren die strategischen Ergebnisse, die Unternehmen durch ihre Initiativen für digitale Erlebnisse erreichen möchten. Jedes Ziel ist einem oder mehreren Anwendungsfallmustern zugeordnet[&#x200B; in &#x200B;](/help/blueprints/use-case-patterns/overview.md) beschrieben wird, wie Adobe Experience Platform und Anwendungen implementiert werden, um diese Ergebnisse zu erzielen.
 
 Verwenden Sie die folgenden Tabellen, um die für Ihr Unternehmen wichtigsten Geschäftsziele zu identifizieren, und folgen Sie dann den Links, um zu erfahren, welche Anwendungsfallmuster, KPIs und Implementierungsansätze die einzelnen Ziele unterstützen.
 
@@ -68,7 +68,7 @@ Die folgenden Ziele konzentrieren sich auf die Verbesserung von Messung, Reporti
 | --- | --- | --- |
 | [Verbesserung von Analyse und Reporting](analytics-insights/improve-analytics-reporting.md) | Verbessern Sie die Reporting-Funktionen für schnellere, umsetzbarere Marketing-Einblicke durch einheitliche Dashboards und Self-Service-Tools. | Effizienz, Produktivität |
 | [Datengestützte Entscheidungsfindung aktivieren](analytics-insights/enable-data-driven-decision-making.md) | Ermöglichen Sie Teams durch Self-Service-Analysen, Echtzeit-Kundeneinblicke und KI-gestützte Prognosen eine Strategie. | Effizienz, Produktivität |
-| [Marketing-Attribution ](analytics-insights/improve-marketing-attribution.md) | Die Auswirkungen von Marketing-Touchpoints, Kanälen und Kampagnen auf Konversions- und Umsatzergebnisse genau messen. | Effizienz, inkrementeller Umsatz |
+| [Marketing-Attribution &#x200B;](analytics-insights/improve-marketing-attribution.md) | Die Auswirkungen von Marketing-Touchpoints, Kanälen und Kampagnen auf Konversions- und Umsatzergebnisse genau messen. | Effizienz, inkrementeller Umsatz |
 
 ## Qualifizierung und Vertrieb (B2B)
 

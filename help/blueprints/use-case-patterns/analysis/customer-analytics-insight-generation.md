@@ -957,7 +957,7 @@ Die folgenden Ressourcen enthalten zusätzliche Informationen zu diesem Anwendun
 
 - [Übersicht über Datensätze](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview)
 - [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home)
-- [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+- [Überblick über Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
 - [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)
 - [Zielgruppen-Portal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal)
 

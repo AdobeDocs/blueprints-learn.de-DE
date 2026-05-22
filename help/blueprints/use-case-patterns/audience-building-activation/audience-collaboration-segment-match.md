@@ -46,7 +46,7 @@ Verbessern Sie die Targeting-Effizienz, unterdrücken Sie Bestandskunden von Akq
 
 ### Marketing-Ausgaben und -ROI optimieren
 
-Verbessern Sie den ROI Ihrer Marketing-Investitionen durch bessere Zielgruppenbestimmung, Attribution, Unterdrückung von Zielgruppen und Budgetzuweisung. [!DNL Segment Match] Ermöglicht eine organisationsübergreifende Unterdrückung von Zielgruppen und gemeinsames Targeting, wodurch Duplikate reduziert und die Präzision verbessert werden.
+Verbessern Sie den ROI Ihrer Marketing-Investitionen durch bessere Zielgruppenbestimmung, Attribution, Unterdrückung von Zielgruppen und Budgetzuweisung. [!DNL Segment Match] ermöglicht eine organisationsübergreifende Unterdrückung von Zielgruppen und ein gemeinsames Targeting, wodurch Duplikate reduziert und die Genauigkeit verbessert wird.
 
 - **KPIs:** Kosteneinsparungen, Kosten für die Kundenakquise, inkrementelle Einnahmen
 - [Marketing-Ausgaben und -ROI optimieren](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)
@@ -113,7 +113,7 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 | Data Lifecycle Management | Empfohlen | Einverständnis- und Datenspeicherungsrichtlinien stellen sicher, dass freigegebene Segmente die Datenschutzbestimmungen einhalten. Richtlinien zur Datensatzgültigkeit helfen beim Verwalten des Lebenszyklus der empfangenen Zielgruppendaten. Die Durchsetzung des Einverständnisses verhindert die Freigabe von Profilen, die sich abgemeldet haben. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
 | Datennutzungskennzeichnung und -durchsetzung | Eingeschlossen | Data-Governance-Richtlinien müssen vor der Freigabe von Segmenten evaluiert werden, um die Einhaltung der Vorgaben sicherzustellen. Kennzeichnungen für Identitätsfelder und Profilattribute bestimmen, was freigegeben werden kann. Die Durchsetzung von Governance verhindert, dass nicht autorisierte Daten in Segmentfreigaben aufgenommen werden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home) |
 | Überwachung und Beobachtbarkeit | Empfohlen | Durch die Überwachung des [!DNL Segment Match], der Überschneidungsschätzungsvorgänge und der Aktivierungsdatenflüsse können Fehler frühzeitig erkannt werden. Warnhinweise können für Freigabefehler oder unerwartet niedrige Übereinstimmungsraten konfiguriert werden. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home) |
-| Reporting und Analyse | Empfohlen | Die Messung der Leistung von Kampagnen, die übereinstimmende Zielgruppen verwenden, bestätigt den Wert der Zusammenarbeit. [!DNL Customer Journey Analytics] Die Analyse kann die Leistung der abgeglichenen Audience-Kampagnen mit den Kontrollgruppen vergleichen. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Reporting und Analyse | Empfohlen | Die Messung der Leistung von Kampagnen, die übereinstimmende Zielgruppen verwenden, bestätigt den Wert der Zusammenarbeit. [!DNL Customer Journey Analytics] Analyse kann die Leistung der übereinstimmenden Audience-Kampagne mit den Kontrollgruppen vergleichen. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Anwendungsfunktionen
 
@@ -333,13 +333,13 @@ In dieser Phase werden die Zielgruppensegmente definiert und ausgewertet, die ü
 
 **Wo die Optionen unterschiedlich sind:**
 
-**Für Option A (direkte Segmentfreigabe):**
+**Für Option A (Direct Segment Share):**
 Bereiten Sie die spezifischen Segmente vor, die Sie für Ihren einzelnen Partner freigeben möchten. Konzentrieren Sie sich auf Qualität statt Quantität - kuratieren Sie Segmente, die der Partnerschaft einen klaren Wert bieten.
 
 **Für Option B (Verteilung an mehrere Partner):**
 Erstellen Sie ein Portfolio von Segmenten, die mit verschiedenen Partnern geteilt werden können. Erwägen Sie die Erstellung partnerspezifischer Segmente, wenn verschiedene Partner unterschiedliche Zielgruppendefinitionen benötigen. Verwenden Sie konsistente Benennungskonventionen, um Segmente partnerschaftsübergreifend zu verwalten.
 
-**Für Option C (Sandbox-übergreifender Verbund):**
+**Für Option C (Sandbox-übergreifende Föderation):**
 Stellen Sie sicher, dass die Quell-Zielgruppen in der Sende-Sandbox Identity-Namespaces verwenden, die in der Empfangs-Sandbox vorhanden sind. Stellen Sie sicher, dass Zusammenführungsrichtlinien über Sandboxes hinweg ausgerichtet sind.
 
 **Dokumentation zu Experience League:**
@@ -394,13 +394,13 @@ Diese Phase stellt die [!DNL Segment Match] Verbindung zwischen Organisationen o
 
 **Wo die Optionen unterschiedlich sind:**
 
-**Für Option A (direkte Segmentfreigabe):**
+**Für Option A (Direct Segment Share):**
 Eine einzige Partnerverbindung herstellen. Konfigurieren von Identity-Namespaces mit Ihrem spezifischen Partner. Die Governance-Überprüfung konzentriert sich auf die bilateralen Beziehungen.
 
 **Für Option B (Verteilung an mehrere Partner):**
 Erstellen und Verwalten mehrerer Partnerverbindungen. Jeder Partner kann eine separate Überprüfung der Unternehmensführung erfordern. Dokumentieren Sie die Governance-Genehmigung für jede Partnerschaft. Erwägen Sie die Erstellung einer Checkliste für die Governance, um das Onboarding von Partnern zu optimieren.
 
-**Für Option C (Sandbox-übergreifender Verbund):**
+**Für Option C (Sandbox-übergreifende Föderation):**
 Erstellen Sie Sandbox-zu-Sandbox-Verbindungen innerhalb der Organisation. Die Governance ist in der Regel einfacher, da die Freigabe intern erfolgt. Stellen Sie sicher, dass Identity-Namespaces in allen Sandboxes konsistent sind.
 
 **Dokumentation zu Experience League:**
@@ -487,13 +487,13 @@ In dieser Phase wird die tatsächliche Segmentfreigabe vom Absender zum Empfäng
 
 **Wo die Optionen unterschiedlich sind:**
 
-**Für Option A (direkte Segmentfreigabe):**
+**Für Option A (Direct Segment Share):**
 Führen Sie eine einzelne Freigabe für Ihren Partner aus. Überwachen Sie den Freigabestatus und überprüfen Sie die übereinstimmende Zielgruppe auf der Empfängerseite.
 
 **Für Option B (Verteilung an mehrere Partner):**
 Führt Freigaben für jeden Partner unabhängig aus. Verfolgen Sie den Freigabestatus in allen Partnerschaften. Zur Verwaltung der Verarbeitungslast sollte die Freigabe zeitlich gestaffelt initiiert werden.
 
-**Für Option C (Sandbox-übergreifender Verbund):**
+**Für Option C (Sandbox-übergreifende Föderation):**
 Ausführen der Sandbox-übergreifenden Freigabe. Die übereinstimmende Zielgruppe wird in der Zielgruppenliste der empfangenden Sandbox angezeigt. Vergewissern Sie sich, dass die empfangende Sandbox über die erforderlichen Zielkonfigurationen für die nachgelagerte Aktivierung verfügt.
 
 **Dokumentation zu Experience League:**
@@ -546,13 +546,13 @@ In dieser Phase wird die übereinstimmende Zielgruppe (auf der Empfängerseite) 
 
 **Wo die Optionen unterschiedlich sind:**
 
-**Für Option A (direkte Segmentfreigabe):**
+**Für Option A (Direct Segment Share):**
 Der Empfänger aktiviert die übereinstimmende Zielgruppe über den standardmäßigen Ziel-Workflow. Über die normale Zielaktivierung hinaus ist keine spezielle Konfiguration erforderlich.
 
 **Für Option B (Verteilung an mehrere Partner):**
 Jede Empfängerorganisation aktiviert übereinstimmende Zielgruppen unabhängig über ihre eigenen Ziele. Der Absender hat keine Einsicht in die empfängerseitige Aktivierung.
 
-**Für Option C (Sandbox-übergreifender Verbund):**
+**Für Option C (Sandbox-übergreifende Föderation):**
 Die empfangende Sandbox muss über eigene Zielkonfigurationen verfügen. Ziele können nicht über Sandboxes hinweg freigegeben werden. Stellen Sie sicher, dass in der Empfangs-Sandbox die erforderlichen Zielverbindungen hergestellt wurden.
 
 **Dokumentation zu Experience League:**

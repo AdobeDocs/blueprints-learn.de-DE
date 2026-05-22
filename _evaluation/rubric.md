@@ -42,11 +42,11 @@ Nur ein kurzer Überblick.
 
 ### Diagrammsignale (je = +1 Diagramm)
 
-&#x200B;6. **Architektur/Datenflussbild vorhanden** — `.svg`, `.png` oder `.jpg` mit Systemtopologie,
+6. **Architektur/Datenflussbild vorhanden** — `.svg`, `.png` oder `.jpg` mit Systemtopologie,
 Datenfluss oder Integrationspfeile.
-&#x200B;7. **Topologie der System-zu-System-Integration, Bereitstellungsform oder Leitplanken** - beschreibt, wie
+7. **Topologie der System-zu-System-Integration, Bereitstellungsform oder Leitplanken** - beschreibt, wie
 Verbindungen zwischen Komponenten, in denen Daten leben, Bereitstellungsmodelle (Edge vs. Hub) oder Kapazitätsbeschränkungen.
-&#x200B;8. **Zielgruppe sind Lösungsarchitekten** - Framing verwendet Bereitstellung, SDK, Edge, Hub oder Ähnliches
+8. **Zielgruppe sind Lösungsarchitekten** - Framing verwendet Bereitstellung, SDK, Edge, Hub oder Ähnliches
 Architektenorientierte Terminologie statt marketerorientierter Framing (Kampagnen, Journey,
 Zielgruppen).
 

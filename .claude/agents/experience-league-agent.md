@@ -284,7 +284,7 @@ Kurze Gesamtbewertung (Bestehen/Bedarfsänderungen/Hauptprobleme)
 
 ### Probleme gefunden
 Für jede Ausgabe:
-- **Schweregrad**: 🔴 Fehler (muss behoben werden) | 🟡 Warnung (sollte korrigiert werden) | 🔵 Vorschlag (nett zu haben)
+- **Schweregrad**: 🔴 Fehler (muss behoben werden) | 🟡 Warnung (sollte behoben werden) | 🔵 Vorschlag (nett zu haben)
 - **Zeile/**: Wo das Problem auftritt
 - **Regel**: Welche Richtlinie verletzt wird
 - **Aktuell**: Was die Datei derzeit enthält

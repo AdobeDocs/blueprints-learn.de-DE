@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Dies ist die vollständige Markdown-Vorlage für eine Architekturdiagrammseite. Ersetzen Sie alle `{placeholder}` durch den Wert, der in Phase 1 des Qualifikations-Workflows erfasst wurde. Entfernen Sie alle optionalen Abschnitte, die nicht anwendbar sind (z. B. den `>[!MORELIKETHIS]` Block) - lassen Sie keine leeren Platzhalter in der generierten Datei.
 
-&#x200B;---
+---
 
 ```markdown
 ---
@@ -60,7 +60,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
-&#x200B;---
+---
 
 ## Regeln der Frontend-Materie
 
@@ -75,7 +75,7 @@ The architecture above supports the following use case patterns:
 - **Bildpfad** - Immer `assets/{filename}` (relativ zum Themenordner der Seite). Verwenden Sie keine absoluten Pfade.
 - **Adobe-Produktnamen** - `[!DNL ...]` in Textkörper und Aufzählungszeichen einschließen. Beispiel: `[!DNL Real-Time CDP]`, `[!DNL Journey Optimizer]`, `[!DNL Experience Platform]`.
 - **Links für Anwendungsfälle** - Verwenden Sie immer das absolute `/help/blueprints/use-case-patterns/{category}/{file}.md` Formular, damit der Link von jeder Seite aufgelöst wird, die diesen Inhalt enthält.
-- **Experience League-Links** - absolute URLs, die mit `https://experienceleague.adobe.com/de` beginnen. Die kanonische Dokument-URL einer lokalisierten Variante vorziehen.
+- **Experience League-Links** - absolute URLs, die mit `https://experienceleague.adobe.com/` beginnen. Die kanonische Dokument-URL einer lokalisierten Variante vorziehen.
 
 ## Abschnittsreihenfolge
 

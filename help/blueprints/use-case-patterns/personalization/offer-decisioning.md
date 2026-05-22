@@ -32,13 +32,13 @@ Die folgenden Geschäftsziele werden durch dieses Anwendungsfallmuster unterstü
 
 **[Bereitstellen personalisierter Kundenerlebnisse](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 Passen Sie Inhalte, Angebote und Nachrichten an individuelle Voreinstellungen, Verhaltensweisen und Lebenszyklusphasen an.
-**KPIs:**, Konversionsraten, Kundenzufriedenheit (CSAT)
+**KPIs:** Interaktion, Konversionsraten, Kundenzufriedenheit (CSAT)
 
 **[Umsatz durch Crosssell und Upsell steigern](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
 Werben Sie für ergänzende und Premium-Produkte oder -Services für bestehende Kunden auf der Grundlage des Verhaltens und der Kaufhistorie.
-**KPIs:** Upsell-/Crossselling- %, inkrementeller Umsatz, Kundenlebenszeitwert
+**KPIs:** Upsell/Crosssell %, Inkrementeller Umsatz, Kundenlebenszeitwert
 
-**[Steigerung der Kundentreue und des Lebenszeitwerts](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
+**[Steigerung der Kundentreue und des Werts während der gesamten Lebensdauer](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 Vertiefung der Kundenbeziehungen und Maximierung des langfristigen Nutzens durch Treueprogramme, Prämien und personalisierte Interaktion.
 **KPIs:** Kundenlebenszeitwert, Kundenbindung, Upsell/Crosssell %
 
@@ -231,7 +231,7 @@ Bei Code-basierten Erlebnissen ruft das Programm die Entscheidungsantwort ab und
 
 **Wie sich dies von der Web-/App-Personalisierungsoption B für bekannte Besucher unterscheidet:**
 
-Die Infrastruktur ist identisch - beide verwenden AJO Decisioning am Edge mit Web SDK und eine Edge-aktive Zusammenführungsrichtlinie. Der Unterschied liegt im Katalog-Governance-Modell. Diese Option regelt einen Angebotskatalog mit eingeschränkten Eignungsregeln, Begrenzungszählern und Gültigkeitsdaten - verwenden Sie diese Option, wenn geschäftliche oder behördliche Einschränkungen bestimmen, welche Angebote angezeigt werden können und wie oft. [Web-/App-Personalisierung für bekannte Besucher](known-visitor-web-app-personalization.md) Option B wählt aus Inhaltselementen mithilfe von Segmentzugehörigkeit oder Ranking-Strategien ohne Angebotslebenszyklus-Management aus. Wenn Ihr Elementsatz groß ist und sich ständig ändert und keine Begrenzung oder Eignungs-Governance erfordert, verwenden Sie stattdessen die Option B für bekannte Besucher.
+Die Infrastruktur ist identisch - beide verwenden AJO Decisioning am Edge mit Web SDK und eine Edge-aktive Zusammenführungsrichtlinie. Der Unterschied liegt im Katalog-Governance-Modell. Diese Option regelt einen Angebotskatalog mit eingeschränkten Eignungsregeln, Begrenzungszählern und Gültigkeitsdaten - verwenden Sie diese Option, wenn geschäftliche oder behördliche Einschränkungen bestimmen, welche Angebote angezeigt werden können und wie oft. [Web-/App-Personalisierung für bekannte Besucher](known-visitor-web-app-personalization.md) Option B wählt aus Inhaltselementen mithilfe von Segmentzugehörigkeit oder Rangfolgestrategien ohne Angebotslebenszyklusmanagement aus. Wenn Ihr Elementsatz groß ist und sich ständig ändert und keine Begrenzung oder Eignungs-Governance erfordert, verwenden Sie stattdessen die Option B für bekannte Besucher.
 
 ### Option C: Journey-Entscheidungsknoten
 
@@ -267,7 +267,7 @@ Dieser Ansatz ermöglicht adaptive Journey, bei denen die Angebotsentscheidung n
 #### Experience League-Ressourcen
 
 - [Versand von Angeboten in Nachrichten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 
 ### Vergleich von Optionen
 
@@ -354,7 +354,7 @@ Legen Sie fest, wie schnell die Zielgruppenzugehörigkeit für die Angebotseignu
 
 #### Wo die Optionen auseinander gehen
 
-**Für Option A (E-Mail-Entscheidungsfindung):**
+**Für Option A (E-Mail-Entscheidung):**
 Batch- oder Streaming-Auswertung ist ausreichend. Audiences werden vor oder während der Ausführung der Kampagne ausgewertet. Komplexe Segmentregelausdrücke einschließlich zeitbasierter Bedingungen und Ereignisaggregationen werden vollständig unterstützt.
 
 **Für Option B (Web/App in Echtzeit):**
@@ -443,7 +443,7 @@ Legen Sie fest, ob es Beschränkungen für die Häufigkeit der Anzeige eines Ang
 
 - [Überblick über das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Erstellen von Platzierungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Entscheidungsregeln erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Personalisierte Angebote erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Erstellen von Fallback-Angeboten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Erstellen von Sammlungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -559,7 +559,7 @@ Ermitteln, ob es sich um eine geplante Marketing-Kampagne oder eine API-ausgelö
 - [Entwerfen von E-Mail-Inhalten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/design-emails)
 - [Hinzufügen von Personalisierung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Erstellen einer Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Anzeigen einer Vorschau und Testen der Inhalte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 ### Phase 6: Testen und Validieren
@@ -718,7 +718,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den Komponenten, die in 
 
 - [Überblick über das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Erstellen von Platzierungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Entscheidungsregeln erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Personalisierte Angebote erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Erstellen von Fallback-Angeboten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Erstellen von Sammlungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -753,7 +753,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den Komponenten, die in 
 
 - [Erste Schritte mit Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Erstellen einer Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 
 ### Inhaltsexperiment
 

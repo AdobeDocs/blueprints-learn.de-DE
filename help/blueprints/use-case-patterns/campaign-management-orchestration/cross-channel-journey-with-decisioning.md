@@ -42,9 +42,9 @@ Die folgenden Geschäftsziele werden durch dieses Anwendungsfallmuster unterstü
 
 **[Bereitstellen personalisierter Kundenerlebnisse](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 Passen Sie Inhalte, Angebote und Nachrichten an individuelle Voreinstellungen, Verhaltensweisen und Lebenszyklusphasen an.
-**KPIs:**, Konversionsraten, Kundenzufriedenheit (CSAT)
+**KPIs:** Interaktion, Konversionsraten, Kundenzufriedenheit (CSAT)
 
-**[Steigerung der Kundentreue und des Lebenszeitwerts](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
+**[Steigerung der Kundentreue und des Werts während der gesamten Lebensdauer](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 Vertiefung der Kundenbeziehungen und Maximierung des langfristigen Nutzens durch Treueprogramme, Prämien und personalisierte Interaktion.
 **KPIs:** Kundenlebenszeitwert, Kundenbindung, Upsell/Crosssell %
 
@@ -54,7 +54,7 @@ Halten Sie bestehende Kundinnen und Kunden durch wertorientierte Erlebnisse und 
 
 **[Umsatz durch Crosssell und Upsell steigern](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
 Werben Sie für ergänzende und Premium-Produkte oder -Services für bestehende Kunden auf der Grundlage des Verhaltens und der Kaufhistorie.
-**KPIs:** Upsell-/Crossselling- %, inkrementeller Umsatz, Kundenlebenszeitwert
+**KPIs:** Upsell/Crosssell %, Inkrementeller Umsatz, Kundenlebenszeitwert
 
 ## Beispiele für taktische Anwendungsfälle
 
@@ -239,7 +239,7 @@ Durch diesen Ansatz wird der Versandkanal optimiert, während die Inhalte kanal�
 
 #### Experience League-Verweise
 
-- [Bedingungsaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Bedingungsaktivität](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Erstellen einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 
 ### Option C: Vollständiges adaptives Journey (dynamischer Kanal + dynamischer Inhalt)
@@ -460,14 +460,14 @@ Erstellen Sie in jedem Kanal Platzierungen und Angebote mit Fokus auf die Person
 **Für Option B (dynamische Kanalauswahl):**
 Erstellen Sie Entscheidungselemente, die für jeden Kanal stehen. Eignungsregeln umfassen Einverständnisprüfungen (z. B. muss ein Profil über ein SMS-Einverständnis verfügen, um für das SMS-Element infrage zu kommen). Die Rangfolge verwendet Kanalinteraktionswerte oder formularbasierte Ausdrücke.
 
-**Für Option C (Voll adaptiv):**
+**Für Option C (Full Adaptive):**
 Konfigurieren Sie zwei Entscheidungsebenen: einen Satz von Entscheidungsrichtlinien für die Kanalauswahl und einen separaten Satz für die Inhalts-/Angebotsauswahl im ausgewählten Kanal. Beide Ebenen erfordern Platzierungen, Angebote, Eignungsregeln und Rangfolgestrategien.
 
 #### Dokumentation zu Experience League
 
 - [Überblick über das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Erstellen von Platzierungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Entscheidungsregeln erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Personalisierte Angebote erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Erstellen von Fallback-Angeboten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Erstellen von Sammlungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -520,7 +520,7 @@ Jede Nachricht enthält Angebotsplatzierungen, in denen entscheidungsausgewählt
 **Für Option B (dynamische Kanalauswahl):**
 Jeder Kanal verfügt über einen eigenen Nachrichteninhalt, der separat erstellt wird. Der Inhalt ist kanalübergreifend ähnlich, aber an die Kanalbeschränkungen angepasst (E-Mail-HTML vs. SMS-Text vs. Push-Benachrichtigungsformat).
 
-**Für Option C (Voll adaptiv):**
+**Für Option C (Full Adaptive):**
 Jeder Kanal verfügt über seinen eigenen Nachrichteninhalt mit eingebetteten Angebotsplatzierungen. Sowohl der Kanal als auch der Angebotsinhalt in diesem Kanal werden dynamisch ausgewählt.
 
 #### Dokumentation zu Experience League
@@ -602,7 +602,7 @@ Die Journey-Arbeitsfläche ist linear mit Entscheidungsrichtlinien, die in jedem
 **Für Option B (dynamische Kanalauswahl):**
 Fügen Sie nach jedem Warteschritt einen Bedingungsknoten hinzu, der Kanalauswahlkriterien (Profilattribute, Entscheidungsausgabe oder Einverständnisstatus) auswertet. Jede Bedingungsverzweigung führt zu einem kanalspezifischen Nachrichtenaktionsknoten. Fügen Sie einen Standard-/Sonst-Pfad für Profile ein, die keiner Bedingung entsprechen.
 
-**Für Option C (Voll adaptiv):**
+**Für Option C (Full Adaptive):**
 Kombinieren Sie Kanalauswahl-Bedingungsknoten mit in Entscheidungsrichtlinien eingebetteten Nachrichtenaktionsknoten. An jedem Touchpoint: Zunächst bestimmt eine Bedingung oder Entscheidung den Kanal; dann wählt eine Entscheidungsrichtlinie innerhalb der Nachrichtenaktion des ausgewählten Kanals das optimale Angebot/den optimalen Inhalt aus.
 
 #### Dokumentation zu Experience League
@@ -610,9 +610,9 @@ Kombinieren Sie Kanalauswahl-Bedingungsknoten mit in Entscheidungsrichtlinien ei
 - [Erstellen einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Journey-Eigenschaften](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Aktivität „Zielgruppe lesen“](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
-- [Bedingungsaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Bedingungsaktivität](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Warteaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Hinzufügen einer Nachricht zu einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Hinzufügen einer Nachricht zu einer Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Ausstiegskriterien](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [Journey-Eingabeverwaltung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Journeys testen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
@@ -751,15 +751,15 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 
 ### Journey-Orchestrierung
 
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Erstellen einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Journey-Eigenschaften](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Aktivität „Zielgruppe lesen“](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [Allgemeine Ereignisse](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Zielgruppen-Qualifizierungsereignisse](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [Bedingungsaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Bedingungsaktivität](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Warteaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Hinzufügen einer Nachricht zu einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Hinzufügen einer Nachricht zu einer Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Ausstiegskriterien](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [Journey-Eingabeverwaltung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Journeys testen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
@@ -769,7 +769,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 
 - [Überblick über das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Erstellen von Platzierungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Entscheidungsregeln erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Personalisierte Angebote erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Erstellen von Fallback-Angeboten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Erstellen von Sammlungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)

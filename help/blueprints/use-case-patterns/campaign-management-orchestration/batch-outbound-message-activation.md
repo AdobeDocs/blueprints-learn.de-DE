@@ -6,7 +6,7 @@ exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
 source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '8246'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -232,7 +232,7 @@ Die Journey wird in der Benutzeroberfläche von AJO Journey mit dem Eintrittsere
 
 **Experience League:**
 
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Zielgruppen-Journey lesen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 
 ### Option C: API-ausgelöste Kampagne
@@ -589,7 +589,7 @@ Welche Prioritätsstufe sollte diese Kampagne im Vergleich zu anderen aktiven Ka
 - [Erstellen einer Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 - [Erste Schritte mit Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [API-ausgelöste Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Zielgruppen-Journey lesen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [Erste Schritte mit einem Inhaltsexperiment](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Erstellen eines Inhaltsexperiments](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
@@ -745,7 +745,7 @@ Dieser Abschnitt enthält Links zu [!DNL Experience League] Dokumentation, die n
 
 ### Journeys
 
-- [Erste Schritte mit Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Erste Schritte mit Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Zielgruppen-Journey lesen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 
 ### Kanalkonfiguration

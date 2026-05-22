@@ -2,13 +2,13 @@
 title: Wiederherstellen von Transaktionsabbrüchen und Journey
 description: Erfahren Sie, wie Sie mit zeitnahen, personalisierten Folgemaßnahmen erneut mit Benutzern interagieren können, die während des Kaufs, der Bewerbung oder der Registrierung abgesprungen sind.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4e0f84b4-1b2a-4728-a551-ef1b2bde99ba
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
-
 
 # Wiederherstellen von Transaktionsabbrüchen und Journey
 

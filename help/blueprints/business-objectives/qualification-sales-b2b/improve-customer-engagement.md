@@ -2,13 +2,13 @@
 title: Verbessern der Kundeninteraktion
 description: Erfahren Sie, wie Sie die Interaktionsfrequenz und -tiefe auf allen digitalen und physischen Touchpoints erhöhen können.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 9a2143c7-f962-4651-886a-a4be6ceff3fc
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
-
 
 # Verbessern der Kundeninteraktion
 

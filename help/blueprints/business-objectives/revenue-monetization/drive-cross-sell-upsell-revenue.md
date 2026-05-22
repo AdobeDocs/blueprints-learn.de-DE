@@ -2,13 +2,13 @@
 title: Umsätze durch Crosssell und Upsell steigern
 description: Erfahren Sie, wie Sie basierend auf dem Verhalten und der Kaufhistorie ergänzende und Premium-Produkte oder -Services für bestehende Kunden bewerben können.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 35e136e8-8b66-4f4c-8e77-7466553fc4b7
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
-
 
 # Umsätze durch Crosssell und Upsell steigern
 

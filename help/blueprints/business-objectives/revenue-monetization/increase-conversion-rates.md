@@ -2,13 +2,13 @@
 title: Erhöhung der Konversionsraten
 description: Erfahren Sie, wie Sie den Prozentsatz der Besucher und Interessenten verbessern können, die die gewünschten Aktionen wie Käufe, Anmeldungen oder Formularübermittlungen durchführen.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 47cb89e4-28d7-402c-9015-9b1b1ec0641a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
-
 
 # Erhöhung der Konversionsraten
 

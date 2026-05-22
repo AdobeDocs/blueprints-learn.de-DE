@@ -2,13 +2,13 @@
 title: Steigerung der Kundentreue und des Werts während der gesamten Lebensdauer
 description: Erfahren Sie, wie Sie durch Treueprogramme, Prämien und personalisierte Interaktion die Kundenbeziehungen vertiefen und den langfristigen Nutzen maximieren können.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4054a964-652a-492a-adae-e6a9edaf9e8a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
-
 
 # Steigerung der Kundentreue und des Werts während der gesamten Lebensdauer
 

@@ -71,7 +71,7 @@ Befragen Sie den Benutzer, um alle erforderlichen Informationen zu sammeln, bevo
 
 8. **Primäre Datenflüsse/Integrationspunkte** — 3-7 Aufzählungszeichen, die wichtige Flüsse und Integrationsgrenzen beschreiben, die in den Diagrammen angezeigt werden (z. B. `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
 
-9. **Experience League-Links** - 3-6 Links zu relevanten Experience League-Dokumentationen, die Sie weiter lesen können. Jede muss mit `https://experienceleague.adobe.com/` beginnen.
+9. **Experience League-Links** - 3-6 Links zu relevanten Experience League-Dokumentationen, die Sie weiter lesen können. Jede muss mit `https://experienceleague.adobe.com/de` beginnen.
 
    **Empfehlen Sie Kandidaten zuerst.** Basierend auf den Adobe-Lösungen und dem Seitenzweck schlagen Sie vier bis acht plausible Experience League-Artikel vor (z. B. die kanonischen Landingpages oder Übersichtsseiten für jede benannte Lösung, wichtige Integrationshandbücher, Bereitstellungsreferenzen). Geben Sie für jeden Vorschlag Folgendes an:
    - Artikeltitel
@@ -176,7 +176,7 @@ Nachdem alle Dateien erstellt und aktualisiert wurden, überprüfen Sie Folgende
 
 2. **Verknüpfungen für Anwendungsfälle** - Jeder Musterlink in der Datei verweist auf eine vorhandene Markdown-Datei unter `/help/blueprints/use-case-patterns/`. Verwenden Sie `Read` oder Globus, um zu bestätigen, dass jedes Ziel vorhanden ist.
 
-3. **Experience League-Links** - Überprüfen Sie vor Ort, ob jede URL im `## Further reading` mit `https://experienceleague.adobe.com/` beginnt.
+3. **Experience League-Links** - Überprüfen Sie vor Ort, ob jede URL im `## Further reading` mit `https://experienceleague.adobe.com/de` beginnt.
 
 4. **TOC-**: Der neue Eintrag befindet sich im richtigen Unterabschnitt, verwendet eine Einrückung mit vier Leerzeichen und der Pfad stimmt genau mit dem Speicherort der generierten Datei überein.
 

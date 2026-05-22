@@ -184,7 +184,7 @@ Personalisierte Erinnerungen zu Rechnungszahlungen verbessern die pünktlichen Z
 
 ### Implementieren
 
-Verwenden Sie [ Muster „Ereignisgesteuertes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md), um Erinnerungen zu optimalen Zeiten vor dem Fälligkeitsdatum zu senden, die mit dem Kontostand des Abonnenten, der bevorzugten Zahlungsmethode und einem direkten Link personalisiert sind, um die Zahlung abzuschließen. Dies ist das richtige Muster, wenn der Trigger ein zeitbasiertes Systemereignis (Fälligkeitsdatum der Abrechnung) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und transaktional erfolgt und keine mehrstufige Interaktionssequenz ist.
+Verwenden Sie [&#x200B; Muster „Ereignisgesteuertes Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md), um Erinnerungen zu optimalen Zeiten vor dem Fälligkeitsdatum zu senden, die mit dem Kontostand des Abonnenten, der bevorzugten Zahlungsmethode und einem direkten Link personalisiert sind, um die Zahlung abzuschließen. Dies ist das richtige Muster, wenn der Trigger ein zeitbasiertes Systemereignis (Fälligkeitsdatum der Abrechnung) und kein Kundenverhalten ist und die erforderliche Kommunikation sofort und transaktional erfolgt und keine mehrstufige Interaktionssequenz ist.
 
 ### Technische Überlegungen
 

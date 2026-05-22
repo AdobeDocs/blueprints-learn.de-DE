@@ -94,8 +94,8 @@ Entwickeln Sie Journey auf Kontoebene, die Leads zu Einkaufsgruppen qualifiziere
 
 Die folgenden Adobe-Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Journey Optimizer B2B Edition]([!DNL AJO B2B])** - Orchestriert Journey auf Kontoebene, verwaltet Einkaufsgruppen mit Rollenvorlagen und Lösungsinteressen, bewertet die Interaktion auf Personen- und Einkaufsgruppenebene, verfasst B2B-E-Mail-Inhalte, sendet SMS-Nachrichten, konfiguriert Verkaufswarnungen und stellt B2B-Analytics-Dashboards bereit.
-- **[!DNL Real-Time CDP B2B Edition]([!DNL RT-CDP B2B])** - Vereinheitlicht Account-Profile aus B2B-Quelldaten, löst Personen-zu-Account-Beziehungen auf, bewertet Audiences auf Kontoebene, konfiguriert B2B-spezifische Ziele ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) und erzwingt Data Governance für B2B-Daten.
+- **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])** - Orchestriert Journey auf Kontoebene, verwaltet Einkaufsgruppen mit Rollenvorlagen und Lösungsinteressen, bewertet die Interaktion auf Personen- und Einkaufsgruppenebene, verfasst B2B-E-Mail-Inhalte, sendet SMS-Nachrichten, konfiguriert Verkaufswarnungen und stellt B2B-Analytics-Dashboards bereit.
+- **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])** - Vereinheitlicht Account-Profile aus B2B-Quelldaten, löst Personen-zu-Account-Beziehungen auf, bewertet Audiences auf Kontoebene, konfiguriert B2B-spezifische Ziele ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) und erzwingt Data Governance für B2B-Daten.
 
 ## Grundlegende Funktionen
 

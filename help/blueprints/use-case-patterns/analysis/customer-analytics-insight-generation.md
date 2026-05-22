@@ -34,7 +34,7 @@ Verbessern Sie die Reporting-Funktionen für schnellere, umsetzbarere Marketing-
 
 - **KPIs:**, Produktivität
 
-Weitere [ zu diesem Geschäftsziel finden Sie unter ](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md)Verbesserung von Analysen und Reporting“.
+Weitere [&#x200B; zu diesem Geschäftsziel finden Sie unter &#x200B;](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md)Verbesserung von Analysen und Reporting“.
 
 **Datengesteuerte Entscheidungsfindung aktivieren**
 
@@ -42,7 +42,7 @@ Ermöglichen Sie Teams durch Self-Service-Analysen, Echtzeit-Kundeneinblicke und
 
 - **KPIs:**, Produktivität
 
-Weitere [ zu diesem Geschäftsziel finden Sie ](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md) „Datengesteuerte Entscheidungsfindung aktivieren“.
+Weitere [&#x200B; zu diesem Geschäftsziel finden Sie &#x200B;](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md) „Datengesteuerte Entscheidungsfindung aktivieren“.
 
 **Marketing-Attribution**
 
@@ -50,7 +50,7 @@ Die Auswirkungen von Marketing-Touchpoints, Kanälen und Kampagnen auf Konversio
 
 - **KPIs:**, inkrementeller Umsatz
 
-Weitere [ zu diesem Geschäftsziel finden ](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md) unter „Marketing-Attribution verbessern“.
+Weitere [&#x200B; zu diesem Geschäftsziel finden &#x200B;](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md) unter „Marketing-Attribution verbessern“.
 
 **Marketing-Ausgaben und -ROI optimieren**
 
@@ -58,7 +58,7 @@ Optimieren Sie die Zuweisung von Marketing-Budgets, indem Sie verstehen, welche 
 
 - **KPIs:**, inkrementeller Umsatz
 
-Weitere [ zu diesem Geschäftsziel finden Sie unter ](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) von Marketingausgaben und -renditen .
+Weitere [&#x200B; zu diesem Geschäftsziel finden Sie unter &#x200B;](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) von Marketingausgaben und -renditen .
 
 ## Beispiele für taktische Anwendungsfälle
 
@@ -95,14 +95,14 @@ Erstellen Sie kanalübergreifende Analyse-Arbeitsbereiche, berechnete Metriken u
 
 **Funktionskette:** Datenverbindung > Konfiguration der Datenansicht > Workspace Analysis > Erstellung berechneter Metriken > Dashboard-Veröffentlichung
 
-Eine Anleitung zur Komposition finden [ im Abschnitt ](#implementation-options)Implementierungsoptionen“.
+Eine Anleitung zur Komposition finden [&#x200B; im Abschnitt &#x200B;](#implementation-options)Implementierungsoptionen“.
 
 ## Programme
 
 Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Customer Journey Analytics](CJA)** - Verbindungen, Datenansichten, Workspace-Analyse, geführte Analyse, berechnete Metriken, Dashboards, Zielgruppenveröffentlichung und Inhaltsanalyse
-- **[!DNL Adobe Experience Platform](AEP)** - Data Lake, Datensätze, XDM-Schemata, Profil- und Ereignisdaten, die CJA-Verbindungen nutzen
+- **[!DNL Customer Journey Analytics] (CJA)** - Verbindungen, Datenansichten, Workspace-Analyse, geführte Analyse, berechnete Metriken, Dashboards, Zielgruppenveröffentlichung und Inhaltsanalyse
+- **[!DNL Adobe Experience Platform] (AEP)** - Data Lake, Datensätze, XDM-Schemata, Profil- und Ereignisdaten, die CJA-Verbindungen nutzen
 
 ## Grundlegende Funktionen
 

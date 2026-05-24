@@ -3,7 +3,7 @@ title: Generierung von Customer Analytics und Insight
 description: Erfahren Sie, wie Sie kanalübergreifende Analyse-Arbeitsbereiche, berechnete Metriken und Dashboards für die Verhaltens- und Leistungsanalyse erstellen.
 solution: Customer Journey Analytics, Experience Platform
 exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8947'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Die folgenden KPIs helfen, den Erfolg dieses Anwendungsfallmusters zu messen.
 
 Erstellen Sie kanalübergreifende Analyse-Arbeitsbereiche, berechnete Metriken und Dashboards, um das Kundenverhalten und die Kampagnenleistung zu verstehen.
 
-**Funktionskette:** Datenverbindung > Konfiguration der Datenansicht > Workspace Analysis > Erstellung berechneter Metriken > Dashboard-Veröffentlichung
+**Ausführungsplan:** Datenverbindung > Konfiguration der Datenansicht > Workspace Analysis > Erstellung berechneter Metriken > Dashboard-Veröffentlichung
 
 Eine Anleitung zur Komposition finden [&#x200B; im Abschnitt &#x200B;](#implementation-options)Implementierungsoptionen“.
 
@@ -106,9 +106,9 @@ Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Angenommen an Ort und Stelle | CJA-Produktprofil mit Zugriffsberechtigungen für Arbeitsbereich-Erstellung und Datenansicht bereitgestellt. AEP-Datensätze, auf die über die CJA-Verbindung zugegriffen werden kann. Benutzende, denen entsprechende CJA-Rollen zugewiesen sind. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | XDM-Schemata und Datensätze, die mit CJA verbunden werden, müssen in AEP vorhanden sein. Das Schema-Design wirkt sich direkt darauf aus, welche Dimensionen und Metriken in CJA-Datenansichten verfügbar sind. Ereignisschemata benötigen Zeitstempelfelder; Lookup-Schemata benötigen Schlüsselfelder. | [XDM-System - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) |
@@ -120,7 +120,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete AEP-Attribute können die mit CJA verbundenen Datensätze anreichern und zusätzliche Dimensionen und Metriken für die Analyse bereitstellen (z. B. Lebensdaueranzahl der Käufe, Tage seit der letzten Aktivität). Diese Aggregationen auf Profilebene werden als Dimensionen in CJA-Datenansichten verfügbar. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Richtlinien zur Datensatzaufbewahrung beeinflussen, welche historischen Daten in CJA verfügbar sind. Eine lange Datenaufbewahrung wird in der Regel für Analysen gewünscht, um Vergleiche über das Jahr hinweg und langfristige Trendanalysen zu ermöglichen. Konfigurieren von Datensatz-TTLs, um eine angemessene Verlaufstiefe sicherzustellen. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
@@ -130,13 +130,13 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Customer Journey Analytics] (CJA)
 
 In der folgenden Tabelle sind die in diesem Muster verwendeten CJA-Anwendungsfunktionen aufgeführt.
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Datenverbindung | Phase 1: Datenverbindung | Binden von AEP-Datensätzen an eine CJA-Verbindung für kanalübergreifende Analysen, Konfigurieren von Datensatztypen und Personen-ID für die Zuordnung von Datensätzen untereinander |
 | Konfiguration der Datenansicht | Phase 2: Konfiguration der Datenansicht | Definieren von Dimensionen, Metriken, Attributionsmodellen, Persistenzeinstellungen, Sitzungsparametern und abgeleiteten Feldern, die die analytische Perspektive formen |
@@ -151,7 +151,7 @@ In der folgenden Tabelle sind die in diesem Muster verwendeten CJA-Anwendungsfun
 
 In der folgenden Tabelle sind die in diesem Muster verwendeten AEP-Anwendungsfunktionen aufgeführt.
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Data Lake und Datensätze | Voraussetzung (F2, F3) | Geben Sie die Quellereignis-, Profil- und Lookup-Datensätze an, die die CJA-Verbindung speisen |
 | Identity Service | Voraussetzung (F4) | Bereitstellen der Konfiguration von Identity-Namespaces für die Personen-ID-Zuordnung zwischen Datensätzen in der CJA-Verbindung |
@@ -439,7 +439,7 @@ Wichtige Konfigurationsdetails:
 
 ### Phase 2: Konfiguration der Datenansicht
 
-**Anwendungsfunktion:** CJA: Datenansichtskonfiguration
+**Anwendungsfunktion:** CJA: Konfiguration der Datenansicht
 
 In dieser Phase wird eine Datenansicht konfiguriert, die definiert, wie Verbindungsdaten in der Analyse angezeigt werden. Die Datenansicht bestimmt, welche Schemafelder als Dimensionen und Metriken bereitgestellt werden, wie Werte zugeordnet und beibehalten werden, wie Sitzungen definiert werden und welche abgeleiteten Felder Rohdaten in analysefähige Komponenten umwandeln. Aus einer Verbindung können mehrere Datenansichten für verschiedene analytische Perspektiven erstellt werden.
 

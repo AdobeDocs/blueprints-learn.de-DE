@@ -3,7 +3,7 @@ title: Offer Decisioning
 description: Erfahren Sie, wie Sie mit zentralisierter Entscheidungslogik das nächstbeste Angebot oder den nächstbesten Inhalt für ein Profil kanalübergreifend auswählen können.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 8fd511b3-0200-41bf-aff1-e3f2a00a578e
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8026'
 ht-degree: 2%
@@ -70,13 +70,13 @@ Mit den folgenden KPIs kann die Effektivität einer Offer-Decisioning-Implementi
 
 ## Anwendungsfallmuster
 
-In diesem Abschnitt werden die Funktionskette und die Musterdefinition für Offer Decisioning beschrieben.
+In diesem Abschnitt werden der Ausführungsplan und die Musterdefinition für Offer Decisioning beschrieben.
 
 **Offer Decisioning**
 
 Verwenden Sie eine zentralisierte Entscheidungslogik, um kanalübergreifend das nächstbeste Angebot oder den nächstbesten Inhalt für ein Profil auszuwählen.
 
-**Funktionskette:** Zielgruppenbewertung > Angebotseignung > Rangfolgestrategie > Entscheidungsausführung > Versand > Berichterstellung
+**Ausführungsplan:** Zielgruppenbewertung > Angebotseignung > Rangfolgestrategie > Entscheidungsausführung > Versand > Reporting
 
 Im Abschnitt [Implementierungsoptionen](#implementation-options) finden Sie Informationen zur Manifestation jeder Komposition.
 
@@ -90,9 +90,9 @@ Die folgenden Adobe-Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit aktivierten Entscheidungsberechtigungen. Dem Implementierungs-Team zugewiesene Funktionen zum Angebotsmanagement (Entscheidungs-Manager, Angebotsgenehmiger) | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | Profilschema muss Attribute enthalten, die für Regeln der Angebotseignung verwendet werden (z. B. Treuestufe, Kaufverlauf, Abonnementtyp). Es sollte ein Schema für die Angebotsantwort/Interaktion zum Tracking von Angebotsimpressionen, Klicks und Konversionen vorhanden sein. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition) |
@@ -104,23 +104,23 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Tendenzwerte für Kunden-KI, Berechnungen des Lebenszeitwerts und Interaktionsmetriken verbessern die Effektivität der Rangfolgestrategie erheblich. Berechnete Attribute wie „Tage seit dem letzten Kauf“ oder „Gesamtausgaben in 90 Tagen“ ermöglichen präzisere Eignungsregeln und eine formularbasierte Rangfolge. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview), [Kunden-KI - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Data Lifecycle Management | Empfohlen | Daten zum Angebotsverlauf und zu Entscheidungsereignissen werden im Laufe der Zeit gesammelt. Aufbewahrungsrichtlinien (Gültigkeit) sollten für Offer Interaction-Ereignisdatensätze konfiguriert werden, um Speicher zu verwalten und die Datenaufbewahrungsanforderungen zu erfüllen. | [Erweiterte Übersicht über das Data Lifecycle Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home), [Datensatzgültigkeiten](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
 | Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen stellen sicher, dass Angebote mit sensiblen Zielgruppenkriterien (z. B. Finanzstatus, Gesundheitsbedingungen) den Datennutzungsrichtlinien entsprechen. Kennzeichnungen auf Feldern, die in Eignungsregeln verwendet werden, verhindern das nicht konforme Targeting von Angeboten. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home), [Übersicht über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview) |
 | Überwachung und Beobachtbarkeit | Empfohlen | Die Leistung der Entscheidungs-Engine, die Fallback-Raten und der Zustand des Versands von Angeboten sollten überwacht werden. Warnhinweise für hohe Fallback-Raten können auf eine Fehlkonfiguration von Eignungsregeln oder Probleme mit der Datenfrische hinweisen. | [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview), [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home) |
-| Reporting und Analyse | Eingeschlossen | Die Leistungsberichterstattung für Angebote ist Teil der Funktionskette (Phase 7). Die CJA-Analyse ermöglicht eine kanalübergreifende Messung der Angebotseffektivität, die Attribution von Umsatzauswirkungen und die Identifizierung von Optimierungsmöglichkeiten. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Übersicht über Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home) |
+| Reporting und Analyse | Eingeschlossen | Das Reporting über die Angebotsleistung ist Teil des Ausführungsplans (Phase 7). Die CJA-Analyse ermöglicht eine kanalübergreifende Messung der Angebotseffektivität, die Attribution von Umsatzauswirkungen und die Identifizierung von Optimierungsmöglichkeiten. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Übersicht über Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home) |
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Journey Optimizer] (AJO)
 
 In der folgenden Tabelle sind die AJO-Funktionen und die Implementierungsphasen aufgeführt, in denen sie konfiguriert werden.
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Entscheidungsfindung | Phase 3: Einrichten der Entscheidungsfindung | Erstellen Sie Angebotselemente, definieren Sie Eignungsregeln, konfigurieren Sie Rangfolgestrategien, erstellen Sie Fallback-Angebote, definieren Sie Platzierungen und erstellen Sie Entscheidungsrichtlinien |
 | Kanalkonfiguration | Phase 4: Kanal- und Oberflächenkonfiguration | Konfigurieren von E-Mail-, Web-, In-App- oder Code-basierten Kanaloberflächen für die Angebotsbereitstellung |
@@ -133,7 +133,7 @@ In der folgenden Tabelle sind die AJO-Funktionen und die Implementierungsphasen 
 
 In der folgenden Tabelle sind die RT-CDP-Funktionen und die Implementierungsphasen aufgeführt, in denen sie konfiguriert sind.
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Phase 2: Evaluierung der Zielgruppe | Audiences definieren und auswerten, die für Regeln zur Angebotseignung verwendet werden; entsprechende Auswertungsmethode auswählen (Batch, Streaming oder Edge) |
 | Profilanreicherung | Phase 1 (unterstützend): Berechnete Attribute | Profile mit berechneten Attributen und Tendenzwerten anreichern, die die Effektivität der Rangfolgestrategie verbessern |

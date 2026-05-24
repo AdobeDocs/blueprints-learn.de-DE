@@ -3,7 +3,7 @@ title: Cross-Channel-Journey mit Decisioning
 description: Erfahren Sie, wie Sie eine mehrstufige Journey mit Echtzeit-Entscheidungsfindung orchestrieren können, um optimale Kanäle, Inhalte oder Angebote auszuwählen.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '9029'
 ht-degree: 2%
@@ -88,7 +88,7 @@ Verwenden Sie die folgenden KPIs, um die Effektivität dieses Anwendungsfallmust
 
 Orchestrieren Sie eine mehrstufige Multi-Channel-Journey, die Echtzeit-Entscheidungsfindung an einem oder mehreren Knoten beinhaltet, um den optimalen Kanal, Inhalt oder Angebot auszuwählen.
 
-**Funktionskette:** Zielgruppenauswertung > Journey-Ausführung > Entscheidungsknoten > Kanalauswahl > Nachrichtenversand > Berichterstellung
+**Ausführungsplan:** Zielgruppenbewertung > Journey-Ausführung > Entscheidungsknoten > Kanalauswahl > Nachrichtenversand > Berichte
 
 ## Programme
 
@@ -101,35 +101,35 @@ Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu im
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Administration und Governance | Angenommen an Ort und Stelle | [!DNL AJO] Sandbox mit konfigurierten Journey-, Kampagnen- und Entscheidungsberechtigungen. Kanaloberflächen für alle möglichen Versandkanäle. Benutzerrollen für Journey-Designer, Entscheidungs-Manager und Inhaltsautoren. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
+| Administration und Governance | Angenommen an Ort und Stelle | [!DNL AJO] Sandbox mit konfigurierten Journey-, Kampagnen- und Entscheidungsberechtigungen. Kanaloberflächen für alle möglichen Versandkanäle. Benutzerrollen für Journey-Designer, Entscheidungs-Manager und Inhaltsautoren. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | Das Profilschema muss Attribute enthalten, die für die Entscheidungsfindung verwendet werden (z. B. Treuestufe, Kaufverlauf, Kanalvoreinstellungen, Interaktionswerte). Angebotskatalog- und Entscheidungselementschemata müssen konfiguriert werden. ExperienceEvent-Schemas müssen Verhaltenssignale erfassen, die von Eignungsregeln und Rangfolgenformeln verwendet werden. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition) |
 | Datenquellen und Sammlung | Angenommen an Ort und Stelle | Profilattribute und Verhaltenssignale, die von der Entscheidungsfindung verwendet werden, müssen aktuell sein. Das Ereignis-Streaming in Echtzeit ist erforderlich, wenn der Journey ereignisausgelöste Ein- oder Ausstiegskriterien verwendet. Web SDK, Mobile SDK oder Server-seitige Erfassung müssen für Kanäle aktiv sein, die den Entscheidungskontext unterstützen. | [Web SDK - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home), [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home) |
-| Identitäts- und Profilkonfiguration | Erforderlich | Die kanalübergreifende Identitätsauflösung ist wichtig - die Journey muss Profile über E-Mail, Push, SMS und Internet auflösen. Zusammenführungsrichtlinien müssen ein einheitliches Profil für die Entscheidungsfindung erzeugen. Identity-Namespaces für alle Kundenkennungen (CRM-ID, E-Mail, ECID, Telefon) müssen konfiguriert werden. | [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home), [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview) |
+| Identitäts- und Profilkonfiguration | Erforderlich | Die kanalübergreifende Identitätsauflösung ist wichtig - die Journey muss Profile über E-Mail, Push, SMS und Internet auflösen. Zusammenführungsrichtlinien müssen ein einheitliches Profil für die Entscheidungsfindung erzeugen. Identity-Namespaces für alle Kundenkennungen (CRM-ID, E-Mail, ECID, Telefon) müssen konfiguriert werden. | [Identity Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview) |
 | Zielgruppendefinition und Segmentierung | Erforderlich | Einstiegs-Zielgruppendefinition für den Journey. Zusätzliche Segmente, die für Angebotseignungsregeln und Bedingungsverzweigungen innerhalb der Journey verwendet werden. Die Auswertungsmethode muss den Latenzanforderungen entsprechen (Streaming für Echtzeiteingabe, Batch für geplant). | [Segmentation Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home), [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Unterstützende Funktionen
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie Tendenzwerte für Kunden-KI, Interaktionswerte, Kanalpräferenzwerte und Berechnungen des Lebenszeitwerts verbessern die Entscheidungsqualität erheblich. Diese erweiterten Profilattribute ermöglichen komplexere Eignungsregeln und Rangfolgenformeln. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview), [Kunden-KI - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Data Lifecycle Management | Empfohlen | Daten zum Angebotsverlauf und zu Entscheidungsereignissen werden im Laufe der Zeit gesammelt und sollten Aufbewahrungsrichtlinien enthalten. Die Durchsetzung des Einverständnisses über mehrere Kanäle hinweg ist wichtig - Profile ohne gültiges Einverständnis für einen Kanal müssen aus dem Versandpfad dieses Kanals ausgeschlossen werden. | [Übersicht über das erweiterte Daten-Lifecycle-Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home), [Einverständnis in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Die Durchsetzung von Governance auf mehreren Kanälen und Angebotstypen ist wichtig, wenn Entscheidungen Profile an verschiedene Kanäle mit unterschiedlichen Datennutzungsbeschränkungen weiterleiten können. Gewährleistet die konforme Bereitstellung von Angeboten auf allen Kanälen. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home), [Durchsetzung von Richtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/overview) |
-| Überwachung und Beobachtbarkeit | Eingeschlossen | Journey- und Entscheidungsüberwachung sind für den Produktionsbetrieb unverzichtbar. Warnhinweise für Journey-Einstiegsfehler, Entscheidungs-Fallback-Spitzen und Versandfehler ermöglichen eine schnelle Problembehebung. | [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview), [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home) |
+| Überwachung und Beobachtbarkeit | Eingeschlossen | Journey- und Entscheidungsüberwachung sind für den Produktionsbetrieb unverzichtbar. Warnhinweise für Journey-Einstiegsfehler, Entscheidungs-Fallback-Spitzen und Versandfehler ermöglichen eine schnelle Problembehebung. | [Warnhinweise - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Observability Insights - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting und Analyse | Eingeschlossen | Journey- und Entscheidungsberichte werden in der Reporting-Phase behandelt. Die CJA-Analyse der Entscheidungseffektivität, der Kanalmixoptimierung, der Angebotsleistung und des Journey-ROI bietet die erforderlichen Einblicke, um Ranking-Strategien zu verfeinern und das Journey im Laufe der Zeit zu optimieren. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Handbuch zur Integration von AJO und CJA](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Journey Optimizer] ([!DNL AJO])
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kanalkonfiguration | Phase 2: Kanalkonfiguration | Konfigurieren Sie Kanaloberflächen für alle Kanäle, die die Entscheidungsfindung auswählen kann oder die die Journey verwendet (E-Mail, SMS, Push, In-App). |
 | Verfassen von Nachrichten | Phase 4: Nachrichtenbearbeitung | Verfassen Sie Nachrichteninhalte für jeden Kanal und integrieren Sie die Entscheidungsausgabe - Angebotsplatzierungen, dynamische Inhaltsbausteine, Personalisierungs-Token aus ausgewählten Angeboten |
@@ -141,7 +141,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP] ([!DNL RT-CDP])
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Phase 1: Evaluierung der Zielgruppe | Definieren und bewerten Sie die Eintrittzielgruppe oder das qualifizierte Eintrittsereignis; erstellen Sie Eignungssegmente, die von Decisioning verwendet werden. |
 | Profilanreicherung | Voraussetzungen/Unterstützung | Profile mit berechneten Attributen und Tendenzwerten anreichern, die die Entscheidungsqualität verbessern |
@@ -467,7 +467,7 @@ Konfigurieren Sie zwei Entscheidungsebenen: einen Satz von Entscheidungsrichtlin
 
 - [Überblick über das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Erstellen von Platzierungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Personalisierte Angebote erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Erstellen von Fallback-Angeboten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Erstellen von Sammlungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -755,7 +755,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 - [Erstellen einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Journey-Eigenschaften](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Aktivität „Zielgruppe lesen“](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
-- [Allgemeine Ereignisse](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [Allgemeine Ereignisse](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Zielgruppen-Qualifizierungsereignisse](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
 - [Bedingungsaktivität](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Warteaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
@@ -769,7 +769,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 
 - [Überblick über das Entscheidungs-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
 - [Erstellen von Platzierungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Erstellen von Entscheidungsregeln](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Personalisierte Angebote erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Erstellen von Fallback-Angeboten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Erstellen von Sammlungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -784,13 +784,13 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 - [Delegieren von Subdomains](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [Erstellen von IP-Pools](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [IP-Aufwärmpläne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [E-Mail-Oberflächeneinstellungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [E-Mail-Oberflächeneinstellungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
 - [SMS-Kanal konfigurieren](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Konfigurieren des Push-Benachrichtigungskanals](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 
 ### Verfassen und Personalisieren von Nachrichten
 
-- [Erstellen einer E-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/create-email)
+- [Erstellen einer E-Mail](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
 - [Entwerfen von E-Mail-Inhalten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/design-emails)
 - [Hinzufügen von Personalisierung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization-Syntax](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
@@ -813,7 +813,7 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 - [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder)
 - [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Edge-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Audience-Komposition](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-composition)
+- [Audience-Komposition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [Profile Query Language-Referenz](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview)
 
 ### Reporting und Analysen
@@ -827,8 +827,8 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 
 ### Profil und Identität
 
-- [Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home)
-- [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)
+- [Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [Identity Service - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview)
 - [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview)
 - [Kunden-KI - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/intelligent-services/customer-ai/overview)
@@ -837,10 +837,10 @@ Die folgenden Ressourcen bieten zusätzliche Details zu den in diesem Anwendungs
 
 - [Übersicht zur Daten-Governance](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home)
 - [Einverständnis in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
-- [Verwalten der Unterdrückungsliste](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
+- [Verwalten der Unterdrückungsliste](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### Leitlinien
 
 - [Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/guardrails)
 - [Leitplanken für Echtzeit-Kundenprofile](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails)
-- [Leitplanken für Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/guardrails)
+- [Leitplanken für Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)

@@ -13,16 +13,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 333
 ht-degree: 4%
 
 ---
 
-# Unternehmensziele, Anwendungsfälle und Architekturdiagramme in Customer Experience Orchestration
+# Anwendungsfälle und Architekturdiagramme für Customer Experience Orchestration
 
-Diese Website enthält **Wichtige Geschäftsziele** die Beispiele für den primären Geschäftswert und die Ziele beschreiben, die mit Adobe Experience Platform und Anwendungen erreicht werden können. **Anwendungsfallmuster** beschreiben allgemeine Plattform- und Anwendungsfunktionen mit wiederholbaren Implementierungsansätzen. **Anwendungsfälle der Branche** Wenden Sie Muster auf vertikale Geschäftsszenarien an. **Architekturdiagramme und Blueprints** sind visuelle Architekturdiagramme und Datenflussreferenzdiagramme, die Systemintegrationspunkte, Daten- und Inhaltsflüsse sowie die Abfolge von Vorgängen veranschaulichen und eine technische Referenz für den Lösungsentwurf bieten. Gemeinsam verbinden diese Ebenen den geschäftlichen Nutzen mit Implementierungsabhängigkeiten und Architektur.
+Diese Website enthält **Wichtige Geschäftsziele** die Beispiele für den primären Geschäftswert und die Ziele beschreiben, die mit Adobe Experience Platform und Anwendungen erreicht werden können. **Anwendungsfallmuster** beschreiben allgemeine Plattform- und Anwendungsfunktionen mit wiederholbaren Implementierungsansätzen. **Anwendungsfälle für die Branche** Wenden Sie Muster auf vertikale Geschäftsszenarien an. **Architekturdiagramme und Blueprints** sind visuelle Architekturdiagramme und Datenflussreferenzdiagramme, die Systemintegrationspunkte, Daten- und Inhaltsflüsse sowie die Abfolge von Vorgängen veranschaulichen und eine technische Referenz für den Lösungsentwurf bieten. Gemeinsam verbinden diese Ebenen den geschäftlichen Nutzen mit Implementierungsabhängigkeiten und Architektur.
 
 ## Wichtige Geschäftsziele
 
@@ -45,7 +45,7 @@ Strategische Ergebnisse, die Unternehmen durch Initiativen für digitale Erlebni
 
 ## Anwendungsfallmuster
 
-Wiederholbare Implementierungsansätze, die bestimmte Funktionen, die dafür verantwortliche Funktionskette und die beteiligten Anwendungen beschreiben.
+Wiederholbare Implementierungsansätze, die beschreiben, wie Sie mit den zugehörigen Funktionen und Anwendungskomponenten, die diese bereitstellen, spezifische Ergebnisse erzielen.
 
 <table>
 <tr>
@@ -62,7 +62,7 @@ Wiederholbare Implementierungsansätze, die bestimmte Funktionen, die dafür ver
 
 [Alle Anwendungsfallmuster anzeigen](use-case-patterns/overview.md)
 
-## Nach Branche durchsuchen
+## Anwendungsbeispiele nach Branche erkunden
 
 Anwendungsfälle, die auf bestimmte Branchen zugeschnitten sind und jeweils Implementierungsmustern und Geschäftszielen zugeordnet sind.
 

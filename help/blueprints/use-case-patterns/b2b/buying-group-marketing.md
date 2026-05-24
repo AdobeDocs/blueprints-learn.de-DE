@@ -3,7 +3,7 @@ title: Einkauf von gruppenbasiertem Marketing und Journey-Management
 description: Erfahren Sie, wie Sie Journey auf Kontoebene entwickeln, die Leads zu Einkaufsgruppen qualifizieren, um die B2B-Marketing-Effektivität zu verbessern.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Mit den folgenden KPIs kann die Effektivität dieses Anwendungsfallmusters gemes
 
 Entwickeln Sie Journey auf Kontoebene, die Leads zu Einkaufsgruppen qualifizieren, um die B2B-Marketing-Effektivität zu verbessern.
 
-**Funktionskette:** Kontoidentifizierung > Einkaufsgruppendefinition > Lead-Qualifizierung > Ausführung der Account-Journey > Interaktionsbewertung > Berichterstellung
+**Ausführungsplan:** Kontoidentifizierung > Einkaufsgruppendefinition > Lead-Qualifizierung > Ausführung der Konto-Journey > Interaktionsbewertung > Berichterstellung
 
 ## Programme
 
@@ -99,9 +99,9 @@ Die folgenden Adobe-Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Erforderlich | Sandbox mit aktivierten Berechtigungen für [!DNL AJO B2B Edition] und [!DNL RT-CDP B2B Edition]. Rollen, die für B2B-Marketing-Experten, Vertriebsmitarbeiter und Administratoren mit entsprechenden Berechtigungen für die Einkaufsgruppenverwaltung, Account-Journey und CRM-Integrationseinstellungen konfiguriert sind. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | B2B-XDM-Schemata, die mit B2B-spezifischen Klassen konfiguriert wurden: XDM Business Account, XDM Business Opportunity, XDM Business Person (Lead/Kontakt), XDM Business Campaign und XDM Business Marketing List. Feldergruppen für Kontoattribute, Personenattribute und Aktivitäts-/Interaktionsdaten müssen vorhanden sein. Für jedes Schema wurden Datensätze erstellt und für das Profil aktiviert. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [B2B-Schemaklassen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition) |
@@ -113,7 +113,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute können Interaktionsereignisse auf Personenebene (E-Mail-Öffnungen, Inhalts-Downloads, Webinar-Anwesenheit) in Interaktionsmetriken auf Kontoebene aggregieren, die die Logik der Einkaufsgruppenbewertung und Kontoqualifizierung unterstützen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Die Einverständnisverwaltung ist für die B2B-E-Mail- und SMS-Kommunikation von entscheidender Bedeutung. Richtlinien zur Datensatzgültigkeit helfen beim Management des Lebenszyklus von Daten mit vorübergehender Interaktion und stellen die Einhaltung von Datenspeicherungsanforderungen sicher. | [Erweitertes Daten-Lifecycle-Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
@@ -123,11 +123,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Konfiguration des Lösungsinteresses | Phase 1: Lösungsinteresse und Einrichtung der Einkaufsgruppe | Definieren von Lösungsinteressen, die Produkte oder Services den Kriterien für die Einkaufsgruppenqualifizierung zuordnen |
 | Einkaufsgruppenverwaltung | Phase 1: Lösungsinteresse und Einrichtung der Einkaufsgruppe | Erstellen und verwalten Sie Einkaufsgruppen mit Rollenvorlagen, persönlicher Zuordnung und Definition des Lösungsinteresses |
@@ -142,7 +142,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kontoprofil-Vereinheitlichung | Phase 0: B2B-Datengrundlage | Konsolidierung quellenübergreifender B2B-Daten in einheitlichen Account-Profilen mithilfe spezialisierter XDM-B2B-Schemaklassen und Feldergruppen |
 | B2B-Identitätsauflösung | Phase 0: B2B-Datengrundlage | Lösen Sie Personen-zu-Konto-Beziehungen mithilfe primärer Kennungen auf, die mehrstufige Kontohierarchien und Viele-zu-Viele-Personen-zu-Konto-Zuordnungen unterstützen |
@@ -353,7 +353,7 @@ Wie sollten Konto-Zielgruppen für den Journey-Eintrag definiert werden?
 
 ### Phase 1: Interesse an der Lösung und Einrichtung der Einkaufsgruppe
 
-**Anwendungsfunktionen:** [!DNL AJO B2B]: Konfiguration von Lösungsinteressen, Einkaufsgruppenverwaltung
+**Anwendungsfunktionen:** [!DNL AJO B2B]: Konfiguration von Lösungsinteressen, Übernahme von Gruppenverwaltung
 
 In dieser Phase werden die Lösungsinteressen (Produkte/Services) und Einkaufsgruppenvorlagen definiert, die den Kern des Einkaufsgruppenmanagementmodells bilden. Sie erstellen Lösungsinteressen, definieren Rollenvorlagen mit persönlichen Anforderungen und konfigurieren, wie Leads für Einkaufsgruppenrollen qualifiziert werden.
 
@@ -519,7 +519,7 @@ Entwerfen Sie einen Journey, bei dem Bedingungsknoten den KI-Qualifizierungswert
 
 ### Phase 4: Sales Alignment und CRM-Integration
 
-**Anwendungsfunktionen:** [!DNL AJO B2B]: Konfiguration von Verkaufswarnungen, CRM-Vertriebserkenntnisse; [!DNL RT-CDP B2B]: Kontozielkonfiguration, Konto-Audience Activation
+**Anwendungsfunktionen:** [!DNL AJO B2B]: Konfiguration von Warnhinweisen für den Verkauf, CRM-Vertriebserkenntnisse; [!DNL RT-CDP B2B]: Kontozielkonfiguration, Konto-Audience Activation
 
 In dieser Phase wird die Brücke zwischen Marketing und Vertrieb geschlagen, indem E-Mails zu Verkaufswarnungen konfiguriert, CRM-Vertriebserkenntnisse für In-CRM-Sichtbarkeit bereitgestellt und optional Account-Zielgruppen für B2B-Ziele ([!DNL LinkedIn], [!DNL Marketo], CRM-Systeme) aktiviert werden.
 

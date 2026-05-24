@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Anwendungsfallmuster bei der Implementi
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Anwendungsfallmuster
 
-Anwendungsfallmuster definieren wiederholbare Implementierungsansätze für Adobe Experience Platform und Programme. Jedes Muster beschreibt eine bestimmte Funktion, die Funktionskette, die sie bereitstellt, die beteiligten Anwendungen und die [wichtigen Geschäftsziele](/help/blueprints/business-objectives/overview.md) die sie unterstützt.
+Anwendungsfallmuster definieren wiederholbare Implementierungsansätze für Adobe Experience Platform und Programme. Jedes Muster beschreibt eine bestimmte Funktion, den Ausführungsplan, der sie bereitstellt, die beteiligten Anwendungen und die [wichtigen Geschäftsziele](/help/blueprints/business-objectives/overview.md) die sie unterstützt.
 
 Verwenden Sie die folgenden Tabellen, um das Muster zu finden, das Ihren Implementierungsanforderungen entspricht, und folgen Sie dann dem Link zur vollständigen Implementierungsreferenz, einschließlich Optionen, Phasen, Entscheidungshilfen und Experience League-Dokumentation.
 

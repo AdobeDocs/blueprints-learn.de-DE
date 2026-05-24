@@ -3,7 +3,7 @@ title: Brand Concierge - Gesprächserlebnis
 description: Erfahren Sie, wie Sie digitale Eigenschaften in KI-gestützte, markensichere Gesprächserlebnisse umwandeln können, die die Kundenfindung leiten.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7239'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Die folgenden KPIs helfen, den Erfolg dieses Anwendungsfallmusters zu messen.
 
 Wandeln Sie digitale Eigenschaften in KI-gestützte, markensichere Gesprächserlebnisse um, die die Kundenfindung durch natürlichen Dialog leiten, Profile mit Intent- und Sentiment-Signalen anreichern und personalisierte Produktempfehlungen liefern.
 
-**Funktionskette:** Agentenkonfiguration > Brand Governance-Einrichtung > Inhaltsintegration > Bereitstellung von konversativen Erlebnissen > Profilanreicherung > Analysen und Optimierung
+**Ausführungsplan:** Agentenkonfiguration > Brand Governance-Einrichtung > Inhaltsintegration > Bereitstellung von Konversationserlebnissen > Profilanreicherung > Analysen und Optimierung
 
 ## Programme
 
@@ -112,9 +112,9 @@ Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu im
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Erforderlich | Sandbox mit aktivierter [!DNL Brand Concierge]; Rollen, die für Erlebnisadministratoren, Content-Manager und Analytics-Benutzer von Conversational Experience Manager konfiguriert sind; ABAC-Richtlinien für Konversationsdaten, die personenbezogene Daten oder vertrauliche Kundensignale enthalten | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | XDM-Schemata für Konversationsereignisse (ExperienceEvent-Klasse mit konversationsspezifischen Feldergruppen, die Absichten, Sentiment, Produktinteraktionen und Übergabeereignisse erfassen); Profilschema, das mit Präferenz- und Absichtsattributen für Konversationen erweitert wurde; Produktkatalogsuchschema für Erstellungsempfehlungen | [XDM-System - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) |
@@ -126,7 +126,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Fassen Sie Gesprächssignale in Profilebenen-Attributen (z. B. Gesamtunterhaltungen, dominante Produktinteressen, durchschnittlicher Sentiment-Wert) zur Verwendung in nachgelagerten Segmentierungs- und Personalisierungsbereichen zusammen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Konfigurieren Sie Aufbewahrungsrichtlinien für Daten zu Konversationsereignissen, verwalten Sie Einverständniserklärungen für die Gesprächsaufzeichnung und -profilerstellung und unterstützen Sie Datenschutzlöschanfragen für Gesprächstranskripte | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
@@ -136,11 +136,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Brand Concierge]
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Agent-Konfiguration | Phase 1: Agentenkonfiguration | Konfigurieren Sie den [!DNL Brand Concierge] Agent Orchestrator mit Agentenspezialisierungen (Produktberater, Site-Beratung) und Einstellungen für das Basisverhalten. |
 | Einrichten der Brand Governance | Phase 2: Einrichtung der Markenverwaltung | Definieren Sie Markensprache, Ton, Leitplanken für Messaging, genehmigte Inhaltsgrenzen und verbotene Themen, die alle Gesprächsinteraktionen prägen |
@@ -155,7 +155,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP]
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Echtzeit-Profilsuche | Phase 4: Bereitstellung von Erlebnissen im Gespräch | Zugriff auf Echtzeit-Kundenprofilattribute und Segmentzugehörigkeiten, um Gesprächsantworten basierend auf bekannten Kundendaten zu personalisieren |
 | Profilanreicherung | Phase 5: Profilanreicherung | Profile mit berechneten Attributen anreichern, die aus Konversationsereignissen abgeleitet wurden (Intent Scores, Sentiment-Trend, Produktaffinität) |
@@ -367,7 +367,7 @@ Aktivieren Sie beide Spezialisierungen und konfigurieren Sie die Intent-Routing-
 
 ### Phase 2: Einrichtung der Markenverwaltung
 
-**Anwendungsfunktion:** [!DNL Brand Concierge]: Einrichtung der Markenverwaltung
+**Anwendungsfunktion:** [!DNL Brand Concierge]: Einrichtung der Brand Governance
 
 Konfigurieren Sie die Brand Governance-Leitplanken, die alle dialogorientierten Interaktionen formen. Dazu gehören Markensprache- und -tondefinitionen, genehmigte Inhaltsgrenzen, verbotene Themen, Richtlinien für den Antwortstil und Eskalationsregeln. Brand Governance stellt sicher, dass jede KI-generierte Antwort mit den Markenstandards übereinstimmt.
 
@@ -468,7 +468,7 @@ Konfigurieren Sie sowohl Produktkatalog- als auch Site-Inhaltsquellen. Stellen S
 
 ### Phase 4: Bereitstellung von Erlebnissen im Gespräch
 
-**Anwendungsfunktion:** [!DNL Brand Concierge]: Bereitstellung von Erlebnissen im Gespräch, Verwaltung von Flüssen mit niedrigem Code, Übergabe von Live-Agenten; [!DNL RT-CDP]: Echtzeit-Profilsuche
+**Anwendungsfunktionen:** [!DNL Brand Concierge]: Bereitstellung von Erlebnissen im Gespräch, Verwaltung von Flüssen mit niedrigem Code, Übergabe von Live-Agenten; [!DNL RT-CDP]: Echtzeit-Profilsuche
 
 Stellen Sie das Gesprächserlebnis auf digitalen Zieleigenschaften bereit, einschließlich Kanalkonfiguration, Widget-Anpassung, Profilsuchintegration für die Personalisierung, Regeln für die Übergabe von Live-Agenten und Low-Code-Tools für das laufende Content-Management.
 

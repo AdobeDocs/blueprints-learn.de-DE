@@ -3,7 +3,7 @@ title: Zielgruppen-Collaboration
 description: Erfahren Sie, wie Sie Zielgruppensegmente mithilfe von Segment Match in Sandboxes oder Organisationen freigeben und abgleichen können.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: 7014849c-5e32-4ec3-a531-c0e8ce896f44
-source-git-commit: 27f7e230982807ec70ca96af7f737944a6588f27
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '6232'
 ht-degree: 1%
@@ -82,7 +82,7 @@ Dieser Anwendungsfall folgt dem Audience Collaboration-Muster.
 
 Freigeben und Abgleichen von Zielgruppensegmenten über Sandboxes oder Organisationen hinweg mithilfe von [!DNL Segment Match].
 
-**Funktionskette:** Segmentauswahl > Übereinstimmungskonfiguration > Überschneidungsschätzung > Zielgruppenfreigabe > Aktivierung
+**Ausführungsplan:** Segmentauswahl > Übereinstimmungskonfiguration > Überschneidungsschätzung > Zielgruppenfreigabe > Aktivierung
 
 ## Programme
 
@@ -93,9 +93,9 @@ Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Erforderlich | Sowohl für Absender- als auch für Empfängerorganisationen müssen Sandboxes mit entsprechenden Rollen und Berechtigungen bereitgestellt werden. Benutzer, die [!DNL Segment Match] verwalten, müssen über Berechtigungen zum Anzeigen und Freigeben von Segmenten, zum Konfigurieren von Verbindungen und zum Verwalten von Partner-Feeds verfügen. ABAC-Richtlinien sollten so konfiguriert werden, dass gesteuert wird, welche Benutzenden Segmentfreigaben initiieren und akzeptieren können. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Angenommen an Ort und Stelle | XDM-Schemata für Profile und Ereignisse müssen mit den erforderlichen Feldergruppen vorhanden sein. Profil- und Ereignisdatensätze müssen erstellt und für die [!DNL Real-Time Customer Profile] aktiviert werden. Das Datenmodell muss die Identity-Namespaces unterstützen, die für den Segmentabgleich verwendet werden (normalerweise gehashte E-Mails oder gehashte Telefonnummern). | [XDM-System - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) |
@@ -107,7 +107,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie der lebenslange Kaufwert, der Interaktionswert oder die Produktaffinität können präzisere Segmente für die Freigabe erstellen. Hochwertigere Eingabesegmente führen zu einer wertvolleren Zusammenarbeit mit den Zielgruppen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Einverständnis- und Datenspeicherungsrichtlinien stellen sicher, dass freigegebene Segmente die Datenschutzbestimmungen einhalten. Richtlinien zur Datensatzgültigkeit helfen beim Verwalten des Lebenszyklus der empfangenen Zielgruppendaten. Die Durchsetzung des Einverständnisses verhindert die Freigabe von Profilen, die sich abgemeldet haben. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
@@ -117,11 +117,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Real-Time CDP]
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Phase 1: Segmentauswahl und -vorbereitung | Bewerten Sie die Segmentzugehörigkeit mithilfe der Batch-Auswertung, um die Zielgruppen zu erstellen, die über [!DNL Segment Match] freigegeben werden |
 | Audience-Komposition | Phase 1: Segmentauswahl und -vorbereitung | Erstellen Sie optional abgeleitete Zielgruppen (Rang, Aufspaltung, Ausschluss, Anreicherung), um zielgerichtetere Segmente für die Freigabe zu erstellen |

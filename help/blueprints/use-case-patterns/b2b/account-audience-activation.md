@@ -3,7 +3,7 @@ title: B2B-Audience Activation
 description: Erfahren Sie, wie Sie Account-basierte B2B-Zielgruppen über Web-, E-Mail- und Werbekanäle aktivieren.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7611'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Die folgenden KPIs helfen, den Erfolg dieses Anwendungsfallmusters zu messen.
 
 Account-basierte B2B-Zielgruppen über Web-, E-Mail- und Werbekanäle aktivieren.
 
-**Funktionskette:** Kontoprofilanreicherung > Kontozielgruppenbewertung > Zielkonfiguration > Audience Activation > Überwachung
+**Ausführungsplan:** Kontoprofilanreicherung > Kontozielgruppenbewertung > Zielkonfiguration > Audience Activation > Überwachung
 
 ## Programme
 
@@ -110,9 +110,9 @@ Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu im
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Erforderlich | Sandbox mit aktiviertem [!DNL RT-CDP] B2B edition bereitgestellt. Für B2B-Daten-Management, Zielgruppenerstellung und Zielaktivierung konfigurierte Rollen. ABAC-Richtlinien gelten, wenn Kontodaten eingeschränkte Felder enthalten. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | B2B-XDM-Schemata, die mit den Klassen XDM Business Account, XDM Business Opportunity, XDM Business Campaign und XDM Individual Profile konfiguriert wurden. B2B-Feldergruppen werden auf Kontoattribute, Personen-Konto-Beziehungen und Opportunity-Daten angewendet. Für jede B2B-Entität wurden Datensätze erstellt und für Profile aktiviert. Schemabeziehungen definiert zwischen Konto-, Personen-, Opportunity- und Kampagnenentitäten. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [B2B-Schemata in Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b) |
@@ -124,7 +124,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Aggregierte Interaktionswerte, Lebenszeitwert und Aktivitätsmetriken auf Kontoebene verbessern die Genauigkeit der Zielgruppe. Berechnete Attribute können Ereignisse auf Benutzerebene (E-Mail-Öffnungen, Web-Besuche, Inhalts-Downloads) zur Verwendung in der Segmentierung auf Kontoebene aggregieren. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | B2B-Richtlinien zur Datenaufbewahrung stellen sicher, dass veraltete Konto- und Opportunity-Daten bereinigt werden. Die Einverständnisverwaltung für B2B-Kontakte gewährleistet die Einhaltung von E-Mail-Marketing-Vorschriften. Richtlinien zur Datensatzgültigkeit verhindern die Akkumulation veralteter CRM-Synchronisierungsdaten. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
@@ -134,11 +134,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Real-Time CDP] B2B edition ([!DNL RT-CDP] B2B)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kontoprofil-Vereinheitlichung | Phase 1: Anreicherung des Kontoprofils | Konsolidieren von Kontodaten aus CRM-, Marketing-Automatisierungs- und Drittanbieterquellen in einheitlichen Kontoprofilen mithilfe von B2B-XDM-Schemaklassen |
 | B2B-Identitätsauflösung | Phase 1: Anreicherung des Kontoprofils | Lösen Sie Personen-zu-Konto-Beziehungen mithilfe primärer Kennungen, der Zuordnung von Kontakten und Leads zu den zugehörigen Konten auf |
@@ -150,7 +150,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP] ([!DNL RT-CDP]) — Standardfunktionen
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Phase 2: Evaluierung der Kontenzielgruppe | Zugrunde liegende Auswertungs-Engine für Konto-Zielgruppen, die die Batch-Auswertung von Segmentdefinitionen auf Kontoebene unterstützt |
 | Zielkonfiguration | Phase 3: Zielkonfiguration | Kernzielverbindungs-Infrastruktur, die von der B2B-spezifischen Zielkonfiguration verwendet wird |
@@ -362,7 +362,7 @@ In dieser Phase werden einheitliche Account-Profile erstellt, indem Daten aus CR
 
 **Anwendungsfunktion:** [!DNL RT-CDP] B2B: Kontoprofilvereinheitlichung, [!DNL RT-CDP] B2B: B2B-Identitätsauflösung
 
-**Was Sie konfigurieren werden:** In dieser Phase werden einheitliche Account-Profile erstellt, indem Daten aus CRM, Marketing-Automatisierung und Quellen von Drittanbietern konsolidiert werden. Die B2B-Identitätsauflösung ordnet Beziehungen zwischen Personen und Konten zu, sodass Interaktionsdaten auf Personenebene (E-Mail-Öffnungen, Web-Besuche, Inhalts-Downloads) aggregiert und in der Zielgruppenbewertung auf Kontoebene verwendet werden können. Diese Phase baut auf den Grundfunktionen F2, F3 und F4 auf, die bereits vorhanden sein müssen.
+**Was Sie konfigurieren werden:** In dieser Phase werden einheitliche Account-Profile erstellt, indem Daten aus CRM, Marketing-Automatisierung und Quellen von Drittanbietern konsolidiert werden. Die B2B-Identitätsauflösung ordnet Beziehungen zwischen Personen und Konten zu, sodass Interaktionsdaten auf Personenebene (E-Mail-Öffnungen, Web-Besuche, Inhalts-Downloads) aggregiert und in der Zielgruppenbewertung auf Kontoebene verwendet werden können. Diese Phase baut auf den grundlegenden Fähigkeiten F2, F3 und F4 auf, die bereits vorhanden sein müssen.
 
 **Entscheidungspunkte in dieser Phase:**
 
@@ -609,7 +609,7 @@ Zu aktivierende Konto-Zielgruppen auswählen. Die Aktivierung beginnt sofort mit
 
 In dieser Phase wird sichergestellt, dass die Aktivierung der Konto-Zielgruppe den Data-Governance-Richtlinien und den Voreinstellungen für das Einverständnis entspricht und dass die laufenden Aktivierungsdatenflüsse auf ihre Integrität überwacht werden.
 
-**Anwendungsfunktion:** [!DNL RT-CDP] B2B: B2B-Data Governance, [!DNL RT-CDP]: Durchsetzung von Einverständnis und Governance
+**Anwendungsfunktion:** [!DNL RT-CDP] B2B: B2B-Data-Governance, [!DNL RT-CDP]: Durchsetzung von Einverständnis und Governance
 
 **Was Sie konfigurieren werden:** In dieser Phase wird sichergestellt, dass die Aktivierung der Konto-Zielgruppe den Data-Governance-Richtlinien und den Einverständnisvoreinstellungen entspricht und dass die Datenflüsse für die laufende Aktivierung auf ihre Integrität überwacht werden. B2B-Data Governance erzwingt Einschränkungen bei sensiblen Kontoattributen (Umsatz, Mitarbeiteranzahl von Drittanbietern), während die Durchsetzung der Einwilligung sicherstellt, dass bei der Kommunikation auf Personenebene die Opt-out-Voreinstellungen beachtet werden. Die Überwachung bestätigt, dass Aktivierungsdatenflüsse erfolgreich abgeschlossen werden.
 

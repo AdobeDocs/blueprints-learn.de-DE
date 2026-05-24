@@ -3,7 +3,7 @@ title: Mehrstufige orchestrierte Journey
 description: Erfahren Sie, wie Sie ein Profil durch einen verzweigten Multi-Touch-Journey mit Wartezeiten, Bedingungen und mehreren Nachrichtenaktionen im Laufe der Zeit führen.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 5667b188-1b20-4a85-aebb-74efd5f771a1
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8211'
 ht-degree: 2%
@@ -95,7 +95,7 @@ Verwenden Sie die folgenden KPIs, um die Effektivität Ihrer mehrstufigen orches
 
 Führen Sie ein Profil durch einen verzweigenden Multi-Touch-Journey mit Wartezeiten, Bedingungen und mehreren Nachrichtenaktionen im Laufe der Zeit.
 
-**Funktionskette:** Zielgruppenauswertung > Journey-Ausführung (mehrere Knoten) > Bedingungsverzweigung > Nachrichtenversand (xN) > Beendigungskriterien > Berichte
+**Ausführungsplan:** Zielgruppenauswertung > Journey-Ausführung (mehrere Knoten) > Bedingungsverzweigung > Nachrichtenversand (xN) > Beendigungskriterien > Berichte
 
 ## Programme
 
@@ -107,13 +107,13 @@ Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu im
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
-| Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit Berechtigungen zum Erstellen und Veröffentlichen von Journey. Kanaloberflächen für alle auf der Journey verwendeten Kanäle müssen konfiguriert werden. Benutzende müssen über die entsprechenden Rollen (Marketing-Experten, Journey-Manager) mit Journey- und Kampagnenberechtigungen verfügen. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
+| Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit Berechtigungen zum Erstellen und Veröffentlichen von Journey. Kanaloberflächen für alle auf der Journey verwendeten Kanäle müssen konfiguriert werden. Benutzende müssen über die entsprechenden Rollen (Marketing-Experten, Journey-Manager) mit Journey- und Kampagnenberechtigungen verfügen. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | XDM-Profilschema mit Attributen, die für die Bedingungsverzweigung und Personalisierung über mehrere Nachrichten hinweg verwendet werden (z. B. Treuestufe, Produktzweck, Interaktionswert). Erlebnisereignis-Schemata für Konversionsereignisse, die die Ausstiegskriterien und die Auswertung von Bedingungen steuern (z. B. Kaufereignisse, Formularübermittlungen). | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition) |
-| Datenquellen und Sammlung | Angenommen an Ort und Stelle | Ereignis-Streaming muss aktiv sein, wenn die Beendigungskriterien oder -bedingungen von Echtzeit-Ereignissen abhängen (z. B. Kaufereignis zum Beenden des Journey). Batch-Aufnahme für Profilattribute, die in der Verzweigung verwendet werden. Web SDK oder Server-seitige API für die Erfassung verhaltensbezogener Ereignisse. | [Streaming-Aufnahme - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/streaming/overview), [Quellen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home) |
+| Datenquellen und Sammlung | Angenommen an Ort und Stelle | Ereignis-Streaming muss aktiv sein, wenn die Beendigungskriterien oder -bedingungen von Echtzeit-Ereignissen abhängen (z. B. Kaufereignis zum Beenden des Journey). Batch-Aufnahme für Profilattribute, die in der Verzweigung verwendet werden. Web SDK oder Server-seitige API für die Erfassung verhaltensbezogener Ereignisse. | [Streaming-Aufnahme - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/streaming/overview), [Quellen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | Identitäts- und Profilkonfiguration | Angenommen an Ort und Stelle | Profile müssen über alle in der Journey verwendeten Kanäle (E-Mail, SMS, Push) aufgelöst werden können. Geräteübergreifende Identitäten müssen konfiguriert werden, wenn die Journey Web- und Mobile-Touchpoints umfasst. Die Zusammenführungsrichtlinie muss für die Sandbox konfiguriert werden. | [Identity Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home), [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview) |
 | Zielgruppendefinition und Segmentierung | Erforderlich | Einstiegszielgruppe muss für zielgruppenlesbare Journey definiert werden. Segmente können auch in Bedingungsknoten für Verzweigungen verwendet werden. Die Auswertungsmethode (Batch oder Streaming) muss den Journey-Eingabeanforderungen entsprechen. | [Segmentation Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home), [Handbuch zur Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder) |
 
@@ -121,7 +121,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie Interaktionswerte, Tage seit der letzten Aktivität oder der Lebenszeitkaufwert verbessern die Logik der Bedingungsverzweigung und ermöglichen intelligentere Journey-Pfadentscheidungen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Die Aufbewahrung von Journey-Ereignisdaten sollte mit Datensatz-Ablaufrichtlinien konfiguriert werden, um den Speicher zu verwalten und die Vorschriften zur Datenaufbewahrung einzuhalten. Durch die Durchsetzung des Einverständnisses wird sichergestellt, dass nur angemeldete Profile Nachrichten an jedem Kanal-Touchpoint erhalten. | [Erweiterte Übersicht über das Data Lifecycle Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home), [Datensatzgültigkeiten](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
@@ -131,11 +131,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kanalkonfiguration | Phase 1: Kanaleinrichtung | Kanaloberflächen (E-Mail, SMS, Push) für jeden Messaging-Touchpoint auf der Journey konfigurieren |
 | Verfassen von Nachrichten | Phase 2: Erstellung des Nachrichteninhalts | Verfassen Sie Nachrichteninhalte mit Personalisierung, dynamischen Inhalten und Vorlagen für jeden Journey-Aktionsknoten |
@@ -147,7 +147,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Phase 1: Kanaleinrichtung (Voraussetzung) | Definieren und Auswerten der Einstiegszielgruppe für von der Zielgruppe gelesene Journey; Definieren von Bedingungszielgruppen für Verzweigungen |
 | Durchsetzung von Einverständnis und Governance | Phase 4: Governance und Optimierung | Erzwingen von Einverständnisvoreinstellungen und Datennutzungsrichtlinien für Journey-Nachrichtenaktionen |

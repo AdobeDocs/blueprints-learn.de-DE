@@ -3,10 +3,10 @@ title: Anwendungsfallkatalog
 description: Durchsuchen Sie branchenspezifische Anwendungsfälle nach Vertikalen, um den richtigen Ausgangspunkt für Ihre Adobe Experience Platform- und Anwendungs-Journey mit Links zu Implementierungsmustern und Geschäftszielen zu finden.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '4157'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 Anwendungsfälle aus der Branche zeigen, wie Unternehmen in bestimmten Branchen Adobe Experience Platform und Anwendungen einsetzen, um messbare Geschäftsergebnisse zu erzielen. Jeder Anwendungsfall beschreibt ein konkretes Geschäftsszenario, dessen erwartete Auswirkungen und Links zum Anwendungsfallmuster[&#x200B; das &#x200B;](/help/blueprints/use-case-patterns/overview.md) Implementierungshandbücher bietet.
 
-Durchsuchen Sie die nach Branchen geordneten Seiten, um Anwendungsfälle zu finden, die für Ihr Unternehmen relevant sind, und folgen Sie dann den Muster-Links für Implementierungsreferenzen, einschließlich Entscheidungshilfen, Funktionsketten und Experience League-Dokumentation.
+Durchsuchen Sie die nach Branchen geordneten Seiten, um Anwendungsfälle zu finden, die für Ihr Unternehmen relevant sind, und folgen Sie dann den Muster-Links für Implementierungsreferenzen, einschließlich Entscheidungshilfen, Ausführungsplänen und Experience League-Dokumentation.
 
 | Branche | Schlüsselthemen |
 | --- | --- |
@@ -31,7 +31,7 @@ Durchsuchen Sie die nach Branchen geordneten Seiten, um Anwendungsfälle zu find
 
 ## Verbinden von Anwendungsfällen mit dem Implementierungshandbuch
 
-Jeder Anwendungsfall ist verknüpft mit einem **Anwendungsfallmuster** - einem wiederholbaren Implementierungsansatz, der die Funktionskette, Entscheidungspunkte und Konfigurationsschritte beschreibt, die erforderlich sind, um den Anwendungsfall zum Leben zu erwecken. Anwendungsfallmuster wiederum stehen in Verbindung mit [wichtigen Geschäftszielen](/help/blueprints/business-objectives/overview.md) und helfen Ihnen, die Implementierungsarbeit an strategische Ergebnisse anzupassen.
+Jeder Anwendungsfall ist mit einem **Anwendungsfallmuster) verknüpft** einem wiederholbaren Implementierungsansatz, der den Ausführungsplan, die Entscheidungspunkte und die Konfigurationsschritte beschreibt, die erforderlich sind, um den Anwendungsfall zum Leben zu erwecken. Anwendungsfallmuster wiederum stehen in Verbindung mit [wichtigen Geschäftszielen](/help/blueprints/business-objectives/overview.md) und helfen Ihnen, die Implementierungsarbeit an strategische Ergebnisse anzupassen.
 
 ```
 Industry Use Case → Use Case Pattern → Key Business Objective

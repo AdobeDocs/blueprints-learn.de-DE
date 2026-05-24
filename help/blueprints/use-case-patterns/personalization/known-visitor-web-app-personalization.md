@@ -3,7 +3,7 @@ title: Web-/App-Personalization für bekannte Besucher
 description: Erfahren Sie, wie Sie auf der Grundlage von Echtzeit-Profil- und Segmentzugehörigkeit personalisierte Inhalte, Angebote oder Promotions für identifizierte Besucher bereitstellen können.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7968'
 ht-degree: 2%
@@ -78,13 +78,13 @@ Mit den folgenden KPIs kann die Effektivität dieses Anwendungsfallmusters gemes
 
 ## Anwendungsfallmuster
 
-In diesem Abschnitt werden das Kernmuster und seine Funktionskette beschrieben.
+In diesem Abschnitt werden das Kernmuster und der Ausführungsplan beschrieben.
 
 **Web-/App-Personalisierung für bekannte Besucher**
 
 Stellen Sie einem identifizierten Besucher auf der Grundlage von Echtzeit-Profil und Segmentzugehörigkeit personalisierte Inhalte, Angebote oder Angebote auf Web-, Mobile-In-App- und Inhaltskartenoberflächen bereit.
 
-**Funktionskette:** Zielgruppenauswertung > Personalization Decisioning > Oberflächen-/Kanalkonfiguration > Inhaltsbereitstellung > Impression-Tracking > Berichterstellung
+**Ausführungsplan:** Zielgruppenbewertung > Personalization Decisioning > Oberflächen-/Kanalkonfiguration > Inhaltsbereitstellung > Impression-Tracking > Berichterstellung
 
 ## Programme
 
@@ -96,9 +96,9 @@ Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein | Experience League-Referenz |
+| Grundleistung | Status | Was muss vorhanden sein | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit konfigurierten Web-Kanal-, In-App-Kanal- und Entscheidungsberechtigungen. Benutzende mit den Rollen „Marketer“ und „Inhaltsautor“. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | Das Profilschema muss Attribute enthalten, die für die Personalisierung und Segmentierung verwendet werden (z. B. Treuestufe, Kaufverlauf, Produktinteressen, Lebenszyklusphase). Erlebnisereignis-Schema für Web-/App-Interaktions-Tracking- und -Konversionsereignisse. Datensätze für [!DNL Real-Time Customer Profile] aktiviert. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition) |
@@ -110,21 +110,21 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute (z. B. [!DNL Customer AI] Tendenzwerte, Lebenszeitwert, Interaktionswert, Produktaffinität, Tage seit dem letzten Kauf) verbessern die Personalisierungsqualität erheblich, indem sie umfangreichere Signale für die Zielgruppendefinition und Inhaltsauswahl bereitstellen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview), [Kunden-KI - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Data Lifecycle Management | Empfohlen | Richtlinien zur Profil- und Ereignisdatenspeicherung stellen sicher, dass aktuelle, relevante Daten zu Personalisierungsentscheidungen führen. Durch die Durchsetzung des Einverständnisses wird sichergestellt, dass bei der Personalisierung die Benutzereinstellungen berücksichtigt werden. | [Übersicht über das erweiterte Daten-Lifecycle-Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home), [Einverständnis in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen für Profilattribute, die für die Personalisierung verwendet werden (insbesondere personenbezogene Daten benachbarte Attribute wie Kaufverlauf, Standort, Finanzdaten), stellen die Einhaltung von Datennutzungsrichtlinien sicher. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home), [Übersicht über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview) |
 | Überwachung und Beobachtbarkeit | Empfohlen | Die Leistungsüberwachung von Edge für Versand und Personalisierung hilft bei der Erkennung von Latenzproblemen, Versandfehlern oder Problemen mit der Datenfrische, die das personalisierte Erlebnis beeinträchtigen. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home), [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview) |
-| Reporting und Analyse | Eingeschlossen | Die Leistungsberichterstattung für Personalization ist Teil der Funktionskette in Schritt 6. [!DNL Customer Journey Analytics] Analyse ermöglicht eine gründliche Untersuchung der Auswirkungen der Personalisierung auf Konversion, Interaktion und Umsatz in allen Besuchersegmenten. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Handbuch zur Integration von AJO und CJA](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| Reporting und Analyse | Eingeschlossen | Personalization-Leistungsberichte sind Teil des Ausführungsplans in Schritt 6. [!DNL Customer Journey Analytics] Analyse ermöglicht eine gründliche Untersuchung der Auswirkungen der Personalisierung auf Konversion, Interaktion und Umsatz in allen Besuchersegmenten. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Handbuch zur Integration von AJO und CJA](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kanalkonfiguration | Oberflächen- und Kanalkonfiguration | Konfigurieren von Kanaloberflächen für Web-, In-App- und Inhaltskarten für die Personalisierungsbereitstellung |
 | Verfassen von Nachrichten | Inhaltserstellung | Erstellen Sie für jede Oberfläche personalisierte Inhaltsvarianten mit dynamischen Inhalten, Personalisierungsausdrücken und bedingten Bausteinen |
@@ -136,7 +136,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Zielgruppendefinition und -auswertung | Definieren und Auswerten von Zielgruppen mithilfe von Profilattributen, Verhaltensdaten und berechneten Attributen mit Edge- oder Streaming-Auswertung |
 | Echtzeit-Profilsuche | Inhaltsbereitstellung (Laufzeit) | Zugriff auf Echtzeit-Profilattribute und Segmentzugehörigkeiten über Edge Network für Personalisierungsentscheidungen im Anschluss an eine Sekunde |

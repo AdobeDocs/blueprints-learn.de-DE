@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Handbuch zur Erstellung neuer Anwendungsfall-Musterinhalte für das Adobe Experience Platform Blueprints-Repository. Verwenden Sie diese Fähigkeit, wenn Sie ein neues Anwendungsfallmuster hinzufügen, Inhalte für Implementierungshandbücher erstellen oder wenn der/die Benutzende das Hinzufügen von Mustern zur Blueprints-Site erwähnt. Übernimmt den gesamten Workflow: das Erfassen von Musterinformationen, das Generieren der Markdown-Datei mit der richtigen Vorlagenstruktur und das Aktualisieren aller Querverweisseiten (TOC.md, overview.md).'
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 99%
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ Befragen Sie den Benutzer, um alle erforderlichen Informationen zu sammeln, bevo
 
 4. **Zentrale Adobe-Lösungen** - Die Adobe-Produkte sind von zentraler Bedeutung für dieses Muster. Wählen Sie je nach Bedarf aus Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B edition, Real-Time CDP B2B edition oder anderen.
 
-5. **Funktionskettenschritte** - 3-6 sequenzielle Phasen, die den Ausführungsfluss des Musters beschreiben, getrennt durch `>`. Beispiel: „Ereignisaufnahme > Journey-Eintrag > Bedingungsauswertung > Nachrichtenversand > Reporting“.
+5. **Schritte des Ausführungsplans** - 3-6 sequenzielle Phasen, die den Ausführungsfluss des Musters beschreiben, getrennt durch `>`. Beispiel: „Ereignisaufnahme > Journey-Eintrag > Bedingungsauswertung > Nachrichtenversand > Reporting“.
 
 6. **Unterstützte Geschäftsziele** - Ein oder mehrere Geschäftsziele aus dem bestehenden Satz unter `/help/blueprints/business-objectives/`. Jede sollte den Zielnamen, den Unterordner der Kategorie und den Dateinamen enthalten. Stellen Sie sicher, dass die referenzierten Dateien vorhanden sind, bevor Sie Inhalte generieren.
 
@@ -58,12 +58,12 @@ Befragen Sie den Benutzer, um alle erforderlichen Informationen zu sammeln, bevo
 
 - Absätze zur Übersicht über Anwendungsfälle (3-5 Absätze; wenn nicht angegeben, entwerfen Sie sie aus den anderen Informationen.)
 - Anwendungsliste mit Beschreibungen der Rollen der einzelnen Adobe-Anwendungen
-- Grundlegende Funktionstabelle (Funktion, Status, Was muss vorhanden sein, Experience League-Referenz)
+- Tabelle mit grundlegenden Funktionen (Funktion, Status, Was muss vorhanden sein, Experience League-Referenz)
 - Tabelle der unterstützenden Funktionen (Funktion, Status, warum es wichtig ist, Experience League-Referenz)
-- Anwendungstabellen (eine pro Anwendung, mit Funktion, Implementierungsphase, Beschreibung)
+- Tabellen mit den Anwendungsfunktionen (eine pro Anwendung, mit Funktion, Implementierungsphase, Beschreibung)
 - Checkliste mit Voraussetzungen
 
-Wenn der/die Benutzende die optionalen Elemente nicht bereitstellt, generieren Sie angemessene Standardwerte basierend auf der Musterkategorie, den Lösungen und der Funktionskette.
+Wenn der/die Benutzende die optionalen Elemente nicht bereitstellt, generieren Sie angemessene Standardwerte basierend auf der Musterkategorie, den Lösungen und dem Ausführungsplan.
 
 ## Phase 2: Inhaltserstellung
 
@@ -89,15 +89,15 @@ Verwenden Sie die Vorlage aus `references/pattern-template.md` und füllen Sie a
 
 6. **Key Performance Indicators** — Tabelle mit KPI, Beschreibung, Messspalten.
 
-7. **Anwendungsfallmuster** — Beschreibungsabsatz und die Funktionskette.
+7. **Anwendungsfallmuster** — Beschreibungsabsatz und Ausführungsplan.
 
 8. **Programme** - Liste der Adobe-Programme mit `[!DNL ...]` Formatierung und Beschreibungen.
 
-9. **Grundlegende Funktionen** - Tabelle mit Spalten: Grundlegende Funktion, Status, Was muss vorhanden sein, Experience League-Referenz. Statuswerte: Erforderlich, An Ort und Stelle angenommen, Nicht zutreffend.
+9. **Grundlegende Funktionen** - Tabelle mit Spalten: Grundlegende Funktionen, Status, Was muss vorhanden sein, Experience League-Referenz. Statuswerte: Erforderlich, An Ort und Stelle angenommen, Nicht zutreffend.
 
-10. **Unterstützende Funktionen** - Tabelle mit Spalten: Unterstützende Funktion, Status, Warum es wichtig ist, Experience League-Referenz. Statuswerte: Empfohlen, enthalten, nicht anwendbar.
+10. **Unterstützende Funktionen** - Tabelle mit Spalten: Unterstützende Funktionen, Status, Warum es wichtig ist, Experience League-Referenz. Statuswerte: Empfohlen, enthalten, nicht anwendbar.
 
-11. **Anwendungsfunktionen** - Eine Tabelle pro Anwendung mit Spalten: Funktion, Implementierungsphase, Beschreibung.
+11. **Anwendungsfunktionen:** Tabelle pro Anwendung mit Spalten: Funktion, Implementierungsphase, Beschreibung.
 
 12. **Voraussetzungen** - Checkliste mit `- [ ]` Syntax.
 

@@ -3,7 +3,7 @@ title: Verhaltensempfehlung
 description: Erfahren Sie, wie Sie Element- und Inhaltsempfehlungen mithilfe von Auswahlstrategien und Rangfolgemodellen generieren.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7545'
 ht-degree: 2%
@@ -79,7 +79,7 @@ Die folgenden KPIs helfen dabei, die Effektivität der Implementierungen von Ver
 
 Generieren Sie Empfehlungen auf Element- oder Inhaltsebene basierend auf Verhaltenssignalen, indem Sie AJO-Entscheidungsauswahlstrategien und Rangfolgemodelle verwenden, um kontextuelle Inhalte bereitzustellen.
 
-**Funktionskette:** Aufnahme von Verhaltenssignalen > Bewertung der Entscheidungsstrategie > Empfehlungsversand > Reporting
+**Ausführungsplan:** Aufnahme von Verhaltenssignalen > Bewertung der Entscheidungsstrategie > Recommendations-Versand > Reporting
 
 Anleitungen zum Kombinieren von Mustern finden Sie im Abschnitt zur Musterkomposition unter Implementierungsüberlegungen .
 
@@ -93,9 +93,9 @@ Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein | Experience League-Referenz |
+| Grundleistung | Status | Was muss vorhanden sein | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit aktivierten Entscheidungsberechtigungen. Benutzerrollen, die Zugriff auf die Verwaltung des Elementkatalogs, die Konfiguration der Auswahlstrategie und die Verwaltung der Kanaloberfläche erhalten. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | Erlebnisereignis-Schema, das Verhaltenssignale (Produktansichten, Hinzufügungen zum Warenkorb, Käufe, Inhaltsinteraktionen) mit Element-/Produktkennungen erfasst. Artikelkatalogschema (Produktattribute, Kategorien, Bilder, Preise) für das Empfehlungselement festgelegt. Profilschema mit Identitätsfeldern Alle Schemata für [!DNL Real-Time Customer Profile] aktiviert. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition), [Erstellen eines Datensatzes](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/create) |
@@ -107,21 +107,21 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie Kategorieaffinitätswerte, Interaktionshäufigkeit des Produkts, Kaufhäufigkeit und Gesamtausgaben verbessern die Qualität des Empfehlungs-Rankings. [!DNL Customer AI] Tendenz-Scores können die Relevanz weiter steigern, indem sie die Kaufwahrscheinlichkeit vorhersagen. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview), [Kunden-KI - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Data Lifecycle Management | Empfohlen | Verhaltensereignisdaten sollten über geeignete Ablaufrichtlinien verfügen - die Relevanz der Empfehlung verschlechtert sich mit veralteten Daten. Das Festlegen von Richtlinien zur Datensatzgültigkeit für Verhaltensereignis-Datensätze stellt die Aktualität sicher und verwaltet die Speicherung. Die Durchsetzung des Einverständnisses stellt die konforme Verwendung von Verhaltensdaten sicher. | [Datensatzgültigkeiten](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [Übersicht über das erweiterte Daten-Lifecycle-Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
 | Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen für Verhaltensdaten stellen sicher, dass der Interaktionsverlauf für Empfehlungen konform verwendet wird. Dies ist besonders wichtig, wenn Verhaltensdaten Suchmuster, Kaufverlauf oder Signale über Gesundheit/Finanzprodukt-Interessen umfassen. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home), [Übersicht über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview) |
 | Überwachung und Beobachtbarkeit | Empfohlen | Die Latenz des Empfehlungsversands, Fallback-Raten und der Aufnahmestatus des Elementkatalogs sollten überwacht werden. Warnhinweise zu Fehlern bei der Aufnahme von Verhaltensereignissen und Entscheidungsfehlern helfen bei der Aufrechterhaltung der Empfehlungsqualität. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home), [Warnhinweise - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview) |
-| Reporting und Analyse | Eingeschlossen | Das Reporting der Recommendations-Leistung ist Teil von Function Chain Schritt 4. [!DNL Customer Journey Analytics] Analyse der Effektivität von Empfehlungen, der Auswirkungen auf den Umsatz und der Leistung auf Elementebene auf Oberflächen und Segmenten bietet Optimierungseinblicke. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Übersicht über Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home) |
+| Reporting und Analyse | Eingeschlossen | Das Reporting der Recommendations-Leistung ist Teil des Ausführungsplans von Schritt 4. [!DNL Customer Journey Analytics] Analyse der Effektivität von Empfehlungen, der Auswirkungen auf den Umsatz und der Leistung auf Elementebene auf Oberflächen und Segmenten bietet Optimierungseinblicke. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Übersicht über Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home) |
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Entscheidungsfindung | Einrichten von Artikelkatalog und Auswahlstrategie | Konfigurieren von Elementkatalogen (Entscheidungselementen), Auswahlstrategien mit Verhaltens-Ranking-Modellen, Filterregeln und Fallback-Empfehlungen |
 | Kanalkonfiguration | Kanal- und Oberflächenkonfiguration | Konfigurieren von Versandoberflächen für Web- (Code-basierte Erlebnisse), In-App-, Inhaltskarten- oder E-Mail-Kanäle, in denen Empfehlungen gerendert werden |
@@ -130,7 +130,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Zielgruppen-Scoping (Option C) | Auswerten von Zielgruppensegmenten, die zum Definieren von Recommendations oder der Zielpopulation für E-Mail-Recommendations-Kampagnen verwendet werden |
 | Profilanreicherung | Anreicherung von Verhaltenssignalen | Profile mit berechneten Attributen anreichern (Kategorieaffinitätswerte, Interaktionshäufigkeit), die das Recommendations-Ranking verbessern |

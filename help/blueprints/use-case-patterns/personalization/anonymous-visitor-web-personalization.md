@@ -3,7 +3,7 @@ title: Web-Personalization für anonyme Besucher
 description: Erfahren Sie, wie Sie nicht identifizierten Besuchern auf der Grundlage von Verhaltenssignalen während der Sitzung personalisierte Webinhalte bereitstellen können.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8109'
 ht-degree: 1%
@@ -88,13 +88,13 @@ Verwenden Sie die folgenden KPIs, um die Effektivität dieses Anwendungsfallmust
 
 ## Anwendungsfallmuster
 
-Im Folgenden werden das Kernmuster und die Funktionskette für diesen Anwendungsfall beschrieben.
+Im Folgenden werden das Kernmuster und der Ausführungsplan für diesen Anwendungsfall beschrieben.
 
 **Web-Personalization für anonyme Besucher**
 
 Bereitstellen personalisierter Inhalte, die auf sitzungsinternen Verhaltenssignalen für nicht identifizierte Besuchende basieren, über den AJO-Webkanal.
 
-**Funktionskette: Konfiguration der**-Web-Oberfläche > Auswertung von Verhaltensregeln > Inhaltsbereitstellung > Impression-Tracking > Berichterstellung
+**Ausführungsplan:** Konfiguration der Web-Oberfläche > Bewertung von Verhaltensregeln > Inhaltsbereitstellung > Impression-Tracking > Berichterstellung
 
 ## Programme
 
@@ -112,9 +112,9 @@ Die folgende Referenzarchitektur veranschaulicht, wie anonyme Besuchersignale am
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit konfigurierten Web-Kanal-Berechtigungen. [!DNL Web SDK] Implementierungsberechtigungen und Datenstromzugriff, die dem Implementierungs-Team gewährt wurden. Benutzende mit Rollen, die die Konfiguration von Web-Kanälen, die Verwaltung von Audiences und die Ausführung von Kampagnen ermöglichen. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | Erlebnisereignis-Schema, das Web-Verhaltenssignale erfasst (Seitenansichten, Klicks, Bildlauftiefe, Verweisdaten, UTM-Parameter). Das Schema muss Standardfeldgruppen für Web-Interaktionen enthalten und für das Edge-Profil aktiviert sein, um die Echtzeitauswertung zu unterstützen. Ein entsprechender Datensatz muss erstellt und für das Profil aktiviert werden. | [XDM-System - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) |
@@ -126,21 +126,21 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Nicht zutreffend | Begrenzter Wert für anonyme Besucher, da nur minimale historische Profildaten zu aggregieren sind. Kann anwendbar werden, wenn das Edge-Profil aussagekräftige Verhaltensdaten aus früheren anonymen Besuchen über mehrere Sitzungen hinweg sammelt. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Ablauf von pseudonymen Profilen sollte für anonyme Edge-Profile konfiguriert werden, um Speicher zu verwalten und Datenschutzanforderungen zu erfüllen. Reine ECID-Profile können so eingestellt werden, dass sie zwischen 14 und 365 Tagen ablaufen. Cookie-Einverständnisrichtlinien sollten für die Erfassung von Verhaltensdaten durchgesetzt werden. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
 | Datennutzungskennzeichnung und -durchsetzung | Empfohlen | Governance-Kennzeichnungen für Verhaltensdaten stellen die Einhaltung der Vorschriften sicher, insbesondere für Geo-Targeting (S2-sensible geografische Kennzeichnung) und gerätebasierte Personalisierung. Kennzeichnungen verhindern, dass eingeschränkte Verhaltensdaten in nicht autorisierten Personalisierungskontexten verwendet werden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home) |
 | Überwachung und Beobachtbarkeit | Empfohlen | [!DNL Edge Network] und [!DNL Web SDK] Datenflussüberwachung können Probleme beim Versand von Personalisierungen erkennen. Konfigurieren Sie Warnhinweise für Datenstromfehler, Aufnahmefehler und Anomalien der Edge-Bereitstellung. Kritisch für Produktionsbereitstellungen, bei denen Personalisierungsfehler das Besuchererlebnis beeinträchtigen. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home) |
-| Reporting und Analyse | Eingeschlossen | Die Leistungsberichterstattung für Personalization ist Teil der Funktionskette (Phase 5). Die CJA-Analyse der Effektivität der Personalisierung anonymer Besucher ermöglicht tiefgehende funnel-Analysen, Kohortenvergleiche und Messungen der Konversionsauswirkungen, die über die nativen Berichte von AJO hinausgehen. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Reporting und Analyse | Eingeschlossen | Die Leistungsberichterstattung für Personalization ist Teil des Ausführungsplans (Phase 5). Die CJA-Analyse der Effektivität der Personalisierung anonymer Besucher ermöglicht tiefgehende funnel-Analysen, Kohortenvergleiche und Messungen der Konversionsauswirkungen, die über die nativen Berichte von AJO hinausgehen. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kanalkonfiguration | Phase 1: Konfiguration der Web-Oberfläche | Konfigurieren von Web-Kanaloberflächen, die definieren, wo personalisierte Inhalte in den Ziel-Web-Eigenschaften bereitgestellt werden |
 | Verfassen von Nachrichten | Phase 3: Inhaltserstellung und Variantenerstellung | Erstellen personalisierter Inhaltsvarianten für Web-Oberflächen mit dem Web-Designer, dem Code-basierten Erlebnis-Editor oder Inhaltsvorlagen |
@@ -151,7 +151,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Phase 2: Definition der verhaltensbezogenen Zielgruppe | Definieren und bewerten Sie Edge-basierte Zielgruppensegmente mithilfe von Verhaltenssignalen in der Sitzung für das Targeting mit Personalisierung in Echtzeit |
 

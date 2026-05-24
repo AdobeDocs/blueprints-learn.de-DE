@@ -3,7 +3,7 @@ title: B2B-Analyse
 description: Erfahren Sie, wie Sie Informationen auf B2B-Kontoebene in die kanalübergreifende Journey-Analyse für Kunden einbeziehen.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7528'
 ht-degree: 1%
@@ -90,7 +90,7 @@ Die folgenden KPIs helfen, den Erfolg dieses Anwendungsfallmusters zu messen.
 
 Binden Sie Informationen auf B2B-Kontoebene in die kanalübergreifende Analyse von Kunden-Journey ein.
 
-**Funktionskette:** B2B-Datenverbindung > Konfiguration der Kontodatenansicht > Workspace Analysis > Dashboard-Veröffentlichung
+**Ausführungsplan:** B2B-Datenverbindung > Konfiguration der Kontodatenansicht > Workspace Analysis > Dashboard-Veröffentlichung
 
 ## Programme
 
@@ -101,9 +101,9 @@ Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu im
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Erforderlich | Sandbox mit [!DNL CJA] Berechtigungen für B2B edition und [!DNL RT-CDP] B2B edition konfiguriert. Rollen, die für Dateningenieure, Analysten und Marketing-Operations-Benutzende mit Zugriff auf [!DNL CJA] und das B2B-Datenmodell bereitgestellt wurden. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | B2B-XDM-Schemata, die mithilfe von B2B-Klassen konfiguriert wurden: XDM Business Account, XDM Business Opportunity, XDM Business Account Person Relation, XDM Business Opportunity Person Relation und XDM Business Marketing List Members. Es müssen Feldergruppen für Kontoattribute, Opportunity-Stadien und Einkaufsgruppenrollen definiert werden. Für Profil erstellte und aktivierte Datensätze. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [B2B edition-Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b) |
@@ -115,21 +115,21 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute aus Account-Profilen (z. B. Gesamt-Interaktionswert, Tage seit der letzten Aktivität, Anzahl der Opportunities) ergänzen die in [!DNL CJA] verfügbaren analytischen Dimensionen für die Analyse auf Account-Ebene. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | B2B-Datensätze, insbesondere Verhaltensereignisdaten aus [!DNL Marketo Engage], können schnell wachsen. Richtlinien zur Gültigkeit von Datensätzen helfen beim Management von Speicher und stellen die Einhaltung von Datenspeicherungsanforderungen sicher. | [Erweitertes Daten-Lifecycle-Management](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
 | Datennutzungskennzeichnung und -durchsetzung | Empfohlen | B2B-Daten enthalten häufig sensible Geschäftsinformationen (Vertragswerte, Wettbewerbsdaten). Datennutzungskennzeichnungen und Governance-Richtlinien stellen sicher, dass diese Daten in allen Analyse- und Aktivierungs-Workflows angemessen verwendet werden. | [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home) |
 | Überwachung und Beobachtbarkeit | Empfohlen | B2B-Quell-Connectoren ([!DNL Marketo], [!DNL Salesforce]) erfordern eine Überwachung hinsichtlich des Aufnahmestatus. Die Überwachung des Verbindungszustands in [!DNL CJA] stellt die Datenfrische für Analysen sicher. Warnhinweisregeln für Aufnahmefehler verhindern veraltete Dashboards. | [Observability Insights - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/observability/home) |
-| Reporting und Analyse | Eingeschlossen | Dieses Muster ist selbst ein Analysemuster. Diese Funktion ist von Natur aus enthalten, da die Kette der Kernfunktionen Reporting- und Analysefunktionen bietet. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Reporting und Analyse | Eingeschlossen | Dieses Muster ist selbst ein Analysemuster. Diese Funktion ist inhärent enthalten, da der zentrale Ausführungsplan Reporting- und Analysefunktionen bietet. | [Übersicht über CJA](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Customer Journey Analytics] B2B edition
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kontobasierte Verbindung | Phase 1: B2B-Datenverbindung | Konfigurieren Sie Verbindungen mithilfe des Kontos oder des globalen Kontos als primäre Kennung für die Analyse auf Unternehmensebene |
 | Konfiguration der B2B-Datenansicht | Phase 2: Konfiguration der Kontodatenansicht | Datenansichten mit B2B-spezifischen Containern (Konto, globales Konto, Opportunity, Einkaufsgruppe) neben standardmäßigen Containern für Personen, Sitzungen und Ereignisse definieren |
@@ -144,7 +144,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Customer Journey Analytics] — Standardfunktionen
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Datenverbindung | Phase 1: B2B-Datenverbindung | Binden von AEP B2B-Datensätzen an [!DNL CJA] für Cross-Channel-Analysen |
 | Konfiguration der Datenansicht | Phase 2: Konfiguration der Kontodatenansicht | Konfigurieren von Standarddimensionen, Metriken, Attributionen und Persistenzeinstellungen in der B2B-Datenansicht |
@@ -153,7 +153,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP] B2B edition
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kontoprofil-Vereinheitlichung | Voraussetzung (F2/F4) | Konsolidierung quellenübergreifender B2B-Daten in einheitlichen Account-Profilen mithilfe spezialisierter XDM-B2B-Schemaklassen |
 | B2B-Identitätsauflösung | Voraussetzung (F4) | Auflösen von Personen-zu-Konto-Beziehungen, die mehrstufige Account-Hierarchien und Viele-zu-Viele-Zuordnungen unterstützen |

@@ -3,7 +3,7 @@ title: Batch-Aktivierung ausgehender Nachrichten
 description: Erfahren Sie, wie Sie eine Audience auswerten und eine geplante ausgehende Nachricht in einer einzigen Batch-Ausführung versenden.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8246'
 ht-degree: 2%
@@ -84,7 +84,7 @@ In der folgenden Tabelle sind die KPIs zur Messung der Kampagneneffektivität au
 
 Bewerten Sie eine Audience und senden Sie dann eine geplante ausgehende Nachricht (E-Mail, SMS, Push) an alle qualifizierten Profile in einer einzigen Batch-Ausführung.
 
-**Funktionskette:** Zielgruppenauswertung > Nachrichtenbearbeitung > Kampagnenausführung > Berichterstellung
+**Ausführungsplan:** Zielgruppenbewertung > Nachrichtenbearbeitung > Kampagnenausführung > Berichterstellung
 
 ## Programme
 
@@ -96,9 +96,9 @@ Die folgenden Anwendungen werden verwendet, um dieses Muster zu implementieren.
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein | Experience League-Referenz |
+| Grundleistung | Status | Was muss vorhanden sein | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Angenommen an Ort und Stelle | AJO-Sandbox mit einer aktiven Kanalkonfiguration bereitgestellt. Senden der delegierten Subdomain, des zugewiesenen IP-Pools und des Abschlusses der IP-Aufwärmung. Benutzerrollen mit Berechtigungen für die Kampagnen-/Journey-Erstellung zugewiesen. | [Sandbox-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home), [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | Schema für individuelles XDM-Profil mit Attributen, die für die Segmentierung und Personalisierung verwendet werden (z. B. Name, E-Mail, Voreinstellungen, Ebene). XDM ExperienceEvent-Schema, das die Zielkonversionsaktion (z. B. `commerce.purchases`, `web.webInteraction`) für das Konversionstracking nach der Kampagne erfasst. Profilaktivierte Datensätze für beide Schemata. | [XDM-Systemübersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home), [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition) |
@@ -110,7 +110,7 @@ Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen 
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Empfohlen | Berechnete Attribute wie die Tage seit dem letzten Kauf, die Anzahl der lebenslangen Bestellungen oder der Interaktionswert verbessern die Genauigkeit der Zielgruppe und ermöglichen eine umfassendere Personalisierung der Nachricht. | [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Empfohlen | Richtlinien zur Datenaufbewahrung (Gültigkeit) sollten für Ereignis-Datensätze vorhanden sein, die das Konversions-Tracking fördern. Felder des Einverständnisschemas müssen für die Durchsetzung von Opt-in/Opt-out auf Kanalebene konfiguriert werden. | [Advanced Data Lifecycle Management - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home), [Feldergruppe „Einverständnis und Voreinstellungen“](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents) |
@@ -120,11 +120,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Kanalkonfiguration | Phase 2: Kanalkonfiguration | Konfigurieren oder validieren Sie die Kanaloberfläche (E-Mail, SMS oder Push) einschließlich Subdomain, IP-Pool, Absendereinstellungen und Unterdrückungsliste |
 | Verfassen von Nachrichten | Phase 3: Nachrichtenbearbeitung | Erstellen von Nachrichteninhalten mit Vorlagen, der E-Mail-Designer, Personalisierungsausdrücken, bedingten Inhaltsbausteinen und Inhaltsfragmenten |
@@ -136,7 +136,7 @@ Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog a
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Zielgruppenauswertung | Phase 1: Evaluierung der Zielgruppe | Definieren Sie Zielgruppenregeln mit Segment Builder oder Zielgruppenkomposition, wählen Sie die Auswertungsmethode (Batch, Streaming oder Edge) aus und validieren Sie die Zielgruppenpopulation |
 | Durchsetzung von Einverständnis und Governance | Phase 1: Evaluierung der Zielgruppe | Erzwingen von Einverständnisvoreinstellungen und Datennutzungsrichtlinien, um sicherzustellen, dass nur Profile mit Einverständnis die Kampagnennachricht erhalten |
@@ -792,7 +792,7 @@ Dieser Abschnitt enthält Links zu [!DNL Experience League] Dokumentation, die n
 - [Erste Schritte mit Konflikt- und Prioritätsverwaltung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
 - [Prioritätswerte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
 - [Identifizieren potenzieller Konflikte](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/conflicts)
-- [Journey-Begrenzung und Schlichtung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [Journey-Begrenzung und Schlichtung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
 
 ### Zielgruppen und Segmentierung
 
@@ -834,6 +834,6 @@ Dieser Abschnitt enthält Links zu [!DNL Experience League] Dokumentation, die n
 
 ### Tutorials und Erste Schritte
 
-- [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/get-started)
+- [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started)
 - [Erstellen Ihrer ersten Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 - [Erstellen Ihrer ersten Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey)

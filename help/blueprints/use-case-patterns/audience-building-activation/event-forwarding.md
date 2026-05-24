@@ -3,7 +3,7 @@ title: Ereignisweiterleitung
 description: Erfahren Sie, wie Sie über Edge Network erfasste Echtzeit-Ereignisdaten zur Analyse, Speicherung oder Werbung an Ziele weiterleiten, die nicht mit Adobe verbunden sind.
 solution: Experience Platform
 exl-id: 24964d27-db56-4fa4-a79f-1b6750564b34
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '6342'
 ht-degree: 0%
@@ -70,11 +70,11 @@ Die folgenden KPIs helfen, den Erfolg dieses Anwendungsfallmusters zu messen.
 
 ## Anwendungsfallmuster
 
-In diesem Abschnitt werden das Muster und die Funktionskette beschrieben, die zur Implementierung der Ereignisweiterleitung verwendet werden.
+In diesem Abschnitt werden das Muster und der Ausführungsplan beschrieben, die zur Implementierung der Ereignisweiterleitung verwendet werden.
 
 **Ereignisweiterleitung** - Weiterleiten von über Edge Network erfassten Echtzeit-Ereignisdaten an Nicht-Adobe-Ziele zu Analyse-, Speicher- oder Werbezwecken.
 
-**Funktionskette:** Datenstromkonfiguration > Ereignisregeldefinition > Zielzuordnung > Weiterleitungsausführung > Überwachung
+**Ausführungsplan:** Datenstromkonfiguration > Ereignisregeldefinition > Zielzuordnung > Weiterleitungsausführung > Überwachung
 
 ## Programme
 
@@ -86,21 +86,21 @@ Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
 ## Grundlegende Funktionen
 
-Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Für jede Funktion gibt der Status an, ob sie normalerweise erforderlich ist, als vorkonfiguriert gilt oder nicht.
+Für dieses Anwendungsfallmuster müssen die folgenden grundlegenden Funktionen vorhanden sein. Der Status gibt für jede Funktion an, ob sie normalerweise erforderlich ist, vorkonfiguriert sein muss oder nicht.
 
-| Grundfunktion | Status | Was muss vorhanden sein? | Experience League-Referenz |
+| Grundlegende Funktionen | Status | Was muss vorhanden sein? | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Administration und Governance | Erforderlich | Eine Sandbox muss mit den entsprechenden konfigurierten Benutzerrollen und Berechtigungen aktiv sein. Benutzende, die die Ereignisweiterleitung verwalten, benötigen Datenerfassungsberechtigungen in [!DNL Adobe Admin Console], einschließlich Berechtigungen zum Verwalten von Eigenschaften, Erweiterungen und Regeln für die Ereignisweiterleitung. | [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) |
 | Datenmodellierung und -vorbereitung | Erforderlich | XDM-Schemata müssen für die Ereignisdaten definiert werden, die durch die Edge Network fließen. Der Datenstrom muss auf ein gültiges XDM ExperienceEvent-Schema verweisen, damit die Regeln für die Ereignisweiterleitung zum Filtern, Transformieren und Zuordnen auf strukturierte Felder zugreifen können. | [XDM-System - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) |
 | Datenquellen und Sammlung | Erforderlich | Ein Datenerfassungsmechanismus muss aktiv sein - Web SDK, Mobile SDK oder Edge Network Server API - und Ereignisse über einen konfigurierten Datenstrom senden. Der Datenstrom ist die grundlegende Routing-Ebene, die die Client-seitige Erfassung mit der Server-seitigen Ereignisweiterleitung verbindet. | [Konfigurieren von Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure) |
 | Identitäts- und Profilkonfiguration | Nicht zutreffend | Die Ereignisweiterleitung verarbeitet unformatierte Ereignisdaten auf Edge Network-Ebene, bevor die Identitätsauflösung oder Profilvereinheitlichung erfolgt. Identity-Namespaces und Zusammenführungsrichtlinien sind nicht erforderlich, es sei denn, die weitergeleiteten Ereignisse müssen auch zum Echtzeit-Kundenprofil beitragen (bei dem es sich um eine separate Datenstrom-Service-Konfiguration und nicht um eine Ereignisweiterleitung handelt). | |
-| Zielgruppendefinition und Segmentierung | Nicht zutreffend | Die Ereignisweiterleitung verarbeitet einzelne Ereignisse in Echtzeit und bewertet die Zielgruppenzugehörigkeit nicht. Die zielgruppenbasierte Filterung ist nicht Teil der Funktionskette der Ereignisweiterleitung. Wenn eine zielgruppenbasierte Aktivierung erforderlich ist, finden Sie weitere Informationen im Referenzplan Audience Activation zu Zielen . | |
+| Zielgruppendefinition und Segmentierung | Nicht zutreffend | Die Ereignisweiterleitung verarbeitet einzelne Ereignisse in Echtzeit und bewertet die Zielgruppenzugehörigkeit nicht. Die zielgruppenbasierte Filterung ist nicht Teil des Ausführungsplans für die Ereignisweiterleitung. Wenn eine zielgruppenbasierte Aktivierung erforderlich ist, finden Sie weitere Informationen im Referenzplan Audience Activation zu Zielen . | |
 
 ## Unterstützende Funktionen
 
 Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für die Ausführung der Kernkomponente nicht erforderlich.
 
-| Unterstützende Funktion | Status | Warum es wichtig ist | Experience League-Referenz |
+| Unterstützende Funktionen | Status | Warum es wichtig ist | Experience League-Referenz |
 | --- | --- | --- | --- |
 | Erstellung berechneter/abgeleiteter Attribute | Nicht zutreffend | Die Ereignisweiterleitung basiert auf Rohdaten von Ereignissen, nicht auf berechneten Attributen auf Profilebene. Berechnete Attribute sind im Ereignisweiterleitungskontext nicht verfügbar. | |
 | Data Lifecycle Management | Empfohlen | Wenn Ereignisdaten ebenfalls (über denselben Datenstrom) in AEP-Datensätze aufgenommen werden, sollten für diese Datensätze Richtlinien zur Datenaufbewahrung (Gültigkeit) konfiguriert werden, um die Speicherkosten und die Einhaltung behördlicher Auflagen zu verwalten. Die Ereignisweiterleitung selbst speichert keine Daten, der parallele Aufnahmepfad von AEP jedoch schon. | [Erweitertes Daten-Lifecycle-Management - Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home) |
@@ -110,11 +110,11 @@ Die folgenden Funktionen ergänzen dieses Anwendungsfallmuster, sind aber für d
 
 ## Anwendungsfunktionen
 
-Dieser Plan führt die folgenden Funktionen aus dem Anwendungsfunktionskatalog aus. Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
+Dieser Plan nutzt die folgenden Funktionen aus dem Anwendungsfunktionskatalog. Die Funktionen werden Implementierungsphasen und nicht nummerierten Schritten zugeordnet.
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-| Funktion | Implementierungsphase | Beschreibung |
+| Fähigkeit | Implementierungsphase | Beschreibung |
 | --- | --- | --- |
 | Datenstromkonfiguration | Phase 1: Konfiguration des Datenstroms | Konfigurieren eines Datenstroms für den Empfang von Edge Network-Ereignissen und Aktivieren des Ereignisweiterleitungs-Service |
 | Einrichtung der Ereignisweiterleitungs-Eigenschaft | Phase 2: Ereignisweiterleitungseigenschaft und Erweiterungen | Erstellen Sie eine Ereignisweiterleitungseigenschaft und installieren Sie zielspezifische Erweiterungen |
@@ -491,7 +491,7 @@ Erstellen Sie separate Regeln für jedes Ziel. Erweiterungsbasierte Regeln verwe
 
 ### Phase 5: Überwachung und Validierung
 
-**Anwendungsfunktion:** AEP: Monitoring
+**Anwendungsfunktion:** AEP: Überwachung
 
 **Was Sie konfigurieren werden:** Überwachung von Dashboards und Validierungsprozessen, um zu bestätigen, dass Ereignisse erfolgreich weitergeleitet werden, Fehler zu diagnostizieren und den Betriebszustand der Ereignisweiterleitungsbereitstellung aufrechtzuerhalten.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Wenn Sie Folgendes schreiben, leiten Sie zu einer Anwendungsfall-Musterseite um 
 | KPIs und Messformeln | Anwendungsfallmuster messen Ergebnisse; Architekturseiten nicht |
 | Geschäftsziele, geschäftliche Auswirkungen | KBO-Inhalte befinden sich unter `/help/blueprints/business-objectives/`; Muster verweisen darauf |
 | Beispiele für taktische Anwendungsfälle | „Warenkorbabbruch-Erinnerung“, „Personalisierter Startseiten-Held“ usw. - Dies sind Musterinhalte |
-| Funktionsketten (`A > B > C > D`) | Das Funktionskettenkonstrukt ist Teil der Vorlage für Anwendungsfälle |
+| Funktionen (`A > B > C > D`) | Das Funktionskonstrukt ist Teil der Anwendungsfall-Mustervorlage |
 | Persönliche Erzählungen | „Maria, die Marketing-Expertin, möchte…“ Stilszenarien gehören in Muster, nicht in Architekturverweise |
 | Implementierungsoptionen | Anleitungen für die Implementierung mehrerer Optionen (Best Practices, Funktionsweise, Vorteile, Einschränkungen) sind ein Musterkonstrukt |
 | Grundlegende/unterstützende Funktionstabellen | Dies sind Abschnitte mit Musterseiten |
@@ -47,7 +47,7 @@ Wenn der/die Benutzende beim Beschreiben der neuen Seite eine dieser Phrasen ber
 - „KPIs“
 - „Business Impact“ / „Business Outcomes“
 - „Taktische Anwendungsfälle“ / „Beispielszenarien“
-- „Funktionskette“
+- „Funktionen“
 - „Implementierungsoptionen“
 - „Am besten geeignet für“
 - „Vorteile und Einschränkungen“

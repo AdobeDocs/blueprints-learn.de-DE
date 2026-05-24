@@ -1,8 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 # Beim Hinzufügen eines Anwendungsfallmusters zu aktualisierende Seiten
@@ -64,5 +64,5 @@ Wenn ein neues Anwendungsfallmuster erstellt wird, müssen die folgenden Seiten 
 - [ ] Datei verwendet die Namenskonvention für Kebab-Groß-/Kleinschreibung
 - [ ] Alle Experience League-Links sind gültige URLs
 - [ ] Adobe-Produktnamen verwenden `[!DNL ...]` Syntax
-- [ ] Funktionskette verwendet ` > ` Trennzeichenformat
+- [ ] Ausführungsplan verwendet ` > ` Trennzeichenformat
 - [ ] Musterdatei enthält alle erforderlichen Abschnitte (siehe pattern-template.md)

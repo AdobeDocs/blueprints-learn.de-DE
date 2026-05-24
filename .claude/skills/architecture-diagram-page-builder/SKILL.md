@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Handbuch zur Erstellung neuer Architekturdiagrammseiten für das Adobe Experience Platform Blueprints-Repository. Verwenden Sie diese Fähigkeit, wenn Sie ein neues Architekturdiagramm der obersten Ebene, eine Seite zur Integrationsarchitektur oder eine Übersicht über die Anwendungsarchitektur hinzufügen. Architekturseiten behandeln AEP- und Anwendungsarchitekturen der obersten Ebene und primäre Integrationspunkte - keine detaillierten Anwendungsfälle (diese gehören zum Anwendungsfall-Muster-Builder). Übernimmt den gesamten Workflow: das Erfassen von Seiteninformationen, das Generieren der Markdown-Datei, das Platzieren im richtigen Themenordner und das Aktualisieren von TOC.md.'
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Architekturdiagrammseiten sind **fokussierte Seiten im Referenzstil** - in der R
 - Eine kurze Liste der primären Datenflüsse und Integrationspunkte (Abbildung)
 - Links zu Experience League für weitere Informationen zur Anwendungs-Domain
 
-Sie sind **nicht** der Ort für ausführliche Anwendungsfallinhalte. KPIs, Geschäftsziele, taktische Anwendungsfallbeispiele, Funktionsketten und persönliche Erzählungen gehören stattdessen zu den Seiten mit Anwendungsfallmustern - die über die `use-case-pattern-builder` Kenntnisse generiert werden. Siehe `references/scope-guardrails.md` für die vollständigen Leitplanken.
+Sie sind **nicht** der Ort für ausführliche Anwendungsfallinhalte. KPIs, Geschäftsziele, taktische Anwendungsfallbeispiele, Funktionen und persönliche Erzählungen gehören stattdessen zu den Seiten mit Anwendungsfallmustern - die über die `use-case-pattern-builder` Kenntnisse generiert werden. Siehe `references/scope-guardrails.md` für die vollständigen Leitplanken.
 
 ## Pflichtlektüre vor dem Start
 
@@ -71,7 +71,7 @@ Befragen Sie den Benutzer, um alle erforderlichen Informationen zu sammeln, bevo
 
 8. **Primäre Datenflüsse/Integrationspunkte** — 3-7 Aufzählungszeichen, die wichtige Flüsse und Integrationsgrenzen beschreiben, die in den Diagrammen angezeigt werden (z. B. `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
 
-9. **Experience League-Links** - 3-6 Links zu relevanten Experience League-Dokumentationen, die Sie weiter lesen können. Jede muss mit `https://experienceleague.adobe.com/de` beginnen.
+9. **Experience League-Links** - 3-6 Links zu relevanten Experience League-Dokumentationen, die Sie weiter lesen können. Jede muss mit `https://experienceleague.adobe.com/` beginnen.
 
    **Empfehlen Sie Kandidaten zuerst.** Basierend auf den Adobe-Lösungen und dem Seitenzweck schlagen Sie vier bis acht plausible Experience League-Artikel vor (z. B. die kanonischen Landingpages oder Übersichtsseiten für jede benannte Lösung, wichtige Integrationshandbücher, Bereitstellungsreferenzen). Geben Sie für jeden Vorschlag Folgendes an:
    - Artikeltitel
@@ -95,7 +95,7 @@ Wenn einer der folgenden Punkte im geplanten Inhalt angezeigt wird, warnen Sie d
 - KPIs oder Messformeln
 - Geschäftsziele oder Narrative zu Geschäftsauswirkungen
 - Taktische Anwendungsfälle (spezifische Personalisierungsszenarien, Kampagnenbeispiele usw.)
-- Funktionsketten (`A > B > C > D`)
+- Funktionen (`A > B > C > D`)
 - Personalisierte storytelling
 
 Wenn der geplante Inhalt im architekturspezifischen Seitenbereich bleibt (Architektur der obersten Ebene, Systemdatenfluss, Integrationspunkte, Bereitstellungstopologie, Edge vs. Hub), bestätigen Sie dies mit dem Benutzer und fahren Sie mit Phase 3 fort.
@@ -176,7 +176,7 @@ Nachdem alle Dateien erstellt und aktualisiert wurden, überprüfen Sie Folgende
 
 2. **Verknüpfungen für Anwendungsfälle** - Jeder Musterlink in der Datei verweist auf eine vorhandene Markdown-Datei unter `/help/blueprints/use-case-patterns/`. Verwenden Sie `Read` oder Globus, um zu bestätigen, dass jedes Ziel vorhanden ist.
 
-3. **Experience League-Links** - Überprüfen Sie vor Ort, ob jede URL im `## Further reading` mit `https://experienceleague.adobe.com/de` beginnt.
+3. **Experience League-Links** - Überprüfen Sie vor Ort, ob jede URL im `## Further reading` mit `https://experienceleague.adobe.com/` beginnt.
 
 4. **TOC-**: Der neue Eintrag befindet sich im richtigen Unterabschnitt, verwendet eine Einrückung mit vier Leerzeichen und der Pfad stimmt genau mit dem Speicherort der generierten Datei überein.
 
@@ -192,4 +192,4 @@ Beheben Sie etwaige Validierungsprobleme, bevor Sie die Aufgabe als abgeschlosse
 - Architekturdiagramme sind in der Regel SVG (bevorzugt für Schärfe und Skalierung), PNG ist jedoch für Rasterquellen-Grafiken akzeptabel.
 - Die `<img>`-Einbettungs-Inline-Styling-Zeichenfolge (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) und die `class="modal-image"` sind erforderlich - sie ermöglichen die Experience League-Interaktion mit modalem Zoom.
 - Wenn der/die Benutzende eine Seite für einen brandneuen Themenordner erstellt, der noch nicht vorhanden ist, warnt er/sie, dass TOC.md einen neuen Unterabschnitt auf oberster Ebene unter `+ Architecture Diagrams and Blueprints{#architecture-diagrams}` benötigt. Behandeln Sie dies als separaten Schritt mit der expliziten Genehmigung des Benutzers.
-- Wenn das Architekturdiagramm einen *Einzelanwendungsfall End-to-End* (mit KPIs, Geschäftszielen, Funktionskette) umfassend dokumentiert, leiten Sie den Benutzer zu `use-case-pattern-builder` weiter - dies ist keine Architekturseite.
+- Wenn das Architekturdiagramm einen *-Anwendungsfall vollständig dokumentiert (mit*, Geschäftszielen, Funktionen), leiten Sie den Benutzer zu `use-case-pattern-builder` weiter - dies ist keine Architekturseite.

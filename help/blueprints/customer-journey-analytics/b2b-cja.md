@@ -13,7 +13,7 @@ ht-degree: 7%
 # B2B-Customer Journey Analytics-Blueprint
 
 >[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [ B2B](/help/blueprints/use-case-patterns/b2b/account-analytics.md)Aktivierung und Marketing verfügbar.
+>Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; B2B](/help/blueprints/use-case-patterns/b2b/account-analytics.md)Aktivierung und Marketing verfügbar.
 
 Customer Journey Analytics B2B edition ermöglicht Account-basiertes Reporting und Analysen für B2B-Organisationen. Im Gegensatz zur personenorientierten B2C-Analyse stellt dieser Blueprint das **Konto** in den Mittelpunkt des Datenmodells, damit Sie komplexe B2B-Kauf-Journey über mehrere Stakeholder, Einkaufsgruppen und Verkaufszyklen hinweg analysieren können. Verwenden Sie [!DNL Customer Journey Analytics], um Verhaltensdaten mit B2B-Dimensionen - Konten, Opportunities, Kampagnen und Marketing-Listen - zu vereinheitlichen und so Journey-basierte Einblicke und Zielgruppenerstellung zu ermöglichen.
 

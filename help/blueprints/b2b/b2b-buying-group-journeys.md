@@ -4,11 +4,21 @@ description: Erfahren Sie, wie Sie eine Journey entwickeln, entwerfen und erstel
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
 TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68id: d5e018de-9479-48a8-96a8-176c73166631id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 2322
@@ -19,7 +29,7 @@ ht-degree: 0%
 # Einkauf von gruppenbasiertem Marketing und Journey-Management-Blueprint
 
 >[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [ B2B](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md)Aktivierung und Marketing verfügbar.
+>Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; B2B](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md)Aktivierung und Marketing verfügbar.
 
 Marketing-Teams sehen sich derzeit vielen Herausforderungen gegenüber, wenn es darum geht, dem Vertrieb qualifizierte Leads zur Verfügung zu stellen. Eine dieser Herausforderungen besteht darin, mit den richtigen Personen in der Organisation zusammenzuarbeiten, was sich in der Regel in Anstrengung und Genauigkeit widerspiegelt. Bei _Lead-Scoring_ ist die Gruppe zu eng gefasst und die Teams vermissen möglicherweise die richtigen Mitarbeiter. Bei _Account-Bewertung_ ist ein größerer Aufwand erforderlich, um die richtige Person mit einer solch umfassenden Ansicht eines Accounts zu identifizieren.
 
@@ -77,11 +87,11 @@ Für die Lösung mit Schwerpunkt auf Kunden sind die folgenden Anwendungen und S
 >
 >Die Lizenzierung von Journey Optimizer B2B edition sollte die folgenden Elemente enthalten:
 ><ul><li>Journey Optimizer B2B edition-Instanz, die mit Experience Platform B2B verbunden ist</li><li>Marketo Engage-Instanz, die mit RTCDP synchronisiert wird</li></ul>
-&gt;<br/>
-&gt;Für bestehende Marketo Engage-Kunden ist eine Verbindung zur bestehenden Instanz der empfohlene Ansatz.
-&gt;<br/><br/>
-&gt;Es sind zusätzliche Erweiterungen für die Lösung verfügbar, um die Profilreichhaltigkeit zu verbessern:
-&gt;<ul><li>Zusätzliche Quellen für RTCDP zur Profilanreicherung</li><li>RTCDP-Ziel zu Marketo Engage</li></ul>
+>&gt;<br/>
+>&gt;Für bestehende Marketo Engage-Kunden ist eine Verbindung zur bestehenden Instanz der empfohlene Ansatz.
+>&gt;<br/><br/>
+>&gt;Es sind zusätzliche Erweiterungen für die Lösung verfügbar, um die Profilreichhaltigkeit zu verbessern:
+>&gt;<ul><li>Zusätzliche Quellen für RTCDP zur Profilanreicherung</li><li>RTCDP-Ziel zu Marketo Engage</li></ul>
 
 Die Implementierung dieser Lösung setzt auch ein klares Verständnis des Konzepts von _Account_ und _Buying Group_ voraus, sowie davon, wie diese Ihre Sales Lead-Qualifizierung verstärken und beschleunigen. Mit diesem Verständnis müssen Sie auch den gewünschten Kaufgruppen-Vollständigkeitswert identifizieren.
 
@@ -111,14 +121,14 @@ Detaillierte Informationen zur Connector-Konfiguration und zur erforderlichen Fe
 
 ### Leitlinien
 
-Die Journey Optimizer B2B edition-Leitplanken werden auf der Seite [Produktbeschreibung“ ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
+Die Journey Optimizer B2B edition-Leitplanken werden auf der Seite [Produktbeschreibung“ &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
 
 Leitplanken im Zusammenhang mit der Implementierung
 
 * Alle Leitplanken für B2B-Zielgruppen werden im Blueprint [B2B-Zielgruppen- und -Profilaktivierung](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2bactivation) beschrieben, der direkt auf den Erfolg von Journey Optimizer B2B edition übertragen wird.
 * Wenn die Aktivierung über Marketo Engage-Kanäle auf der Konto-Journey erforderlich ist oder wenn die CRM-Synchronisierung zur Anreicherung des Kontos verwendet wird, sind die [Leitplanken für Marketo Engage](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) relevant.
 
-Weitere Informationen zu Real-Time CDP-Leitplanken finden Sie in ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) Dokumentation zu [RTCDPLeitplanken .
+Weitere Informationen zu Real-Time CDP-Leitplanken finden Sie in [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) Dokumentation zu RTCDPLeitplanken .
 
 ### Bereitstellung
 

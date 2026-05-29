@@ -3,7 +3,7 @@ title: B2B-Customer Journey Analytics-Blueprint
 description: Binden Sie Daten zu B2B-Konten, Opportunities und Einkaufsgruppen in Customer Journey Analytics für kontobasiertes Reporting und Journey-Analyse ein.
 solution: Customer Journey Analytics
 exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 7%
@@ -37,7 +37,7 @@ Customer Journey Analytics B2B edition ermöglicht Account-basiertes Reporting u
 
 ## Architektur
 
-![Customer Journey Analytics-Architektur mit B2B-Konto- und Opportunity-Daten zur Journey-Analyse](assets/CJA.svg){zoomable="yes"}
+![Customer Journey Analytics-Architektur mit B2B-Konto- und Opportunity-Daten zur Journey-Analyse](assets/CJA.png){zoomable="yes"}
 
 Datenflüsse aus Experience Platform (B2B- und Ereignisdatensätze) in [!DNL Customer Journey Analytics] über eine CJA-Verbindung. B2B-Dimensionen werden in Datenansichten bereitgestellt, sodass Analysen und Zielgruppen auf Konto-, Opportunity- und Personenebene erstellt werden können.
 

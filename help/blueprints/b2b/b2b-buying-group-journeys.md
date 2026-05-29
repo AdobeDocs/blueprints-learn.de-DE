@@ -19,9 +19,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
-source-wordcount: 2349
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Wenn ein Lead das Lösungsinteresse klar aufzeigt, zeigt er ein Geschäftsereign
 
 Wie das folgende Diagramm zeigt, können Sie Details in Formularen oder über die LinkedIn-Aktivierung erfassen und einen Lösungszweck qualifizieren, wenn eine Interaktion mit einem Chat-Bot stattgefunden hat.
 
-![Gruppen-Journey kaufen](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+![Gruppen-Journey kaufen](./assets/buying-group-journey-diagram.png){zoomable="yes"}
 
 Wenn der vollständige Prozentsatz der Einkaufsgruppe hoch genug ist, geben Sie die Gruppe über SQL oder einen SOL an das Vertriebs-Team weiter, um die Leads im Konto in einen abgeschlossenen Verkauf umzuwandeln.
 

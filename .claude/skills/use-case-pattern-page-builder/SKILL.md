@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Handbuch zur Erstellung neuer Anwendungsfall-Musterinhalte für das Adobe Experience Platform Blueprints-Repository. Verwenden Sie diese Fähigkeit, wenn Sie ein neues Anwendungsfallmuster hinzufügen, Inhalte für Implementierungshandbücher erstellen oder wenn der/die Benutzende das Hinzufügen von Mustern zur Blueprints-Site erwähnt. Übernimmt den gesamten Workflow: das Erfassen von Musterinformationen, das Generieren der Markdown-Datei mit der richtigen Vorlagenstruktur und das Aktualisieren aller Querverweisseiten (TOC.md, overview.md).'
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 2577bb034012a78fd30a65b7b44196b91921923e
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 88%
+source-wordcount: '923'
+ht-degree: 94%
 
 ---
 
@@ -37,31 +37,18 @@ Befragen Sie den Benutzer, um alle erforderlichen Informationen zu sammeln, bevo
 
 4. **Zentrale Adobe-Lösungen** - Die Adobe-Produkte sind von zentraler Bedeutung für dieses Muster. Wählen Sie je nach Bedarf aus Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B edition, Real-Time CDP B2B edition oder anderen.
 
-5. **Schritte des Ausführungsplans** - 3-6 sequenzielle Phasen, die den Ausführungsfluss des Musters beschreiben, getrennt durch `>`. Beispiel: „Ereignisaufnahme > Journey-Eintrag > Bedingungsauswertung > Nachrichtenversand > Reporting“.
+5. **Unterstützte Geschäftsziele** - Ein oder mehrere Geschäftsziele aus dem bestehenden Satz unter `/help/blueprints/business-objectives/`. Jede sollte den Zielnamen, den Unterordner der Kategorie und den Dateinamen enthalten. Stellen Sie sicher, dass die referenzierten Dateien vorhanden sind, bevor Sie Inhalte generieren.
 
-6. **Unterstützte Geschäftsziele** - Ein oder mehrere Geschäftsziele aus dem bestehenden Satz unter `/help/blueprints/business-objectives/`. Jede sollte den Zielnamen, den Unterordner der Kategorie und den Dateinamen enthalten. Stellen Sie sicher, dass die referenzierten Dateien vorhanden sind, bevor Sie Inhalte generieren.
+6. **Beispiel für taktische Anwendungsfälle** - 6-10 Szenarien mit Aufzählungszeichen, die beschreiben, wie dieses Muster auf verschiedene Geschäftskontexte angewendet werden kann. Jeder sollte einen fett gedruckten Szenarionamen gefolgt von einer Beschreibung haben.
 
-7. **Beispiel für taktische Anwendungsfälle** - 6-10 Szenarien mit Aufzählungszeichen, die beschreiben, wie dieses Muster auf verschiedene Geschäftskontexte angewendet werden kann. Jeder sollte einen fett gedruckten Szenarionamen gefolgt von einer Beschreibung haben.
+7. **KPIs** - Eine Tabelle mit drei Spalten: KPI (Name), Beschreibung (was sie misst), Messung (Formel oder Ansatz).
 
-8. **KPIs** - Eine Tabelle mit drei Spalten: KPI (Name), Beschreibung (was sie misst), Messung (Formel oder Ansatz).
-
-9. **Implementierungsoptionen** - 2-4 Implementierungsoptionen. Für jede Option Folgendes erfassen:
-   - Optionsname
-   - Am besten geeignet für (wenn diese Option verwendet wird)
-   - Funktionsweise (2-4 Absätze)
-   - Wichtige Aspekte (Aufzählung)
-   - Vorteile (Aufzählung)
-   - Einschränkungen (Aufzählung)
-   - Links zu Experience League (URLs zur entsprechenden Dokumentation)
+8. **Referenzlinks** - Referenzlinks zu primären Experience League-Dokumenten, die die Anwendungen und Funktionen des Anwendungsfallmusters abdecken.
 
 ### Optional, aber empfohlen
 
 - Absätze zur Übersicht über Anwendungsfälle (3-5 Absätze; wenn nicht angegeben, entwerfen Sie sie aus den anderen Informationen.)
 - Anwendungsliste mit Beschreibungen der Rollen der einzelnen Adobe-Anwendungen
-- Tabelle mit grundlegenden Funktionen (Funktion, Status, Was muss vorhanden sein, Experience League-Referenz)
-- Tabelle der unterstützenden Funktionen (Funktion, Status, warum es wichtig ist, Experience League-Referenz)
-- Tabellen mit den Anwendungsfunktionen (eine pro Anwendung, mit Funktion, Implementierungsphase, Beschreibung)
-- Checkliste mit Voraussetzungen
 
 Wenn der/die Benutzende die optionalen Elemente nicht bereitstellt, generieren Sie angemessene Standardwerte basierend auf der Musterkategorie, den Lösungen und dem Ausführungsplan.
 
@@ -92,18 +79,6 @@ Verwenden Sie die Vorlage aus `references/pattern-template.md` und füllen Sie a
 7. **Anwendungsfallmuster** — Beschreibungsabsatz und Ausführungsplan.
 
 8. **Programme** - Liste der Adobe-Programme mit `[!DNL ...]` Formatierung und Beschreibungen.
-
-9. **Grundlegende Funktionen** - Tabelle mit Spalten: Grundlegende Funktionen, Status, Was muss vorhanden sein, Experience League-Referenz. Statuswerte: Erforderlich, An Ort und Stelle angenommen, Nicht zutreffend.
-
-10. **Unterstützende Funktionen** - Tabelle mit Spalten: Unterstützende Funktionen, Status, Warum es wichtig ist, Experience League-Referenz. Statuswerte: Empfohlen, enthalten, nicht anwendbar.
-
-11. **Anwendungsfunktionen:** Tabelle pro Anwendung mit Spalten: Funktion, Implementierungsphase, Beschreibung.
-
-12. **Voraussetzungen** - Checkliste mit `- [ ]` Syntax.
-
-13. **Implementierungsoptionen** - 2-4 detaillierte Optionen, jeweils mit Best for-, Funktionsweise-, wichtigen Überlegungen, Vorteilen, Einschränkungen und Experience League-Links.
-
-14. **Optionsvergleich** - Zusammenfassende Vergleichstabelle am Ende.
 
 ## Phase 3: Aktualisierungen von Querverweisen
 
@@ -157,7 +132,7 @@ Nachdem alle Dateien erstellt und aktualisiert wurden, überprüfen Sie Folgende
 
 5. **Vollständigkeit von Frontend** - Die Musterdatei enthält Titel, Beschreibung, Lösung und exl-id in der YAML-Schriftart.
 
-6. **Experience League-Links** - Überprüfen Sie vor Ort, ob Experience League-URLs plausibel sind (beginnen Sie mit `https://experienceleague.adobe.com/de`).
+6. **Experience League-Links** - Überprüfen Sie vor Ort, ob Experience League-URLs plausibel sind (beginnen Sie mit `https://experienceleague.adobe.com/`).
 
 Melden Sie etwaige Validierungsfehler dem Benutzer und beheben Sie diese, bevor Sie die Aufgabe als abgeschlossen betrachten.
 

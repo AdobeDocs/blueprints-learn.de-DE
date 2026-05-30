@@ -3,9 +3,9 @@ title: B2B-Kontoaktivierung für Advertising-Ziele und Dateiziele
 description: Verwenden Sie die Account-basierte Interaktion, um Audiences zu erstellen und sie über Ziele anzusprechen.
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '735'
 ht-degree: 4%
 
 ---
@@ -54,16 +54,16 @@ Durch Account-basierte Interaktion können Marketing-Experten drei wichtige Anwe
 * Kontoattribute sind für den Export verfügbar.
 * Ereignisse von Personen.
    * Bis zu 30 Tage Ereignis-Lookback, keine Sortierung von Ereignis-Eigenschaften.
-   * UND/ODER werden unterstützt (sodass Sie sagen können: „A und B müssen passieren,“  aber man kann nicht sagen „A muss 3 Tage vor B passieren„).
+   * UND/ODER werden unterstützt (sodass man sagen kann „A und B müssen passieren“, aber man kann nicht sagen „A muss 3 Tage vor B passieren„).
 * Bei Cloud-Speicher-Zielen unterstützt der Exportzeitplan die Option „Nach der Segmentevaluierung“.
-* [Leitplanken für B2B-Profile und &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [Leitplanken für B2B-Profile und ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Implementierungsschritte für Real-time Customer Data Platform B2B edition, Erstellung und Aktivierung von Konto-Zielgruppen
 
-* Implementierungsschritte von Real-time Customer Data Platform B2B edition finden Sie in der Dokumentation [Erste Schritte mit Real-Time Customer Data Platform B2B Editiond](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
-* Schritte zum Erstellen von Konto-Zielgruppen finden Sie in der Dokumentation [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences) .
-* Die Schritte zur Konto-Audience Activation finden Sie in der Dokumentation [Aktivieren von Konto](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences)Zielgruppen .
-   * Erforderliche Zuordnung für das Ziel &quot;[(Unternehmen) LinkedIn Matched Audiences“](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
+* Implementierungsschritte von Real-time Customer Data Platform B2B edition finden Sie in der Dokumentation [Erste Schritte mit Real-Time Customer Data Platform B2B Editiond](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
+* Schritte zum Erstellen von Konto-Zielgruppen finden Sie in der Dokumentation [Konto-Zielgruppen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences) .
+* Die Schritte zur Konto-Audience Activation finden Sie in der Dokumentation [Aktivieren von Konto](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)Zielgruppen .
+   * Erforderliche Zuordnung für das Ziel &quot;[(Unternehmen) LinkedIn Matched Audiences“](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
 
 ## Überlegungen bei der Implementierung
 
@@ -71,8 +71,9 @@ Für abgeglichene LinkedIn-Zielgruppen gelten einige Anforderungen, darunter die
 
 ## Verwandte Dokumentation
 
-* [B2B edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [Blueprint zur B2B-Zielgruppe und Profilaktivierung](b2bactivation.md) — Übergeordneter Blueprint, der sowohl die B2B-Aktivierung auf Personenebene als auch auf Kontoebene umfasst.
+* [B2B edition von Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [Tutorial-Video zur Erstellung und Aktivierung von Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [Konto-Zielgruppen erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences)
-* [Account-Zielgruppen aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - LinkedIn-Ziel-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin)
+* [Konto-Zielgruppen erstellen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)
+* [Account-Zielgruppen aktivieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
+* [Adobe Experience Platform - LinkedIn-Ziel-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)

@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +34,7 @@ Verwenden Sie Account-, Opportunity- und Lead-Informationen, die mit einem einze
 
 * Erstellen Sie Zielgruppen von Personen für Targeting und Personalisierung auf allen Kanälen anhand von B2B-Daten zu Accounts Opportunities und Leads.
 * Aktivieren Sie Zielgruppen für Targeting und Personalisierung für beliebige Experience Platform-Ziele.
-* Erstellen Sie Zielgruppen von Konten (z. B. Unternehmenslisten) und richten Sie sich an diese Unternehmen über Ziele wie LinkedIn, die Listen von Unternehmen als Eingabe akzeptieren oder als Ziel für das Targeting und die Verkaufsförderung in Cloud-Speicher-Ziele exportieren.
+* Erstellen Sie Zielgruppen von Konten (z. B. Unternehmenslisten) und richten Sie diese Unternehmen über Ziele wie LinkedIn oder Cloud-Speicher aus. Weitere Informationen, Anforderungen und Leitplanken für Konto-Zielgruppen finden Sie unter [B2B-Kontoaktivierung für Advertising-Ziele und Dateiziele](b2b-account-activation.md).
 
 ## Programme
 

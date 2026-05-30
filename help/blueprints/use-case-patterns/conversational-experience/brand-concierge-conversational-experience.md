@@ -110,4 +110,4 @@ Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu im
 
 ## Verwandte Dokumentation
 
-Implementierungshandbücher und weitere Informationen finden Sie in der [Übersicht über Brand Concierge](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) auf Adobe Experience League.
+Implementierungshandbücher und weitere Informationen finden Sie in der [Übersicht über Brand Concierge](https://experienceleague.adobe.com/de/docs/brand-concierge/content/documentation/overview) auf Adobe Experience League.

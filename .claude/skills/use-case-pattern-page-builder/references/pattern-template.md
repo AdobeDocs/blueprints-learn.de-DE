@@ -9,7 +9,7 @@ ht-degree: 48%
 
 Diese Datei enthält die vollständige Markdown-Vorlage für eine Anwendungsfall-Musterseite. Ersetzen Sie beim Generieren eines neuen Musters alle `{{placeholder}}` Werte durch den tatsächlichen Inhalt.
 
----
+&#x200B;---
 
 ## Vorlage
 
@@ -103,7 +103,7 @@ The following resources provide additional detail on the capabilities used in th
 - [{{Link text}}]({{URL}})
 ````
 
----
+&#x200B;---
 
 ## Hinweise zur Verwendung dieser Vorlage
 

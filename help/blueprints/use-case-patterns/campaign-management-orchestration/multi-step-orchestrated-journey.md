@@ -99,9 +99,9 @@ Verwenden Sie die folgenden KPIs, um die Effektivität Ihrer mehrstufigen orches
 
 Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu implementieren.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** - Journey-Orchestrierungs-Engine, Nachrichtenbearbeitung, Kanalkonfiguration, Inhaltsexperiment, Häufigkeit und Konfliktmanagement sowie Reporting
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - Zielgruppenbewertung und -definition für Journey-Einstiegs-Zielgruppen, Profildaten für die Personalisierung und Bedingungsverzweigung
-- **[!DNL Adobe Experience Platform](AEP)** - Profilspeicher, Identity Service, Ereignisdatenaufnahme und grundlegende Dateninfrastruktur
+- **[!DNL Adobe Journey Optimizer] (AJO)** - Journey-Orchestrierungs-Engine, Nachrichtenbearbeitung, Kanalkonfiguration, Inhaltsexperiment, Häufigkeit und Konfliktmanagement sowie Reporting
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - Zielgruppenbewertung und -definition für Journey-Einstiegs-Zielgruppen, Profildaten für die Personalisierung und Bedingungsverzweigung
+- **[!DNL Adobe Experience Platform] (AEP)** - Profilspeicher, Identity Service, Ereignisdatenaufnahme und grundlegende Dateninfrastruktur
 
 ## Verwandte Dokumentation
 

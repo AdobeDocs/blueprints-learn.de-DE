@@ -88,9 +88,9 @@ In der folgenden Tabelle sind die KPIs zur Messung der Kampagneneffektivität au
 
 Die folgenden Anwendungen werden verwendet, um dieses Muster zu implementieren.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** - Nachrichtenbearbeitung, Kanalkonfiguration, Kampagnenausführung, Journey-Orchestrierung, Inhaltsexperimente, Häufigkeitsregeln und Reporting
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Zielgruppenbewertung, Einverständnis und Durchsetzung der Governance
-- **[!DNL Adobe Experience Platform](AEP)** - Profilspeicher, Identity Service, Schemata, Datensätze, Datenerfassung
+- **[!DNL Adobe Journey Optimizer] (AJO)** - Nachrichtenbearbeitung, Kanalkonfiguration, Kampagnenausführung, Journey-Orchestrierung, Inhaltsexperimente, Häufigkeitsregeln und Reporting
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Zielgruppenbewertung, Einverständnis und Durchsetzung der Governance
+- **[!DNL Adobe Experience Platform] (AEP)** - Profilspeicher, Identity Service, Schemata, Datensätze, Datenerfassung
 
 ## Verwandte Dokumentation
 

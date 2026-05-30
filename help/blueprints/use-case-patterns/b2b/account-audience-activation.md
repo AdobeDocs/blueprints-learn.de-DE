@@ -105,7 +105,7 @@ Die folgenden KPIs helfen, den Erfolg dieses Anwendungsfallmusters zu messen.
 Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu implementieren.
 
 - **[!DNL Real-Time CDP]B2B edition** - Kernplattform für die Vereinheitlichung von Account-Profilen, B2B-Identitätsauflösung, Evaluierung der Account-Zielgruppe, B2B-spezifische Zielkonfiguration und Aktivierung der Account-Zielgruppe
-- **[!DNL Adobe Experience Platform](AEP)** - Grundlegende Infrastruktur für B2B-XDM-Datenmodellierung, Datenaufnahme aus CRM- und Marketing-Automatisierungsquellen, Identity Service und Governance
+- **[!DNL Adobe Experience Platform] (AEP)** - Grundlegende Infrastruktur für B2B-XDM-Datenmodellierung, Datenaufnahme aus CRM- und Marketing-Automatisierungsquellen, Identity Service und Governance
 - **[!DNL Marketo Engage]** - Primäres B2B-Marketing-Automatisierungsziel für Lead-Nurture-Programme, Scoring und Kampagnenausführung, die von aktivierten Account-Zielgruppen gespeist werden
 
 ## Verwandte Dokumentation

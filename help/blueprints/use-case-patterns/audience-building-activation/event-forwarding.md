@@ -78,9 +78,9 @@ Die folgenden KPIs helfen, den Erfolg dieses Anwendungsfallmusters zu messen.
 
 Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Adobe Experience Platform](Edge Network)** - Empfängt Echtzeit-Ereignisdaten von Web SDK, Mobile SDK oder der Server-API und leitet sie über konfigurierte Datenströme weiter.
-- **[!DNL Adobe Experience Platform](Ereignisweiterleitung)** - Stellt die Server-seitige Regel-Engine zum Auswerten, Filtern, Transformieren und Weiterleiten von Ereignisdaten an externe Ziele bereit
-- **[!DNL Adobe Experience Platform](Tags/Datenerfassung)** - Verwaltet den Lebenszyklus, die Erweiterungen, die Regeln und den Veröffentlichungs-Workflow der Ereignisweiterleitungs-Eigenschaft
+- **[!DNL Adobe Experience Platform] (Edge Network)** - Empfängt Echtzeit-Ereignisdaten von Web SDK, Mobile SDK oder der Server-API und leitet sie über konfigurierte Datenströme weiter.
+- **[!DNL Adobe Experience Platform] (Ereignisweiterleitung)** - Stellt die Server-seitige Regel-Engine zum Auswerten, Filtern, Transformieren und Weiterleiten von Ereignisdaten an externe Ziele bereit
+- **[!DNL Adobe Experience Platform] (Tags/Datenerfassung)** - Verwaltet den Lebenszyklus, die Erweiterungen, die Regeln und den Veröffentlichungs-Workflow der Ereignisweiterleitungs-Eigenschaft
 
 ## Verwandte Dokumentation
 

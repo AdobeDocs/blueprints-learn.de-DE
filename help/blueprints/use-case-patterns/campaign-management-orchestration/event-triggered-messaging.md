@@ -104,9 +104,9 @@ Mit den folgenden KPIs kann die Effektivität von ereignisgesteuerten Messaging-
 
 Die folgenden Adobe-Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** - Journey-Orchestrierung mit unitärer Ereigniseingabe, Bedingungsauswertung, Warteschritten, Nachrichtenbearbeitung, Kanalkonfiguration, Frequenzverwaltung und Versandberichten
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** - Zielgruppenbewertung für bedingungsbasierte Filterung innerhalb von Journeys, Durchsetzung von Einverständnis und Governance, Profilanreicherung
-- **[!DNL Adobe Experience Platform](AEP)** - Echtzeit-Ereignisaufnahme über Web SDK, Mobile SDK oder Server-seitige API; Datenmodellierung; Identitätsauflösung; Edge Network
+- **[!DNL Adobe Journey Optimizer] (AJO)** - Journey-Orchestrierung mit unitärer Ereigniseingabe, Bedingungsauswertung, Warteschritten, Nachrichtenbearbeitung, Kanalkonfiguration, Frequenzverwaltung und Versandberichten
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - Zielgruppenbewertung für bedingungsbasierte Filterung innerhalb von Journeys, Durchsetzung von Einverständnis und Governance, Profilanreicherung
+- **[!DNL Adobe Experience Platform] (AEP)** - Echtzeit-Ereignisaufnahme über Web SDK, Mobile SDK oder Server-seitige API; Datenmodellierung; Identitätsauflösung; Edge Network
 
 ## Verwandte Dokumentation
 

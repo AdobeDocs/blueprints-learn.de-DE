@@ -105,8 +105,8 @@ Die folgenden KPIs helfen, den Erfolg dieses Anwendungsfallmusters zu messen.
 Die folgenden Anwendungen werden verwendet, um dieses Anwendungsfallmuster zu implementieren.
 
 - **[!DNL Brand Concierge]** - KI-gestützte Anwendung für konversatives Erlebnis, die den Agenten-Orchestrator, Product Advisor Agent, Site Advisory Agent, Brand Governance und konversative Analysen bereitstellt
-- **[!DNL Adobe Experience Platform](AEP)** - Unified Data Foundation mit XDM-Schemata, Identitätsauflösung, Echtzeit-Kundenprofilen und einer Datenerfassungs-Infrastruktur für Gesprächssignale
-- **[!DNL Real-Time CDP]([!DNL RT-CDP])** - Kundendatenplattform, die Echtzeit-Profilsuche für personalisierte Unterhaltungen, Zielgruppensegmentierung aus Gesprächssignalen und Profilanreicherung mit Intent- und Sentiment-Daten bietet
+- **[!DNL Adobe Experience Platform] (AEP)** - Unified Data Foundation mit XDM-Schemata, Identitätsauflösung, Echtzeit-Kundenprofilen und einer Datenerfassungs-Infrastruktur für Gesprächssignale
+- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** - Kundendatenplattform, die Echtzeit-Profilsuche für personalisierte Unterhaltungen, Zielgruppensegmentierung aus Gesprächssignalen und Profilanreicherung mit Intent- und Sentiment-Daten bietet
 
 ## Verwandte Dokumentation
 

@@ -1,7 +1,7 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Handbuch zur Erstellung neuer Anwendungsfall-Musterinhalte für das Adobe Experience Platform Blueprints-Repository. Verwenden Sie diese Fähigkeit, wenn Sie ein neues Anwendungsfallmuster hinzufügen, Inhalte für Implementierungshandbücher erstellen oder wenn der/die Benutzende das Hinzufügen von Mustern zur Blueprints-Site erwähnt. Übernimmt den gesamten Workflow: das Erfassen von Musterinformationen, das Generieren der Markdown-Datei mit der richtigen Vorlagenstruktur und das Aktualisieren aller Querverweisseiten (TOC.md, overview.md).'
-source-git-commit: 2577bb034012a78fd30a65b7b44196b91921923e
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 94%
@@ -68,15 +68,15 @@ Verwenden Sie die Vorlage aus `references/pattern-template.md` und füllen Sie a
 
 2. **Eröffnungsabschnitt** - `# {Pattern name}` Überschrift, gefolgt von einem einführenden Absatz und der „Verwenden Sie dieses Handbuch, um zu verstehen…“ Satz.
 
-3. **Übersicht über Anwendungsfälle** - 3-5 Absätze, die den Musterbereich beschreiben, wann er gilt, was er tut und was nicht, und wer die typischen Stakeholder sind.
+3. **Anwendungsfallmuster** — Beschreibungsabsatz und Ausführungsplan.
 
-4. **Wichtige Geschäftsziele** - Jedes Ziel ist eine verknüpfte Überschrift mit einer kurzen Beschreibung und einer Zusammenfassungszeile für KPIs.
+4. **Übersicht über Anwendungsfälle** - 3-5 Absätze, die den Musterbereich beschreiben, wann er gilt, was er tut und was nicht, und wer die typischen Stakeholder sind.
 
-5. **Beispiel für taktische Anwendungsfälle** - Aufzählung von 6-10 Szenarien.
+5. **Wichtige Geschäftsziele** - Jedes Ziel ist eine verknüpfte Überschrift mit einer kurzen Beschreibung und einer Zusammenfassungszeile für KPIs.
 
-6. **Key Performance Indicators** — Tabelle mit KPI, Beschreibung, Messspalten.
+6. **Beispiel für taktische Anwendungsfälle** - Aufzählung von 6-10 Szenarien.
 
-7. **Anwendungsfallmuster** — Beschreibungsabsatz und Ausführungsplan.
+7. **Key Performance Indicators** — Tabelle mit KPI, Beschreibung, Messspalten.
 
 8. **Programme** - Liste der Adobe-Programme mit `[!DNL ...]` Formatierung und Beschreibungen.
 
@@ -132,7 +132,7 @@ Nachdem alle Dateien erstellt und aktualisiert wurden, überprüfen Sie Folgende
 
 5. **Vollständigkeit von Frontend** - Die Musterdatei enthält Titel, Beschreibung, Lösung und exl-id in der YAML-Schriftart.
 
-6. **Experience League-Links** - Überprüfen Sie vor Ort, ob Experience League-URLs plausibel sind (beginnen Sie mit `https://experienceleague.adobe.com/de`).
+6. **Experience League-Links** - Überprüfen Sie vor Ort, ob Experience League-URLs plausibel sind (beginnen Sie mit `https://experienceleague.adobe.com/`).
 
 Melden Sie etwaige Validierungsfehler dem Benutzer und beheben Sie diese, bevor Sie die Aufgabe als abgeschlossen betrachten.
 

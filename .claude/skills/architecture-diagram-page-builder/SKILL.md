@@ -1,10 +1,10 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Handbuch zur Erstellung neuer Architekturdiagrammseiten für das Adobe Experience Platform Blueprints-Repository. Verwenden Sie diese Fähigkeit, wenn Sie ein neues Architekturdiagramm der obersten Ebene, eine Seite zur Integrationsarchitektur oder eine Übersicht über die Anwendungsarchitektur hinzufügen. Architekturseiten behandeln AEP- und Anwendungsarchitekturen der obersten Ebene und primäre Integrationspunkte - keine detaillierten Anwendungsfälle (diese gehören zum Anwendungsfall-Muster-Builder). Übernimmt den gesamten Workflow: das Erfassen von Seiteninformationen, das Generieren der Markdown-Datei, das Platzieren im richtigen Themenordner und das Aktualisieren von TOC.md.'
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 4d236750286c28a8b8eb53a5bdec0645cc0e3e91
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 2%
+source-wordcount: '1556'
+ht-degree: 1%
 
 ---
 
@@ -34,57 +34,53 @@ Lesen Sie die folgenden Referenzdateien für Vorlagen und Regeln:
 
 ## Phase 1: Informationssammlung
 
-Befragen Sie den Benutzer, um alle erforderlichen Informationen zu sammeln, bevor Sie Dateien generieren. Fahren Sie mit der Inhaltserstellung erst fort, wenn jedes erforderliche Element bereitgestellt oder explizit zurückgestellt wird.
+**Formulare verwenden, kein lineares Interview.** Sammeln Sie alle erforderlichen Informationen, indem Sie `AskUserQuestion` Formulare in logischen Runden in Batches präsentieren, anstatt jeweils nur eine Frage zu stellen. Dadurch bleibt das Erlebnis für den Benutzer schnell und überschaubar.
 
-### Erforderliche Informationen
+### AskUserQuestion-Einschränkungen
 
-1. **Seitentitel** - Der für Menschen lesbare Titel (z. B. `Adobe Journey Optimizer architecture diagrams`).
+- Maximal **4 Fragen** pro `AskUserQuestion`.
+- Maximal **4 Optionen** pro Frage
+- Wenn eine Frage mehr als vier plausible Optionen hat, teilen Sie sie auf zwei Aufrufe auf (stellen Sie z. B. die ersten vier Optionen und folgen Sie dann mit einem Ja/Nein beim fünften).
+- Verwenden Sie `multiSelect: true` für Fragen, für die mehrere Antworten zutreffen (Lösungen, Muster, Datenflüsse).
 
-2. **Themenordner** - Wo die Seite lebt. Wählen Sie genau eine aus, die auf der primären Domain des Diagramms basiert:
-   - `experience-platform/` - AEP auf oberster Ebene, Multi-App- oder Platform-Diagramme
-   - `customer-journeys/` - AJO, Campaign, Journey-Orchestrierung
-   - `customer-journey-analytics/` - CJA-Architekturen
-   - `audience-activation/` - RTCDP, Audience und Profilaktivierung
-   - `b2b/` - B2B-spezifische Architekturen
+### Runde 1 - Core-Seiteninformationen (ein AskUserQuestion-Aufruf, bis zu 4 Fragen)
 
-3. **Dateiname** — Groß-/Kleinschreibung, abgeleitet vom Seitentitel (z. B. `Journey Optimizer architecture` -> `journey-optimizer-architecture.md`). Bestätigen Sie mit dem Benutzer.
+Fordern Sie alles Folgende in einem einzigen Formular an:
 
-4. **Zweck der Seite** - 1-2 Sätze, die beschreiben, was die Diagramme zusammen veranschaulichen. Wird für das Feld &quot;`description`&quot; und den ersten Absatz verwendet.
+1. **Seitentitel** - 2-3 Variantenvorschläge, abgeleitet von dem, was der Benutzer Ihnen bereits gesagt hat, plus eine „Sonstige“ Notluke.
+2. **Themenordner** - präsentieren Sie die 5 gültigen Ordner als Optionen; empfehlen Sie den wahrscheinlichsten Ordner basierend auf der Eingabe des Benutzers.
+3. **Adobe-Lösungen** - Mehrfachauswahl; schlägt je nach Thema der Seite die wahrscheinlichsten Kandidaten vor.
+4. **Diagrammanzahl** - Wie viele Diagramme wird die Seite enthalten (1 / 2 / 3 / 4+).
 
-5. **Adobe-Lösungen** - Eine kommagetrennte Liste von Adobe-Produkten, die zentral auf der Seite sind. Wird für das Feld &quot;`solution` frontmatter“ verwendet. Beispiele: `Experience Platform, Journey Optimizer, Customer Journey Analytics`.
+### Runde 2 — Diagrammdetails (ein AskUserQuestion-Aufruf, bis zu 4 Fragen)
 
-6. **Diagramme** - Ein oder mehrere Diagramme. Für jedes Diagramm erfassen Sie:
-   - **Bilddateiname** (z. B. `aep_data_flow.svg`). SVG bevorzugt; PNG akzeptabel.
-   - **Abschnittstitel** - wird zur H2-Überschrift für das Diagramm (z. B. `Data flow diagram`, `Detailed architecture diagram`).
-   - **Zweckerklärung** - 1-2 Sätze, die beschreiben, was das Diagramm zeigt.
-   - **Alt-Text** — kurze barrierefreie Beschreibung.
+Fragen Sie nach dem Dateinamen des Diagramms und dem Zweck der Seite in einem Formular:
 
-7. **Anwendungsfallmuster werden unterstützt** - 2-5 vorhandene Muster, die diese Architektur ermöglicht.
+- Stellen Sie für jedes Diagramm (bis zu 2 in einer Formularrunde) die Frage **Bilddateiname** als Frage mit 2-3 vorgeschlagenen Dateinamen (abgeleitet vom Seitentitel) plus einer „Sonstige“-Option.
+- Stellen Sie die Frage **Zweck der Seite** (Beschreibung in 1-2 Sätzen) als Frage mit 2-3 vorgeschlagenen Formulierungen plus „Sonstige“.
+- Frage, ob ein **`>[!MORELIKETHIS]`-** benötigt wird (Ja/Nein). Wenn ja, erfassen Sie die URL und den Link-Text in einer Folgenachricht.
 
-   **Empfehlen Sie Kandidaten zuerst.** Bevor Sie den Benutzer auffordern, Muster anzugeben, scannen Sie `/help/blueprints/use-case-patterns/` und schlagen Sie 3-6 mögliche Übereinstimmungen vor, die auf dem Seitentitel, dem Seitenzweck und den oben erfassten Adobe-Lösungen basieren. Geben Sie für jeden Vorschlag Folgendes an:
-   - Mustername (mit verknüpftem Pfad)
-   - Ein Satz, der erklärt, warum es zu dieser Architektur passt
+> **Abschnittstitel und Alternativtext:** Wenn der Dateiname des Bildes beschreibend ist (z. B. `fac-architecture.svg`, `fac-dataflow.svg`), leiten Sie den H2-Abschnittstitel und den Alternativtext daraus ab - Sie müssen den Benutzer nicht fragen. Verwenden Sie den Dateinamenstamm, der großgeschrieben und humanisiert ist, als Abschnittstitel (z. B. `Architecture diagram`, `Data flow diagram`). Fragen Sie nur, ob der Dateiname mehrdeutig ist.
 
-   Zeigen Sie die Vorschläge als nummerierte Auswahlliste an und bitten Sie den Benutzer, (a) alle zu akzeptieren, (b) alle zu verwerfen und (c) verpasste Muster hinzuzufügen. Generieren Sie nur Vorschläge, die auf echte -Dateien verweisen - glob/read zur Bestätigung vor dem Vorschlag. Musternamen nicht halluzinieren.
+### Runde 3 - Anwendungsfallmuster (Frage nach dem Scannen stellen)
 
-   Erfassen Sie für jedes akzeptierte Muster die Kategorie und den Dateinamen. Überprüfen Sie vor dem Generieren, ob jede Datei unter `/help/blueprints/use-case-patterns/{category}/{pattern-file}.md` vorhanden ist.
+Bevor Sie dieses Formular **,`/help/blueprints/use-case-patterns/`** und identifizieren Sie 3-5 wahrscheinliche übereinstimmende Muster basierend auf dem Seitentitel, dem Zweck und den Lösungen. Vergewissern Sie sich, dass jede Datei vorhanden ist, bevor Sie sie vorschlagen.
 
-8. **Primäre Datenflüsse/Integrationspunkte** — 3-7 Aufzählungszeichen, die wichtige Flüsse und Integrationsgrenzen beschreiben, die in den Diagrammen angezeigt werden (z. B. `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
+Stellen Sie die vier besten Kandidaten als `multiSelect` Frage vor. Wenn es einen starken fünften Kandidaten gibt, folgen Sie mit einem separaten Ja/Nein-Frage für diesen. Laden Sie den Benutzer auch ein, ein Muster zu benennen, das Sie verpasst haben.
 
-9. **Experience League-Links** - 3-6 Links zu relevanten Experience League-Dokumentationen, die Sie weiter lesen können. Jede muss mit `https://experienceleague.adobe.com/de` beginnen.
+Nur Muster einschließen, deren Vorhandensein bestätigt wird. Musternamen nicht halluzinieren.
 
-   **Empfehlen Sie Kandidaten zuerst.** Basierend auf den Adobe-Lösungen und dem Seitenzweck schlagen Sie vier bis acht plausible Experience League-Artikel vor (z. B. die kanonischen Landingpages oder Übersichtsseiten für jede benannte Lösung, wichtige Integrationshandbücher, Bereitstellungsreferenzen). Geben Sie für jeden Vorschlag Folgendes an:
-   - Artikeltitel
-   - URL
-   - Einzeilige Begründung, warum es auf die Seite passt
+### Runde 4 - Datenflüsse und Experience League-Links (ein AskUserQuestion-Aufruf)
 
-   Markieren Sie **Vorschläge als**, es sei denn, Sie haben die URL tatsächlich abgerufen - der Benutzer muss jeden bestätigen oder ersetzen, bevor er in die generierte Datei gelangt. Bitten Sie den Benutzer, (a) zu akzeptieren, (b) jede URL durch eine verifizierte zu ersetzen, die er bereits hat, und (c) seine eigene hinzuzufügen. Erfinden Sie niemals URLs, die Sie nicht gesehen haben. Wenn Sie unsicher sind, schlagen Sie den Artikeltitel vor und lassen Sie den Benutzer die URL angeben.
+**Datenflüsse:** Sie 3-5 vorab geschriebene Aufzählungszeichen für den Datenfluss als `multiSelect` Frage vor (abgeleitet aus dem Seitenthema). Der Benutzer wählt aus, welches zutrifft. Behalten Sie jede Option für einen kurzen Satz bei. Wenn der/die Benutzende benutzerdefinierte Flüsse benötigt, die nicht in Ihrer Liste enthalten sind, kann er/sie diese in einer Nachverfolgung bereitstellen.
 
-### optional
+**Experience League-Links:** Stellen Sie nach dem Formular eine Markdown-Tabelle mit 4-6 vorgeschlagenen Links mit Artikeltitel, URL und einer einzeiligen Begründung vor. Markieren Sie jede URL als **nicht verifiziert**. Bitten Sie den Benutzer, (a) zu akzeptieren, (b) durch eine verifizierte URL zu ersetzen oder (c) eine eigene hinzuzufügen. Verwenden Sie eine `AskUserQuestion` mit bis zu vier Optionen, wenn die Liste lang ist. Andernfalls akzeptieren Sie die Bestätigung im Klartext.
 
-- **Callout für verwandte Inhalte** - Ein einzelner Link, der oben auf der Seite als `>[!MORELIKETHIS]` Block dargestellt wird. Nützlich, wenn es ein Handbuch zur gleichrangigen Integration oder Konfiguration auf Experience League gibt, das der Leser kennen sollte.
+Erfinde nie URLs, die du nicht abgerufen hast. Wenn Sie unsicher sind, schlagen Sie den Artikeltitel vor und lassen Sie den Benutzer die URL angeben.
 
-Wenn der Benutzer nicht alle erforderlichen Elemente bereitstellt, fragen Sie nach den fehlenden Elementen, bevor Sie fortfahren. Erstellen Sie keine Diagramme, Muster oder Links.
+### Wenn alle Runden abgeschlossen sind
+
+Bestätigen Sie den vollständigen Informationssatz mit dem Benutzer, bevor Sie Dateien generieren. Wenn ein erforderliches Element immer noch fehlt oder als „Sonstige“ ohne Wert markiert ist, fragen Sie danach, bevor Sie fortfahren. Erstellen Sie keine Diagramme, Muster oder Links.
 
 ## Phase 2: Überprüfung des Umfangs
 
@@ -167,6 +163,8 @@ Eingabeformat (4-Leerzeichen-Einzug + `+`):
 ```
 
 Hängen Sie den neuen Eintrag als letztes Element im entsprechenden Unterabschnitt an, es sei denn, der Benutzer gibt eine andere Position an. Bewahren Sie die exakte Einrückung mit vier Leerzeichen auf - die Analyse des Inhaltsverzeichnisses hängt davon ab.
+
+**Prüfen Sie vor der Platzierung auf verschachtelte Untergruppen.** Einige Unterabschnitte (insbesondere `Audience & Profile Activation`) enthalten verschachtelte Gruppierungen (z. B. `Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}`). Lesen Sie den betroffenen Unterabschnitt von toc.md vor der Bearbeitung. Neue Architekturseiten der obersten Ebene gehören zur Ebene des Einzugs mit vier Leerzeichen des Unterabschnitts - **nicht** innerhalb einer verschachtelten Untergruppe (die den Einzug mit sechs Leerzeichen verwendet). Platzieren Sie den neuen Eintrag nach dem letzten verschachtelten Untergruppeneintrag und vor der nächsten Überschrift des Unterabschnitts der obersten Ebene.
 
 ## Phase 5: Validierung
 

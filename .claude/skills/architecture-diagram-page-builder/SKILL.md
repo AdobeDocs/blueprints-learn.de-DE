@@ -174,7 +174,7 @@ Nachdem alle Dateien erstellt und aktualisiert wurden, überprüfen Sie Folgende
 
 2. **Verknüpfungen für Anwendungsfälle** - Jeder Musterlink in der Datei verweist auf eine vorhandene Markdown-Datei unter `/help/blueprints/use-case-patterns/`. Verwenden Sie `Read` oder Globus, um zu bestätigen, dass jedes Ziel vorhanden ist.
 
-3. **Experience League-Links** - Überprüfen Sie vor Ort, ob jede URL im `## Further reading` mit `https://experienceleague.adobe.com/` beginnt.
+3. **Experience League-Links** - Überprüfen Sie vor Ort, ob jede URL im `## Further reading` mit `https://experienceleague.adobe.com/de` beginnt.
 
 4. **TOC-**: Der neue Eintrag befindet sich im richtigen Unterabschnitt, verwendet eine Einrückung mit vier Leerzeichen und der Pfad stimmt genau mit dem Speicherort der generierten Datei überein.
 

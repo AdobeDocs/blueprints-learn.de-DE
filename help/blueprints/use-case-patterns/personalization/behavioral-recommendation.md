@@ -3,9 +3,9 @@ title: Verhaltensempfehlung
 description: Erfahren Sie, wie Sie Element- und Inhaltsempfehlungen mithilfe von Auswahlstrategien und Rangfolgemodellen generieren.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1652'
 ht-degree: 5%
 
 ---
@@ -36,19 +36,25 @@ Die Zielgruppe für dieses Muster umfasst E-Commerce-Merchandising-Teams, Person
 
 Die folgenden Geschäftsziele werden durch dieses Anwendungsfallmuster unterstützt.
 
-### [Umsatz durch Crosssell und Upsell steigern](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+### Umsätze durch Crosssell und Upsell steigern
+
+[Umsätze durch Crosssell und Upsell steigern](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
 
 Werben Sie für ergänzende und Premium-Produkte oder -Services für bestehende Kunden auf der Grundlage des Verhaltens und der Kaufhistorie.
 
 **KPIs:** Upsell/Crosssell %, Inkrementeller Umsatz, Kundenlebenszeitwert
 
-### [Erhöhung der Konversionsraten](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
+### Erhöhung der Konversionsraten
+
+[Erhöhung der Konversionsraten](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
 
 Verbessern Sie den Prozentsatz der Besucher und Interessenten, die die gewünschten Aktionen wie Käufe, Anmeldungen oder Formularübermittlungen durchführen.
 
 **KPIs:** Konversionsraten, Lead-Konversion, Kosten pro Lead
 
-### [Bereitstellen personalisierter Kundenerlebnisse](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+### Bereitstellen personalisierter Kundenerlebnisse
+
+[Bereitstellen personalisierter Kundenerlebnisse](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
 
 Passen Sie Inhalte, Angebote und Nachrichten an individuelle Voreinstellungen, Verhaltensweisen und Lebenszyklusphasen an.
 

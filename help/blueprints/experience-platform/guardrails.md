@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 4134ba7db88206379e267841a4642c555a7e56d5
 workflow-type: tm+mt
 source-wordcount: 486
 ht-degree: 14%
@@ -72,4 +72,4 @@ Die folgenden Seiten enthalten Informationen zu Leitplanken für Funktionen, Ser
 
 Das folgende Diagramm zeigt die Latenzen an den primären Edge- und Hub-Standorten, die bei der Entwicklung von Anwendungsfällen für Experience Platform und Anwendungen zu beachten sind.
 
-![In Experience Platform [!DNL Edge Network] und Hub wurden primäre Latenzen beobachtet.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.svg "Von Experience Platform Edge Network und Hub wurden primäre Latenzen beobachtet"){width="1000" zoomable="yes"}
+![In Experience Platform [!DNL Edge Network] und Hub wurden primäre Latenzen beobachtet.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.png "Von Experience Platform Edge Network und Hub wurden primäre Latenzen beobachtet"){width="1000" zoomable="yes"}

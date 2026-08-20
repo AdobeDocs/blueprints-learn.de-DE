@@ -71,14 +71,14 @@ Allgemeiner Fluss:
 
 ## Datenmodellierung in B2B-AEP
 
-Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig. Account- und Personenprofile in AEP/RTCDP müssen die in **Split-Path-Bedingungen** verwendeten Attribute enthalten (z. B. Verfolgungs-Flag, Lösungsinteresse, Persona, Absichtskategorie, Interaktionswert). B2B-Schemas (XDM Business Account, XDM Individual Profile, relationale) sollten Ihre Hierarchie und Datenquellen darstellen. Weitere Informationen finden Sie unter [RTCDP B2B-](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) und in der [Dokumentation zu Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
+Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig. Account- und Personenprofile in AEP/RTCDP müssen die in **Split-Path-Bedingungen** verwendeten Attribute enthalten (z. B. Verfolgungs-Flag, Lösungsinteresse, Persona, Absichtskategorie, Interaktionswert). B2B-Schemas (XDM Business Account, XDM Individual Profile, relationale) sollten Ihre Hierarchie und Datenquellen darstellen. Weitere Informationen finden Sie unter [RTCDP B2B-](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) und in der [Dokumentation zu Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Hinweis** Die Split-Path-Logik auf der Journey verwendet Profildaten und, sofern unterstützt, relationale Daten. Stellen Sie sicher, dass die Felder, die Sie für die Wasserfalllogik benötigen, auf der Journey verfügbar sind.
 
 ### Leitlinien
 
-- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
-- **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
+- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
+- **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
 
 ## Implementierung
 
@@ -131,6 +131,6 @@ Der Blueprint **Paid Media Controller** zeigt, wie **AJO B2B und AEP** zusammena
 
 ## Verwandte Dokumentation
 
-- [Kaufen von Blueprint für gruppenbasiertes Marketing und Journey-Management](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Konto- und Kaufen von Journey-Gruppen in AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) - Produktdokumentation.
+- [Kaufen von Blueprint für gruppenbasiertes Marketing und Journey-Management](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Konto- und Kaufen von Journey-Gruppen in AJO B2B.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b) - Produktdokumentation.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - Kontozielgruppen und -aktivierung.

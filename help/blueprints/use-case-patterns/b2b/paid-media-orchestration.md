@@ -2,9 +2,9 @@
 title: Bezahlter AJO B2B-Medien-Controller
 description: Priorität von Kampagnen und Aktivierung von Konten für Paid-Media-Ziele
 solution: Journey Optimizer B2B Edition
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Allgemeiner Fluss:
 
 ## Datenmodellierung in B2B-AEP
 
-Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig. Account- und Personenprofile in AEP/RTCDP müssen die in **Split-Path-Bedingungen** verwendeten Attribute enthalten (z. B. Verfolgungs-Flag, Lösungsinteresse, Persona, Absichtskategorie, Interaktionswert). B2B-Schemas (XDM Business Account, XDM Individual Profile, relationale) sollten Ihre Hierarchie und Datenquellen darstellen. Weitere Informationen finden Sie unter [RTCDP B2B-](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) und in der [AJO B2B-Dokumentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home).
+Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig. Account- und Personenprofile in AEP/RTCDP müssen die in **Split-Path-Bedingungen** verwendeten Attribute enthalten (z. B. Verfolgungs-Flag, Lösungsinteresse, Persona, Absichtskategorie, Interaktionswert). B2B-Schemas (XDM Business Account, XDM Individual Profile, relationale) sollten Ihre Hierarchie und Datenquellen darstellen. Weitere Informationen finden Sie unter [RTCDP B2B-](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) und in der [Dokumentation zu Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Hinweis** Die Split-Path-Logik auf der Journey verwendet Profildaten und, sofern unterstützt, relationale Daten. Stellen Sie sicher, dass die Felder, die Sie für die Wasserfalllogik benötigen, auf der Journey verfügbar sind.
 

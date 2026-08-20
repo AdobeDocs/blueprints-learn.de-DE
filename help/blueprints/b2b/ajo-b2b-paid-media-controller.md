@@ -13,7 +13,7 @@ ht-degree: 0%
 # Account Journey Orchestration - Paid Media Controller
 
 >[!TIP]
->Diese Blueprint ist auch als Anwendungsfallmuster [ B2B](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)Aktivierung und Marketing verfügbar.
+>Diese Blueprint ist auch als Anwendungsfallmuster [&#x200B; B2B](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)Aktivierung und Marketing verfügbar.
 
 ## Übersicht
 

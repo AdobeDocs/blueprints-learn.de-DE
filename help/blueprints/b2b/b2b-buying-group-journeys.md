@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
-source-wordcount: 2322
-ht-degree: 0%
+source-wordcount: 2351
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ Die folgenden Schritte bieten Anleitungen zur Aktivierung von Einkaufsgruppen in
 
    Als ersten Schritt definieren und erstellen Sie ein Erlebnisschema, das den Anforderungen des B2B-Anwendungsfalls entspricht und die Datenquellen sowohl in Batch- als auch in Echtzeit abdeckt. Dieses Design sollte die Art und Weise repräsentieren, wie das Unternehmen über die Konto- und Personenentitäten und die Anwendungsfälle denkt, die Sie unterstützen möchten. Damit das Schema ein B2B-Schema ist, sollte es den Strukturen entsprechen, die in der [RTCDP B2B-Schema-Dokumentation verfügbar sind](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
-   Eine nützliche Praxis besteht darin, die Entitätsnamen aus dem Diagramm zu übernehmen und diese Entitäten in Ihrem Schema zu identifizieren, indem Sie sie auf die gleiche Weise kennzeichnen. Beachten Sie, dass für einige Schemas spezifische Schlüssel, z. B. `sourceKey`, erforderlich sind, damit sie in RTCDP B2B funktionieren. Kurzfristig wird die _Viele-zu-Viele_-Beziehung zwischen Konto und Person über die Konto-Personen-Beziehung in Journey Optimizer B2B nicht unterstützt. Verwenden Sie die Beschleunigerskripte für den besten Ausgangspunkt:
+   Eine nützliche Praxis besteht darin, die Entitätsnamen aus dem Diagramm zu übernehmen und diese Entitäten in Ihrem Schema zu identifizieren, indem Sie sie auf die gleiche Weise kennzeichnen. Beachten Sie, dass für einige Schemas spezifische Schlüssel, z. B. `sourceKey`, erforderlich sind, damit sie in RTCDP B2B funktionieren.  Verwenden Sie die Beschleunigerskripte für den besten Ausgangspunkt:
 
    * Verwenden Sie das Skript zur Erstellung des [RTCDP B2B](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility)Schemas, um das anfängliche Schema zu generieren
    * Fügen Sie den generierten Schemata Anwendungsfall-spezifische Felder hinzu, um das Schema entsprechend den Anforderungen des Unternehmens zu vervollständigen.

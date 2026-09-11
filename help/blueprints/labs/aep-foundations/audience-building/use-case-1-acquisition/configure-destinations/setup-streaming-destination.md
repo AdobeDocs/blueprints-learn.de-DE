@@ -92,7 +92,7 @@ Stellen Sie anschließend sicher, dass die Konfiguration mit der unten angezeigt
 >
 >Weitere Informationen zu Governance-Richtlinien finden Sie in Experience League
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions)
 
 ## Audiences auswählen
 

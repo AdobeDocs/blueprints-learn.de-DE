@@ -61,7 +61,7 @@ Beachten Sie die **Accept**-Kopfzeile, die in der Anfrage verwendet wird. Dieser
 
 >[!NOTE]
 >
->Weitere Informationen zu den verschiedenen Accept-Kopfzeilen finden Sie hier -> [Experience League Schema API-Endpunkt](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
+>Weitere Informationen zu den verschiedenen Accept-Kopfzeilen finden Sie hier -> [Experience League Schema API-Endpunkt](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=de#lookup)
 
 
 

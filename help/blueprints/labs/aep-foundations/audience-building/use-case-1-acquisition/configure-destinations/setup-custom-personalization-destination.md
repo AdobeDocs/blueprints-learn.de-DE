@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Einrichten eines benutzerdefinierten Personalization-Ziels
 
-Die Verwendung eines [benutzerdefinierten Personalization-Ziels](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) ist eine Möglichkeit, Zielgruppen auf der Edge für die Verwendung durch einen Drittanbieter verfügbar zu machen, der in der Regel die Network Server-API verwendet, um sie für die Personalisierung zu verwenden.
+Die Verwendung eines [benutzerdefinierten Personalization-Ziels](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/personalization/custom-personalization) ist eine Möglichkeit, Zielgruppen auf der Edge für die Verwendung durch einen Drittanbieter verfügbar zu machen, der in der Regel die Network Server-API verwendet, um sie für die Personalisierung zu verwenden.
 
 In diesem Labor wird das benutzerdefinierte Personalization-Ziel konfiguriert, sodass wir Profilattribute an Edge senden können.
 
@@ -25,7 +25,7 @@ In diesem Labor wird das benutzerdefinierte Personalization-Ziel konfiguriert, s
 
 >[!NOTE]
 >
->Für die Personalisierung mit Adobe Target würden wir das [Adobe Target-Ziel verwenden.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) Das Verhalten ist mit dem von Custom Personalization identisch.
+>Für die Personalisierung mit Adobe Target würden wir das [Adobe Target-Ziel verwenden.](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) Das Verhalten ist mit dem von Custom Personalization identisch.
 
 1. Klicken Sie in der linken Leiste auf **Ziele**
 1. Klicken Sie in der oberen Leiste auf **Katalog**
@@ -121,7 +121,7 @@ Danach sollte der Bildschirm wie im folgenden Bild aussehen.  Sie können dann a
 
 >[!NOTE]
 >
->Da Profilattribute vertrauliche Daten enthalten können, müssen alle [Aufrufe der Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)Server-API in einem authentifizierten Kontext erfolgen, um das Attribut abzurufen, sobald es sich in der Edge befindet.
+>Da Profilattribute vertrauliche Daten enthalten können, müssen alle [Aufrufe der Edge Network](https://experienceleague.adobe.com/de/docs/experience-platform/edge-network-server-api/overview)Server-API in einem authentifizierten Kontext erfolgen, um das Attribut abzurufen, sobald es sich in der Edge befindet.
 
 
 ### Überprüfung
@@ -132,4 +132,4 @@ Im letzten Bildschirm können Sie die Details Ihrer Konfiguration überprüfen u
 
 >[!NOTE]
 >
->Dies ist der Punkt[&#x200B; an dem die &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)Automatische Durchsetzung“ mit Ihren [Datennutzungsrichtlinien“ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview). Dadurch werden Ihre Marketing-Aktionen mit den von Ihnen erstellten Regeln überprüft und Fehler ausgelöst.
+>Dies ist der Punkt[&#x200B; an dem die &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/auto-enforcement)Automatische Durchsetzung“ mit Ihren [Datennutzungsrichtlinien“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/policies/overview). Dadurch werden Ihre Marketing-Aktionen mit den von Ihnen erstellten Regeln überprüft und Fehler ausgelöst.

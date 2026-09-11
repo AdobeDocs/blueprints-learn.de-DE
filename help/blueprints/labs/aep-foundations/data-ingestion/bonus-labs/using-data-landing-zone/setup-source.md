@@ -4,7 +4,7 @@ description: Laden Sie eine Beispieldatei für das Kundenkonto in die Data Landi
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 Sie müssen eine Beispieldatendatei über den Azure Storage Explorer in Ihre Data Landing Zone hochladen, damit Sie sie im Labor verwenden können.  Gehen Sie dazu wie folgt vor:
 
 1. Herunterladen der [Beispieldateien](../../sample-files.md)
-1. Ziehen Sie die Datei „Lab\_&#x200B;**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Data Landing Zone hoch, die Sie im vorherigen Schritt gespeichert haben.
+1. Ziehen Sie die Datei „Lab\_**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Data Landing Zone hoch, die Sie im vorherigen Schritt gespeichert haben.
 
 Nach dem Hochladen sollte Ihr Bildschirm wie im folgenden Screenshot aussehen.
 
@@ -44,25 +44,25 @@ Nach dem Hochladen sollte Ihr Bildschirm wie im folgenden Screenshot aussehen.
 
 1. Wählen Sie **Lab\_customer\_account.csv**
 
-![Auswählen der Datei „Lab_Customer_Account.csv“ für die Vorschau im Azure Storage Explorer](assets/setup-source-select-lab-customer-account-csv.png "Zugriff auf die Azure Storage Explorer-Dateien in Adobe Experience Platform")
+   ![Auswählen der Datei „Lab_Customer_Account.csv“ für die Vorschau im Azure Storage Explorer](assets/setup-source-select-lab-customer-account-csv.png "Zugriff auf die Azure Storage Explorer-Dateien in Adobe Experience Platform")
 
 1. Sehen Sie sich im Vorschaubereich die folgenden Attribute an und beachten Sie Folgendes:
 
-- **sms\_optIn** ist ein Einverständnisfeld mit mehreren fehlenden Werten (in der Vorschau als - angezeigt)
-- **KONTO\_ERSTELLEN\_**) hat nicht das richtige Datumsformat. Sie enthält Zeichenfolgenwerte sowie Datums- und Uhrzeitwerte in einer Zeichenfolge.
-- **account\_end\_date** hat das richtige Datumsformat.
+   - **sms\_optIn** ist ein Einverständnisfeld mit mehreren fehlenden Werten (in der Vorschau als - angezeigt)
+   - **KONTO\_ERSTELLEN\_**) hat nicht das richtige Datumsformat. Sie enthält Zeichenfolgenwerte sowie Datums- und Uhrzeitwerte in einer Zeichenfolge.
+   - **account\_end\_date** hat das richtige Datumsformat.
 
 
 
-![sms_optIn-Feld mit mehreren fehlenden Werten, angezeigt in der Datei preview](assets/setup-source-sms-optin-missing-values.png "sms_optin")
+   ![sms_optIn-Feld mit mehreren fehlenden Werten, angezeigt in der Datei preview](assets/setup-source-sms-optin-missing-values.png "sms_optin")
 
 
 
-![&#x200B; Felder „ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ werden in der Datei „PREVIEW](assets/setup-source-account-create-date-account-end-date.png "ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ angezeigt")
+   ![ Felder „ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ werden in der Datei „PREVIEW](assets/setup-source-account-create-date-account-end-date.png "ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ angezeigt")
 
->[!NOTE]
->
->Die fehlenden Werte, Daten und falsch formatierten Felder müssen Sie später in diesem Labor in den Zuordnungsschritten berücksichtigen
+   >[!NOTE]
+   >
+   >Die fehlenden Werte, Daten und falsch formatierten Felder müssen Sie später in diesem Labor in den Zuordnungsschritten berücksichtigen
 
 1. Klicken **oben** auf „Weiter“, um mit dem nächsten Schritt fortzufahren
 

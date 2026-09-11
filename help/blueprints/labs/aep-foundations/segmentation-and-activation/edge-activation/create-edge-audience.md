@@ -4,7 +4,7 @@ description: Erstellen und veröffentlichen Sie eine von Edge ausgewertete Zielg
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Diese Zielgruppe wird verwendet, um jemanden zu qualifizieren, wenn eine Payload
 1. Wechseln Sie zu **Zielgruppen** und klicken Sie in den Ordner **Experience Platform**
 1. Ziehen Sie die Zielgruppe mit dem Namen **dep: Beliebiges Ereignis-Streaming (innerhalb einer Stunde)** auf die Arbeitsfläche
 
-![Ziehen Sie die Zielgruppe Dep: Any Event Streaming (innerhalb einer Stunde) auf die Arbeitsfläche des Regel-Builders](assets/create-edge-audience-drag-audience-to-canvas.png)
+   ![Ziehen Sie die Zielgruppe Dep: Any Event Streaming (innerhalb einer Stunde) auf die Arbeitsfläche des Regel-Builders](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 

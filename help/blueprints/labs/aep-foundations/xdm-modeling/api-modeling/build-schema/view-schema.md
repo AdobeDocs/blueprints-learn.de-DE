@@ -4,7 +4,7 @@ description: Zeigen Sie ein neu erstelltes Kundenschema sowohl in der Experience
 doc-type: article
 solution: Experience Platform
 exl-id: 29302546-46dc-4c97-8fd8-deab6977635c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 1. Öffnen Sie Ihren Browser und navigieren Sie zurück zum Abschnitt `Schema -> Browse` .
 
->[!NOTE]
->
->Aktualisieren Sie die Benutzeroberfläche, um sie anzuzeigen, da Sie sie gerade erstellt haben und die Schemaregistrierung erneut abfragen müssen
+   >[!NOTE]
+   >
+   >Aktualisieren Sie die Benutzeroberfläche, um sie anzuzeigen, da Sie sie gerade erstellt haben und die Schemaregistrierung erneut abfragen müssen
 
 2. Nach dem `Sample Customer Schema - <your sandbox number>` suchen
 

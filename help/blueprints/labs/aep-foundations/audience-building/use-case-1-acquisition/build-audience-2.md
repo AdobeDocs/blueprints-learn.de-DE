@@ -4,7 +4,7 @@ description: Erstellen Sie eine Zielgruppe von Profilen ohne aktive iPhone 14-Ze
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -89,80 +89,80 @@ Marketing betrat heute und gab uns die Anforderung, dieses Streaming zu haben, u
 
 1. Öffnen Sie die Zielgruppe &quot;*gehört zu iPhone*&quot; und ändern Sie den Namen in &quot;*gehört zu iPhone 14 Batch*&quot;.
 
->[!WARNING]
->
->Derzeit können wir die Auswertungsmethode in der Benutzeroberfläche nicht ändern. Alle Zielgruppen, die auf diese Zielgruppe verweisen, müssen ebenfalls gelöscht werden. Beachten Sie dies bei der Entscheidung über Ihre Erstellungsstrategie zur Verwendung von Segmenten innerhalb von Segmenten.
+   >[!WARNING]
+   >
+   >Derzeit können wir die Auswertungsmethode in der Benutzeroberfläche nicht ändern. Alle Zielgruppen, die auf diese Zielgruppe verweisen, müssen ebenfalls gelöscht werden. Beachten Sie dies bei der Entscheidung über Ihre Erstellungsstrategie zur Verwendung von Segmenten innerhalb von Segmenten.
 
 
 
 2. Erstellen Sie eine neue Zielgruppe. Fügen Sie die Zielgruppe „Besitzt iPhone 14-Zielgruppen-Batch“ zur Arbeitsfläche hinzu und klicken Sie auf In Regeln konvertieren .
 
-![Fügen Sie die eigene iPhone 14-Batch-Zielgruppe zur Arbeitsfläche hinzu und klicken Sie auf In Regeln konvertieren](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
+   ![Fügen Sie die eigene iPhone 14-Batch-Zielgruppe zur Arbeitsfläche hinzu und klicken Sie auf In Regeln konvertieren](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![Zielgruppe in Regeln auf der Arbeitsfläche konvertiert](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
-
-
-
-&#x200B;3. Aktualisieren Sie Beschreibung, Name und Auswertungsmethode auf Streaming in der rechten unteren Ecke und klicken Sie dann auf das Ordnersymbol neben der Auswertungsmethode. Sie sollten Folgendes sehen:
-
-![Auswertungsmethode nach dem Klicken auf das Ordnersymbol auf Streaming festgelegt](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+   ![Zielgruppe in Regeln auf der Arbeitsfläche konvertiert](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
-Der Grund dafür ist zwar nicht offensichtlich, aber wir verwenden den Produktnamen in einem Suchschema
+3. Aktualisieren Sie Beschreibung, Name und Auswertungsmethode auf Streaming in der rechten unteren Ecke und klicken Sie dann auf das Ordnersymbol neben der Auswertungsmethode. Sie sollten Folgendes sehen:
+
+   ![Auswertungsmethode nach dem Klicken auf das Ordnersymbol auf Streaming festgelegt](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+
+
+
+   Der Grund dafür ist zwar nicht offensichtlich, aber wir verwenden den Produktnamen in einem Suchschema
+
+   >[!NOTE]
+   >
+   >Wenn wir eine Suche verwenden, wird unsere Auswertungsmethode zu Batch gezwungen.
+   >
+   >Sie können dies erkennen, wenn Sie den Pfad betrachten und er „Eigenschaften“ überall enthält
+   >
+   >![Pfad, der „Eigenschaften“ enthält, erzwingt die Batch-Verarbeitung der Auswertungsmethode](assets/build-audience-2-path-contains-properties-forces-batch.png)
+
+
+
+
+
+4. Ersetzen Sie den vorhandenen Wert für den Produktnamen, der jetzt aus dem Schema Individuelles XDM-Profil stammt.
+
+   Ersetzen Sie den folgenden Pfad:
+
+   - Individuelles XDM-Profil > Tiefe > Aktive Produkte > Produkt-ID-Eigenschaften > Produktname
+
+   Fügen Sie den neuen Pfad hinzu:
+
+   - Individuelles XDM-Profil > Tiefe > Aktive Produkte > Modell
+
+   ![Ersetzen Sie den Pfad des Produktnamens durch den Pfad des Modells „XDM Individual Profile Active Products“](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
+
+   ![Zielgruppenregel mit Verweis auf den Pfad des XDM-Profilmodells aktualisiert](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
+
+
+
+5. Ändern Sie die Auswertungsmethode in Streaming und klicken Sie auf das Ordnersymbol
+
+   ![Ändern Sie die Auswertungsmethode in Streaming und klicken Sie auf das Ordnersymbol](assets/build-audience-2-change-evaluation-method-to-streaming.png)
+
+
+
+6. Geben Sie für Ihre neue für Streaming geeignete Zielgruppe eine Beschreibung ein.
+
+   - Speichern Sie die Zielgruppe als Zielgruppe &quot;*gehört iPhone 14*&quot;.
+   - Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+
+   ![Klicken Sie auf „Zielgruppe für Ziel aktivieren“ für die für Streaming geeignete Zielgruppe](assets/build-audience-2-activate-audience-to-destination.png)
+
+
+
+7. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf **Weiter**
+
+8. Klicken Sie auf **Weiter** und **Beenden**
 
 >[!NOTE]
 >
->Wenn wir eine Suche verwenden, wird unsere Auswertungsmethode zu Batch gezwungen.
->
->Sie können dies erkennen, wenn Sie den Pfad betrachten und er „Eigenschaften“ überall enthält
->
->![Pfad, der „Eigenschaften“ enthält, erzwingt die Batch-Verarbeitung der Auswertungsmethode](assets/build-audience-2-path-contains-properties-forces-batch.png)
-
-
-
-
-
-&#x200B;4. Ersetzen Sie den vorhandenen Wert für den Produktnamen, der jetzt aus dem Schema Individuelles XDM-Profil stammt.
-
-Ersetzen Sie den folgenden Pfad:
-
-- Individuelles XDM-Profil > Tiefe > Aktive Produkte > Produkt-ID-Eigenschaften > Produktname
-
-Fügen Sie den neuen Pfad hinzu:
-
-- Individuelles XDM-Profil > Tiefe > Aktive Produkte > Modell
-
-![Ersetzen Sie den Pfad des Produktnamens durch den Pfad des Modells „XDM Individual Profile Active Products“](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
-
-![Zielgruppenregel mit Verweis auf den Pfad des XDM-Profilmodells aktualisiert](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
-
-
-
-&#x200B;5. Ändern Sie die Auswertungsmethode in Streaming und klicken Sie auf das Ordnersymbol
-
-![Ändern Sie die Auswertungsmethode in Streaming und klicken Sie auf das Ordnersymbol](assets/build-audience-2-change-evaluation-method-to-streaming.png)
-
-
-
-&#x200B;6. Geben Sie für Ihre neue für Streaming geeignete Zielgruppe eine Beschreibung ein.
-
-- Speichern Sie die Zielgruppe als Zielgruppe &quot;*gehört iPhone 14*&quot;.
-- Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
-
-![Klicken Sie auf „Zielgruppe für Ziel aktivieren“ für die für Streaming geeignete Zielgruppe](assets/build-audience-2-activate-audience-to-destination.png)
-
-
-
-&#x200B;7. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf **Weiter**
-
-&#x200B;8. Klicken Sie auf **Weiter** und **Beenden**
-
-&#x200B;> [!NOTE]
->
 >Überlegungen zur Auswahl von Batch vs. Streaming oder Edge:
 >
->Neueste Leitplanken: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+>Neueste Leitplanken: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 >[!TIP]
 >

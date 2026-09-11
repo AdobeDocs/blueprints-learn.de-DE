@@ -4,7 +4,7 @@ description: Verwenden Sie einen JSON PATCH-API-Aufruf, um einer bestehenden Man
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Angenommen, Sie müssen nach dem Erstellen des Schemas zurückkehren und ein zus
 Sie können mehr über JSON PATCH unter den unten stehenden Links erfahren. Für dieses Labor gehen Sie jedoch davon aus, dass Sie ein Konzept dafür haben, wie dies 😄 funktioniert
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API-Grundlagen](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=de#json-patch)
+- [Experience League API-Grundlagen](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![Diagramm zum Patchen eines fehlenden PlansDescription-Felds in ein vorhandenes Schema](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "Patchen in einer fehlenden Feldplanbeschreibung")
 
@@ -47,11 +47,11 @@ Um ein neues Feld zu einem Schema hinzuzufügen, müssen Sie die folgenden Vorg�
 1. Wählen Sie den `Step 1 - Get Tenant Field groups` API-Aufruf im Ordner `XDM Schema Lab -> Customize Schema` aus
 1. Ausführen der Anfrage durch Klicken auf die Schaltfläche `Send`
 
-![Schritt 1: Anfrage zum Abrufen von Mandantenfeldgruppen-](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "Schritt 1: Abrufen von Mandantenfeldgruppen")
+   ![Schritt 1: Anfrage zum Abrufen von Mandantenfeldgruppen-](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "Schritt 1: Abrufen von Mandantenfeldgruppen")
 
->[!NOTE]
->
->Denken Sie daran, dass Sie das `plan`-Objekt innerhalb einer benutzerdefinierten Feldergruppe erstellt haben. Benutzerdefinierte erstellte Objekte in der XDM-Schemaregistrierung werden als „Mandant“ bezeichnet. Daher wird der API-Aufruf unter Verwendung des `/schemaregistry/tenant/mixins/`-Pfads ausgeführt.
+   >[!NOTE]
+   >
+   >Denken Sie daran, dass Sie das `plan`-Objekt innerhalb einer benutzerdefinierten Feldergruppe erstellt haben. Benutzerdefinierte erstellte Objekte in der XDM-Schemaregistrierung werden als „Mandant“ bezeichnet. Daher wird der API-Aufruf unter Verwendung des `/schemaregistry/tenant/mixins/`-Pfads ausgeführt.
 
 
 
@@ -128,32 +128,32 @@ Der vollständig erstellte Pfad sieht wie folgt aus:  Kopieren Sie diesen Pfad u
 
 1. Klicken Sie auf den `Step 3 - Modify Tenant Field group` API-Aufruf im Ordner `XDM Schema Lab -> Customize Schema` .
 
-![Schritt 3 - API-Aufruf für Mandantenfeldgruppe ändern](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "Schritt 3 - Mandantenfeldgruppe ändern")
+   ![Schritt 3 - API-Aufruf für Mandantenfeldgruppe ändern](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "Schritt 3 - Mandantenfeldgruppe ändern")
 
 
 
-&#x200B;2. Aktualisieren Sie den Text der Anfrage mit den folgenden Informationen
+2. Aktualisieren Sie den Text der Anfrage mit den folgenden Informationen
 
-- **op** ->` add`
-- **path** -> `path from previous step +`&#x200B;` the new field name`
-- **value** ->
-  - **title** -> `Plan Description`
-  - **type** -> `string`
-  - **description** -> `High-level details about the plan`
+   - **op** ->` add`
+   - **path** -> `path from previous step +`` the new field name`
+   - **value** ->
+     - **title** -> `Plan Description`
+     - **type** -> `string`
+     - **description** -> `High-level details about the plan`
 
-Wenn Sie fertig sind, sollte Ihre API-Anfrage in etwa wie folgt aussehen
+   Wenn Sie fertig sind, sollte Ihre API-Anfrage in etwa wie folgt aussehen
 
-![Abgeschlossener JSON-PATCH-Anfragetext, der das Feld „planDescription“ hinzufügt](assets/modify-schema-json-patch-step-3-final-call-example.png " Schritt 3 - Beispiel für einen endgültigen Aufruf")
+   ![Abgeschlossener JSON-PATCH-Anfragetext, der das Feld „planDescription“ hinzufügt](assets/modify-schema-json-patch-step-3-final-call-example.png " Schritt 3 - Beispiel für einen endgültigen Aufruf")
 
->[!WARNING]
->
->Stellen Sie sicher, dass Sie den neuen Feldnamen **planDescription** in Ihren Pfad aufnehmen
+   >[!WARNING]
+   >
+   >Stellen Sie sicher, dass Sie den neuen Feldnamen **planDescription** in Ihren Pfad aufnehmen
 
 
 
-&#x200B;3. Wenn alles gut `Save` deinem Anruf aussieht
+3. Wenn alles gut `Save` deinem Anruf aussieht
 
-&#x200B;4. `Execute` des Aufrufs zum Ausführen der PATCH
+4. `Execute` des Aufrufs zum Ausführen der PATCH
 
 Es sollte eine &quot;`200 OK `&quot; angezeigt werden und das `planDescription` Feld sollte nun in Ihrer Feldergruppe wie folgt angezeigt werden:
 

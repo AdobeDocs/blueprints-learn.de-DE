@@ -4,7 +4,7 @@ description: Erstellen Sie eine Ereignisweiterleitungseigenschaft mit einem Date
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
@@ -23,11 +23,11 @@ Normalerweise möchten wir ein Erlebnisereignis an einen Drittanbieter weiterlei
 1. Klicken Sie in der linken Leiste auf Ereignisweiterleitung .
 2. Klicken Sie dann auf Neue Eigenschaft
 
-![Abschnitt „Ereignisweiterleitung“ mit hervorgehobener Schaltfläche „Neue Eigenschaft](assets/create-property-new-property-button.png " Erstellen einer neuen Ereignisweiterleitungseigenschaft")
+   ![Abschnitt „Ereignisweiterleitung“ mit hervorgehobener Schaltfläche „Neue Eigenschaft](assets/create-property-new-property-button.png " Erstellen einer neuen Ereignisweiterleitungseigenschaft")
 
-&#x200B;3. Aktualisieren Sie den Eigenschaftsnamen mithilfe der folgenden Formel: `Event Forward Property SB + [sandbox number]`. Ihr endgültiger Name würde in etwa wie folgt aussehen: **Event Forward Property SB01**
+3. Aktualisieren Sie den Eigenschaftsnamen mithilfe der folgenden Formel: `Event Forward Property SB + [sandbox number]`. Ihr endgültiger Name würde in etwa wie folgt aussehen: **Event Forward Property SB01**
 
-&#x200B;4. Klicken Sie abschließend **Speichern**.
+4. Klicken Sie abschließend **Speichern**.
 
 ![Eigenschaftsname für die Ereignisweiterleitung, ausgefüllt mit hervorgehobener Schaltfläche „Speichern“](assets/create-property-name-property-form.png)
 
@@ -35,21 +35,21 @@ Normalerweise möchten wir ein Erlebnisereignis an einen Drittanbieter weiterlei
 
 1. Klicken Sie auf die soeben erstellte Ereignisweiterleitungs-Eigenschaft
 
-![Liste der Properties der Ereignisweiterleitung mit der hervorgehobenen neu erstellten Eigenschaft](assets/create-property-open-new-property.png "Öffnen der Ereigniseigenschaft")
+   ![Liste der Properties der Ereignisweiterleitung mit der hervorgehobenen neu erstellten Eigenschaft](assets/create-property-open-new-property.png "Öffnen der Ereigniseigenschaft")
 
 
 
-&#x200B;2. Es sollte ein Bildschirm wie unten angezeigt werden.  Klicken Sie auf **Erweiterungen**.
+2. Es sollte ein Bildschirm wie unten angezeigt werden.  Klicken Sie auf **Erweiterungen**.
 
-![Übersichtsbildschirm der Ereignisweiterleitungs-Eigenschaft mit hervorgehobener Registerkarte „Erweiterungen“](assets/create-property-click-extensions-tab.png)
+   ![Übersichtsbildschirm der Ereignisweiterleitungs-Eigenschaft mit hervorgehobener Registerkarte „Erweiterungen“](assets/create-property-click-extensions-tab.png)
 
 
 
-&#x200B;3. Installieren Sie die Erweiterung Adobe Cloud Connector wie folgt:
+3. Installieren Sie die Erweiterung Adobe Cloud Connector wie folgt:
 
-&#x200B;4. Klicken Sie in **oberen Navigationsleiste auf** Katalog“.
-&#x200B;5. Klicken Sie auf die Karte **Adobe Cloud Connector** .
-&#x200B;6. Klicken Sie in der rechten Leiste auf die Schaltfläche **Installieren**
+4. Klicken Sie in **oberen Navigationsleiste auf** Katalog“.
+5. Klicken Sie auf die Karte **Adobe Cloud Connector** .
+6. Klicken Sie in der rechten Leiste auf die Schaltfläche **Installieren**
 
 ![Erweiterungskatalog mit hervorgehobener Adobe Cloud Connector-Karte und hervorgehobener Schaltfläche „Installieren“](assets/create-property-install-cloud-connector-extension.png)
 
@@ -69,52 +69,52 @@ Nach dem Klicken auf Installieren sollte die Erweiterung unter Installierte Erwe
 
 
 
-![Navigation in der linken Leiste mit hervorgehobenem Link „Datenelemente](assets/create-property-navigate-to-data-elements.png "Navigieren zu Datenelementen")
+   ![Navigation in der linken Leiste mit hervorgehobenem Link „Datenelemente](assets/create-property-navigate-to-data-elements.png "Navigieren zu Datenelementen")
 
 
 
-&#x200B;2. Klicken Sie auf **Schaltfläche Neues Datenelement erstellen**
+2. Klicken Sie auf **Schaltfläche Neues Datenelement erstellen**
 
-![Seite „Datenelemente“ mit hervorgehobener Schaltfläche „Neues Datenelement erstellen](assets/create-property-create-new-data-element-button.png " „Neues Datenelement erstellen“")
-
-
-
-&#x200B;3. Konfigurieren Sie das neue Datenelement mit den folgenden Informationen:
-
-| Elementtyp | Zu konfigurierender Wert |
-| ----------------- | ------------------ |
-| Name | Datenobjekt |
-| Erweiterung | Core |
-| Datenelementtyp | Benutzerspezifischer Code |
-
-![Datenelementkonfiguration mit den Feldern „Name“, „Erweiterung“ und „Datenelementtyp“ festgelegt](assets/create-property-data-element-config-step-1.png "Schritt 1 der Datenelementkonfiguration")
+   ![Seite „Datenelemente“ mit hervorgehobener Schaltfläche „Neues Datenelement erstellen](assets/create-property-create-new-data-element-button.png " „Neues Datenelement erstellen“")
 
 
 
-&#x200B;4. Klicken Sie auf die Schaltfläche **Editor öffnen**, um den folgenden benutzerdefinierten Code hinzuzufügen:
+3. Konfigurieren Sie das neue Datenelement mit den folgenden Informationen:
 
-![Datenelementeinstellungen mit hervorgehobener Schaltfläche „Editor öffnen“ für benutzerdefinierten Code](assets/create-property-open-custom-code-editor.png "Editor öffnen")
+   | Elementtyp | Zu konfigurierender Wert |
+   | ----------------- | ------------------ |
+   | Name | Datenobjekt |
+   | Erweiterung | Core |
+   | Datenelementtyp | Benutzerspezifischer Code |
 
-
-
-&#x200B;5. Fügen Sie dem Editor auf diese Weise benutzerdefinierten Code hinzu und speichern Sie ihn
-
-```none
-var xdm = arc?.event || '';
-return xdm;
-```
-
-![Benutzerdefinierter Code-Editor, der das Skript anzeigt, das das eingehende XDM-Ereignisobjekt zurückgibt](assets/create-property-custom-code-added.png "Benutzerdefinierter Code")
-
->[!NOTE]
->
->Dadurch wird das gesamte XDM-Objekt erfasst, ohne dass Übersetzungen an der Payload durchgeführt werden.  Bei Bedarf können wir jedes einzelne Element innerhalb des XDM-Objekts (z. B. Seitenname, Kaufbetrag) in ein Datenelement pro Feld analysieren.  Der Grund dafür könnte sein, wenn es eine Umwandlung der Struktur in eine andere Struktur gibt
+   ![Datenelementkonfiguration mit den Feldern „Name“, „Erweiterung“ und „Datenelementtyp“ festgelegt](assets/create-property-data-element-config-step-1.png "Schritt 1 der Datenelementkonfiguration")
 
 
 
+4. Klicken Sie auf die Schaltfläche **Editor öffnen**, um den folgenden benutzerdefinierten Code hinzuzufügen:
+
+   ![Datenelementeinstellungen mit hervorgehobener Schaltfläche „Editor öffnen“ für benutzerdefinierten Code](assets/create-property-open-custom-code-editor.png "Editor öffnen")
 
 
-&#x200B;6. Klicken Sie auf **Speichern**, um Ihr Datenelement zu speichern.
+
+5. Fügen Sie dem Editor auf diese Weise benutzerdefinierten Code hinzu und speichern Sie ihn
+
+   ```none
+   var xdm = arc?.event || '';
+   return xdm;
+   ```
+
+   ![Benutzerdefinierter Code-Editor, der das Skript anzeigt, das das eingehende XDM-Ereignisobjekt zurückgibt](assets/create-property-custom-code-added.png "Benutzerdefinierter Code")
+
+   >[!NOTE]
+   >
+   >Dadurch wird das gesamte XDM-Objekt erfasst, ohne dass Übersetzungen an der Payload durchgeführt werden.  Bei Bedarf können wir jedes einzelne Element innerhalb des XDM-Objekts (z. B. Seitenname, Kaufbetrag) in ein Datenelement pro Feld analysieren.  Der Grund dafür könnte sein, wenn es eine Umwandlung der Struktur in eine andere Struktur gibt
+
+
+
+
+
+6. Klicken Sie auf **Speichern**, um Ihr Datenelement zu speichern.
 
 ![Datenelement-Editor mit hervorgehobener Schaltfläche „Speichern“](assets/create-property-save-data-element-button.png)
 
@@ -138,31 +138,31 @@ Wenn Sie fertig sind, sollte der folgende Bildschirm angezeigt werden, der best�
 
 1. Klicken Sie in der linken Leiste auf **Regeln**
 
-![Navigation in der linken Leiste mit hervorgehobenem Link „Regeln“](assets/create-property-navigate-to-rules.png)
+   ![Navigation in der linken Leiste mit hervorgehobenem Link „Regeln“](assets/create-property-navigate-to-rules.png)
 
 
 
-&#x200B;2. Klicken Sie dann auf **Neue Regel erstellen**
+2. Klicken Sie dann auf **Neue Regel erstellen**
 
-![Seite „Regeln“ mit hervorgehobener Schaltfläche „Neue Regel erstellen“](assets/create-property-new-rule-button.png)
-
-
-
-&#x200B;3. Aktualisieren Sie den Regelnamen mithilfe der folgenden Formel: `"EF Rule SB" + [your sandbox number]` (d. h. EF-Regel SB01). Ihre Sandbox-Nummer finden Sie oben rechts im Browser-Fenster, wie unten dargestellt\…
-
-![Browser-Fenster oben rechts mit der im Regelnamen verwendeten Sandbox-Nummer](assets/create-property-sandbox-number-location.png)
-
-&#x200B;4. Klicken Sie abschließend **Speichern**.
-
->[!NOTE]
->
->Stellen Sie sicher, dass Ihr Regelname dem Formelmuster von `"EF Rule SB" + [sandbox number]` folgt
-
-![Feld für den Regelnamen mit dem EF-Regel-Sandbox-Namensmuster ausgefüllt](assets/create-property-add-rule-name.png "Name zu Regel hinzufügen")
+   ![Seite „Regeln“ mit hervorgehobener Schaltfläche „Neue Regel erstellen“](assets/create-property-new-rule-button.png)
 
 
 
-&#x200B;5. Fügen Sie Ihrer Regel eine Aktion hinzu, indem Sie auf das Pluszeichen (+) klicken, um eine neue Aktion hinzuzufügen
+3. Aktualisieren Sie den Regelnamen mithilfe der folgenden Formel: `"EF Rule SB" + [your sandbox number]` (d. h. EF-Regel SB01). Ihre Sandbox-Nummer finden Sie oben rechts im Browser-Fenster, wie unten dargestellt\…
+
+   ![Browser-Fenster oben rechts mit der im Regelnamen verwendeten Sandbox-Nummer](assets/create-property-sandbox-number-location.png)
+
+4. Klicken Sie abschließend **Speichern**.
+
+   >[!NOTE]
+   >
+   >Stellen Sie sicher, dass Ihr Regelname dem Formelmuster von `"EF Rule SB" + [sandbox number]` folgt
+
+   ![Feld für den Regelnamen mit dem EF-Regel-Sandbox-Namensmuster ausgefüllt](assets/create-property-add-rule-name.png "Name zu Regel hinzufügen")
+
+
+
+5. Fügen Sie Ihrer Regel eine Aktion hinzu, indem Sie auf das Pluszeichen (+) klicken, um eine neue Aktion hinzuzufügen
 
 ![Regeleditor mit hervorgehobenem Pluszeichen, um eine neue Aktion hinzuzufügen](assets/create-property-add-action-button.png "Aktion hinzufügen")
 
@@ -177,11 +177,11 @@ Wenn Sie fertig sind, sollte der folgende Bildschirm angezeigt werden, der best�
 1. Öffnen Sie den folgenden Link in einer neuen Registerkarte in Ihrem Browser -> [https://webhook.site](https://webhook.site/)
 2. Kopieren Sie die angezeigte eindeutige URL und speichern Sie sie an einem sicheren Ort
 
-![Webhook.site-Seite mit hervorgehobener eindeutiger URL für das Kopieren](assets/create-property-webhooksite-copy-url.png)
+   ![Webhook.site-Seite mit hervorgehobener eindeutiger URL für das Kopieren](assets/create-property-webhooksite-copy-url.png)
 
 
 
-&#x200B;3. Konfigurieren Sie Ihre Aktion mit den folgenden Informationen:
+3. Konfigurieren Sie Ihre Aktion mit den folgenden Informationen:
 
 | Einstellung | Wert |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -208,7 +208,7 @@ Wenn Sie fertig sind, überprüfen Sie, ob Ihr Bildschirm ähnlich wie unten aus
 
 
 
-&#x200B;4. Wenn Sie fertig sind, sollte Ihre Aktion zu Ihrer Regel hinzugefügt werden. Klicken Sie auf **Speichern**, um fortzufahren.
+4. Wenn Sie fertig sind, sollte Ihre Aktion zu Ihrer Regel hinzugefügt werden. Klicken Sie auf **Speichern**, um fortzufahren.
 
 ![Regeleditor mit der konfigurierten Aktion und hervorgehobener Schaltfläche „Speichern](assets/create-property-save-rule-button.png " Regel speichern")
 
@@ -224,29 +224,29 @@ Wenn Sie fertig sind, überprüfen Sie, ob Ihr Bildschirm ähnlich wie unten aus
 
 1. Klicken Sie in der linken Leiste auf **Veröffentlichungsfluss**
 
-![Navigation in der linken Leiste mit hervorgehobenem Link „Veröffentlichungsfluss](assets/create-property-navigate-to-publishing-flow.png "Navigieren Sie zum Veröffentlichungsfluss")
+   ![Navigation in der linken Leiste mit hervorgehobenem Link „Veröffentlichungsfluss](assets/create-property-navigate-to-publishing-flow.png "Navigieren Sie zum Veröffentlichungsfluss")
 
 
 
-&#x200B;2. Klicken Sie auf die Schaltfläche **Bibliothek hinzufügen**
+2. Klicken Sie auf die Schaltfläche **Bibliothek hinzufügen**
 
-![Seite „Publishing-Ablauf“ mit hervorgehobener Schaltfläche „Bibliothek hinzufügen](assets/create-property-add-library-button.png " „Bibliothek hinzufügen“")
-
-
-
-&#x200B;3. Konfigurieren Sie die Bibliothek mit den folgenden Informationen:
-
-- Name -> **EF Library**
-- Umgebung -> **Entwicklung**
-- Klicken Sie auf **Alle geänderten Ressourcen hinzufügen**
-
-
-Danach sollte der Bildschirm dem folgenden Screenshot ähneln.  Wenn alles gut aussieht, klicken Sie auf die Schaltfläche **Speichern und in Entwicklung erstellen**
-
-![Bibliothekskonfiguration mit Namen, Entwicklungsumgebung und der Schaltfläche „Speichern und in Entwicklung erstellen“](assets/create-property-configure-library-save-and-build.png)
+   ![Seite „Publishing-Ablauf“ mit hervorgehobener Schaltfläche „Bibliothek hinzufügen](assets/create-property-add-library-button.png " „Bibliothek hinzufügen“")
 
 
 
-&#x200B;4. Anschließend sollte der Entwicklungs-Build grün angezeigt werden, sodass er einsatzbereit ist
+3. Konfigurieren Sie die Bibliothek mit den folgenden Informationen:
+
+   - Name -> **EF Library**
+   - Umgebung -> **Entwicklung**
+   - Klicken Sie auf **Alle geänderten Ressourcen hinzufügen**
+
+
+   Danach sollte der Bildschirm dem folgenden Screenshot ähneln.  Wenn alles gut aussieht, klicken Sie auf die Schaltfläche **Speichern und in Entwicklung erstellen**
+
+   ![Bibliothekskonfiguration mit Namen, Entwicklungsumgebung und der Schaltfläche „Speichern und in Entwicklung erstellen“](assets/create-property-configure-library-save-and-build.png)
+
+
+
+4. Anschließend sollte der Entwicklungs-Build grün angezeigt werden, sodass er einsatzbereit ist
 
 ![Veröffentlichungsfluss, der den Status des Entwicklungs-Builds anzeigt, der grün leuchtet und einsatzbereit ist](assets/create-property-development-build-ready.png)

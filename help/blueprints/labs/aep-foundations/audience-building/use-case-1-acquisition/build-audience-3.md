@@ -4,7 +4,7 @@ description: Erstellen Sie eine Zielgruppe von iPhone 14-Produktseitenbesuchern 
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -30,96 +30,96 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 1. Suchen Sie das Seitenansichtsereignis auf der Registerkarte Ereignis unter Ereignistypen in der linken Leiste und fügen Sie es der Audience hinzu.
 
-![Suchen Sie das Ereignis Seitenansicht unter Ereignistypen in der linken Leiste](assets/build-audience-3-find-page-view-event.png)
+   ![Suchen Sie das Ereignis Seitenansicht unter Ereignistypen in der linken Leiste](assets/build-audience-3-find-page-view-event.png)
 
->[!NOTE]
->
->**Verwenden von Ereignistypen**
->
->Durch die Verwendung des Seitenansichtsereignisses stellen wir sicher, dass die Zielgruppe nur den Seitennamen im Kontext einer Seitenansicht bewertet. Sie sollte redundant sein, da ein Seitenname nur in einer Seitenansicht vorhanden ist, aber zwei Vorteile bietet:
->
->- Bietet eine allgemeine visuelle Dokumentation für Benutzende, die die Benutzeroberfläche aufrufen
->- Stellt eine Filterung bereit, um sicherzustellen, dass beim Hinzufügen neuer Ereignisse diese nicht einbezogen werden, obwohl dies nicht beabsichtigt war
->
->Aus diesem Grund empfehlen wir, bei jedem von Ihnen erstellten Ereignisschema viel über die von Ihnen verwendeten Ereignistypen nachzudenken. Sie sind für das Filtern und visuelle Handbücher von grundlegender Bedeutung.
+   >[!NOTE]
+   >
+   >**Verwenden von Ereignistypen**
+   >
+   >Durch die Verwendung des Seitenansichtsereignisses stellen wir sicher, dass die Zielgruppe nur den Seitennamen im Kontext einer Seitenansicht bewertet. Sie sollte redundant sein, da ein Seitenname nur in einer Seitenansicht vorhanden ist, aber zwei Vorteile bietet:
+   >
+   >- Bietet eine allgemeine visuelle Dokumentation für Benutzende, die die Benutzeroberfläche aufrufen
+   >- Stellt eine Filterung bereit, um sicherzustellen, dass beim Hinzufügen neuer Ereignisse diese nicht einbezogen werden, obwohl dies nicht beabsichtigt war
+   >
+   >Aus diesem Grund empfehlen wir, bei jedem von Ihnen erstellten Ereignisschema viel über die von Ihnen verwendeten Ereignistypen nachzudenken. Sie sind für das Filtern und visuelle Handbücher von grundlegender Bedeutung.
 
 
 
-&#x200B;2. Geben Sie eine Beschreibung ein und machen Sie sie zum Streaming .
+2. Geben Sie eine Beschreibung ein und machen Sie sie zum Streaming .
 
-&#x200B;3. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
+3. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
 
-![Ändern Sie den Ereigniszeitfilter von „Beliebig“ in „Heute“](assets/build-audience-1-change-any-time-to-today.png)
+   ![Ändern Sie den Ereigniszeitfilter von „Beliebig“ in „Heute“](assets/build-audience-1-change-any-time-to-today.png)
 
-&#x200B;4. Speichern Sie diese Zielgruppe als &quot;*Beliebige Seite besucht*&quot;
+4. Speichern Sie diese Zielgruppe als &quot;*Beliebige Seite besucht*&quot;
 
-&#x200B;5. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+5. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-&#x200B;6. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+6. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-&#x200B;7. Klicken Sie auf Weiter und beenden Sie
+7. Klicken Sie auf Weiter und beenden Sie
 
 ## Zielgruppe erstellen (besuchte iPhone 14-Seite, aber nicht Inhaber/Bestellt)
 
 1. Erstellen einer neuen Zielgruppe und Hinzufügen des Seitenansichtsereignisses
 
-![Erstellen Sie eine neue Zielgruppe und fügen Sie das Seitenansichtsereignis hinzu](assets/build-audience-3-create-a-new-audience-and-add-the-page-views-event.png)
+   ![Erstellen Sie eine neue Zielgruppe und fügen Sie das Seitenansichtsereignis hinzu](assets/build-audience-3-create-a-new-audience-and-add-the-page-views-event.png)
 
 
 
-&#x200B;2. Navigieren Sie zu der Stelle, an der sich der Seitenname befindet, und fügen Sie dem Ereignis das Feld Seitenname hinzu, damit wir nach ihm filtern können.
+2. Navigieren Sie zu der Stelle, an der sich der Seitenname befindet, und fügen Sie dem Ereignis das Feld Seitenname hinzu, damit wir nach ihm filtern können.
 
-- XDM ExperienceEvent —> Web —> Web-Seitendetails —> Name
+   - XDM ExperienceEvent —> Web —> Web-Seitendetails —> Name
 
-![Navigieren Sie zu XDM ExperienceEvent > Web > Web-Seitendetails > Name](assets/build-audience-3-navigate-to-page-name-field.png)
-
-
-
-&#x200B;3. Hinzufügen enthält &quot;iPhone 14“
-
-![Fügen Sie eine CONTAINS-Bedingung für &quot;iPhone 14“ hinzu](assets/build-audience-3-add-contains-iphone-14.png)
-
-&#x200B;> [!TIP]
->
->**Suchen nach „Seite“**
->
->Versuchen Sie, nach „Seite“ zu suchen, anstatt zum Feld zu navigieren
->
->Der Seitenname wird nicht angezeigt. Dies liegt an der Art und Weise, wie sie benannt ist:
->
->- XDM ExperienceEvent > Web > Web-Seitendetails > Name
->
->Ihr Ordner wird angezeigt, aber nicht das Feld selbst. Berücksichtigen Sie beim Zusammensetzen Ihrer Namenskonventionen diesen und andere gängige Begriffe, nach denen Personen suchen und diese in Ihre Namensgebung integrieren könnten.
->
->Die Suche durchsucht keine Beschreibungen
->
->![Die Suche nach „Seite“ öffnet das Feld „Seitenname“ nicht](assets/build-audience-3-searching-for-page-does-not-find-field.png)
+   ![Navigieren Sie zu XDM ExperienceEvent > Web > Web-Seitendetails > Name](assets/build-audience-3-navigate-to-page-name-field.png)
 
 
 
-&#x200B;4. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
+3. Hinzufügen enthält &quot;iPhone 14“
 
-![Ändern Sie den Ereigniszeitfilter von „Beliebig“ in „Heute“](assets/build-audience-1-change-any-time-to-today.png)
+   ![Fügen Sie eine CONTAINS-Bedingung für &quot;iPhone 14“ hinzu](assets/build-audience-3-add-contains-iphone-14.png)
 
->[!NOTE]
->
->Da wir auf der Grundlage von Ereignissen aktivieren, die heute passiert sind, konzentrieren wir uns nur auf Seitenansichten für heute.
+   >[!TIP]
+   >
+   >**Suchen nach „Seite“**
+   >
+   >Versuchen Sie, nach „Seite“ zu suchen, anstatt zum Feld zu navigieren
+   >
+   >Der Seitenname wird nicht angezeigt. Dies liegt an der Art und Weise, wie sie benannt ist:
+   >
+   >- XDM ExperienceEvent > Web > Web-Seitendetails > Name
+   >
+   >Ihr Ordner wird angezeigt, aber nicht das Feld selbst. Berücksichtigen Sie beim Zusammensetzen Ihrer Namenskonventionen diesen und andere gängige Begriffe, nach denen Personen suchen und diese in Ihre Namensgebung integrieren könnten.
+   >
+   >Die Suche durchsucht keine Beschreibungen
+   >
+   >![Die Suche nach „Seite“ öffnet das Feld „Seitenname“ nicht](assets/build-audience-3-searching-for-page-does-not-find-field.png)
 
 
 
-&#x200B;5. Überprüfen Sie, ob es sich um Streaming handelt, und geben Sie eine Beschreibung an.
+4. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
 
-&#x200B;6. Speichern Sie die Zielgruppe als &quot;*Besuchte iPhone 14-Seite*&quot;
+   ![Ändern Sie den Ereigniszeitfilter von „Beliebig“ in „Heute“](assets/build-audience-1-change-any-time-to-today.png)
 
-![Speichern Sie die Zielgruppe als „Besuchte iPhone-14-Seite“](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
+   >[!NOTE]
+   >
+   >Da wir auf der Grundlage von Ereignissen aktivieren, die heute passiert sind, konzentrieren wir uns nur auf Seitenansichten für heute.
 
 
 
-&#x200B;7. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+5. Überprüfen Sie, ob es sich um Streaming handelt, und geben Sie eine Beschreibung an.
 
-&#x200B;8. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+6. Speichern Sie die Zielgruppe als &quot;*Besuchte iPhone 14-Seite*&quot;
 
-&#x200B;9. Klicken Sie auf Weiter und beenden Sie
+   ![Speichern Sie die Zielgruppe als „Besuchte iPhone-14-Seite“](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
+
+
+
+7. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+
+8. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+
+9. Klicken Sie auf Weiter und beenden Sie
 
 
 
@@ -130,34 +130,35 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 1. Rufen Sie die drei anderen zuvor erstellten Zielgruppen ab
 1. Ändern Sie „Einschließen“ in „Nicht einschließen“ für „Besitzt iPhone 14“ und „Bestellung aufgegeben“ in &quot;iPhone 14“.
 
-![Set Owns iPhone 14 and Placed Order iPhone 14 to Does Not Include in the audience of audience](assets/build-audience-3-audience-of-audiences-does-not-include.png)
+   ![Set Owns iPhone 14 and Placed Order iPhone 14 to Does Not Include in the audience of audience](assets/build-audience-3-audience-of-audiences-does-not-include.png)
 
 
 
-&#x200B;5. Geben Sie eine Beschreibung ein.
+5. Geben Sie eine Beschreibung ein.
 
-&#x200B;6. Wechsel zu Streaming
+6. Wechsel zu Streaming
 
-&#x200B;7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
+7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
 
-&#x200B;8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-&#x200B;9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-&#x200B;10. Klicken Sie auf Weiter und beenden Sie
+10. Klicken Sie auf Weiter und beenden Sie
 
 >[!NOTE]
 >
 >**Zeitfilter**
 >
 >Für die Anforderungen galt keine Zeitvorgabe. Wenn also jemand vor drei Jahren zu Besuch war, würde er sich qualifizieren. Je nach Anwendungsfall kann dies funktionieren oder nicht. Es lohnt sich zu fragen. Wir haben eine hinzugefügt, da wir basierend auf Personen, die unsere Website heute besucht haben, eine Aktivierung durchführen.  Dies funktioniert möglicherweise nicht in allen Anwendungsfällen.  Wenn wir einen Zeitfilter hinzufügen, wie weit können wir zurückgehen, bevor eine Edge-Zielgruppe zu Streaming oder sogar Batch wird?
-> [!NOTE]
+
+>[!NOTE]
 >
 >**Auswirkungen der Trennung**
 >
 >Wir haben aus einigen Gründen eine einfache Anforderung in viele Zielgruppen aufgeteilt. Die Anforderung gilt für ein Streaming, aber diese beiden Anforderungen machen unsere Zielgruppe zu Batch. Weitere Informationen zu den Streaming-Eignungsregeln finden Sie hier:
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
 
 >[!NOTE]
 >
@@ -167,7 +168,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 >
 >Wir müssen wissen, dass AEP bei Verwendung einer Zielgruppe innerhalb einer Zielgruppe nach Möglichkeit versucht, eine Sequenz durchzuführen. Es gibt Randfälle, in denen dies nicht möglich ist, z. B. Wenn eine Zielgruppe verwendet wird, erfolgt alle 24 Stunden eine Profildisqualifizierung.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=de](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=de)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
 
 
 

@@ -4,7 +4,7 @@ description: Verwenden Sie die Profilentitäts-API und die Identity Service-Clus
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Diesen Parameter bei jeder Anfrage senden. Der Wert hängt davon ab, ob Sie die 
 
 ### Identifizieren der zu suchenden Entität
 
-Die meisten Anfragen verwenden `entityId` und `entityIdNS`, um die Entität anhand eines bekannten Identitätswerts zu identifizieren - z. B. einer E-Mail-Adresse, einer CRM-ID oder einer Treueprogramm-ID -, anstatt Sie aufzufordern, ihre XID bereits zu kennen. Eine XID ist eine base64-kodierte Kennung, die Identity Service intern generiert und zuweist, um eine Identität darzustellen, wobei sein Namespace und ID-Wert in einem einzigen kompakten Token konsolidiert werden (weitere Informationen finden Sie unter [Native &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=de)):
+Die meisten Anfragen verwenden `entityId` und `entityIdNS`, um die Entität anhand eines bekannten Identitätswerts zu identifizieren - z. B. einer E-Mail-Adresse, einer CRM-ID oder einer Treueprogramm-ID -, anstatt Sie aufzufordern, ihre XID bereits zu kennen. Eine XID ist eine base64-kodierte Kennung, die Identity Service intern generiert und zuweist, um eine Identität darzustellen, wobei sein Namespace und ID-Wert in einem einzigen kompakten Token konsolidiert werden (weitere Informationen finden Sie unter [Native ](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=de)):
 
 | Parameter | Typ | Beschreibung | Beispiel |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -79,17 +79,17 @@ Um ein Gefühl für die Entity Lookup-API zu erhalten, verwenden Sie das Depeche
 1. Klicken Sie auf die Anfrage **Entitätssuche (Attribute)**, um sie zu öffnen
 1. Führen Sie den Aufruf durch Klicken auf die Schaltfläche **Senden** aus
 
-![Postman-Anfragebereich für den Aufruf der Entitätssuche (Attribute) vor der API der &#x200B;](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "-Profilentitätssuche (Attribute)")
+   ![Postman-Anfragebereich für den Aufruf der Entitätssuche (Attribute) vor der API der ](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "-Profilentitätssuche (Attribute)")
 
-Eine erfolgreiche Anfrage sollte mit einem `200 OK` antworten, und Sie sollten ein Ergebnis sehen, das alle Attribute für das Depeche Mode-Profil enthält.
+   Eine erfolgreiche Anfrage sollte mit einem `200 OK` antworten, und Sie sollten ein Ergebnis sehen, das alle Attribute für das Depeche Mode-Profil enthält.
 
-![200 OK-Antwort mit allen Attributen für die Depeche Mode profile](assets/profile-and-identity-apis-successful-attributes-api-response.png "Successful Profile Entity (attributes) API-Antwort")
+   ![200 OK-Antwort mit allen Attributen für die Depeche Mode profile](assets/profile-and-identity-apis-successful-attributes-api-response.png "Successful Profile Entity (attributes) API-Antwort")
 
->[!NOTE]
->
->Wenn in einer Profilentitätsanfrage keine Zusammenführungsrichtlinie angegeben ist, wird standardmäßig die standardmäßige Zusammenführungsrichtlinie in der Sandbox verwendet
+   >[!NOTE]
+   >
+   >Wenn in einer Profilentitätsanfrage keine Zusammenführungsrichtlinie angegeben ist, wird standardmäßig die standardmäßige Zusammenführungsrichtlinie in der Sandbox verwendet
 
-Mit der Entitäts-API gibt es eine Reihe von Abfrageparametern, mit denen Sie ändern können, was in der Antwort zurückgegeben wird.
+   Mit der Entitäts-API gibt es eine Reihe von Abfrageparametern, mit denen Sie ändern können, was in der Antwort zurückgegeben wird.
 
 1. Klicken Sie in der Anfrage „Entitätssuche (Attribute)“ auf die Option **Parameter** für die Anfrage
 1. Aktivieren Sie das Kontrollkästchen neben **Schlüssel** namens **fields**
@@ -105,7 +105,7 @@ Eine erfolgreiche Anfrage sollte mit einem `200 OK` antworten, und Sie sollten n
 
 ![Gefilterte 200-OK-Antwort, die nur die Felder „Vorname“, „Nachname“ und „Aktive Produkte“ anzeigt](assets/profile-and-identity-apis-successful-filtered-attributes-response.png " API-Antwort für erfolgreiche Profilentitätssuche (Attribute) mit aktiviertem Filter")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >Herzlichen Glückwunsch!  Sie haben die Attribute eines Profils mithilfe der Profilentitäts-API erfolgreich nachgeschlagen
 
@@ -122,7 +122,7 @@ Eine erfolgreiche Anfrage sollte mit einem `200 OK` antworten, und Sie sollten e
 
 
 
-![200 OK-Antwort mit allen Ereignissen für die API-Antwort &#x200B;](assets/profile-and-identity-apis-successful-events-api-response.png "Profilentitätssuche (Ereignisse) im Depeche-Modus")
+![200 OK-Antwort mit allen Ereignissen für die API-Antwort ](assets/profile-and-identity-apis-successful-events-api-response.png "Profilentitätssuche (Ereignisse) im Depeche-Modus")
 
 Genau wie bei der Suche nach Profilattributen verfügt die Entitäts-API über noch mehr Abfrageparameter, mit denen geändert werden kann, was in der Antwort zurückgegeben wird.
 
@@ -161,7 +161,7 @@ Probieren Sie es selbst:
 
 
 
-![Postman-Anfragebereich für den Aufruf „Verknüpfte Identitäten auflisten“ vor dem Senden/Auflisten &#x200B;](assets/profile-and-identity-apis-list-linked-identities-request.png " API für verknüpfte Identitäten")
+![Postman-Anfragebereich für den Aufruf „Verknüpfte Identitäten auflisten“ vor dem Senden/Auflisten ](assets/profile-and-identity-apis-list-linked-identities-request.png " API für verknüpfte Identitäten")
 
 Eine erfolgreiche Antwort sollte wie im Folgenden aussehen
 

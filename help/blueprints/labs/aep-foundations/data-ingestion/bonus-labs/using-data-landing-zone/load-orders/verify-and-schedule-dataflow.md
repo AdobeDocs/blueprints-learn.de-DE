@@ -4,7 +4,7 @@ description: Überprüfen Sie den vollständigen Zuordnungssatz für Bestellunge
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -56,7 +56,7 @@ ht-degree: 7%
 
 1. Vorschau der Zuordnungsausgabe. Scrollen Sie durch alle Attribute, um sicherzustellen, dass neben keinem der Attribute auf der rechten Seite ein roter Ausruf angezeigt wird.
 
-![Zuordnungsbildschirm in der Vorschau anzeigen, ohne Fehler bei zugeordneten Attributen](assets/verify-and-schedule-dataflow-preview-mapping-screen.png " Der Zuordnungsbildschirm in der Vorschau wird wie folgt aussehen")
+   ![Zuordnungsbildschirm in der Vorschau anzeigen, ohne Fehler bei zugeordneten Attributen](assets/verify-and-schedule-dataflow-preview-mapping-screen.png " Der Zuordnungsbildschirm in der Vorschau wird wie folgt aussehen")
 
 1. Wählen Sie in der linken Navigationsleiste der Vorschau das Objekt **productListItems**-Array aus. Die rechte Seite wird aktualisiert, sodass nur die Attribute in diesem Objekt-Array angezeigt werden.
 
@@ -70,9 +70,9 @@ ht-degree: 7%
 
 1. Legen Sie den Zeitplan für die Ausführung **alle 15 Minuten** fest, indem Sie die Häufigkeit auf Minute und das Intervall auf 15 festlegen. Überprüfen Sie den Fluss und klicken Sie auf Beenden .
 
->[!CAUTION]
->
->Stellen Sie sicher, dass Ihr Zeitplan auf 15 Minuten eingestellt ist. Wenn Sie die Ausführung als **Einmal ausführen** planen, können Sie sie auch dann nicht erneut ausführen, wenn Sie die Zuordnung später ändern.
+   >[!CAUTION]
+   >
+   >Stellen Sie sicher, dass Ihr Zeitplan auf 15 Minuten eingestellt ist. Wenn Sie die Ausführung als **Einmal ausführen** planen, können Sie sie auch dann nicht erneut ausführen, wenn Sie die Zuordnung später ändern.
 
 1. Die Datenflussausführung startet nicht sofort und dauert einige Minuten. Der letzte Ausführungsstatus des Datenflusses ist also auf &quot;*Ausführungen“*.
 

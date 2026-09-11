@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie auf der Registerkarte "Edge-Profilspeicher“
 doc-type: article
 solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -22,15 +22,15 @@ Vergewissern Sie sich, dass das Profil nicht im Edge-Netzwerkprofilspeicher vorh
 
 1. Klicken Sie auf die **Attribute** und das Optionsfeld **Edge**, um das Edge-Profil anzuzeigen
 
-![Edge-Profil, angezeigt auf der Registerkarte „Attribute“](assets/validate-profile-on-edge-attributes-tab.png)
+   ![Edge-Profil, angezeigt auf der Registerkarte „Attribute“](assets/validate-profile-on-edge-attributes-tab.png)
 
->[!NOTE]
->
->Es ist möglich, dass Sie eine „abgespeckte“ Version des Profils sehen, die nur aus den Identitäten besteht, je nachdem, wie viel Zeit vergangen ist.
+   >[!NOTE]
+   >
+   >Es ist möglich, dass Sie eine „abgespeckte“ Version des Profils sehen, die nur aus den Identitäten besteht, je nachdem, wie viel Zeit vergangen ist.
 
 
 
-&#x200B;2. Klicken Sie auf die Registerkarte Zielgruppenmitgliedschaft .  Es wird **leer**.
+2. Klicken Sie auf die Registerkarte Zielgruppenmitgliedschaft .  Es wird **leer**.
 
 ![Registerkarte „Zielgruppenmitgliedschaft leeren“ im Edge-Profil](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

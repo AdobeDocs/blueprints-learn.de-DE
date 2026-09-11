@@ -4,7 +4,7 @@ description: Erstellen Sie berechnete Feldausdrücke, um fehlende SMS-Einverstä
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Das Feld „sms_optIn“ ist ein Pflichtfeld im Kundenkontenschema. Das Problem ist, dass das Feld „sms\_optIn“ in unserer Streaming-Quelle *null*-Werte senden kann, sodass ein berechnetes Feld erforderlich ist, um dies zu beheben. Andernfalls werden diese Datensätze bei der Aufnahme übersprungen, was einen Verlust darstellt.
 
-![Das Feld consents.marketing.sms.val , wie im Feld &#x200B;](assets/calculated-fields-consents-marketing-sms-val-schema-field.png ".consents.marketing.sms.val gezeigt, wie im Schema dargestellt")
+![Das Feld consents.marketing.sms.val , wie im Feld ](assets/calculated-fields-consents-marketing-sms-val-schema-field.png ".consents.marketing.sms.val gezeigt, wie im Schema dargestellt")
 
 
 
@@ -26,17 +26,17 @@ Das Feld „sms_optIn“ ist ein Pflichtfeld im Kundenkontenschema. Das Problem 
 
 1. Erstellen Sie ein berechnetes Feld, indem Sie auf das Symbol **Neuer Feldtyp** klicken und dann **Berechnetes Feld hinzufügen** auswählen. Bei allen fehlenden Werten wird davon ausgegangen, dass die Einwilligung nicht erteilt wurde und wird mit **„n“** gekennzeichnet. Beachten Sie, dass berechnete Felder in der linken Spalte angezeigt werden, da die Umwandlung über ein berechnetes Feld die Eingabe für diese neue Zuordnung ist.
 
-![Symbolmenü „Neuer Feldtyp“ mit ausgewählter Option „Berechnetes Feld hinzufügen](assets/calculated-fields-add-a-calculated-field.png "Berechnetes Feld hinzufügen")
+   ![Symbolmenü „Neuer Feldtyp“ mit ausgewählter Option „Berechnetes Feld hinzufügen](assets/calculated-fields-add-a-calculated-field.png "Berechnetes Feld hinzufügen")
 
 
 
 1. Fügen Sie im Dialogfeld Berechnetes Feld erstellen den folgenden Ausdruck hinzu und klicken Sie dann auf **Vorschau**
 
-```none
-iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
-```
+   ```none
+   iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
+   ```
 
-![Dialogfeld „Berechnetes Feld erstellen“ mit dem Ausdruck „sms_optIn“ und dem berechneten Feld &quot;](assets/calculated-fields-sms-optin-calculated-field.png "_sms_optIn“")
+   ![Dialogfeld „Berechnetes Feld erstellen“ mit dem Ausdruck „sms_optIn“ und dem berechneten Feld &quot;](assets/calculated-fields-sms-optin-calculated-field.png "_sms_optIn“")
 
 
 
@@ -54,13 +54,13 @@ Ein neues Feld wird dem Zuordnungsbildschirm hinzugefügt, weist jedoch einen ni
 1. Im rechten Bereich sehen Sie jetzt, dass das Bedienfeld „Zielschema“ geöffnet ist. Geben Sie **sms** im Suchfeld ein
 1. Wählen Sie das Feld **val** aus
 
-![Target-Schemafeld mit dem für die berechnete Feldzuordnung ausgewählten Feld sms.val](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
+   ![Target-Schemafeld mit dem für die berechnete Feldzuordnung ausgewählten Feld sms.val](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
 
 
 
-Ihre endgültige Zuordnung sollte wie folgt aussehen:
+   Ihre endgültige Zuordnung sollte wie folgt aussehen:
 
-![Endgültiger Zuordnungsbildschirm mit dem berechneten Feld „sms_optin“, das dem Zielschema zugeordnet ist](assets/calculated-fields-final-mapping-screen.png)
+   ![Endgültiger Zuordnungsbildschirm mit dem berechneten Feld „sms_optin“, das dem Zielschema zugeordnet ist](assets/calculated-fields-final-mapping-screen.png)
 
 
 
@@ -83,21 +83,21 @@ Es ist erforderlich, den Geburtstag, den Monat und das Jahr in separate Felder z
 1. Neues berechnetes Feld hinzufügen, um den Geburtstag und -monat der Profile zu erfassen
 1. Verwenden Sie den folgenden Code für das berechnete Feld:
 
->[!NOTE]
->
->Anstatt nur den obigen Code zu kopieren, versuchen Sie zu verstehen, was passiert, indem Sie die Code-Teile separat ausführen, um zu sehen, wie sie zusammengestellt wurden, um komplexere berechnete Felder in einer einzigen Zeile zu erstellen, da mehrzeilige Werte nicht zulässig sind. Probieren Sie Folgendes aus:
->
->1. `date(birth_Date,"M/d/yyyy")`
->2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
->3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
->4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
->   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
+   >[!NOTE]
+   >
+   >Anstatt nur den obigen Code zu kopieren, versuchen Sie zu verstehen, was passiert, indem Sie die Code-Teile separat ausführen, um zu sehen, wie sie zusammengestellt wurden, um komplexere berechnete Felder in einer einzigen Zeile zu erstellen, da mehrzeilige Werte nicht zulässig sind. Probieren Sie Folgendes aus:
+   >
+   >1. `date(birth_Date,"M/d/yyyy")`
+   >2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
+   >3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
+   >4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
+   >   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
 
 
 
 1. Klicken Sie auf Vorschau , und Sie sollten das folgende Ergebnis sehen. Wenn alles gut aussieht, klicken Sie auf **Speichern**
 
-![Vorschau des berechneten Feldausdrucks für den Geburtstag und -monat](assets/calculated-fields-birth-day-month-preview.png)
+   ![Vorschau des berechneten Feldausdrucks für den Geburtstag und -monat](assets/calculated-fields-birth-day-month-preview.png)
 
 
 
@@ -111,9 +111,9 @@ Es ist erforderlich, den Geburtstag, den Monat und das Jahr in separate Felder z
 
 1. Erstellen Sie ein neues berechnetes Feld, um das Geburtsjahr des Profils mithilfe des unten stehenden Codes zu erfassen.
 
-```none
-date_part("yyyy",date(birth_Date,"M/d/yyyy"))
-```
+   ```none
+   date_part("yyyy",date(birth_Date,"M/d/yyyy"))
+   ```
 
 1. Ordnen Sie das berechnete Feld dem Zielspeicherort „person.**&quot;**
 

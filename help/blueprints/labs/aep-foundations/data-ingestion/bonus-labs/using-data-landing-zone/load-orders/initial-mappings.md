@@ -4,7 +4,7 @@ description: Ordnen Sie die erforderlichen _id- und Zeitstempelfelder für einen
 doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Wie in der vorherigen Übung müssen Sie die Zuordnung überprüfen und in einig
 
 1. Im Schritt Zuordnung ordnen ML-Empfehlungen automatisch die meisten Attribute zu. Es werden jedoch auch mehrere Fehler angezeigt. Der Startbildschirm sieht in etwa wie folgt aus.
 
-![Zuordnungsbildschirm, der _id und Zeitstempel als nicht zugeordnete Felder anzeigt, die nicht von ML_id &#x200B;](assets/initial-mappings-id-timestamp-unmapped-fields.png " werden, sind Zeitstempel zwei Felder, für die der ML-Recommender die Zuordnung nicht generieren wird")
+![Zuordnungsbildschirm, der _id und Zeitstempel als nicht zugeordnete Felder anzeigt, die nicht von ML_id ](assets/initial-mappings-id-timestamp-unmapped-fields.png " werden, sind Zeitstempel zwei Felder, für die der ML-Recommender die Zuordnung nicht generieren wird")
 
 >[!NOTE]
 >
@@ -30,23 +30,23 @@ Wie in der vorherigen Übung müssen Sie die Zuordnung überprüfen und in einig
 
 1. Um **\_id zuzuordnen,** Sie den folgenden berechneten Feldausdruck ein und klicken Sie auf „Vorschau“
 
-```none
-concat(orderID, "-", lastOrderStatusUpdate)
-```
+   ```none
+   concat(orderID, "-", lastOrderStatusUpdate)
+   ```
 
-![Berechnetes Feld für Zuordnung _id, bereit zum Speichern](assets/initial-mappings-calculated-field-for-id-mapping.png "Berechnetes Feld für Zuordnung _id sieht in etwa so aus. Klicken Sie auf Speichern , um das berechnete Feld zu speichern")
+   ![Berechnetes Feld für Zuordnung _id, bereit zum Speichern](assets/initial-mappings-calculated-field-for-id-mapping.png "Berechnetes Feld für Zuordnung _id sieht in etwa so aus. Klicken Sie auf Speichern , um das berechnete Feld zu speichern")
 
-![Zuordnen des berechneten Felds zum _id-Attribut](assets/initial-mappings-map-calculated-field-to-id.png "Zuordnen des berechneten Felds zu _id")
+   ![Zuordnen des berechneten Felds zum _id-Attribut](assets/initial-mappings-map-calculated-field-to-id.png "Zuordnen des berechneten Felds zu _id")
 
 1. Stellen Sie sicher **dass** Feld „Zeitstempel“ im Zielschema dem folgenden berechneten Feld zugeordnet wird:
 
-```none
-lastOrderStatusUpdate
-```
+   ```none
+   lastOrderStatusUpdate
+   ```
 
-![Vorschau des berechneten Feldausdrucks für die Zeitstempelzuordnung: &#x200B;](assets/initial-mappings-expression-preview.png " Sie folgenden Ausdruck und klicken Sie auf „Vorschau“. Beachten Sie, dass bei diesem Wert zwischen Groß- und Kleinschreibung unterschieden wird und er genau so geschrieben werden muss")
+   ![Vorschau des berechneten Feldausdrucks für die Zeitstempelzuordnung: ](assets/initial-mappings-expression-preview.png " Sie folgenden Ausdruck und klicken Sie auf „Vorschau“. Beachten Sie, dass bei diesem Wert zwischen Groß- und Kleinschreibung unterschieden wird und er genau so geschrieben werden muss")
 
-![Zuordnen des berechneten Feldausdrucks „inStore“ zu order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
+   ![Zuordnen des berechneten Feldausdrucks „inStore“ zu order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
 
 1. Ordnen Sie den berechneten Feldausdruck **„inStore“** zu **order.\_devbc.acqSource**
 
@@ -56,7 +56,7 @@ lastOrderStatusUpdate
 
 Wenn im Zuordnungsbildschirm jetzt eine doppelte Zuordnung angezeigt wird, z. B. **orderStatus**, die **order.\_devbc.acqSource zugeordnet ist,** klicken Sie auf das Symbol &quot;-&quot;, um die Zuordnung zu entfernen.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Beachten Sie, dass mehrere Eingabefelder nicht demselben Ausgabefeld zugeordnet werden können, da dies die Zuordnung mehrdeutig macht. Ein einzelnes Eingabefeld kann jedoch mehreren Ausgabefeldern im XDM-Schema zugeordnet werden.
 

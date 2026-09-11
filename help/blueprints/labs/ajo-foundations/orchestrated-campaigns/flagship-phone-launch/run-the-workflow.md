@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie einen Workflow für orchestrierte Kampagnen i
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -24,33 +24,33 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 1. Wenn Sie fertig sind, sieht der endgültige Workflow etwa wie folgt aus. Überprüfen Sie, ob alles gut aussieht. Sie sehen:
 
-![Endgültige Workflow-Arbeitsfläche bereit zum Testen](assets/run-the-workflow-final-workflow-canvas.png)
+   ![Endgültige Workflow-Arbeitsfläche bereit zum Testen](assets/run-the-workflow-final-workflow-canvas.png)
 
-&#x200B;2. Wenn Sie Ihren Workflow noch nicht angehalten haben, klicken Sie auf die Schaltfläche **Stoppen** oben rechts.
+2. Wenn Sie Ihren Workflow noch nicht angehalten haben, klicken Sie auf die Schaltfläche **Stoppen** oben rechts.
 
-![Schaltfläche „Anhalten“ oben rechts im Workflow](assets/run-the-workflow-click-stop-button.png)
+   ![Schaltfläche „Anhalten“ oben rechts im Workflow](assets/run-the-workflow-click-stop-button.png)
 
->[!NOTE]
->
->Optional können Sie versuchen, auf die Schaltfläche Neu starten zu klicken, aber es ist wahrscheinlich, dass ein Fehler angezeigt wird, da Sie Aktivitäten hinzugefügt haben, nachdem der Workflow erstellt wurde, und sein Cache nicht mehr gültig ist.
-
-
-
-&#x200B;3. Klicken Sie anschließend auf **Start**, um den Workflow durchgehend auszuführen und zu testen
-
-![Schaltfläche „Starten“ zum Ausführen des Workflow-Tests](assets/run-the-workflow-click-start-button.png)
+   >[!NOTE]
+   >
+   >Optional können Sie versuchen, auf die Schaltfläche Neu starten zu klicken, aber es ist wahrscheinlich, dass ein Fehler angezeigt wird, da Sie Aktivitäten hinzugefügt haben, nachdem der Workflow erstellt wurde, und sein Cache nicht mehr gültig ist.
 
 
 
-&#x200B;4. Überprüfen Sie das Ergebnis, das in die SMS-Aktivität eingeht, indem Sie auf **Ergebnis** klicken (es gibt zwei Ergebnisse, verwenden Sie also das linke wie unten gezeigt) und dann in der linken Leiste auf die Schaltfläche **Vorschau der Ergebnisse** klicken.
+3. Klicken Sie anschließend auf **Start**, um den Workflow durchgehend auszuführen und zu testen
 
-![Linke Ergebnisübergabe vor der SMS-Aktivität ausgewählt](assets/run-the-workflow-select-result-transition.png)
-
-![Schaltfläche „Vorschau der Ergebnisse“ in der rechten Leiste](assets/run-the-workflow-click-preview-results.png)
+   ![Schaltfläche „Starten“ zum Ausführen des Workflow-Tests](assets/run-the-workflow-click-start-button.png)
 
 
 
-&#x200B;5. Es werden **33 Datensätze angezeigt** und die Zielgruppendimension entspricht der Kunden-ID (dem Join-Schlüssel, falls Sie dem Profil beitreten möchten)
+4. Überprüfen Sie das Ergebnis, das in die SMS-Aktivität eingeht, indem Sie auf **Ergebnis** klicken (es gibt zwei Ergebnisse, verwenden Sie also das linke wie unten gezeigt) und dann in der linken Leiste auf die Schaltfläche **Vorschau der Ergebnisse** klicken.
+
+   ![Linke Ergebnisübergabe vor der SMS-Aktivität ausgewählt](assets/run-the-workflow-select-result-transition.png)
+
+   ![Schaltfläche „Vorschau der Ergebnisse“ in der rechten Leiste](assets/run-the-workflow-click-preview-results.png)
+
+
+
+5. Es werden **33 Datensätze angezeigt** und die Zielgruppendimension entspricht der Kunden-ID (dem Join-Schlüssel, falls Sie dem Profil beitreten möchten)
 
 ![33-Datensätze mit Zielgruppendimension, die mit Kunden-ID übereinstimmen](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -60,35 +60,35 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 1. Schließen Sie das vorherige Fenster, klicken Sie auf die **SMS-Aktivität** und klicken Sie dann auf die Schaltfläche **Test ausführen** in der rechten Leiste
 
-![Test-Schaltfläche für die SMS-Aktivität ausführen](assets/run-the-workflow-click-run-test-sms.png)
+   ![Test-Schaltfläche für die SMS-Aktivität ausführen](assets/run-the-workflow-click-run-test-sms.png)
 
 
 
-&#x200B;2. Fast sofort wird eine neue Schaltfläche mit der Bezeichnung **Bericht anzeigen** angezeigt.  Klicken Sie auf **Bericht anzeigen**, um den Bericht anzuzeigen.
+2. Fast sofort wird eine neue Schaltfläche mit der Bezeichnung **Bericht anzeigen** angezeigt.  Klicken Sie auf **Bericht anzeigen**, um den Bericht anzuzeigen.
 
-![Schaltfläche „Bericht anzeigen“ für den SMS-Aktivitätstest](assets/run-the-workflow-click-view-report.png)
+   ![Schaltfläche „Bericht anzeigen“ für den SMS-Aktivitätstest](assets/run-the-workflow-click-view-report.png)
 
->[!NOTE]
->
->Dieser Bildschirm wird zunächst nicht ausgefüllt, da die Ausführung des Testlaufs einige Zeit in Anspruch nimmt. Möglicherweise müssen Sie einige Male aktualisieren, bevor Ergebnisse angezeigt werden.
-
-
-
-&#x200B;3. Wenn Sie Ergebnisse erhalten, sehen Sie, dass 100 % angesprochen wurden!
-
-![Ergebnisse des SMS-Testversands zeigen 100 Prozent der Zielgruppe](assets/run-the-workflow-100-percent-targeted.png)
-
-*Moment, eine Minute … das eingehende Ergebnis war 33 Datensätze, also wohin ging die 4?*
+   >[!NOTE]
+   >
+   >Dieser Bildschirm wird zunächst nicht ausgefüllt, da die Ausführung des Testlaufs einige Zeit in Anspruch nimmt. Möglicherweise müssen Sie einige Male aktualisieren, bevor Ergebnisse angezeigt werden.
 
 
 
-&#x200B;4. Gehen Sie zurück zur Workflow-Arbeitsfläche und klicken Sie auf die Transition **Ergebnis** , die in die SMS-Aktivität eintritt, und klicken Sie dann auf **Vorschau der Ergebnisse** in der rechten Leiste.
+3. Wenn Sie Ergebnisse erhalten, sehen Sie, dass 100 % angesprochen wurden!
 
-![Überprüfen der Ergebnisse der Transition nach dem SMS-Test](assets/run-the-workflow-recheck-transition-results.png)
+   ![Ergebnisse des SMS-Testversands zeigen 100 Prozent der Zielgruppe](assets/run-the-workflow-100-percent-targeted.png)
+
+   *Moment, eine Minute … das eingehende Ergebnis war 33 Datensätze, also wohin ging die 4?*
 
 
 
-&#x200B;5. Scrollen Sie im Bildschirm Ergebnisse in der Vorschau ganz nach unten in der Tabelle, und Sie werden feststellen, dass **4 Datensätze** eine **leere Zielgruppendimension“**.
+4. Gehen Sie zurück zur Workflow-Arbeitsfläche und klicken Sie auf die Transition **Ergebnis** , die in die SMS-Aktivität eintritt, und klicken Sie dann auf **Vorschau der Ergebnisse** in der rechten Leiste.
+
+   ![Überprüfen der Ergebnisse der Transition nach dem SMS-Test](assets/run-the-workflow-recheck-transition-results.png)
+
+
+
+5. Scrollen Sie im Bildschirm Ergebnisse in der Vorschau ganz nach unten in der Tabelle, und Sie werden feststellen, dass **4 Datensätze** eine **leere Zielgruppendimension“**.
 
 ![4-Datensätze mit einer leeren Zielgruppendimension am Ende der Tabelle](assets/run-the-workflow-4-records-missing-dimension.png)
 

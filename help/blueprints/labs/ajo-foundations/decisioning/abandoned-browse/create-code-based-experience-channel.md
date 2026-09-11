@@ -4,7 +4,7 @@ description: Konfigurieren Sie einen Code-basierten Erlebniskanal in Adobe Journ
 doc-type: article
 solution: Experience Platform
 exl-id: c3353d3d-cd97-46b7-8ef8-c72fa9e7dfe5
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -22,29 +22,29 @@ Denken Sie daran, dass die Geschäftsanforderungen darin bestehen, dass jedes de
 2. Klicken Sie auf **blaue Schaltfläche „Kanalkonfiguration erstellen**.
 3. Benennen Sie den Kanal auf der Seite „Kanalkonfigurationsdetails“ **jsonOffer\_cbe**
 
->[!NOTE]
->
->Da ein CBE von einer beliebigen Anzahl von Clients auf einer *N* Anzahl von Plattformen aufgerufen werden kann, benennen wir diesen CBE etwas Allgemeines für den Standort, aber spezifisch für die Tatsache, dass er Angebote im JSON-Format zurückgibt.
+   >[!NOTE]
+   >
+   >Da ein CBE von einer beliebigen Anzahl von Clients auf einer *N* Anzahl von Plattformen aufgerufen werden kann, benennen wir diesen CBE etwas Allgemeines für den Standort, aber spezifisch für die Tatsache, dass er Angebote im JSON-Format zurückgibt.
 
 4. Legen Sie **Dropdown-** „Kanal auswählen“ auf **Code-basiertes Erlebnis“ fest**
 
->[!WARNING]
->
->Wir werden in diesem Labor keine Marketing-Aktion festlegen, da sie die Demonstration unnötig komplexer macht. Da jedoch auf CBEs von einer beliebigen Anzahl von Systemen zugegriffen werden kann, würden Sie in einem echten Anwendungsfall alle möglichen Marketing-Aktionen für diesen Kanal festlegen, damit DULE-Kennzeichnungen durchgesetzt werden.
+   >[!WARNING]
+   >
+   >Wir werden in diesem Labor keine Marketing-Aktion festlegen, da sie die Demonstration unnötig komplexer macht. Da jedoch auf CBEs von einer beliebigen Anzahl von Systemen zugegriffen werden kann, würden Sie in einem echten Anwendungsfall alle möglichen Marketing-Aktionen für diesen Kanal festlegen, damit DULE-Kennzeichnungen durchgesetzt werden.
 
 5. Markieren Sie das **Web** im Bereich „Code-basierte Erlebniseinstellungen“ und lassen Sie die Option **Einzelseite** ausgewählt.
 6. Geben **im Textfeld** Seiten-URL“ den `https://connection5g.com/home` ein
 7. Geben **im Textfeld &quot;** auf Seite“ den Text **jsonOfferContainer**
 
->[!NOTE]
->
->Nicht jedes Erlebnisereignis, das an Edge-Trigger gesendet wird, enthält eine Anfrage für personalisierte Angebote. Sie erstellen eine Journey im nächsten Abschnitt, in dem dieser CBE mit der soeben konfigurierten Auswahlstrategie konfiguriert wird. Die Einstellung „Standort auf Seite“ ist der Name des in Erlebnisereignissen übergebenen Parameters, der Experience Edge anweist, alle Angebote zurückzugeben, die diesem CBE zugewiesen sind. Sie wird auch oft als Oberfläche bezeichnet. Ob es sich um eine Mobile App, eine Web-Seite oder ein anderes IoT-Gerät handelt: Wenn der Wert „jsonOfferContainer“ zusammen mit dem richtigen eventType über ein Erlebnisereignis an die Edge übergeben wird, führt die Edge die bisher im Labor konfigurierte Logik aus und gibt das entsprechende Angebot zurück.
+   >[!NOTE]
+   >
+   >Nicht jedes Erlebnisereignis, das an Edge-Trigger gesendet wird, enthält eine Anfrage für personalisierte Angebote. Sie erstellen eine Journey im nächsten Abschnitt, in dem dieser CBE mit der soeben konfigurierten Auswahlstrategie konfiguriert wird. Die Einstellung „Standort auf Seite“ ist der Name des in Erlebnisereignissen übergebenen Parameters, der Experience Edge anweist, alle Angebote zurückzugeben, die diesem CBE zugewiesen sind. Sie wird auch oft als Oberfläche bezeichnet. Ob es sich um eine Mobile App, eine Web-Seite oder ein anderes IoT-Gerät handelt: Wenn der Wert „jsonOfferContainer“ zusammen mit dem richtigen eventType über ein Erlebnisereignis an die Edge übergeben wird, führt die Edge die bisher im Labor konfigurierte Logik aus und gibt das entsprechende Angebot zurück.
 
 8. Klicken Sie auf **Optionsfeld** JSON“ im Abschnitt „Format“. Wenn Sie fertig sind, sollte Ihre CBE-Kanalkonfiguration wie folgt aussehen:
 
-![Code-basierte Konfiguration des Erlebniskanals mit ausgewähltem JSON-Format wurde abgeschlossen](assets/create-code-based-experience-channel-completed-config.png)
+   ![Code-basierte Konfiguration des Erlebniskanals mit ausgewähltem JSON-Format wurde abgeschlossen](assets/create-code-based-experience-channel-completed-config.png)
 
-&#x200B;9. Sobald alles korrekt aussieht, klicken Sie auf die blaue **Senden**-Schaltfläche in der oberen rechten Ecke.
+9. Sobald alles korrekt aussieht, klicken Sie auf die blaue **Senden**-Schaltfläche in der oberen rechten Ecke.
 
 >[!TIP]
 >

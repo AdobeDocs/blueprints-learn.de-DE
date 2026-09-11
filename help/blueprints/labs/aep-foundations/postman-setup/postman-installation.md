@@ -4,7 +4,7 @@ description: Installieren Sie Postman und machen Sie sich mit seinen Sammlungen,
 doc-type: article
 solution: Experience Platform
 exl-id: 012878d9-fe87-4178-8b36-40b267b06760
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Postman-Installation
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Postman ist für verschiedene Labore in diesem Kurs erforderlich.  Auch wenn Sie Postman bereits installiert haben, müssen Sie dieses Lab durchlaufen, um sicherzustellen, dass die Umgebungsdateien und die API-Sammlung installiert und ordnungsgemäß eingerichtet sind.
 

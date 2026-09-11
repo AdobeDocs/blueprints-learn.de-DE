@@ -4,7 +4,7 @@ description: Korrigieren Sie einen berechneten Feldausdruck für einen Fehler be
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 1. Klicken Sie auf das Pfeilsymbol neben dem berechneten Feld, das das XDM-Feld **person.bornDayAndMonth** ausfüllt
 
-![Ausdruckseditor für berechnete Felder für die Fehlerbehebung „BirthDayAndMonth“](assets/fixing-errors-update-the-calculated-expression.png)
+   ![Ausdruckseditor für berechnete Felder für die Fehlerbehebung „BirthDayAndMonth“](assets/fixing-errors-update-the-calculated-expression.png)
 
 1. Aktualisieren Sie den Ausdruck mit dem unten angegebenen berechneten Feld-Code und klicken Sie auf **Vorschau**
 
-```none
-concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
-```
+   ```none
+   concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
+   ```
 
->[!NOTE]
->
->Die Daten sollten als zweistelliger Monat und zweistelliger Tag angezeigt werden (d. h. der 27. April wird als 04-27 angezeigt). Der `mm` und die `dd` Parameter fügen 0 Abstand hinzu.
+   >[!NOTE]
+   >
+   >Die Daten sollten als zweistelliger Monat und zweistelliger Tag angezeigt werden (d. h. der 27. April wird als 04-27 angezeigt). Der `mm` und die `dd` Parameter fügen 0 Abstand hinzu.
 
 1. Wenn alles gut aussieht **Speichern** das berechnete Feld
 
@@ -40,7 +40,7 @@ concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("
 
 Nach einigen Minuten sollte der Datenfluss ausgeführt werden und Sie sollten Erfolg sehen!
 
-![Datenflussausführungsstatus, der eine erfolgreiche Aufnahme &#x200B;](assets/fixing-errors-successful-customer-account-ingestion.png " Kundenkontos anzeigt")
+![Datenflussausführungsstatus, der eine erfolgreiche Aufnahme ](assets/fixing-errors-successful-customer-account-ingestion.png " Kundenkontos anzeigt")
 
 
 
@@ -53,7 +53,7 @@ Nach einigen Minuten sollte der Datenfluss ausgeführt werden und Sie sollten Er
    - **Fehlgeschlagene Datensätze:** Hier sollte eine 0 angezeigt werden. Dies stellt die Gesamtzahl der Aufnahme- und DCVS-Fehler dar. Die MAPPER-Warnungen werden ausgeschlossen.
    - **Aufnahmegeschwindigkeit:** Dies ist das Verhältnis zwischen den aufgenommenen und den empfangenen Datensätzen. 100 % der eingegangenen Datensätze wurden erfolgreich verarbeitet
 
-![Quellenkarte im Überwachungsbildschirm mit Metriken zur Aufnahme von Datensätzen, die empfangen, aufgenommen &#x200B;](assets/fixing-errors-sources-ingestion-metrics.png " fehlgeschlagen wurden")
+![Quellenkarte im Überwachungsbildschirm mit Metriken zur Aufnahme von Datensätzen, die empfangen, aufgenommen ](assets/fixing-errors-sources-ingestion-metrics.png " fehlgeschlagen wurden")
 
 >[!NOTE]
 >

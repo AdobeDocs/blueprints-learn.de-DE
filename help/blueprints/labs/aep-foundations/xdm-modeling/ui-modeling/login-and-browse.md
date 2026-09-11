@@ -4,7 +4,7 @@ description: Melden Sie sich bei Adobe Experience Platform an und navigieren Sie
 doc-type: article
 solution: Experience Platform
 exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Klicken Sie auf das Experience Platform-Symbol im Bereich Schnellzugriff , um au
 
 1. Klicken Sie in der **Leiste auf** Schemata“.
 
-![Registerkarte Schemata in der linken Leiste Navigation](assets/login-and-browse-schemas-tab-left-rail.png "Navigieren Sie mithilfe der linken Leiste zu Schemata")
+   ![Registerkarte Schemata in der linken Leiste Navigation](assets/login-and-browse-schemas-tab-left-rail.png "Navigieren Sie mithilfe der linken Leiste zu Schemata")
 
 1. In der oberen Navigation sehen Sie Optionen zum Durchsuchen vorhandener Schemata sowie zum Anzeigen von Feldergruppen und Datentypen, die sich derzeit in der XDM-Registrierung befinden.
 

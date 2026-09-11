@@ -4,7 +4,7 @@ description: Untersuchen Sie Schemafelder auf Abrechnungsnutzung und Plannamen, 
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -21,15 +21,15 @@ Für diesen Anwendungsfall gibt es nicht viel Vorarbeit zu leisten. Wir haben im
 1. Neue Zielgruppe erstellen
 1. Suchen Sie in „Attribute“ nach „usage“. Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
 
-![Suche nach Verwendung in Attributen - keine Beschreibung angezeigt](assets/pre-work-search-usage-in-attributes.png)
+   ![Suche nach Verwendung in Attributen - keine Beschreibung angezeigt](assets/pre-work-search-usage-in-attributes.png)
 
 
 
-&#x200B;3. Suchen Sie in „Ereignisse“ nach „Verwendung“.  Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
+3. Suchen Sie in „Ereignisse“ nach „Verwendung“.  Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
 
 ![Suche nach Verwendung in Ereignissen - keine Beschreibung angezeigt](assets/pre-work-search-usage-in-events.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Keiner dieser Werte hat eine Beschreibung, sodass der Marketer einige Annahmen treffen und vermuten kann, dass er falsch liegt.
 >
@@ -40,7 +40,8 @@ Für diesen Anwendungsfall gibt es nicht viel Vorarbeit zu leisten. Wir haben im
 >- Empfohlen/bevorzugt in bestimmten Anwendungsfällen?
 >
 >Indem wir diese Informationen in Beschreibungen bereitstellen, können wir sie besser anleiten.
-> [!NOTE]
+
+>[!NOTE]
 >
 >Suchen Sie nach „Abrechnung“.  Beachten Sie, dass es nicht als Profilattribut angezeigt wird.  Sie wird als Ereignistyp-Karte zusammen mit dem Feld „Abrechnung der Datennutzung“ angezeigt.
 >

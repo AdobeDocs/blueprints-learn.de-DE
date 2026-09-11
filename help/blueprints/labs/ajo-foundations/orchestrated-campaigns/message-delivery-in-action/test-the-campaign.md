@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine orchestrierte Kampagne im Testmodus ausf
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -22,15 +22,15 @@ In den nächsten Schritten führen Sie die Kampagne im Testmodus aus, um die Kam
 
 1. Nachdem die beiden E-Mail-Flüsse konfiguriert wurden, sieht die Kampagne wie folgt aus. Klicken Sie auf **Start**, um die Kampagne im **Testmodus“**
 
-![Klicken Sie auf Start , um die Kampagne im Testmodus auszuführen](assets/test-the-campaign-click-start-test-mode.png)
+   ![Klicken Sie auf Start , um die Kampagne im Testmodus auszuführen](assets/test-the-campaign-click-start-test-mode.png)
 
->[!NOTE]
->
->Wie bereits erwähnt, können Sie mit dem Testmodus die Kampagnenausführung und die Ergebnisse der verschiedenen Aktivitäten überprüfen. Jede Aktivität wird sequenziell ausgeführt, bis das Ende des Flusses erreicht ist.
+   >[!NOTE]
+   >
+   >Wie bereits erwähnt, können Sie mit dem Testmodus die Kampagnenausführung und die Ergebnisse der verschiedenen Aktivitäten überprüfen. Jede Aktivität wird sequenziell ausgeführt, bis das Ende des Flusses erreicht ist.
 
 
 
-&#x200B;2. Die Testausführung aller Kampagnenaktivitäten wird gestartet. Überprüfen Sie die Ergebnisse
+2. Die Testausführung aller Kampagnenaktivitäten wird gestartet. Überprüfen Sie die Ergebnisse
 
 ![Testen der Ausführung von Kampagnenaktivitäten läuft](assets/test-the-campaign-verify-execution-results.png)
 
@@ -40,27 +40,27 @@ In den nächsten Schritten führen Sie die Kampagne im Testmodus aus, um die Kam
 
 1. Um den E-Mail-Versand zu testen **klicken Sie auf die Aktivität E-Mail mit Profilattribut** und im rechten Bereich auf **Test ausführen**
 
-![Ausführen des E-Mail-Tests mit der Aktivität „Profilattribut“](assets/test-the-campaign-run-test-profile-attribute.png)
+   ![Ausführen des E-Mail-Tests mit der Aktivität „Profilattribut“](assets/test-the-campaign-run-test-profile-attribute.png)
 
-&#x200B;2. Warten Sie auf die Bestätigungsnachricht und klicken Sie dann auf **Bericht anzeigen**, um die Details des E-Mail-Tests anzuzeigen
+2. Warten Sie auf die Bestätigungsnachricht und klicken Sie dann auf **Bericht anzeigen**, um die Details des E-Mail-Tests anzuzeigen
 
-![Klicken Sie auf Bericht anzeigen , um die E-Mail-Testdetails anzuzeigen](assets/test-the-campaign-view-report-1.png)
+   ![Klicken Sie auf Bericht anzeigen , um die E-Mail-Testdetails anzuzeigen](assets/test-the-campaign-view-report-1.png)
 
-&#x200B;3. Auf der Seite E-Mail-Bericht werden die Kampagnenstatistiken und der Ausführungsstatus angezeigt. Beim E-Mail-Test wird die Aktivität überprüft, um Fehler zu vermeiden und keine E-Mails zu senden. Es dauert in der Regel etwa \~**5** Minuten bis zum Abschluss.
+3. Auf der Seite E-Mail-Bericht werden die Kampagnenstatistiken und der Ausführungsstatus angezeigt. Beim E-Mail-Test wird die Aktivität überprüft, um Fehler zu vermeiden und keine E-Mails zu senden. Es dauert in der Regel etwa \~**5** Minuten bis zum Abschluss.
 
-![E-Mail-Berichtsseite mit Kampagnenstatistiken](assets/test-the-campaign-campaign-statistics-1.png)
+   ![E-Mail-Berichtsseite mit Kampagnenstatistiken](assets/test-the-campaign-campaign-statistics-1.png)
 
->[!NOTE]
->
->Möglicherweise müssen Sie die Seite einige Male aktualisieren, um das endgültige Testergebnis anzuzeigen.
+   >[!NOTE]
+   >
+   >Möglicherweise müssen Sie die Seite einige Male aktualisieren, um das endgültige Testergebnis anzuzeigen.
 
 
 
-&#x200B;4. Sobald der E-Mail-Test abgeschlossen ist, werden die Ergebnisse angezeigt. Es gibt einen Prozentsatz von Fehlern. Klicken Sie auf **Mehr anzeigen** um den Grund zu erfahren.
+4. Sobald der E-Mail-Test abgeschlossen ist, werden die Ergebnisse angezeigt. Es gibt einen Prozentsatz von Fehlern. Klicken Sie auf **Mehr anzeigen** um den Grund zu erfahren.
 
-![Fehlerrate mit Link „Mehr anzeigen“](assets/test-the-campaign-error-rate-view-more.png)
+   ![Fehlerrate mit Link „Mehr anzeigen“](assets/test-the-campaign-error-rate-view-more.png)
 
-&#x200B;5. Der Grund lautet `Email address not found in profile`
+5. Der Grund lautet `Email address not found in profile`
 
 ![Grund: E-Mail-Adresse nicht im Profil gefunden](assets/test-the-campaign-email-not-found-reason.png)
 
@@ -78,13 +78,13 @@ In den nächsten Schritten führen Sie die Kampagne im Testmodus aus, um die Kam
 
 1. Wiederholen Sie denselben Vorgang für die Aktivität **E-Mail mit Target Dimension** .
 
-![Ausführen des E-Mail-Tests mit der Target Dimension-Aktivität](assets/test-the-campaign-run-test-target-dimension.png)
+   ![Ausführen des E-Mail-Tests mit der Target Dimension-Aktivität](assets/test-the-campaign-run-test-target-dimension.png)
 
-&#x200B;2. Warten Sie auf die Bestätigungsnachricht und klicken Sie dann auf **Bericht anzeigen**, um die Details des E-Mail-Tests anzuzeigen
+2. Warten Sie auf die Bestätigungsnachricht und klicken Sie dann auf **Bericht anzeigen**, um die Details des E-Mail-Tests anzuzeigen
 
-![Klicken Sie auf Bericht anzeigen , um die E-Mail-Testdetails anzuzeigen](assets/test-the-campaign-view-report-2.png)
+   ![Klicken Sie auf Bericht anzeigen , um die E-Mail-Testdetails anzuzeigen](assets/test-the-campaign-view-report-2.png)
 
-&#x200B;3. Sobald der E-Mail-Test abgeschlossen ist, werden die Ergebnisse angezeigt. In diesem Fall liegen keine Fehler vor
+3. Sobald der E-Mail-Test abgeschlossen ist, werden die Ergebnisse angezeigt. In diesem Fall liegen keine Fehler vor
 
 ![Kampagnenstatistiken ohne Fehler](assets/test-the-campaign-campaign-statistics-2.png)
 
@@ -110,4 +110,4 @@ Klicken Sie auf die **Stopp**-Schaltfläche, um den **Testmodus** für die Kampa
 
 Sie haben nun gesehen, wie Sie die erstellte Kampagne testen können, um den Fluss und das Verhalten zu verstehen. Hier wurden die Feinheiten der Verwendung der verschiedenen Einstellungen für die E-Mail-Kanal-Konfiguration während der Ausführung des Testflusses gut verstanden.
 
-Weitere Informationen zum Testmodus der Kampagne finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), falls Sie Interesse haben.
+Weitere Informationen zum Testmodus der Kampagne finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), falls Sie Interesse haben.

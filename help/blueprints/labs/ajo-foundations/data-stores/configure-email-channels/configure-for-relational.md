@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie einen E-Mail-Kanal mithilfe des E-Mail-Attrib
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 10%
@@ -23,9 +23,9 @@ In den nächsten Schritten erstellen Sie eine E-Mail-Kanal-Konfiguration, die nu
 1. Navigieren Sie zu **Kanalkonfigurationen** im Menü **Administration → Kanäle → Allgemeine Einstellungen**
 2. Klicken Sie auf **Schaltfläche** Konfiguration erstellen“
 
-![Kanalkonfiguration erstellen](assets/configure-for-profile-create-configuration-button.png)
+   ![Kanalkonfiguration erstellen](assets/configure-for-profile-create-configuration-button.png)
 
-&#x200B;3. Legen Sie im Assistenten „Erstellen“ die folgenden Werte fest:
+3. Legen Sie im Assistenten „Erstellen“ die folgenden Werte fest:
    - **name:** `Relational-Email`
    - **channel:** `Email`
    - **Marketing-Aktion:** `Email Targeting`
@@ -98,29 +98,29 @@ Mit den Standardeinstellungen verlassen
 
 1. Aktivieren Sie auf der Registerkarte Orchestrierte Kampagne **Kontrollkästchen** aktiviert .
 
-![Konfigurieren einer orchestrierten Kampagne](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![Konfigurieren einer orchestrierten Kampagne](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-&#x200B;2. Konfigurieren Sie unter der Ausführungsdimension Folgendes:
+2. Konfigurieren Sie unter der Ausführungsdimension Folgendes:
    - **Eine Nachricht pro:** `Target Dimension ` senden
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
 
-![Ausführungsdimension](assets/configure-for-relational-execution-dimension-target-settings.png)
+   ![Ausführungsdimension](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-&#x200B;3. Konfigurieren Sie unter Ausführungsadresse Folgendes:
+3. Konfigurieren Sie unter Ausführungsadresse Folgendes:
    - **Source:** `Target Dimension`
    - **Lieferadresse:** `click on the Edit button`
 
-![Target Dimension](assets/configure-for-relational-execution-address-source-target-dimension.png)
+   ![Target Dimension](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
-&#x200B;4. Klicken Sie im Popup-Fenster auf den Ordner **dep-rel: Kundenkonto**
+4. Klicken Sie im Popup-Fenster auf den Ordner **dep-rel: Kundenkonto**
 
-![Konfigurieren der Versandadresse](assets/configure-for-relational-customer-account-folder.png)
+   ![Konfigurieren der Versandadresse](assets/configure-for-relational-customer-account-folder.png)
 
-&#x200B;5. Wählen Sie **E-** aus und klicken Sie auf die Schaltfläche **Auswählen**.
+5. Wählen Sie **E-** aus und klicken Sie auf die Schaltfläche **Auswählen**.
 
-![E-Mail als Versandadresse](assets/configure-for-relational-select-email-as-delivery-address.png)
+   ![E-Mail als Versandadresse](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-&#x200B;6. Wenn Sie fertig sind, sehen Ihre endgültigen Ausführungsdetails wie im folgenden Screenshot aus
+6. Wenn Sie fertig sind, sehen Ihre endgültigen Ausführungsdetails wie im folgenden Screenshot aus
 
 ![Ausführungsdimension konfiguriert](assets/configure-for-relational-execution-details-final-result.png)
 

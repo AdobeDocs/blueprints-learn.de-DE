@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mithilfe Ihrer Datenstrom-ID ein simuliertes 
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -72,18 +72,18 @@ Bevor Sie die API-Anfrage ausführen können, müssen Sie die Datenstrom-ID zur 
 
 1. Klicken Sie oben **auf** Variablen in Anfrage)
 
-![Option „Variablen in Anfrage“ in der Postman-Symbolleiste](assets/send-an-edge-web-event-click-variables-in-request.png)
+   ![Option „Variablen in Anfrage“ in der Postman-Symbolleiste](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-&#x200B;2. Aktualisieren Sie **DATASTREAM_CONFIG** **Value** mit der **Datastream-ID** aus dem ersten Schritt auf der Seite.
+2. Aktualisieren Sie **DATASTREAM_CONFIG** **Value** mit der **Datastream-ID** aus dem ersten Schritt auf der Seite.
 
-![DATASTREAM_CONFIG-Variable mit der Datenstrom-ID aktualisiert](assets/send-an-edge-web-event-update-datastream-config-variable.png)
+   ![DATASTREAM_CONFIG-Variable mit der Datenstrom-ID aktualisiert](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-&#x200B;3. **Speichern** die Aktualisierung (Strg+S oder Befehl+S)
-&#x200B;4. Klicken Sie auf **X** in der oberen rechten Ecke der Seitenleiste der Umgebung, um die Seitenleiste zu schließen
+3. **Speichern** die Aktualisierung (Strg+S oder Befehl+S)
+4. Klicken Sie auf **X** in der oberen rechten Ecke der Seitenleiste der Umgebung, um die Seitenleiste zu schließen
 
-![Schließen der Seitenleiste der Postman-Umgebung nach dem Speichern](assets/send-an-edge-web-event-close-environment-sidebar.png)
+   ![Schließen der Seitenleiste der Postman-Umgebung nach dem Speichern](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-&#x200B;5. Die **Web-Ereignis erstellen**-Anfrage kann jetzt gesendet werden, da alle Variablen jetzt blau sind und einen Wert in der Umgebung haben.
+5. Die **Web-Ereignis erstellen**-Anfrage kann jetzt gesendet werden, da alle Variablen jetzt blau sind und einen Wert in der Umgebung haben.
 
 ![Erstellen einer Web-Ereignisanfrage mit allen Variablen ausgefüllt](assets/send-an-edge-web-event-request-ready-to-send.png)
 

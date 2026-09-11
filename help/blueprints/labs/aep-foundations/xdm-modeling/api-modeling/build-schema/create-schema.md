@@ -4,7 +4,7 @@ description: Verwenden Sie die Schema Registry-API, um ein Kundenschema aus eine
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -22,30 +22,30 @@ ht-degree: 0%
 
 1. Klicken Sie im Ordner `XDM Schema Lab -> Create Schema` auf den `Step 4 - Create Customer Account Schema`-API-Aufruf.
 
-![Schritt 4: Erstellen eines API-Aufrufs für das Kundenkontenschema in der Postman-Sammlung](assets/create-schema-click-on-the-step-4-create-customer-account-schema.png)
+   ![Schritt 4: Erstellen eines API-Aufrufs für das Kundenkontenschema in der Postman-Sammlung](assets/create-schema-click-on-the-step-4-create-customer-account-schema.png)
 
 
 
-&#x200B;2. Öffnen Sie den Hauptteil des Aufrufs und zeigen Sie die Struktur der Definition eines Schemas an. Denken Sie daran, dass ein Schema immer nur aus einer (1) Klasse und einer oder mehreren Feldergruppen besteht.
+2. Öffnen Sie den Hauptteil des Aufrufs und zeigen Sie die Struktur der Definition eines Schemas an. Denken Sie daran, dass ein Schema immer nur aus einer (1) Klasse und einer oder mehreren Feldergruppen besteht.
 
-&#x200B;3. Füllen Sie die Felder `title` und `description` im Hauptteil des Schemas wie folgt aus:
+3. Füllen Sie die Felder `title` und `description` im Hauptteil des Schemas wie folgt aus:
 
-- Titel -> `Sample Customer Schema - <your sandbox number>`
-- Beschreibung -> `Sample Customer Schema - <your sandbox number>`
+   - Titel -> `Sample Customer Schema - <your sandbox number>`
+   - Beschreibung -> `Sample Customer Schema - <your sandbox number>`
 
-&#x200B;4. Füllen Sie die `$ref` Felder mit den `$ids`, die Sie aus den vorherigen von Ihnen abgeschlossenen Lab-Abschnitten gespeichert haben: [Erstellen benutzerdefinierter Feldergruppen](./create-custom-field-groups.md) und [Profilklasse abrufen](./get-profile-class.md). Sie sollten $ids für jedes der folgenden Elemente haben:
+4. Füllen Sie die `$ref` Felder mit den `$ids`, die Sie aus den vorherigen von Ihnen abgeschlossenen Lab-Abschnitten gespeichert haben: [Erstellen benutzerdefinierter Feldergruppen](./create-custom-field-groups.md) und [Profilklasse abrufen](./get-profile-class.md). Sie sollten $ids für jedes der folgenden Elemente haben:
 
-- Klasse -> Individuelles XDM-Profil
-- Feldergruppe -> Demografische Details
-- Feldergruppe -> Persönliche Kontaktdaten
-- Feldergruppe -> Einverständnis- und Voreinstellungsdetails
-- Feldergruppe (benutzerdefiniert) -> Kundenkontodetails
+   - Klasse -> Individuelles XDM-Profil
+   - Feldergruppe -> Demografische Details
+   - Feldergruppe -> Persönliche Kontaktdaten
+   - Feldergruppe -> Einverständnis- und Voreinstellungsdetails
+   - Feldergruppe (benutzerdefiniert) -> Kundenkontodetails
 
-![Leerer Schemaanfragetext vor dem Hinzufügen von Klassen- und Feldergruppenverweisen](assets/create-schema-empty-schema-api-body.png "Leerer Schema-API-Textkörper")
+   ![Leerer Schemaanfragetext vor dem Hinzufügen von Klassen- und Feldergruppenverweisen](assets/create-schema-empty-schema-api-body.png "Leerer Schema-API-Textkörper")
 
 
 
-&#x200B;5. Überprüfen Sie Ihren endgültigen Textkörper und stellen Sie sicher, dass er in etwa wie folgt aussieht
+5. Überprüfen Sie Ihren endgültigen Textkörper und stellen Sie sicher, dass er in etwa wie folgt aussieht
 
 ![Abgeschlossener Schema-Anfragetext mit Titel, Beschreibung und allen $ref-Werten ausgefüllt](assets/create-schema-example-of-final-body-payload.png "Beispiel für die endgültige Textkörper-Payload")
 

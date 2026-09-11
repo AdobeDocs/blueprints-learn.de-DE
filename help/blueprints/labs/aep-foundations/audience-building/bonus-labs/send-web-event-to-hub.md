@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit Postman ein Web-Ereignis direkt an den Hu
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Erfassen Sie zunächst die folgenden Werte:
 1. Navigieren Sie **linken Leiste zu** Quellen“ und klicken Sie dann **oberen Navigationsbereich auf** Konten“
 1. Suchen Sie nach **dep: HTTP API \[raw]** markieren Sie die Zeile und kopieren und speichern Sie den Wert des **Streaming-Endpunkts** an einen anderen Ort, auf den Sie später verweisen können
 
-Konto  und seinen Streaming-Endpunkt kopieren&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png „dep: HTTP API \[raw]„)
+Konto  und seinen Streaming-Endpunkt kopieren](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png „dep: HTTP API \[raw]„)
 
 ## Web-Datenfluss-ID suchen
 
@@ -62,7 +62,7 @@ Kopieren Sie die in den vorherigen Schritten gespeicherten Werte an die unten he
 
 Ihre endgültige API-Anfrage sollte dann wie folgt aussehen
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >NOCH NICHT AUSFÜHREN!
 

@@ -4,7 +4,7 @@ description: Verwenden Sie die Vorschau-Fehlerdiagnose, um einen fehlgeschlagene
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Nach einigen Minuten sollten Sie beachten, dass **Status** einen Fehler anzeigt.
 1. Klicken Sie auf **Startdatum des Datenflusses**
 1. Klicken Sie auf **Vorschau der Fehlerdiagnose**, um die spezifischen Details für jede fehlgeschlagene Zeile anzuzeigen
 
-![Datenflussausführungsstatus, der einen Fehler &#x200B;](assets/debugging-errors-dataflow-run-failure.png " Datenflussausführungsfehler anzeigt")
+![Datenflussausführungsstatus, der einen Fehler ](assets/debugging-errors-dataflow-run-failure.png " Datenflussausführungsfehler anzeigt")
 
 ![Vorschau des Links Fehlerdiagnose im Bildschirm mit den Datenflussausführungs-Details](assets/debugging-errors-preview-error-diagnostics-link.png "Vorschau der Fehlerdiagnose")
 
@@ -29,7 +29,7 @@ Nach einigen Minuten sollten Sie beachten, dass **Status** einen Fehler anzeigt.
 
 Der Bildschirm, den Sie jetzt sehen, zeigt Ihnen eine Reihe von Details darüber, was die Fehlercodes mit der vollständigen Fehlermeldung bedeuten und welche Zeile fehlgeschlagen ist.
 
-![Detailbildschirm für die Fehlerdiagnose mit Fehlercodes, Meldungen und der Vorschau &#x200B;](assets/debugging-errors-error-diagnostics-detail-screen.png " fehlgeschlagenen Fehlerzeile")
+![Detailbildschirm für die Fehlerdiagnose mit Fehlercodes, Meldungen und der Vorschau ](assets/debugging-errors-error-diagnostics-detail-screen.png " fehlgeschlagenen Fehlerzeile")
 
 >[!NOTE]
 >
@@ -65,6 +65,6 @@ _dep.account.createDate. Details: Unable to convert
 Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Dieser Fehler ist nicht schwerwiegend, da dies nur zu Warnungen während der Zuordnung führt. Die Datenflussausführung schlägt aus diesem Grund nicht fehl, sodass dieses Labor diesen Fehler nicht behebt.

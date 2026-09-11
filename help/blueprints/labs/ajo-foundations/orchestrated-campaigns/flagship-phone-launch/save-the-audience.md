@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mithilfe eines orchestrierten Kampagnen-Workf
 doc-type: article
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -22,27 +22,27 @@ In den nächsten Schritten speichern Sie die von Ihnen erstellte Zielgruppe wied
 
 ## Ändern der Dimension
 
-1. Klicken Sie auf der Workflow-Arbeitsfläche auf das Symbol **+** **&#x200B;**&#x200B;in der Verzweigung **Audience speichern** und wählen Sie in der Liste der Aktivitäten die Aktivität **Dimensionsänderung** aus
+1. Klicken Sie auf der Workflow-Arbeitsfläche auf das Symbol **+** **** in der Verzweigung **Audience speichern** und wählen Sie in der Liste der Aktivitäten die Aktivität **Dimensionsänderung** aus
 
-![Fügen Sie die Aktivität Dimensionsänderung in der Verzweigung Zielgruppe speichern hinzu](assets/save-the-audience-add-change-dimension.png)
+   ![Fügen Sie die Aktivität Dimensionsänderung in der Verzweigung Zielgruppe speichern hinzu](assets/save-the-audience-add-change-dimension.png)
 
 
 
-&#x200B;2. Aktualisieren Sie die Eigenschaften der Dimensionsänderung wie unten beschrieben:
+2. Aktualisieren Sie die Eigenschaften der Dimensionsänderung wie unten beschrieben:
    - **label:** `Convert Line to Account`
    - **Neue Zielgruppendimension:** `dep-rel: Customer Account`
 
-![Dimensionsbezeichnung und neue Zieldimensionsfelder ändern](assets/save-the-audience-change-dimension-label.png)
+   ![Dimensionsbezeichnung und neue Zieldimensionsfelder ändern](assets/save-the-audience-change-dimension-label.png)
 
-![Kundenkonto als neue Zieldimension ausgewählt](assets/save-the-audience-select-customer-account.png)
+   ![Kundenkonto als neue Zieldimension ausgewählt](assets/save-the-audience-select-customer-account.png)
 
->[!NOTE]
->
->**Warum tust du das, was du fragst?**  Denken Sie daran, dass Sie für die Verknüpfung mit dem Echtzeit-Kundenprofil (in dem Sie Zielgruppen speichern) das konfigurierte Profil-Zielgruppen-Mapping verwenden müssen, das nur aus dem Schema dep-rel: Kundenkonto verknüpft ist.
+   >[!NOTE]
+   >
+   >**Warum tust du das, was du fragst?**  Denken Sie daran, dass Sie für die Verknüpfung mit dem Echtzeit-Kundenprofil (in dem Sie Zielgruppen speichern) das konfigurierte Profil-Zielgruppen-Mapping verwenden müssen, das nur aus dem Schema dep-rel: Kundenkonto verknüpft ist.
 
 
 
-&#x200B;3. Wenn Sie fertig sind, sieht Ihre Arbeitsfläche so aus.  Speichern Sie Ihre Arbeit!
+3. Wenn Sie fertig sind, sieht Ihre Arbeitsfläche so aus.  Speichern Sie Ihre Arbeit!
 
 ![Workflow-Arbeitsfläche nach dem Hinzufügen der Aktivität „Dimensionsänderung“](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -52,37 +52,37 @@ In den nächsten Schritten speichern Sie die von Ihnen erstellte Zielgruppe wied
 
 1. Klicken Sie auf das **+** **Symbol** nach der Aktivität Dimensionsänderung und wählen Sie in der Liste der Aktivitäten die Aktivität **Deduplizierung** aus
 
-![Aktivität „Deduplizierung nach Dimensionsänderung hinzufügen](assets/save-the-audience-add-deduplication-activity.png)
+   ![Aktivität „Deduplizierung nach Dimensionsänderung hinzufügen](assets/save-the-audience-add-deduplication-activity.png)
 
 
 
-&#x200B;2. Aktualisieren Sie die Bezeichnung der Aktivität Deduplizierung auf `Dedup customer id`
+2. Aktualisieren Sie die Bezeichnung der Aktivität Deduplizierung auf `Dedup customer id`
 
-![Deduplizierungsaktivitäts-Label auf Deduplizierungs-Kunden-ID festgelegt](assets/save-the-audience-deduplication-label.png)
-
-
-
-&#x200B;3. Klicken Sie nun auf die Schaltfläche **+ Attribut** und wählen Sie das Feld aus dem Schema mit dem Titel **Kunden-ID**
-
-![Schaltfläche „Attribut hinzufügen“ für die Aktivität „Deduplizierung“](assets/save-the-audience-add-attribute-button.png)
-
-![Kunden-ID-Feld aus dem Schema ausgewählt](assets/save-the-audience-select-customer-id-field.png)
+   ![Deduplizierungsaktivitäts-Label auf Deduplizierungs-Kunden-ID festgelegt](assets/save-the-audience-deduplication-label.png)
 
 
 
-&#x200B;4. Stellen Sie unter den Deduplizierungseinstellungen sicher, dass Sie Folgendes festgelegt haben:
+3. Klicken Sie nun auf die Schaltfläche **+ Attribut** und wählen Sie das Feld aus dem Schema mit dem Titel **Kunden-ID**
+
+   ![Schaltfläche „Attribut hinzufügen“ für die Aktivität „Deduplizierung“](assets/save-the-audience-add-attribute-button.png)
+
+   ![Kunden-ID-Feld aus dem Schema ausgewählt](assets/save-the-audience-select-customer-id-field.png)
+
+
+
+4. Stellen Sie unter den Deduplizierungseinstellungen sicher, dass Sie Folgendes festgelegt haben:
    - **Beizubehaltende Duplikate:** `1`
    - **Deduplizierungsmethode:** `Random selection`
 
-![Deduplizierungseinstellungen mit Duplikaten, die beibehalten werden sollen, und -Methode](assets/save-the-audience-deduplication-settings.png)
+   ![Deduplizierungseinstellungen mit Duplikaten, die beibehalten werden sollen, und -Methode](assets/save-the-audience-deduplication-settings.png)
 
->[!NOTE]
->
->Die anderen Optionen für die Deduplizierung ermöglichen es Ihnen, Ihre eigene benutzerdefinierte Logik anzugeben.  In den meisten Fällen erfolgt die Deduplizierung mit dem Primärschlüssel der Tabelle.
+   >[!NOTE]
+   >
+   >Die anderen Optionen für die Deduplizierung ermöglichen es Ihnen, Ihre eigene benutzerdefinierte Logik anzugeben.  In den meisten Fällen erfolgt die Deduplizierung mit dem Primärschlüssel der Tabelle.
 
 
 
-&#x200B;5. Wenn Sie fertig sind, sieht Ihre Arbeitsfläche wie folgt aus. Klicken Sie auf **Speichern** oben rechts, bevor Sie fortfahren.
+5. Wenn Sie fertig sind, sieht Ihre Arbeitsfläche wie folgt aus. Klicken Sie auf **Speichern** oben rechts, bevor Sie fortfahren.
 
 ![Deduplizierungsaktivität vollständig auf der Arbeitsfläche konfiguriert](assets/save-the-audience-deduplication-configured.png)
 
@@ -92,9 +92,9 @@ In den nächsten Schritten speichern Sie die von Ihnen erstellte Zielgruppe wied
 
 1. Klicken Sie auf das Symbol **+** nach der Aktivität Deduplizierung und wählen Sie die Aktivität **Zielgruppe speichern** aus
 
-![Fügen Sie die Aktivität „Zielgruppe speichern“ nach der Deduplizierung hinzu](assets/save-the-audience-add-save-audience-activity.png)
+   ![Fügen Sie die Aktivität „Zielgruppe speichern“ nach der Deduplizierung hinzu](assets/save-the-audience-add-save-audience-activity.png)
 
-&#x200B;2. Legen Sie in der rechten Leiste die Eigenschaften der Aktivität auf Folgendes fest:
+2. Legen Sie in der rechten Leiste die Eigenschaften der Aktivität auf Folgendes fest:
    - **Zielgruppentitel**: `Apple Upgrade Eligible Customer Accounts`
    - **Feld für die Profilzuordnung**: `dep-rel: Customer Account - customer id`
 
@@ -125,15 +125,15 @@ Standardmäßig wird der Primärschlüssel der Zielgruppendimension (d. h. Kunde
 
 1. Benennen Sie das Feld Standard-Zielgruppe in **Kunde\_ID** um, wie unten dargestellt:
 
-![Target-Zielgruppenfeld in „Customer_ID“ umbenannt](assets/save-the-audience-field-renamed.png)
+   ![Target-Zielgruppenfeld in „Customer_ID“ umbenannt](assets/save-the-audience-field-renamed.png)
 
->[!TIP]
->
->Jetzt haben Sie einen für Menschen lesbaren Feldnamen 🎉
+   >[!TIP]
+   >
+   >Jetzt haben Sie einen für Menschen lesbaren Feldnamen 🎉
 
 
 
-&#x200B;2. Klicken Sie auf **Starten**, um Ihren Workflow auszuführen. Ihr Workflow sieht nun wie folgt aus und Sie sehen die Zahlen wie folgt:
+2. Klicken Sie auf **Starten**, um Ihren Workflow auszuführen. Ihr Workflow sieht nun wie folgt aus und Sie sehen die Zahlen wie folgt:
    - Zielgruppe erstellen: `65`
    - Zeile in Konto konvertieren: `65`
    - Dedup-Kunden-ID: `46`
@@ -154,7 +154,7 @@ Standardmäßig wird der Primärschlüssel der Zielgruppendimension (d. h. Kunde
 
 Was passiert, wenn Sie die Zielgruppe vor dem Speichern nicht deduplizieren?  Werden alle 65 Datensätze oder nur die 46 gespeichert?
 
-![Szenario „Zielgruppen-Challenge ohne Deduplizierung vorher speichern“ „Zielgruppe mit Deduplizierungsaktivität vorher &#x200B;](assets/save-the-audience-challenge-without-dedup.png "„Zielgruppe mit Deduplizierungsaktivität vorher speichern")
+![Szenario „Zielgruppen-Challenge ohne Deduplizierung vorher speichern“ „Zielgruppe mit Deduplizierungsaktivität vorher ](assets/save-the-audience-challenge-without-dedup.png "„Zielgruppe mit Deduplizierungsaktivität vorher speichern")
 
 
 

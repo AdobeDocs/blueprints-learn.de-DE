@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie ein Bestellereignis über die API an den Hub 
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Im #1 haben wir ein Ereignis an die Edge gesendet.  Es gibt einige Anwendungsfä
 
 Klicken Sie in der linken Leiste auf Audience und dann oben rechts auf die Schaltfläche Audience erstellen .
 
-![Klicken Sie in der linken Leiste auf Zielgruppe und anschließend auf Zielgruppe erstellen &#x200B;](assets/send-order-event-to-hub-click-create-audience-button.png)
+![Klicken Sie in der linken Leiste auf Zielgruppe und anschließend auf Zielgruppe erstellen ](assets/send-order-event-to-hub-click-create-audience-button.png)
 
 Suchen Sie die Karte Ereignistyp „Bestellung platziert“ und ziehen Sie sie auf die Arbeitsfläche.
 
@@ -92,7 +92,7 @@ Erfassen Sie zunächst die folgenden Werte:
 1. Navigieren Sie **linken Leiste zu** Quellen“ und klicken Sie dann **oberen Navigationsbereich auf** Konten“
 1. Suchen Sie nach **dep: HTTP API \[raw]** markieren Sie die Zeile und kopieren und speichern Sie den Wert des **Streaming-Endpunkts** an einen anderen Ort, auf den Sie später verweisen können
 
-Konto  und seinen Streaming-Endpunkt kopieren&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png „dep: HTTP API \[raw]„)
+Konto  und seinen Streaming-Endpunkt kopieren](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png „dep: HTTP API \[raw]„)
 
 ## Datenfluss-ID suchen
 
@@ -114,7 +114,7 @@ Kopieren Sie die in den vorherigen Schritten gespeicherten Werte an die unten he
 
 Ihre endgültige API-Anfrage sollte dann wie folgt aussehen
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >NOCH NICHT AUSFÜHREN!
 

@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Aktivität Zielgruppe aufbauen in einer o
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -24,11 +24,11 @@ In den nächsten Schritten erstellen Sie die Audience, die Sie für die Kampagne
 
 1. Klicken Sie auf der Arbeitsfläche auf das Symbol **+** wählen Sie dann die Aktivität **Zielgruppe erstellen** aus, um sie zum Workflow hinzuzufügen
 
-![Fügen Sie die Aktivität Zielgruppe aufbauen zur Workflow-Arbeitsfläche hinzu](assets/build-an-audience-add-activity.png)
+   ![Fügen Sie die Aktivität Zielgruppe aufbauen zur Workflow-Arbeitsfläche hinzu](assets/build-an-audience-add-activity.png)
 
 
 
-&#x200B;2. In der rechten Leiste sehen Sie die Eigenschaften Zielgruppe erstellen . Aktualisieren Sie die Bezeichnung so, dass Folgendes angegeben wird: `Active Lines with Apple`
+2. In der rechten Leiste sehen Sie die Eigenschaften Zielgruppe erstellen . Aktualisieren Sie die Bezeichnung so, dass Folgendes angegeben wird: `Active Lines with Apple`
 
 ![Zielgruppen-Kennzeichnung mit Apple auf „Aktive Zeilen erstellen“](assets/build-an-audience-set-label.png)
 
@@ -39,9 +39,9 @@ Der nächste Schritt besteht darin, die **Zielgruppendimension** auszuwählen (d
 
 1. Klicken Sie im Feld **Zielgruppendimension** auf das Suchsymbol
 
-![Suchsymbol im Feld „Zielgruppendimension“](assets/build-an-audience-search-targeting-dimension.png)
+   ![Suchsymbol im Feld „Zielgruppendimension“](assets/build-an-audience-search-targeting-dimension.png)
 
-&#x200B;2. Suchen Sie im Popup nach der Tabelle mit dem Namen **dep-rel: Customer Line** und wählen Sie sie aus. Klicken Sie dann auf die Schaltfläche **Bestätigen**.
+2. Suchen Sie im Popup nach der Tabelle mit dem Namen **dep-rel: Customer Line** und wählen Sie sie aus. Klicken Sie dann auf die Schaltfläche **Bestätigen**.
 
 ![Wählen Sie die Tabelle dep-rel: customer line aus und klicken Sie auf Bestätigen](assets/build-an-audience-select-customer-line-table.png)
 
@@ -61,9 +61,9 @@ Nachdem Sie nun Ihre Zielgruppendimension ausgewählt haben (welches relationale
 
 1. Klicken Sie in der rechten Leiste auf die Schaltfläche **Zielgruppe erstellen**
 
-![Schaltfläche „Zielgruppe erstellen“ in der rechten Leiste](assets/build-an-audience-click-create-audience.png)
+   ![Schaltfläche „Zielgruppe erstellen“ in der rechten Leiste](assets/build-an-audience-click-create-audience.png)
 
-&#x200B;2. Klicken Sie anschließend auf die Schaltfläche **Bedingung hinzufügen**.
+2. Klicken Sie anschließend auf die Schaltfläche **Bedingung hinzufügen**.
 
 ![Schaltfläche „Bedingung hinzufügen“ für die Zielgruppendefinition](assets/build-an-audience-click-add-condition.png)
 
@@ -79,9 +79,9 @@ Jetzt ist es an der Zeit, die Logik der Zielgruppe mithilfe der im Schema gefund
    - **Attribut**: `Active Line`
    - **Wert**: `true`
 
-![Bedingung 1 auf Aktive Zeile gleich „true“ gesetzt](assets/build-an-audience-condition-active-line-true.png)
+   ![Bedingung 1 auf Aktive Zeile gleich „true“ gesetzt](assets/build-an-audience-condition-active-line-true.png)
 
-&#x200B;2. Klicken Sie auf **Aktualisieren**-Symbol, um die qualifizierten Zahlen für die Bedingung anzuzeigen.
+2. Klicken Sie auf **Aktualisieren**-Symbol, um die qualifizierten Zahlen für die Bedingung anzuzeigen.
 
 ![Aktualisierungssymbol mit einer qualifizierten Anzahl von 241 für Bedingung 1](assets/build-an-audience-condition-1-refresh-count.png)
 
@@ -95,31 +95,31 @@ Jetzt ist es an der Zeit, die Logik der Zielgruppe mithilfe der im Schema gefund
 
 1. Klicken Sie auf die **Bedingung hinzufügen** und wählen Sie das Schema **dep-rel:** **Product \[Lookup]** aus, indem Sie auf das Symbol **>** klicken
 
-![Wählen Sie das Schema dep-rel: product [lookup] aus, indem Sie auf das Symbol > klicken](assets/build-an-audience-select-product-lookup-schema.png)
+   ![Wählen Sie das Schema dep-rel: product [lookup] aus, indem Sie auf das Symbol > klicken](assets/build-an-audience-select-product-lookup-schema.png)
 
 
-&#x200B;2. Suchen Sie nach dem Feld **Make**, klicken Sie auf die drei Punkte und wählen Sie **Werteverteilung**
+2. Suchen Sie nach dem Feld **Make**, klicken Sie auf die drei Punkte und wählen Sie **Werteverteilung**
 
-![Option „Werteverteilung“ für das Feld „Make“](assets/build-an-audience-make-distribution-of-values.png)
-
-
-
-&#x200B;3. Beachten Sie die verschiedenen Werte. Man will nur `Apple` und glücklicherweise hat es nicht 100 verschiedene Schreibweisen. Klicken Sie auf das Feld **Apple**, um es auszuwählen, und klicken Sie dann oben rechts auf **Attribut und Wert** auswählen“.
-
-![Apple-Wert mit der Schaltfläche „Attribut und Wert auswählen“ ausgewählt](assets/build-an-audience-select-apple-attribute-value.png)
-
->[!NOTE]
->
->Dies ist ein Paradebeispiel dafür, wo der Datenarchitekt das Schema mit Auflistungen hätte entwerfen sollen.  Auf diese Weise muss ein Marketer den Wert nicht manuell auswählen/eingeben.  Schande über den Datenarchitekten!
+   ![Option „Werteverteilung“ für das Feld „Make“](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-&#x200B;4. Das Feld `Make` wird automatisch zusammen mit den unten aufgeführten Bedingungen hinzugefügt.
+3. Beachten Sie die verschiedenen Werte. Man will nur `Apple` und glücklicherweise hat es nicht 100 verschiedene Schreibweisen. Klicken Sie auf das Feld **Apple**, um es auszuwählen, und klicken Sie dann oben rechts auf **Attribut und Wert** auswählen“.
+
+   ![Apple-Wert mit der Schaltfläche „Attribut und Wert auswählen“ ausgewählt](assets/build-an-audience-select-apple-attribute-value.png)
+
+   >[!NOTE]
+   >
+   >Dies ist ein Paradebeispiel dafür, wo der Datenarchitekt das Schema mit Auflistungen hätte entwerfen sollen.  Auf diese Weise muss ein Marketer den Wert nicht manuell auswählen/eingeben.  Schande über den Datenarchitekten!
+
+
+
+4. Das Feld `Make` wird automatisch zusammen mit den unten aufgeführten Bedingungen hinzugefügt.
    - **Operator:** `Equal to`
    - **Wert:** `Apple`
    - **Von Schreibweise abhängig:** `Enabled`
 
-&#x200B;5. Klicken Sie auf **calculate-Symbol** und Sie sehen 85 als Ergebnis.
+5. Klicken Sie auf **calculate-Symbol** und Sie sehen 85 als Ergebnis.
 
 ![Bedingung 2 Berechnete Zählung von 85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -133,15 +133,15 @@ Jetzt ist es an der Zeit, die Logik der Zielgruppe mithilfe der im Schema gefund
 
 1. Klicken Sie auf **Berechnen** in der rechten Leiste unter der Überschrift Zielgruppenprofile , um eine genaue Schätzung der Zielgruppengröße zu erhalten. Sie sehen **65** als **Endzählung**.
 
-![Calculate-Symbol, das die endgültige Zielgruppengröße von 65 anzeigt](assets/build-an-audience-calculate-final-audience-size.png)
+   ![Calculate-Symbol, das die endgültige Zielgruppengröße von 65 anzeigt](assets/build-an-audience-calculate-final-audience-size.png)
 
->[!NOTE]
->
->Beachten Sie, dass jede einzelne Bedingung eine andere Zahl zurückgab (Bedingung #1 —> 241 und Bedingung #2 —> 85), aber die endgültige Zielgruppengröße die kleinere der beiden Bedingungen war.  Dies liegt an diesem AND-Operator.
+   >[!NOTE]
+   >
+   >Beachten Sie, dass jede einzelne Bedingung eine andere Zahl zurückgab (Bedingung #1 —> 241 und Bedingung #2 —> 85), aber die endgültige Zielgruppengröße die kleinere der beiden Bedingungen war.  Dies liegt an diesem AND-Operator.
 
 
 
-&#x200B;2. Wenn Sie die endgültige Zählung von **65 sehen** klicken Sie oben rechts im Bildschirm auf die Schaltfläche **Bestätigen** und dann oben rechts auf die Schaltfläche **Speichern**, um Ihre Arbeit zu speichern.
+2. Wenn Sie die endgültige Zählung von **65 sehen** klicken Sie oben rechts im Bildschirm auf die Schaltfläche **Bestätigen** und dann oben rechts auf die Schaltfläche **Speichern**, um Ihre Arbeit zu speichern.
 
 
 

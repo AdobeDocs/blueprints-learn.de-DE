@@ -4,7 +4,7 @@ description: Verwenden Sie die Schema Registry-API, um einen nicht primären E-M
 doc-type: article
 solution: Experience Platform
 exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. Klicken Sie auf den `Step 2 - Create Email Address Identity for Customer Account Schema` API-Aufruf im Ordner `XDM Schema Lab -> Create Identity Descriptors` .
 
->[!CAUTION]
->
->Anfrage nicht ausführen…noch nicht
+   >[!CAUTION]
+   >
+   >Anfrage nicht ausführen…noch nicht
 
-![Schritt 2: Erstellen einer E-Mail-Adressidentität für das Kundenkontenschema - Postman-Anfrage](assets/create-other-identities-step-2-postman-request.jpeg "Schritt 2: Erstellen eines Identitätsdeskriptors für E-Mail-Adressen")
+   ![Schritt 2: Erstellen einer E-Mail-Adressidentität für das Kundenkontenschema - Postman-Anfrage](assets/create-other-identities-step-2-postman-request.jpeg "Schritt 2: Erstellen eines Identitätsdeskriptors für E-Mail-Adressen")
 
 
 
@@ -28,23 +28,23 @@ ht-degree: 0%
 
 1. Aktualisieren Sie den `xdm:isPrimary` im Textkörper der Anfrage auf `false`
 
-NUR BEISPIEL
+   NUR BEISPIEL
 
-```json
-{
-  "@type": "xdm:descriptorIdentity",
-  "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
-  "xdm:sourceVersion": 1,
-  "xdm:sourceProperty": "/personalEmail/address",
-  "xdm:namespace": "Email",
-  "xdm:property": "xdm:code",
-  "xdm:isPrimary": false
-}
-```
+   ```json
+   {
+     "@type": "xdm:descriptorIdentity",
+     "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
+     "xdm:sourceVersion": 1,
+     "xdm:sourceProperty": "/personalEmail/address",
+     "xdm:namespace": "Email",
+     "xdm:property": "xdm:code",
+     "xdm:isPrimary": false
+   }
+   ```
 
->[!NOTE]
->
->Denken Sie daran, den oben genannten Mandantennamen (\_devbc) mit Ihrem eigenen zu aktualisieren
+   >[!NOTE]
+   >
+   >Denken Sie daran, den oben genannten Mandantennamen (\_devbc) mit Ihrem eigenen zu aktualisieren
 
 
 

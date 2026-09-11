@@ -4,7 +4,7 @@ description: Verwenden Sie den Journey-Testmodussimulator, um ein im Lieferumfan
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -24,51 +24,51 @@ Verwenden Sie die Journey-Test-Tools, um zu überprüfen, ob der Ereignis-Trigge
 2. Klicken Sie auf Ihre **Journey**, um sie zu öffnen
 3. Klicken Sie auf **Warnhinweise** und stellen Sie sicher, dass keine Fehler auftreten (Warnhinweise sind in Ordnung).
 
-![Bedienfeld „Warnhinweise“ zeigt nach dem Öffnen der Journey keine Fehler an](assets/test-journey-alerts-no-errors.png)
+   ![Bedienfeld „Warnhinweise“ zeigt nach dem Öffnen der Journey keine Fehler an](assets/test-journey-alerts-no-errors.png)
 
->[!NOTE]
->
->**Was ist CJMMAS - 2001-200**
->
->Zeigt, dass der Ausschluss-Link in einer E-Mail-Variante fehlt
+   >[!NOTE]
+   >
+   >**Was ist CJMMAS - 2001-200**
+   >
+   >Zeigt, dass der Ausschluss-Link in einer E-Mail-Variante fehlt
 
-&#x200B;4. Klicken Sie auf **Simulieren** und wählen Sie links den **Testmodus**
+4. Klicken Sie auf **Simulieren** und wählen Sie links den **Testmodus**
 
-![Testmodus unter Simulieren auf der linken Seite ausgewählt](assets/test-journey-select-test-mode.png)
-
-
-
->[!NOTE]
->
->Es könnte eine Minute dauern, bis wir uns fertig machen. Während dieser Zeit steht die Schaltfläche Trigger und Ereignis nicht zur Verfügung.
+   ![Testmodus unter Simulieren auf der linken Seite ausgewählt](assets/test-journey-select-test-mode.png)
 
 
 
-&#x200B;5. Klicken Sie auf **Ereignis als Trigger** und füllen Sie die folgenden Eigenschaften aus:
+   >[!NOTE]
+   >
+   >Es könnte eine Minute dauern, bis wir uns fertig machen. Während dieser Zeit steht die Schaltfläche Trigger und Ereignis nicht zur Verfügung.
+
+
+
+5. Klicken Sie auf **Ereignis als Trigger** und füllen Sie die folgenden Eigenschaften aus:
    - **Ereignistyp**: `orders.shipped`
    - **Persönliche E-Mail**: `henry.creel@emailsim.io`
    - **Auftrags-ID**: `123`
-&#x200B;6. Klicken Sie **Senden** (beachten Sie, dass es einige Sekunden dauert, bis nach dem Klicken auf „Senden“ geantwortet wird)
+6. Klicken Sie **Senden** (beachten Sie, dass es einige Sekunden dauert, bis nach dem Klicken auf „Senden“ geantwortet wird)
 
-![Trigger eines ausgefüllten Ereignisformulars und angeklickter Versand](assets/test-journey-trigger-event-send.png)
+   ![Trigger eines ausgefüllten Ereignisformulars und angeklickter Versand](assets/test-journey-trigger-event-send.png)
 
-&#x200B;> [!WARNING]
->
->Manche Schüler bekommen Fehler und müssen diese ein paar Mal senden. Möglicherweise müssen Sie dies **mehrere** tun.
->
->**Manchmal** der erste Versand den Fehler:
->
->**Eingang existiert nicht (Referenz-ID: 3216a850-c40d-11f0-8fa5-73d1522cc9a2)**
->
->Wenn Sie einen Fehler erhalten, klicken Sie auf **Trigger für ein Ereignis** und dann erneut **Senden**.  Dies muss möglicherweise (**Mal)** werden.
+   >[!WARNING]
+   >
+   >Manche Schüler bekommen Fehler und müssen diese ein paar Mal senden. Möglicherweise müssen Sie dies **mehrere** tun.
+   >
+   >**Manchmal** der erste Versand den Fehler:
+   >
+   >**Eingang existiert nicht (Referenz-ID: 3216a850-c40d-11f0-8fa5-73d1522cc9a2)**
+   >
+   >Wenn Sie einen Fehler erhalten, klicken Sie auf **Trigger für ein Ereignis** und dann erneut **Senden**.  Dies muss möglicherweise (**Mal)** werden.
 
 
 
-&#x200B;7. Klicken Sie **Ergebnisse** -> auf **Protokoll anzeigen** links
+7. Klicken Sie **Ergebnisse** -> auf **Protokoll anzeigen** links
 
 ![Option „Protokoll anzeigen“ unter „Ergebnisse“ nach Auslösen des Testereignisses](assets/test-journey-show-log-results.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Manche Lernenden, die Fehler erhalten haben, erhalten manchmal unterschiedliche Protokolle, in denen ein leeres Instanzen-Array-`{"instances": []}` angezeigt wird. Dies ist kein Hindernis. Fahren Sie nun mit dem nächsten Schritt fort.
 
@@ -105,16 +105,16 @@ Im Protokoll sollte ein ähnliches Element angezeigt werden:
 
 
 
-&#x200B;8. **Schließen** die Browser-**Registerkarte**
-&#x200B;9. **Testmodus schließen** oben rechts
+8. **Schließen** die Browser-**Registerkarte**
+9. **Testmodus schließen** oben rechts
 
-![Test-Modus schließen oben rechts](assets/test-journey-close-test-mode.png)
+   ![Test-Modus schließen oben rechts](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. Klicken Sie oben **auf** Veröffentlichen“.
+10. Klicken Sie oben **auf** Veröffentlichen“.
 
 ![Schaltfläche „Veröffentlichen“ für die Journey oben rechts](assets/test-journey-publish-journey.png)
 
-&#x200B;11. **Schließen** Sie die **Journey**, indem Sie auf den Pfeil \&lt;- oben links klicken
+11. **Schließen** Sie die **Journey**, indem Sie auf den Pfeil \&lt;- oben links klicken
 
 ![Pfeil nach hinten oben links zum Schließen der Journey](assets/test-journey-close-journey-back-arrow.png)
 

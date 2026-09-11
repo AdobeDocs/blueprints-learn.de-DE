@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Shell einer orchestrierten Kampagne erste
 doc-type: article
 solution: Experience Platform
 exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -24,18 +24,18 @@ Im nächsten Schritt erstellen Sie die Shell einer orchestrierten Kampagne (kein
 
 1. Stellen Sie zunächst sicher, dass Sie sich in der Adobe Journey Optimizer-Anwendung befinden, indem Sie die Anwendung in der Apps-Schublade oben rechts im Browser auswählen
 
-![Wählen Sie Adobe Journey Optimizer aus der Apps-Schublade aus](assets/create-an-orchestrated-campaign-select-ajo-app.png)
+   ![Wählen Sie Adobe Journey Optimizer aus der Apps-Schublade aus](assets/create-an-orchestrated-campaign-select-ajo-app.png)
 
 
 
-&#x200B;2. Wählen Sie in der linken Navigationsleiste die Option **Kampagnen**
-&#x200B;3. Klicken Sie dann oben **auf** Schaltfläche Kampagne erstellen .
+2. Wählen Sie in der linken Navigationsleiste die Option **Kampagnen**
+3. Klicken Sie dann oben **auf** Schaltfläche Kampagne erstellen .
 
-![Schaltfläche „Kampagne erstellen“ in der Kampagnennavigation](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+   ![Schaltfläche „Kampagne erstellen“ in der Kampagnennavigation](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-&#x200B;4. Wählen Sie in dem angezeigten Modal **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
+4. Wählen Sie in dem angezeigten Modal **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
 
 ![Wählen Sie Orchestrierung - Marketing aus und klicken Sie auf Bestätigen](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -47,11 +47,11 @@ Im nächsten Schritt erstellen Sie die Shell einer orchestrierten Kampagne (kein
    - **Zusammenführungsrichtlinie** —> `Default Timebased`
    - **Tags** —> *leer lassen*
 
-Danach sollte der Bildschirm wie folgt aussehen.
+   Danach sollte der Bildschirm wie folgt aussehen.
 
-![Kampagneneinstellungen mit Namen und Zusammenführungsrichtlinie ausgefüllt](assets/create-an-orchestrated-campaign-settings-filled.png)
+   ![Kampagneneinstellungen mit Namen und Zusammenführungsrichtlinie ausgefüllt](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-&#x200B;2. Klicken Sie auf **Speichern**, um fortzufahren.
+2. Klicken Sie auf **Speichern**, um fortzufahren.
 
 
 

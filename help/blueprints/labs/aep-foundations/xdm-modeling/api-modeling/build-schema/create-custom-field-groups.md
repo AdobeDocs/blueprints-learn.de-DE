@@ -4,7 +4,7 @@ description: Verwenden Sie die Schema Registry-API, um eine benutzerdefinierte F
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -68,17 +68,17 @@ Beachten Sie außerdem, wie jedes einzelne Feld aus dem Zuordnungsblatt innerhal
 
 
 
-&#x200B;2. Aktualisieren Sie die `title` und `description` für die Feldergruppe im folgenden Format: `Customer Account Details - Sandbox <your number here>`
+2. Aktualisieren Sie die `title` und `description` für die Feldergruppe im folgenden Format: `Customer Account Details - Sandbox <your number here>`
 
 
 
-![Beispieltitel und Beschreibung ausgefüllt für die benutzerdefinierte Feldergruppe](assets/create-custom-field-groups-field-group-title-description-example.png " Feldgruppe Titel und Beschreibung Beispiel")
+   ![Beispieltitel und Beschreibung ausgefüllt für die benutzerdefinierte Feldergruppe](assets/create-custom-field-groups-field-group-title-description-example.png " Feldgruppe Titel und Beschreibung Beispiel")
 
 
 
-&#x200B;3. Führen Sie durch Klicken auf die Schaltfläche `Send` aus.  Es sollte eine -Antwort ähnlich der im folgenden Screenshot angezeigt werden.
+3. Führen Sie durch Klicken auf die Schaltfläche `Send` aus.  Es sollte eine -Antwort ähnlich der im folgenden Screenshot angezeigt werden.
 
-&#x200B;4. Kopieren Sie den `$id` Wert der neu erstellten Feldergruppe Kundenkontodetails .
+4. Kopieren Sie den `$id` Wert der neu erstellten Feldergruppe Kundenkontodetails .
 
 ![Erfolgreiche API-Antwort nach der Erstellung der benutzerdefinierten Feldergruppe](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Schritt 2: Erstellen einer benutzerdefinierten Feldergruppe - Erfolg")
 

@@ -4,7 +4,7 @@ description: Verwenden Sie die Schema Registry-API, um einen Eins-zu-eins-Bezieh
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 1. Klicken Sie auf die `Step 2 - Relationship Descriptor Customer Account To Plan`-API-Anfrage im Ordner `XDM Schema Lab -> Create Relationship Descriptors` .
 
->[!CAUTION]
->
->Anfrage nicht ausführen…noch nicht
+   >[!CAUTION]
+   >
+   >Anfrage nicht ausführen…noch nicht
 
-![Schritt 2 - Beziehungsdeskriptor-Kundenkonto zur Plan-API-Anfrage](assets/create-schema-relationship-step-2-descriptor-request.png "Schritt 2 - Beziehungsdeskriptor-Kundenkonto zum Plan")
+   ![Schritt 2 - Beziehungsdeskriptor-Kundenkonto zur Plan-API-Anfrage](assets/create-schema-relationship-step-2-descriptor-request.png "Schritt 2 - Beziehungsdeskriptor-Kundenkonto zum Plan")
 
 
 
-&#x200B;2. Aktualisieren Sie die folgenden Eigenschaften im Hauptteil des API-Aufrufs.
+2. Aktualisieren Sie die folgenden Eigenschaften im Hauptteil des API-Aufrufs.
 
 - Legen Sie den Wert der Eigenschaft `xdm:sourceSchema` auf den `$id` des Kundenkontenschemas fest, das Sie im Laborschritt [Schema erstellen](../build-schema/create-schema.md) gespeichert haben
 - Legen Sie den Wert der `xdm:sourceProperty` auf den Pfad des `planID` aus dem Kundenkontenschema fest.
@@ -57,9 +57,9 @@ NUR BEISPIEL
 
 
 
-&#x200B;3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
+3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
 
-&#x200B;4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
+4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
 
 Es sollte jetzt eine `201 Created` Antwort wie unten angezeigt werden
 

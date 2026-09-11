@@ -4,7 +4,7 @@ description: Zusammenfassung des abgeschlossenen Adobe Journey Optimizer Decisio
 doc-type: article
 solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Schließlich haben Sie **End-to-End-Entscheidungsfluss getestet** indem Sie übe
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

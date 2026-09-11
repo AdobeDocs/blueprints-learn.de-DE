@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Grundeinstellungen einer neuen orchestrie
 doc-type: article
 solution: Experience Platform
 exl-id: 5602b0ba-95e2-455f-affd-081df540c999
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 4%
@@ -22,23 +22,23 @@ In den nächsten Schritten beginnen Sie mit der Erstellung einer orchestrierten 
 
 1. Klicken Sie in der linken Seitenleiste auf **Kampagnen**
 
-![Klicken Sie in der linken Seitenleiste auf Kampagnen &#x200B;](assets/create-a-campaign-click-campaigns.png)
+   ![Klicken Sie in der linken Seitenleiste auf Kampagnen ](assets/create-a-campaign-click-campaigns.png)
 
-&#x200B;2. Klicken Sie auf **Kampagne erstellen**
+2. Klicken Sie auf **Kampagne erstellen**
 
-![Klicken Sie auf die Schaltfläche Kampagne erstellen](assets/create-a-campaign-click-create-campaign.png)
+   ![Klicken Sie auf die Schaltfläche Kampagne erstellen](assets/create-a-campaign-click-create-campaign.png)
 
-&#x200B;3. Wählen Sie **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
+3. Wählen Sie **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
 
-![Wählen Sie Orchestrierung - Marketing aus und klicken Sie auf Bestätigen](assets/create-a-campaign-select-orchestration-marketing.png)
+   ![Wählen Sie Orchestrierung - Marketing aus und klicken Sie auf Bestätigen](assets/create-a-campaign-select-orchestration-marketing.png)
 
-&#x200B;4. Geben Sie unten Kampagnendetails an und klicken Sie dann auf **Speichern** wenn Sie fertig sind
+4. Geben Sie unten Kampagnendetails an und klicken Sie dann auf **Speichern** wenn Sie fertig sind
    - **name:** `OC-MDL-Campaign-Test`
    - **Beschreibung:** `OC Message Delivery Test`
 
-![Geben Sie Kampagnendetails an und klicken Sie auf Speichern](assets/create-a-campaign-provide-campaign-details.png)
+   ![Geben Sie Kampagnendetails an und klicken Sie auf Speichern](assets/create-a-campaign-provide-campaign-details.png)
 
-&#x200B;5. Warten Sie auf die Bestätigungsmeldung, bevor Sie fortfahren
+5. Warten Sie auf die Bestätigungsmeldung, bevor Sie fortfahren
 
 ![Bestätigungsnachricht für die Kampagneneinstellungen wurde aktualisiert](assets/create-a-campaign-confirmation-message.png)
 

@@ -4,7 +4,7 @@ description: Zeigen Sie eine Vorschau eines aufgenommenen Datensatzes in der Ben
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 1. Klicken Sie auf **Datensätze**
 1. **Suchen** und **Klicken** den von Ihnen erstellten Datensatznamen.
 
-![Suchen und Klicken auf den Datensatznamen im Datensatzbereich](assets/verification-and-validation-access-dataset-in-datasets-pane.png "Greifen Sie auf den Datensatz im Datensatzbereich zu")
+   ![Suchen und Klicken auf den Datensatznamen im Datensatzbereich](assets/verification-and-validation-access-dataset-in-datasets-pane.png "Greifen Sie auf den Datensatz im Datensatzbereich zu")
 
 
 
 1. Klicken Sie oben **auf** Datensatz in der Vorschau anzeigen“
 
-![Position der Schaltfläche Datensatz in der Vorschau anzeigen in der oberen rechten Ecke des Datensatzbildschirms](assets/verification-and-validation-preview-dataset-button-location.png "Datensatz in der Vorschau anzeigen befindet sich in der oberen rechten Ecke")
+   ![Position der Schaltfläche Datensatz in der Vorschau anzeigen in der oberen rechten Ecke des Datensatzbildschirms](assets/verification-and-validation-preview-dataset-button-location.png "Datensatz in der Vorschau anzeigen befindet sich in der oberen rechten Ecke")
 
 
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 1. **Vorschau** schließen)
 1. Klicken Sie im Datensatzbildschirm auf das Kopiersymbol unter **Tabellenname**. Im folgenden Beispielbildschirm ist der Tabellenname `customer_account_sm`
 
-![Kopieren-Symbol neben dem Tabellennamen im Datensatzbildschirm](assets/verification-and-validation-copy-table-name.png "Kopieren Sie den Tabellennamen")
+   ![Kopieren-Symbol neben dem Tabellennamen im Datensatzbildschirm](assets/verification-and-validation-copy-table-name.png "Kopieren Sie den Tabellennamen")
 
 
 
@@ -52,21 +52,21 @@ ht-degree: 0%
 
 1. Klicken Sie auf **Abfrage erstellen**
 
-![Schaltfläche „Abfrage erstellen“ im Abschnitt „Abfragen“](assets/verification-and-validation-access-the-query-editor.png)
+   ![Schaltfläche „Abfrage erstellen“ im Abschnitt „Abfragen“](assets/verification-and-validation-access-the-query-editor.png)
 
 
 
 1. Kopieren Sie die folgende SQL-Abfrage in den **Editor**. Denken Sie daran, `<table_name>` durch den Wert zu ersetzen, den Sie in Schritt 6 erhalten haben.
 
-```sql
-SELECT * FROM <table_name>
-```
+   ```sql
+   SELECT * FROM <table_name>
+   ```
 
 
 
 1. Drücken Sie die **Play**-Taste.
 
-![Benutzeroberfläche des Abfrage-Editors mit SQL-Abfrage- und Wiedergabe](assets/verification-and-validation-query-editor-interface.png "Schaltfläche „Abfrage-Editor“")
+   ![Benutzeroberfläche des Abfrage-Editors mit SQL-Abfrage- und Wiedergabe](assets/verification-and-validation-query-editor-interface.png "Schaltfläche „Abfrage-Editor“")
 
 
 

@@ -4,7 +4,7 @@ description: Erstellen Sie eine Streaming-Zielgruppe, die Profile findet, die he
 doc-type: article
 solution: Experience Platform
 exl-id: b8c1080e-b093-4d50-94da-5aced6bf0a08
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Erstellen Sie eine Zielgruppe, die nur Profile findet, die eine Bestellung für 
 
 Erstellen Sie zunächst Ihre erste Audience. Es besteht aus vielen Teilen, die wir einbauen müssen. Klicken Sie in der linken Leiste auf Audience und dann oben rechts auf die Schaltfläche Audience erstellen .
 
-![Klicken Sie in der linken Leiste auf Zielgruppe und anschließend auf Zielgruppe erstellen &#x200B;](assets/build-audience-1-click-create-audience-button.png)
+![Klicken Sie in der linken Leiste auf Zielgruppe und anschließend auf Zielgruppe erstellen ](assets/build-audience-1-click-create-audience-button.png)
 
 
 
@@ -47,9 +47,9 @@ Es gibt viele Objekte, die mit einer Bestellung in Verbindung stehen
 
 >[!NOTE]
 >
->&#x200B;* Für die Bestellung „Ordner“ ist kein „i“ vorhanden. Auch wenn unsere Beschreibung ausgefüllt wurde, ist sie dort nicht vorhanden, und dies kann für Ihren Marketer verwirrend sein, da er versuchen kann, sie zu verwenden, oder wissen möchte, was sie ist.
->&#x200B;* Das „i“ für Ereigniskarten wiederholt nur den Typ, da der Ereignistyp ein Feld ist, nicht viele.
->&#x200B;* Zusammenfassungsdaten werden nur angezeigt, wenn der Wert in mehr als 2 % der zusammengeführten Profile vorhanden ist. Dies führt auch zu einer automatischen Vervollständigung beim Filtern nach einer Zeichenfolge.
+>* Für die Bestellung „Ordner“ ist kein „i“ vorhanden. Auch wenn unsere Beschreibung ausgefüllt wurde, ist sie dort nicht vorhanden, und dies kann für Ihren Marketer verwirrend sein, da er versuchen kann, sie zu verwenden, oder wissen möchte, was sie ist.
+>* Das „i“ für Ereigniskarten wiederholt nur den Typ, da der Ereignistyp ein Feld ist, nicht viele.
+>* Zusammenfassungsdaten werden nur angezeigt, wenn der Wert in mehr als 2 % der zusammengeführten Profile vorhanden ist. Dies führt auch zu einer automatischen Vervollständigung beim Filtern nach einer Zeichenfolge.
 
 
 
@@ -57,7 +57,7 @@ Verwenden Sie die Karte Ereignistyp „Reihenfolge“ und ziehen Sie sie auf die
 
 ![Ziehen Sie die Karte Ereignistyp „Reihenfolge platziert“ auf die Arbeitsfläche](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**optional:**
 >
@@ -200,7 +200,7 @@ Das Modell sieht so aus, hat aber keine Beschreibungen.
 
 Ziehen Sie sie auf die Karte Platziertes Ereignis .
 
-![Ziehen Sie das Feld Modell auf die Karte Ereignis platziert &#x200B;](assets/build-audience-1-drag-it-onto-the-placed-event-card.png)
+![Ziehen Sie das Feld Modell auf die Karte Ereignis platziert ](assets/build-audience-1-drag-it-onto-the-placed-event-card.png)
 
 IPhone 14 hinzufügen
 
@@ -246,7 +246,7 @@ Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 >
 >Container sind eine Möglichkeit, auf eine Ereignisvariable oder ein Array-Element zu verweisen. In diesem Blog können Sie mehr über die Auswirkungen erfahren, aber der Einfachheit halber können Sie damit angeben, ob ein einzelnes Element im Array beide Bedingungen erfüllt oder die Bedingung auf zwei Elemente verteilt werden kann.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=de](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=de)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
 
 >[!WARNING]
 >

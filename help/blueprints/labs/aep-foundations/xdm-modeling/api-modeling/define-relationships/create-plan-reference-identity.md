@@ -4,7 +4,7 @@ description: Verwenden Sie die Schema Registry-API, um einen Referenz-Identität
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 1. Klicken Sie auf die `Step 3 - Reference Descriptor for Plan`-API-Anfrage im Ordner `XDM Schema Lab -> Create Relationship Descriptors` .
 
->[!CAUTION]
->
->Anfrage nicht ausführen…noch nicht
+   >[!CAUTION]
+   >
+   >Anfrage nicht ausführen…noch nicht
 
-![Schritt 3 - Referenzdeskriptor für Plan-Schema-API-Anfrage](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg "Schritt 3 - Referenzdeskriptor für Plan-Schema")
+   ![Schritt 3 - Referenzdeskriptor für Plan-Schema-API-Anfrage](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg "Schritt 3 - Referenzdeskriptor für Plan-Schema")
 
 
 
-&#x200B;2. Aktualisieren Sie die folgenden Eigenschaften im Hauptteil des API-Aufrufs.
+2. Aktualisieren Sie die folgenden Eigenschaften im Hauptteil des API-Aufrufs.
 
 - Aktualisieren Sie den Wert der Eigenschaft `xdm:sourceSchema` auf den `$id` des `Customer Account` Schemas, das Sie im Schritt [Schema erstellen](../build-schema/create-schema.md) gespeichert haben
 - Aktualisieren Sie den Wert der `xdm:sourceProperty` auf den Pfad des `planID` aus dem `Customer Account` Schema
@@ -53,9 +53,9 @@ NUR BEISPIEL
 
 
 
-&#x200B;3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
+3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
 
-&#x200B;4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
+4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
 
 Es sollte jetzt eine `201 Created` Antwort wie unten angezeigt werden
 

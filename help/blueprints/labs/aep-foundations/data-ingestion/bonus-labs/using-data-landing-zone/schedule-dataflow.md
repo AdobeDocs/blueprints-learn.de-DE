@@ -4,7 +4,7 @@ description: Konfigurieren Sie einen wiederkehrenden 15-minütigen Datenflusszei
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Nachdem Sie auf **Beenden** geklickt haben, gelangen Sie zurück zum Bildschirm 
 
 ![Datenflussbildschirm, der den neuen Datenfluss mit dem Status „Keine Ausführungen“ anzeigt](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Datenflussquellen-Bildschirm")
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Sie müssen die Seite kontinuierlich aktualisieren, um die Statusaktualisierung anzuzeigen, da das Backend keine Aktualisierungen an die Benutzeroberfläche sendet.
 

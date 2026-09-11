@@ -4,7 +4,7 @@ description: Verwenden Sie Postman sowie den Streaming-Endpunkt und die Datenflu
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Einige wichtige Elemente, die in der obigen Aufforderung zu beachten sind:
 | Anfrage-URL (d. h. Speicherort) | - | Dies ist die URL des von Ihnen erstellten HTTP-API-Quellkontos, auf das die Streaming-Daten verweisen. **Es ist immer vom Typ POST** |
 | Kopfzeile &#39;Content-Type&#39; | * | Die Einstellung ist immer `application/json`, da die gesendeten Daten im JSON-Format vorliegen |
 | Kopfzeile „x-adobe-flow-id“ | - | Festgelegt auf die vom Quell-Connector erstellte Datenfluss-ID |
-| Header &#39;Authorization&#39; | * | Optionaler Wert, wird aber aus Sicherheitsgründen dringend empfohlen. Dies ist der gleiche `access_token`, den Sie während des [Postman-Setups erstellt &#x200B;](../../postman-setup/environment-file.md). |
+| Header &#39;Authorization&#39; | * | Optionaler Wert, wird aber aus Sicherheitsgründen dringend empfohlen. Dies ist der gleiche `access_token`, den Sie während des [Postman-Setups erstellt ](../../postman-setup/environment-file.md). |
 | Hauptteilinhalt | - | Enthält die Daten, die tatsächlich an Adobe Experience Platform gesendet werden sollen |
 
 >[!NOTE]
@@ -78,18 +78,18 @@ Führen Sie die folgenden Schritte aus:
 
 1. Kopieren Sie den **Streaming** Endpunkt) und speichern Sie ihn auf Ihrem lokalen Computer (vorausgesetzt, Sie haben den Schritt des vorherigen Abschnitts nicht verlassen). Wenn Sie die Seite verlassen haben, finden Sie sie unter Quellen->Konten.
 
->[!NOTE]
->
->Wenn Sie die Seite verlassen haben, können Sie folgendermaßen zu dieser Seite gelangen:
->
->- Klicken Sie in **linken Leiste** Quellen“.
->- Stellen Sie sicher, dass Sie sich auf **Registerkarte** Konten“ befinden und auf das von Ihnen erstellte Konto **Streaming-Aufnahme - \&lt;Ihre Initialen>** klicken
+   >[!NOTE]
+   >
+   >Wenn Sie die Seite verlassen haben, können Sie folgendermaßen zu dieser Seite gelangen:
+   >
+   >- Klicken Sie in **linken Leiste** Quellen“.
+   >- Stellen Sie sicher, dass Sie sich auf **Registerkarte** Konten“ befinden und auf das von Ihnen erstellte Konto **Streaming-Aufnahme - \&lt;Ihre Initialen>** klicken
 
->[!NOTE]
->
->Wenn dieser Wert nicht angezeigt wird, stellen Sie sicher, dass Sie die Datenflusszeile nicht durch Klicken auf die Zeile ausgewählt haben.  KLICKEN SIE NICHT AUF DIE BLAUEN LINKS
+   >[!NOTE]
+   >
+   >Wenn dieser Wert nicht angezeigt wird, stellen Sie sicher, dass Sie die Datenflusszeile nicht durch Klicken auf die Zeile ausgewählt haben.  KLICKEN SIE NICHT AUF DIE BLAUEN LINKS
 
-![Streaming-Endpunkt-URL wird rechts neben den Kontodetails angezeigt](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   ![Streaming-Endpunkt-URL wird rechts neben den Kontodetails angezeigt](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -105,34 +105,34 @@ Wechseln Sie zu Ihrer Postman-Anwendung und aktualisieren Sie die Anfrage „Kun
 
 1. Öffnen Sie Postman und navigieren Sie zur **Datenaufnahme-Lab > Kundenkonto erstellen** API-Anfrage und öffnen Sie sie
 
-![Kundenkonto-API-Anfrage erstellen, die in Postman geöffnet ist](assets/stream-a-profile-create-customer-account-api-request.png)
+   ![Kundenkonto-API-Anfrage erstellen, die in Postman geöffnet ist](assets/stream-a-profile-create-customer-account-api-request.png)
 
 
 
 1. Kopieren Sie den Wert **Streaming-Endpunkt** den Sie zuvor in die URL der Anfrage gespeichert haben, und fügen Sie ihn ein
 
-![Streaming-Endpunktwert, der in die Anfrage-URL zum Erstellen eines Kundenkontos eingefügt wurde](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
+   ![Streaming-Endpunktwert, der in die Anfrage-URL zum Erstellen eines Kundenkontos eingefügt wurde](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
 
 
 
 1. Kopieren Sie den zuvor gespeicherten Datenfluss-ID-Wert und fügen Sie ihn in den Kopfzeilenwert **x-adobe-flow-id** ein
 
-![Datenfluss-ID, die in den Kopfzeilenwert x-adobe-flow-id eingefügt wird](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
+   ![Datenfluss-ID, die in den Kopfzeilenwert x-adobe-flow-id eingefügt wird](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
 
 
 
 1. Aktualisieren Sie im Hauptteil der Anfrage die folgenden Attribute wie folgt:
 
-- **firstName** -> Ihr Vorname
-- **lastName** -> Ihr Nachname
-- **email** -> Ihre E-Mail-Adresse
-- **Geburtsdatum** -> JJJJ-MM-TT
+   - **firstName** -> Ihr Vorname
+   - **lastName** -> Ihr Nachname
+   - **email** -> Ihre E-Mail-Adresse
+   - **Geburtsdatum** -> JJJJ-MM-TT
 
-**5.** speichern
+   **5.** speichern
 
 1. Klicken Sie auf die Schaltfläche **Senden**, um die Streaming-Anfrage in Ihrem Kundenkontoprofil auszuführen
 
-![Endgültige Anfrage zum Erstellen eines Kundenkontos, die in Postman gesendet werden kann](assets/stream-a-profile-final-create-customer-account-request.png)
+   ![Endgültige Anfrage zum Erstellen eines Kundenkontos, die in Postman gesendet werden kann](assets/stream-a-profile-final-create-customer-account-request.png)
 
 
 

@@ -4,7 +4,7 @@ description: Erstellen Sie eine druckbare Arbeitsmappe, die drei Anwendungsfäll
 doc-type: article
 solution: Experience Platform
 exl-id: 9e8f24a4-f206-41fe-8107-7184c0761698
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 - Zuordnen von Anwendungsfällen zur Architekturarbeitsmappe - [Arbeitsmappe unten drucken]
 - Stift, Bleistift oder Textmarker
 
-Datei herunterladen — [Zuordnungsfunktionen zu Architecture Exercise.pdf](assets/lab-exercise-mapping-capabilities-to-architecture-exercise.pdf)
+Datei herunterladen — [Zuordnungsfunktionen zu Architecture Exercise.pdf](assets/lab-exercise-mapping-capabilities-to-architecture.pdf)
 
 **Für jeden der drei Anwendungsfälle der 5G-Verbindung werden Sie Folgendes tun:**
 

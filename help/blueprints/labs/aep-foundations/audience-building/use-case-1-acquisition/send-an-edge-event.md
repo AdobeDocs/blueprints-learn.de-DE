@@ -4,7 +4,7 @@ description: Senden Sie über Postman ein nicht authentifiziertes Web-Ereignis a
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
@@ -138,17 +138,17 @@ Suchen Sie in Adobe Experience Platform das Profil, das Sie gerade von dem Ereig
 1. Klicken Sie **Anzeigen**, um das Profil zu suchen
 1. Klicken Sie auf **Profil-ID**, um das Profil zu öffnen
 
-![Suchen Sie das Profil und klicken Sie auf die Profil-ID, um es zu öffnen](assets/send-an-edge-event-lookup-profile.png)
+   ![Suchen Sie das Profil und klicken Sie auf die Profil-ID, um es zu öffnen](assets/send-an-edge-event-lookup-profile.png)
 
 
 
-&#x200B;3. Klicken Sie **oberen Navigationsbereich auf** Ereignisse“, um das gerade gesendete Ereignis anzuzeigen
+3. Klicken Sie **oberen Navigationsbereich auf** Ereignisse“, um das gerade gesendete Ereignis anzuzeigen
 
-![Das Ereignis wird auf der Registerkarte Ereignisse des Profils angezeigt](assets/send-an-edge-event-view-the-profile-event.png)
+   ![Das Ereignis wird auf der Registerkarte Ereignisse des Profils angezeigt](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. Überprüfen Sie, ob sich das Profil für die Zielgruppen qualifiziert hat, indem Sie die Registerkarte Zielgruppenmitgliedschaft im oberen Navigationsbereich aufrufen.  Sie sollten Folgendes sehen:
+4. Überprüfen Sie, ob sich das Profil für die Zielgruppen qualifiziert hat, indem Sie die Registerkarte Zielgruppenmitgliedschaft im oberen Navigationsbereich aufrufen.  Sie sollten Folgendes sehen:
 
 - Beliebige Event Edge (innerhalb der letzten 15 Minuten)
 - Beliebiges Ereignis-Streaming (innerhalb der letzten Stunde)

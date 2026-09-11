@@ -4,7 +4,7 @@ description: Zusammenfassend kann die Erstellung einer orchestrierten Kampagne m
 doc-type: article
 solution: Experience Platform
 exl-id: 587758b6-b1c1-4ce3-bcc9-ad4f6640188d
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -35,7 +35,7 @@ Hätten Sie das in Journey probiert, wären Sie nicht in der Lage gewesen, beide
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

@@ -4,7 +4,7 @@ description: Verwenden Sie die DEP-CLI, um die Schemata, Datensätze, Datenflüs
 doc-type: article
 solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Das AJO Architectural Foundations Lab Pack wird mit der DEP-CLI in Ihrer Sandbox
 ## Voraussetzungen
 
 - **Lizenzberechtigungen.** Administratorrechte für eine IMS-Organisation mit Real-Time CDP (mit Streaming-Segmentierung) und Adobe Journey Optimizer (mit orchestrierten Kampagnen)
-- **Zugriffsrechte.** Eine Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldeinformationen, die Sie bei der Einrichtung von [Developer Console erstellt &#x200B;](developer-console-setup.md).
+- **Zugriffsrechte.** Eine Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldeinformationen, die Sie bei der Einrichtung von [Developer Console erstellt ](developer-console-setup.md).
 - **Developer Console-Anmeldeinformationen.** Ein Projekt, das sowohl Adobe Experience Platform-APIs als auch Adobe Journey Optimizer-APIs enthält. Wenn Sie diese noch nicht haben, befolgen Sie zuerst die Einrichtung von [Developer Console](developer-console-setup.md)
 - **Eine Sandbox.** Leer, vom Typ `dev` und mindestens 120 Minuten lang im Status „Bereit“, bevor Sie die Bereitstellung starten
 - **Node.js.** Jede neuere LTS-Version, unter Windows oder Mac
@@ -66,15 +66,15 @@ Die CLI wird in der Sandbox bereitgestellt, auf die Ihre Umgebungsdatei verweist
 1. Kopieren Sie `envFiles/sample-env.json` und geben Sie ihm einen neuen Namen, z. B. `my-env.json`
 2. Öffnen Sie die Datei und füllen Sie die folgenden Felder mit den Werten aus dem [Developer Console-Setup aus](developer-console-setup.md):
 
-| **Feld** | **Wert** |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | Client-ID |
-| `CLIENT_SECRET` | Client-Geheimnis |
-| `IMS_ORG` | Organisations-ID |
-| `SCOPES` | Muss sowohl Experience Platform-API- als auch Adobe Journey Optimizer-API-Bereiche enthalten <br />*(z. B. cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
-| `SANDBOX_NAME` | Die Sandbox, die Sie anvisieren, muss leer sein und vom Typ `dev` sein |
+   | **Feld** | **Wert** |
+   | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | Client-ID |
+   | `CLIENT_SECRET` | Client-Geheimnis |
+   | `IMS_ORG` | Organisations-ID |
+   | `SCOPES` | Muss sowohl Experience Platform-API- als auch Adobe Journey Optimizer-API-Bereiche enthalten <br />*(z. B. cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
+   | `SANDBOX_NAME` | Die Sandbox, die Sie anvisieren, muss leer sein und vom Typ `dev` sein |
 
-&#x200B;3. Speichern und schließen Sie die Datei
+3. Speichern und schließen Sie die Datei
 
 >[!NOTE]
 >
@@ -117,7 +117,8 @@ Schritt 1 dauert etwa 2 Minuten, Schritt 2 etwa 6 Minuten.
 >[!NOTE]
 >
 >Verwenden Sie Schritt 6, anstatt die Schritte 4 und 5 separat auszuführen - dies geschieht in einem Schritt genauso, wenn die Propagierungswartezeit für Sie gehandhabt wird.
-> [!NOTE]
+
+>[!NOTE]
 >
 >Alle oben genannten Wartezeiten werden automatisch von der CLI überprüft. Wenn Sie einen Schritt zu früh ausführen, wird er blockiert und gibt an, wie lange Sie warten müssen.
 

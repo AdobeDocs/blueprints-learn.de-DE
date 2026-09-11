@@ -4,7 +4,7 @@ description: Erstellen Sie benutzerdefinierte Felder und Objekte für Konto, Pla
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -35,11 +35,11 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 1. Fügen Sie ein neues Feld hinzu, indem Sie auf die Schaltfläche **+ (Hinzufügen** oben in Ihrem Schema klicken
 
-![&#x200B; Schaltfläche (+) oben im Schema hinzufügen, um ein benutzerdefiniertes Feld hinzuzufügen](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   ![ Schaltfläche (+) oben im Schema hinzufügen, um ein benutzerdefiniertes Feld hinzuzufügen](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
->[!NOTE]
->
->Beachten Sie, dass die rechte Leiste mit einigen Feldern geöffnet wird, die Sie ausfüllen können
+   >[!NOTE]
+   >
+   >Beachten Sie, dass die rechte Leiste mit einigen Feldern geöffnet wird, die Sie ausfüllen können
 
 
 
@@ -72,14 +72,14 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 1. Fügen Sie die folgenden Felder hinzu, die unter dem soeben erstellten Kontoobjekt angezeigt werden.
 
-| Feldname | Anzeigename | Typ |
-| ------------ | ------------- | ---------- |
-| *createDate* | *Erstellungsdatum* | *DateTime* |
-| *endDate* | *Enddatum* | *DateTime* |
+   | Feldname | Anzeigename | Typ |
+   | ------------ | ------------- | ---------- |
+   | *createDate* | *Erstellungsdatum* | *DateTime* |
+   | *endDate* | *Enddatum* | *DateTime* |
 
->[!NOTE]
->
->Sie werden feststellen, dass beim Hinzufügen der neuen Felder **Option „Zuweisen zu** bereits ausgefüllt ist und auf die Feldergruppe verweist, die Sie für das Kontoobjekt verwendet haben.
+   >[!NOTE]
+   >
+   >Sie werden feststellen, dass beim Hinzufügen der neuen Felder **Option „Zuweisen zu** bereits ausgefüllt ist und auf die Feldergruppe verweist, die Sie für das Kontoobjekt verwendet haben.
 
 
 
@@ -87,28 +87,28 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 
 
-![Kundenkontenschema mit Kontoobjekt und untergeordneten Feldern hinzugefügt](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![Kundenkontenschema mit Kontoobjekt und untergeordneten Feldern hinzugefügt](assets/model-custom-objects-account-object-with-child-fields.png)
 
 
 
 1. Fügen Sie dem Kontoobjekt ein weiteres benutzerdefiniertes Feld hinzu. Klicken Sie auf die Schaltfläche **+ (Hinzufügen** neben dem Kontoobjekt.  Erstellen Sie das folgende Feld:
 
-| Feldname | Anzeigename | Typ | Aufzählungen |
-| ----------- | ----------------- | -------- | --------------------------------------- |
-| *acqSource* | *Erworbene Source* | *Zeichenfolge* | *web :: Web *<br />*inStore :: Im Store* |
+   | Feldname | Anzeigename | Typ | Aufzählungen |
+   | ----------- | ----------------- | -------- | --------------------------------------- |
+   | *acqSource* | *Erworbene Source* | *Zeichenfolge* | *web :: Web *<br />*inStore :: Im Store* |
 
-Dieses Feld benötigt standardisierte Werte. Verwenden Sie daher die Option **Aufzählung und vorgeschlagene Werte** in den Feldeigenschaften. Wählen Sie **Optionsfeld** Aufzählung“ aus, um bei der Aufnahme eine Validierung für dieses Feld sowie benutzerfreundliche Kennzeichnungen hinzuzufügen. Fügen Sie die Aufzählungswerte wie folgt hinzu:
+   Dieses Feld benötigt standardisierte Werte. Verwenden Sie daher die Option **Aufzählung und vorgeschlagene Werte** in den Feldeigenschaften. Wählen Sie **Optionsfeld** Aufzählung“ aus, um bei der Aufnahme eine Validierung für dieses Feld sowie benutzerfreundliche Kennzeichnungen hinzuzufügen. Fügen Sie die Aufzählungswerte wie folgt hinzu:
 
-- *web :: Web*
-- *inStore :: Im Store*
+   - *web :: Web*
+   - *inStore :: Im Store*
 
 
 
-![Aufzählungswerte „web“ und „inStore“ wurden für das Source-Akquise-Feld hinzugefügt](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
+   ![Aufzählungswerte „web“ und „inStore“ wurden für das Source-Akquise-Feld hinzugefügt](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
 
->[!NOTE]
->
->Das Ziel von Aufzählung und empfohlenen Werten besteht darin, die Segmentierung für den Endbenutzer zu vereinfachen. Auflistungen erzwingen die Validierung zum Zeitpunkt der Datenaufnahme, vorgeschlagene Werte dagegen nicht. Weitere Informationen zu dieser Funktion finden Sie in der Dokumentation hier -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=de#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=de#enums-and-suggested-values)
+   >[!NOTE]
+   >
+   >Das Ziel von Aufzählung und empfohlenen Werten besteht darin, die Segmentierung für den Endbenutzer zu vereinfachen. Auflistungen erzwingen die Validierung zum Zeitpunkt der Datenaufnahme, vorgeschlagene Werte dagegen nicht. Weitere Informationen zu dieser Funktion finden Sie in der Dokumentation hier -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 

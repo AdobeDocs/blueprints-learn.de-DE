@@ -4,7 +4,7 @@ description: Erstellen Sie eine Zusammenführungsrichtlinie ohne Identitätszuor
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Eine Zusammenführungsrichtlinie hat zwei Aufgaben:
    - Zeitstempelpriorität - Verwenden Sie den neuesten Datensatz aus allen Datensätzen als Wahrheitsset und lassen Sie alle anderen Datensätze die Lücken füllen, in der Reihenfolge von „Zuletzt verwendet“ bis „Zuletzt verwendet“
    - Datensatzpriorität : Wählen Sie aus, welche XDM-Einzelprofildatensätze zum Erstellen des Profils verwendet werden dürfen und in welcher Reihenfolge sie zusammengestellt werden sollen
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Wenn die Zusammenführungsmethode Datensatzpriorität ausgewählt ist, können Sie auswählen, welche XDM-Kontaktprofil- und XDM-Erlebnisereignis-Datensätze bei der Profilerstellung verwendet werden dürfen.
 >
@@ -64,7 +64,7 @@ Erstellen Sie eine Zusammenführungsrichtlinie, die nicht das ID-Diagramm verwen
 1. Klicken Sie **oberen Navigationsbereich auf &quot;**&quot;
 1. Klicken Sie **ganz rechts** Bildschirm auf Zusammenführungsrichtlinie erstellen .
 
-![Klicken Sie oben rechts im Bildschirm „Zusammenführungsrichtlinien“ auf Zusammenführungsrichtlinie erstellen &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
+![Klicken Sie oben rechts im Bildschirm „Zusammenführungsrichtlinien“ auf Zusammenführungsrichtlinie erstellen ](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## Konfigurieren
 
@@ -121,9 +121,9 @@ Gehen Sie wie folgt vor, um den Profil-Viewer zu öffnen:
 1. Klicken Sie auf die Schaltfläche **Ansicht**, um das Profil zu suchen
 1. Klicken Sie auf **Link** zum Profil, um dessen Details anzuzeigen
 
-![Nachschlagen des Depeche-Modus-Profils nach E-Mail unter Verwendung der standardmäßigen zeitstempelbasierten Zusammenführungsrichtlinie](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Nachschlagen des Depeche-Modus mit der standardmäßigen zeitbasierten Zusammenführungsrichtlinie")
+   ![Nachschlagen des Depeche-Modus-Profils nach E-Mail unter Verwendung der standardmäßigen zeitstempelbasierten Zusammenführungsrichtlinie](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Nachschlagen des Depeche-Modus mit der standardmäßigen zeitbasierten Zusammenführungsrichtlinie")
 
-Suchen Sie erneut nach dem Depeche-Modus-Profil, aber diesmal mithilfe der Zusammenführungsrichtlinie **Keine ID** Zuordnung“.
+   Suchen Sie erneut nach dem Depeche-Modus-Profil, aber diesmal mithilfe der Zusammenführungsrichtlinie **Keine ID** Zuordnung“.
 
 1. Klicken Sie mit der rechten **in** linken Leiste auf „Profile“ und wählen Sie **In einer neuen Registerkarte öffnen**
 1. Wählen Sie in der oberen Navigation **Durchsuchen**
@@ -197,7 +197,7 @@ Wenn das Identitätsdiagramm mit dem Profilspeicher verwendet wird, können Sie 
 
 Ohne das Identitätsdiagramm kann der Profilspeicher nur Profilfragmente mit einer einzigen Kennung (d. h. primäre Identität) abrufen
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**Haben Sie etwas mehr Zeit und möchten experimentieren…:**
 >

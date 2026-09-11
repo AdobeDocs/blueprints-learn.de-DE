@@ -4,7 +4,7 @@ description: Zeigen Sie eine Vorschau eines gestreamten Datensatzes in der Benut
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 1. Klicken Sie auf **Datensätze**
 1. **Suchen** und **Klicken** den von Ihnen erstellten Datensatznamen.
 
-![Zugriff auf den erstellten Datensatz im Bereich Datensätze](assets/verification-and-validation-access-the-dataset-in-the-datasets-pane.png "Zugriff auf den Datensatz im Bereich Datensätze")
+   ![Zugriff auf den erstellten Datensatz im Bereich Datensätze](assets/verification-and-validation-access-the-dataset-in-the-datasets-pane.png "Zugriff auf den Datensatz im Bereich Datensätze")
 
 
 
 1. Klicken Sie oben **auf** Datensatz in der Vorschau anzeigen“
 
-![Die Schaltfläche Datensatz in der Vorschau anzeigen in der oberen rechten Ecke des Datensatzbildschirms](assets/verification-and-validation-preview-dataset-button.png "Datensatz in der Vorschau anzeigen befindet sich in der oberen rechten Ecke ")
+   ![Die Schaltfläche Datensatz in der Vorschau anzeigen in der oberen rechten Ecke des Datensatzbildschirms](assets/verification-and-validation-preview-dataset-button.png "Datensatz in der Vorschau anzeigen befindet sich in der oberen rechten Ecke ")
 
 
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 1. **Vorschau** schließen)
 1. Klicken Sie im Datensatzbildschirm auf das Kopiersymbol unter **Tabellenname**. Im folgenden Beispielbildschirm ist der Tabellenname `customer_account_sm`
 
-![Kopieren des Tabellennamen vom Datensatzbildschirm zur Verwendung in einer Abfrage](assets/verification-and-validation-copy-the-table-name.png "Kopieren des Tabellennamen")
+   ![Kopieren des Tabellennamen vom Datensatzbildschirm zur Verwendung in einer Abfrage](assets/verification-and-validation-copy-the-table-name.png "Kopieren des Tabellennamen")
 
 
 
@@ -52,21 +52,21 @@ ht-degree: 0%
 
 1. Klicken Sie auf **Abfrage erstellen**
 
-![Zugriff auf den Abfrage-Editor über den Abschnitt „Abfragen](assets/verification-and-validation-access-the-query-editor.png "Zugriff auf den Abfrage-Editor")
+   ![Zugriff auf den Abfrage-Editor über den Abschnitt „Abfragen](assets/verification-and-validation-access-the-query-editor.png "Zugriff auf den Abfrage-Editor")
 
 
 
 1. Schalten Sie für den erweiterten Abfrage **Editor um**
 
-![Benutzeroberfläche des Abfrage-Editors mit aktiviertem Umschalter für den erweiterten Abfrage](assets/verification-and-validation-enhanced-query-editor-toggle.png "Editor")
+   ![Benutzeroberfläche des Abfrage-Editors mit aktiviertem Umschalter für den erweiterten Abfrage](assets/verification-and-validation-enhanced-query-editor-toggle.png "Editor")
 
 
 
 1. Kopieren Sie die folgende SQL-Abfrage in den **Editor**. Denken Sie daran, `<table_name>` durch den Wert zu ersetzen, den Sie in Schritt 2 erhalten haben.
 
-```sql
-SELECT * FROM <table_name>
-```
+   ```sql
+   SELECT * FROM <table_name>
+   ```
 
 
 
@@ -76,9 +76,9 @@ SELECT * FROM <table_name>
 
 1. Führen Sie außerdem die folgende SQL-Abfrage aus, um das XDM-Schema zusammen mit den Daten abzurufen:
 
-```sql
-SELECT to_json(shippingAddress) FROM <table_name>
-```
+   ```sql
+   SELECT to_json(shippingAddress) FROM <table_name>
+   ```
 
 
 

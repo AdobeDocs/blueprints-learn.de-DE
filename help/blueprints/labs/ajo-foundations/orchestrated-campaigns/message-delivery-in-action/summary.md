@@ -4,7 +4,7 @@ description: 'Zusammenfassung: Erstellen einer orchestrierten Kampagne, die eine
 doc-type: article
 solution: Experience Platform
 exl-id: 11249940-469f-4ba6-bd36-1f2bb7b388a9
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -25,7 +25,7 @@ In diesem Labor haben Sie die folgenden Aktivitäten durchgeführt:
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

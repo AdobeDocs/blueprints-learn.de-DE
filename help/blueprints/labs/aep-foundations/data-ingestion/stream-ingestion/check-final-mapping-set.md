@@ -4,7 +4,7 @@ description: Vergleichen Sie Ihre Streaming-Aufnahme-Zuordnungen mit dem erwarte
 doc-type: article
 solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Passthrough-Zuordnungen
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 | concat(date\_part(„mm“, date(born\_date, „yyyy-M-d„)).toString(), &quot;-&quot;, date\_part(„dd“, date(born\_date, „yyyy-M-d„)).toString()) | person.bornDayAndMonth |
 | date\_part(„jjjj“,date(Birth\_Date,„jjjj-M-d„)) | person.BirthYear |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren
 

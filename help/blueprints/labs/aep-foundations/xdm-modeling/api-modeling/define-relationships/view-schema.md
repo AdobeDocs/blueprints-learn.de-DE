@@ -4,7 +4,7 @@ description: Zeigen Sie die Lookup-Beziehung des Kundenkontenschemas zum Plansch
 doc-type: article
 solution: Experience Platform
 exl-id: dae48ef4-f762-4173-8564-c1ad40c0109b
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -27,25 +27,25 @@ ht-degree: 0%
 
 1. Wählen Sie die `Step 4 - Get Customer Account Schema and its descriptors`-API aus, indem Sie darauf klicken
 
-![Schritt 4: Abrufen des Kundenkontenschemas und der zugehörigen Deskriptoren API-Aufruf](assets/view-schema-step-4-get-schema-and-descriptors.png "Schritt 4: Abrufen des Kundenkontenschemas und der zugehörigen Deskriptoren")
+   ![Schritt 4: Abrufen des Kundenkontenschemas und der zugehörigen Deskriptoren API-Aufruf](assets/view-schema-step-4-get-schema-and-descriptors.png "Schritt 4: Abrufen des Kundenkontenschemas und der zugehörigen Deskriptoren")
 
 
 
-&#x200B;2. Ersetzen Sie in der URL der Anfrage die `<replace me>` durch die `$meta:altId`, die Sie im vorherigen Abschnitt [Schema erstellen](../build-schema/create-schema.md) gespeichert haben, wie unten dargestellt
+2. Ersetzen Sie in der URL der Anfrage die `<replace me>` durch die `$meta:altId`, die Sie im vorherigen Abschnitt [Schema erstellen](../build-schema/create-schema.md) gespeichert haben, wie unten dargestellt
 
-![Schritt 4-Anfrage mit dem Meta-:altId, an die URL-](assets/view-schema-final-step-4-request.png "-Anfrage für Schritt 4 angehängt")
+   ![Schritt 4-Anfrage mit dem Meta-:altId, an die URL-](assets/view-schema-final-step-4-request.png "-Anfrage für Schritt 4 angehängt")
 
 
 
-&#x200B;3. Speichern Sie die Anfrage mithilfe der Schaltfläche `Save` .
+3. Speichern Sie die Anfrage mithilfe der Schaltfläche `Save` .
 
-&#x200B;4. Ausführen der Anfrage durch Klicken auf die Schaltfläche `Send`
+4. Ausführen der Anfrage durch Klicken auf die Schaltfläche `Send`
 
 Sie sollten jetzt eine `200 OK` Antwort sehen und zum Ende des von Ihnen erstellten Schemas navigieren können, um die Identität durch die Linse der XDM-JSON-Struktur zu sehen
 
 
 
-![Beziehungsdeskriptor, der im Kundenkontenschema-JSON-Beziehungsdeskriptor &#x200B;](assets/view-schema-relationship-descriptor.png " ist")
+![Beziehungsdeskriptor, der im Kundenkontenschema-JSON-Beziehungsdeskriptor ](assets/view-schema-relationship-descriptor.png " ist")
 
 
 

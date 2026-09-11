@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie in einer orchestrierten Kampagne zwei E-Mail-
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -30,49 +30,49 @@ In den nächsten Schritten fügen Sie den beiden Verzweigungen der Aktivität Ve
 
 1. Klicken Sie auf das **+** des oberen Flusses und wählen Sie **E-Mail** aus den **Kanalaktivitäten**
 
-![E-Mail-Aktivität hinzufügen](assets/add-email-activities-select-email-activity.png)
+   ![E-Mail-Aktivität hinzufügen](assets/add-email-activities-select-email-activity.png)
 
-Der Detailbereich **E** Mail“ wird geöffnet
+   Der Detailbereich **E** Mail“ wird geöffnet
 
-![E-Mail-Detailbereich](assets/add-email-activities-email-details-pane.png)
+   ![E-Mail-Detailbereich](assets/add-email-activities-email-details-pane.png)
 
-&#x200B;2. Benennen Sie die Bezeichnung für die Aktivität **E-Mail mit**) um **E-Mail** und klicken Sie auf **E-Mail bearbeiten**. Beachten Sie, dass die Erstellung des E-Mail-Textkörpers nur zu Testzwecken dient
+2. Benennen Sie die Bezeichnung für die Aktivität **E-Mail mit**) um **E-Mail** und klicken Sie auf **E-Mail bearbeiten**. Beachten Sie, dass die Erstellung des E-Mail-Textkörpers nur zu Testzwecken dient
 
-![Beschriftung der E-Mail-Aktivität umbenennen und auf „E-Mail bearbeiten“](assets/add-email-activities-rename-and-edit-email.png)
+   ![Beschriftung der E-Mail-Aktivität umbenennen und auf „E-Mail bearbeiten“](assets/add-email-activities-rename-and-edit-email.png)
 
-&#x200B;3. Wählen Sie die Registerkarte **Aktionen** und aus der Dropdown-Liste die Option **Profil-E-Mail** Kanalkonfiguration aus
+3. Wählen Sie die Registerkarte **Aktionen** und aus der Dropdown-Liste die Option **Profil-E-Mail** Kanalkonfiguration aus
 
-![Wählen Sie auf der Registerkarte „Aktionen“ die Konfiguration Profil-E-Mail-Kanal aus](assets/add-email-activities-select-profile-email-channel.png)
+   ![Wählen Sie auf der Registerkarte „Aktionen“ die Konfiguration Profil-E-Mail-Kanal aus](assets/add-email-activities-select-profile-email-channel.png)
 
-&#x200B;4. Klicken Sie anschließend auf **Inhalt bearbeiten** um Testinhalte hinzuzufügen
+4. Klicken Sie anschließend auf **Inhalt bearbeiten** um Testinhalte hinzuzufügen
 
-![Klicken Sie auf Inhalt bearbeiten , um Testinhalte hinzuzufügen](assets/add-email-activities-edit-content.png)
+   ![Klicken Sie auf Inhalt bearbeiten , um Testinhalte hinzuzufügen](assets/add-email-activities-edit-content.png)
 
-&#x200B;5. Geben Sie eine **Betreffzeile** ein („Upgrade-Angebot für Mitglieder des Standardplans„) und klicken Sie auf die Schaltfläche **E-Mail-Textkörper bearbeiten**.
+5. Geben Sie eine **Betreffzeile** ein („Upgrade-Angebot für Mitglieder des Standardplans„) und klicken Sie auf die Schaltfläche **E-Mail-Textkörper bearbeiten**.
 
-![Betreffzeile hinzufügen und E-Mail-Textkörper bearbeiten](assets/add-email-activities-subject-line-edit-body.png)
+   ![Betreffzeile hinzufügen und E-Mail-Textkörper bearbeiten](assets/add-email-activities-subject-line-edit-body.png)
 
-&#x200B;6. Es gibt viele Optionen. Wählen Sie für diesen Test die Option **Eigenen Code erstellen** HTML aus
+6. Es gibt viele Optionen. Wählen Sie für diesen Test die Option **Eigenen Code erstellen** HTML aus
 
-![Wählen Sie die Option Eigenen HTML codieren &#x200B;](assets/add-email-activities-code-your-own-html.png)
+   ![Wählen Sie die Option Eigenen HTML codieren ](assets/add-email-activities-code-your-own-html.png)
 
-&#x200B;7. Fügen Sie in **E-Mail-**-Designer&quot; die Testzeile „Upgrade-Angebot verfügbar!“ ein. direkt vor den `</body></html>` Tags wie abgebildet und klicken Sie auf **Speichern**
+7. Fügen Sie in **E-Mail-**-Designer&quot; die Testzeile „Upgrade-Angebot verfügbar!“ ein. direkt vor den `</body></html>` Tags wie abgebildet und klicken Sie auf **Speichern**
 
-![Fügen Sie die Testzeile in Email Designer ein und klicken Sie auf Speichern](assets/add-email-activities-email-designer-save.png)
+   ![Fügen Sie die Testzeile in Email Designer ein und klicken Sie auf Speichern](assets/add-email-activities-email-designer-save.png)
 
-&#x200B;8. Warten Sie, bis die Bestätigungsmeldung unten rechts angezeigt wird
+8. Warten Sie, bis die Bestätigungsmeldung unten rechts angezeigt wird
 
-![Bestätigungsmeldung wird angezeigt](assets/add-email-activities-confirmation-message.png)
+   ![Bestätigungsmeldung wird angezeigt](assets/add-email-activities-confirmation-message.png)
 
-&#x200B;9. Klicken Sie auf den **Linkspfeil** neben **E-Mail-Designer**, um den Vorgang zu beenden
+9. Klicken Sie auf den **Linkspfeil** neben **E-Mail-Designer**, um den Vorgang zu beenden
 
-![Klicken Sie auf den Nach-links-Pfeil, um E-Mail-Designer zu verlassen](assets/add-email-activities-exit-email-designer.png)
+   ![Klicken Sie auf den Nach-links-Pfeil, um E-Mail-Designer zu verlassen](assets/add-email-activities-exit-email-designer.png)
 
-&#x200B;10. Ein Bestätigungsdialogfeld wird angezeigt, klicken Sie auf die Schaltfläche **Speichern und schließen**.
+10. Ein Bestätigungsdialogfeld wird angezeigt, klicken Sie auf die Schaltfläche **Speichern und schließen**.
 
 ![Bestätigungsdialogfeld mit der Schaltfläche Speichern und schließen](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. Überprüfen Sie die E-Mail-Eigenschaften und -Aktionen einschließlich des Texts, der zum E-Mail-Textkörper hinzugefügt wurde. Klicken Sie auf den **Pfeil nach links**, um zur Kampagnen-Arbeitsfläche zurückzukehren
+11. Überprüfen Sie die E-Mail-Eigenschaften und -Aktionen einschließlich des Texts, der zum E-Mail-Textkörper hinzugefügt wurde. Klicken Sie auf den **Pfeil nach links**, um zur Kampagnen-Arbeitsfläche zurückzukehren
 
 ![Zurück zur Campaign-Arbeitsfläche](assets/add-email-activities-back-to-campaign-canvas.png)
 

@@ -4,7 +4,7 @@ description: Importieren Sie die Postman-API-Sammlung des Bootcamps und überpr�
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -24,11 +24,11 @@ In diesem Schritt importieren Sie die API-Sammlung, die alle verschiedenen Anfra
 
 1. Laden Sie die Datei **AJO Bootcamp (Labs).postman\_collection.json** herunter:
 
-Datei herunterladen - [AJO Bootcamp (Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
+   Datei herunterladen - [AJO Bootcamp (Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
-&#x200B;2. Klicken Sie wie zuvor auf die Schaltfläche **Importieren**.
-&#x200B;3. Fügen Sie die lokale URL der Datei **AJO Bootcamp (Labs).postman\_collection.json** in das Textfeld „Modal importieren“ ein oder legen Sie sie im Dialogfeld „Importieren“ ab.  Dadurch wird ein automatischer Import Trigger.
-&#x200B;4. Klicken Sie nach Abschluss des Importvorgangs in der linken **auf** Sammlungen“, erweitern Sie den Ordner **AJO Bootcamp (Labs** und Sie sehen die neu importierte Sammlung
+2. Klicken Sie wie zuvor auf die Schaltfläche **Importieren**.
+3. Fügen Sie die lokale URL der Datei **AJO Bootcamp (Labs).postman\_collection.json** in das Textfeld „Modal importieren“ ein oder legen Sie sie im Dialogfeld „Importieren“ ab.  Dadurch wird ein automatischer Import Trigger.
+4. Klicken Sie nach Abschluss des Importvorgangs in der linken **auf** Sammlungen“, erweitern Sie den Ordner **AJO Bootcamp (Labs** und Sie sehen die neu importierte Sammlung
 
 ![Überprüfen des Imports der Postman-Sammlung](assets/import-api-collection-verify-collection-imported.png)
 
@@ -52,13 +52,13 @@ Um sicherzustellen, dass die Umgebung und die Sammlung korrekt funktionieren, f�
 1. Klicken Sie ggf. in der linken Leiste auf **Sammlungen** und erweitern Sie dann den Ordner **Profile &amp; Journey Labs** .
 2. Klicken Sie auf die **Web-Ereignis erstellen**-Anfrage und Sie sehen, dass die Umgebungsvariablen **rot**
 
-![Postman-Anfrage mit rot markierten Umgebungsvariablen, da keine Umgebung ausgewählt ist](assets/import-api-collection-environment-variables-shown-red.png " Überprüfen Sie, ob Postman-Umgebungsvariablen rot sind")
+   ![Postman-Anfrage mit rot markierten Umgebungsvariablen, da keine Umgebung ausgewählt ist](assets/import-api-collection-environment-variables-shown-red.png " Überprüfen Sie, ob Postman-Umgebungsvariablen rot sind")
 
-&#x200B;3. Klicken Sie oben rechts auf **Dropdown** Umgebung und wählen Sie die **AJO Bootcamp**-Umgebung.
+3. Klicken Sie oben rechts auf **Dropdown** Umgebung und wählen Sie die **AJO Bootcamp**-Umgebung.
 
-![Wählen Sie die richtige Postman-Umgebung aus](assets/import-api-collection-select-postman-environment.png)
+   ![Wählen Sie die richtige Postman-Umgebung aus](assets/import-api-collection-select-postman-environment.png)
 
-&#x200B;4. Wenn Sie die richtige Umgebung ausgewählt haben, sehen Sie, dass die Variable EDGE\_REGION jetzt eine hellere blaue Farbe annimmt. Dies zeigt an, dass die Variable jetzt einen Wert für die ausgewählte Umgebung hat. Die Variable DATASTREAM\_CONFIG bleibt rot, da Sie den Datenstrom noch nicht erstellt haben, sodass Sie für diese Umgebungsvariable noch keinen Wert haben. Wenn Sie den Mauszeiger über die EDGE\_REGION bewegen, sehen Sie den Wert des Umgebungswerts.
+4. Wenn Sie die richtige Umgebung ausgewählt haben, sehen Sie, dass die Variable EDGE\_REGION jetzt eine hellere blaue Farbe annimmt. Dies zeigt an, dass die Variable jetzt einen Wert für die ausgewählte Umgebung hat. Die Variable DATASTREAM\_CONFIG bleibt rot, da Sie den Datenstrom noch nicht erstellt haben, sodass Sie für diese Umgebungsvariable noch keinen Wert haben. Wenn Sie den Mauszeiger über die EDGE\_REGION bewegen, sehen Sie den Wert des Umgebungswerts.
 
 Die Variable ![Postman EDGE_REGION ist jetzt ausgefüllt und wird nicht mehr in rot angezeigt](assets/import-api-collection-environment-works-with-collection.png " Überprüfen Sie, ob die Postman-Umgebung mit der Sammlung funktioniert")
 

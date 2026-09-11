@@ -4,7 +4,7 @@ description: Erfahren Sie, wie ein simuliertes Web-Ereignis die Ebenen Edge Netw
 doc-type: article
 solution: Experience Platform
 exl-id: 2f2a2c92-0359-4101-973f-3cb012debb63
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Durch diese Schritte haben Sie gezeigt, wie Ereignisse die Ebenen Edge, Echtzeit
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

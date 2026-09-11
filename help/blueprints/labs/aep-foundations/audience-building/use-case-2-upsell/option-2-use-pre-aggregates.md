@@ -4,7 +4,7 @@ description: Erstellen Sie eine vollständig gestreamte Zielgruppe, indem Sie vo
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -32,19 +32,19 @@ Erstellen Sie eine Audience für alle Profile, deren Abrechnungsdatennutzung hoc
 1. Neue Zielgruppe erstellen
 1. Suchen Sie auf der Registerkarte Attribute statt Ereignis nach „Tag“ und ziehen Sie die beiden Aggregate auf die Arbeitsfläche. Legen Sie die entsprechenden Operatoren und Werte für jeden Parameter fest.
 
-![Legen Sie die entsprechenden Operatoren und Werte für jedes Aggregat fest](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
+   ![Legen Sie die entsprechenden Operatoren und Werte für jedes Aggregat fest](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
 
 
 
-&#x200B;3. Suchen Sie im Profil nach dem Plannamen und fügen Sie ihn hinzu (XDM-Kontaktprofil > DevBC > Plandetails > Planname). &quot;Ultimate&quot; auswählen
+3. Suchen Sie im Profil nach dem Plannamen und fügen Sie ihn hinzu (XDM-Kontaktprofil > DevBC > Plandetails > Planname). &quot;Ultimate&quot; auswählen
 
-![Planname auswählen stimmt nicht mit Ultimate überein](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
+   ![Planname auswählen stimmt nicht mit Ultimate überein](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. Geben Sie eine Beschreibung ein.  Validieren Sie, ob die Auswertungsmethode Streaming ist.
+4. Geben Sie eine Beschreibung ein.  Validieren Sie, ob die Auswertungsmethode Streaming ist.
 
-&#x200B;5. Speichern Sie die Zielgruppe als &quot;*Abrechnung - Datennutzung hoch, aber kein Ultimate-Plan (AGG)*&quot;
+5. Speichern Sie die Zielgruppe als &quot;*Abrechnung - Datennutzung hoch, aber kein Ultimate-Plan (AGG)*&quot;
 
 >[!NOTE]
 >

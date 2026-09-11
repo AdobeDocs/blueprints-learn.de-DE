@@ -4,7 +4,7 @@ description: Fügen Sie benutzerdefinierte Geräteattribute wie Marke, Modell un
 doc-type: article
 solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -23,33 +23,33 @@ In diesem Abschnitt fügen Sie dem Standard-XDM-Schema des Angebots benutzerdefi
 1. Erweitern Sie bei Bedarf das **Decisioning**-Menüelement in der linken Leiste und klicken Sie auf **Catalogs.**
 2. Standardmäßig wird die Seite „Angebote“ angezeigt. Klicken Sie auf **Schema bearbeiten** in der oberen rechten Ecke.
 
-![Schaltfläche Schema bearbeiten auf der Seite Angebotskatalog &#x200B;](assets/create-offer-attributes-edit-schema-button.png)
+   ![Schaltfläche Schema bearbeiten auf der Seite Angebotskatalog ](assets/create-offer-attributes-edit-schema-button.png)
 
->[!TIP]
->
->Die resultierende Seite ist der standardmäßige XDM-Schema-Editor. Genau wie XDM verwendet wird, um die Datenstruktur von Datensätzen zu definieren, wird XDM hier verwendet, um die Attribute eines Angebots zu definieren.
+   >[!TIP]
+   >
+   >Die resultierende Seite ist der standardmäßige XDM-Schema-Editor. Genau wie XDM verwendet wird, um die Datenstruktur von Datensätzen zu definieren, wird XDM hier verwendet, um die Attribute eines Angebots zu definieren.
 
->[!NOTE]
->
->Das Schema „Personalisierte Angebotselemente - Erlebnisentscheidung“ ist ein systemgeneriertes Standardschema, das für alle Angebote gilt. Sie können jedoch zu diesem Schema hinzufügen, um individuelle Geschäftsanforderungen zu erfüllen. Dies erfahren Sie in diesem Abschnitt.
->
->Darüber hinaus ist das Durchsuchen der Seite „Angebote“ eine Verknüpfung, um zu diesem Schema zu gelangen. Sie können auch über das Menü Schema in der linken Leiste dorthin navigieren.
+   >[!NOTE]
+   >
+   >Das Schema „Personalisierte Angebotselemente - Erlebnisentscheidung“ ist ein systemgeneriertes Standardschema, das für alle Angebote gilt. Sie können jedoch zu diesem Schema hinzufügen, um individuelle Geschäftsanforderungen zu erfüllen. Dies erfahren Sie in diesem Abschnitt.
+   >
+   >Darüber hinaus ist das Durchsuchen der Seite „Angebote“ eine Verknüpfung, um zu diesem Schema zu gelangen. Sie können auch über das Menü Schema in der linken Leiste dorthin navigieren.
 
-&#x200B;3. Klicken Sie auf das Symbol **+** rechts neben der Stammebene des Schemas. Füllen Sie über das jetzt sichtbare Menü „Feldeigenschaften“ in der rechten Leiste die folgenden Felder mit den angegebenen Werten aus:
+3. Klicken Sie auf das Symbol **+** rechts neben der Stammebene des Schemas. Füllen Sie über das jetzt sichtbare Menü „Feldeigenschaften“ in der rechten Leiste die folgenden Felder mit den angegebenen Werten aus:
    - Feldname: **device**
    - Anzeigename: **Gerät**
    - Typ Dropdown: **Objekt**
    - Der Feldergruppe zuweisen (geben Sie diesen Wert ein): **Angebotsdetails**
 
->[!NOTE]
->
->Die Feldergruppe „Zuweisen an“ scheint ein Dropdown-Menü zu sein, akzeptiert jedoch auch eine direkte Texteingabe. Geben Sie daher den Text „Angebotsdetails“ ein. Wenn Sie sie eingeben, wird auch ein Element „Angebotsdetails (Neu)“ angezeigt. Jedes neue Attribut muss einer Feldergruppe zugewiesen werden. In diesem Schritt erstellen Sie also effektiv eine neue Feldergruppe namens Angebotsdetails.
+   >[!NOTE]
+   >
+   >Die Feldergruppe „Zuweisen an“ scheint ein Dropdown-Menü zu sein, akzeptiert jedoch auch eine direkte Texteingabe. Geben Sie daher den Text „Angebotsdetails“ ein. Wenn Sie sie eingeben, wird auch ein Element „Angebotsdetails (Neu)“ angezeigt. Jedes neue Attribut muss einer Feldergruppe zugewiesen werden. In diesem Schritt erstellen Sie also effektiv eine neue Feldergruppe namens Angebotsdetails.
 
-&#x200B;4. Stellen Sie sicher, dass alle Eigenschaften wie im folgenden Screenshot ausgefüllt wurden:
+4. Stellen Sie sicher, dass alle Eigenschaften wie im folgenden Screenshot ausgefüllt wurden:
 
-![Feldeigenschaften für das neue Geräteobjekt ausgefüllt](assets/create-offer-attributes-device-object-field-properties.png)
+   ![Feldeigenschaften für das neue Geräteobjekt ausgefüllt](assets/create-offer-attributes-device-object-field-properties.png)
 
-&#x200B;5. Nachdem Sie sich vergewissert haben, dass alle Felder korrekt sind, klicken Sie auf die blaue Schaltfläche **Anwenden** am unteren Rand des Menüs „Feldeigenschaften“ (rechte Leiste), um Ihre auf das Schema angewendeten Änderungen anzuzeigen:
+5. Nachdem Sie sich vergewissert haben, dass alle Felder korrekt sind, klicken Sie auf die blaue Schaltfläche **Anwenden** am unteren Rand des Menüs „Feldeigenschaften“ (rechte Leiste), um Ihre auf das Schema angewendeten Änderungen anzuzeigen:
 
 ![Auf das Angebotsschema angewendete Gerätefeldgruppe](assets/create-offer-attributes-device-object-applied.png)
 
@@ -73,9 +73,9 @@ Nachdem das Geräte-XDM-Objekt erstellt wurde, können Sie mit der Erstellung ge
    - Nachdem Sie sich vergewissert haben, dass alle Felder korrekt sind, klicken Sie auf die blaue **Apply**-Schaltfläche, um Ihre Änderungen auf das Schema anzuwenden
 2. Wiederholen Sie die vorherigen Schritte, um zwei zusätzliche Attribute für **Modell** und **Ebene** hinzuzufügen. Verwenden Sie dasselbe Benennungsmuster, denselben Typ und dieselbe Feldergruppe. Nach Abschluss des Vorgangs sollte das Schema wie folgt aussehen:
 
-![Angebotsschema mit den ausgefüllten Feldern für Marke, Modell und Ebene](assets/create-offer-attributes-make-model-tier-fields.png)
+   ![Angebotsschema mit den ausgefüllten Feldern für Marke, Modell und Ebene](assets/create-offer-attributes-make-model-tier-fields.png)
 
-&#x200B;3. Wenn alle neuen XDM-Felder/Attribute erstellt sind, klicken **oben** auf „Speichern“. Daraufhin wird unten im Bildschirm die grüne Meldung „Schema Successfully Saved“ angezeigt. Sie haben nun die Schritte in diesem Abschnitt ausgeführt.
+3. Wenn alle neuen XDM-Felder/Attribute erstellt sind, klicken **oben** auf „Speichern“. Daraufhin wird unten im Bildschirm die grüne Meldung „Schema Successfully Saved“ angezeigt. Sie haben nun die Schritte in diesem Abschnitt ausgeführt.
 
 >[!WARNING]
 >

@@ -4,7 +4,7 @@ description: Konfigurieren Sie ein Streaming-Ziel der HTTP-API mit einem Webhook
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -54,15 +54,15 @@ Navigieren Sie in der Experience Platform-Benutzeroberfläche wie folgt zum Ziel
 1. Verbindungstyp **Keine**
 1. Klicken Sie auf **Mit Ziel verbinden**
 
-![Mit Ziel verbinden](assets/setup-streaming-destination-connect-to-destination.png "Mit Ziel verbinden")
+   ![Mit Ziel verbinden](assets/setup-streaming-destination-connect-to-destination.png "Mit Ziel verbinden")
 
->[!NOTE]
->
->Normalerweise würden wir zu diesem Zeitpunkt Anmeldeinformationen zur Authentifizierung hinzufügen, aber keine sind für diesen Webhook erforderlich.
+   >[!NOTE]
+   >
+   >Normalerweise würden wir zu diesem Zeitpunkt Anmeldeinformationen zur Authentifizierung hinzufügen, aber keine sind für diesen Webhook erforderlich.
 
 
 
-&#x200B;3. Füllen Sie die Konfigurationsdetails Ihres Ziels wie folgt aus:
+3. Füllen Sie die Konfigurationsdetails Ihres Ziels wie folgt aus:
 
 - **Name** -> `Streaming DEP Webhook - [Your Initials]`
 - **Beschreibung** -> `[your webhook endpoint you copied above]`
@@ -91,7 +91,7 @@ Stellen Sie anschließend sicher, dass die Konfiguration mit der unten angezeigt
 >
 >Weitere Informationen zu Governance-Richtlinien finden Sie in Experience League
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## Audiences auswählen
 

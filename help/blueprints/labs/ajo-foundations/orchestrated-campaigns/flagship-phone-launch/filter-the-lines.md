@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie abgemeldete Kundenzeilen mit einer Aufspaltun
 doc-type: article
 solution: Experience Platform
 exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -24,33 +24,33 @@ In den nächsten Schritten werden Sie alle Zeilen herausfiltern, die aufgrund ih
 
 1. Klicken Sie auf das Symbol **+** in der unteren Transition der Aktivität Verzweigung und wählen Sie im Popup die Aktivität **Aufspaltung** aus.
 
-![Fügen Sie eine Aufspaltungsaktivität zum unteren Verzweigungszweig hinzu](assets/filter-the-lines-add-split-activity.png)
+   ![Fügen Sie eine Aufspaltungsaktivität zum unteren Verzweigungszweig hinzu](assets/filter-the-lines-add-split-activity.png)
 
 
 
-&#x200B;2. Aktualisieren Sie in der rechten Leiste die Bezeichnung , sodass sie Folgendes angibt: `Filter out opt'd out lines`
+2. Aktualisieren Sie in der rechten Leiste die Bezeichnung , sodass sie Folgendes angibt: `Filter out opt'd out lines`
 
-![Der Titel der Aufspaltungsaktivität wurde zum Filtern von Opt-out-Zeilen festgelegt](assets/filter-the-lines-set-split-label.png)
-
-
-
-&#x200B;3. Erweitern Sie in der rechten Leiste den Abschnitt **Standardsegment** und klicken Sie auf die Schaltfläche **Filter erstellen**
-
-![Schaltfläche „Filter erstellen“ im Abschnitt „Teilmenge“](assets/filter-the-lines-create-filter-button.png)
+   ![Der Titel der Aufspaltungsaktivität wurde zum Filtern von Opt-out-Zeilen festgelegt](assets/filter-the-lines-set-split-label.png)
 
 
 
-&#x200B;4. Fügen Sie eine Bedingung hinzu, um sicherzustellen, dass Sie alle Kundenzeilen entfernen, die vom SMS-Messaging abgemeldet wurden, und klicken Sie dann auf **Bestätigen**.
+3. Erweitern Sie in der rechten Leiste den Abschnitt **Standardsegment** und klicken Sie auf die Schaltfläche **Filter erstellen**
 
-![Bedingung zum Entfernen von Kundenzeilen, die von SMS abgemeldet wurden](assets/filter-the-lines-sms-optin-condition.png)
-
->[!NOTE]
->
->Sie müssen herausfinden, wie Sie die Bedingung erstellen, aber das Endergebnis stimmt mit dem obigen Screenshot überein.  Du hast das!
+   ![Schaltfläche „Filter erstellen“ im Abschnitt „Teilmenge“](assets/filter-the-lines-create-filter-button.png)
 
 
 
-&#x200B;5. Klicken Sie auf die Schaltfläche Speichern oben rechts, um Ihre Arbeit zu speichern.  Ihre Arbeitsfläche sieht nun wie folgt aus\…
+4. Fügen Sie eine Bedingung hinzu, um sicherzustellen, dass Sie alle Kundenzeilen entfernen, die vom SMS-Messaging abgemeldet wurden, und klicken Sie dann auf **Bestätigen**.
+
+   ![Bedingung zum Entfernen von Kundenzeilen, die von SMS abgemeldet wurden](assets/filter-the-lines-sms-optin-condition.png)
+
+   >[!NOTE]
+   >
+   >Sie müssen herausfinden, wie Sie die Bedingung erstellen, aber das Endergebnis stimmt mit dem obigen Screenshot überein.  Du hast das!
+
+
+
+5. Klicken Sie auf die Schaltfläche Speichern oben rechts, um Ihre Arbeit zu speichern.  Ihre Arbeitsfläche sieht nun wie folgt aus\…
 
 ![Workflow-Arbeitsfläche nach dem Speichern der Aufspaltungsaktivität](assets/filter-the-lines-canvas-after-split-save.png)
 
@@ -60,19 +60,19 @@ In den nächsten Schritten werden Sie alle Zeilen herausfiltern, die aufgrund ih
 
 1. Klicken Sie auf der Workflow-Arbeitsfläche nach der hinzugefügten Aufspaltungsbedingung auf das Symbol **+** und wählen Sie die **SMS-Aktivität**
 
-![Fügen Sie die SMS-Aktivität nach der Aufspaltungsbedingung hinzu](assets/filter-the-lines-add-sms-activity.png)
+   ![Fügen Sie die SMS-Aktivität nach der Aufspaltungsbedingung hinzu](assets/filter-the-lines-add-sms-activity.png)
 
-![SMS-Aktivität zur Workflow-Arbeitsfläche hinzugefügt](assets/filter-the-lines-sms-activity-on-canvas.png)
-
-
-
-&#x200B;2. Klicken Sie in der rechten Leiste auf die Schaltfläche SMS bearbeiten , um mit der Konfiguration der SMS-Nachricht zu beginnen
-
-![Schaltfläche „SMS bearbeiten“ in der rechten Leiste](assets/filter-the-lines-edit-sms-button.png)
+   ![SMS-Aktivität zur Workflow-Arbeitsfläche hinzugefügt](assets/filter-the-lines-sms-activity-on-canvas.png)
 
 
 
-&#x200B;3. Klicken Sie oben in der Navigationsleiste auf das Menüelement Aktionen und wählen Sie dann aus der Dropdown-Liste SMS-Konfiguration den zuvor erstellten Kanal aus.
+2. Klicken Sie in der rechten Leiste auf die Schaltfläche SMS bearbeiten , um mit der Konfiguration der SMS-Nachricht zu beginnen
+
+   ![Schaltfläche „SMS bearbeiten“ in der rechten Leiste](assets/filter-the-lines-edit-sms-button.png)
+
+
+
+3. Klicken Sie oben in der Navigationsleiste auf das Menüelement Aktionen und wählen Sie dann aus der Dropdown-Liste SMS-Konfiguration den zuvor erstellten Kanal aus.
 
 ![Dropdown-Liste „SMS-Konfiguration“ mit Fehlermeldung „Keine Ergebnisse“](assets/filter-the-lines-sms-configuration-no-results.png)
 
@@ -108,25 +108,25 @@ Wie bringt man das hier zum Laufen?  Dimensionsänderung hinzufügen 😀
 
 1. Klicken Sie auf die Schaltfläche Zurück im Bildschirm zur SMS-Bearbeitung
 
-![Zurück-Schaltfläche zum Verlassen des SMS-Bearbeitungsbildschirms](assets/filter-the-lines-exit-sms-editor.png)
+   ![Zurück-Schaltfläche zum Verlassen des SMS-Bearbeitungsbildschirms](assets/filter-the-lines-exit-sms-editor.png)
 
 
 
-&#x200B;2. Klicken Sie auf der Workflow-Arbeitsfläche zwischen den **- und SMS-Aktivitäten auf das** Symbol **+** und wählen Sie **Dimension ändern** aus.
+2. Klicken Sie auf der Workflow-Arbeitsfläche zwischen den **- und SMS-Aktivitäten auf das** Symbol **+** und wählen Sie **Dimension ändern** aus.
 
-![Fügen Sie die Aktivität Dimensionsänderung zwischen Filter und SMS hinzu](assets/filter-the-lines-add-change-dimension.png)
+   ![Fügen Sie die Aktivität Dimensionsänderung zwischen Filter und SMS hinzu](assets/filter-the-lines-add-change-dimension.png)
 
 
 
-&#x200B;3. Aktualisieren Sie rechts die Dimensionsänderung mit den folgenden Informationen:
+3. Aktualisieren Sie rechts die Dimensionsänderung mit den folgenden Informationen:
    - **label:** `Convert Line to Account`
    - **Neue Zielgruppendimension:**`dep-rel: Customer Account`
 
-![Dimensionsänderung konfiguriert, um Linie in Konto zu konvertieren](assets/filter-the-lines-change-dimension-settings.png)
+   ![Dimensionsänderung konfiguriert, um Linie in Konto zu konvertieren](assets/filter-the-lines-change-dimension-settings.png)
 
 
 
-&#x200B;4. Klicken Sie auf **Speichern** oben rechts auf der Arbeitsfläche, um Ihre Arbeit zu speichern. Wenn Sie fertig sind, sieht Ihr Workflow jetzt wie folgt aus…
+4. Klicken Sie auf **Speichern** oben rechts auf der Arbeitsfläche, um Ihre Arbeit zu speichern. Wenn Sie fertig sind, sieht Ihr Workflow jetzt wie folgt aus…
 
 ![Workflow-Arbeitsfläche nach dem Hinzufügen der Dimensionsänderung](assets/filter-the-lines-workflow-after-change-dimension.png)
 
@@ -140,17 +140,17 @@ Nachdem Sie den Workflow behoben haben, konfigurieren Sie die SMS neu.
 
 1. Klicken Sie auf die SMS-Aktivität in der Workflow-Arbeitsfläche und klicken Sie dann in der linken Leiste auf die Schaltfläche **SMS bearbeiten**.
 
-![Schaltfläche „SMS bearbeiten“, um die SMS-Nachricht neu zu konfigurieren](assets/filter-the-lines-edit-sms-button.png)
+   ![Schaltfläche „SMS bearbeiten“, um die SMS-Nachricht neu zu konfigurieren](assets/filter-the-lines-edit-sms-button.png)
 
->[!NOTE]
->
->Das Laden dieses Bildschirms dauert eine Weile.  Ich weiß, dass es nervig ist, glauben Sie mir, dass es repariert wird
-
-
+   >[!NOTE]
+   >
+   >Das Laden dieses Bildschirms dauert eine Weile.  Ich weiß, dass es nervig ist, glauben Sie mir, dass es repariert wird
 
 
 
-&#x200B;2. Klicken Sie in der oberen Navigationsleiste auf den **Aktionen** und wählen Sie dann aus der Dropdown-Liste SMS-Konfiguration den zuvor erstellten Kanal aus.
+
+
+2. Klicken Sie in der oberen Navigationsleiste auf den **Aktionen** und wählen Sie dann aus der Dropdown-Liste SMS-Konfiguration den zuvor erstellten Kanal aus.
 
 ![SMS-Konfiguration zeigt den ausgewählten Kanal erfolgreich an](assets/filter-the-lines-sms-configuration-selected.png)
 

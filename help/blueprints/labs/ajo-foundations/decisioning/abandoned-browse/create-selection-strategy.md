@@ -4,7 +4,7 @@ description: Konfigurieren Sie eine Auswahlstrategie, die eine Angebotssammlung,
 doc-type: article
 solution: Experience Platform
 exl-id: 066ad087-6845-4ab5-9a6e-8dad1aa848f8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -25,35 +25,35 @@ Stellen Sie sich vor, wir hätten Hunderte von Angeboten, die in vierzig Sammlun
 1. Erweitern Sie bei Bedarf **Decisioning** in der linken Leiste und klicken Sie auf **Strategie einrichten**. Sie landen auf der Seite „Entscheidungsregeln“, wo Sie die Entscheidungsregel „Pläne der oberen Ebene“ sehen, die Sie zuvor erstellt und als Eignungsanforderungen für die Elemente des Telefonangebots der oberen Ebene verwendet haben.
 2. Klicken Sie auf **Auswahlstrategien** direkt unter dem Menü „Rangfolgenmethoden“. Wenn keine Auswahlstrategien verfügbar sind, klicken Sie auf die blaue Schaltfläche **Auswahlstrategie erstellen**.
 
-![Seite „Auswahlstrategien“ mit der Schaltfläche „Auswahlstrategie erstellen“](assets/create-selection-strategy-create-button.png)
+   ![Seite „Auswahlstrategien“ mit der Schaltfläche „Auswahlstrategie erstellen“](assets/create-selection-strategy-create-button.png)
 
-&#x200B;3. Auswahlstrategie benennen **iPhone 17-Auswahlstrategie**
-&#x200B;4. Sie können sehen, dass eine Auswahlstrategie drei Dinge erfordert.
+3. Auswahlstrategie benennen **iPhone 17-Auswahlstrategie**
+4. Sie können sehen, dass eine Auswahlstrategie drei Dinge erfordert.
    - Eine Sammlung von Angeboten
    - Eignungsanforderungen
    - Eine Ranking-Methode
 
-Klicken Sie auf **Sammlung auswählen**, aktivieren Sie das Kontrollkästchen neben der einzigen vorhandenen Sammlung (**iPhone 17 Collection**) und klicken Sie auf **Speichern**.
+   Klicken Sie auf **Sammlung auswählen**, aktivieren Sie das Kontrollkästchen neben der einzigen vorhandenen Sammlung (**iPhone 17 Collection**) und klicken Sie auf **Speichern**.
 
-&#x200B;5. Lassen Sie die Dropdown-Liste „Eignung“ auf „Alle Besucher“.
+5. Lassen Sie die Dropdown-Liste „Eignung“ auf „Alle Besucher“.
 
->[!NOTE]
->
->Die Eignung kann über die Kriterien für die Eingabe der Journey oder Kampagne auf der Angebots-, Auswahl- oder Journey-/Kampagnenebene angewendet werden. Es hängt alles von dem Anwendungsfall ab, den Sie zu realisieren versuchen. Wenn Sie auf die **Eignung** klicken, sehen Sie dieselben Optionen für Zielgruppe und Entscheidungsregel wie auf Angebotsebene. In unserem Anwendungsfall wollten wir nur bestimmte Angebote einschränken. Daher war es sinnvoll, die Eignung auf Angebotsebene vorzunehmen.
+   >[!NOTE]
+   >
+   >Die Eignung kann über die Kriterien für die Eingabe der Journey oder Kampagne auf der Angebots-, Auswahl- oder Journey-/Kampagnenebene angewendet werden. Es hängt alles von dem Anwendungsfall ab, den Sie zu realisieren versuchen. Wenn Sie auf die **Eignung** klicken, sehen Sie dieselben Optionen für Zielgruppe und Entscheidungsregel wie auf Angebotsebene. In unserem Anwendungsfall wollten wir nur bestimmte Angebote einschränken. Daher war es sinnvoll, die Eignung auf Angebotsebene vorzunehmen.
 
-&#x200B;6. Legen Sie die **Rangfolgenmethode** auf **Formel fest** klicken Sie dann auf die Schaltfläche **Formel auswählen**.
+6. Legen Sie die **Rangfolgenmethode** auf **Formel fest** klicken Sie dann auf die Schaltfläche **Formel auswählen**.
 
->[!NOTE]
->
->Ihnen sind möglicherweise die Optionen „Angebotspriorität“ und „KI-Modell“ in der Dropdown-Liste der Ranking-Methode aufgefallen. Wenn Sie wirklich nur Angebote mit ihrer ursprünglichen Priorität zurückgeben möchten, wählen Sie die Option „Angebotspriorität“.
->
->Die Option KI-Modell verwendet ein KI-Modell, das Impressionen, Klicks und Konversionen für zurückgegebene Angebote analysiert, um zu bestimmen, welches Angebot dem Kontakt angezeigt werden soll. Wir werden sie in diesem Labor nicht verwenden, da es Mindestdatenschwellen sowie zwei Wochen zum Trainieren der Modelle gibt.
+   >[!NOTE]
+   >
+   >Ihnen sind möglicherweise die Optionen „Angebotspriorität“ und „KI-Modell“ in der Dropdown-Liste der Ranking-Methode aufgefallen. Wenn Sie wirklich nur Angebote mit ihrer ursprünglichen Priorität zurückgeben möchten, wählen Sie die Option „Angebotspriorität“.
+   >
+   >Die Option KI-Modell verwendet ein KI-Modell, das Impressionen, Klicks und Konversionen für zurückgegebene Angebote analysiert, um zu bestimmen, welches Angebot dem Kontakt angezeigt werden soll. Wir werden sie in diesem Labor nicht verwenden, da es Mindestdatenschwellen sowie zwei Wochen zum Trainieren der Modelle gibt.
 
-&#x200B;7. Markieren Sie das Kästchen neben der einzigen Rangfolgenformel, die Sie haben (**iPhone 17 Rangfolgenformel**), und klicken Sie auf **Speichern**. Wenn Sie fertig sind, sieht Ihre Auswahlstrategie wie folgt aus:
+7. Markieren Sie das Kästchen neben der einzigen Rangfolgenformel, die Sie haben (**iPhone 17 Rangfolgenformel**), und klicken Sie auf **Speichern**. Wenn Sie fertig sind, sieht Ihre Auswahlstrategie wie folgt aus:
 
-![Abgeschlossene Auswahlstrategie mit festgelegter Sammlung, Gültigkeit und Rangfolgenformel](assets/create-selection-strategy-completed-configuration.png)
+   ![Abgeschlossene Auswahlstrategie mit festgelegter Sammlung, Gültigkeit und Rangfolgenformel](assets/create-selection-strategy-completed-configuration.png)
 
-&#x200B;8. Sobald Ihre Auswahlstrategie korrekt ist, klicken Sie auf die blaue Schaltfläche **Erstellen**.
+8. Sobald Ihre Auswahlstrategie korrekt ist, klicken Sie auf die blaue Schaltfläche **Erstellen**.
 
 >[!TIP]
 >

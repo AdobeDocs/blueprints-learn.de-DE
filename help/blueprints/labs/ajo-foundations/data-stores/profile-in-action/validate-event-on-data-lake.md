@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den Data Lake abfragen, um zu überprüfen, o
 doc-type: article
 solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Stellen Sie sicher, dass das Web-Ereignis in den Data Lake von Experience Platfo
 
 ## Ereignis validieren
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Schließlich erscheinen die Daten im Data Lake.  **Dies kann bis zu 60 Minuten dauern**.  Wir wissen, dass der Datensatz für das Profil aktiviert ist und daher das Ereignis ein Profilfragment erstellt.
 >
@@ -28,18 +28,18 @@ Stellen Sie sicher, dass das Web-Ereignis in den Data Lake von Experience Platfo
 
 1. Gehen Sie zu **Abfragen** und **Abfrage erstellen**
 
-![Bildschirm „Abfrage erstellen“ im Abschnitt „Abfragen“](assets/validate-event-on-data-lake-create-query.png)
+   ![Bildschirm „Abfrage erstellen“ im Abschnitt „Abfragen“](assets/validate-event-on-data-lake-create-query.png)
 
-&#x200B;2. SQL kopieren und in Abfrage einfügen
+2. SQL kopieren und in Abfrage einfügen
 
-```sql
-SELECT identityMap['email'][0].id, * FROM dep_web
-where identityMap['email'][0].id = 'henry.creel@emailsim.io'
-```
+   ```sql
+   SELECT identityMap['email'][0].id, * FROM dep_web
+   where identityMap['email'][0].id = 'henry.creel@emailsim.io'
+   ```
 
-&#x200B;3. **Ausführen** Abfrage
+3. **Ausführen** Abfrage
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >**Denken Sie**: Schließlich werden die Daten im Data Lake angezeigt.  **Dies kann bis zu 60 Minuten dauern**.
 >

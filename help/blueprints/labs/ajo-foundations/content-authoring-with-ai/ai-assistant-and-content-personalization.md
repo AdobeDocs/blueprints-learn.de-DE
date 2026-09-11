@@ -4,7 +4,7 @@ description: Verwenden Sie den KI-Assistenten von Adobe Journey Optimizer, um ma
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 5%
@@ -39,7 +39,7 @@ Er kann:
 
 Für diese Übung verbessern Sie die E-Mail, die Sie mit dem KI-Assistenten erstellt haben.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Der KI-Assistent ist **nicht deterministisch** was bedeutet, dass er bei jeder Verwendung etwas anderen Inhalt generieren kann. Was Sie während des Trainings sehen, stimmt möglicherweise nicht genau mit den Screenshots oder Beispielen in diesem Handbuch überein. Das ist okay - konzentrieren Sie sich darauf, den Prozess und die Konzepte zu erlernen, anstatt identische Ergebnisse zu erwarten.
 
@@ -51,20 +51,20 @@ Für diese Übung verbessern Sie die E-Mail, die Sie mit dem KI-Assistenten erst
 4. Wählen Sie das Feld **Betreffzeile** aus.
 5. Klicken Sie auf das **KI-Assistenten-Symbol**. (siehe unten)
 
-![Symbol „KI-Assistent“ in der Symbolleiste des Betreffzeilenfelds](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   ![Symbol „KI-Assistent“ in der Symbolleiste des Betreffzeilenfelds](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
-&#x200B;6. Sie werden feststellen, dass die Markenrichtlinie standardmäßig ausgewählt ist.
-&#x200B;7. Eingabeaufforderung eingeben:
+6. Sie werden feststellen, dass die Markenrichtlinie standardmäßig ausgewählt ist.
+7. Eingabeaufforderung eingeben:
 
->Wir starten iPhone 17 und möchten, dass eine Betreffzeile eingängig ist
+   >Wir starten iPhone 17 und möchten, dass eine Betreffzeile eingängig ist
 
-&#x200B;8. Drücken Sie **Generieren**.
-&#x200B;9. Überprüfen Sie die vier generierten Varianten.
-&#x200B;10. Wählen Sie die Variante mit der besten Alignment-Punktzahl aus und klicken Sie auf **Auswählen**.
+8. Drücken Sie **Generieren**.
+9. Überprüfen Sie die vier generierten Varianten.
+10. Wählen Sie die Variante mit der besten Alignment-Punktzahl aus und klicken Sie auf **Auswählen**.
 
 ![Auswahl der am besten abgestimmten Betreffzeilenvariante im KI-Assistenten](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Ihre Ergebnisse können völlig anders sein als im Laborhandbuch, sodass Sie sich keine Sorgen machen müssen. Wählen Sie den Ihrer Meinung nach richtigen Titel aus und fahren Sie mit dem Labor fort.
 
@@ -75,34 +75,34 @@ Für diese Übung verbessern Sie die E-Mail, die Sie mit dem KI-Assistenten erst
 
 1. Öffnen Sie die E-Mail, indem Sie auf die Schaltfläche „E-Mail-Textkörper bearbeiten“ klicken.
 
-![Schaltfläche „E-Mail-Textkörper bearbeiten“ im Campaign-Editor](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
+   ![Schaltfläche „E-Mail-Textkörper bearbeiten“ im Campaign-Editor](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
-&#x200B;2. Klicken Sie auf die **Produkteinprägsame Zeile**.
-&#x200B;3. Öffnen Sie den KI-Assistenten durch Klicken auf **Erstellen und wählen Sie einen Text aus**
+2. Klicken Sie auf die **Produkteinprägsame Zeile**.
+3. Öffnen Sie den KI-Assistenten durch Klicken auf **Erstellen und wählen Sie einen Text aus**
 
-![Textoption zum Öffnen des KI-Assistenten generieren und auswählen](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
+   ![Textoption zum Öffnen des KI-Assistenten generieren und auswählen](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
 
-&#x200B;4. Wählen Sie **Dropdown-Liste „Richtlinien für die 5G** Markenbezeichnung Verbindung“.
+4. Wählen Sie **Dropdown-Liste „Richtlinien für die 5G** Markenbezeichnung Verbindung“.
 
-![Option „Verbindungs-5G-Markenrichtlinien“ im Dropdown-Menü des KI-Assistenten ausgewählt](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
+   ![Option „Verbindungs-5G-Markenrichtlinien“ im Dropdown-Menü des KI-Assistenten ausgewählt](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
 
-&#x200B;5. Eingabeaufforderung:
+5. Eingabeaufforderung:
 
->*Schreiben Sie eine fette, aufmerksamkeitsstarke Überschrift für den Launch von iPhone 17. Halte es unter 10 Wörtern*
+   >*Schreiben Sie eine fette, aufmerksamkeitsstarke Überschrift für den Launch von iPhone 17. Halte es unter 10 Wörtern*
 
-&#x200B;6. Klicken Sie auf Texteinstellungen, um den Ton und die Kommunikationsstrategie zu ändern. Ändern Sie die Kommunikationsstrategie in **FOMO (Fear of Missing Out)** Sprache in **Englisch** und Ton in **Spannend**. Verwenden Sie eine kürzere Version, indem Sie den Knopf herunterskalieren.
+6. Klicken Sie auf Texteinstellungen, um den Ton und die Kommunikationsstrategie zu ändern. Ändern Sie die Kommunikationsstrategie in **FOMO (Fear of Missing Out)** Sprache in **Englisch** und Ton in **Spannend**. Verwenden Sie eine kürzere Version, indem Sie den Knopf herunterskalieren.
 
-![Bedienfeld Texteinstellungen mit FOMO Kommunikationsstrategie und Aufregendem Ton ausgewählt](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
+   ![Bedienfeld Texteinstellungen mit FOMO Kommunikationsstrategie und Aufregendem Ton ausgewählt](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
-&#x200B;7. Klicken Sie auf die **Generieren**-Schaltfläche
-&#x200B;8. Überprüfen und wählen Sie die beste Version aus,
-&#x200B;9. Wenn Ihr Text lang ist, verwenden Sie den Schieberegler, um „kürzeren Text“ zu **&#x200B;**&#x200B;und den Text neu zu generieren.
+7. Klicken Sie auf die **Generieren**-Schaltfläche
+8. Überprüfen und wählen Sie die beste Version aus,
+9. Wenn Ihr Text lang ist, verwenden Sie den Schieberegler, um „kürzeren Text“ zu **** und den Text neu zu generieren.
 
 
 
-![Regler für kürzeren Text wird verwendet, um eine kürzere Überschrift neu zu erzeugen](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
+   ![Regler für kürzeren Text wird verwendet, um eine kürzere Überschrift neu zu erzeugen](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
 
-&#x200B;10. Sobald Sie mit dem Text zufrieden sind, klicken Sie auf **Auswählen**
+10. Sobald Sie mit dem Text zufrieden sind, klicken Sie auf **Auswählen**
 
 ![Auswählen des generierten Hero-Überschriftstextes](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
@@ -112,21 +112,21 @@ Dieses Mal testen Sie, wie KI dabei helfen kann, Probleme zu finden.
 
 1. Wählen Sie den Text aus, unter dem der Vorlagentext liegt und der keine Bedeutung hat.
 
-![Platzhaltertext für Vorlage zur Auswertung ausgewählt](assets/ai-assistant-and-content-personalization-select-templated-text.png)
+   ![Platzhaltertext für Vorlage zur Auswertung ausgewählt](assets/ai-assistant-and-content-personalization-select-templated-text.png)
 
-&#x200B;2. Klicken Sie auf die Schaltfläche „Bewerten“, wie unten dargestellt.
+2. Klicken Sie auf die Schaltfläche „Bewerten“, wie unten dargestellt.
 
-![Schaltfläche „Auswerten“ im Textfeld des KI-Assistenten](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
+   ![Schaltfläche „Auswerten“ im Textfeld des KI-Assistenten](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
-&#x200B;3. Ihr Originalinhalt wird automatisch mit Ihrer Marke ausgewählt, wie in den Schritten 1 und 2 unten dargestellt. Klicken Sie auf **Auswerten**, um fortzufahren.
+3. Ihr Originalinhalt wird automatisch mit Ihrer Marke ausgewählt, wie in den Schritten 1 und 2 unten dargestellt. Klicken Sie auf **Auswerten**, um fortzufahren.
 
-![Originalinhalte werden vor der Auswertung automatisch anhand von Markenrichtlinien ausgewählt](assets/ai-assistant-and-content-personalization-evaluate-brand-alignment.png)
+   ![Originalinhalte werden vor der Auswertung automatisch anhand von Markenrichtlinien ausgewählt](assets/ai-assistant-and-content-personalization-evaluate-brand-alignment.png)
 
-&#x200B;4. Wie erwartet, bemerken Sie viele Fehler, die gegen die Markenrichtlinien verstoßen. Obwohl diese mit KI korrigiert werden können, überarbeiten Sie in diesem Fall die vorhandenen Materialien nicht. Stattdessen lassen Sie sie unverändert und erstellen neue Inhalte von Grund auf, die vollständig den Markenstandards entsprechen.
+4. Wie erwartet, bemerken Sie viele Fehler, die gegen die Markenrichtlinien verstoßen. Obwohl diese mit KI korrigiert werden können, überarbeiten Sie in diesem Fall die vorhandenen Materialien nicht. Stattdessen lassen Sie sie unverändert und erstellen neue Inhalte von Grund auf, die vollständig den Markenstandards entsprechen.
 
-![Ergebnisse der KI-Assistant-Auswertung, die Verstöße gegen Markenrichtlinien anzeigen](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
+   ![Ergebnisse der KI-Assistant-Auswertung, die Verstöße gegen Markenrichtlinien anzeigen](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
-&#x200B;5. Verwenden Sie den neuen Absatz, der für Sie mithilfe von KI generiert wurde, mit der folgenden Eingabeaufforderung. Sie können denselben Ansatz für den Beschreibungstext verwenden, indem Sie die unten stehende Eingabeaufforderung verwenden.
+5. Verwenden Sie den neuen Absatz, der für Sie mithilfe von KI generiert wurde, mit der folgenden Eingabeaufforderung. Sie können denselben Ansatz für den Beschreibungstext verwenden, indem Sie die unten stehende Eingabeaufforderung verwenden.
 
 Eingabeaufforderung:
 
@@ -153,13 +153,13 @@ Wir verstehen, dass wir das Geburtsjahr des Profils haben. Eine der Erfahrungen,
 
 1. Ziehen Sie eine **Bild**-Komponente in die linke Spalte unter dem Block iPhone 17-Familie .
 
-![Ziehen einer Bildkomponente unter den Block der iPhone 17-Familie](assets/ai-assistant-and-content-personalization-drag-image-component.png)
+   ![Ziehen einer Bildkomponente unter den Block der iPhone 17-Familie](assets/ai-assistant-and-content-personalization-drag-image-component.png)
 
-&#x200B;2. Klicken Sie nach außen und wählen Sie dann den Bildplatzhalter aus. (Klicken Sie unbedingt auf das Bild, da sonst die Option Firefly nicht angezeigt wird.)
+2. Klicken Sie nach außen und wählen Sie dann den Bildplatzhalter aus. (Klicken Sie unbedingt auf das Bild, da sonst die Option Firefly nicht angezeigt wird.)
 
-![Auswählen des Bildplatzhalters für den Zugriff auf Firefly-Optionen](assets/ai-assistant-and-content-personalization-select-image-placeholder.png)
+   ![Auswählen des Bildplatzhalters für den Zugriff auf Firefly-Optionen](assets/ai-assistant-and-content-personalization-select-image-placeholder.png)
 
-&#x200B;3. Klicken Sie unter **Firefly** auf **Generieren und wählen Sie ein Bild aus**.
+3. Klicken Sie unter **Firefly** auf **Generieren und wählen Sie ein Bild aus**.
 
 ![Option „Bild generieren und auswählen“ unter Firefly](assets/ai-assistant-and-content-personalization-firefly-generate-select-image.png)
 
@@ -168,17 +168,17 @@ Wir verstehen, dass wir das Geburtsjahr des Profils haben. Eine der Erfahrungen,
 1. &quot;**&quot;**.
 2. Wählen Sie **Verbindung 5G Markenrichtlinie** zur Markenauswahl
 
-![Anschluss 5G-Markenrichtlinie für Bildreferenzstil ausgewählt](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
+   ![Anschluss 5G-Markenrichtlinie für Bildreferenzstil ausgewählt](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
-&#x200B;3. Klicken Sie auf Bild hochladen
+3. Klicken Sie auf Bild hochladen
 
-![Schaltfläche „Bild hochladen“ im Bereich &quot;Firefly-Referenzstil“](assets/ai-assistant-and-content-personalization-click-upload-image.png)
+   ![Schaltfläche „Bild hochladen“ im Bereich &quot;Firefly-Referenzstil“](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
-&#x200B;4. Wählen Sie reference.jpg im Toolkit-Ordner aus.
+4. Wählen Sie reference.jpg im Toolkit-Ordner aus.
 
-![Auswählen von reference.jpg im Toolkit-Ordner](assets/ai-assistant-and-content-personalization-select-reference-jpg.png)
+   ![Auswählen von reference.jpg im Toolkit-Ordner](assets/ai-assistant-and-content-personalization-select-reference-jpg.png)
 
-&#x200B;5. Eingabeaufforderung für Bild hinzufügen
+5. Eingabeaufforderung für Bild hinzufügen
    `Portrait-oriented image of a confident man in his early to mid-40s, standing alone at night in a neon-lit urban street, focused on his smartphone. Cinematic cyberpunk-inspired city atmosphere with colorful LED signs, cool blue and warm orange lighting, shallow depth of field, soft bokeh lights in the background. Modern lifestyle, tech-savvy mood, realistic skin tones, high contrast, photorealistic, professional lighting, ultra-detailed`.
 
 ![Firefly-Bildaufforderungsfeld mit eingegebener Hochformat-Beschreibung](assets/ai-assistant-and-content-personalization-firefly-image-prompt.png)
@@ -201,17 +201,17 @@ Wählen Sie Ihre **Bildeinstellungen**:
 
 1. Überprüfen Sie die Firefly-Ergebnisse, indem Sie alle generierten Bilder überprüfen.
 
-![Überprüfen der von Firefly generierten Bildergebnisse](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
+   ![Überprüfen der von Firefly generierten Bildergebnisse](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
 
-&#x200B;2. Klicken Sie **Auswählen** für das gewünschte Bild.
+2. Klicken Sie **Auswählen** für das gewünschte Bild.
 
-![Auswählen des gewünschten generierten Firefly-Bildes](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
+   ![Auswählen des gewünschten generierten Firefly-Bildes](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
 
-&#x200B;3. Wenn Sie über ein Upload-Modal dazu aufgefordert werden, klicken Sie auf **Weiter**.
+3. Wenn Sie über ein Upload-Modal dazu aufgefordert werden, klicken Sie auf **Weiter**.
 
-![Aufforderung zum Hochladen, auf „Weiter“ zu klicken](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
+   ![Aufforderung zum Hochladen, auf „Weiter“ zu klicken](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
 
-&#x200B;4. Klicken Sie dann auf **Importieren**.
+4. Klicken Sie dann auf **Importieren**.
 
 ![Importschaltfläche zum Einfügen des ausgewählten Bildes](assets/ai-assistant-and-content-personalization-click-import-button.png)
 

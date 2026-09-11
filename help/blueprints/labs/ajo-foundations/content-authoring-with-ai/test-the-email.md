@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Testversand-E-Mail
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -32,27 +32,27 @@ An dieser Stelle haben Sie gelernt, dass wir nicht nur die Profilattribute perso
 1. Klicken Sie **Inhalt simulieren**.
 2. Wählen **Inhaltsvariante simulieren** aus.
 
-![Klicken auf Inhalt simulieren und wählen Sie Inhaltsvariante simulieren aus](assets/content-simulation-click-simulate-content-variation.png)
+   ![Klicken auf Inhalt simulieren und wählen Sie Inhaltsvariante simulieren aus](assets/content-simulation-click-simulate-content-variation.png)
 
-Ein Simulationsfenster wird geöffnet.
+   Ein Simulationsfenster wird geöffnet.
 
-&#x200B;3. Klicken Sie **Testversand durchführen**.
+3. Klicken Sie **Testversand durchführen**.
 
-![Schaltfläche „Testversand durchführen“ im Simulationsbedienfeld](assets/test-the-email-click-send-proof-button.png)
+   ![Schaltfläche „Testversand durchführen“ im Simulationsbedienfeld](assets/test-the-email-click-send-proof-button.png)
 
-&#x200B;4. Fügen Sie Ihre eigene persönliche E-Mail-Adresse hinzu.
+4. Fügen Sie Ihre eigene persönliche E-Mail-Adresse hinzu.
 
->[!NOTE]
->
->Beachten Sie, dass Ihre Unternehmens-E-Mail manchmal E-Mails aus der Sandbox blockiert. Ich würde Ihnen empfehlen, Ihre persönliche E-Mail zu verwenden.
+   >[!NOTE]
+   >
+   >Beachten Sie, dass Ihre Unternehmens-E-Mail manchmal E-Mails aus der Sandbox blockiert. Ich würde Ihnen empfehlen, Ihre persönliche E-Mail zu verwenden.
 
 
 
-&#x200B;5. Wählen Sie beide Varianten aus.
-&#x200B;6. Präfix der Betreffzeile hinzufügen
+5. Wählen Sie beide Varianten aus.
+6. Präfix der Betreffzeile hinzufügen
    1. Variante 1: über 40
    2. Variante 2: Unter 40
-&#x200B;7. Klicken Sie **Testversand durchführen**. Sie erhalten die grüne Bestätigungsmeldung &quot;**Testsendungen erfolgreich gesendet**&quot;
+7. Klicken Sie **Testversand durchführen**. Sie erhalten die grüne Bestätigungsmeldung &quot;**Testsendungen erfolgreich gesendet**&quot;
 
 ![Grüne Bestätigungsnachricht mit Testsendungen erfolgreich gesendet](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

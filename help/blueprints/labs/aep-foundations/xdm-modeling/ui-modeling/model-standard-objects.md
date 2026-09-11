@@ -4,7 +4,7 @@ description: Erstellen Sie ein Schema „Individuelles Profil“ in der Benutzer
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. Klicken Sie in der **Leiste auf** Schemata“.
 
-![Registerkarte Schemata in der linken Leiste Navigation](assets/model-standard-objects-schemas-tab-left-rail.png "Navigieren Sie mithilfe der linken Leiste zu Schemata")
+   ![Registerkarte Schemata in der linken Leiste Navigation](assets/model-standard-objects-schemas-tab-left-rail.png "Navigieren Sie mithilfe der linken Leiste zu Schemata")
 
 
 
@@ -35,13 +35,13 @@ ht-degree: 0%
 
 1. Klicken Sie zunächst auf **Schema erstellen**
 
-![Schaltfläche „Schema erstellen](assets/model-standard-objects-create-schema-button.png "Schema erstellen")
+   ![Schaltfläche „Schema erstellen](assets/model-standard-objects-create-schema-button.png "Schema erstellen")
 
 
 
 1. Wählen Sie **Manuell**
 
-![Wählen Sie die Option „Manuelle Schemaerstellung“](assets/model-standard-objects-select-manual-option.png "Wählen Sie „Manuell“")
+   ![Wählen Sie die Option „Manuelle Schemaerstellung“](assets/model-standard-objects-select-manual-option.png "Wählen Sie „Manuell“")
 
 
 
@@ -67,24 +67,24 @@ Es gibt viele Feldergruppen, die als Standard-XDM in Adobe Experience Platform v
 
 1. Klicken Sie auf **+ (Hinzufügen** in der linken Leiste im Abschnitt Feldergruppe .
 
-![Schaltfläche „Feldergruppe hinzufügen“ in der linken Leiste](assets/model-standard-objects-add-field-group-button.png "Feldergruppe hinzufügen")
+   ![Schaltfläche „Feldergruppe hinzufügen“ in der linken Leiste](assets/model-standard-objects-add-field-group-button.png "Feldergruppe hinzufügen")
 
 
 
 1. Suchen Sie nach **Demografische Details** oder finden Sie sie in der Liste.
 
-- Wenn Sie die Feldergruppe gefunden haben, klicken Sie auf die Lupe rechts neben der Feldergruppe, um deren Struktur anzuzeigen.  Dies ist eine nützliche Möglichkeit, eine Vorschau dessen anzuzeigen, was Sie Ihrem Schema hinzufügen möchten, ohne es tatsächlich hinzuzufügen.
-- Vorschau nach Überprüfung schließen
+   - Wenn Sie die Feldergruppe gefunden haben, klicken Sie auf die Lupe rechts neben der Feldergruppe, um deren Struktur anzuzeigen.  Dies ist eine nützliche Möglichkeit, eine Vorschau dessen anzuzeigen, was Sie Ihrem Schema hinzufügen möchten, ohne es tatsächlich hinzuzufügen.
+   - Vorschau nach Überprüfung schließen
 
 
 
-![Klicken Sie auf das Lupensymbol, um eine Vorschau der Struktur der Feldergruppe anzuzeigen](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Klicken Sie auf das Lupensymbol, um eine Vorschau der Struktur der Feldergruppe anzuzeigen")
+   ![Klicken Sie auf das Lupensymbol, um eine Vorschau der Struktur der Feldergruppe anzuzeigen](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Klicken Sie auf das Lupensymbol, um eine Vorschau der Struktur der Feldergruppe anzuzeigen")
 
-![Vorschau der Feldergruppenstruktur „Demografische Details“](assets/model-standard-objects-demographic-details-structure-preview.png)
+   ![Vorschau der Feldergruppenstruktur „Demografische Details“](assets/model-standard-objects-demographic-details-structure-preview.png)
 
 
 
-&#x200B;3. **Aktivieren** das Kontrollkästchen neben der Feldergruppe und klicken Sie dann auf die Schaltfläche **Feldergruppen hinzufügen**
+3. **Aktivieren** das Kontrollkästchen neben der Feldergruppe und klicken Sie dann auf die Schaltfläche **Feldergruppen hinzufügen**
 
 ![Wählen Sie die Feldergruppe Demografische Details aus, um sie zu Ihrem Schema hinzuzufügen](assets/model-standard-objects-select-demographic-details-field-group.png "Wählen Sie die Feldergruppe Demografische Details aus, um sie zu Ihrem Schema hinzuzufügen")
 
@@ -125,24 +125,24 @@ Zum Entfernen von Feldern aus einer Adobe-Standardfeldgruppe können Sie die Opt
 1. Wählen Sie das **Person**-Objekt in Ihrem Schema aus
 1. Klicken Sie auf **Verknüpfte Felder verwalten** in der rechten Leiste
 
-![Option „Verwandte Felder verwalten“ für das Personenobjekt in der Feldergruppe „Demografische Details](assets/model-standard-objects-manage-related-fields-person-object.png " „Verwandte Felder für das Personenobjekt als Teil der Feldergruppe „Demografische Details“ verwalten")
+   ![Option „Verwandte Felder verwalten“ für das Personenobjekt in der Feldergruppe „Demografische Details](assets/model-standard-objects-manage-related-fields-person-object.png " „Verwandte Felder für das Personenobjekt als Teil der Feldergruppe „Demografische Details“ verwalten")
 
 
 
 1. Erweitern Sie das Objekt Person , indem Sie auf den Pfeil links neben Person klicken, und erweitern Sie das Objekt Vollständiger Name , indem Sie auf den Pfeil links neben dem Objekt Name klicken. Nur die folgenden Felder beibehalten:
 
-- person.name.firstName
-- person.name.lastName
-- person.bornDayAndMonth
-- person.BirthYear
+   - person.name.firstName
+   - person.name.lastName
+   - person.bornDayAndMonth
+   - person.BirthYear
 
-Wenn Sie fertig sind, klicken Sie auf die **Bestätigen**-Schaltfläche in der oberen rechten Ecke.
+   Wenn Sie fertig sind, klicken Sie auf die **Bestätigen**-Schaltfläche in der oberen rechten Ecke.
 
-![Dialogfeld „Verknüpfte Felder verwalten“ mit ausgewählten Personenfeldern „Demografische Details](assets/model-standard-objects-demographic-details-person-fields-dialog.png " „Verknüpfte Felder des Personenobjekts „Demografische Details“ verwalten")
+   ![Dialogfeld „Verknüpfte Felder verwalten“ mit ausgewählten Personenfeldern „Demografische Details](assets/model-standard-objects-demographic-details-person-fields-dialog.png " „Verknüpfte Felder des Personenobjekts „Demografische Details“ verwalten")
 
->[!NOTE]
->
->Klicken Sie auf das oberste Kontrollkästchen für **Demografische Details**, um die Auswahl aller untergeordneten Objekte automatisch aufzuheben und dann nur die gewünschten Objekte erneut auszuwählen.
+   >[!NOTE]
+   >
+   >Klicken Sie auf das oberste Kontrollkästchen für **Demografische Details**, um die Auswahl aller untergeordneten Objekte automatisch aufzuheben und dann nur die gewünschten Objekte erneut auszuwählen.
 
 
 

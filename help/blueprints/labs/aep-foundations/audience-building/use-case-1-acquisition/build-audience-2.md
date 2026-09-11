@@ -162,7 +162,7 @@ Marketing betrat heute und gab uns die Anforderung, dieses Streaming zu haben, u
 >
 >Überlegungen zur Auswahl von Batch vs. Streaming oder Edge:
 >
->Neueste Leitplanken: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+>Neueste Leitplanken: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 >[!TIP]
 >

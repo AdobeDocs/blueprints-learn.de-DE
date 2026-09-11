@@ -157,7 +157,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 >
 >Wir haben aus einigen Gründen eine einfache Anforderung in viele Zielgruppen aufgeteilt. Die Anforderung gilt für ein Streaming, aber diese beiden Anforderungen machen unsere Zielgruppe zu Batch. Weitere Informationen zu den Streaming-Eignungsregeln finden Sie hier:
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de)
 
 >[!NOTE]
 >
@@ -167,7 +167,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 >
 >Wir müssen wissen, dass AEP bei Verwendung einer Zielgruppe innerhalb einer Zielgruppe nach Möglichkeit versucht, eine Sequenz durchzuführen. Es gibt Randfälle, in denen dies nicht möglich ist, z. B. Wenn eine Zielgruppe verwendet wird, erfolgt alle 24 Stunden eine Profildisqualifizierung.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=de](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=de)
 
 
 

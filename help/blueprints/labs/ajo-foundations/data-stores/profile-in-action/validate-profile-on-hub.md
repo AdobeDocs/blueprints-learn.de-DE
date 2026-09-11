@@ -74,7 +74,7 @@ Suchen Sie in Adobe Experience Platform das Profil, das Sie gerade von dem Ereig
 >
 >**Wie liest man segmentMembership?**
 >
->[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** Dies ist der Zuordnungsschlüssel für verschiedene Arten von Zielgruppen, die von AEP unterstützt werden.  Der UPS-Schlüssel enthält Zielgruppen , die vom Regel-Builder erstellt wurden.  Andere Zielgruppen sind in anderen Schlüsseln enthalten (z. B. AAM).
 >

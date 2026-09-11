@@ -246,7 +246,7 @@ Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 >
 >Container sind eine Möglichkeit, auf eine Ereignisvariable oder ein Array-Element zu verweisen. In diesem Blog können Sie mehr über die Auswirkungen erfahren, aber der Einfachheit halber können Sie damit angeben, ob ein einzelnes Element im Array beide Bedingungen erfüllt oder die Bedingung auf zwei Elemente verteilt werden kann.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=de](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=de)
 
 >[!WARNING]
 >

@@ -162,7 +162,7 @@ Fügen Sie den neuen Pfad hinzu:
 >
 >Überlegungen zur Auswahl von Batch vs. Streaming oder Edge:
 >
->Neueste Leitplanken: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+>Neueste Leitplanken: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 >[!TIP]
 >

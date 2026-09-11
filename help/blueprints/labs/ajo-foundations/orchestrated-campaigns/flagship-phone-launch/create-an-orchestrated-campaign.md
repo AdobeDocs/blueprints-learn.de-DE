@@ -29,14 +29,14 @@ Im nächsten Schritt erstellen Sie die Shell einer orchestrierten Kampagne (kein
 
 
 
-2. Wählen Sie in der linken Navigationsleiste die Option **Kampagnen**
-3. Klicken Sie dann oben **auf** Schaltfläche Kampagne erstellen .
+&#x200B;2. Wählen Sie in der linken Navigationsleiste die Option **Kampagnen**
+&#x200B;3. Klicken Sie dann oben **auf** Schaltfläche Kampagne erstellen .
 
 ![Schaltfläche „Kampagne erstellen“ in der Kampagnennavigation](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-4. Wählen Sie in dem angezeigten Modal **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
+&#x200B;4. Wählen Sie in dem angezeigten Modal **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
 
 ![Wählen Sie Orchestrierung - Marketing aus und klicken Sie auf Bestätigen](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -52,7 +52,7 @@ Danach sollte der Bildschirm wie folgt aussehen.
 
 ![Kampagneneinstellungen mit Namen und Zusammenführungsrichtlinie ausgefüllt](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-2. Klicken Sie auf **Speichern**, um fortzufahren.
+&#x200B;2. Klicken Sie auf **Speichern**, um fortzufahren.
 
 
 

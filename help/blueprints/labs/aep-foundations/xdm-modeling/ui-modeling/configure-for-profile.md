@@ -141,7 +141,6 @@ Durchsuchen Sie die Klasse XDM Individual Profile und nehmen Sie sich dann einen
 >[!NOTE]
 >
 >Beachten Sie, dass das angezeigte Schema eine aggregierte zusammengeführte Ansicht aller profilaktivierten Schemas in Ihrer Sandbox ist. Ähnliche Felder innerhalb der hierarchischen XDM-Struktur werden zusammengeführt, während Felder mit unterschiedlichen Namen und/oder Hierarchien zur Gesamtansicht hinzugefügt werden.
-
 > [!NOTE]
 >
 >Nur die auf XDM Individual Profile basierende Klasse führt Zusammenführungen zwischen Feldern mit ähnlichen Namen durch.

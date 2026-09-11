@@ -29,19 +29,19 @@ In den nächsten Schritten werden Sie alle Zeilen herausfiltern, die aufgrund ih
 
 
 
-2. Aktualisieren Sie in der rechten Leiste die Bezeichnung , sodass sie Folgendes angibt: `Filter out opt'd out lines`
+&#x200B;2. Aktualisieren Sie in der rechten Leiste die Bezeichnung , sodass sie Folgendes angibt: `Filter out opt'd out lines`
 
 ![Der Titel der Aufspaltungsaktivität wurde zum Filtern von Opt-out-Zeilen festgelegt](assets/filter-the-lines-set-split-label.png)
 
 
 
-3. Erweitern Sie in der rechten Leiste den Abschnitt **Standardsegment** und klicken Sie auf die Schaltfläche **Filter erstellen**
+&#x200B;3. Erweitern Sie in der rechten Leiste den Abschnitt **Standardsegment** und klicken Sie auf die Schaltfläche **Filter erstellen**
 
 ![Schaltfläche „Filter erstellen“ im Abschnitt „Teilmenge“](assets/filter-the-lines-create-filter-button.png)
 
 
 
-4. Fügen Sie eine Bedingung hinzu, um sicherzustellen, dass Sie alle Kundenzeilen entfernen, die vom SMS-Messaging abgemeldet wurden, und klicken Sie dann auf **Bestätigen**.
+&#x200B;4. Fügen Sie eine Bedingung hinzu, um sicherzustellen, dass Sie alle Kundenzeilen entfernen, die vom SMS-Messaging abgemeldet wurden, und klicken Sie dann auf **Bestätigen**.
 
 ![Bedingung zum Entfernen von Kundenzeilen, die von SMS abgemeldet wurden](assets/filter-the-lines-sms-optin-condition.png)
 
@@ -51,7 +51,7 @@ In den nächsten Schritten werden Sie alle Zeilen herausfiltern, die aufgrund ih
 
 
 
-5. Klicken Sie auf die Schaltfläche Speichern oben rechts, um Ihre Arbeit zu speichern.  Ihre Arbeitsfläche sieht nun wie folgt aus\…
+&#x200B;5. Klicken Sie auf die Schaltfläche Speichern oben rechts, um Ihre Arbeit zu speichern.  Ihre Arbeitsfläche sieht nun wie folgt aus\…
 
 ![Workflow-Arbeitsfläche nach dem Speichern der Aufspaltungsaktivität](assets/filter-the-lines-canvas-after-split-save.png)
 
@@ -67,13 +67,13 @@ In den nächsten Schritten werden Sie alle Zeilen herausfiltern, die aufgrund ih
 
 
 
-2. Klicken Sie in der rechten Leiste auf die Schaltfläche SMS bearbeiten , um mit der Konfiguration der SMS-Nachricht zu beginnen
+&#x200B;2. Klicken Sie in der rechten Leiste auf die Schaltfläche SMS bearbeiten , um mit der Konfiguration der SMS-Nachricht zu beginnen
 
 ![Schaltfläche „SMS bearbeiten“ in der rechten Leiste](assets/filter-the-lines-edit-sms-button.png)
 
 
 
-3. Klicken Sie oben in der Navigationsleiste auf das Menüelement Aktionen und wählen Sie dann aus der Dropdown-Liste SMS-Konfiguration den zuvor erstellten Kanal aus.
+&#x200B;3. Klicken Sie oben in der Navigationsleiste auf das Menüelement Aktionen und wählen Sie dann aus der Dropdown-Liste SMS-Konfiguration den zuvor erstellten Kanal aus.
 
 ![Dropdown-Liste „SMS-Konfiguration“ mit Fehlermeldung „Keine Ergebnisse“](assets/filter-the-lines-sms-configuration-no-results.png)
 
@@ -113,13 +113,13 @@ Wie bringt man das hier zum Laufen?  Dimensionsänderung hinzufügen 😀
 
 
 
-2. Klicken Sie auf der Workflow-Arbeitsfläche zwischen den **- und SMS-Aktivitäten auf das** Symbol **+** und wählen Sie **Dimension ändern** aus.
+&#x200B;2. Klicken Sie auf der Workflow-Arbeitsfläche zwischen den **- und SMS-Aktivitäten auf das** Symbol **+** und wählen Sie **Dimension ändern** aus.
 
 ![Fügen Sie die Aktivität Dimensionsänderung zwischen Filter und SMS hinzu](assets/filter-the-lines-add-change-dimension.png)
 
 
 
-3. Aktualisieren Sie rechts die Dimensionsänderung mit den folgenden Informationen:
+&#x200B;3. Aktualisieren Sie rechts die Dimensionsänderung mit den folgenden Informationen:
    - **label:** `Convert Line to Account`
    - **Neue Zielgruppendimension:**`dep-rel: Customer Account`
 
@@ -127,7 +127,7 @@ Wie bringt man das hier zum Laufen?  Dimensionsänderung hinzufügen 😀
 
 
 
-4. Klicken Sie auf **Speichern** oben rechts auf der Arbeitsfläche, um Ihre Arbeit zu speichern. Wenn Sie fertig sind, sieht Ihr Workflow jetzt wie folgt aus…
+&#x200B;4. Klicken Sie auf **Speichern** oben rechts auf der Arbeitsfläche, um Ihre Arbeit zu speichern. Wenn Sie fertig sind, sieht Ihr Workflow jetzt wie folgt aus…
 
 ![Workflow-Arbeitsfläche nach dem Hinzufügen der Dimensionsänderung](assets/filter-the-lines-workflow-after-change-dimension.png)
 
@@ -151,7 +151,7 @@ Nachdem Sie den Workflow behoben haben, konfigurieren Sie die SMS neu.
 
 
 
-2. Klicken Sie in der oberen Navigationsleiste auf den **Aktionen** und wählen Sie dann aus der Dropdown-Liste SMS-Konfiguration den zuvor erstellten Kanal aus.
+&#x200B;2. Klicken Sie in der oberen Navigationsleiste auf den **Aktionen** und wählen Sie dann aus der Dropdown-Liste SMS-Konfiguration den zuvor erstellten Kanal aus.
 
 ![SMS-Konfiguration zeigt den ausgewählten Kanal erfolgreich an](assets/filter-the-lines-sms-configuration-selected.png)
 

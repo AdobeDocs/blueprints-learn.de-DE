@@ -26,7 +26,7 @@ In diesem Labor haben Sie die folgenden Aktivitäten durchgeführt:
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

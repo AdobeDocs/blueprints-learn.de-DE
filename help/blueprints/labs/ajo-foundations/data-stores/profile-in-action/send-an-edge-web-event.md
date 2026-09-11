@@ -75,16 +75,16 @@ Bevor Sie die API-Anfrage ausführen können, müssen Sie die Datenstrom-ID zur 
 
 ![Option „Variablen in Anfrage“ in der Postman-Symbolleiste](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-2. Aktualisieren Sie **DATASTREAM_CONFIG** **Value** mit der **Datastream-ID** aus dem ersten Schritt auf der Seite.
+&#x200B;2. Aktualisieren Sie **DATASTREAM_CONFIG** **Value** mit der **Datastream-ID** aus dem ersten Schritt auf der Seite.
 
 ![DATASTREAM_CONFIG-Variable mit der Datenstrom-ID aktualisiert](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-3. **Speichern** die Aktualisierung (Strg+S oder Befehl+S)
-4. Klicken Sie auf **X** in der oberen rechten Ecke der Seitenleiste der Umgebung, um die Seitenleiste zu schließen
+&#x200B;3. **Speichern** die Aktualisierung (Strg+S oder Befehl+S)
+&#x200B;4. Klicken Sie auf **X** in der oberen rechten Ecke der Seitenleiste der Umgebung, um die Seitenleiste zu schließen
 
 ![Schließen der Seitenleiste der Postman-Umgebung nach dem Speichern](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-5. Die **Web-Ereignis erstellen**-Anfrage kann jetzt gesendet werden, da alle Variablen jetzt blau sind und einen Wert in der Umgebung haben.
+&#x200B;5. Die **Web-Ereignis erstellen**-Anfrage kann jetzt gesendet werden, da alle Variablen jetzt blau sind und einen Wert in der Umgebung haben.
 
 ![Erstellen einer Web-Ereignisanfrage mit allen Variablen ausgefüllt](assets/send-an-edge-web-event-request-ready-to-send.png)
 

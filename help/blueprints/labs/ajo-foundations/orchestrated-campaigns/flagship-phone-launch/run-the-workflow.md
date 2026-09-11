@@ -27,7 +27,7 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 ![Endgültige Workflow-Arbeitsfläche bereit zum Testen](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. Wenn Sie Ihren Workflow noch nicht angehalten haben, klicken Sie auf die Schaltfläche **Stoppen** oben rechts.
+&#x200B;2. Wenn Sie Ihren Workflow noch nicht angehalten haben, klicken Sie auf die Schaltfläche **Stoppen** oben rechts.
 
 ![Schaltfläche „Anhalten“ oben rechts im Workflow](assets/run-the-workflow-click-stop-button.png)
 
@@ -37,13 +37,13 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 
 
-3. Klicken Sie anschließend auf **Start**, um den Workflow durchgehend auszuführen und zu testen
+&#x200B;3. Klicken Sie anschließend auf **Start**, um den Workflow durchgehend auszuführen und zu testen
 
 ![Schaltfläche „Starten“ zum Ausführen des Workflow-Tests](assets/run-the-workflow-click-start-button.png)
 
 
 
-4. Überprüfen Sie das Ergebnis, das in die SMS-Aktivität eingeht, indem Sie auf **Ergebnis** klicken (es gibt zwei Ergebnisse, verwenden Sie also das linke wie unten gezeigt) und dann in der linken Leiste auf die Schaltfläche **Vorschau der Ergebnisse** klicken.
+&#x200B;4. Überprüfen Sie das Ergebnis, das in die SMS-Aktivität eingeht, indem Sie auf **Ergebnis** klicken (es gibt zwei Ergebnisse, verwenden Sie also das linke wie unten gezeigt) und dann in der linken Leiste auf die Schaltfläche **Vorschau der Ergebnisse** klicken.
 
 ![Linke Ergebnisübergabe vor der SMS-Aktivität ausgewählt](assets/run-the-workflow-select-result-transition.png)
 
@@ -51,7 +51,7 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 
 
-5. Es werden **33 Datensätze angezeigt** und die Zielgruppendimension entspricht der Kunden-ID (dem Join-Schlüssel, falls Sie dem Profil beitreten möchten)
+&#x200B;5. Es werden **33 Datensätze angezeigt** und die Zielgruppendimension entspricht der Kunden-ID (dem Join-Schlüssel, falls Sie dem Profil beitreten möchten)
 
 ![33-Datensätze mit Zielgruppendimension, die mit Kunden-ID übereinstimmen](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -65,7 +65,7 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 
 
-2. Fast sofort wird eine neue Schaltfläche mit der Bezeichnung **Bericht anzeigen** angezeigt.  Klicken Sie auf **Bericht anzeigen**, um den Bericht anzuzeigen.
+&#x200B;2. Fast sofort wird eine neue Schaltfläche mit der Bezeichnung **Bericht anzeigen** angezeigt.  Klicken Sie auf **Bericht anzeigen**, um den Bericht anzuzeigen.
 
 ![Schaltfläche „Bericht anzeigen“ für den SMS-Aktivitätstest](assets/run-the-workflow-click-view-report.png)
 
@@ -75,7 +75,7 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 
 
-3. Wenn Sie Ergebnisse erhalten, sehen Sie, dass 100 % angesprochen wurden!
+&#x200B;3. Wenn Sie Ergebnisse erhalten, sehen Sie, dass 100 % angesprochen wurden!
 
 ![Ergebnisse des SMS-Testversands zeigen 100 Prozent der Zielgruppe](assets/run-the-workflow-100-percent-targeted.png)
 
@@ -83,13 +83,13 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 
 
-4. Gehen Sie zurück zur Workflow-Arbeitsfläche und klicken Sie auf die Transition **Ergebnis** , die in die SMS-Aktivität eintritt, und klicken Sie dann auf **Vorschau der Ergebnisse** in der rechten Leiste.
+&#x200B;4. Gehen Sie zurück zur Workflow-Arbeitsfläche und klicken Sie auf die Transition **Ergebnis** , die in die SMS-Aktivität eintritt, und klicken Sie dann auf **Vorschau der Ergebnisse** in der rechten Leiste.
 
 ![Überprüfen der Ergebnisse der Transition nach dem SMS-Test](assets/run-the-workflow-recheck-transition-results.png)
 
 
 
-5. Scrollen Sie im Bildschirm Ergebnisse in der Vorschau ganz nach unten in der Tabelle, und Sie werden feststellen, dass **4 Datensätze** eine **leere Zielgruppendimension“**.
+&#x200B;5. Scrollen Sie im Bildschirm Ergebnisse in der Vorschau ganz nach unten in der Tabelle, und Sie werden feststellen, dass **4 Datensätze** eine **leere Zielgruppendimension“**.
 
 ![4-Datensätze mit einer leeren Zielgruppendimension am Ende der Tabelle](assets/run-the-workflow-4-records-missing-dimension.png)
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Bevor Sie mit zukünftigen Labs fortfahren können, müssen Sie sicherstellen, dass sowohl Ihre E-Mail-Kanal-Konfigurationen als auch **Aktiv** angezeigt werden
 
-![Konfigurationen mit zwei E-Mail-Kanälen, ](assets/waiting-for-active-status-email-channel-configurations-active.png " beide den aktiven Status anzeigenE-Mail-Kanalkonfigurationen werden als aktiv angezeigt")
+![Konfigurationen mit zwei E-Mail-Kanälen, &#x200B;](assets/waiting-for-active-status-email-channel-configurations-active.png " beide den aktiven Status anzeigenE-Mail-Kanalkonfigurationen werden als aktiv angezeigt")
 
 >[!TIP]
 >

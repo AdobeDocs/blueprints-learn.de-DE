@@ -38,20 +38,20 @@ Das erste und einfachste von Ihnen erstellte Angebotselement ist das Fallback-An
 
 ![Leere Seite mit dem Angebotskatalog, bevor Angebotselemente erstellt werden](assets/create-offer-items-empty-offers-page.png)
 
-3. Klicken Sie auf die blaue Schaltfläche **Element erstellen**. Dadurch wird die Seite „Angebotselement erstellen“ geöffnet.
-4. Geben Sie im Feld „Angebotsname“ den Text ein **iphone:17\:generic**. Geben Sie bei Bedarf eine Beschreibung ein.
+&#x200B;3. Klicken Sie auf die blaue Schaltfläche **Element erstellen**. Dadurch wird die Seite „Angebotselement erstellen“ geöffnet.
+&#x200B;4. Geben Sie im Feld „Angebotsname“ den Text ein **iphone:17\:generic**. Geben Sie bei Bedarf eine Beschreibung ein.
 
 >[!NOTE]
 >
 >Die Namenskonvention in nur Kleinbuchstaben und mit Doppelpunkt getrennt ist nur eines unserer eigenen Designs, das für einen echten Kunden als eines dienen könnte. In der Praxis können Sie eine andere Benennungsstrategie für Ihre Angebotselemente entwickeln. Vergewissern Sie sich, dass er dokumentiert und konsistent ist, bevor Sie Angebotselemente erstellen. Dadurch wird sichergestellt, dass Angebotselemente einfach zu finden und in Sammlungen gruppiert werden können. Mehr dazu später.
 
-5. Da dies das Angebotselement mit der niedrigsten Priorität/dem Standard ist, belassen Sie die Standardpriorität bei 1.
+&#x200B;5. Da dies das Angebotselement mit der niedrigsten Priorität/dem Standard ist, belassen Sie die Standardpriorität bei 1.
 
 >[!NOTE]
 >
 >Bei der Entscheidungsfindung gilt: Je niedriger die Zahl, desto niedriger die Priorität. Beispielsweise wird ein Angebotselement mit der Priorität 100 vor einem Angebotselement mit der Priorität 1 angezeigt
 
-6. Erweitern Sie das **Gerät** im Bereich „Benutzerdefinierte Attribute“ und geben Sie dann die folgenden Informationen in die Textfelder ein:
+&#x200B;6. Erweitern Sie das **Gerät** im Bereich „Benutzerdefinierte Attribute“ und geben Sie dann die folgenden Informationen in die Textfelder ein:
    - Ebene: **generisch**
    - Modell: **17**
    - Marke: **iPhone**
@@ -70,14 +70,14 @@ Dies sind die tatsächlichen Textwerte, die sowohl das Angebot beschreiben als a
 >
 >Im vorherigen Abschnitt wurde die Notwendigkeit erwähnt, beim Hinzufügen benutzerdefinierter Attribute zum systemgenerierten Schema „Personalisierte Angebotselemente - Erlebnisentscheidung“ große Vorsicht walten zu lassen. Jeder zusätzliche benutzerdefinierte Knoten wird künftig für jedes Angebotselement als mögliches Feld angezeigt. Das Erstellen unnötiger oder kampagnenspezifischer Attribute überlastet die Benutzeroberfläche zur Erstellung von Angebotselementen und kann Verwirrung stiften.
 
-7. Klicken Sie auf die blaue **Weiter**-Schaltfläche in der oberen rechten Ecke, um mit dem nächsten Schritt fortzufahren.
-8. Dieses Angebot sollte für alle/alle Besucher verfügbar sein und keine Frequenzlimitierung aufweisen, sodass keine Änderungen an den Abschnitten „Eignung“ oder „Begrenzung“ vorgenommen werden müssen. Klicken Sie erneut auf **blaue Schaltfläche** Weiter“, um mit dem letzten Schritt fortzufahren.
-9. Überprüfen Sie im Schritt „Überprüfen“, ob alle Daten korrekt sind:
+&#x200B;7. Klicken Sie auf die blaue **Weiter**-Schaltfläche in der oberen rechten Ecke, um mit dem nächsten Schritt fortzufahren.
+&#x200B;8. Dieses Angebot sollte für alle/alle Besucher verfügbar sein und keine Frequenzlimitierung aufweisen, sodass keine Änderungen an den Abschnitten „Eignung“ oder „Begrenzung“ vorgenommen werden müssen. Klicken Sie erneut auf **blaue Schaltfläche** Weiter“, um mit dem letzten Schritt fortzufahren.
+&#x200B;9. Überprüfen Sie im Schritt „Überprüfen“, ob alle Daten korrekt sind:
 
 ![Überprüfungsschritt, der die Details des allgemeinen Angebotsartikels vor dem Speichern bestätigt](assets/create-offer-items-generic-offer-review-step.png "Überprüfungsschritt, der die Details des allgemeinen Angebotsartikels vor dem Speichern bestätigt")
 
-10. Nehmen Sie die erforderlichen Änderungen vor. Wenn Sie bereit sind, klicken Sie auf die blaue Schaltfläche **Speichern**.
-11. Nach dem Speichern wird eine weiße Schaltfläche „Genehmigen“ angezeigt, wo sich früher die Schaltfläche „Speichern“ befand. Klicken Sie auf die weiße Schaltfläche **Genehmigen**, um dieses Angebotselement zu genehmigen. Unter dem Titel des Angebotsartikels wird ein grüner Indikator „Genehmigt“ angezeigt:
+&#x200B;10. Nehmen Sie die erforderlichen Änderungen vor. Wenn Sie bereit sind, klicken Sie auf die blaue Schaltfläche **Speichern**.
+&#x200B;11. Nach dem Speichern wird eine weiße Schaltfläche „Genehmigen“ angezeigt, wo sich früher die Schaltfläche „Speichern“ befand. Klicken Sie auf die weiße Schaltfläche **Genehmigen**, um dieses Angebotselement zu genehmigen. Unter dem Titel des Angebotsartikels wird ein grüner Indikator „Genehmigt“ angezeigt:
 
 ![Grüner Indikator für „Genehmigt“ im allgemeinen Angebotselement](assets/create-offer-items-generic-offer-approved.png)
 
@@ -85,7 +85,7 @@ Dies sind die tatsächlichen Textwerte, die sowohl das Angebot beschreiben als a
 >
 >In der Praxis und bei komplexeren Angeboten sollte ein ordnungsgemäßer Genehmigungsprozess vorhanden sein, um sicherzustellen, dass die Angebotselemente korrekt erstellt wurden. Um in diesem Labor Zeit zu sparen, genehmigen Sie einfach jedes von Ihnen erstellte Angebotselement.
 
-12. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
+&#x200B;12. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
 
 ## Basismodellobjekt erstellen
 
@@ -104,9 +104,9 @@ Wenn das Angebot abgeschlossen ist, sieht es wie folgt aus (das rote Feld wird h
 
 Wenn alles korrekt ist, klicken Sie auf die blaue **Weiter**-Schaltfläche, um mit dem nächsten Schritt fortzufahren.
 
-4. Dieses Angebotselement sollte für alle verfügbar sein, sodass keine Eignungsanforderung besteht. Es sollte jedoch auf 3 Impressionen pro Tag begrenzt werden. Klicken Sie auf die Schaltfläche &quot;**+ Begrenzung erstellen**.
-5. Ändern Sie in der neuen Begrenzungsregel das **Begrenzungsereignis auswählen** in **Impression.**
-6. Ändern Sie die **Begrenzungsereignisanzahl** auf **3**. Nach Abschluss sieht Ihre Begrenzungsregel wie folgt aus:
+&#x200B;4. Dieses Angebotselement sollte für alle verfügbar sein, sodass keine Eignungsanforderung besteht. Es sollte jedoch auf 3 Impressionen pro Tag begrenzt werden. Klicken Sie auf die Schaltfläche &quot;**+ Begrenzung erstellen**.
+&#x200B;5. Ändern Sie in der neuen Begrenzungsregel das **Begrenzungsereignis auswählen** in **Impression.**
+&#x200B;6. Ändern Sie die **Begrenzungsereignisanzahl** auf **3**. Nach Abschluss sieht Ihre Begrenzungsregel wie folgt aus:
 
 ![Begrenzungsregel für das Basisangebot auf 3 Impressionen festgelegt](assets/create-offer-items-base-offer-capping-rule.png)
 
@@ -117,14 +117,13 @@ Klicken Sie nach der Korrektur auf die blaue **Erstellen**-Schaltfläche, um die
 >Beachten Sie, wie Sie eine zusätzliche Begrenzungsregel erstellen können. In der Praxis empfiehlt es sich, mehrere Regeln hinzuzufügen. In diesem Fall hätten wir eine Regel hinzufügen können, um dies zu begrenzen, wenn ein bestimmtes Ereignis gesehen wurde, z. B. ein Kaufereignis. In diesem Labor wird alles mit einer einzigen Begrenzungsregel einfach gehalten.
 >
 >![Beispiel einer zusätzlichen Begrenzungsregel basierend auf einem Kaufereignis](assets/create-offer-items-additional-capping-rule-example.png)
-
 > [!NOTE]
 >
 >Die in den Regeln zur Frequenzlimitierung erwähnten „Tage“ beziehen sich auf Tage in der GMT-Zeitzone.  Frequenzlimitierung mit Tagen in der Logik wird um Mitternacht (GMT) zurückgesetzt.
 
-7. Klicken Sie **Weiter**, um mit dem Überprüfungsschritt fortzufahren.
-8. Stellen Sie sicher, dass alles erwartungsgemäß angezeigt wird, und klicken Sie auf die Schaltfläche **Speichern**. Klicken Sie nach dem Speichern auf **Genehmigen.**
-9. Klicken Sie nach der Genehmigung auf den Pfeil nach links neben dem Titel und kehren Sie zur Seite Angebote zurück. Es werden jetzt zwei Angebote mit jeweils der entsprechenden Priorität angezeigt.
+&#x200B;7. Klicken Sie **Weiter**, um mit dem Überprüfungsschritt fortzufahren.
+&#x200B;8. Stellen Sie sicher, dass alles erwartungsgemäß angezeigt wird, und klicken Sie auf die Schaltfläche **Speichern**. Klicken Sie nach dem Speichern auf **Genehmigen.**
+&#x200B;9. Klicken Sie nach der Genehmigung auf den Pfeil nach links neben dem Titel und kehren Sie zur Seite Angebote zurück. Es werden jetzt zwei Angebote mit jeweils der entsprechenden Priorität angezeigt.
 
 ![Seite „Angebote“, auf der die allgemeinen und grundlegenden Angebotselemente mit ihren Prioritäten aufgelistet sind](assets/create-offer-items-first-two-offers-priority.png)
 
@@ -140,18 +139,18 @@ Nachdem die allgemeinen und Basismodellangebote erstellt wurden, können Sie zu 
 
 ![Pro Angebotseignung und Begrenzungskonfiguration für 3 Impressionen pro Tag](assets/create-offer-items-pro-offer-eligibility-capping.png)
 
-6. Nachdem Sie überprüft haben, dass alles korrekt ist, klicken Sie auf **Weiter**. Die endgültige Konfiguration des Angebotselements sieht wie folgt aus:
+&#x200B;6. Nachdem Sie überprüft haben, dass alles korrekt ist, klicken Sie auf **Weiter**. Die endgültige Konfiguration des Angebotselements sieht wie folgt aus:
 
 ![Abgeschlossene Konfiguration für das Pro-Tier-Angebotselement](assets/create-offer-items-pro-offer-final-config.png)
 
-7. Sobald alles korrekt aussieht, **Sie das** „Speichern **und** Genehmigen“.
-8. Kehren Sie zur Seite Angebote zurück und stellen Sie sicher, dass die drei Angebote vorhanden sind und dass sie jeweils die richtige Priorität haben.
-9. Erstellen Sie das endgültige Angebotselement und benennen Sie es **iphone:17\:ultra**, geben Sie ihm eine Priorität von **4,** und setzen Sie die anderen benutzerdefinierten Attribute mit denselben Werten wie die anderen Angebote.
-10. Legen Sie wie beim letzten Angebotselement die Eignung auf die Entscheidungsregel „Pläne der oberen Ebene“ fest und legen Sie eine Häufigkeitsbegrenzung von 3 Impressionen pro Tag fest. Wenn Sie fertig sind, sieht Ihr Angebotselement wie folgt aus:
+&#x200B;7. Sobald alles korrekt aussieht, **Sie das** „Speichern **und** Genehmigen“.
+&#x200B;8. Kehren Sie zur Seite Angebote zurück und stellen Sie sicher, dass die drei Angebote vorhanden sind und dass sie jeweils die richtige Priorität haben.
+&#x200B;9. Erstellen Sie das endgültige Angebotselement und benennen Sie es **iphone:17\:ultra**, geben Sie ihm eine Priorität von **4,** und setzen Sie die anderen benutzerdefinierten Attribute mit denselben Werten wie die anderen Angebote.
+&#x200B;10. Legen Sie wie beim letzten Angebotselement die Eignung auf die Entscheidungsregel „Pläne der oberen Ebene“ fest und legen Sie eine Häufigkeitsbegrenzung von 3 Impressionen pro Tag fest. Wenn Sie fertig sind, sieht Ihr Angebotselement wie folgt aus:
 
 ![Abgeschlossene Konfiguration für das Angebotselement der Ultra-Ebene](assets/create-offer-items-ultra-offer-final-config.png)
 
-11. Nachdem Sie sich vergewissert haben, dass alle Einstellungen korrekt sind, speichern und genehmigen Sie dieses Angebotselement. Jetzt werden alle vier Angebotselemente mit jeweils einer eindeutigen Priorität angezeigt.
+&#x200B;11. Nachdem Sie sich vergewissert haben, dass alle Einstellungen korrekt sind, speichern und genehmigen Sie dieses Angebotselement. Jetzt werden alle vier Angebotselemente mit jeweils einer eindeutigen Priorität angezeigt.
 
 ![Seite „Angebote“ mit allen vier Angebotselementen mit eindeutigen Prioritäten](assets/create-offer-items-all-four-offers-priority.png)
 

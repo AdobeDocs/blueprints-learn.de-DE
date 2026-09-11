@@ -33,4 +33,4 @@ Die Arbeitsfläche mit dem konfigurierten **Zielgruppe aufbauen** wird angezeigt
 
 Sie haben jetzt gesehen, wie einfach es ist, die Aktivität Verzweigung auf der Kampagnen-Arbeitsfläche zu verwenden, um identische Verzweigungen derselben Daten zu erstellen, die in fließen. Die Verzweigungen der Aktivität Verzweigung werden im nächsten Schritt verwendet.
 
-Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) wenn Sie Interesse haben.
+Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) wenn Sie Interesse haben.

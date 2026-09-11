@@ -48,9 +48,9 @@ In diesem Modul erfahren Sie, wie Sie die Auswertung durchführen, Ergebnisse in
 
 ![Registerkarte „Markenausrichtung“ und Prozentsymbol in der Seitenleiste](assets/brand-alignment-open-panel-icon.png)
 
-4. Stellen Sie sicher, dass die richtige Marke verwendet wird:
+&#x200B;4. Stellen Sie sicher, dass die richtige Marke verwendet wird:
    - **Verbindung 5G** (Standard).
-5. Klicken Sie **Score auswerten**.
+&#x200B;5. Klicken Sie **Score auswerten**.
 
 **Interpretieren Sie die Markenbewertung und das Feedback** Nach einem Moment sehen Sie die Markenkonformitätsbewertung für Ihren Inhalt. Dieser Wert kann als Bewertung (z. B. hoch, Medium oder niedrig) oder Prozentwert angegeben werden, zusammen mit einem Farbindikator (grün, gelb, rot) und dem Zeitpunkt der Bewertung. Eine hohe Punktzahl bedeutet, dass Ihr Inhalt stark an den Markenrichtlinien ausgerichtet ist, während eine mittlere oder niedrige Punktzahl eine mäßige oder schlechte Ausrichtung anzeigt.
 
@@ -105,21 +105,21 @@ Interpretieren Sie die Ergebnisse, um zu verstehen, wie genau Ihre E-Mail mit de
 
 ![Markierter Textblock aus dem eingefügten Beschreibungsabsatz](assets/brand-alignment-flagged-text-block.png)
 
-3. Verwenden Sie die vorgeschlagenen Änderungen, die von AI bereitgestellt werden. Klicken Sie auf das Symbol, wie unten dargestellt.
+&#x200B;3. Verwenden Sie die vorgeschlagenen Änderungen, die von AI bereitgestellt werden. Klicken Sie auf das Symbol, wie unten dargestellt.
 
 ![KI-Vorschlagssymbol zum Anwenden vorgeschlagener Änderungen](assets/brand-alignment-ai-suggestion-icon.png)
 
-4. Klicken Sie auf die Schaltfläche **Mit KI beheben** wie unten dargestellt.
+&#x200B;4. Klicken Sie auf die Schaltfläche **Mit KI beheben** wie unten dargestellt.
 
 ![Mit KI-Schaltfläche für eine gekennzeichnete Richtlinie beheben](assets/brand-alignment-fix-with-ai-button.png)
 
-5. Die vorgeschlagenen Änderungen werden grün hervorgehoben und der entfernte Text rot mit durchgestrichenem Text angezeigt, wie unten dargestellt. Sie werden auch feststellen, dass der Score aktualisiert wurde (in diesem Fall ist es 80%). Klicken Sie auf **Übernehmen**, damit die Änderungen wirksam werden.
+&#x200B;5. Die vorgeschlagenen Änderungen werden grün hervorgehoben und der entfernte Text rot mit durchgestrichenem Text angezeigt, wie unten dargestellt. Sie werden auch feststellen, dass der Score aktualisiert wurde (in diesem Fall ist es 80%). Klicken Sie auf **Übernehmen**, damit die Änderungen wirksam werden.
 
 ![Vorgeschlagene Änderungen werden grün hervorgehoben, entfernter Text rot durchgestrichen](assets/brand-alignment-apply-suggested-changes.png)
 
-6. Änderungen werden mit neuem Text angewendet.
-7. Überprüfen Sie alle hervorgehobenen Bereiche und nehmen Sie die erforderlichen Aktualisierungen vor, um den Inhalt zu korrigieren, entweder mithilfe von KI oder durch manuelle Bearbeitung. Stellen Sie sicher, dass alle erforderlichen Änderungen vorgenommen wurden, bevor Sie fortfahren.
-8. Änderungen speichern.
+&#x200B;6. Änderungen werden mit neuem Text angewendet.
+&#x200B;7. Überprüfen Sie alle hervorgehobenen Bereiche und nehmen Sie die erforderlichen Aktualisierungen vor, um den Inhalt zu korrigieren, entweder mithilfe von KI oder durch manuelle Bearbeitung. Stellen Sie sicher, dass alle erforderlichen Änderungen vorgenommen wurden, bevor Sie fortfahren.
+&#x200B;8. Änderungen speichern.
 
 ![Änderungen nach der Korrektur des gekennzeichneten Inhalts werden gespeichert](assets/brand-alignment-save-changes.png)
 
@@ -140,7 +140,7 @@ Beispiel:
 
 Dies bedeutet, dass Ihre Aktualisierungen die E-Mail erfolgreich an die Markenstandards angepasst haben.
 
-5. Klicken Sie auf **Speichern**, um Ihre E-Mail abzuschließen.
+&#x200B;5. Klicken Sie auf **Speichern**, um Ihre E-Mail abzuschließen.
 
 ![Speichern-Schaltfläche zum Fertigstellen der E-Mail](assets/brand-alignment-save-finalize-email.png)
 

@@ -65,6 +65,6 @@ Um zu sehen, wie Sie Bereitstellungen mithilfe von APIs automatisieren können, 
 
 ![Zwei mit dem Postman erstellte Datensätze: Präfix, das mit den automatisierten Schemata/](assets/automate-with-apis-datasets-created-in-ui.png "-Datensätzen übereinstimmt")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Herzlichen Glückwunsch!  Sie haben gerade die Bereitstellung von Identity-Namespaces, Feldergruppen, Schemata, Identitäts-/Beziehungsdeskriptoren automatisiert und ein Schema für ein Profil aktiviert und einen Datensatz mithilfe des Schemas generiert

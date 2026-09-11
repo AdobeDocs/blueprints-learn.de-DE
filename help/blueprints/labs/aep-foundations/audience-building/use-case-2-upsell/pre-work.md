@@ -26,11 +26,11 @@ Für diesen Anwendungsfall gibt es nicht viel Vorarbeit zu leisten. Wir haben im
 
 
 
-3. Suchen Sie in „Ereignisse“ nach „Verwendung“.  Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
+&#x200B;3. Suchen Sie in „Ereignisse“ nach „Verwendung“.  Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
 
 ![Suche nach Verwendung in Ereignissen - keine Beschreibung angezeigt](assets/pre-work-search-usage-in-events.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Keiner dieser Werte hat eine Beschreibung, sodass der Marketer einige Annahmen treffen und vermuten kann, dass er falsch liegt.
 >
@@ -41,7 +41,6 @@ Für diesen Anwendungsfall gibt es nicht viel Vorarbeit zu leisten. Wir haben im
 >- Empfohlen/bevorzugt in bestimmten Anwendungsfällen?
 >
 >Indem wir diese Informationen in Beschreibungen bereitstellen, können wir sie besser anleiten.
-
 > [!NOTE]
 >
 >Suchen Sie nach „Abrechnung“.  Beachten Sie, dass es nicht als Profilattribut angezeigt wird.  Sie wird als Ereignistyp-Karte zusammen mit dem Feld „Abrechnung der Datennutzung“ angezeigt.

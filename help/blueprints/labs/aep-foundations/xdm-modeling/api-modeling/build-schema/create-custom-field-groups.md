@@ -69,7 +69,7 @@ Beachten Sie außerdem, wie jedes einzelne Feld aus dem Zuordnungsblatt innerhal
 
 
 
-2. Aktualisieren Sie die `title` und `description` für die Feldergruppe im folgenden Format: `Customer Account Details - Sandbox <your number here>`
+&#x200B;2. Aktualisieren Sie die `title` und `description` für die Feldergruppe im folgenden Format: `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -77,9 +77,9 @@ Beachten Sie außerdem, wie jedes einzelne Feld aus dem Zuordnungsblatt innerhal
 
 
 
-3. Führen Sie durch Klicken auf die Schaltfläche `Send` aus.  Es sollte eine -Antwort ähnlich der im folgenden Screenshot angezeigt werden.
+&#x200B;3. Führen Sie durch Klicken auf die Schaltfläche `Send` aus.  Es sollte eine -Antwort ähnlich der im folgenden Screenshot angezeigt werden.
 
-4. Kopieren Sie den `$id` Wert der neu erstellten Feldergruppe Kundenkontodetails .
+&#x200B;4. Kopieren Sie den `$id` Wert der neu erstellten Feldergruppe Kundenkontodetails .
 
 ![Erfolgreiche API-Antwort nach der Erstellung der benutzerdefinierten Feldergruppe](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Schritt 2: Erstellen einer benutzerdefinierten Feldergruppe - Erfolg")
 

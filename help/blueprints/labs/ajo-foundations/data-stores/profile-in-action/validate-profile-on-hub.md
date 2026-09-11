@@ -55,7 +55,7 @@ Suchen Sie in Adobe Experience Platform das Profil, das Sie gerade von dem Ereig
 
 ![JSON-Ansicht mit Profilattributen, die segmentMembership anzeigt](assets/validate-profile-on-hub-json-view.png)
 
-2. Suchen Sie **segmentMembership**.  Sie sollte wie folgt aussehen (Ihre IDs unterscheiden sich)
+&#x200B;2. Suchen Sie **segmentMembership**.  Sie sollte wie folgt aussehen (Ihre IDs unterscheiden sich)
 
 ```json
   "segmentMembership": {

@@ -37,15 +37,15 @@ Erstellen Sie eine Audience für alle Profile, deren Abrechnungsdatennutzung hoc
 
 
 
-3. Suchen Sie im Profil nach dem Plannamen und fügen Sie ihn hinzu (XDM-Kontaktprofil > DevBC > Plandetails > Planname). &quot;Ultimate&quot; auswählen
+&#x200B;3. Suchen Sie im Profil nach dem Plannamen und fügen Sie ihn hinzu (XDM-Kontaktprofil > DevBC > Plandetails > Planname). &quot;Ultimate&quot; auswählen
 
 ![Planname auswählen stimmt nicht mit Ultimate überein](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-4. Geben Sie eine Beschreibung ein.  Validieren Sie, ob die Auswertungsmethode Streaming ist.
+&#x200B;4. Geben Sie eine Beschreibung ein.  Validieren Sie, ob die Auswertungsmethode Streaming ist.
 
-5. Speichern Sie die Zielgruppe als &quot;*Abrechnung - Datennutzung hoch, aber kein Ultimate-Plan (AGG)*&quot;
+&#x200B;5. Speichern Sie die Zielgruppe als &quot;*Abrechnung - Datennutzung hoch, aber kein Ultimate-Plan (AGG)*&quot;
 
 >[!NOTE]
 >

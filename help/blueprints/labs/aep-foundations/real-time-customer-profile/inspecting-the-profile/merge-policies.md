@@ -30,7 +30,7 @@ Eine Zusammenführungsrichtlinie hat zwei Aufgaben:
    - Zeitstempelpriorität - Verwenden Sie den neuesten Datensatz aus allen Datensätzen als Wahrheitsset und lassen Sie alle anderen Datensätze die Lücken füllen, in der Reihenfolge von „Zuletzt verwendet“ bis „Zuletzt verwendet“
    - Datensatzpriorität : Wählen Sie aus, welche XDM-Einzelprofildatensätze zum Erstellen des Profils verwendet werden dürfen und in welcher Reihenfolge sie zusammengestellt werden sollen
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Wenn die Zusammenführungsmethode Datensatzpriorität ausgewählt ist, können Sie auswählen, welche XDM-Kontaktprofil- und XDM-Erlebnisereignis-Datensätze bei der Profilerstellung verwendet werden dürfen.
 >
@@ -65,7 +65,7 @@ Erstellen Sie eine Zusammenführungsrichtlinie, die nicht das ID-Diagramm verwen
 1. Klicken Sie **oberen Navigationsbereich auf &quot;**&quot;
 1. Klicken Sie **ganz rechts** Bildschirm auf Zusammenführungsrichtlinie erstellen .
 
-![Klicken Sie oben rechts im Bildschirm „Zusammenführungsrichtlinien“ auf Zusammenführungsrichtlinie erstellen ](assets/merge-policies-click-create-merge-policy-button.png)
+![Klicken Sie oben rechts im Bildschirm „Zusammenführungsrichtlinien“ auf Zusammenführungsrichtlinie erstellen &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## Konfigurieren
 
@@ -198,7 +198,7 @@ Wenn das Identitätsdiagramm mit dem Profilspeicher verwendet wird, können Sie 
 
 Ohne das Identitätsdiagramm kann der Profilspeicher nur Profilfragmente mit einer einzigen Kennung (d. h. primäre Identität) abrufen
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Haben Sie etwas mehr Zeit und möchten experimentieren…:**
 >

@@ -27,14 +27,14 @@ ht-degree: 0%
 
 
 
-2. Öffnen Sie den Hauptteil des Aufrufs und zeigen Sie die Struktur der Definition eines Schemas an. Denken Sie daran, dass ein Schema immer nur aus einer (1) Klasse und einer oder mehreren Feldergruppen besteht.
+&#x200B;2. Öffnen Sie den Hauptteil des Aufrufs und zeigen Sie die Struktur der Definition eines Schemas an. Denken Sie daran, dass ein Schema immer nur aus einer (1) Klasse und einer oder mehreren Feldergruppen besteht.
 
-3. Füllen Sie die Felder `title` und `description` im Hauptteil des Schemas wie folgt aus:
+&#x200B;3. Füllen Sie die Felder `title` und `description` im Hauptteil des Schemas wie folgt aus:
 
 - Titel -> `Sample Customer Schema - <your sandbox number>`
 - Beschreibung -> `Sample Customer Schema - <your sandbox number>`
 
-4. Füllen Sie die `$ref` Felder mit den `$ids`, die Sie aus den vorherigen von Ihnen abgeschlossenen Lab-Abschnitten gespeichert haben: [Erstellen benutzerdefinierter Feldergruppen](./create-custom-field-groups.md) und [Profilklasse abrufen](./get-profile-class.md). Sie sollten $ids für jedes der folgenden Elemente haben:
+&#x200B;4. Füllen Sie die `$ref` Felder mit den `$ids`, die Sie aus den vorherigen von Ihnen abgeschlossenen Lab-Abschnitten gespeichert haben: [Erstellen benutzerdefinierter Feldergruppen](./create-custom-field-groups.md) und [Profilklasse abrufen](./get-profile-class.md). Sie sollten $ids für jedes der folgenden Elemente haben:
 
 - Klasse -> Individuelles XDM-Profil
 - Feldergruppe -> Demografische Details
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 
 
-5. Überprüfen Sie Ihren endgültigen Textkörper und stellen Sie sicher, dass er in etwa wie folgt aussieht
+&#x200B;5. Überprüfen Sie Ihren endgültigen Textkörper und stellen Sie sicher, dass er in etwa wie folgt aussieht
 
 ![Abgeschlossener Schema-Anfragetext mit Titel, Beschreibung und allen $ref-Werten ausgefüllt](assets/create-schema-example-of-final-body-payload.png "Beispiel für die endgültige Textkörper-Payload")
 

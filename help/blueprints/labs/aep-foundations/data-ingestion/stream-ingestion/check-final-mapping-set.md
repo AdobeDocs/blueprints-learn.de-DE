@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Passthrough-Zuordnungen
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | concat(date\_part(„mm“, date(born\_date, „yyyy-M-d„)).toString(), &quot;-&quot;, date\_part(„dd“, date(born\_date, „yyyy-M-d„)).toString()) | person.bornDayAndMonth |
 | date\_part(„jjjj“,date(Birth\_Date,„jjjj-M-d„)) | person.BirthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren
 

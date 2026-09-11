@@ -37,43 +37,43 @@ Der Detailbereich **E** Mail“ wird geöffnet
 
 ![E-Mail-Detailbereich](assets/add-email-activities-email-details-pane.png)
 
-2. Benennen Sie die Bezeichnung für die Aktivität **E-Mail mit**) um **E-Mail** und klicken Sie auf **E-Mail bearbeiten**. Beachten Sie, dass die Erstellung des E-Mail-Textkörpers nur zu Testzwecken dient
+&#x200B;2. Benennen Sie die Bezeichnung für die Aktivität **E-Mail mit**) um **E-Mail** und klicken Sie auf **E-Mail bearbeiten**. Beachten Sie, dass die Erstellung des E-Mail-Textkörpers nur zu Testzwecken dient
 
 ![Beschriftung der E-Mail-Aktivität umbenennen und auf „E-Mail bearbeiten“](assets/add-email-activities-rename-and-edit-email.png)
 
-3. Wählen Sie die Registerkarte **Aktionen** und aus der Dropdown-Liste die Option **Profil-E-Mail** Kanalkonfiguration aus
+&#x200B;3. Wählen Sie die Registerkarte **Aktionen** und aus der Dropdown-Liste die Option **Profil-E-Mail** Kanalkonfiguration aus
 
 ![Wählen Sie auf der Registerkarte „Aktionen“ die Konfiguration Profil-E-Mail-Kanal aus](assets/add-email-activities-select-profile-email-channel.png)
 
-4. Klicken Sie anschließend auf **Inhalt bearbeiten** um Testinhalte hinzuzufügen
+&#x200B;4. Klicken Sie anschließend auf **Inhalt bearbeiten** um Testinhalte hinzuzufügen
 
 ![Klicken Sie auf Inhalt bearbeiten , um Testinhalte hinzuzufügen](assets/add-email-activities-edit-content.png)
 
-5. Geben Sie eine **Betreffzeile** ein („Upgrade-Angebot für Mitglieder des Standardplans„) und klicken Sie auf die Schaltfläche **E-Mail-Textkörper bearbeiten**.
+&#x200B;5. Geben Sie eine **Betreffzeile** ein („Upgrade-Angebot für Mitglieder des Standardplans„) und klicken Sie auf die Schaltfläche **E-Mail-Textkörper bearbeiten**.
 
 ![Betreffzeile hinzufügen und E-Mail-Textkörper bearbeiten](assets/add-email-activities-subject-line-edit-body.png)
 
-6. Es gibt viele Optionen. Wählen Sie für diesen Test die Option **Eigenen Code erstellen** HTML aus
+&#x200B;6. Es gibt viele Optionen. Wählen Sie für diesen Test die Option **Eigenen Code erstellen** HTML aus
 
-![Wählen Sie die Option Eigenen HTML codieren ](assets/add-email-activities-code-your-own-html.png)
+![Wählen Sie die Option Eigenen HTML codieren &#x200B;](assets/add-email-activities-code-your-own-html.png)
 
-7. Fügen Sie in **E-Mail-**-Designer&quot; die Testzeile „Upgrade-Angebot verfügbar!“ ein. direkt vor den `</body></html>` Tags wie abgebildet und klicken Sie auf **Speichern**
+&#x200B;7. Fügen Sie in **E-Mail-**-Designer&quot; die Testzeile „Upgrade-Angebot verfügbar!“ ein. direkt vor den `</body></html>` Tags wie abgebildet und klicken Sie auf **Speichern**
 
 ![Fügen Sie die Testzeile in Email Designer ein und klicken Sie auf Speichern](assets/add-email-activities-email-designer-save.png)
 
-8. Warten Sie, bis die Bestätigungsmeldung unten rechts angezeigt wird
+&#x200B;8. Warten Sie, bis die Bestätigungsmeldung unten rechts angezeigt wird
 
 ![Bestätigungsmeldung wird angezeigt](assets/add-email-activities-confirmation-message.png)
 
-9. Klicken Sie auf den **Linkspfeil** neben **E-Mail-Designer**, um den Vorgang zu beenden
+&#x200B;9. Klicken Sie auf den **Linkspfeil** neben **E-Mail-Designer**, um den Vorgang zu beenden
 
 ![Klicken Sie auf den Nach-links-Pfeil, um E-Mail-Designer zu verlassen](assets/add-email-activities-exit-email-designer.png)
 
-10. Ein Bestätigungsdialogfeld wird angezeigt, klicken Sie auf die Schaltfläche **Speichern und schließen**.
+&#x200B;10. Ein Bestätigungsdialogfeld wird angezeigt, klicken Sie auf die Schaltfläche **Speichern und schließen**.
 
 ![Bestätigungsdialogfeld mit der Schaltfläche Speichern und schließen](assets/add-email-activities-save-and-close-dialog.png)
 
-11. Überprüfen Sie die E-Mail-Eigenschaften und -Aktionen einschließlich des Texts, der zum E-Mail-Textkörper hinzugefügt wurde. Klicken Sie auf den **Pfeil nach links**, um zur Kampagnen-Arbeitsfläche zurückzukehren
+&#x200B;11. Überprüfen Sie die E-Mail-Eigenschaften und -Aktionen einschließlich des Texts, der zum E-Mail-Textkörper hinzugefügt wurde. Klicken Sie auf den **Pfeil nach links**, um zur Kampagnen-Arbeitsfläche zurückzukehren
 
 ![Zurück zur Campaign-Arbeitsfläche](assets/add-email-activities-back-to-campaign-canvas.png)
 

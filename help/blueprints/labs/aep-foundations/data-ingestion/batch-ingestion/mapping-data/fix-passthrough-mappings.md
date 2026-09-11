@@ -57,7 +57,7 @@ In diesem Szenario sehen Sie, dass der KI/ML-Recommender zwei verschiedene Quell
 
 Diese Zuordnung sieht richtig aus, ist aber bei näherer **(**) nicht dasselbe wie **emailFormat**
 
-![Zuordnung, bei der E-Mail falsch zugeordnet ist, anstelle von ](assets/fix-passthrough-mappings-email-mapped-incorrectly.png "-Mail scheint korrekt zugeordnet zu sein, ist jedoch gemäß den Anforderungen falsch")
+![Zuordnung, bei der E-Mail falsch zugeordnet ist, anstelle von &#x200B;](assets/fix-passthrough-mappings-email-mapped-incorrectly.png "-Mail scheint korrekt zugeordnet zu sein, ist jedoch gemäß den Anforderungen falsch")
 
 Hier wird **email\_optIn** fälschlicherweise dem falschen Einverständnisobjekt zugeordnet
 

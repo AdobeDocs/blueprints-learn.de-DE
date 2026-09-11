@@ -26,8 +26,8 @@ Stellen Sie sicher, dass die Journey erwartungsgemäß ausgelöst und ausgeführ
 
 ![Für die Journey angezeigte Anzahl der Profileinträge](assets/validate-journey-profile-entered-count.png)
 
-3. Klicken Sie **oben rechts auf** Bericht anzeigen **> Letzte 24**.
-4. Standardmäßig befinden Sie sich auf der Registerkarte **Journey** (in der linken Leiste)
+&#x200B;3. Klicken Sie **oben rechts auf** Bericht anzeigen **> Letzte 24**.
+&#x200B;4. Standardmäßig befinden Sie sich auf der Registerkarte **Journey** (in der linken Leiste)
    - Es werden einige Ein- und Ausstiege angezeigt (die Anzahl hängt von der Anzahl der gesendeten Ereignisse, von Tests, von Fehlern usw. ab).
 
 ![Berichte zur Journey-Registerkarte mit Ein- und Ausstiegen](assets/validate-journey-journey-tab-enters-exits.png)
@@ -56,7 +56,7 @@ Sie können auf den Umschalter oben klicken, um **Testereignisse ausschließen**
 
 3 externe Ereignisse
 
-5. Klicken Sie auf die **E-Mail**-Registerkarte (in der linken Leiste).
+&#x200B;5. Klicken Sie auf die **E-Mail**-Registerkarte (in der linken Leiste).
    - **E-Mail - Versandleistung**
      - Es werden einige Werte für **Zugestellt** und **Gesendet** angezeigt (die Anzahl hängt von der Anzahl der gesendeten Ereignisse ab, von Fehlern usw.)
      - Hoffentlich haben Sie keine Fehler (es sei denn, Sie sind früher auf Probleme gestoßen)
@@ -65,10 +65,10 @@ Sie können auf den Umschalter oben klicken, um **Testereignisse ausschließen**
 
 ![Registerkarte „E-Mail“ mit Versandleistung und Statistiken](assets/validate-journey-email-tab-sending-performance.png)
 
-6. Überprüfen Sie Ihren **E-Mail-Posteingang** und überprüfen Sie, ob Sie die E-Mail erhalten haben (sie sieht in etwa wie folgt aus)
+&#x200B;6. Überprüfen Sie Ihren **E-Mail-Posteingang** und überprüfen Sie, ob Sie die E-Mail erhalten haben (sie sieht in etwa wie folgt aus)
    - *,* Ihre Bestellung wurde an ETA versendet: *10/17/2026* Tracking-Nummer: *051009364*
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Überprüfen Sie Ihren Spam-Ordner auf AJO-Kampagnen [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
@@ -82,7 +82,7 @@ Sie können auf den Umschalter oben klicken, um **Testereignisse ausschließen**
 
 
 
-7. *Nach 30-60 Minuten* können Sie Ihren Datensatz im Data Lake sogar mit folgenden Elementen überprüfen: **Abfragen** -> **Abfrage erstellen** -> **SQL kopieren/einfügen** -> **Ausführen**
+&#x200B;7. *Nach 30-60 Minuten* können Sie Ihren Datensatz im Data Lake sogar mit folgenden Elementen überprüfen: **Abfragen** -> **Abfrage erstellen** -> **SQL kopieren/einfügen** -> **Ausführen**
 
 >[!NOTE]
 >

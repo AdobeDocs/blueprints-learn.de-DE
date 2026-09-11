@@ -53,7 +53,7 @@ Nach einigen Sekunden wird ein Simulationsfenster geöffnet.
 
 ![Schaltfläche „Eingabedaten hochladen“ im Simulationsbedienfeld](assets/content-simulation-click-upload-input-data.png)
 
-3. Wählen Sie **sample.csv** aus und klicken Sie auf **Weiter**.
+&#x200B;3. Wählen Sie **sample.csv** aus und klicken Sie auf **Weiter**.
 
 ![Auswahl von sample.csv und Klicken auf „Weiter“](assets/content-simulation-choose-sample-csv-continue.png)
 
@@ -68,7 +68,7 @@ AJO zeigt beide Varianten basierend auf den hochgeladenen Profilen nebeneinander
 
 - **Alex** → sieht **Variante 1** (Alter über 40)
 
-![Alex-Profil-Rendering-Variante 1 für Kinder über 40 ](assets/content-simulation-variant-1-age-above-40.png)
+![Alex-Profil-Rendering-Variante 1 für Kinder über 40 &#x200B;](assets/content-simulation-variant-1-age-above-40.png)
 
 Wenn Sie nach oben scrollen, sehen Sie auch personalisierte Felder mit dem Namen jetzt, wie Sie unten sehen können.
 
@@ -76,7 +76,7 @@ Wenn Sie nach oben scrollen, sehen Sie auch personalisierte Felder mit dem Namen
 
 - **Jason** → sieht **Variante 2** (Alter unter 40)
 
-![Jason-Profil-Rendering-Variante 2 für Kinder unter 40 ](assets/content-simulation-variant-2-age-below-40.png)
+![Jason-Profil-Rendering-Variante 2 für Kinder unter 40 &#x200B;](assets/content-simulation-variant-2-age-below-40.png)
 
 Mit Jasons vollem Namen auch. Wie cool ist das denn!
 

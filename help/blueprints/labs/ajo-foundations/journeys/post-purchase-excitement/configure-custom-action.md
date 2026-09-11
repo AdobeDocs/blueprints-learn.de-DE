@@ -35,7 +35,7 @@ Klicken Sie in der linken Leiste unter dem Menü Administration auf **Konfigurat
 
 ![Erstellen einer Aktionsschaltfläche oben rechts](assets/configure-custom-action-click-create-action-button.png)
 
-2. Aktualisieren Sie im angezeigten Konfigurationsbedienfeld die folgenden grundlegenden Werte wie unten dargestellt:
+&#x200B;2. Aktualisieren Sie im angezeigten Konfigurationsbedienfeld die folgenden grundlegenden Werte wie unten dargestellt:
    - **Name**: `GetShippingDetails`
    - **Beschreibung**: `Call third party to get Shipping ETA and Tracking Number`
    - **Aktionstyp**: `Custom`
@@ -80,7 +80,7 @@ Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, w
 
 
 
-2. **Kopieren Sie** nachstehende Payload und fügen Sie sie in das Feld Payload ein.
+&#x200B;2. **Kopieren Sie** nachstehende Payload und fügen Sie sie in das Feld Payload ein.
 
 ```json
 {
@@ -94,7 +94,7 @@ Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, w
 >Dies ist dieselbe JSON-Struktur, die der obige Mockaroo-Endpunkt zurückgeben sollte:
 
 
-3. Die Antwort-Payload wird angezeigt. Klicken Sie auf **Speichern**.
+&#x200B;3. Die Antwort-Payload wird angezeigt. Klicken Sie auf **Speichern**.
 
 ![Antwort-Payload mit der Schaltfläche Speichern angezeigt](assets/configure-custom-action-save-response-payload.png)
 
@@ -112,13 +112,13 @@ Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, w
 
 
 
-2. Klicken Sie auf die **Abfrageparameter** und aktualisieren Sie den Wert für `orderId` auf **123**
+&#x200B;2. Klicken Sie auf die **Abfrageparameter** und aktualisieren Sie den Wert für `orderId` auf **123**
 
 ![Registerkarte „Abfrageparameter“ mit dem Wert „orderId“ auf 123 festgelegt](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-3. Klicken Sie auf **Senden** und wenn alles gut funktioniert, sollten Sie einen Antwort-Code von 200 und eine Vorschau der Payload sehen, wie unten gezeigt…
+&#x200B;3. Klicken Sie auf **Senden** und wenn alles gut funktioniert, sollten Sie einen Antwort-Code von 200 und eine Vorschau der Payload sehen, wie unten gezeigt…
 
 ![Antwort-Code 200 und Payload-Vorschau nach dem Senden der Testanfrage](assets/configure-custom-action-response-200-preview.png)
 
@@ -137,7 +137,7 @@ Vorschau
 
 
 
-4. Klicken Sie auf **Abbrechen**, um zum Aktionsbildschirm zurückzukehren, und blättern Sie dann in der oberen rechten Leiste zurück und klicken Sie auf die Schaltfläche **Speichern**
+&#x200B;4. Klicken Sie auf **Abbrechen**, um zum Aktionsbildschirm zurückzukehren, und blättern Sie dann in der oberen rechten Leiste zurück und klicken Sie auf die Schaltfläche **Speichern**
 
 >[!TIP]
 >

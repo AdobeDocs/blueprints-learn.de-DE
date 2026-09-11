@@ -37,21 +37,21 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 ![Apps icon menu mit Journey Optimizer ausgewählt](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
 
-2. Klicken Sie **Menü Daten-** auf „Schemata“ und stellen Sie sicher, dass Sie die Registerkarte **Durchsuchen** ausgewählt haben.
-3. Suchen Sie nach dem Schema namens `dep-rel: Customer Account`
+&#x200B;2. Klicken Sie **Menü Daten-** auf „Schemata“ und stellen Sie sicher, dass Sie die Registerkarte **Durchsuchen** ausgewählt haben.
+&#x200B;3. Suchen Sie nach dem Schema namens `dep-rel: Customer Account`
 
 ![Schemasuche für dep-rel: Kundenkonto](assets/profile-target-dimension-search-schema.png)
 
-4. Öffnen Sie das Schema, indem Sie auf den Namen und dann auf das Feld **customer\_id** klicken
+&#x200B;4. Öffnen Sie das Schema, indem Sie auf den Namen und dann auf das Feld **customer\_id** klicken
 
 ![Schemafeldliste mit ausgewählter customer_id](assets/profile-target-dimension-select-customer-id-field.png)
 
-5. Suchen Sie in der rechten Leiste das Kontrollkästchen **Identität**, aktivieren **das Kontrollkästchen** und wählen Sie den Identity-Namespace **customerID**
+&#x200B;5. Suchen Sie in der rechten Leiste das Kontrollkästchen **Identität**, aktivieren **das Kontrollkästchen** und wählen Sie den Identity-Namespace **customerID**
 
 ![Identitäts-Checkbox mit ausgewähltem customerID-Namespace](assets/profile-target-dimension-choose-identity-namespace.png)
 
-6. Klicken Sie auf **Speichern**, um Ihr Schema zu speichern. Eine Bestätigungsmeldung wird angezeigt
-7. Klicken Sie auf **Abbrechen** oder auf die Schaltfläche **Schemata** in der linken Leiste, um die Schema-Benutzeroberfläche zu verlassen
+&#x200B;6. Klicken Sie auf **Speichern**, um Ihr Schema zu speichern. Eine Bestätigungsmeldung wird angezeigt
+&#x200B;7. Klicken Sie auf **Abbrechen** oder auf die Schaltfläche **Schemata** in der linken Leiste, um die Schema-Benutzeroberfläche zu verlassen
 
 >[!CAUTION]
 >
@@ -67,15 +67,15 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 ![Menü Administration mit ausgewählten Konfigurationen](assets/profile-target-dimension-configurations-menu.png)
 
-2. Wählen Sie **Profile Target Dimension** aus und klicken Sie auf **Verwalten**
+&#x200B;2. Wählen Sie **Profile Target Dimension** aus und klicken Sie auf **Verwalten**
 
 ![Konfiguration von Profile Target Dimension mit der Option „Verwalten“](assets/profile-target-dimension-manage-configuration.png)
 
-3. Der Fensterbereich Profile Target Dimension wird geöffnet. Klicken Sie auf **Erstellen**
+&#x200B;3. Der Fensterbereich Profile Target Dimension wird geöffnet. Klicken Sie auf **Erstellen**
 
 ![Dimension-Bereich „Profilziel“ mit der Schaltfläche „Erstellen“](assets/profile-target-dimension-create-button.png)
 
-4. Wählen Sie die `dep-rel: Customer Account` aus der Dropdown-Liste aus.
+&#x200B;4. Wählen Sie die `dep-rel: Customer Account` aus der Dropdown-Liste aus.
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 ![Erstellen des Dimension-Formulars „Zielprofil“ mit der Dropdown-Liste „Schema“](assets/profile-target-dimension-select-schema-dropdown.png)
 
-5. Wählen Sie für **Identitätswert** die Option `/customer_id`
+&#x200B;5. Wählen Sie für **Identitätswert** die Option `/customer_id`
 
 ![Dropdown-Liste „Identitätswert“ mit ausgewählter /customer_id](assets/profile-target-dimension-select-identity-value.png)
 
@@ -93,7 +93,7 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 
 
-6. Klicken Sie auf **Speichern**, um die Profilzielgruppen-Dimension zu erstellen. Dann wird der Datensatz angezeigt.
+&#x200B;6. Klicken Sie auf **Speichern**, um die Profilzielgruppen-Dimension zu erstellen. Dann wird der Datensatz angezeigt.
 
 ![Target Dimension-Eintrag für Profil in Liste gespeichert](assets/profile-target-dimension-saved-record.png)
 
@@ -109,4 +109,4 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 Sie haben jetzt gesehen, wie einfach es ist, im Schema zu navigieren, ein Attribut als Identität zu markieren und die Profilzielgruppen-Dimension zu erstellen.
 
-Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) wenn Sie Interesse haben.
+Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) wenn Sie Interesse haben.

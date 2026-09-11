@@ -21,7 +21,7 @@ Stellen Sie sicher, dass das Web-Ereignis in den Data Lake von Experience Platfo
 
 ## Ereignis validieren
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Schließlich erscheinen die Daten im Data Lake.  **Dies kann bis zu 60 Minuten dauern**.  Wir wissen, dass der Datensatz für das Profil aktiviert ist und daher das Ereignis ein Profilfragment erstellt.
 >
@@ -31,16 +31,16 @@ Stellen Sie sicher, dass das Web-Ereignis in den Data Lake von Experience Platfo
 
 ![Bildschirm „Abfrage erstellen“ im Abschnitt „Abfragen“](assets/validate-event-on-data-lake-create-query.png)
 
-2. SQL kopieren und in Abfrage einfügen
+&#x200B;2. SQL kopieren und in Abfrage einfügen
 
 ```sql
 SELECT identityMap['email'][0].id, * FROM dep_web
 where identityMap['email'][0].id = 'henry.creel@emailsim.io'
 ```
 
-3. **Ausführen** Abfrage
+&#x200B;3. **Ausführen** Abfrage
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >**Denken Sie**: Schließlich werden die Daten im Data Lake angezeigt.  **Dies kann bis zu 60 Minuten dauern**.
 >

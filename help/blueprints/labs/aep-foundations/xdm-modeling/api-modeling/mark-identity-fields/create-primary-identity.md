@@ -55,6 +55,6 @@ NUR BEISPIEL
 
 ![201 Antwort nach erfolgreicher Erstellung des primären Identitätsdeskriptors erstellt](assets/create-primary-identity-201-created-response.png "Primärer Identitätsdeskriptor wurde erfolgreich erstellt")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Herzlichen Glückwunsch!  Sie haben soeben einen primären Identitätsdeskriptor in Ihrem Schema erstellt

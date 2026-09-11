@@ -26,7 +26,7 @@ In den nächsten Schritten erstellen Sie eine E-Mail-Kanalkonfiguration mit Jour
 
 ![Kanalkonfiguration erstellen](assets/configure-for-profile-create-configuration-button.png)
 
-3. Legen Sie im Assistenten „Erstellen“ die folgenden Werte fest:
+&#x200B;3. Legen Sie im Assistenten „Erstellen“ die folgenden Werte fest:
    - **name:** `Profile-Email`
    - **channel:** `Email`
    - **Marketing-Aktion:** `Email Targeting`
@@ -53,7 +53,7 @@ Wählen Sie aus dem **Subdomain**-Dropdown **email.dep-labs.com**
 
 Wählen Sie aus der Dropdown **Liste** IP-Pool“ **Marketing**
 
-![Dropdown-Liste „IP-Pool“ mit ](assets/configure-for-profile-select-marketing-ip-pool.png " Details zum Marketing-IP-Pool")
+![Dropdown-Liste „IP-Pool“ mit &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png " Details zum Marketing-IP-Pool")
 
 ## Abmeldeliste konfigurieren
 
@@ -97,43 +97,43 @@ Mit den Standardeinstellungen verlassen
 
 ![Ausführungsdetails](assets/configure-for-profile-execution-details-journey-tab.png)
 
-2. Klicken Sie auf den Ordner **Persönliche E-Mail**, um ihn zu öffnen
+&#x200B;2. Klicken Sie auf den Ordner **Persönliche E-Mail**, um ihn zu öffnen
 
 ![Lieferadresse](assets/configure-for-profile-personal-email-folder.png)
 
-3. Klicken Sie im `Address` auf **Kontrollkästchen** und dann auf die Schaltfläche **Auswählen**.
+&#x200B;3. Klicken Sie im `Address` auf **Kontrollkästchen** und dann auf die Schaltfläche **Auswählen**.
 
 ![Persönliche E-Mail als Lieferadresse](assets/configure-for-profile-select-address-checkbox-journeys.png)
 
-4. Für **Profil** ist die `personalEmail.address` jetzt als **Versandadresse** im Abschnitt **Ausführungsadresse** konfiguriert
+&#x200B;4. Für **Profil** ist die `personalEmail.address` jetzt als **Versandadresse** im Abschnitt **Ausführungsadresse** konfiguriert
 
 ![Versandadresse konfiguriert](assets/configure-for-profile-delivery-address-configured-journeys.png)
 
-5. Klicken Sie auf die Registerkarte Orchestrierte Kampagne und aktivieren **das** Aktiviert .
+&#x200B;5. Klicken Sie auf die Registerkarte Orchestrierte Kampagne und aktivieren **das** Aktiviert .
 
 ![Orchestrierte Kampagnenkonfiguration](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-6. Konfigurieren Sie unter der Überschrift „Ausführungsdimension“ Folgendes:
+&#x200B;6. Konfigurieren Sie unter der Überschrift „Ausführungsdimension“ Folgendes:
    - **Eine Nachricht pro:** `Target Dimension` senden
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
 
 ![Target Dimension](assets/configure-for-profile-target-dimension-settings.png)
 
-7. Konfigurieren Sie unter Ausführungsadresse Folgendes:
+&#x200B;7. Konfigurieren Sie unter Ausführungsadresse Folgendes:
    - **Source:** `Profile`
    - **Lieferadresse:** `click on the Edit icon`
 
 ![Ausführungsadresse](assets/configure-for-profile-execution-address-source-profile.png)
 
-8. Suchen Sie nach dem Ordner `Personal Email` und klicken Sie darauf, um ihn zu öffnen
+&#x200B;8. Suchen Sie nach dem Ordner `Personal Email` und klicken Sie darauf, um ihn zu öffnen
 
 ![Persönliches E-Mail-Profilattribut](assets/configure-for-profile-search-personal-email-folder.png)
 
-9. Wählen Sie das Feld `Address` im Ordner Persönliche E-Mail aus und klicken Sie auf **Auswählen**
+&#x200B;9. Wählen Sie das Feld `Address` im Ordner Persönliche E-Mail aus und klicken Sie auf **Auswählen**
 
 ![Persönliche E-Mail als Lieferadresse](assets/configure-for-profile-select-address-field-orchestrated.png)
 
-10. Für **Orchestrierte Kampagne** wird **dep-rel: Kundenkonto - customer\_id** als **Profile Target Dimension** für **Ausführungsdimension** mit **Ausführungsadresse** mit einer **Source** von **Profile** und `personalEmail.address` als **Versandadresse** konfiguriert
+&#x200B;10. Für **Orchestrierte Kampagne** wird **dep-rel: Kundenkonto - customer\_id** als **Profile Target Dimension** für **Ausführungsdimension** mit **Ausführungsadresse** mit einer **Source** von **Profile** und `personalEmail.address` als **Versandadresse** konfiguriert
 
 ![Ausführungsdimension konfiguriert](assets/configure-for-profile-orchestrated-execution-dimension-configured.png)
 
@@ -147,7 +147,7 @@ Mit den Standardeinstellungen verlassen
 1. Überprüfen Sie erneut alle Details, um sicherzustellen, dass sie übereinstimmen.
 1. Scrollen Sie nach oben und klicken Sie auf **Senden**.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Die Verarbeitung der E-Mail-Kanal-Konfiguration dauerte bis zu 2 Stunden!  Oh je!
 >

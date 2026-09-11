@@ -25,7 +25,7 @@ ht-degree: 0%
 
 
 
-2. Aktualisieren Sie die folgenden Eigenschaften im Hauptteil des API-Aufrufs.
+&#x200B;2. Aktualisieren Sie die folgenden Eigenschaften im Hauptteil des API-Aufrufs.
 
 - Legen Sie den Wert der Eigenschaft `xdm:sourceSchema` auf den `$id` des Kundenkontenschemas fest, das Sie im Laborschritt [Schema erstellen](../build-schema/create-schema.md) gespeichert haben
 - Legen Sie den Wert der `xdm:sourceProperty` auf den Pfad des `planID` aus dem Kundenkontenschema fest.
@@ -58,9 +58,9 @@ NUR BEISPIEL
 
 
 
-3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
+&#x200B;3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
 
-4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
+&#x200B;4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
 
 Es sollte jetzt eine `201 Created` Antwort wie unten angezeigt werden
 

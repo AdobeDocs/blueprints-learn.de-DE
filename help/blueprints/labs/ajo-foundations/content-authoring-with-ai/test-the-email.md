@@ -37,11 +37,11 @@ An dieser Stelle haben Sie gelernt, dass wir nicht nur die Profilattribute perso
 
 Ein Simulationsfenster wird geöffnet.
 
-3. Klicken Sie **Testversand durchführen**.
+&#x200B;3. Klicken Sie **Testversand durchführen**.
 
 ![Schaltfläche „Testversand durchführen“ im Simulationsbedienfeld](assets/test-the-email-click-send-proof-button.png)
 
-4. Fügen Sie Ihre eigene persönliche E-Mail-Adresse hinzu.
+&#x200B;4. Fügen Sie Ihre eigene persönliche E-Mail-Adresse hinzu.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Ein Simulationsfenster wird geöffnet.
 
 
 
-5. Wählen Sie beide Varianten aus.
-6. Präfix der Betreffzeile hinzufügen
+&#x200B;5. Wählen Sie beide Varianten aus.
+&#x200B;6. Präfix der Betreffzeile hinzufügen
    1. Variante 1: über 40
    2. Variante 2: Unter 40
-7. Klicken Sie **Testversand durchführen**. Sie erhalten die grüne Bestätigungsmeldung &quot;**Testsendungen erfolgreich gesendet**&quot;
+&#x200B;7. Klicken Sie **Testversand durchführen**. Sie erhalten die grüne Bestätigungsmeldung &quot;**Testsendungen erfolgreich gesendet**&quot;
 
 ![Grüne Bestätigungsnachricht mit Testsendungen erfolgreich gesendet](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

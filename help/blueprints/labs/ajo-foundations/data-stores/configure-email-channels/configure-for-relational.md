@@ -26,7 +26,7 @@ In den nächsten Schritten erstellen Sie eine E-Mail-Kanal-Konfiguration, die nu
 
 ![Kanalkonfiguration erstellen](assets/configure-for-profile-create-configuration-button.png)
 
-3. Legen Sie im Assistenten „Erstellen“ die folgenden Werte fest:
+&#x200B;3. Legen Sie im Assistenten „Erstellen“ die folgenden Werte fest:
    - **name:** `Relational-Email`
    - **channel:** `Email`
    - **Marketing-Aktion:** `Email Targeting`
@@ -101,27 +101,27 @@ Mit den Standardeinstellungen verlassen
 
 ![Konfigurieren einer orchestrierten Kampagne](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-2. Konfigurieren Sie unter der Ausführungsdimension Folgendes:
+&#x200B;2. Konfigurieren Sie unter der Ausführungsdimension Folgendes:
    - **Eine Nachricht pro:** `Target Dimension ` senden
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
 
 ![Ausführungsdimension](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-3. Konfigurieren Sie unter Ausführungsadresse Folgendes:
+&#x200B;3. Konfigurieren Sie unter Ausführungsadresse Folgendes:
    - **Source:** `Target Dimension`
    - **Lieferadresse:** `click on the Edit button`
 
 ![Target Dimension](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
-4. Klicken Sie im Popup-Fenster auf den Ordner **dep-rel: Kundenkonto**
+&#x200B;4. Klicken Sie im Popup-Fenster auf den Ordner **dep-rel: Kundenkonto**
 
 ![Konfigurieren der Versandadresse](assets/configure-for-relational-customer-account-folder.png)
 
-5. Wählen Sie **E-** aus und klicken Sie auf die Schaltfläche **Auswählen**.
+&#x200B;5. Wählen Sie **E-** aus und klicken Sie auf die Schaltfläche **Auswählen**.
 
 ![E-Mail als Versandadresse](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-6. Wenn Sie fertig sind, sehen Ihre endgültigen Ausführungsdetails wie im folgenden Screenshot aus
+&#x200B;6. Wenn Sie fertig sind, sehen Ihre endgültigen Ausführungsdetails wie im folgenden Screenshot aus
 
 ![Ausführungsdimension konfiguriert](assets/configure-for-relational-execution-details-final-result.png)
 

@@ -62,7 +62,7 @@ Einige wichtige Elemente, die in der obigen Aufforderung zu beachten sind:
 | Anfrage-URL (d. h. Speicherort) | - | Dies ist die URL des von Ihnen erstellten HTTP-API-Quellkontos, auf das die Streaming-Daten verweisen. **Es ist immer vom Typ POST** |
 | Kopfzeile &#39;Content-Type&#39; | * | Die Einstellung ist immer `application/json`, da die gesendeten Daten im JSON-Format vorliegen |
 | Kopfzeile „x-adobe-flow-id“ | - | Festgelegt auf die vom Quell-Connector erstellte Datenfluss-ID |
-| Header &#39;Authorization&#39; | * | Optionaler Wert, wird aber aus Sicherheitsgründen dringend empfohlen. Dies ist der gleiche `access_token`, den Sie während des [Postman-Setups erstellt ](../../postman-setup/environment-file.md). |
+| Header &#39;Authorization&#39; | * | Optionaler Wert, wird aber aus Sicherheitsgründen dringend empfohlen. Dies ist der gleiche `access_token`, den Sie während des [Postman-Setups erstellt &#x200B;](../../postman-setup/environment-file.md). |
 | Hauptteilinhalt | - | Enthält die Daten, die tatsächlich an Adobe Experience Platform gesendet werden sollen |
 
 >[!NOTE]

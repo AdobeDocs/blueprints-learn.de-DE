@@ -21,7 +21,7 @@ Wie in der vorherigen Übung müssen Sie die Zuordnung überprüfen und in einig
 
 1. Im Schritt Zuordnung ordnen ML-Empfehlungen automatisch die meisten Attribute zu. Es werden jedoch auch mehrere Fehler angezeigt. Der Startbildschirm sieht in etwa wie folgt aus.
 
-![Zuordnungsbildschirm, der _id und Zeitstempel als nicht zugeordnete Felder anzeigt, die nicht von ML_id ](assets/initial-mappings-id-timestamp-unmapped-fields.png " werden, sind Zeitstempel zwei Felder, für die der ML-Recommender die Zuordnung nicht generieren wird")
+![Zuordnungsbildschirm, der _id und Zeitstempel als nicht zugeordnete Felder anzeigt, die nicht von ML_id &#x200B;](assets/initial-mappings-id-timestamp-unmapped-fields.png " werden, sind Zeitstempel zwei Felder, für die der ML-Recommender die Zuordnung nicht generieren wird")
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ concat(orderID, "-", lastOrderStatusUpdate)
 lastOrderStatusUpdate
 ```
 
-![Vorschau des berechneten Feldausdrucks für die Zeitstempelzuordnung: ](assets/initial-mappings-expression-preview.png " Sie folgenden Ausdruck und klicken Sie auf „Vorschau“. Beachten Sie, dass bei diesem Wert zwischen Groß- und Kleinschreibung unterschieden wird und er genau so geschrieben werden muss")
+![Vorschau des berechneten Feldausdrucks für die Zeitstempelzuordnung: &#x200B;](assets/initial-mappings-expression-preview.png " Sie folgenden Ausdruck und klicken Sie auf „Vorschau“. Beachten Sie, dass bei diesem Wert zwischen Groß- und Kleinschreibung unterschieden wird und er genau so geschrieben werden muss")
 
 ![Zuordnen des berechneten Feldausdrucks „inStore“ zu order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
 
@@ -57,7 +57,7 @@ lastOrderStatusUpdate
 
 Wenn im Zuordnungsbildschirm jetzt eine doppelte Zuordnung angezeigt wird, z. B. **orderStatus**, die **order.\_devbc.acqSource zugeordnet ist,** klicken Sie auf das Symbol &quot;-&quot;, um die Zuordnung zu entfernen.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Beachten Sie, dass mehrere Eingabefelder nicht demselben Ausgabefeld zugeordnet werden können, da dies die Zuordnung mehrdeutig macht. Ein einzelnes Eingabefeld kann jedoch mehreren Ausgabefeldern im XDM-Schema zugeordnet werden.
 

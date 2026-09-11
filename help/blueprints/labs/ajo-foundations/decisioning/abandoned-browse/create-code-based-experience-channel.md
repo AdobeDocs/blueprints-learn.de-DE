@@ -45,7 +45,7 @@ Denken Sie daran, dass die Geschäftsanforderungen darin bestehen, dass jedes de
 
 ![Code-basierte Konfiguration des Erlebniskanals mit ausgewähltem JSON-Format wurde abgeschlossen](assets/create-code-based-experience-channel-completed-config.png)
 
-9. Sobald alles korrekt aussieht, klicken Sie auf die blaue **Senden**-Schaltfläche in der oberen rechten Ecke.
+&#x200B;9. Sobald alles korrekt aussieht, klicken Sie auf die blaue **Senden**-Schaltfläche in der oberen rechten Ecke.
 
 >[!TIP]
 >

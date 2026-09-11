@@ -19,7 +19,7 @@ Im folgenden Video wird zusammengefasst, wie Sie das Schema, die Identitäten un
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Glückwunsch als Erstes! Dinge über API zu erstellen ist nicht einfach, aber zu verstehen, wie es funktioniert, hilft Ihnen, das System als Ganzes zu verstehen. Ehre!
 
@@ -34,7 +34,7 @@ Sie haben das Schema erstellt, indem Sie sowohl die in Adobe erstellten Feldergr
 
 ## JSON-Patch für das Kundenkontenschema
 
-Sie haben die JSON Patch-Methode verwendet, um das Schema des Kundenkontos zu ändern und dem Planobjekt ein neues Feld hinzuzufügen. Patchen Sie hierzu die `$ref` benutzerdefinierte Feldergruppe namens `Customer Account Details` , die Sie unter &quot;[ benutzerdefinierter Feldergruppen“ definiert haben](build-schema/create-custom-field-groups.md), anstatt das Schema selbst zu patchen.
+Sie haben die JSON Patch-Methode verwendet, um das Schema des Kundenkontos zu ändern und dem Planobjekt ein neues Feld hinzuzufügen. Patchen Sie hierzu die `$ref` benutzerdefinierte Feldergruppe namens `Customer Account Details` , die Sie unter &quot;[&#x200B; benutzerdefinierter Feldergruppen“ definiert haben](build-schema/create-custom-field-groups.md), anstatt das Schema selbst zu patchen.
 
 ![JSON Patch-Anfrage Hinzufügen eines Felds „planDescription“ zur Feldergruppe „Kundenkontodetails“](assets/recap-json-patch-plan-description-field.png "JSON Patch von planDescription“")
 
@@ -46,7 +46,7 @@ In diesem Schritt haben Sie zwei der gleichen `POST`-Aufrufe durchgeführt, um `
 1. Das Feld `_devbc.customerID` wurde als &quot;**&quot;**
 1. Das Feld `personalEmail.address` wurde **nicht festgelegt** als primäres Feld
 
-![Kundenkontenschema mit primären und nicht primären Identitätsdeskriptoren/Identitätsfeldern ](assets/recap-marked-identity-fields.png " Kundenkontenschemas")
+![Kundenkontenschema mit primären und nicht primären Identitätsdeskriptoren/Identitätsfeldern &#x200B;](assets/recap-marked-identity-fields.png " Kundenkontenschemas")
 
 ## Lookup-Beziehung erstellt
 

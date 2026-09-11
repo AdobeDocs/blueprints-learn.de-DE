@@ -26,9 +26,9 @@ Normalerweise möchten wir ein Erlebnisereignis an einen Drittanbieter weiterlei
 
 ![Abschnitt „Ereignisweiterleitung“ mit hervorgehobener Schaltfläche „Neue Eigenschaft](assets/create-property-new-property-button.png " Erstellen einer neuen Ereignisweiterleitungseigenschaft")
 
-3. Aktualisieren Sie den Eigenschaftsnamen mithilfe der folgenden Formel: `Event Forward Property SB + [sandbox number]`. Ihr endgültiger Name würde in etwa wie folgt aussehen: **Event Forward Property SB01**
+&#x200B;3. Aktualisieren Sie den Eigenschaftsnamen mithilfe der folgenden Formel: `Event Forward Property SB + [sandbox number]`. Ihr endgültiger Name würde in etwa wie folgt aussehen: **Event Forward Property SB01**
 
-4. Klicken Sie abschließend **Speichern**.
+&#x200B;4. Klicken Sie abschließend **Speichern**.
 
 ![Eigenschaftsname für die Ereignisweiterleitung, ausgefüllt mit hervorgehobener Schaltfläche „Speichern“](assets/create-property-name-property-form.png)
 
@@ -40,17 +40,17 @@ Normalerweise möchten wir ein Erlebnisereignis an einen Drittanbieter weiterlei
 
 
 
-2. Es sollte ein Bildschirm wie unten angezeigt werden.  Klicken Sie auf **Erweiterungen**.
+&#x200B;2. Es sollte ein Bildschirm wie unten angezeigt werden.  Klicken Sie auf **Erweiterungen**.
 
 ![Übersichtsbildschirm der Ereignisweiterleitungs-Eigenschaft mit hervorgehobener Registerkarte „Erweiterungen“](assets/create-property-click-extensions-tab.png)
 
 
 
-3. Installieren Sie die Erweiterung Adobe Cloud Connector wie folgt:
+&#x200B;3. Installieren Sie die Erweiterung Adobe Cloud Connector wie folgt:
 
-4. Klicken Sie in **oberen Navigationsleiste auf** Katalog“.
-5. Klicken Sie auf die Karte **Adobe Cloud Connector** .
-6. Klicken Sie in der rechten Leiste auf die Schaltfläche **Installieren**
+&#x200B;4. Klicken Sie in **oberen Navigationsleiste auf** Katalog“.
+&#x200B;5. Klicken Sie auf die Karte **Adobe Cloud Connector** .
+&#x200B;6. Klicken Sie in der rechten Leiste auf die Schaltfläche **Installieren**
 
 ![Erweiterungskatalog mit hervorgehobener Adobe Cloud Connector-Karte und hervorgehobener Schaltfläche „Installieren“](assets/create-property-install-cloud-connector-extension.png)
 
@@ -74,13 +74,13 @@ Nach dem Klicken auf Installieren sollte die Erweiterung unter Installierte Erwe
 
 
 
-2. Klicken Sie auf **Schaltfläche Neues Datenelement erstellen**
+&#x200B;2. Klicken Sie auf **Schaltfläche Neues Datenelement erstellen**
 
 ![Seite „Datenelemente“ mit hervorgehobener Schaltfläche „Neues Datenelement erstellen](assets/create-property-create-new-data-element-button.png " „Neues Datenelement erstellen“")
 
 
 
-3. Konfigurieren Sie das neue Datenelement mit den folgenden Informationen:
+&#x200B;3. Konfigurieren Sie das neue Datenelement mit den folgenden Informationen:
 
 | Elementtyp | Zu konfigurierender Wert |
 | ----------------- | ------------------ |
@@ -92,13 +92,13 @@ Nach dem Klicken auf Installieren sollte die Erweiterung unter Installierte Erwe
 
 
 
-4. Klicken Sie auf die Schaltfläche **Editor öffnen**, um den folgenden benutzerdefinierten Code hinzuzufügen:
+&#x200B;4. Klicken Sie auf die Schaltfläche **Editor öffnen**, um den folgenden benutzerdefinierten Code hinzuzufügen:
 
 ![Datenelementeinstellungen mit hervorgehobener Schaltfläche „Editor öffnen“ für benutzerdefinierten Code](assets/create-property-open-custom-code-editor.png "Editor öffnen")
 
 
 
-5. Fügen Sie dem Editor auf diese Weise benutzerdefinierten Code hinzu und speichern Sie ihn
+&#x200B;5. Fügen Sie dem Editor auf diese Weise benutzerdefinierten Code hinzu und speichern Sie ihn
 
 ```none
 var xdm = arc?.event || '';
@@ -115,7 +115,7 @@ return xdm;
 
 
 
-6. Klicken Sie auf **Speichern**, um Ihr Datenelement zu speichern.
+&#x200B;6. Klicken Sie auf **Speichern**, um Ihr Datenelement zu speichern.
 
 ![Datenelement-Editor mit hervorgehobener Schaltfläche „Speichern“](assets/create-property-save-data-element-button.png)
 
@@ -143,17 +143,17 @@ Wenn Sie fertig sind, sollte der folgende Bildschirm angezeigt werden, der best�
 
 
 
-2. Klicken Sie dann auf **Neue Regel erstellen**
+&#x200B;2. Klicken Sie dann auf **Neue Regel erstellen**
 
 ![Seite „Regeln“ mit hervorgehobener Schaltfläche „Neue Regel erstellen“](assets/create-property-new-rule-button.png)
 
 
 
-3. Aktualisieren Sie den Regelnamen mithilfe der folgenden Formel: `"EF Rule SB" + [your sandbox number]` (d. h. EF-Regel SB01). Ihre Sandbox-Nummer finden Sie oben rechts im Browser-Fenster, wie unten dargestellt\…
+&#x200B;3. Aktualisieren Sie den Regelnamen mithilfe der folgenden Formel: `"EF Rule SB" + [your sandbox number]` (d. h. EF-Regel SB01). Ihre Sandbox-Nummer finden Sie oben rechts im Browser-Fenster, wie unten dargestellt\…
 
 ![Browser-Fenster oben rechts mit der im Regelnamen verwendeten Sandbox-Nummer](assets/create-property-sandbox-number-location.png)
 
-4. Klicken Sie abschließend **Speichern**.
+&#x200B;4. Klicken Sie abschließend **Speichern**.
 
 >[!NOTE]
 >
@@ -163,7 +163,7 @@ Wenn Sie fertig sind, sollte der folgende Bildschirm angezeigt werden, der best�
 
 
 
-5. Fügen Sie Ihrer Regel eine Aktion hinzu, indem Sie auf das Pluszeichen (+) klicken, um eine neue Aktion hinzuzufügen
+&#x200B;5. Fügen Sie Ihrer Regel eine Aktion hinzu, indem Sie auf das Pluszeichen (+) klicken, um eine neue Aktion hinzuzufügen
 
 ![Regeleditor mit hervorgehobenem Pluszeichen, um eine neue Aktion hinzuzufügen](assets/create-property-add-action-button.png "Aktion hinzufügen")
 
@@ -182,7 +182,7 @@ Wenn Sie fertig sind, sollte der folgende Bildschirm angezeigt werden, der best�
 
 
 
-3. Konfigurieren Sie Ihre Aktion mit den folgenden Informationen:
+&#x200B;3. Konfigurieren Sie Ihre Aktion mit den folgenden Informationen:
 
 | Einstellung | Wert |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -209,7 +209,7 @@ Wenn Sie fertig sind, überprüfen Sie, ob Ihr Bildschirm ähnlich wie unten aus
 
 
 
-4. Wenn Sie fertig sind, sollte Ihre Aktion zu Ihrer Regel hinzugefügt werden. Klicken Sie auf **Speichern**, um fortzufahren.
+&#x200B;4. Wenn Sie fertig sind, sollte Ihre Aktion zu Ihrer Regel hinzugefügt werden. Klicken Sie auf **Speichern**, um fortzufahren.
 
 ![Regeleditor mit der konfigurierten Aktion und hervorgehobener Schaltfläche „Speichern](assets/create-property-save-rule-button.png " Regel speichern")
 
@@ -229,13 +229,13 @@ Wenn Sie fertig sind, überprüfen Sie, ob Ihr Bildschirm ähnlich wie unten aus
 
 
 
-2. Klicken Sie auf die Schaltfläche **Bibliothek hinzufügen**
+&#x200B;2. Klicken Sie auf die Schaltfläche **Bibliothek hinzufügen**
 
 ![Seite „Publishing-Ablauf“ mit hervorgehobener Schaltfläche „Bibliothek hinzufügen](assets/create-property-add-library-button.png " „Bibliothek hinzufügen“")
 
 
 
-3. Konfigurieren Sie die Bibliothek mit den folgenden Informationen:
+&#x200B;3. Konfigurieren Sie die Bibliothek mit den folgenden Informationen:
 
 - Name -> **EF Library**
 - Umgebung -> **Entwicklung**
@@ -248,6 +248,6 @@ Danach sollte der Bildschirm dem folgenden Screenshot ähneln.  Wenn alles gut a
 
 
 
-4. Anschließend sollte der Entwicklungs-Build grün angezeigt werden, sodass er einsatzbereit ist
+&#x200B;4. Anschließend sollte der Entwicklungs-Build grün angezeigt werden, sodass er einsatzbereit ist
 
 ![Veröffentlichungsfluss, der den Status des Entwicklungs-Builds anzeigt, der grün leuchtet und einsatzbereit ist](assets/create-property-development-build-ready.png)

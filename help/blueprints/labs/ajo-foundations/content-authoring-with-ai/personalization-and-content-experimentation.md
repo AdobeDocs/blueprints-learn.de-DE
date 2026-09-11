@@ -49,23 +49,23 @@ Dieser Teil der Übung vereinfacht die Personalisierung. Fügen Sie der E-Mail d
 
 ![Personalisierungssymbol in der E-Mail-Textsymbolleiste](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. Suchen Sie nach **F****first name**.
+&#x200B;4. Suchen Sie nach **F**&#x200B;**first name**.
 
 ![Suchen nach dem Attribut Vorname im Personalisierungsbereich](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
-5. Klicken Sie auf **+**, um es dem Ausdrucksbereich hinzuzufügen.
-6. Fügen Sie **Feld** Vorname **ein** hinzu.
+&#x200B;5. Klicken Sie auf **+**, um es dem Ausdrucksbereich hinzuzufügen.
+&#x200B;6. Fügen Sie **Feld** Vorname **ein** hinzu.
 
 ![Hinzufügen eines Leerzeichens nach dem Feld Vorname im Ausdrucksbereich](assets/personalization-and-content-experimentation-add-space-after-first-name.png)
 
-7. Wiederholen Sie den obigen Vorgang, suchen Sie jedoch diesmal nach und fügen Sie **Nachname** hinzu.
+&#x200B;7. Wiederholen Sie den obigen Vorgang, suchen Sie jedoch diesmal nach und fügen Sie **Nachname** hinzu.
 
 Ihre endgültige Syntax zeigt Vor- und Nachnamenvariablen klar getrennt an.
 
 ![Vor- und Nachnamenvariablen in der Ausdruckssyntax klar getrennt](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
 
-8. Validieren Sie das Fragment. Beachten Sie, dass es eine Option zum Speichern des Inhalts als Fragment gibt. Dies ist eine großartige Gelegenheit, wenn Sie den vollständigen Namen für andere E-Mail-Inhaltserstellungen verwenden. Überspringen Sie dies und fahren Sie mit dem nächsten Schritt fort.
-9. Klicken Sie auf **Speichern**
+&#x200B;8. Validieren Sie das Fragment. Beachten Sie, dass es eine Option zum Speichern des Inhalts als Fragment gibt. Dies ist eine großartige Gelegenheit, wenn Sie den vollständigen Namen für andere E-Mail-Inhaltserstellungen verwenden. Überspringen Sie dies und fahren Sie mit dem nächsten Schritt fort.
+&#x200B;9. Klicken Sie auf **Speichern**
 
 Ihre Ansicht sieht wie folgt aus. Geschweifte Klammern bestehen aus Variablen, und jeder Kontakt erhält eine E-Mail mit seinem Namen.
 
@@ -107,24 +107,24 @@ Erstellen Sie ein weiteres Bild für Personen unter 40 Jahren (denken Sie daran,
 
 ![Schaltfläche „Variante hinzufügen“ im bedingten Bildblock](assets/personalization-and-content-experimentation-click-add-variant-button.png)
 
-3. Benennen Sie die erste Variante in **Alter über 40 Jahre** um.
+&#x200B;3. Benennen Sie die erste Variante in **Alter über 40 Jahre** um.
 
 ![Die erste Variante wird in ein Alter über 40 umbenannt](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)
 
-4. Erstellen Sie eine neue Variante, indem Sie auf **Schaltfläche „Variante hinzufügen“** klicken und sie in &quot;**unter 40.** umbenennen.
+&#x200B;4. Erstellen Sie eine neue Variante, indem Sie auf **Schaltfläche „Variante hinzufügen“** klicken und sie in &quot;**unter 40.** umbenennen.
 
 ![Erstellen und Umbenennen einer neuen Variante in „Alter unter 40“](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
 
-5. Sie können möglicherweise ein Bild mit Firefly erstellen, indem Sie eine Eingabeaufforderung wie „Mitte 20 Jahre alt“ verwenden. Um Zeit zu sparen, haben wir jedoch bereits ein Bild im Toolkit namens &quot;**variant-age-under-40.jpg**.
-6. Klicken Sie auf das Bild und importieren Sie Medien.
+&#x200B;5. Sie können möglicherweise ein Bild mit Firefly erstellen, indem Sie eine Eingabeaufforderung wie „Mitte 20 Jahre alt“ verwenden. Um Zeit zu sparen, haben wir jedoch bereits ein Bild im Toolkit namens &quot;**variant-age-under-40.jpg**.
+&#x200B;6. Klicken Sie auf das Bild und importieren Sie Medien.
 
 ![Klicken Sie auf das Bild und importieren Sie Medien für die Variante unter 40](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-7. Wählen Sie **variant-age-under-40.jpg** Bild aus. Importieren Sie es, indem Sie **Weiter** klicken und schließlich **Importieren** in Ihrem Ordner drücken (Sie sollten sich standardmäßig bereits in Ihrem Ordner befinden).
+&#x200B;7. Wählen Sie **variant-age-under-40.jpg** Bild aus. Importieren Sie es, indem Sie **Weiter** klicken und schließlich **Importieren** in Ihrem Ordner drücken (Sie sollten sich standardmäßig bereits in Ihrem Ordner befinden).
 
 ![Auswählen und Importieren des Bildes „variant-age-under-40.jpg“](assets/personalization-and-content-experimentation-select-below-40-image.png)
 
-8. Versuchen Sie, zwischen Varianten umzuschalten, und Sie sehen ein anderes Bild angewendet.
+&#x200B;8. Versuchen Sie, zwischen Varianten umzuschalten, und Sie sehen ein anderes Bild angewendet.
 
 Bisher haben Sie das Design erstellt, aber die Logik noch nicht angewendet. Im nächsten Schritt wird die Logik angewendet.
 
@@ -142,20 +142,20 @@ Beide Varianten sind bereit, Sie haben jedoch noch keine Bedingungslogik angewen
 
 ![Symbol für Bedingungslogik für die Variante „Alter über 40“](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
 
-3. Erstellen Sie eine neue Bedingung.
+&#x200B;3. Erstellen Sie eine neue Bedingung.
 
 ![Neue Bedingung für die Variante „Alter über 40“ erstellen](assets/personalization-and-content-experimentation-create-new-condition.png)
 
-4. Suchen Sie **year** in der Attributliste.
-5. Ziehen Sie **Geburtsjahr** auf die Arbeitsfläche.
-6. Bedingung festlegen auf:
+&#x200B;4. Suchen Sie **year** in der Attributliste.
+&#x200B;5. Ziehen Sie **Geburtsjahr** auf die Arbeitsfläche.
+&#x200B;6. Bedingung festlegen auf:
    - **Geburtsjahr \&lt; 1986**
 
 ![Bedingung festgelegt auf &#39;BirthYear&#39; kleiner als 1986](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
 
-7. Benennen Sie die Bedingung: **Alter über 40**
-8. Beschreibung hinzufügen - &quot;**Bildvariante für Personen über 40**&quot;
-9. Klicken Sie **Hinzufügen → Auswählen**.
+&#x200B;7. Benennen Sie die Bedingung: **Alter über 40**
+&#x200B;8. Beschreibung hinzufügen - &quot;**Bildvariante für Personen über 40**&quot;
+&#x200B;9. Klicken Sie **Hinzufügen → Auswählen**.
 
 ![Klicken Sie auf Hinzufügen und wählen Sie dann für die Bedingung Alter über 40 aus](assets/personalization-and-content-experimentation-click-add-select-age-above-40.png)
 
@@ -168,9 +168,9 @@ Beide Varianten sind bereit, Sie haben jedoch noch keine Bedingungslogik angewen
 
 ![Bedingung geändert zu Geburtsjahr größer oder gleich 1986](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
 
-3. Benennen Sie die Bedingung: **Alter unter 40**
-4. Beschreibung hinzufügen. &quot;**Bildvariante für Personen unter 40**&quot;
-5. Klicken Sie **Hinzufügen → Auswählen**.
+&#x200B;3. Benennen Sie die Bedingung: **Alter unter 40**
+&#x200B;4. Beschreibung hinzufügen. &quot;**Bildvariante für Personen unter 40**&quot;
+&#x200B;5. Klicken Sie **Hinzufügen → Auswählen**.
 
 ![Klicken Sie auf Hinzufügen und wählen Sie dann die Bedingung für das Alter unter 40 aus](assets/personalization-and-content-experimentation-click-add-select-age-below-40.png)
 

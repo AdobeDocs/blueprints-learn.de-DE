@@ -25,18 +25,18 @@ Auf dieser Seite importieren Sie die Postman-Umgebungsdatei.  Diese Datei enthä
 
 Datei herunterladen - [AJO Bootcamp.postman_environment.json](assets/ajo-bootcamp.postman_environment.json)
 
-2. Starten Sie Postman auf Ihrem lokalen Computer.
-3. Wechseln Sie ggf. zu der Workspace, die Sie für diese Labs verwenden (wenn Sie überhaupt eine Workspace verwenden), und klicken Sie auf die Schaltfläche **Importieren**.
+&#x200B;2. Starten Sie Postman auf Ihrem lokalen Computer.
+&#x200B;3. Wechseln Sie ggf. zu der Workspace, die Sie für diese Labs verwenden (wenn Sie überhaupt eine Workspace verwenden), und klicken Sie auf die Schaltfläche **Importieren**.
 
 ![Postman-Import beginnen](assets/import-environment-file-click-import-button.png)
 
-4. Fügen Sie die lokale URL der Datei **AJO Bootcamp.postman\_environment.json** in das Textfeld „Modal importieren“ ein oder legen Sie sie im Dialogfeld „Importieren“ ab.  Dadurch sollte ein automatischer Import Trigger werden
+&#x200B;4. Fügen Sie die lokale URL der Datei **AJO Bootcamp.postman\_environment.json** in das Textfeld „Modal importieren“ ein oder legen Sie sie im Dialogfeld „Importieren“ ab.  Dadurch sollte ein automatischer Import Trigger werden
 
 ![Postman-Importdialogfeld mit Option zum Einfügen einer Datei-URL](assets/import-environment-file-import-button-overlay.png "Postman-Import über URL")
 
 ![Postman-Importdialogfeld, in dem eine per Drag-and-Drop abgelegte Datei akzeptiert wird](assets/import-environment-file-drag-and-drop-import.png "Postman-Import per Drag-and-Drop")
 
-5. Überprüfen Sie nach dem Import, ob die Umgebung vorhanden ist, indem Sie auf die Registerkarte **Umgebungen** in der linken Seitenleiste klicken. Sie sehen, dass die AJO Bootcamp-Umgebung jetzt für Sie verfügbar ist.
+&#x200B;5. Überprüfen Sie nach dem Import, ob die Umgebung vorhanden ist, indem Sie auf die Registerkarte **Umgebungen** in der linken Seitenleiste klicken. Sie sehen, dass die AJO Bootcamp-Umgebung jetzt für Sie verfügbar ist.
 
 ![Umgebungsimport validieren](assets/import-environment-file-validate-environment-imported.png)
 
@@ -49,8 +49,8 @@ Postman wurde für Tests und die Interaktion mit APIs entwickelt. Wir verwenden 
 
 ![Postman-Umgebungsvariablen mit leeren Werten, die ausgefüllt werden müssen](assets/import-environment-file-values-need-filling-in.png "Überprüfen Sie Postman-Variablen in Umgebungen")
 
-3. Überspringen Sie vorerst den Wert DATASTREAM\_CONFIG . Sie erstellen eine Datenstromkonfiguration in einem späteren Labor.
-4. Aktualisieren Sie das Feld **EDGE\_REGION** mit dem Regions-Code, der am nächsten zu Ihrem physischen Standort für dieses Bootcamp liegt. Verwenden Sie dazu die nachstehende Tabelle.
+&#x200B;3. Überspringen Sie vorerst den Wert DATASTREAM\_CONFIG . Sie erstellen eine Datenstromkonfiguration in einem späteren Labor.
+&#x200B;4. Aktualisieren Sie das Feld **EDGE\_REGION** mit dem Regions-Code, der am nächsten zu Ihrem physischen Standort für dieses Bootcamp liegt. Verwenden Sie dazu die nachstehende Tabelle.
 
 | **Region** | **Regionscode** |
 | ---------- | --------------- |
@@ -67,7 +67,7 @@ Wenn Sie fertig sind, sollte Ihre Umgebungsdatei in etwa wie folgt aussehen:
 
 ![Überprüfen der Postman-Regionsvariablen](assets/import-environment-file-region-variable-set.png)
 
-5. Sie müssen jetzt Ihre Umgebungsvariablen speichern. Es gibt jedoch keine Schaltfläche zum Speichern in der Postman-Benutzeroberfläche. Verwenden Sie die Windows- oder Mac-Hotkeys zum Speichern (z. B. Strg+S unter Windows). Wenn unten rechts in der Benutzeroberfläche von Postman die Meldung **Änderungen gespeichert** angezeigt wird, ist ersichtlich, dass die Änderungen gespeichert wurden:
+&#x200B;5. Sie müssen jetzt Ihre Umgebungsvariablen speichern. Es gibt jedoch keine Schaltfläche zum Speichern in der Postman-Benutzeroberfläche. Verwenden Sie die Windows- oder Mac-Hotkeys zum Speichern (z. B. Strg+S unter Windows). Wenn unten rechts in der Benutzeroberfläche von Postman die Meldung **Änderungen gespeichert** angezeigt wird, ist ersichtlich, dass die Änderungen gespeichert wurden:
 
 ![Überprüfen der gespeicherten Änderungen](assets/import-environment-file-changes-saved-confirmation.png)
 

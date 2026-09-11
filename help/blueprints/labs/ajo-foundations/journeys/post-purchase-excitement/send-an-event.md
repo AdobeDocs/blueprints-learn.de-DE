@@ -42,7 +42,7 @@ Erfassen Sie zunächst die folgenden Werte:
 1. Navigieren Sie **linken Leiste zu** Quellen“ und klicken Sie dann **oberen Navigationsbereich auf** Konten“
 1. Suchen Sie nach **dep: HTTP API \[raw]** markieren Sie die Zeile und kopieren und speichern Sie den Wert des **Streaming-Endpunkts** an einen anderen Ort, auf den Sie später verweisen können
 
-![dep: HTTP-API [Roh] Kontozeile mit hervorgehobenem Streaming-Endpunktwert ](assets/send-an-event-streaming-endpoint-account-row.png "dep: HTTP-API \[Roh]")
+![dep: HTTP-API [Roh] Kontozeile mit hervorgehobenem Streaming-Endpunktwert &#x200B;](assets/send-an-event-streaming-endpoint-account-row.png "dep: HTTP-API \[Roh]")
 
 
 ### Datenfluss-ID suchen
@@ -51,7 +51,7 @@ Erfassen Sie zunächst die folgenden Werte:
 1. Suchen Sie den Datensatz für **dep: Orders (Stream)** klicken Sie auf den Link Datenflüsse .
 1. Kopieren Sie in der rechten Leiste die Werte **Datenfluss-ID** an eine Stelle, auf die Sie später verweisen können
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >Klicken Sie in ein leeres Feld in der Zeile.  Klicken Sie NICHT auf die blauen Links!
 
@@ -80,7 +80,7 @@ Starten Sie Postman auf Ihrem Computer und navigieren Sie zum folgenden API-Aufr
    - **grün** —> `Dataflow ID`
      - Wert sieht wie eine GUID aus (beginnt nicht mit http)
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >NOCH NICHT AUSFÜHREN!
 

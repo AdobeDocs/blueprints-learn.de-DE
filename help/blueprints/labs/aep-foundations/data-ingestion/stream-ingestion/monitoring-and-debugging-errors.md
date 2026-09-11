@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. Um die Fehler zu beheben, müssen Sie zu **Quellen->Datenflüsse->Datenflussname->Datenfluss aktualisieren** gehen und Ihre Zuordnungen korrigieren.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Sie müssen die JSON-Beispieldatei erneut hochladen, indem Sie sie zuerst löschen und erneut hinzufügen, damit der Mapper jetzt zur Validierung mit einer neuen Kopie aktualisiert wird.
 

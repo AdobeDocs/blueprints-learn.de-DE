@@ -25,9 +25,9 @@ Vergewissern Sie sich, dass das Profil noch nicht im Profil-Snapshot-Datensatz a
 
 ![Registerkarte Durchsuchen von Datensätzen im Abschnitt Daten-Management](assets/validate-profile-snapshot-datasets-browse-tab.png)
 
-2. Geben Sie in das **Suchfeld** den Wert `profile` ein, klicken **auf die** mit dem Titel „Profil-Momentaufnahme…“ und kopieren Sie in der rechten Leiste **kopieren Sie den Tabellennamen** und fügen Sie ihn an eine Stelle ein, auf die Sie im nächsten Schritt verweisen können.
+&#x200B;2. Geben Sie in das **Suchfeld** den Wert `profile` ein, klicken **auf die** mit dem Titel „Profil-Momentaufnahme…“ und kopieren Sie in der rechten Leiste **kopieren Sie den Tabellennamen** und fügen Sie ihn an eine Stelle ein, auf die Sie im nächsten Schritt verweisen können.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Möglicherweise müssen Sie alle Filter löschen, wenn Sie „Profil-Momentaufnahme…“ nicht sehen Datensatz.
 
@@ -35,7 +35,7 @@ Vergewissern Sie sich, dass das Profil noch nicht im Profil-Snapshot-Datensatz a
 
 ![Suchergebnisse für den Profil-Schnappschuss-Datensatz](assets/validate-profile-snapshot-dataset-search.png)
 
-3. Navigieren Sie zurück zum Abfrage-Editor und kopieren Sie die unten stehende SQL in den Editor
+&#x200B;3. Navigieren Sie zurück zum Abfrage-Editor und kopieren Sie die unten stehende SQL in den Editor
 
 ```sql
 select
@@ -60,15 +60,15 @@ from
   limit 50
 ```
 
-4. Aktualisieren Sie den Tabellennamen und die E-Mail-Adresse wie unten beschrieben:
+&#x200B;4. Aktualisieren Sie den Tabellennamen und die E-Mail-Adresse wie unten beschrieben:
    - **Tabellenname:** Kopieren Sie in Zeile 14 den Tabellennamen, den Sie für die Tabelle Profil-Momentaufnahme haben, und fügen Sie ihn zwischen dem `from` und dem `where` ein
    - **E-Mail-Adresse:** Geben Sie vorerst in Zeile 19 die gleiche E-Mail-Adresse ein, die Sie für den Versand Ihres Web-Ereignisses verwendet haben (wir haben Henry.creel\@emailsim.io verwendet, es sei denn, Sie haben sie geändert).
      - Im Moment haben wir dies auskommentiert (lassen Sie es so). Wenn die Abfrage ausgeführt wird und Sie nach Henry suchen, finden Sie ihn nicht.
 
 ![Abfrage-Editor mit dem Namen der Profilschnappschuss-Tabelle und der zu aktualisierenden E-Mail-Adresse](assets/validate-profile-snapshot-update-query-table-name.png)
 
-5. **Führen Sie** Abfrage aus, indem Sie auf den Pfeil oben links klicken.
-6. Die Ergebnisse sind wie unten (aber wenn Sie nach Henry suchen, finden Sie ihn nicht)
+&#x200B;5. **Führen Sie** Abfrage aus, indem Sie auf den Pfeil oben links klicken.
+&#x200B;6. Die Ergebnisse sind wie unten (aber wenn Sie nach Henry suchen, finden Sie ihn nicht)
 
 ![Abfrageergebnisse, die keine Übereinstimmung für das gestreamte Profil in der Momentaufnahme zeigen](assets/validate-profile-snapshot-query-results-no-match.png)
 

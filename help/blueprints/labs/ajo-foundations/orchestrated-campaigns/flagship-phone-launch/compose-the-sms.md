@@ -41,7 +41,7 @@ Schaltfläche ![Personalization zum Erstellen der SMS-Nachricht](assets/compose-
 
 
 
-2. Kopieren Sie den unten stehenden Text und fügen Sie ihn in den Textkörper der SMS-Nachricht ein.
+&#x200B;2. Kopieren Sie den unten stehenden Text und fügen Sie ihn in den Textkörper der SMS-Nachricht ein.
 
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
@@ -53,7 +53,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-3. Aktualisieren Sie die beiden unten stehenden Felder in der Nachricht **phone\_make** und **phone\_model** mithilfe der Option **Target-Attribute** in der linken Leiste.  Wenn Sie fertig sind, sollte Ihre Nachricht mit dem Screenshot übereinstimmen.
+&#x200B;3. Aktualisieren Sie die beiden unten stehenden Felder in der Nachricht **phone\_make** und **phone\_model** mithilfe der Option **Target-Attribute** in der linken Leiste.  Wenn Sie fertig sind, sollte Ihre Nachricht mit dem Screenshot übereinstimmen.
 
 ![Abschließende SMS-Nachricht mit Telefon Make und Modell personalisiert](assets/compose-the-sms-final-message-text.png)
 
@@ -63,13 +63,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-4. Klicken Sie im Editor **Validieren**, stellen Sie sicher, dass keine Validierungsfehler vorliegen, und klicken Sie ggf. auf die Schaltfläche **Speichern**
+&#x200B;4. Klicken Sie im Editor **Validieren**, stellen Sie sicher, dass keine Validierungsfehler vorliegen, und klicken Sie ggf. auf die Schaltfläche **Speichern**
 
 ![Schaltflächen „Validieren“ und „Speichern“ im Nachrichteneditor](assets/compose-the-sms-validate-and-save.png)
 
 
 
-5. Klicken Sie auf den **Rückwärtspfeil (\&lt;-)**, um zur Workflow-Arbeitsfläche zurückzukehren.
+&#x200B;5. Klicken Sie auf den **Rückwärtspfeil (\&lt;-)**, um zur Workflow-Arbeitsfläche zurückzukehren.
 
 ![Rückwärtspfeil, um zur Workflow-Arbeitsfläche zurückzukehren](assets/compose-the-sms-return-to-canvas.png)
 

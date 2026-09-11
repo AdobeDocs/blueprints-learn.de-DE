@@ -208,7 +208,7 @@ Wenn Sie fertig sind, überprüfen Sie, ob Ihr Bildschirm ähnlich wie unten aus
 
 
 
-4. Wenn Sie fertig sind, sollte Ihre Aktion zu Ihrer Regel hinzugefügt werden. Klicken Sie auf **Speichern**, um fortzufahren.
+&#x200B;4. Wenn Sie fertig sind, sollte Ihre Aktion zu Ihrer Regel hinzugefügt werden. Klicken Sie auf **Speichern**, um fortzufahren.
 
 ![Regeleditor mit der konfigurierten Aktion und hervorgehobener Schaltfläche „Speichern](assets/create-property-save-rule-button.png " Regel speichern")
 

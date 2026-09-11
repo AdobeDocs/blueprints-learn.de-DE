@@ -131,4 +131,4 @@ Im letzten Bildschirm können Sie die Details Ihrer Konfiguration überprüfen u
 
 >[!NOTE]
 >
->Dies ist der Punkt[ an dem die ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)Automatische Durchsetzung“ mit Ihren [Datennutzungsrichtlinien“ ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview). Dadurch werden Ihre Marketing-Aktionen mit den von Ihnen erstellten Regeln überprüft und Fehler ausgelöst.
+>Dies ist der Punkt[&#x200B; an dem die &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)Automatische Durchsetzung“ mit Ihren [Datennutzungsrichtlinien“ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview). Dadurch werden Ihre Marketing-Aktionen mit den von Ihnen erstellten Regeln überprüft und Fehler ausgelöst.

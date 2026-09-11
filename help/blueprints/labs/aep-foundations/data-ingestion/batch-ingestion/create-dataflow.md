@@ -53,7 +53,7 @@ ht-degree: 0%
 ## Beispieldatei hochladen
 
 1. Laden Sie die Beispieldateien aus dem [Beispieldateien](../sample-files.md) zur Verwendung mit diesem Labor herunter
-1. Ziehen Sie die Datei „Lab\_**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Benutzeroberfläche hoch.  Danach sollte der Bildschirm wie folgt aussehen.
+1. Ziehen Sie die Datei „Lab\_&#x200B;**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Benutzeroberfläche hoch.  Danach sollte der Bildschirm wie folgt aussehen.
 
    ![Vorschau der hochgeladenen CSV-Datei des Kundenkontos im Quelldatenbildschirm](assets/create-dataflow-uploaded-csv-preview.png "Zugriff auf die Azure Storage Explorer-Dateien in Adobe Experience Platform")
 

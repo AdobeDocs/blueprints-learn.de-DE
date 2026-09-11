@@ -105,16 +105,16 @@ Im Protokoll sollte ein ähnliches Element angezeigt werden:
 
 
 
-8. **Schließen** die Browser-**Registerkarte**
-9. **Testmodus schließen** oben rechts
+&#x200B;8. **Schließen** die Browser-**Registerkarte**
+&#x200B;9. **Testmodus schließen** oben rechts
 
    ![Test-Modus schließen oben rechts](assets/test-journey-close-test-mode.png)
 
-10. Klicken Sie oben **auf** Veröffentlichen“.
+&#x200B;10. Klicken Sie oben **auf** Veröffentlichen“.
 
 ![Schaltfläche „Veröffentlichen“ für die Journey oben rechts](assets/test-journey-publish-journey.png)
 
-11. **Schließen** Sie die **Journey**, indem Sie auf den Pfeil \&lt;- oben links klicken
+&#x200B;11. **Schließen** Sie die **Journey**, indem Sie auf den Pfeil \&lt;- oben links klicken
 
 ![Pfeil nach hinten oben links zum Schließen der Journey](assets/test-journey-close-journey-back-arrow.png)
 

@@ -62,7 +62,7 @@ Navigieren Sie in der Experience Platform-Benutzeroberfläche wie folgt zum Ziel
 
 
 
-3. Füllen Sie die Konfigurationsdetails Ihres Ziels wie folgt aus:
+&#x200B;3. Füllen Sie die Konfigurationsdetails Ihres Ziels wie folgt aus:
 
 - **Name** -> `Streaming DEP Webhook - [Your Initials]`
 - **Beschreibung** -> `[your webhook endpoint you copied above]`

@@ -22,7 +22,7 @@ Erstellen Sie eine Zielgruppe, die nur Profile findet, die eine Bestellung für 
 
 Erstellen Sie zunächst Ihre erste Audience. Es besteht aus vielen Teilen, die wir einbauen müssen. Klicken Sie in der linken Leiste auf Audience und dann oben rechts auf die Schaltfläche Audience erstellen .
 
-![Klicken Sie in der linken Leiste auf Zielgruppe und anschließend auf Zielgruppe erstellen ](assets/build-audience-1-click-create-audience-button.png)
+![Klicken Sie in der linken Leiste auf Zielgruppe und anschließend auf Zielgruppe erstellen &#x200B;](assets/build-audience-1-click-create-audience-button.png)
 
 
 
@@ -47,9 +47,9 @@ Es gibt viele Objekte, die mit einer Bestellung in Verbindung stehen
 
 >[!NOTE]
 >
->* Für die Bestellung „Ordner“ ist kein „i“ vorhanden. Auch wenn unsere Beschreibung ausgefüllt wurde, ist sie dort nicht vorhanden, und dies kann für Ihren Marketer verwirrend sein, da er versuchen kann, sie zu verwenden, oder wissen möchte, was sie ist.
->* Das „i“ für Ereigniskarten wiederholt nur den Typ, da der Ereignistyp ein Feld ist, nicht viele.
->* Zusammenfassungsdaten werden nur angezeigt, wenn der Wert in mehr als 2 % der zusammengeführten Profile vorhanden ist. Dies führt auch zu einer automatischen Vervollständigung beim Filtern nach einer Zeichenfolge.
+>&#x200B;* Für die Bestellung „Ordner“ ist kein „i“ vorhanden. Auch wenn unsere Beschreibung ausgefüllt wurde, ist sie dort nicht vorhanden, und dies kann für Ihren Marketer verwirrend sein, da er versuchen kann, sie zu verwenden, oder wissen möchte, was sie ist.
+>&#x200B;* Das „i“ für Ereigniskarten wiederholt nur den Typ, da der Ereignistyp ein Feld ist, nicht viele.
+>&#x200B;* Zusammenfassungsdaten werden nur angezeigt, wenn der Wert in mehr als 2 % der zusammengeführten Profile vorhanden ist. Dies führt auch zu einer automatischen Vervollständigung beim Filtern nach einer Zeichenfolge.
 
 
 
@@ -200,7 +200,7 @@ Das Modell sieht so aus, hat aber keine Beschreibungen.
 
 Ziehen Sie sie auf die Karte Platziertes Ereignis .
 
-![Ziehen Sie das Feld Modell auf die Karte Ereignis platziert ](assets/build-audience-1-drag-it-onto-the-placed-event-card.png)
+![Ziehen Sie das Feld Modell auf die Karte Ereignis platziert &#x200B;](assets/build-audience-1-drag-it-onto-the-placed-event-card.png)
 
 IPhone 14 hinzufügen
 

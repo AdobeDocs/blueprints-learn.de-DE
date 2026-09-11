@@ -108,15 +108,15 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-5. Klicken Sie auf Zielgruppen > Experience Platform. Ziehen Sie Abrechnungsnutzungssumme > 140 GB und Abrechnungsnutzungsdurchschnitt >= 20 GB neben Planname.
+&#x200B;5. Klicken Sie auf Zielgruppen > Experience Platform. Ziehen Sie Abrechnungsnutzungssumme > 140 GB und Abrechnungsnutzungsdurchschnitt >= 20 GB neben Planname.
 
    ![Ziehen Sie die Zielgruppen zur Abrechnungsnutzung neben Planname](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. Kopieren Sie den Pseudo-Code in die Beschreibung
+&#x200B;6. Kopieren Sie den Pseudo-Code in die Beschreibung
 
-7. Aktivieren Sie diese Option, wenn es sich um Streaming handelt. **Es kann nicht Streaming sein**. Nehmen Sie einige Änderungen vor:
+&#x200B;7. Aktivieren Sie diese Option, wenn es sich um Streaming handelt. **Es kann nicht Streaming sein**. Nehmen Sie einige Änderungen vor:
 
    >[!NOTE]
    >
@@ -126,9 +126,9 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-8. Ersetzen Sie **Planname (Planname)** durch: XDM-Kontaktprofil > Devbc > Plandetails > **Planname**
+&#x200B;8. Ersetzen Sie **Planname (Planname)** durch: XDM-Kontaktprofil > Devbc > Plandetails > **Planname**
 
-   ![Ersetzen Sie den Plannamen (Planname) durch das denormalisierte Feld Planname ](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
+   ![Ersetzen Sie den Plannamen (Planname) durch das denormalisierte Feld Planname &#x200B;](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
    >[!NOTE]
    >
@@ -142,7 +142,7 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-9. Überprüfen Sie, ob Sie dies jetzt als Streaming speichern können. Zielgruppe als &quot;*Abrechnung der Datennutzung hoch, aber kein Ultimate-Plan*&quot; speichern
+&#x200B;9. Überprüfen Sie, ob Sie dies jetzt als Streaming speichern können. Zielgruppe als &quot;*Abrechnung der Datennutzung hoch, aber kein Ultimate-Plan*&quot; speichern
 
 >[!NOTE]
 >

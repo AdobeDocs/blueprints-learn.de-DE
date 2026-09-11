@@ -21,7 +21,7 @@ Nach einigen Minuten sollten Sie beachten, dass **Status** einen Fehler anzeigt.
 1. Klicken Sie auf **Startdatum des Datenflusses**
 1. Klicken Sie auf **Vorschau der Fehlerdiagnose**, um die spezifischen Details für jede fehlgeschlagene Zeile anzuzeigen
 
-![Datenflussausführungsstatus, der einen Fehler ](assets/debugging-errors-dataflow-run-failure.png " Datenflussausführungsfehler anzeigt")
+![Datenflussausführungsstatus, der einen Fehler &#x200B;](assets/debugging-errors-dataflow-run-failure.png " Datenflussausführungsfehler anzeigt")
 
 ![Vorschau des Links Fehlerdiagnose im Bildschirm mit den Datenflussausführungs-Details](assets/debugging-errors-preview-error-diagnostics-link.png "Vorschau der Fehlerdiagnose")
 
@@ -29,7 +29,7 @@ Nach einigen Minuten sollten Sie beachten, dass **Status** einen Fehler anzeigt.
 
 Der Bildschirm, den Sie jetzt sehen, zeigt Ihnen eine Reihe von Details darüber, was die Fehlercodes mit der vollständigen Fehlermeldung bedeuten und welche Zeile fehlgeschlagen ist.
 
-![Detailbildschirm für die Fehlerdiagnose mit Fehlercodes, Meldungen und der Vorschau ](assets/debugging-errors-error-diagnostics-detail-screen.png " fehlgeschlagenen Fehlerzeile")
+![Detailbildschirm für die Fehlerdiagnose mit Fehlercodes, Meldungen und der Vorschau &#x200B;](assets/debugging-errors-error-diagnostics-detail-screen.png " fehlgeschlagenen Fehlerzeile")
 
 >[!NOTE]
 >

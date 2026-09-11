@@ -41,7 +41,7 @@ Erfassen Sie zunächst die folgenden Werte:
 1. Navigieren Sie **linken Leiste zu** Quellen“ und klicken Sie dann **oberen Navigationsbereich auf** Konten“
 1. Suchen Sie nach **dep: HTTP API \[raw]** markieren Sie die Zeile und kopieren und speichern Sie den Wert des **Streaming-Endpunkts** an einen anderen Ort, auf den Sie später verweisen können
 
-![dep: HTTP-API [Roh] Kontozeile mit hervorgehobenem Streaming-Endpunktwert ](assets/send-an-event-streaming-endpoint-account-row.png "dep: HTTP-API \[Roh]")
+![dep: HTTP-API [Roh] Kontozeile mit hervorgehobenem Streaming-Endpunktwert &#x200B;](assets/send-an-event-streaming-endpoint-account-row.png "dep: HTTP-API \[Roh]")
 
 
 ### Datenfluss-ID suchen

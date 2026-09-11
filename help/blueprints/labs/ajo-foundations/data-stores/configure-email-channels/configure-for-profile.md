@@ -52,7 +52,7 @@ Wählen Sie aus dem **Subdomain**-Dropdown **email.dep-labs.com**
 
 Wählen Sie aus der Dropdown **Liste** IP-Pool“ **Marketing**
 
-![Dropdown-Liste „IP-Pool“ mit ](assets/configure-for-profile-select-marketing-ip-pool.png " Details zum Marketing-IP-Pool")
+![Dropdown-Liste „IP-Pool“ mit &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png " Details zum Marketing-IP-Pool")
 
 ## Abmeldeliste konfigurieren
 

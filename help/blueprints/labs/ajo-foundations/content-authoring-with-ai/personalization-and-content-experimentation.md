@@ -48,7 +48,7 @@ Dieser Teil der Übung vereinfacht die Personalisierung. Fügen Sie der E-Mail d
 
    ![Personalisierungssymbol in der E-Mail-Textsymbolleiste](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. Suchen Sie nach **F****first name**.
+4. Suchen Sie nach **F**&#x200B;**first name**.
 
    ![Suchen nach dem Attribut Vorname im Personalisierungsbereich](assets/personalization-and-content-experimentation-search-first-name-field.png)
 

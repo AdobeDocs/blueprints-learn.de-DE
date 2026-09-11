@@ -135,7 +135,7 @@ Der vollständig erstellte Pfad sieht wie folgt aus:  Kopieren Sie diesen Pfad u
 2. Aktualisieren Sie den Text der Anfrage mit den folgenden Informationen
 
    - **op** ->` add`
-   - **path** -> `path from previous step +`` the new field name`
+   - **path** -> `path from previous step +`&#x200B;` the new field name`
    - **value** ->
      - **title** -> `Plan Description`
      - **type** -> `string`

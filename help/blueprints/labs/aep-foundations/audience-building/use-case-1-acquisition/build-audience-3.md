@@ -134,17 +134,17 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-5. Geben Sie eine Beschreibung ein.
+&#x200B;5. Geben Sie eine Beschreibung ein.
 
-6. Wechsel zu Streaming
+&#x200B;6. Wechsel zu Streaming
 
-7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
+&#x200B;7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
 
-8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+&#x200B;8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+&#x200B;9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-10. Klicken Sie auf Weiter und beenden Sie
+&#x200B;10. Klicken Sie auf Weiter und beenden Sie
 
 >[!NOTE]
 >

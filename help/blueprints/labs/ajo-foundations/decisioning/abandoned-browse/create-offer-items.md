@@ -84,7 +84,7 @@ Das erste und einfachste von Ihnen erstellte Angebotselement ist das Fallback-An
 >
 >In der Praxis und bei komplexeren Angeboten sollte ein ordnungsgemäßer Genehmigungsprozess vorhanden sein, um sicherzustellen, dass die Angebotselemente korrekt erstellt wurden. Um in diesem Labor Zeit zu sparen, genehmigen Sie einfach jedes von Ihnen erstellte Angebotselement.
 
-12. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
+&#x200B;12. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
 
 ## Basismodellobjekt erstellen
 
@@ -150,7 +150,7 @@ Nachdem die allgemeinen und Basismodellangebote erstellt wurden, können Sie zu 
 
 ![Abgeschlossene Konfiguration für das Angebotselement der Ultra-Ebene](assets/create-offer-items-ultra-offer-final-config.png)
 
-11. Nachdem Sie sich vergewissert haben, dass alle Einstellungen korrekt sind, speichern und genehmigen Sie dieses Angebotselement. Jetzt werden alle vier Angebotselemente mit jeweils einer eindeutigen Priorität angezeigt.
+&#x200B;11. Nachdem Sie sich vergewissert haben, dass alle Einstellungen korrekt sind, speichern und genehmigen Sie dieses Angebotselement. Jetzt werden alle vier Angebotselemente mit jeweils einer eindeutigen Priorität angezeigt.
 
 ![Seite „Angebote“ mit allen vier Angebotselementen mit eindeutigen Prioritäten](assets/create-offer-items-all-four-offers-priority.png)
 

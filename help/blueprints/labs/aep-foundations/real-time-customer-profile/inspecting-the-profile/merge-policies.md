@@ -64,7 +64,7 @@ Erstellen Sie eine Zusammenführungsrichtlinie, die nicht das ID-Diagramm verwen
 1. Klicken Sie **oberen Navigationsbereich auf &quot;**&quot;
 1. Klicken Sie **ganz rechts** Bildschirm auf Zusammenführungsrichtlinie erstellen .
 
-![Klicken Sie oben rechts im Bildschirm „Zusammenführungsrichtlinien“ auf Zusammenführungsrichtlinie erstellen ](assets/merge-policies-click-create-merge-policy-button.png)
+![Klicken Sie oben rechts im Bildschirm „Zusammenführungsrichtlinien“ auf Zusammenführungsrichtlinie erstellen &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## Konfigurieren
 

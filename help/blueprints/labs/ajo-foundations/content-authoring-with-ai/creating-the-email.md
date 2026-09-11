@@ -69,27 +69,27 @@ Dieser Schritt zeigt, wie Vorlagen in allen Journey wiederverwendet werden könn
 
 ![Option „E-Mail bearbeiten“ für die Kampagnen-E-Mail-Aktivität](assets/creating-the-email-click-edit-email.png)
 
-11. Klicken Sie auf die **Aktion** und wählen Sie **Ihre** E-Mail-Konfiguration aus. Ihre Sandbox zeigt dies möglicherweise als relationale E-Mail an. (Beliebig auswählen)
+&#x200B;11. Klicken Sie auf die **Aktion** und wählen Sie **Ihre** E-Mail-Konfiguration aus. Ihre Sandbox zeigt dies möglicherweise als relationale E-Mail an. (Beliebig auswählen)
 
 ![Registerkarte „Aktion“ mit ausgewählter E-Mail-Konfiguration](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. Klicken Sie auf **Registerkarte Inhalt**
+&#x200B;12. Klicken Sie auf **Registerkarte Inhalt**
 
 ![Registerkarte „Inhalt“ im E-Mail-Editor](assets/creating-the-email-click-content-tab.png)
 
-13. Klicken Sie auf **Inhaltsvorlage anwenden**
+&#x200B;13. Klicken Sie auf **Inhaltsvorlage anwenden**
 
 ![Option „Inhaltsvorlage anwenden“ im E-Mail-Editor](assets/creating-the-email-click-apply-content-template.png)
 
-14. Wählen Sie die von Ihnen erstellte Vorlage **„Werbevorlage** aus und klicken Sie auf **Bestätigen**
+&#x200B;14. Wählen Sie die von Ihnen erstellte Vorlage **„Werbevorlage** aus und klicken Sie auf **Bestätigen**
 
 ![Auswählen der Aktionsvorlage und Klicken auf „Bestätigen“](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. Klicken Sie auf **E-Mail-Textkörper bearbeiten**
+&#x200B;15. Klicken Sie auf **E-Mail-Textkörper bearbeiten**
 
 ![Option „E-Mail-Textkörper bearbeiten“ nach dem Anwenden der Vorlage](assets/creating-the-email-click-edit-email-body.png)
 
-16. Bestätigen Sie, dass die neuen Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke korrekt angezeigt werden.
+&#x200B;16. Bestätigen Sie, dass die neuen Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke korrekt angezeigt werden.
 
 ![Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke werden in der E-Mail korrekt angezeigt](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

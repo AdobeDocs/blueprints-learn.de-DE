@@ -34,7 +34,7 @@ In den nächsten Schritten erstellen Sie eine Audience aus dem relationalen Sche
 
 4. Nachdem die **Zielgruppendimension** konfiguriert wurde, klicken Sie auf Zielgruppe erstellen , um den Prozess der Erstellung der Zielgruppe aus dem relationalen Schema zu starten
 
-   ![Klicken Sie auf die Schaltfläche Zielgruppe erstellen ](assets/build-an-audience-create-audience-button.png)
+   ![Klicken Sie auf die Schaltfläche Zielgruppe erstellen &#x200B;](assets/build-an-audience-create-audience-button.png)
 
 5. Der Bereich Details der Zielgruppe erstellen wird geöffnet. Klicken Sie auf **Bedingung hinzufügen**
 
@@ -80,4 +80,4 @@ In den nächsten Schritten erstellen Sie eine Audience aus dem relationalen Sche
 
 Sie haben jetzt gesehen, wie einfach es ist, die Aktivität Zielgruppe aufbauen in der Kampagne zu verwenden, indem Sie die richtige Zielgruppendimension aus dem relationalen Schema auswählen. Anschließend haben Sie eine Bedingung hinzugefügt, um die Kriterien für die Zielgruppenerstellung zu verfeinern, und die Option „Aktualisieren“ verwendet, um die erwartete Anzahl von Zeilen zu überprüfen.
 
-Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) wenn Sie Interesse haben.
+Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) wenn Sie Interesse haben.

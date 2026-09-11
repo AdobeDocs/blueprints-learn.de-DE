@@ -77,7 +77,7 @@ Eine Möglichkeit, über Prioritätsanpassungsregeln nachzudenken, besteht darin
 
 3. Lassen Sie den Operator auf „Gleich“ gesetzt und geben Sie im restlichen Textfeld den Namen des Angebotselements der Ultra-Ebene ein, nämlich **iphone:17\:ultra**. Nach der Eingabe des Textes wird die Benutzeroberfläche aktualisiert und zeigt an, dass die entsprechende Bedingung akzeptiert wurde.
 4. Klicken Sie auf **+Bedingung hinzufügen** und dann in das **neue angezeigte Textfeld** (es enthält den Text *Klicken, um ein Entscheidungselement zu erstellen…*)
-5. Klicken Sie auf die jetzt verfügbare **Attribut auswählen** Option**.**
+5. Klicken Sie auf die jetzt verfügbare **Attribut auswählen** Option&#x200B;**.**
 6. Wenn das Dialogfeld &#39;Attribut auswählen&#39; geöffnet wird, klicken Sie auf **Profilattribute > Person** (Sie müssen wahrscheinlich nach unten scrollen) **> Geburtsjahr**. Klicken Sie nach der Auswahl auf **Speichern.**
 
    >[!NOTE]
@@ -144,7 +144,7 @@ Eine Möglichkeit, über Prioritätsanpassungsregeln nachzudenken, besteht darin
 >- Bei Benutzern, die 1990 mit einer **Plan-ID = 1** geboren wurden, werden Ultra- und Pro-Angebote entfernt, obwohl sie am höchsten eingestuft wurden. Der Benutzer sieht nur die Angebote „Basis“ und „Generisch“, da Ultra und Pro eine zusätzliche Bedingung haben: Nur Benutzer mit **Plan-IDs 2 oder 3** können sie sehen.
 >- Da das generische Angebot keine Regeln zur Frequenzlimitierung hat, wird der Benutzer mit einem Geburtsjahr **1970** das Ultra-Angebot nie sehen, da sein Prioritätswert niedriger ist als der geboosterte Wert des Generischen.
 
-5. Scrollen Sie bei allen Regeln und dem standardmäßigen Prioritätswert nach oben zurück und klicken Sie auf die blaue Schaltfläche **Erstellen** in der oberen rechten Ecke.
+&#x200B;5. Scrollen Sie bei allen Regeln und dem standardmäßigen Prioritätswert nach oben zurück und klicken Sie auf die blaue Schaltfläche **Erstellen** in der oberen rechten Ecke.
 
 >[!TIP]
 >

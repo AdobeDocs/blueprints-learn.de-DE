@@ -37,7 +37,7 @@ Das AEP Foundations Lab Pack wird mithilfe der DEP-CLI, einem Befehlszeilen-Tool
 ## Voraussetzungen
 
 - **Lizenzberechtigungen.** Administratorrechte für eine IMS-Organisation mit Real-Time CDP (mit Streaming-Segmentierung)
-- **Zugriffsrechte.** Eine Adobe Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldedaten, die Sie im Setup von [Developer Console erstellt ](developer-console-setup.md).
+- **Zugriffsrechte.** Eine Adobe Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldedaten, die Sie im Setup von [Developer Console erstellt &#x200B;](developer-console-setup.md).
 - **Developer Console-Anmeldeinformationen.** Ein Projekt, das Adobe Experience Platform-APIs enthält. Wenn Sie diese noch nicht haben, befolgen Sie zuerst die Einrichtung von [Developer Console](developer-console-setup.md)
 - **Eine Sandbox.** Leer, vom Typ `dev` und mindestens 60 Minuten lang im Status „Bereit“, bevor Sie die Bereitstellung starten
 - **Node.js.** Jede neuere LTS-Version, unter Windows oder Mac

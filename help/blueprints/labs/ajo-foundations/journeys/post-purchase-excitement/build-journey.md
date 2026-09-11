@@ -188,7 +188,7 @@ Für den Inhalt werden Sie die Dinge einfach halten. Wie dumm, einfach.
 
 ![Schaltfläche „Speichern“ und der Pfeil „Zurück“ oben rechts und oben links](assets/build-journey-save-and-back-arrow.png)
 
-12. Klicken Sie schließlich oben links auf das Symbol **\&lt; Zurück**, um zur Journey-Arbeitsfläche zurückzukehren
+&#x200B;12. Klicken Sie schließlich oben links auf das Symbol **\&lt; Zurück**, um zur Journey-Arbeitsfläche zurückzukehren
 
 ![Zurück-Symbol oben links, um zur Journey-Arbeitsfläche zurückzukehren](assets/build-journey-back-icon-to-journey-canvas.png)
 
@@ -218,7 +218,7 @@ Stellen Sie auf der Haupt-Journey-Arbeitsfläche im E-Mail-Knoten sicher, dass S
 
 
 
-3. Klicken Sie oben rechts auf **Speichern** und anschließend auf den **Rückwärtspfeil** \&lt;- oben links, um die Journey zu ****
+3. Klicken Sie oben rechts auf **Speichern** und anschließend auf den **Rückwärtspfeil** \&lt;- oben links, um die Journey zu **&#x200B;**
 
 ![Speichern-Taste und Rückwärtspfeil zum Schließen der Journey](assets/build-journey-save-and-close-journey.png)
 

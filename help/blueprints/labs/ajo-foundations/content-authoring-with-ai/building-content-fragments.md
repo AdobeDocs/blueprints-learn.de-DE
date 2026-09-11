@@ -136,11 +136,11 @@ Erstellen Sie zunächst ein Header-Fragment. Richten Sie jedoch vor dem Erstelle
 
 ![Klicken Sie auf Weiter , nachdem Sie den Logo-Upload ausgewählt haben](assets/building-content-fragments-upload-logo-click-next.png)
 
-11. Wählen Sie den **Asset-Ordner** aus, den Sie erstellt haben, und klicken Sie dann auf **Importieren**. Die Datei wird im Ordner gespeichert.
+&#x200B;11. Wählen Sie den **Asset-Ordner** aus, den Sie erstellt haben, und klicken Sie dann auf **Importieren**. Die Datei wird im Ordner gespeichert.
 
 ![Auswählen des erstellten Asset-Ordners und Klicken auf „Importieren“](assets/building-content-fragments-select-asset-folder-import.png)
 
-12. Das Logo ist korrekt platziert, aber es ist zu groß und muss in der Größe verändert werden. Um die Größe des Logos zu ändern, aktualisieren Sie seine Eigenschaften. Klicken Sie auf **Registerkarte Stil** und legen Sie die Breite auf 40 % fest, indem Sie den Schieberegler ziehen, wie unten dargestellt.
+&#x200B;12. Das Logo ist korrekt platziert, aber es ist zu groß und muss in der Größe verändert werden. Um die Größe des Logos zu ändern, aktualisieren Sie seine Eigenschaften. Klicken Sie auf **Registerkarte Stil** und legen Sie die Breite auf 40 % fest, indem Sie den Schieberegler ziehen, wie unten dargestellt.
 
 >[!NOTE]
 >
@@ -150,15 +150,15 @@ Erstellen Sie zunächst ein Header-Fragment. Richten Sie jedoch vor dem Erstelle
 
 ![Der Regler für die Breite der Registerkarte „Stil“ ist auf 40 Prozent eingestellt, um die Größe des Logos zu ändern](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. Klicken Sie auf **Speichern** und Ihr Fragment wird gespeichert. Bei der Bestätigung wird eine Benachrichtigung mit einem grünen Balken angezeigt.
+&#x200B;13. Klicken Sie auf **Speichern** und Ihr Fragment wird gespeichert. Bei der Bestätigung wird eine Benachrichtigung mit einem grünen Balken angezeigt.
 
 ![Grüne Bestätigungsleiste nach dem Speichern des Fragments](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. Das Fragment wird im Entwurfsmodus gespeichert. Bevor Sie sie verwenden, müssen Sie sie veröffentlichen. Klicken Sie auf die Schaltfläche **Zurück**.
+&#x200B;14. Das Fragment wird im Entwurfsmodus gespeichert. Bevor Sie sie verwenden, müssen Sie sie veröffentlichen. Klicken Sie auf die Schaltfläche **Zurück**.
 
 ![Schaltfläche „Zurück“, um den Fragmententwurf vor der Veröffentlichung zu verlassen](assets/building-content-fragments-click-back-button-draft.png)
 
-15. Klicken Sie auf **Schaltfläche „Veröffentlichen**. Es wird die Meldung „Fragment wird veröffentlicht, dies kann einige Zeit dauern. Wir benachrichtigen Sie, sobald dies geschehen ist.“ Bei Bestätigung. Ihr Fragment ist bereit für die Vorlagenerstellung.
+&#x200B;15. Klicken Sie auf **Schaltfläche „Veröffentlichen**. Es wird die Meldung „Fragment wird veröffentlicht, dies kann einige Zeit dauern. Wir benachrichtigen Sie, sobald dies geschehen ist.“ Bei Bestätigung. Ihr Fragment ist bereit für die Vorlagenerstellung.
 
 ![Schaltfläche „Veröffentlichen“ und Bestätigungsmeldung zum Veröffentlichen des Fragments](assets/building-content-fragments-click-publish-fragment-button.png)
 

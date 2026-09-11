@@ -57,7 +57,7 @@ Wenn Sie Azure Storage Explorer nicht heruntergeladen haben, tun Sie dies jetzt,
    - Suchen Sie als Nächstes die Karte **Data Landing Zone** .
    - Klicken Sie auf die Karte Data Landing Zone und dann auf **Anmeldedaten anzeigen** in der rechten Leiste
 
-   ![Quellkarte der Data Landing Zone mit der Option Anmeldedaten anzeigen in der Source-Karte der ](assets/overview-data-landing-zone-view-credentials.png " Data Landing Zone von Adobe Experience PlatformAccess in Adobe Experience Platform")
+   ![Quellkarte der Data Landing Zone mit der Option Anmeldedaten anzeigen in der Source-Karte der &#x200B;](assets/overview-data-landing-zone-view-credentials.png " Data Landing Zone von Adobe Experience PlatformAccess in Adobe Experience Platform")
 
 
 

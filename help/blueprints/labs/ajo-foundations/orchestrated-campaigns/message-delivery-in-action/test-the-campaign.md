@@ -110,4 +110,4 @@ Klicken Sie auf die **Stopp**-Schaltfläche, um den **Testmodus** für die Kampa
 
 Sie haben nun gesehen, wie Sie die erstellte Kampagne testen können, um den Fluss und das Verhalten zu verstehen. Hier wurden die Feinheiten der Verwendung der verschiedenen Einstellungen für die E-Mail-Kanal-Konfiguration während der Ausführung des Testflusses gut verstanden.
 
-Weitere Informationen zum Testmodus der Kampagne finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), falls Sie Interesse haben.
+Weitere Informationen zum Testmodus der Kampagne finden [&#x200B; (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), falls Sie Interesse haben.

@@ -25,7 +25,7 @@ Für diesen Anwendungsfall gibt es nicht viel Vorarbeit zu leisten. Wir haben im
 
 
 
-3. Suchen Sie in „Ereignisse“ nach „Verwendung“.  Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
+&#x200B;3. Suchen Sie in „Ereignisse“ nach „Verwendung“.  Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
 
 ![Suche nach Verwendung in Ereignissen - keine Beschreibung angezeigt](assets/pre-work-search-usage-in-events.png)
 

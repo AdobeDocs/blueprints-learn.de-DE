@@ -45,7 +45,7 @@ Sie sollten jetzt eine `200 OK` Antwort sehen und zum Ende des von Ihnen erstell
 
 
 
-![Beziehungsdeskriptor, der im Kundenkontenschema-JSON-Beziehungsdeskriptor ](assets/view-schema-relationship-descriptor.png " ist")
+![Beziehungsdeskriptor, der im Kundenkontenschema-JSON-Beziehungsdeskriptor &#x200B;](assets/view-schema-relationship-descriptor.png " ist")
 
 
 

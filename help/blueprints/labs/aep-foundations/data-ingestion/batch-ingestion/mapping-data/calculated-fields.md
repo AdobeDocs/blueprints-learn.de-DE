@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Das Feld „sms_optIn“ ist ein Pflichtfeld im Kundenkontenschema. Das Problem ist, dass das Feld „sms\_optIn“ in unserer Streaming-Quelle *null*-Werte senden kann, sodass ein berechnetes Feld erforderlich ist, um dies zu beheben. Andernfalls werden diese Datensätze bei der Aufnahme übersprungen, was einen Verlust darstellt.
 
-![Das Feld consents.marketing.sms.val , wie im Feld ](assets/calculated-fields-consents-marketing-sms-val-schema-field.png ".consents.marketing.sms.val gezeigt, wie im Schema dargestellt")
+![Das Feld consents.marketing.sms.val , wie im Feld &#x200B;](assets/calculated-fields-consents-marketing-sms-val-schema-field.png ".consents.marketing.sms.val gezeigt, wie im Schema dargestellt")
 
 
 

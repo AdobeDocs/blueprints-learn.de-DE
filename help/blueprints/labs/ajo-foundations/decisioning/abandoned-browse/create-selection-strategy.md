@@ -27,21 +27,21 @@ Stellen Sie sich vor, wir hätten Hunderte von Angeboten, die in vierzig Sammlun
 
 ![Seite „Auswahlstrategien“ mit der Schaltfläche „Auswahlstrategie erstellen“](assets/create-selection-strategy-create-button.png)
 
-3. Auswahlstrategie benennen **iPhone 17-Auswahlstrategie**
-4. Sie können sehen, dass eine Auswahlstrategie drei Dinge erfordert.
+&#x200B;3. Auswahlstrategie benennen **iPhone 17-Auswahlstrategie**
+&#x200B;4. Sie können sehen, dass eine Auswahlstrategie drei Dinge erfordert.
    - Eine Sammlung von Angeboten
    - Eignungsanforderungen
    - Eine Ranking-Methode
 
 Klicken Sie auf **Sammlung auswählen**, aktivieren Sie das Kontrollkästchen neben der einzigen vorhandenen Sammlung (**iPhone 17 Collection**) und klicken Sie auf **Speichern**.
 
-5. Lassen Sie die Dropdown-Liste „Eignung“ auf „Alle Besucher“.
+&#x200B;5. Lassen Sie die Dropdown-Liste „Eignung“ auf „Alle Besucher“.
 
 >[!NOTE]
 >
 >Die Eignung kann über die Kriterien für die Eingabe der Journey oder Kampagne auf der Angebots-, Auswahl- oder Journey-/Kampagnenebene angewendet werden. Es hängt alles von dem Anwendungsfall ab, den Sie zu realisieren versuchen. Wenn Sie auf die **Eignung** klicken, sehen Sie dieselben Optionen für Zielgruppe und Entscheidungsregel wie auf Angebotsebene. In unserem Anwendungsfall wollten wir nur bestimmte Angebote einschränken. Daher war es sinnvoll, die Eignung auf Angebotsebene vorzunehmen.
 
-6. Legen Sie die **Rangfolgenmethode** auf **Formel fest** klicken Sie dann auf die Schaltfläche **Formel auswählen**.
+&#x200B;6. Legen Sie die **Rangfolgenmethode** auf **Formel fest** klicken Sie dann auf die Schaltfläche **Formel auswählen**.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Klicken Sie auf **Sammlung auswählen**, aktivieren Sie das Kontrollkästchen ne
 >
 >Die Option KI-Modell verwendet ein KI-Modell, das Impressionen, Klicks und Konversionen für zurückgegebene Angebote analysiert, um zu bestimmen, welches Angebot dem Kontakt angezeigt werden soll. Wir werden sie in diesem Labor nicht verwenden, da es Mindestdatenschwellen sowie zwei Wochen zum Trainieren der Modelle gibt.
 
-7. Markieren Sie das Kästchen neben der einzigen Rangfolgenformel, die Sie haben (**iPhone 17 Rangfolgenformel**), und klicken Sie auf **Speichern**. Wenn Sie fertig sind, sieht Ihre Auswahlstrategie wie folgt aus:
+&#x200B;7. Markieren Sie das Kästchen neben der einzigen Rangfolgenformel, die Sie haben (**iPhone 17 Rangfolgenformel**), und klicken Sie auf **Speichern**. Wenn Sie fertig sind, sieht Ihre Auswahlstrategie wie folgt aus:
 
 ![Abgeschlossene Auswahlstrategie mit festgelegter Sammlung, Gültigkeit und Rangfolgenformel](assets/create-selection-strategy-completed-configuration.png)
 
-8. Sobald Ihre Auswahlstrategie korrekt ist, klicken Sie auf die blaue Schaltfläche **Erstellen**.
+&#x200B;8. Sobald Ihre Auswahlstrategie korrekt ist, klicken Sie auf die blaue Schaltfläche **Erstellen**.
 
 >[!TIP]
 >

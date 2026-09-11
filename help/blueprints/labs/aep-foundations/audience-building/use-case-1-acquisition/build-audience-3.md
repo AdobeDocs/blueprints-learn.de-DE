@@ -45,19 +45,19 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-2. Geben Sie eine Beschreibung ein und machen Sie sie zum Streaming .
+&#x200B;2. Geben Sie eine Beschreibung ein und machen Sie sie zum Streaming .
 
-3. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
+&#x200B;3. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
 
 ![Ändern Sie den Ereigniszeitfilter von „Beliebig“ in „Heute“](assets/build-audience-1-change-any-time-to-today.png)
 
-4. Speichern Sie diese Zielgruppe als &quot;*Beliebige Seite besucht*&quot;
+&#x200B;4. Speichern Sie diese Zielgruppe als &quot;*Beliebige Seite besucht*&quot;
 
-5. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+&#x200B;5. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-6. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+&#x200B;6. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-7. Klicken Sie auf Weiter und beenden Sie
+&#x200B;7. Klicken Sie auf Weiter und beenden Sie
 
 ## Zielgruppe erstellen (besuchte iPhone 14-Seite, aber nicht Inhaber/Bestellt)
 
@@ -67,7 +67,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-2. Navigieren Sie zu der Stelle, an der sich der Seitenname befindet, und fügen Sie dem Ereignis das Feld Seitenname hinzu, damit wir nach ihm filtern können.
+&#x200B;2. Navigieren Sie zu der Stelle, an der sich der Seitenname befindet, und fügen Sie dem Ereignis das Feld Seitenname hinzu, damit wir nach ihm filtern können.
 
 - XDM ExperienceEvent —> Web —> Web-Seitendetails —> Name
 
@@ -75,11 +75,11 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-3. Hinzufügen enthält &quot;iPhone 14“
+&#x200B;3. Hinzufügen enthält &quot;iPhone 14“
 
 ![Fügen Sie eine CONTAINS-Bedingung für &quot;iPhone 14“ hinzu](assets/build-audience-3-add-contains-iphone-14.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Suchen nach „Seite“**
 >
@@ -97,7 +97,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-4. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
+&#x200B;4. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
 
 ![Ändern Sie den Ereigniszeitfilter von „Beliebig“ in „Heute“](assets/build-audience-1-change-any-time-to-today.png)
 
@@ -107,19 +107,19 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-5. Überprüfen Sie, ob es sich um Streaming handelt, und geben Sie eine Beschreibung an.
+&#x200B;5. Überprüfen Sie, ob es sich um Streaming handelt, und geben Sie eine Beschreibung an.
 
-6. Speichern Sie die Zielgruppe als &quot;*Besuchte iPhone 14-Seite*&quot;
+&#x200B;6. Speichern Sie die Zielgruppe als &quot;*Besuchte iPhone 14-Seite*&quot;
 
 ![Speichern Sie die Zielgruppe als „Besuchte iPhone-14-Seite“](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
-7. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+&#x200B;7. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-8. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+&#x200B;8. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-9. Klicken Sie auf Weiter und beenden Sie
+&#x200B;9. Klicken Sie auf Weiter und beenden Sie
 
 
 
@@ -134,24 +134,23 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-5. Geben Sie eine Beschreibung ein.
+&#x200B;5. Geben Sie eine Beschreibung ein.
 
-6. Wechsel zu Streaming
+&#x200B;6. Wechsel zu Streaming
 
-7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
+&#x200B;7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
 
-8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+&#x200B;8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+&#x200B;9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-10. Klicken Sie auf Weiter und beenden Sie
+&#x200B;10. Klicken Sie auf Weiter und beenden Sie
 
 >[!NOTE]
 >
 >**Zeitfilter**
 >
 >Für die Anforderungen galt keine Zeitvorgabe. Wenn also jemand vor drei Jahren zu Besuch war, würde er sich qualifizieren. Je nach Anwendungsfall kann dies funktionieren oder nicht. Es lohnt sich zu fragen. Wir haben eine hinzugefügt, da wir basierend auf Personen, die unsere Website heute besucht haben, eine Aktivierung durchführen.  Dies funktioniert möglicherweise nicht in allen Anwendungsfällen.  Wenn wir einen Zeitfilter hinzufügen, wie weit können wir zurückgehen, bevor eine Edge-Zielgruppe zu Streaming oder sogar Batch wird?
-
 > [!NOTE]
 >
 >**Auswirkungen der Trennung**

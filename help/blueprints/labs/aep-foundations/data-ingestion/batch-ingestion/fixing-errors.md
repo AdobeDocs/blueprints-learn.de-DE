@@ -40,7 +40,7 @@ concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("
 
 Nach einigen Minuten sollte der Datenfluss ausgeführt werden und Sie sollten Erfolg sehen!
 
-![Datenflussausführungsstatus, der eine erfolgreiche Aufnahme ](assets/fixing-errors-successful-customer-account-ingestion.png " Kundenkontos anzeigt")
+![Datenflussausführungsstatus, der eine erfolgreiche Aufnahme &#x200B;](assets/fixing-errors-successful-customer-account-ingestion.png " Kundenkontos anzeigt")
 
 
 
@@ -53,7 +53,7 @@ Nach einigen Minuten sollte der Datenfluss ausgeführt werden und Sie sollten Er
    - **Fehlgeschlagene Datensätze:** Hier sollte eine 0 angezeigt werden. Dies stellt die Gesamtzahl der Aufnahme- und DCVS-Fehler dar. Die MAPPER-Warnungen werden ausgeschlossen.
    - **Aufnahmegeschwindigkeit:** Dies ist das Verhältnis zwischen den aufgenommenen und den empfangenen Datensätzen. 100 % der eingegangenen Datensätze wurden erfolgreich verarbeitet
 
-![Quellenkarte im Überwachungsbildschirm mit Metriken zur Aufnahme von Datensätzen, die empfangen, aufgenommen ](assets/fixing-errors-sources-ingestion-metrics.png " fehlgeschlagen wurden")
+![Quellenkarte im Überwachungsbildschirm mit Metriken zur Aufnahme von Datensätzen, die empfangen, aufgenommen &#x200B;](assets/fixing-errors-sources-ingestion-metrics.png " fehlgeschlagen wurden")
 
 >[!NOTE]
 >

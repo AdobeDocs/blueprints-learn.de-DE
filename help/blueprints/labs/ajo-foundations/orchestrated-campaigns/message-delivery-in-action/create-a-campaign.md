@@ -22,23 +22,23 @@ In den nächsten Schritten beginnen Sie mit der Erstellung einer orchestrierten 
 
 1. Klicken Sie in der linken Seitenleiste auf **Kampagnen**
 
-![Klicken Sie in der linken Seitenleiste auf Kampagnen ](assets/create-a-campaign-click-campaigns.png)
+![Klicken Sie in der linken Seitenleiste auf Kampagnen &#x200B;](assets/create-a-campaign-click-campaigns.png)
 
-2. Klicken Sie auf **Kampagne erstellen**
+&#x200B;2. Klicken Sie auf **Kampagne erstellen**
 
 ![Klicken Sie auf die Schaltfläche Kampagne erstellen](assets/create-a-campaign-click-create-campaign.png)
 
-3. Wählen Sie **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
+&#x200B;3. Wählen Sie **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
 
 ![Wählen Sie Orchestrierung - Marketing aus und klicken Sie auf Bestätigen](assets/create-a-campaign-select-orchestration-marketing.png)
 
-4. Geben Sie unten Kampagnendetails an und klicken Sie dann auf **Speichern** wenn Sie fertig sind
+&#x200B;4. Geben Sie unten Kampagnendetails an und klicken Sie dann auf **Speichern** wenn Sie fertig sind
    - **name:** `OC-MDL-Campaign-Test`
    - **Beschreibung:** `OC Message Delivery Test`
 
 ![Geben Sie Kampagnendetails an und klicken Sie auf Speichern](assets/create-a-campaign-provide-campaign-details.png)
 
-5. Warten Sie auf die Bestätigungsmeldung, bevor Sie fortfahren
+&#x200B;5. Warten Sie auf die Bestätigungsmeldung, bevor Sie fortfahren
 
 ![Bestätigungsnachricht für die Kampagneneinstellungen wurde aktualisiert](assets/create-a-campaign-confirmation-message.png)
 

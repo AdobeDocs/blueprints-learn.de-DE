@@ -30,7 +30,7 @@ Vergewissern Sie sich, dass das Profil nicht im Edge-Netzwerkprofilspeicher vorh
 
 
 
-2. Klicken Sie auf die Registerkarte Zielgruppenmitgliedschaft .  Es wird **leer**.
+&#x200B;2. Klicken Sie auf die Registerkarte Zielgruppenmitgliedschaft .  Es wird **leer**.
 
 ![Registerkarte „Zielgruppenmitgliedschaft leeren“ im Edge-Profil](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

@@ -28,7 +28,7 @@ In den nächsten Schritten erstellen Sie die Audience, die Sie für die Kampagne
 
 
 
-2. In der rechten Leiste sehen Sie die Eigenschaften Zielgruppe erstellen . Aktualisieren Sie die Bezeichnung so, dass Folgendes angegeben wird: `Active Lines with Apple`
+&#x200B;2. In der rechten Leiste sehen Sie die Eigenschaften Zielgruppe erstellen . Aktualisieren Sie die Bezeichnung so, dass Folgendes angegeben wird: `Active Lines with Apple`
 
 ![Zielgruppen-Kennzeichnung mit Apple auf „Aktive Zeilen erstellen“](assets/build-an-audience-set-label.png)
 
@@ -41,7 +41,7 @@ Der nächste Schritt besteht darin, die **Zielgruppendimension** auszuwählen (d
 
 ![Suchsymbol im Feld „Zielgruppendimension“](assets/build-an-audience-search-targeting-dimension.png)
 
-2. Suchen Sie im Popup nach der Tabelle mit dem Namen **dep-rel: Customer Line** und wählen Sie sie aus. Klicken Sie dann auf die Schaltfläche **Bestätigen**.
+&#x200B;2. Suchen Sie im Popup nach der Tabelle mit dem Namen **dep-rel: Customer Line** und wählen Sie sie aus. Klicken Sie dann auf die Schaltfläche **Bestätigen**.
 
 ![Wählen Sie die Tabelle dep-rel: customer line aus und klicken Sie auf Bestätigen](assets/build-an-audience-select-customer-line-table.png)
 
@@ -63,7 +63,7 @@ Nachdem Sie nun Ihre Zielgruppendimension ausgewählt haben (welches relationale
 
 ![Schaltfläche „Zielgruppe erstellen“ in der rechten Leiste](assets/build-an-audience-click-create-audience.png)
 
-2. Klicken Sie anschließend auf die Schaltfläche **Bedingung hinzufügen**.
+&#x200B;2. Klicken Sie anschließend auf die Schaltfläche **Bedingung hinzufügen**.
 
 ![Schaltfläche „Bedingung hinzufügen“ für die Zielgruppendefinition](assets/build-an-audience-click-add-condition.png)
 
@@ -81,7 +81,7 @@ Jetzt ist es an der Zeit, die Logik der Zielgruppe mithilfe der im Schema gefund
 
 ![Bedingung 1 auf Aktive Zeile gleich „true“ gesetzt](assets/build-an-audience-condition-active-line-true.png)
 
-2. Klicken Sie auf **Aktualisieren**-Symbol, um die qualifizierten Zahlen für die Bedingung anzuzeigen.
+&#x200B;2. Klicken Sie auf **Aktualisieren**-Symbol, um die qualifizierten Zahlen für die Bedingung anzuzeigen.
 
 ![Aktualisierungssymbol mit einer qualifizierten Anzahl von 241 für Bedingung 1](assets/build-an-audience-condition-1-refresh-count.png)
 
@@ -98,13 +98,13 @@ Jetzt ist es an der Zeit, die Logik der Zielgruppe mithilfe der im Schema gefund
 ![Wählen Sie das Schema dep-rel: product [lookup] aus, indem Sie auf das Symbol > klicken](assets/build-an-audience-select-product-lookup-schema.png)
 
 
-2. Suchen Sie nach dem Feld **Make**, klicken Sie auf die drei Punkte und wählen Sie **Werteverteilung**
+&#x200B;2. Suchen Sie nach dem Feld **Make**, klicken Sie auf die drei Punkte und wählen Sie **Werteverteilung**
 
 ![Option „Werteverteilung“ für das Feld „Make“](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-3. Beachten Sie die verschiedenen Werte. Man will nur `Apple` und glücklicherweise hat es nicht 100 verschiedene Schreibweisen. Klicken Sie auf das Feld **Apple**, um es auszuwählen, und klicken Sie dann oben rechts auf **Attribut und Wert** auswählen“.
+&#x200B;3. Beachten Sie die verschiedenen Werte. Man will nur `Apple` und glücklicherweise hat es nicht 100 verschiedene Schreibweisen. Klicken Sie auf das Feld **Apple**, um es auszuwählen, und klicken Sie dann oben rechts auf **Attribut und Wert** auswählen“.
 
 ![Apple-Wert mit der Schaltfläche „Attribut und Wert auswählen“ ausgewählt](assets/build-an-audience-select-apple-attribute-value.png)
 
@@ -114,12 +114,12 @@ Jetzt ist es an der Zeit, die Logik der Zielgruppe mithilfe der im Schema gefund
 
 
 
-4. Das Feld `Make` wird automatisch zusammen mit den unten aufgeführten Bedingungen hinzugefügt.
+&#x200B;4. Das Feld `Make` wird automatisch zusammen mit den unten aufgeführten Bedingungen hinzugefügt.
    - **Operator:** `Equal to`
    - **Wert:** `Apple`
    - **Von Schreibweise abhängig:** `Enabled`
 
-5. Klicken Sie auf **calculate-Symbol** und Sie sehen 85 als Ergebnis.
+&#x200B;5. Klicken Sie auf **calculate-Symbol** und Sie sehen 85 als Ergebnis.
 
 ![Bedingung 2 Berechnete Zählung von 85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -141,7 +141,7 @@ Jetzt ist es an der Zeit, die Logik der Zielgruppe mithilfe der im Schema gefund
 
 
 
-2. Wenn Sie die endgültige Zählung von **65 sehen** klicken Sie oben rechts im Bildschirm auf die Schaltfläche **Bestätigen** und dann oben rechts auf die Schaltfläche **Speichern**, um Ihre Arbeit zu speichern.
+&#x200B;2. Wenn Sie die endgültige Zählung von **65 sehen** klicken Sie oben rechts im Bildschirm auf die Schaltfläche **Bestätigen** und dann oben rechts auf die Schaltfläche **Speichern**, um Ihre Arbeit zu speichern.
 
 
 

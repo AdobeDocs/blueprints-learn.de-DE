@@ -29,6 +29,6 @@ Führen Sie die folgenden Aufgaben genau wie im vorherigen Labor aus.
 1. Füllen Sie in Postman das **Bestellereignis erstellen** mit den erforderlichen Informationen, um die Daten erfolgreich zu streamen und sie an den zuvor erstellten Kundenkonto-Datensatz anzuhängen
 1. Überprüfen Sie, ob die Bestellung mit Ihrem Profil verknüpft ist
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Viel Glück und möge die Götter von Adobe Experience Platform bei euch sein!

@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Bereitstellungsanweisungen
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Dies ist nur erforderlich, wenn Sie die Labore in Ihrem eigenen Tempo bearbeiten. Wenn Sie sich an einem Live-Schulungskurs oder einer Live-Veranstaltung beteiligen, wurde Ihre Sandbox bereits für Sie bereitgestellt.
 
@@ -37,7 +37,7 @@ Das AEP Foundations Lab Pack wird mithilfe der DEP-CLI, einem Befehlszeilen-Tool
 ## Voraussetzungen
 
 - **Lizenzberechtigungen.** Administratorrechte für eine IMS-Organisation mit Real-Time CDP (mit Streaming-Segmentierung)
-- **Zugriffsrechte.** Eine Adobe Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldedaten, die Sie im Setup von [Developer Console erstellt ](developer-console-setup.md).
+- **Zugriffsrechte.** Eine Adobe Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldedaten, die Sie im Setup von [Developer Console erstellt &#x200B;](developer-console-setup.md).
 - **Developer Console-Anmeldeinformationen.** Ein Projekt, das Adobe Experience Platform-APIs enthält. Wenn Sie diese noch nicht haben, befolgen Sie zuerst die Einrichtung von [Developer Console](developer-console-setup.md)
 - **Eine Sandbox.** Leer, vom Typ `dev` und mindestens 60 Minuten lang im Status „Bereit“, bevor Sie die Bereitstellung starten
 - **Node.js.** Jede neuere LTS-Version, unter Windows oder Mac
@@ -67,7 +67,7 @@ Die CLI wird in der Sandbox bereitgestellt, auf die Ihre Umgebungsdatei verweist
 | `SCOPES` | Muss Experience Platform-API-Bereiche enthalten (openid, session, Adobe ID, read_organizations, additional_info.projectedProductContext) |
 | `SANDBOX_NAME` | Die Sandbox, die Sie anvisieren, muss leer sein und vom Typ `dev` sein |
 
-3. Speichern und schließen Sie die Datei
+&#x200B;3. Speichern und schließen Sie die Datei
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Wählen Sie im Hauptmenü **AEP Foundations** aus. Es gibt drei Schritte, und si
 
 Schritt 1 dauert etwa 2 Minuten, Schritt 2 etwa 6 Minuten, und Schritt 3 ist eine schnelle Validierung ohne eigene Wartezeit. Die 60- und 15-minütigen Lücken zwischen den Schritten bestehen darin, dass AEP die Daten hinter den Kulissen propagiert - das ist der Großteil Ihrer 2-Stunden-Zeitleiste.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Die CLI prüft diese Wartezeiten automatisch. Wenn man einen Schritt zu früh startet, blockiert er und sagt einem, wie viele Minuten noch übrig sind — man muss die Zeit nicht selbst nachverfolgen.
 

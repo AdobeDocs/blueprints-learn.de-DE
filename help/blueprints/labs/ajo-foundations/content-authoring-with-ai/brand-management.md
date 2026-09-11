@@ -50,7 +50,7 @@ Sie beginnen mit dem Dokument zur 5G-Markenrichtlinie für die Verbindung, laden
 
 ![Verbindung 5G-Markenrichtlinie PDF aus dem Toolkit-Ordner geöffnet](assets/brand-management-open-brand-guideline-pdf.png)
 
-2. Lesen Sie das Dokument, um die für Verbindung 5G verwendeten Inhalte zu verstehen:
+&#x200B;2. Lesen Sie das Dokument, um die für Verbindung 5G verwendeten Inhalte zu verstehen:
    - Tonfall
    - Farben und visueller Stil
    - Beispiele für Schreibstil und Messaging
@@ -65,35 +65,35 @@ Sie beginnen mit dem Dokument zur 5G-Markenrichtlinie für die Verbindung, laden
 
 ![Schaltfläche „Marke erstellen“ im Abschnitt „Marken“](assets/brand-management-click-create-brand-button.png)
 
-3. Geben Sie **Feld** Name“ `Connection 5G Brand Guidelines`
-4. Ziehen Sie im Upload-Bereich die Datei **Connection5g Brand Guidelines.pdf** per Drag-and-Drop (oder klicken Sie auf **Dateien** und wählen Sie sie auf Ihrem Computer aus).
+&#x200B;3. Geben Sie **Feld** Name“ `Connection 5G Brand Guidelines`
+&#x200B;4. Ziehen Sie im Upload-Bereich die Datei **Connection5g Brand Guidelines.pdf** per Drag-and-Drop (oder klicken Sie auf **Dateien** und wählen Sie sie auf Ihrem Computer aus).
 
 ![Ziehen Sie die PDF Connection5g Brand Guidelines in den Upload-Bereich](assets/brand-management-upload-brand-guideline-pdf.png)
 
-5. Klicken Sie **Marke erstellen**, um die Extraktion zu starten.
+&#x200B;5. Klicken Sie **Marke erstellen**, um die Extraktion zu starten.
 
 Während AJO Ihre Datei analysiert, wird ein Fortschrittsbildschirm angezeigt. Dieser Vorgang kann je nach Größe des Dokuments mehrere Minuten dauern.
 
 ![Der Fortschrittsbildschirm wird angezeigt, während AJO die Datei mit den Markenrichtlinien analysiert](assets/brand-management-extraction-progress-screen.png)
 
-6. Sobald die Extraktion abgeschlossen ist:
+&#x200B;6. Sobald die Extraktion abgeschlossen ist:
    - Oben wird eine grüne Bestätigungsleiste angezeigt.
    - Sie werden automatisch zum Bildschirm Markenkonfiguration weitergeleitet.
    - Standards für die Inhalts- und visuelle Erstellung werden jetzt automatisch auf der Grundlage der hochgeladenen Datei mit den Markenrichtlinien ausgefüllt.
 
 ![Bildschirm für die Markenkonfiguration wird nach Abschluss der Extraktion ausgefüllt](assets/brand-management-brand-configuration-populated.png)
 
-7. Klicken Sie auf **Veröffentlichen**, um die Markenrichtlinien zu veröffentlichen.
+&#x200B;7. Klicken Sie auf **Veröffentlichen**, um die Markenrichtlinien zu veröffentlichen.
 
 ![Schaltfläche „Veröffentlichen“ für die Markenrichtlinien](assets/brand-management-click-publish-button.png)
 
-8. Bestätigen Sie mit der Schaltfläche „Veröffentlichen“.
+&#x200B;8. Bestätigen Sie mit der Schaltfläche „Veröffentlichen“.
 
 ![Dialogfeld „Veröffentlichen“ für die Markenrichtlinien bestätigen](assets/brand-management-confirm-publish-dialog.png)
 
 Unten auf der Seite wird eine grüne Bestätigungsleiste angezeigt, die angibt, dass Ihre Marke erfolgreich veröffentlicht wurde.
 
-9. Wenn Sie auf die Hauptseite der Marke klicken, sehen Sie, dass Ihre Marke jetzt live ist (dies sollte durch einen grünen Punkt mit der Bezeichnung **Live“ angezeigt**).
+&#x200B;9. Wenn Sie auf die Hauptseite der Marke klicken, sehen Sie, dass Ihre Marke jetzt live ist (dies sollte durch einen grünen Punkt mit der Bezeichnung **Live“ angezeigt**).
 
 ![Markenliste, die die neue Marke mit einer grünen Live-Statusbeschriftung anzeigt](assets/brand-management-brand-live-status-label.png)
 
@@ -154,19 +154,19 @@ Im extrahierten Inhalt können einige Leitprinzipien unvollständig sein. Vervol
 
 ![Klicken Sie auf die neu erstellte Karte der Marke Connection 5G](assets/brand-management-click-created-brand-card.png)
 
-2. Klicken Sie **Marke bearbeiten**. Eine Bestätigungsregisterkarte wird angezeigt. Klicken Sie erneut **Marke bearbeiten** um zu bestätigen.
+&#x200B;2. Klicken Sie **Marke bearbeiten**. Eine Bestätigungsregisterkarte wird angezeigt. Klicken Sie erneut **Marke bearbeiten** um zu bestätigen.
 
 ![Schaltfläche „Marke bearbeiten“ und Registerkarte „Bestätigung“](assets/brand-management-click-edit-brand-button.png)
 
-3. Navigieren Sie zur Registerkarte **Über die Marke**.
+&#x200B;3. Navigieren Sie zur Registerkarte **Über die Marke**.
 
 ![Navigieren Sie während der Bearbeitung zur Registerkarte Über die Marke](assets/brand-management-about-the-brand-tab-edit.png)
 
-4. Suchen Sie den Abschnitt für **Leitlinien**, **Vision** oder eine ähnliche allgemeine Beschreibung.
+&#x200B;4. Suchen Sie den Abschnitt für **Leitlinien**, **Vision** oder eine ähnliche allgemeine Beschreibung.
 
 ![Leitprinzipien und Vision auf der Registerkarte „Über die Marke“](assets/brand-management-guiding-principles-vision-section.png)
 
-5. Fügen Sie den folgenden Text hinzu:
+&#x200B;5. Fügen Sie den folgenden Text hinzu:
 
 **Vision:**
 
@@ -178,7 +178,7 @@ Im extrahierten Inhalt können einige Leitprinzipien unvollständig sein. Vervol
 
 ![Der Marke wurde ein Text zur Vision und Marktpositionierung hinzugefügt](assets/brand-management-vision-market-positioning-added.png)
 
-6. Klicken Sie auf **Speichern**. (Wenn die Schaltfläche **Speichern** nicht angezeigt wird, klicken Sie zuerst auf die Registerkarte **Übersicht** und dann auf **Speichern**.)
+&#x200B;6. Klicken Sie auf **Speichern**. (Wenn die Schaltfläche **Speichern** nicht angezeigt wird, klicken Sie zuerst auf die Registerkarte **Übersicht** und dann auf **Speichern**.)
 
 >[!TIP]
 >
@@ -193,15 +193,15 @@ Verbessern Sie als Nächstes die Marke, indem Sie eine Regel hinzufügen, die si
 
 ![Registerkarte „Schreibstil“ geöffnet, um eine Ausschlussregel hinzuzufügen](assets/brand-management-writing-style-tab-exclusion.png)
 
-2. Stellen Sie sicher, dass Sie sich im Abschnitt **Markenkommunikationsstil** befinden.
+&#x200B;2. Stellen Sie sicher, dass Sie sich im Abschnitt **Markenkommunikationsstil** befinden.
 
 ![Abschnitt „Markenkommunikationsstil“ auf der Registerkarte „Schreibstil“](assets/brand-management-brand-communication-style-section.png)
 
-3. Klicken Sie **Bereich &quot;**&quot; auf das **Plus**-Symbol, um eine neue Regel hinzuzufügen.
+&#x200B;3. Klicken Sie **Bereich &quot;**&quot; auf das **Plus**-Symbol, um eine neue Regel hinzuzufügen.
 
 ![Plus-Symbol unter dem Bereich „Versäumnisse“, um eine neue Regel hinzuzufügen](assets/brand-management-add-donts-rule-plus-icon.png)
 
-4. Konfigurieren Sie die Regel wie folgt:
+&#x200B;4. Konfigurieren Sie die Regel wie folgt:
    - **Ausschluss:** `Be pushy`
 
 >[!NOTE]
@@ -212,15 +212,15 @@ Verbessern Sie als Nächstes die Marke, indem Sie eine Regel hinzufügen, die si
 
 **element:**-Schaltfläche
 
-5. Klicken Sie **Hinzufügen**.
+&#x200B;5. Klicken Sie **Hinzufügen**.
 
 ![Schaltfläche „Hinzufügen“ für die Push-Ausschlussregel „Seien“](assets/brand-management-click-add-rule-button.png)
 
-6. Vergewissern Sie sich, dass die neue Don&#39;t-Regel in der Liste als `Be pushy` angezeigt wird.
+&#x200B;6. Vergewissern Sie sich, dass die neue Don&#39;t-Regel in der Liste als `Be pushy` angezeigt wird.
 
 ![Seien Sie aufdringlich. Regel wird in der Regelliste nicht bestätigt](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
-7. Klicken Sie auf **Speichern**.
+&#x200B;7. Klicken Sie auf **Speichern**.
 
 Diese Regel gilt überall dort, wo KI-Assistent oder Autoren an einer E-Mail-Schaltflächenkopie arbeiten, wobei die CTAs mit dem Verbindungs-5G-Ton ausgerichtet bleiben.
 
@@ -241,13 +241,13 @@ Wenn Sie mit der Konfiguration zufrieden sind:
 
 ![Schaltfläche „Veröffentlichen“ oben rechts](assets/brand-management-click-publish-top-right.png)
 
-3. Es wird ein Bestätigungsdialogfeld angezeigt, in dem erklärt wird, dass Sie im Begriff sind, die aktualisierten Markenrichtlinien für Verbindung 5G zu veröffentlichen. Klicken **zur Bestätigung erneut** Veröffentlichen“.
+&#x200B;3. Es wird ein Bestätigungsdialogfeld angezeigt, in dem erklärt wird, dass Sie im Begriff sind, die aktualisierten Markenrichtlinien für Verbindung 5G zu veröffentlichen. Klicken **zur Bestätigung erneut** Veröffentlichen“.
 
 ![Bestätigungsdialogfeld zum Veröffentlichen der aktualisierten Markenrichtlinien](assets/brand-management-confirm-publish-updated-guidelines.png)
 
-4. Warten Sie, bis die grüne Bestätigungsleiste angezeigt wird.
-5. Klicken Sie auf **Zurück**, um zur Liste der Marken zurückzukehren.
-6. Vergewissern Sie sich, dass eine neue Karte für **Richtlinien für die 5G-Markenbezeichnung** mit dem Status „Live“ und „Verfügbar“ angezeigt wird.
+&#x200B;4. Warten Sie, bis die grüne Bestätigungsleiste angezeigt wird.
+&#x200B;5. Klicken Sie auf **Zurück**, um zur Liste der Marken zurückzukehren.
+&#x200B;6. Vergewissern Sie sich, dass eine neue Karte für **Richtlinien für die 5G-Markenbezeichnung** mit dem Status „Live“ und „Verfügbar“ angezeigt wird.
 
 ![Karte „Verbindungs-5G-Markenrichtlinien“ mit Live-Status](assets/brand-management-brand-guidelines-card-live-status.png)
 

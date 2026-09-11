@@ -46,7 +46,7 @@ Nachdem Sie auf **Beenden** geklickt haben, gelangen Sie zurück zum Bildschirm 
 
 ![Datenflussbildschirm, der den neuen Datenfluss mit dem Status „Keine Ausführungen“ anzeigt](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Datenflussquellen-Bildschirm")
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Sie müssen die Seite kontinuierlich aktualisieren, um die Statusaktualisierung anzuzeigen, da das Backend keine Aktualisierungen an die Benutzeroberfläche sendet.
 

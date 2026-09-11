@@ -24,7 +24,7 @@ Schließlich haben Sie **End-to-End-Entscheidungsfluss getestet** indem Sie übe
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

@@ -44,20 +44,20 @@ Gehen Sie folgendermaßen vor:
 
 
 
-2. Klicken Sie auf **Schemata auswählen**
-3. Wählen Sie im Popup-Fenster die Option `dep-rel: Customer Account` und klicken Sie dann auf **Bestätigen**
+&#x200B;2. Klicken Sie auf **Schemata auswählen**
+&#x200B;3. Wählen Sie im Popup-Fenster die Option `dep-rel: Customer Account` und klicken Sie dann auf **Bestätigen**
 
 ![Popup „Schemata auswählen“ mit Dep-rel: ausgewähltes Kundenkonto](assets/browse-schemas-select-schema-popup.png)
 
 
 
-4. Klicken Sie im ERD auf die **3 Punkte** und wählen Sie **Zugehörige Elemente anzeigen**
+&#x200B;4. Klicken Sie im ERD auf die **3 Punkte** und wählen Sie **Zugehörige Elemente anzeigen**
 
 ![Option „Zugehörige Entitäten anzeigen“ im ERD-Kontextmenü](assets/browse-schemas-show-related-entities.png)
 
 
 
-5. Zeigen Sie das ERD mit allen Tabellen an, die sich direkt auf Dep-rel: Kundenkonto beziehen. Optional können Sie das ERD als PNG-Datei herunterladen.
+&#x200B;5. Zeigen Sie das ERD mit allen Tabellen an, die sich direkt auf Dep-rel: Kundenkonto beziehen. Optional können Sie das ERD als PNG-Datei herunterladen.
 
 ![Entitätsbeziehungsdiagramm mit Tabellen, die sich auf das Kundenkonto beziehen](assets/browse-schemas-erd-diagram.png)
 
@@ -69,4 +69,4 @@ Gehen Sie folgendermaßen vor:
 
 Sie haben jetzt gesehen, wie einfach die Navigation in der Benutzeroberfläche für Schemas und Beziehungen ist.  Sie können bestimmte Schemata auswählen und zu den Beziehungen navigieren, um die Daten in der Kampagnenorchestrierung besser zu verstehen und zu verwenden.
 
-Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas) wenn Sie Interesse haben.
+Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas) wenn Sie Interesse haben.

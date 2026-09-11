@@ -35,7 +35,7 @@ Hätten Sie das in Journey probiert, wären Sie nicht in der Lage gewesen, beide
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

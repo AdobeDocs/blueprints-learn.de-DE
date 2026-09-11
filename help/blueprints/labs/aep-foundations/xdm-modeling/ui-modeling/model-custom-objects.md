@@ -35,7 +35,7 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 1. Fügen Sie ein neues Feld hinzu, indem Sie auf die Schaltfläche **+ (Hinzufügen** oben in Ihrem Schema klicken
 
-![ Schaltfläche (+) oben im Schema hinzufügen, um ein benutzerdefiniertes Feld hinzuzufügen](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+![&#x200B; Schaltfläche (+) oben im Schema hinzufügen, um ein benutzerdefiniertes Feld hinzuzufügen](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
 >[!NOTE]
 >

@@ -31,7 +31,7 @@ Datei herunterladen - [AEP Bootcamp.postman_environment.json](assets/aep-bootcam
 
 
 
-![Einfügen der Umgebungsdatei-URL in das Postman-Importmodal-Textfeld ](assets/environment-file-import-modal-paste-url.png "Überlagerung der Importschaltfläche")
+![Einfügen der Umgebungsdatei-URL in das Postman-Importmodal-Textfeld &#x200B;](assets/environment-file-import-modal-paste-url.png "Überlagerung der Importschaltfläche")
 
 
 

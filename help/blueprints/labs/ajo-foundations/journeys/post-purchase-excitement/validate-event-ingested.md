@@ -38,7 +38,7 @@ Vergewissern Sie sich, dass das Ereignis erfolgreich in Adobe Experience Platfor
 
 
 
-3. Überprüfen Sie, ob sich das Profil für **Zielgruppen“** hat (dies kann einige Minuten dauern).
+&#x200B;3. Überprüfen Sie, ob sich das Profil für **Zielgruppen“** hat (dies kann einige Minuten dauern).
    - Beliebige Event Edge (innerhalb von 15 Minuten)
    - Beliebiges Ereignis-Streaming (innerhalb von 15 Minuten)
 
@@ -55,8 +55,8 @@ Nachdem Sie nun die Anmeldung des Profils validiert haben, senden Sie einige ver
 
 ![E-Mail-Adresse wurde im Postman-Anfrageinhalt geändert](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-3. **Speichern** und klicken Sie auf **Senden**.
-4. Gehen Sie zurück zu den Schritten 1-3 und validieren Sie mithilfe Ihrer E-Mail-Adresse.
+&#x200B;3. **Speichern** und klicken Sie auf **Senden**.
+&#x200B;4. Gehen Sie zurück zu den Schritten 1-3 und validieren Sie mithilfe Ihrer E-Mail-Adresse.
 
 ## Zusammenfassung
 

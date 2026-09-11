@@ -132,10 +132,10 @@ Der vollständig erstellte Pfad sieht wie folgt aus:  Kopieren Sie diesen Pfad u
 
 
 
-2. Aktualisieren Sie den Text der Anfrage mit den folgenden Informationen
+&#x200B;2. Aktualisieren Sie den Text der Anfrage mit den folgenden Informationen
 
 - **op** ->` add`
-- **path** -> `path from previous step +`` the new field name`
+- **path** -> `path from previous step +`&#x200B;` the new field name`
 - **value** ->
   - **title** -> `Plan Description`
   - **type** -> `string`
@@ -151,9 +151,9 @@ Wenn Sie fertig sind, sollte Ihre API-Anfrage in etwa wie folgt aussehen
 
 
 
-3. Wenn alles gut `Save` deinem Anruf aussieht
+&#x200B;3. Wenn alles gut `Save` deinem Anruf aussieht
 
-4. `Execute` des Aufrufs zum Ausführen der PATCH
+&#x200B;4. `Execute` des Aufrufs zum Ausführen der PATCH
 
 Es sollte eine &quot;`200 OK `&quot; angezeigt werden und das `planDescription` Feld sollte nun in Ihrer Feldergruppe wie folgt angezeigt werden:
 

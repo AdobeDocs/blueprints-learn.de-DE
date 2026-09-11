@@ -28,7 +28,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}'
 
 >[!NOTE]
 >
->Weitere Informationen zum e2e-Prozess zum Erstellen des Entwicklerprojekts mithilfe von OAuth-Server-zu-Server-Anmeldeinformationen [ Sie hier](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens). Für das Bootcamp werden wir diesen Schritt des Prozesses „per Hand winken“ 😄
+>Weitere Informationen zum e2e-Prozess zum Erstellen des Entwicklerprojekts mithilfe von OAuth-Server-zu-Server-Anmeldeinformationen [&#x200B; Sie hier](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens). Für das Bootcamp werden wir diesen Schritt des Prozesses „per Hand winken“ 😄
 
 
 

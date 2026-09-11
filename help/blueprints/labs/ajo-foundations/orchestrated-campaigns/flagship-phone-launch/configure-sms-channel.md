@@ -59,18 +59,18 @@ Jetzt ordnen Sie diese API-Anmeldeinformationen einer Kanalkonfiguration zu, die
 
 
 
-2. Klicken Sie **Kanalkonfiguration erstellen**.
+&#x200B;2. Klicken Sie **Kanalkonfiguration erstellen**.
 
 ![Schaltfläche „Kanalkonfiguration erstellen“](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
-3. Füllen Sie die Einstellungen für die SMS-Kanalkonfiguration mit den folgenden Werten aus:
+&#x200B;3. Füllen Sie die Einstellungen für die SMS-Kanalkonfiguration mit den folgenden Werten aus:
    - **name:** `Relational-SMS-Multi-Entity`
    - **channel:** `Mobile Message`
    - **Marketing-Aktion:** `SMS Targeting`
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Wenn Sie einen Fehler erhalten, der besagt, dass der Benutzer nicht über die Berechtigung verfügt, ignorieren Sie diese und fahren Sie fort.
 
@@ -96,13 +96,13 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-2. Stellen Sie sicher **dass das Kontrollkästchen** Aktiviert“ aktiviert ist
+&#x200B;2. Stellen Sie sicher **dass das Kontrollkästchen** Aktiviert“ aktiviert ist
 
 ![Kontrollkästchen „Aktiviert“ für orchestrierte Kampagnen aktiviert](assets/configure-sms-channel-enabled-checkbox.png)
 
 
 
-3. Stellen Sie als Nächstes unter dem Unterabschnitt **Ausführungsdimension** sicher, dass Folgendes wie folgt eingerichtet ist:
+&#x200B;3. Stellen Sie als Nächstes unter dem Unterabschnitt **Ausführungsdimension** sicher, dass Folgendes wie folgt eingerichtet ist:
    - **Versand am:** `Target + Secondary Dimension`
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
    - **Sekundäre Dimension:** `Customer Line`
@@ -117,13 +117,13 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-4. Wählen Sie unter der Überschrift Ausführungsadresse das Optionsfeld für **Sekundäre Dimension** und klicken Sie dann auf die Schaltfläche Bearbeiten im Feld **SMS-Ausführung**
+&#x200B;4. Wählen Sie unter der Überschrift Ausführungsadresse das Optionsfeld für **Sekundäre Dimension** und klicken Sie dann auf die Schaltfläche Bearbeiten im Feld **SMS-Ausführung**
 
 ![Ausführungsadresse mit Bearbeitungsfeld auf Sekundäres Dimension festgelegt](assets/configure-sms-channel-execution-address-selection.png)
 
 
 
-5. Klicken Sie im Popup-Fenster in das Schema **dep-rel: Customer Line** und wählen Sie **Mobiltelefon** aus.
+&#x200B;5. Klicken Sie im Popup-Fenster in das Schema **dep-rel: Customer Line** und wählen Sie **Mobiltelefon** aus.
 
 ![Schema-Popup für das Schema dep-rel: customer line](assets/configure-sms-channel-customer-line-schema-popup.png)
 
@@ -131,7 +131,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-6. Bestätigen Sie, dass der Abschnitt der endgültigen Ausführungsdetails unten übereinstimmt
+&#x200B;6. Bestätigen Sie, dass der Abschnitt der endgültigen Ausführungsdetails unten übereinstimmt
 
 ![Endgültige Ausführungsdetails, die mit den erforderlichen Einstellungen übereinstimmen](assets/configure-sms-channel-final-execution-details.png)
 
@@ -145,7 +145,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-2. Stellen Sie auf der Inventarseite „Kanalkonfigurationen“ sicher, dass der Status als **Aktiv** angezeigt wird, bevor Sie fortfahren
+&#x200B;2. Stellen Sie auf der Inventarseite „Kanalkonfigurationen“ sicher, dass der Status als **Aktiv** angezeigt wird, bevor Sie fortfahren
 
 ![Kanalkonfigurationsstatus wird als Aktiv angezeigt](assets/configure-sms-channel-active-status.png)
 
@@ -155,7 +155,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-3. Wenn der Status Aktiv wird, sind Sie fertig!
+&#x200B;3. Wenn der Status Aktiv wird, sind Sie fertig!
 
 >[!TIP]
 >
@@ -167,4 +167,4 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 Sie haben jetzt gesehen, wie Sie einen SMS-Kanal erfolgreich konfigurieren können.  Beachten Sie, dass es sich um eine API-basierte SMS handelt, sodass sie je nach Anbieter alternative Authentifizierungsmethoden verwenden können.
 
-Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.
+Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.

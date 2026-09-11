@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Einrichten der Entwicklerkonsole
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Dies ist nur erforderlich, wenn Sie die Labore in Ihrem eigenen Tempo bearbeiten. Wenn Sie sich an einem Live-Schulungskurs oder einer Live-Veranstaltung beteiligen, wurde Ihre Sandbox bereits für Sie bereitgestellt.
 

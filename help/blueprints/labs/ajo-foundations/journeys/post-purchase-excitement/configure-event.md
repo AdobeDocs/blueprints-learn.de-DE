@@ -34,11 +34,11 @@ Um eine Journey zu erstellen, die ein unitäres Ereignis verwendet, müssen wir 
 
 ![Schaltfläche „Verwalten“ auf der Kachel „Ereignisse“ unter „Konfigurationen“](assets/configure-event-open-events-manage.png)
 
-2. Klicken Sie oben rechts auf die Schaltfläche **Ereignis erstellen**
+&#x200B;2. Klicken Sie oben rechts auf die Schaltfläche **Ereignis erstellen**
 
 ![Schaltfläche „Ereignis erstellen“ oben rechts](assets/configure-event-click-create-event-button.png)
 
-3. Aktualisieren Sie die Einstellungen des Ereignisses wie folgt:
+&#x200B;3. Aktualisieren Sie die Einstellungen des Ereignisses wie folgt:
    - **name** = `orderShipped`
    - **type** = `Unitary`
    - **Ereignis-ID-Typ** = `Rule based`
@@ -46,11 +46,11 @@ Um eine Journey zu erstellen, die ein unitäres Ereignis verwendet, müssen wir 
 
 ![orderShipped-Ereignis, das mit Unitärem Typ und Dep konfiguriert wurde: Orders v.1-Schema](assets/configure-event-set-name-type-schema.png)
 
-4. Klicken Sie im `Fields` Eingabefeld auf das **Bleistiftsymbol**
+&#x200B;4. Klicken Sie im `Fields` Eingabefeld auf das **Bleistiftsymbol**
 
 ![Bleistiftsymbol im Eingabefeld Felder](assets/configure-event-click-fields-pencil-icon.png)
 
-5. Wählen Sie die folgenden Felder aus, die zum Ereignis hinzugefügt werden sollen, und klicken Sie abschließend auf die Schaltfläche **OK**.
+&#x200B;5. Wählen Sie die folgenden Felder aus, die zum Ereignis hinzugefügt werden sollen, und klicken Sie abschließend auf die Schaltfläche **OK**.
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
@@ -62,19 +62,19 @@ Um eine Journey zu erstellen, die ein unitäres Ereignis verwendet, müssen wir 
 
 
 
-6. Klicken Sie in der `Event Id condition input` auf das **Bleistiftsymbol**
+&#x200B;6. Klicken Sie in der `Event Id condition input` auf das **Bleistiftsymbol**
 
 ![Bleistiftsymbol in der Eingabe der Ereignis-ID-Bedingung](assets/configure-event-click-event-id-condition-pencil.png)
 
-7. **Ziehen** Sie das `Event Type` Feld auf die Arbeitsfläche
+&#x200B;7. **Ziehen** Sie das `Event Type` Feld auf die Arbeitsfläche
 
 ![Ziehen Sie das Feld Ereignistyp auf die Arbeitsfläche „Bedingung“](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-8. Suchen Sie im angezeigten Auswahlfeld nach dem Wert und überprüfen Sie ihn mit dem Titel **orders.shipped.** Klicken Sie dann auf **OK**-Schaltfläche.
+&#x200B;8. Suchen Sie im angezeigten Auswahlfeld nach dem Wert und überprüfen Sie ihn mit dem Titel **orders.shipped.** Klicken Sie dann auf **OK**-Schaltfläche.
 
 ![Orders.Shipped Wert im Auswahlfeld aktiviert](assets/configure-event-select-orders-shipped-value.png)
 
-9. Aktualisieren Sie als Nächstes die letzten beiden Werte von Namespace und Profilkennung mit den unten angezeigten Werten:
+&#x200B;9. Aktualisieren Sie als Nächstes die letzten beiden Werte von Namespace und Profilkennung mit den unten angezeigten Werten:
    - **namespace** —> `Email`
    - **Profilkennung** —> `personalEmail`
 

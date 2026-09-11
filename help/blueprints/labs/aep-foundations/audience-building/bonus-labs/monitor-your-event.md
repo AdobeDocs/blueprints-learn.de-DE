@@ -24,7 +24,7 @@ ht-degree: 1%
 
 
 
-2. Klicken Sie auf die Schaltfläche **Starten**.
+&#x200B;2. Klicken Sie auf die Schaltfläche **Starten**.
 
 ![Klicken Sie auf die Schaltfläche Start , um mit der Konfiguration der Assurance-Sitzung zu beginnen](assets/monitor-your-event-click-start-button.png)
 
@@ -39,21 +39,21 @@ ht-degree: 1%
 
 ![Klicken Sie auf Weiter , nachdem Sie den Sitzungsnamen und die URL eingegeben haben](assets/monitor-your-event-click-next-button.png)
 
-4. Kopieren Sie den Link an eine Stelle, auf die Sie später verweisen können.
+&#x200B;4. Kopieren Sie den Link an eine Stelle, auf die Sie später verweisen können.
 
-5. Klicken Sie auf **Fertig**-Schaltfläche
+&#x200B;5. Klicken Sie auf **Fertig**-Schaltfläche
 
 ![Kopieren Sie den Link Assurance-Sitzung und klicken Sie auf Fertig](assets/monitor-your-event-copy-link.png)
 
 
 
-6. Navigieren Sie zu **Einstellungen**
+&#x200B;6. Navigieren Sie zu **Einstellungen**
 
-![Navigieren Sie in der Assurance-Sitzung zur Registerkarte Einstellungen ](assets/monitor-your-event-navigate-to-settings.png " klicken Sie auf Einstellungen")
+![Navigieren Sie in der Assurance-Sitzung zur Registerkarte Einstellungen &#x200B;](assets/monitor-your-event-navigate-to-settings.png " klicken Sie auf Einstellungen")
 
 
 
-7. Aktivieren Sie **Ereignistransaktionen** und **Edge Delivery**, indem Sie auf die Schaltfläche **+** und dann **Fertig**
+&#x200B;7. Aktivieren Sie **Ereignistransaktionen** und **Edge Delivery**, indem Sie auf die Schaltfläche **+** und dann **Fertig**
 
 ![Ereignistransaktionen und Edge Delivery aktivieren und dann auf „Fertig“ klicken](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
 
@@ -62,14 +62,14 @@ ht-degree: 1%
 
 Wechseln Sie zu Postman -> Web-Ereignis-Edge erstellen (keine Authentifizierung) -> Kopfzeilen
 
-1. Fügen Sie den Headern **x-adobe-aep-validation**-token mit dem oben aus Assurance kopierten Link hinzu. Erfassen Sie **nur die ID**-Wert nach dem = in der Relation, die Sie aus Assurance kopiert haben. z. B. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. Fügen Sie den Headern **x-adobe-aep-validation**-token mit dem oben aus Assurance kopierten Link hinzu. Erfassen Sie **nur die ID**-Wert nach dem = in der Relation, die Sie aus Assurance kopiert haben. z. B. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. Wir würden nur den [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)-Wert verwenden, nicht die vollständige URL
 
 ![Fügen Sie die Kopfzeile „x-adobe-aep-validation-token“ mit der Assurance-Sitzungs-ID in Postman hinzu](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
 
 
-3. Speichern und führen Sie in Postman die Anfrage **Web-Ereignis-Edge erstellen (keine Authentifizierung)** aus
+&#x200B;3. Speichern und führen Sie in Postman die Anfrage **Web-Ereignis-Edge erstellen (keine Authentifizierung)** aus
 
 
 

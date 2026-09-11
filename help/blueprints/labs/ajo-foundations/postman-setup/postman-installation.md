@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Am Ende dieses Labors können Sie Postman installieren, einen einfachen Arbeitsbereich und eine Umgebung konfigurieren, damit Sie nachfolgende API-Aufrufe durchführen können, die von zukünftigen Labs benötigt werden.
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 >
 >Postman ist für verschiedene Labore in diesem Kurs erforderlich.  Selbst wenn Sie Postman bereits installiert haben, müssen Sie dieses Lab abschließen, um sicherzustellen, dass die Umgebungsdateien und die API-Sammlung installiert und ordnungsgemäß eingerichtet sind.
 
@@ -40,7 +40,7 @@ Wenn Sie *bereits mit Postman vertraut* und es installiert haben, waren Sie wahr
 
 Öffnen Sie Postman und machen Sie sich schnell mit einigen Bereichen des Programms vertraut. Um mit Experience Platform arbeiten zu können, müssen wir uns wirklich nur auf einige Schlüsselbereiche der Anwendung konzentrieren.
 
-![Übersicht über die Postman-Benutzeroberfläche mit Seitenleiste, Kopfzeile und Hauptarbeitsbereich mit der Bezeichnung ](assets/postman-installation-interface-overview.png "Postman-Benutzeroberfläche")
+![Übersicht über die Postman-Benutzeroberfläche mit Seitenleiste, Kopfzeile und Hauptarbeitsbereich mit der Bezeichnung &#x200B;](assets/postman-installation-interface-overview.png "Postman-Benutzeroberfläche")
 
 ## Randleiste
 

@@ -40,56 +40,56 @@ Dieser Schritt zeigt, wie Vorlagen in allen Journey wiederverwendet werden könn
 
 ![Schaltfläche „Kampagne erstellen“ in der Kampagnenverwaltung in Journey](assets/creating-the-email-click-create-campaign-button.png)
 
-3. Wählen Sie &quot;**Orchestrierung - Marketing** aus und klicken Sie auf **Bestätigen**
+&#x200B;3. Wählen Sie &quot;**Orchestrierung - Marketing** aus und klicken Sie auf **Bestätigen**
 
 ![Orchestrierung auswählen - Marketing und auf „Bestätigen“](assets/creating-the-email-select-orchestration-marketing.png)
 
-4. Benennen Sie Ihre `Flagship Phone Launch Branded`. Drücken Sie **Speichern**.
+&#x200B;4. Benennen Sie Ihre `Flagship Phone Launch Branded`. Drücken Sie **Speichern**.
 
 ![Benennung des Kampagnen-Flaggschiffs „Telefonstart“ und Klicken auf „Speichern“](assets/creating-the-email-name-campaign-save.png)
 
-5. Klicken Sie auf das **+-** und wählen Sie die Aktivität **Zielgruppe lesen** aus
+&#x200B;5. Klicken Sie auf das **+-** und wählen Sie die Aktivität **Zielgruppe lesen** aus
 
 ![Pluszeichen zur Auswahl der Aktivität „Zielgruppe lesen“](assets/creating-the-email-click-plus-read-audience.png)
 
-6. Der nächste Schritt besteht darin, **Feld „Zielgruppe lesen** auszuwählen und auf das Symbol **Zielgruppenordner“ zu klicken**
+&#x200B;6. Der nächste Schritt besteht darin, **Feld „Zielgruppe lesen** auszuwählen und auf das Symbol **Zielgruppenordner“ zu klicken**
 
 ![Feld „Zielgruppe lesen“ und Symbol für Zielgruppenordner](assets/creating-the-email-read-audience-folder-icon.png)
 
-7. Wählen Sie die **dep: Interested in iPhone 17** Audience aus und klicken Sie auf **Schaltfläche „Audience hinzufügen**.
+&#x200B;7. Wählen Sie die **dep: Interested in iPhone 17** Audience aus und klicken Sie auf **Schaltfläche „Audience hinzufügen**.
 
 ![Auswählen der an iPhone 17 interessierten Zielgruppe und Klicken auf „Zielgruppe hinzufügen“](assets/creating-the-email-select-audience-add-button.png)
 
-8. Entität auswählen - **dep-rel: Kundenkonto - customer\_id** (oder beliebige, da es für diesen Teil nicht von Bedeutung ist)
-9. Fügen Sie die Aktivität **E-Mail** hinzu, indem Sie auf **+** klicken und dann **E-Mail** aus den Kanalaktivitäten auswählen.
+&#x200B;8. Entität auswählen - **dep-rel: Kundenkonto - customer\_id** (oder beliebige, da es für diesen Teil nicht von Bedeutung ist)
+&#x200B;9. Fügen Sie die Aktivität **E-Mail** hinzu, indem Sie auf **+** klicken und dann **E-Mail** aus den Kanalaktivitäten auswählen.
 
 ![Hinzufügen der E-Mail -Aktivität aus Kanalaktivitäten](assets/creating-the-email-add-email-channel-activity.png)
 
-10. Klicken Sie auf **E-Mail**.
+&#x200B;10. Klicken Sie auf **E-Mail**.
 
 ![Option „E-Mail bearbeiten“ für die Kampagnen-E-Mail-Aktivität](assets/creating-the-email-click-edit-email.png)
 
-11. Klicken Sie auf die **Aktion** und wählen Sie **Ihre** E-Mail-Konfiguration aus. Ihre Sandbox zeigt dies möglicherweise als relationale E-Mail an. (Beliebig auswählen)
+&#x200B;11. Klicken Sie auf die **Aktion** und wählen Sie **Ihre** E-Mail-Konfiguration aus. Ihre Sandbox zeigt dies möglicherweise als relationale E-Mail an. (Beliebig auswählen)
 
 ![Registerkarte „Aktion“ mit ausgewählter E-Mail-Konfiguration](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. Klicken Sie auf **Registerkarte Inhalt**
+&#x200B;12. Klicken Sie auf **Registerkarte Inhalt**
 
 ![Registerkarte „Inhalt“ im E-Mail-Editor](assets/creating-the-email-click-content-tab.png)
 
-13. Klicken Sie auf **Inhaltsvorlage anwenden**
+&#x200B;13. Klicken Sie auf **Inhaltsvorlage anwenden**
 
 ![Option „Inhaltsvorlage anwenden“ im E-Mail-Editor](assets/creating-the-email-click-apply-content-template.png)
 
-14. Wählen Sie die von Ihnen erstellte Vorlage **„Werbevorlage** aus und klicken Sie auf **Bestätigen**
+&#x200B;14. Wählen Sie die von Ihnen erstellte Vorlage **„Werbevorlage** aus und klicken Sie auf **Bestätigen**
 
 ![Auswählen der Aktionsvorlage und Klicken auf „Bestätigen“](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. Klicken Sie auf **E-Mail-Textkörper bearbeiten**
+&#x200B;15. Klicken Sie auf **E-Mail-Textkörper bearbeiten**
 
 ![Option „E-Mail-Textkörper bearbeiten“ nach dem Anwenden der Vorlage](assets/creating-the-email-click-edit-email-body.png)
 
-16. Bestätigen Sie, dass die neuen Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke korrekt angezeigt werden.
+&#x200B;16. Bestätigen Sie, dass die neuen Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke korrekt angezeigt werden.
 
 ![Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke werden in der E-Mail korrekt angezeigt](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
@@ -102,23 +102,23 @@ Dieser Schritt zeigt, wie Vorlagen in allen Journey wiederverwendet werden könn
 
 ![Klicken auf das Hero-Bannerbild des Platzhalters](assets/creating-the-email-click-broken-hero-banner-image.png)
 
-2. Entfernen Sie die temporäre Quell-URL.
+&#x200B;2. Entfernen Sie die temporäre Quell-URL.
 
 ![Entfernen der temporären Quell-URL aus dem Bild](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. Klicken Sie auf **Medien importieren**
+&#x200B;3. Klicken Sie auf **Medien importieren**
 
 ![Schaltfläche „Medien importieren“ für das Hero-Bild](assets/creating-the-email-click-import-media.png)
 
-4. Laden Sie `hero.png` aus Ihrem Toolkit hoch. (Sie können die Datei ziehen)
+&#x200B;4. Laden Sie `hero.png` aus Ihrem Toolkit hoch. (Sie können die Datei ziehen)
 
 ![Hochladen von hero.png aus dem Toolkit-Ordner](assets/creating-the-email-upload-hero-png-file.png)
 
-5. Klicken Sie auf **Weiter** Wählen Sie **Ihren Ordner für Assets** und drücken Sie **Importieren**
+&#x200B;5. Klicken Sie auf **Weiter** Wählen Sie **Ihren Ordner für Assets** und drücken Sie **Importieren**
 
 ![Auswählen des Asset-Ordners und Klicken auf „Importieren“ für das Hero-Bild](assets/creating-the-email-select-folder-import-hero.png)
 
-6. Ihre E-Mail-Vorlage kommt gut an. Sie sieht wie folgt aus. Klicken Sie auf **„Speichern“** um Ihre Arbeit zu speichern.
+&#x200B;6. Ihre E-Mail-Vorlage kommt gut an. Sie sieht wie folgt aus. Klicken Sie auf **„Speichern“** um Ihre Arbeit zu speichern.
 
 ![E-Mail-Vorlage vor dem Speichern mit dem neuen Hero-Bild aktualisiert](assets/creating-the-email-save-updated-email-template.png)
 

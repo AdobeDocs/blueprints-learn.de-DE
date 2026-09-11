@@ -36,13 +36,13 @@ ht-degree: 0%
 1. Aktivieren Sie alle Warnhinweise **Quellen: Datenflussstart/-erfolg/-fehler**
 1. Wenn alles gut aussieht, klicken Sie auf **Weiter** in der oberen rechten Ecke des Bildschirms, um mit dem nächsten Schritt fortzufahren.
 
-![Datenflussdetailbildschirm, der mit dem vorhandenen Datensatz für den zweiten Datenfluss/Datenflussdetails ](assets/create-a-new-dataflow-existing-dataset-flow-details.png " wurde")
+![Datenflussdetailbildschirm, der mit dem vorhandenen Datensatz für den zweiten Datenfluss/Datenflussdetails &#x200B;](assets/create-a-new-dataflow-existing-dataset-flow-details.png " wurde")
 
 
 
 ## Beispieldatei hochladen
 
-1. Ziehen Sie die Datei „Lab\_**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Benutzeroberfläche hoch.  Danach sollte der Bildschirm wie folgt aussehen.
+1. Ziehen Sie die Datei „Lab\_&#x200B;**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Benutzeroberfläche hoch.  Danach sollte der Bildschirm wie folgt aussehen.
 
 ![Vorschau der hochgeladenen CSV-Datei des Kundenkontos für den zweiten Datenfluss](assets/create-a-new-dataflow-uploaded-csv-preview.png "Zugriff auf die Azure Storage Explorer-Dateien in Adobe Experience Platform")
 

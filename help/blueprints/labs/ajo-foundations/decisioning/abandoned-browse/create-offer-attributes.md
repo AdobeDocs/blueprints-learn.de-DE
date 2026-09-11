@@ -23,7 +23,7 @@ In diesem Abschnitt fügen Sie dem Standard-XDM-Schema des Angebots benutzerdefi
 1. Erweitern Sie bei Bedarf das **Decisioning**-Menüelement in der linken Leiste und klicken Sie auf **Catalogs.**
 2. Standardmäßig wird die Seite „Angebote“ angezeigt. Klicken Sie auf **Schema bearbeiten** in der oberen rechten Ecke.
 
-![Schaltfläche Schema bearbeiten auf der Seite Angebotskatalog ](assets/create-offer-attributes-edit-schema-button.png)
+![Schaltfläche Schema bearbeiten auf der Seite Angebotskatalog &#x200B;](assets/create-offer-attributes-edit-schema-button.png)
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ In diesem Abschnitt fügen Sie dem Standard-XDM-Schema des Angebots benutzerdefi
 >
 >Darüber hinaus ist das Durchsuchen der Seite „Angebote“ eine Verknüpfung, um zu diesem Schema zu gelangen. Sie können auch über das Menü Schema in der linken Leiste dorthin navigieren.
 
-3. Klicken Sie auf das Symbol **+** rechts neben der Stammebene des Schemas. Füllen Sie über das jetzt sichtbare Menü „Feldeigenschaften“ in der rechten Leiste die folgenden Felder mit den angegebenen Werten aus:
+&#x200B;3. Klicken Sie auf das Symbol **+** rechts neben der Stammebene des Schemas. Füllen Sie über das jetzt sichtbare Menü „Feldeigenschaften“ in der rechten Leiste die folgenden Felder mit den angegebenen Werten aus:
    - Feldname: **device**
    - Anzeigename: **Gerät**
    - Typ Dropdown: **Objekt**
@@ -45,11 +45,11 @@ In diesem Abschnitt fügen Sie dem Standard-XDM-Schema des Angebots benutzerdefi
 >
 >Die Feldergruppe „Zuweisen an“ scheint ein Dropdown-Menü zu sein, akzeptiert jedoch auch eine direkte Texteingabe. Geben Sie daher den Text „Angebotsdetails“ ein. Wenn Sie sie eingeben, wird auch ein Element „Angebotsdetails (Neu)“ angezeigt. Jedes neue Attribut muss einer Feldergruppe zugewiesen werden. In diesem Schritt erstellen Sie also effektiv eine neue Feldergruppe namens Angebotsdetails.
 
-4. Stellen Sie sicher, dass alle Eigenschaften wie im folgenden Screenshot ausgefüllt wurden:
+&#x200B;4. Stellen Sie sicher, dass alle Eigenschaften wie im folgenden Screenshot ausgefüllt wurden:
 
 ![Feldeigenschaften für das neue Geräteobjekt ausgefüllt](assets/create-offer-attributes-device-object-field-properties.png)
 
-5. Nachdem Sie sich vergewissert haben, dass alle Felder korrekt sind, klicken Sie auf die blaue Schaltfläche **Anwenden** am unteren Rand des Menüs „Feldeigenschaften“ (rechte Leiste), um Ihre auf das Schema angewendeten Änderungen anzuzeigen:
+&#x200B;5. Nachdem Sie sich vergewissert haben, dass alle Felder korrekt sind, klicken Sie auf die blaue Schaltfläche **Anwenden** am unteren Rand des Menüs „Feldeigenschaften“ (rechte Leiste), um Ihre auf das Schema angewendeten Änderungen anzuzeigen:
 
 ![Auf das Angebotsschema angewendete Gerätefeldgruppe](assets/create-offer-attributes-device-object-applied.png)
 
@@ -75,7 +75,7 @@ Nachdem das Geräte-XDM-Objekt erstellt wurde, können Sie mit der Erstellung ge
 
 ![Angebotsschema mit den ausgefüllten Feldern für Marke, Modell und Ebene](assets/create-offer-attributes-make-model-tier-fields.png)
 
-3. Wenn alle neuen XDM-Felder/Attribute erstellt sind, klicken **oben** auf „Speichern“. Daraufhin wird unten im Bildschirm die grüne Meldung „Schema Successfully Saved“ angezeigt. Sie haben nun die Schritte in diesem Abschnitt ausgeführt.
+&#x200B;3. Wenn alle neuen XDM-Felder/Attribute erstellt sind, klicken **oben** auf „Speichern“. Daraufhin wird unten im Bildschirm die grüne Meldung „Schema Successfully Saved“ angezeigt. Sie haben nun die Schritte in diesem Abschnitt ausgeführt.
 
 >[!WARNING]
 >

@@ -44,7 +44,7 @@ Das AJO Architectural Foundations Lab Pack wird mit der DEP-CLI in Ihrer Sandbox
 ## Voraussetzungen
 
 - **Lizenzberechtigungen.** Administratorrechte für eine IMS-Organisation mit Real-Time CDP (mit Streaming-Segmentierung) und Adobe Journey Optimizer (mit orchestrierten Kampagnen)
-- **Zugriffsrechte.** Eine Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldeinformationen, die Sie bei der Einrichtung von [Developer Console erstellt ](developer-console-setup.md).
+- **Zugriffsrechte.** Eine Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldeinformationen, die Sie bei der Einrichtung von [Developer Console erstellt &#x200B;](developer-console-setup.md).
 - **Developer Console-Anmeldeinformationen.** Ein Projekt, das sowohl Adobe Experience Platform-APIs als auch Adobe Journey Optimizer-APIs enthält. Wenn Sie diese noch nicht haben, befolgen Sie zuerst die Einrichtung von [Developer Console](developer-console-setup.md)
 - **Eine Sandbox.** Leer, vom Typ `dev` und mindestens 120 Minuten lang im Status „Bereit“, bevor Sie die Bereitstellung starten
 - **Node.js.** Jede neuere LTS-Version, unter Windows oder Mac
@@ -74,7 +74,7 @@ Die CLI wird in der Sandbox bereitgestellt, auf die Ihre Umgebungsdatei verweist
 | `SCOPES` | Muss sowohl Experience Platform-API- als auch Adobe Journey Optimizer-API-Bereiche enthalten <br />*(z. B. cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
 | `SANDBOX_NAME` | Die Sandbox, die Sie anvisieren, muss leer sein und vom Typ `dev` sein |
 
-3. Speichern und schließen Sie die Datei
+&#x200B;3. Speichern und schließen Sie die Datei
 
 >[!NOTE]
 >
@@ -117,7 +117,6 @@ Schritt 1 dauert etwa 2 Minuten, Schritt 2 etwa 6 Minuten.
 >[!NOTE]
 >
 >Verwenden Sie Schritt 6, anstatt die Schritte 4 und 5 separat auszuführen - dies geschieht in einem Schritt genauso, wenn die Propagierungswartezeit für Sie gehandhabt wird.
-
 > [!NOTE]
 >
 >Alle oben genannten Wartezeiten werden automatisch von der CLI überprüft. Wenn Sie einen Schritt zu früh ausführen, wird er blockiert und gibt an, wie lange Sie warten müssen.

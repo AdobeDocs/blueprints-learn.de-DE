@@ -47,7 +47,7 @@ Konfigurieren Sie den Datenstrom mit folgenden Informationen:
 
 Nach dem Speichern des Datenstroms wird der folgende Bildschirm angezeigt:
 
-![Bestätigungsbildschirm wird unmittelbar nach dem Speichern des neuen ](assets/create-datastream-created-confirmation-screen.png " angezeigt")
+![Bestätigungsbildschirm wird unmittelbar nach dem Speichern des neuen &#x200B;](assets/create-datastream-created-confirmation-screen.png " angezeigt")
 
 ## Hinzufügen des Ereignisweiterleitungs-Service
 
@@ -67,7 +67,7 @@ Auf diese Weise können Sie die Ereignisweiterleitung für Daten verwenden, die 
 
 1. Klicken Sie abschließend auf **Speichern**
 
-![Konfiguration des Ereignisweiterleitungs-Service mit ausgewählter Eigenschaft und Entwicklungsumgebung ](assets/create-datastream-event-forwarding-service-config.png "Konfigurationsbildschirm für die Ereignisweiterleitung")
+![Konfiguration des Ereignisweiterleitungs-Service mit ausgewählter Eigenschaft und Entwicklungsumgebung &#x200B;](assets/create-datastream-event-forwarding-service-config.png "Konfigurationsbildschirm für die Ereignisweiterleitung")
 
 
 

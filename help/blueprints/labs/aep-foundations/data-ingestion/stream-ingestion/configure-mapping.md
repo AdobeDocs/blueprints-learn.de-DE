@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurieren der Zuordnung
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Befolgen Sie diesen Abschnitt nur, wenn Sie das Labor zur Batch-Aufnahme erfolgreich abgeschlossen haben.  Andernfalls führen Sie die Schritte [Zuordnungsdaten](../batch-ingestion/mapping-data/overview.md) im Labor zur Batch-Aufnahme aus.
 

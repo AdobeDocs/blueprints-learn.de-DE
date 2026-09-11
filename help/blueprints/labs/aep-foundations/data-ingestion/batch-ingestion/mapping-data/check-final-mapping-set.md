@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Endgültigen Zuordnungssatz überprüfen
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Wenn Sie vom Streaming-Aufnahme-Labor kommen, klicken Sie auf den folgenden Link, um mit dem nächsten Schritt in diesem Labor fortzufahren:
 >
@@ -51,7 +51,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren.
 
@@ -65,6 +65,6 @@ ht-degree: 0%
 | concat(date\_part(„month“, date(born\_date,„M/d/yyyy„)).toString(), &quot;-&quot;, date\_part(„day“, date(born\_date,„M/d/yyyy„)).toString()) | person.bornDayAndMonth |
 | date\_part(„jjjj“,date(Geburtsdatum,„M/TT/jjjj„)) | person.BirthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren

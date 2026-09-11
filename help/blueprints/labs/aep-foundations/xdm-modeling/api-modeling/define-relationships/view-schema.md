@@ -31,21 +31,21 @@ ht-degree: 0%
 
 
 
-2. Ersetzen Sie in der URL der Anfrage die `<replace me>` durch die `$meta:altId`, die Sie im vorherigen Abschnitt [Schema erstellen](../build-schema/create-schema.md) gespeichert haben, wie unten dargestellt
+&#x200B;2. Ersetzen Sie in der URL der Anfrage die `<replace me>` durch die `$meta:altId`, die Sie im vorherigen Abschnitt [Schema erstellen](../build-schema/create-schema.md) gespeichert haben, wie unten dargestellt
 
 ![Schritt 4-Anfrage mit dem Meta-:altId, an die URL-](assets/view-schema-final-step-4-request.png "-Anfrage für Schritt 4 angehängt")
 
 
 
-3. Speichern Sie die Anfrage mithilfe der Schaltfläche `Save` .
+&#x200B;3. Speichern Sie die Anfrage mithilfe der Schaltfläche `Save` .
 
-4. Ausführen der Anfrage durch Klicken auf die Schaltfläche `Send`
+&#x200B;4. Ausführen der Anfrage durch Klicken auf die Schaltfläche `Send`
 
 Sie sollten jetzt eine `200 OK` Antwort sehen und zum Ende des von Ihnen erstellten Schemas navigieren können, um die Identität durch die Linse der XDM-JSON-Struktur zu sehen
 
 
 
-![Beziehungsdeskriptor, der im Kundenkontenschema-JSON-Beziehungsdeskriptor ](assets/view-schema-relationship-descriptor.png " ist")
+![Beziehungsdeskriptor, der im Kundenkontenschema-JSON-Beziehungsdeskriptor &#x200B;](assets/view-schema-relationship-descriptor.png " ist")
 
 
 

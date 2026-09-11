@@ -60,13 +60,13 @@ Auf diese Weise können Sie Daten an den Hub senden und für Daten, die von dies
 
 ![Schaltfläche „Service hinzufügen“ im Bildschirm zur Datenstromkonfiguration](assets/create-datastream-add-service-button.png)
 
-2. Konfigurieren Sie die folgenden Elemente:
+&#x200B;2. Konfigurieren Sie die folgenden Elemente:
    - **Service** -> `Adobe Experience Platform`
    - **Ereignisdatensatz** -> `dep: Web`
    - **Profildatensatz** -> `dep: Customer Account`
    - **Kontrollkästchen auswählen** -> `Offer Decisioning`
    - **Kontrollkästchen auswählen** -> `Adobe Journey Optimizer`
-3. Klicken Sie abschließend auf **Speichern**
+&#x200B;3. Klicken Sie abschließend auf **Speichern**
 
 ![Dialogfeld für die Konfiguration des Adobe Experience Platform-Services mit Ereignis- und Profildatensatzfeldern](assets/create-datastream-configure-aep-service.png)
 

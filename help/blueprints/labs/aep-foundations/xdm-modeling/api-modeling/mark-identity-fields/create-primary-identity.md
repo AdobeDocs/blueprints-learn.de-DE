@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Primäre Identität erstellen
 description: Verwenden Sie die Schema Registry-API, um einen primären CustomerID-Identitätsdeskriptor für das Schema des Kundenkontos zu erstellen.
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -55,6 +54,6 @@ NUR BEISPIEL
 
 ![201 Antwort nach erfolgreicher Erstellung des primären Identitätsdeskriptors erstellt](assets/create-primary-identity-201-created-response.png "Primärer Identitätsdeskriptor wurde erfolgreich erstellt")
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >Herzlichen Glückwunsch!  Sie haben soeben einen primären Identitätsdeskriptor in Ihrem Schema erstellt

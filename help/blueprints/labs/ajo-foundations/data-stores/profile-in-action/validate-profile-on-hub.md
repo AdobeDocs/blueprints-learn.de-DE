@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Profil im Hub validieren
 description: Erfahren Sie, wie Sie im Echtzeit-Kundenprofil-Hub nach einem Profil suchen und dessen Ereignisse und Segmentzugehörigkeit nach einem Streaming-Ereignis überprüfen.
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -55,7 +54,7 @@ Suchen Sie in Adobe Experience Platform das Profil, das Sie gerade von dem Ereig
 
 ![JSON-Ansicht mit Profilattributen, die segmentMembership anzeigt](assets/validate-profile-on-hub-json-view.png)
 
-&#x200B;2. Suchen Sie **segmentMembership**.  Sie sollte wie folgt aussehen (Ihre IDs unterscheiden sich)
+2. Suchen Sie **segmentMembership**.  Sie sollte wie folgt aussehen (Ihre IDs unterscheiden sich)
 
 ```json
   "segmentMembership": {
@@ -75,7 +74,7 @@ Suchen Sie in Adobe Experience Platform das Profil, das Sie gerade von dem Ereig
 >
 >**Wie liest man segmentMembership?**
 >
->[https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** Dies ist der Zuordnungsschlüssel für verschiedene Arten von Zielgruppen, die von AEP unterstützt werden.  Der UPS-Schlüssel enthält Zielgruppen , die vom Regel-Builder erstellt wurden.  Andere Zielgruppen sind in anderen Schlüsseln enthalten (z. B. AAM).
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Umgebungsdatei
 description: Importieren Sie die Postman-Umgebungsdatei und füllen Sie die Entwicklerprojekt- und Sandbox-Variablen auf, die für die API-Aufrufe des Bootcamps benötigt werden.
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -32,7 +31,7 @@ Datei herunterladen - [AEP Bootcamp.postman_environment.json](assets/aep-bootcam
 
 
 
-![Einfügen der Umgebungsdatei-URL in das Postman-Importmodal-Textfeld &#x200B;](assets/environment-file-import-modal-paste-url.png "Überlagerung der Importschaltfläche")
+![Einfügen der Umgebungsdatei-URL in das Postman-Importmodal-Textfeld ](assets/environment-file-import-modal-paste-url.png "Überlagerung der Importschaltfläche")
 
 
 

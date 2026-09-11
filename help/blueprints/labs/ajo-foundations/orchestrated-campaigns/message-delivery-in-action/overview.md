@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Nachrichtenversand in Aktion
 description: Verschaffen Sie sich einen Überblick über die Erstellung einer orchestrierten Kampagne, die auf einfache Planmitglieder abzielt und das Versandverhalten zwischen AEP-Profil- und relationalen Schema-E-Mail-Kanälen vergleicht.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%

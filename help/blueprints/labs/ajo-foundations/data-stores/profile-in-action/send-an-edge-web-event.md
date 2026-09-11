@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Senden eines Edge-Web-Ereignisses
 description: Erfahren Sie, wie Sie mithilfe Ihrer Datenstrom-ID ein simuliertes Web-Ereignis über einen Postman-API-Aufruf an das Adobe Edge Network senden.
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -75,16 +74,16 @@ Bevor Sie die API-Anfrage ausführen können, müssen Sie die Datenstrom-ID zur 
 
 ![Option „Variablen in Anfrage“ in der Postman-Symbolleiste](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-&#x200B;2. Aktualisieren Sie **DATASTREAM_CONFIG** **Value** mit der **Datastream-ID** aus dem ersten Schritt auf der Seite.
+2. Aktualisieren Sie **DATASTREAM_CONFIG** **Value** mit der **Datastream-ID** aus dem ersten Schritt auf der Seite.
 
 ![DATASTREAM_CONFIG-Variable mit der Datenstrom-ID aktualisiert](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-&#x200B;3. **Speichern** die Aktualisierung (Strg+S oder Befehl+S)
-&#x200B;4. Klicken Sie auf **X** in der oberen rechten Ecke der Seitenleiste der Umgebung, um die Seitenleiste zu schließen
+3. **Speichern** die Aktualisierung (Strg+S oder Befehl+S)
+4. Klicken Sie auf **X** in der oberen rechten Ecke der Seitenleiste der Umgebung, um die Seitenleiste zu schließen
 
 ![Schließen der Seitenleiste der Postman-Umgebung nach dem Speichern](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-&#x200B;5. Die **Web-Ereignis erstellen**-Anfrage kann jetzt gesendet werden, da alle Variablen jetzt blau sind und einen Wert in der Umgebung haben.
+5. Die **Web-Ereignis erstellen**-Anfrage kann jetzt gesendet werden, da alle Variablen jetzt blau sind und einen Wert in der Umgebung haben.
 
 ![Erstellen einer Web-Ereignisanfrage mit allen Variablen ausgefüllt](assets/send-an-edge-web-event-request-ready-to-send.png)
 

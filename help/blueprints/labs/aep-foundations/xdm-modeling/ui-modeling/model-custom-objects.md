@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Modellieren benutzerdefinierter Objekte
 description: Erstellen Sie benutzerdefinierte Felder und Objekte für Konto, Plan und Kunden-ID im Schema-Editor, einschließlich Aufzählungswerten, um Daten ohne standardmäßige Feldergruppenäquivalente zu modellieren.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,7 +35,7 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 1. Fügen Sie ein neues Feld hinzu, indem Sie auf die Schaltfläche **+ (Hinzufügen** oben in Ihrem Schema klicken
 
-![&#x200B; Schaltfläche (+) oben im Schema hinzufügen, um ein benutzerdefiniertes Feld hinzuzufügen](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+![ Schaltfläche (+) oben im Schema hinzufügen, um ein benutzerdefiniertes Feld hinzuzufügen](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
 >[!NOTE]
 >
@@ -109,7 +108,7 @@ Dieses Feld benötigt standardisierte Werte. Verwenden Sie daher die Option **Au
 
 >[!NOTE]
 >
->Das Ziel von Aufzählung und empfohlenen Werten besteht darin, die Segmentierung für den Endbenutzer zu vereinfachen. Auflistungen erzwingen die Validierung zum Zeitpunkt der Datenaufnahme, vorgeschlagene Werte dagegen nicht. Weitere Informationen zu dieser Funktion finden Sie in der Dokumentation hier -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=de#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=de#enums-and-suggested-values)
+>Das Ziel von Aufzählung und empfohlenen Werten besteht darin, die Segmentierung für den Endbenutzer zu vereinfachen. Auflistungen erzwingen die Validierung zum Zeitpunkt der Datenaufnahme, vorgeschlagene Werte dagegen nicht. Weitere Informationen zu dieser Funktion finden Sie in der Dokumentation hier -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 

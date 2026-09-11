@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Schema erstellen
 description: Verwenden Sie die Schema Registry-API, um ein Kundenschema aus einer Profilklasse und standardmäßigen und benutzerdefinierten Feldergruppenverweisen zusammenzustellen.
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -27,14 +26,14 @@ ht-degree: 0%
 
 
 
-&#x200B;2. Öffnen Sie den Hauptteil des Aufrufs und zeigen Sie die Struktur der Definition eines Schemas an. Denken Sie daran, dass ein Schema immer nur aus einer (1) Klasse und einer oder mehreren Feldergruppen besteht.
+2. Öffnen Sie den Hauptteil des Aufrufs und zeigen Sie die Struktur der Definition eines Schemas an. Denken Sie daran, dass ein Schema immer nur aus einer (1) Klasse und einer oder mehreren Feldergruppen besteht.
 
-&#x200B;3. Füllen Sie die Felder `title` und `description` im Hauptteil des Schemas wie folgt aus:
+3. Füllen Sie die Felder `title` und `description` im Hauptteil des Schemas wie folgt aus:
 
 - Titel -> `Sample Customer Schema - <your sandbox number>`
 - Beschreibung -> `Sample Customer Schema - <your sandbox number>`
 
-&#x200B;4. Füllen Sie die `$ref` Felder mit den `$ids`, die Sie aus den vorherigen von Ihnen abgeschlossenen Lab-Abschnitten gespeichert haben: [Erstellen benutzerdefinierter Feldergruppen](./create-custom-field-groups.md) und [Profilklasse abrufen](./get-profile-class.md). Sie sollten $ids für jedes der folgenden Elemente haben:
+4. Füllen Sie die `$ref` Felder mit den `$ids`, die Sie aus den vorherigen von Ihnen abgeschlossenen Lab-Abschnitten gespeichert haben: [Erstellen benutzerdefinierter Feldergruppen](./create-custom-field-groups.md) und [Profilklasse abrufen](./get-profile-class.md). Sie sollten $ids für jedes der folgenden Elemente haben:
 
 - Klasse -> Individuelles XDM-Profil
 - Feldergruppe -> Demografische Details
@@ -46,7 +45,7 @@ ht-degree: 0%
 
 
 
-&#x200B;5. Überprüfen Sie Ihren endgültigen Textkörper und stellen Sie sicher, dass er in etwa wie folgt aussieht
+5. Überprüfen Sie Ihren endgültigen Textkörper und stellen Sie sicher, dass er in etwa wie folgt aussieht
 
 ![Abgeschlossener Schema-Anfragetext mit Titel, Beschreibung und allen $ref-Werten ausgefüllt](assets/create-schema-example-of-final-body-payload.png "Beispiel für die endgültige Textkörper-Payload")
 

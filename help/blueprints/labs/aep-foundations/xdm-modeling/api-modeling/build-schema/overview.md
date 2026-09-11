@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Schema erstellen
 description: Stellen Sie ein Schema für ein 5G-Kundenkonto der Verbindung aus einer Klasse und mehreren Feldergruppen zusammen, indem Sie das zuvor abgeschlossene Zuordnungsblatt verwenden.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 6a935c42-0446-43f7-8abc-442ee696a6cf
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%

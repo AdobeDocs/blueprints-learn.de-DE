@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Einrichten der Entwicklerkonsole
 description: Erstellen Sie ein Adobe Developer Console-Projekt mit OAuth-Server-zu-Server-Anmeldedaten für die DEP-CLI, um sich bei Ihrer Sandbox zu authentifizieren.
 doc-type: article
 solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Einrichten der Entwicklerkonsole
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Dies ist nur erforderlich, wenn Sie die Labore in Ihrem eigenen Tempo bearbeiten. Wenn Sie sich an einem Live-Schulungskurs oder einer Live-Veranstaltung beteiligen, wurde Ihre Sandbox bereits für Sie bereitgestellt.
 

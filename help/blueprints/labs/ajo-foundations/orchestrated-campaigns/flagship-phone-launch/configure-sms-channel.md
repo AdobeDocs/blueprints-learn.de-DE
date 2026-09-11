@@ -1,11 +1,10 @@
 ---
-hold: true
 title: SMS-Kanal konfigurieren
 description: Erfahren Sie, wie Sie einen Twilio-basierten SMS-Kanal und seine Ausführungsdimensionen für die Verwendung in orchestrierten Kampagnen konfigurieren.
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -60,18 +59,18 @@ Jetzt ordnen Sie diese API-Anmeldeinformationen einer Kanalkonfiguration zu, die
 
 
 
-&#x200B;2. Klicken Sie **Kanalkonfiguration erstellen**.
+2. Klicken Sie **Kanalkonfiguration erstellen**.
 
 ![Schaltfläche „Kanalkonfiguration erstellen“](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
-&#x200B;3. Füllen Sie die Einstellungen für die SMS-Kanalkonfiguration mit den folgenden Werten aus:
+3. Füllen Sie die Einstellungen für die SMS-Kanalkonfiguration mit den folgenden Werten aus:
    - **name:** `Relational-SMS-Multi-Entity`
    - **channel:** `Mobile Message`
    - **Marketing-Aktion:** `SMS Targeting`
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Wenn Sie einen Fehler erhalten, der besagt, dass der Benutzer nicht über die Berechtigung verfügt, ignorieren Sie diese und fahren Sie fort.
 
@@ -97,13 +96,13 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-&#x200B;2. Stellen Sie sicher **dass das Kontrollkästchen** Aktiviert“ aktiviert ist
+2. Stellen Sie sicher **dass das Kontrollkästchen** Aktiviert“ aktiviert ist
 
 ![Kontrollkästchen „Aktiviert“ für orchestrierte Kampagnen aktiviert](assets/configure-sms-channel-enabled-checkbox.png)
 
 
 
-&#x200B;3. Stellen Sie als Nächstes unter dem Unterabschnitt **Ausführungsdimension** sicher, dass Folgendes wie folgt eingerichtet ist:
+3. Stellen Sie als Nächstes unter dem Unterabschnitt **Ausführungsdimension** sicher, dass Folgendes wie folgt eingerichtet ist:
    - **Versand am:** `Target + Secondary Dimension`
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
    - **Sekundäre Dimension:** `Customer Line`
@@ -118,13 +117,13 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-&#x200B;4. Wählen Sie unter der Überschrift Ausführungsadresse das Optionsfeld für **Sekundäre Dimension** und klicken Sie dann auf die Schaltfläche Bearbeiten im Feld **SMS-Ausführung**
+4. Wählen Sie unter der Überschrift Ausführungsadresse das Optionsfeld für **Sekundäre Dimension** und klicken Sie dann auf die Schaltfläche Bearbeiten im Feld **SMS-Ausführung**
 
 ![Ausführungsadresse mit Bearbeitungsfeld auf Sekundäres Dimension festgelegt](assets/configure-sms-channel-execution-address-selection.png)
 
 
 
-&#x200B;5. Klicken Sie im Popup-Fenster in das Schema **dep-rel: Customer Line** und wählen Sie **Mobiltelefon** aus.
+5. Klicken Sie im Popup-Fenster in das Schema **dep-rel: Customer Line** und wählen Sie **Mobiltelefon** aus.
 
 ![Schema-Popup für das Schema dep-rel: customer line](assets/configure-sms-channel-customer-line-schema-popup.png)
 
@@ -132,7 +131,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-&#x200B;6. Bestätigen Sie, dass der Abschnitt der endgültigen Ausführungsdetails unten übereinstimmt
+6. Bestätigen Sie, dass der Abschnitt der endgültigen Ausführungsdetails unten übereinstimmt
 
 ![Endgültige Ausführungsdetails, die mit den erforderlichen Einstellungen übereinstimmen](assets/configure-sms-channel-final-execution-details.png)
 
@@ -146,7 +145,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-&#x200B;2. Stellen Sie auf der Inventarseite „Kanalkonfigurationen“ sicher, dass der Status als **Aktiv** angezeigt wird, bevor Sie fortfahren
+2. Stellen Sie auf der Inventarseite „Kanalkonfigurationen“ sicher, dass der Status als **Aktiv** angezeigt wird, bevor Sie fortfahren
 
 ![Kanalkonfigurationsstatus wird als Aktiv angezeigt](assets/configure-sms-channel-active-status.png)
 
@@ -156,7 +155,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 
 
-&#x200B;3. Wenn der Status Aktiv wird, sind Sie fertig!
+3. Wenn der Status Aktiv wird, sind Sie fertig!
 
 >[!TIP]
 >
@@ -168,4 +167,4 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 Sie haben jetzt gesehen, wie Sie einen SMS-Kanal erfolgreich konfigurieren können.  Beachten Sie, dass es sich um eine API-basierte SMS handelt, sodass sie je nach Anbieter alternative Authentifizierungsmethoden verwenden können.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.

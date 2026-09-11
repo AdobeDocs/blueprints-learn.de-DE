@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Passthrough-Zuordnungen korrigieren
 description: Identifizieren und korrigieren Sie falsche KI-/ML-Passthrough-Zuordnungen, z. B. doppelte oder nicht übereinstimmende Zielfeldzuweisungen, bevor Sie eine Validierung durchführen.
 doc-type: article
 solution: Experience Platform
 exl-id: b06cc091-661e-4ff4-b6e5-f16bc5128b6b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -57,7 +56,7 @@ In diesem Szenario sehen Sie, dass der KI/ML-Recommender zwei verschiedene Quell
 
 Diese Zuordnung sieht richtig aus, ist aber bei näherer **(**) nicht dasselbe wie **emailFormat**
 
-![Zuordnung, bei der E-Mail falsch zugeordnet ist, anstelle von &#x200B;](assets/fix-passthrough-mappings-email-mapped-incorrectly.png "-Mail scheint korrekt zugeordnet zu sein, ist jedoch gemäß den Anforderungen falsch")
+![Zuordnung, bei der E-Mail falsch zugeordnet ist, anstelle von ](assets/fix-passthrough-mappings-email-mapped-incorrectly.png "-Mail scheint korrekt zugeordnet zu sein, ist jedoch gemäß den Anforderungen falsch")
 
 Hier wird **email\_optIn** fälschlicherweise dem falschen Einverständnisobjekt zugeordnet
 

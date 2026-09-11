@@ -1,11 +1,10 @@
 ---
-hold: true
 title: UI-Modellierung
 description: Erfahren Sie, wie Sie Quelldaten XDM-Standard- und benutzerdefinierten Objekten zuordnen und mithilfe der Schema-Benutzeroberfläche ein Schema für ein Profil erstellen und konfigurieren.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 66c3a386-7292-49e4-a75a-619e73c2a14d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%

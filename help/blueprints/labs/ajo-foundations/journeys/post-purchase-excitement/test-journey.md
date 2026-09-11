@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Test-Journey
 description: Verwenden Sie den Journey-Testmodussimulator, um ein im Lieferumfang enthaltenes Auftragsereignis in einen Trigger zu versetzen und vor der Veröffentlichung zu bestätigen, dass der Trigger und die Aktionslogik korrekt ausgeführt werden.
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -33,7 +32,7 @@ Verwenden Sie die Journey-Test-Tools, um zu überprüfen, ob der Ereignis-Trigge
 >
 >Zeigt, dass der Ausschluss-Link in einer E-Mail-Variante fehlt
 
-&#x200B;4. Klicken Sie auf **Simulieren** und wählen Sie links den **Testmodus**
+4. Klicken Sie auf **Simulieren** und wählen Sie links den **Testmodus**
 
 ![Testmodus unter Simulieren auf der linken Seite ausgewählt](assets/test-journey-select-test-mode.png)
 
@@ -45,15 +44,15 @@ Verwenden Sie die Journey-Test-Tools, um zu überprüfen, ob der Ereignis-Trigge
 
 
 
-&#x200B;5. Klicken Sie auf **Ereignis als Trigger** und füllen Sie die folgenden Eigenschaften aus:
+5. Klicken Sie auf **Ereignis als Trigger** und füllen Sie die folgenden Eigenschaften aus:
    - **Ereignistyp**: `orders.shipped`
    - **Persönliche E-Mail**: `henry.creel@emailsim.io`
    - **Auftrags-ID**: `123`
-&#x200B;6. Klicken Sie **Senden** (beachten Sie, dass es einige Sekunden dauert, bis nach dem Klicken auf „Senden“ geantwortet wird)
+6. Klicken Sie **Senden** (beachten Sie, dass es einige Sekunden dauert, bis nach dem Klicken auf „Senden“ geantwortet wird)
 
 ![Trigger eines ausgefüllten Ereignisformulars und angeklickter Versand](assets/test-journey-trigger-event-send.png)
 
-&#x200B;> [!WARNING]
+> [!WARNING]
 >
 >Manche Schüler bekommen Fehler und müssen diese ein paar Mal senden. Möglicherweise müssen Sie dies **mehrere** tun.
 >
@@ -65,11 +64,11 @@ Verwenden Sie die Journey-Test-Tools, um zu überprüfen, ob der Ereignis-Trigge
 
 
 
-&#x200B;7. Klicken Sie **Ergebnisse** -> auf **Protokoll anzeigen** links
+7. Klicken Sie **Ergebnisse** -> auf **Protokoll anzeigen** links
 
 ![Option „Protokoll anzeigen“ unter „Ergebnisse“ nach Auslösen des Testereignisses](assets/test-journey-show-log-results.png)
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Manche Lernenden, die Fehler erhalten haben, erhalten manchmal unterschiedliche Protokolle, in denen ein leeres Instanzen-Array-`{"instances": []}` angezeigt wird. Dies ist kein Hindernis. Fahren Sie nun mit dem nächsten Schritt fort.
 
@@ -106,16 +105,16 @@ Im Protokoll sollte ein ähnliches Element angezeigt werden:
 
 
 
-&#x200B;8. **Schließen** die Browser-**Registerkarte**
-&#x200B;9. **Testmodus schließen** oben rechts
+8. **Schließen** die Browser-**Registerkarte**
+9. **Testmodus schließen** oben rechts
 
 ![Test-Modus schließen oben rechts](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. Klicken Sie oben **auf** Veröffentlichen“.
+10. Klicken Sie oben **auf** Veröffentlichen“.
 
 ![Schaltfläche „Veröffentlichen“ für die Journey oben rechts](assets/test-journey-publish-journey.png)
 
-&#x200B;11. **Schließen** Sie die **Journey**, indem Sie auf den Pfeil \&lt;- oben links klicken
+11. **Schließen** Sie die **Journey**, indem Sie auf den Pfeil \&lt;- oben links klicken
 
 ![Pfeil nach hinten oben links zum Schließen der Journey](assets/test-journey-close-journey-back-arrow.png)
 

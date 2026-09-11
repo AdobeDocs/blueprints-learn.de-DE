@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Schema ändern - JSON-Patch
 description: Verwenden Sie einen JSON PATCH-API-Aufruf, um einer bestehenden Mandantenfeldgruppe ein neues Feld hinzuzufügen und die Änderung im Schema zu sehen.
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -22,7 +21,7 @@ Angenommen, Sie müssen nach dem Erstellen des Schemas zurückkehren und ein zus
 Sie können mehr über JSON PATCH unter den unten stehenden Links erfahren. Für dieses Labor gehen Sie jedoch davon aus, dass Sie ein Konzept dafür haben, wie dies 😄 funktioniert
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API-Grundlagen](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=de#json-patch)
+- [Experience League API-Grundlagen](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![Diagramm zum Patchen eines fehlenden PlansDescription-Felds in ein vorhandenes Schema](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "Patchen in einer fehlenden Feldplanbeschreibung")
 
@@ -133,10 +132,10 @@ Der vollständig erstellte Pfad sieht wie folgt aus:  Kopieren Sie diesen Pfad u
 
 
 
-&#x200B;2. Aktualisieren Sie den Text der Anfrage mit den folgenden Informationen
+2. Aktualisieren Sie den Text der Anfrage mit den folgenden Informationen
 
 - **op** ->` add`
-- **path** -> `path from previous step +`&#x200B;` the new field name`
+- **path** -> `path from previous step +`` the new field name`
 - **value** ->
   - **title** -> `Plan Description`
   - **type** -> `string`
@@ -152,9 +151,9 @@ Wenn Sie fertig sind, sollte Ihre API-Anfrage in etwa wie folgt aussehen
 
 
 
-&#x200B;3. Wenn alles gut `Save` deinem Anruf aussieht
+3. Wenn alles gut `Save` deinem Anruf aussieht
 
-&#x200B;4. `Execute` des Aufrufs zum Ausführen der PATCH
+4. `Execute` des Aufrufs zum Ausführen der PATCH
 
 Es sollte eine &quot;`200 OK `&quot; angezeigt werden und das `planDescription` Feld sollte nun in Ihrer Feldergruppe wie folgt angezeigt werden:
 

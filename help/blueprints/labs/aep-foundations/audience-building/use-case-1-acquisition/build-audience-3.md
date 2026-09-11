@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Zielgruppen-#3 erstellen
 description: Erstellen Sie eine Zielgruppe von iPhone 14-Produktseitenbesuchern und kombinieren Sie sie mit anderen Zielgruppen, indem Sie die Zielgruppenaktivierung verwenden, um die Streaming-Aktivierung zu ermöglichen.
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -46,19 +45,19 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-&#x200B;2. Geben Sie eine Beschreibung ein und machen Sie sie zum Streaming .
+2. Geben Sie eine Beschreibung ein und machen Sie sie zum Streaming .
 
-&#x200B;3. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
+3. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
 
 ![Ändern Sie den Ereigniszeitfilter von „Beliebig“ in „Heute“](assets/build-audience-1-change-any-time-to-today.png)
 
-&#x200B;4. Speichern Sie diese Zielgruppe als &quot;*Beliebige Seite besucht*&quot;
+4. Speichern Sie diese Zielgruppe als &quot;*Beliebige Seite besucht*&quot;
 
-&#x200B;5. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+5. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-&#x200B;6. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+6. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-&#x200B;7. Klicken Sie auf Weiter und beenden Sie
+7. Klicken Sie auf Weiter und beenden Sie
 
 ## Zielgruppe erstellen (besuchte iPhone 14-Seite, aber nicht Inhaber/Bestellt)
 
@@ -68,7 +67,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-&#x200B;2. Navigieren Sie zu der Stelle, an der sich der Seitenname befindet, und fügen Sie dem Ereignis das Feld Seitenname hinzu, damit wir nach ihm filtern können.
+2. Navigieren Sie zu der Stelle, an der sich der Seitenname befindet, und fügen Sie dem Ereignis das Feld Seitenname hinzu, damit wir nach ihm filtern können.
 
 - XDM ExperienceEvent —> Web —> Web-Seitendetails —> Name
 
@@ -76,11 +75,11 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-&#x200B;3. Hinzufügen enthält &quot;iPhone 14“
+3. Hinzufügen enthält &quot;iPhone 14“
 
 ![Fügen Sie eine CONTAINS-Bedingung für &quot;iPhone 14“ hinzu](assets/build-audience-3-add-contains-iphone-14.png)
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**Suchen nach „Seite“**
 >
@@ -98,7 +97,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-&#x200B;4. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
+4. Ändern Sie über dem platzierten Ereignis „Immer“ in „Heute“
 
 ![Ändern Sie den Ereigniszeitfilter von „Beliebig“ in „Heute“](assets/build-audience-1-change-any-time-to-today.png)
 
@@ -108,19 +107,19 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-&#x200B;5. Überprüfen Sie, ob es sich um Streaming handelt, und geben Sie eine Beschreibung an.
+5. Überprüfen Sie, ob es sich um Streaming handelt, und geben Sie eine Beschreibung an.
 
-&#x200B;6. Speichern Sie die Zielgruppe als &quot;*Besuchte iPhone 14-Seite*&quot;
+6. Speichern Sie die Zielgruppe als &quot;*Besuchte iPhone 14-Seite*&quot;
 
 ![Speichern Sie die Zielgruppe als „Besuchte iPhone-14-Seite“](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
-&#x200B;7. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+7. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-&#x200B;8. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+8. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-&#x200B;9. Klicken Sie auf Weiter und beenden Sie
+9. Klicken Sie auf Weiter und beenden Sie
 
 
 
@@ -135,30 +134,31 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-&#x200B;5. Geben Sie eine Beschreibung ein.
+5. Geben Sie eine Beschreibung ein.
 
-&#x200B;6. Wechsel zu Streaming
+6. Wechsel zu Streaming
 
-&#x200B;7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
+7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
 
-&#x200B;8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-&#x200B;9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-&#x200B;10. Klicken Sie auf Weiter und beenden Sie
+10. Klicken Sie auf Weiter und beenden Sie
 
 >[!NOTE]
 >
 >**Zeitfilter**
 >
 >Für die Anforderungen galt keine Zeitvorgabe. Wenn also jemand vor drei Jahren zu Besuch war, würde er sich qualifizieren. Je nach Anwendungsfall kann dies funktionieren oder nicht. Es lohnt sich zu fragen. Wir haben eine hinzugefügt, da wir basierend auf Personen, die unsere Website heute besucht haben, eine Aktivierung durchführen.  Dies funktioniert möglicherweise nicht in allen Anwendungsfällen.  Wenn wir einen Zeitfilter hinzufügen, wie weit können wir zurückgehen, bevor eine Edge-Zielgruppe zu Streaming oder sogar Batch wird?
+
 > [!NOTE]
 >
 >**Auswirkungen der Trennung**
 >
 >Wir haben aus einigen Gründen eine einfache Anforderung in viele Zielgruppen aufgeteilt. Die Anforderung gilt für ein Streaming, aber diese beiden Anforderungen machen unsere Zielgruppe zu Batch. Weitere Informationen zu den Streaming-Eignungsregeln finden Sie hier:
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 >
 >Wir müssen wissen, dass AEP bei Verwendung einer Zielgruppe innerhalb einer Zielgruppe nach Möglichkeit versucht, eine Sequenz durchzuführen. Es gibt Randfälle, in denen dies nicht möglich ist, z. B. Wenn eine Zielgruppe verwendet wird, erfolgt alle 24 Stunden eine Profildisqualifizierung.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=de](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=de)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
 
 
 

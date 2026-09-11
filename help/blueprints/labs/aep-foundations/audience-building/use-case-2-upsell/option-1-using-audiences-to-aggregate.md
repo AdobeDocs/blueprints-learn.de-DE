@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Option
 description: Erstellen Sie Zielgruppen, die die Aggregation der Summe und des Durchschnitts der in der Zielgruppe enthaltenen Abrechnungs-Nutzungsereignisse und denormalisierte Plandaten verwenden, um die Streaming-Auswertung zu ermöglichen.
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -35,7 +34,7 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;2. Klicken Sie auf die Auslassungszeichen in den Regeln unten rechts und wählen Sie Aggregieren . Klicken Sie auf Attribut auswählen und geben Sie Nutzung ein. Wählen Sie das Feld Nutzung der Fakturierungsdaten .
+2. Klicken Sie auf die Auslassungszeichen in den Regeln unten rechts und wählen Sie Aggregieren . Klicken Sie auf Attribut auswählen und geben Sie Nutzung ein. Wählen Sie das Feld Nutzung der Fakturierungsdaten .
 
 
 
@@ -47,17 +46,17 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;3. Ändern Sie „ist gleich“ in „größer als“ und den Wert in „140“.
+3. Ändern Sie „ist gleich“ in „größer als“ und den Wert in „140“.
 
-&#x200B;4. Ändern Sie die Zeit über der Ereigniskarte von Beliebig in Zuletzt und den Wert in 6 und die Tage in Monate
+4. Ändern Sie die Zeit über der Ereigniskarte von Beliebig in Zuletzt und den Wert in 6 und die Tage in Monate
 
 ![Ändern Sie das Zeitfenster des Ereignisses in In den letzten 6 Monaten](assets/option-1-using-audiences-to-aggregate-change-time-to-last-6-months.png)
 
 
 
-&#x200B;5. Geben Sie eine Beschreibung ein und speichern Sie.
+5. Geben Sie eine Beschreibung ein und speichern Sie.
 
-&#x200B;6. Geben Sie der Zielgruppe den Namen &quot;*Abrechnung Nutzungssumme > 140 GB (letzte 6 Monate)*&quot;
+6. Geben Sie der Zielgruppe den Namen &quot;*Abrechnung Nutzungssumme > 140 GB (letzte 6 Monate)*&quot;
 
 >[!NOTE]
 >
@@ -84,13 +83,13 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;2. Klicken Sie auf die Kopie und bearbeiten Sie sie.  Klicken Sie auf die Karte Ereignis und ändern Sie die Summe in Durchschnitt. Ändern Sie den Wert größer als auf größer oder gleich und den Wert auf 20. Kopieren Sie den Pseudo-Code in die Beschreibung.
+2. Klicken Sie auf die Kopie und bearbeiten Sie sie.  Klicken Sie auf die Karte Ereignis und ändern Sie die Summe in Durchschnitt. Ändern Sie den Wert größer als auf größer oder gleich und den Wert auf 20. Kopieren Sie den Pseudo-Code in die Beschreibung.
 
 ![Kopieren Sie den Pseudo-Code in die Zielgruppenbeschreibung](assets/option-1-using-audiences-to-aggregate-copy-pseudo-code-into-description.png)
 
 
 
-&#x200B;3. Geben Sie der Zielgruppe den Namen &quot;*Abrechnungsnutzung Durchschn. > 20 GB (letzte 6 Monate)*&quot;
+3. Geben Sie der Zielgruppe den Namen &quot;*Abrechnungsnutzung Durchschn. > 20 GB (letzte 6 Monate)*&quot;
 
 ## Zielgruppen-#3 - hat keinen ultimativen Telefonplan
 
@@ -109,15 +108,15 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;5. Klicken Sie auf Zielgruppen > Experience Platform. Ziehen Sie Abrechnungsnutzungssumme > 140 GB und Abrechnungsnutzungsdurchschnitt >= 20 GB neben Planname.
+5. Klicken Sie auf Zielgruppen > Experience Platform. Ziehen Sie Abrechnungsnutzungssumme > 140 GB und Abrechnungsnutzungsdurchschnitt >= 20 GB neben Planname.
 
 ![Ziehen Sie die Zielgruppen zur Abrechnungsnutzung neben Planname](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-&#x200B;6. Kopieren Sie den Pseudo-Code in die Beschreibung
+6. Kopieren Sie den Pseudo-Code in die Beschreibung
 
-&#x200B;7. Aktivieren Sie diese Option, wenn es sich um Streaming handelt. **Es kann nicht Streaming sein**. Nehmen Sie einige Änderungen vor:
+7. Aktivieren Sie diese Option, wenn es sich um Streaming handelt. **Es kann nicht Streaming sein**. Nehmen Sie einige Änderungen vor:
 
 >[!NOTE]
 >
@@ -127,9 +126,9 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;8. Ersetzen Sie **Planname (Planname)** durch: XDM-Kontaktprofil > Devbc > Plandetails > **Planname**
+8. Ersetzen Sie **Planname (Planname)** durch: XDM-Kontaktprofil > Devbc > Plandetails > **Planname**
 
-![Ersetzen Sie den Plannamen (Planname) durch das denormalisierte Feld Planname &#x200B;](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
+![Ersetzen Sie den Plannamen (Planname) durch das denormalisierte Feld Planname ](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
 >[!NOTE]
 >
@@ -143,9 +142,9 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;9. Überprüfen Sie, ob Sie dies jetzt als Streaming speichern können. Zielgruppe als &quot;*Abrechnung der Datennutzung hoch, aber kein Ultimate-Plan*&quot; speichern
+9. Überprüfen Sie, ob Sie dies jetzt als Streaming speichern können. Zielgruppe als &quot;*Abrechnung der Datennutzung hoch, aber kein Ultimate-Plan*&quot; speichern
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Diese Auswertungsmethode ist zwar Streaming, sie basiert jedoch auf der Zielgruppen-Qualifizierung auf zwei Batch-Zielgruppen.
 

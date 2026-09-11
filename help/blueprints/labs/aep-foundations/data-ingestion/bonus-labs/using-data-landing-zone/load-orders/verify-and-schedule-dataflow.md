@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Datenfluss überprüfen und planen
 description: Überprüfen Sie den vollständigen Zuordnungssatz für Bestellungen, zeigen Sie eine Vorschau der Ausgabe an und planen Sie die Ausführung des Datenflusses alle 15 Minuten.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%

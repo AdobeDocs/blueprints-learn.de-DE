@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Erstellen eines neuen Datenflusses
 description: Erstellen Sie einen Batch-Quelldatenfluss für einen vorhandenen Datensatz und importieren Sie Zuordnungen aus einem vorherigen Datenfluss, um die Einrichtung zu beschleunigen.
 doc-type: article
 solution: Experience Platform
 exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -37,13 +36,13 @@ ht-degree: 0%
 1. Aktivieren Sie alle Warnhinweise **Quellen: Datenflussstart/-erfolg/-fehler**
 1. Wenn alles gut aussieht, klicken Sie auf **Weiter** in der oberen rechten Ecke des Bildschirms, um mit dem nächsten Schritt fortzufahren.
 
-![Datenflussdetailbildschirm, der mit dem vorhandenen Datensatz für den zweiten Datenfluss/Datenflussdetails &#x200B;](assets/create-a-new-dataflow-existing-dataset-flow-details.png " wurde")
+![Datenflussdetailbildschirm, der mit dem vorhandenen Datensatz für den zweiten Datenfluss/Datenflussdetails ](assets/create-a-new-dataflow-existing-dataset-flow-details.png " wurde")
 
 
 
 ## Beispieldatei hochladen
 
-1. Ziehen Sie die Datei „Lab\_&#x200B;**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Benutzeroberfläche hoch.  Danach sollte der Bildschirm wie folgt aussehen.
+1. Ziehen Sie die Datei „Lab\_**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Benutzeroberfläche hoch.  Danach sollte der Bildschirm wie folgt aussehen.
 
 ![Vorschau der hochgeladenen CSV-Datei des Kundenkontos für den zweiten Datenfluss](assets/create-a-new-dataflow-uploaded-csv-preview.png "Zugriff auf die Azure Storage Explorer-Dateien in Adobe Experience Platform")
 

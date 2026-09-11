@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Berechnete Felder
 description: Erstellen Sie berechnete Feldausdrücke, um fehlende SMS-Einverständniswerte aufzustocken und ein Geburtsdatum in die Felder Tag, Monat und Jahr zu unterteilen.
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 Das Feld „sms_optIn“ ist ein Pflichtfeld im Kundenkontenschema. Das Problem ist, dass das Feld „sms\_optIn“ in unserer Streaming-Quelle *null*-Werte senden kann, sodass ein berechnetes Feld erforderlich ist, um dies zu beheben. Andernfalls werden diese Datensätze bei der Aufnahme übersprungen, was einen Verlust darstellt.
 
-![Das Feld consents.marketing.sms.val , wie im Feld &#x200B;](assets/calculated-fields-consents-marketing-sms-val-schema-field.png ".consents.marketing.sms.val gezeigt, wie im Schema dargestellt")
+![Das Feld consents.marketing.sms.val , wie im Feld ](assets/calculated-fields-consents-marketing-sms-val-schema-field.png ".consents.marketing.sms.val gezeigt, wie im Schema dargestellt")
 
 
 

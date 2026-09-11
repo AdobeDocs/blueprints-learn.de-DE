@@ -1,11 +1,10 @@
 ---
-hold: true
 title: E-Mail testen
 description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Testversand-E-Mails senden und überprüfen können, um personalisierte Inhalte und bedingte Varianten vor der Aktivierung zu validieren.
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -37,11 +36,11 @@ An dieser Stelle haben Sie gelernt, dass wir nicht nur die Profilattribute perso
 
 Ein Simulationsfenster wird geöffnet.
 
-&#x200B;3. Klicken Sie **Testversand durchführen**.
+3. Klicken Sie **Testversand durchführen**.
 
 ![Schaltfläche „Testversand durchführen“ im Simulationsbedienfeld](assets/test-the-email-click-send-proof-button.png)
 
-&#x200B;4. Fügen Sie Ihre eigene persönliche E-Mail-Adresse hinzu.
+4. Fügen Sie Ihre eigene persönliche E-Mail-Adresse hinzu.
 
 >[!NOTE]
 >
@@ -49,11 +48,11 @@ Ein Simulationsfenster wird geöffnet.
 
 
 
-&#x200B;5. Wählen Sie beide Varianten aus.
-&#x200B;6. Präfix der Betreffzeile hinzufügen
+5. Wählen Sie beide Varianten aus.
+6. Präfix der Betreffzeile hinzufügen
    1. Variante 1: über 40
    2. Variante 2: Unter 40
-&#x200B;7. Klicken Sie **Testversand durchführen**. Sie erhalten die grüne Bestätigungsmeldung &quot;**Testsendungen erfolgreich gesendet**&quot;
+7. Klicken Sie **Testversand durchführen**. Sie erhalten die grüne Bestätigungsmeldung &quot;**Testsendungen erfolgreich gesendet**&quot;
 
 ![Grüne Bestätigungsnachricht mit Testsendungen erfolgreich gesendet](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

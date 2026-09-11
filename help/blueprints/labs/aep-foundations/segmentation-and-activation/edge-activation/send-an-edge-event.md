@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge-Ereignis senden
 description: Senden Sie über Postman ein nicht authentifiziertes Web-Ereignis an die Edge und überprüfen Sie, ob es über Ereignisweiterleitung, Profilaufnahme und Edge-Zielgruppen-Qualifizierung läuft.
 doc-type: article
 solution: Experience Platform
 exl-id: 8d6e9552-1fa0-4f12-928c-03f836c1652e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%

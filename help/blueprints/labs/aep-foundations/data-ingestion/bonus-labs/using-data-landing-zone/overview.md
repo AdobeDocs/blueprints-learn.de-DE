@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Verwenden der Data Landing Zone
 description: Installieren und konfigurieren Sie Azure Storage Explorer mit einer SAS-URL, um eine Verbindung zur Adobe Experience Platform Data Landing Zone herzustellen.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -58,7 +57,7 @@ Wenn Sie Azure Storage Explorer nicht heruntergeladen haben, tun Sie dies jetzt,
 - Suchen Sie als Nächstes die Karte **Data Landing Zone** .
 - Klicken Sie auf die Karte Data Landing Zone und dann auf **Anmeldedaten anzeigen** in der rechten Leiste
 
-![Quellkarte der Data Landing Zone mit der Option Anmeldedaten anzeigen in der Source-Karte der &#x200B;](assets/overview-data-landing-zone-view-credentials.png " Data Landing Zone von Adobe Experience PlatformAccess in Adobe Experience Platform")
+![Quellkarte der Data Landing Zone mit der Option Anmeldedaten anzeigen in der Source-Karte der ](assets/overview-data-landing-zone-view-credentials.png " Data Landing Zone von Adobe Experience PlatformAccess in Adobe Experience Platform")
 
 
 
@@ -86,6 +85,6 @@ Jetzt sollte ein Bildschirm angezeigt werden, der wie folgt aussieht
 
 ![Azure Storage Explorer zeigt das erfolgreich verbundene Data Landing Zone-Konto an](assets/overview-successfully-connected-account.png)
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >Herzlichen Glückwunsch!  Sie haben Azure Storage Explorer erfolgreich konfiguriert

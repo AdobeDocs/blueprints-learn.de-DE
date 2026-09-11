@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Endgültigen Zuordnungssatz überprüfen
 description: Vergleichen Sie Ihre Streaming-Aufnahme-Zuordnungen mit dem erwarteten endgültigen Passthrough und dem berechneten Feld-Zuordnungssatz.
 doc-type: article
 solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 ## Passthrough-Zuordnungen
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren.
 
@@ -62,7 +61,7 @@ ht-degree: 0%
 | concat(date\_part(„mm“, date(born\_date, „yyyy-M-d„)).toString(), &quot;-&quot;, date\_part(„dd“, date(born\_date, „yyyy-M-d„)).toString()) | person.bornDayAndMonth |
 | date\_part(„jjjj“,date(Birth\_Date,„jjjj-M-d„)) | person.BirthYear |
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren
 

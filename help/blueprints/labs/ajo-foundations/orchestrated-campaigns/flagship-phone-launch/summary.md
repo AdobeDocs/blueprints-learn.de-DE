@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Zusammenfassung
 description: Zusammenfassend kann die Erstellung einer orchestrierten Kampagne mit einem SMS-Kanal zusammengefasst werden, der sowohl auf Kundenkonten als auch auf einzelne Zeilen abzielt und eine Zielgruppe im Zielgruppenportal speichert.
 doc-type: article
 solution: Experience Platform
 exl-id: 587758b6-b1c1-4ce3-bcc9-ad4f6640188d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -36,7 +35,7 @@ Hätten Sie das in Journey probiert, wären Sie nicht in der Lage gewesen, beide
 
 
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

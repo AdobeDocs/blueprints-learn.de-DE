@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Anmelden und Durchsuchen
 description: Melden Sie sich bei Adobe Experience Platform an und navigieren Sie zum Abschnitt Schemata , um vorhandene Schemata, Feldergruppen und Datentypen zu durchsuchen.
 doc-type: article
 solution: Experience Platform
 exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%

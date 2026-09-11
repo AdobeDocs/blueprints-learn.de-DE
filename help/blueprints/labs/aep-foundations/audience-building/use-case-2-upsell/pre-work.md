@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Vorbereitung
 description: Untersuchen Sie Schemafelder auf Abrechnungsnutzung und Plannamen, und heben Sie hervor, wie fehlende Beschreibungen und doppelte Felder Zielgruppenersteller verwirren können.
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -26,11 +25,11 @@ Für diesen Anwendungsfall gibt es nicht viel Vorarbeit zu leisten. Wir haben im
 
 
 
-&#x200B;3. Suchen Sie in „Ereignisse“ nach „Verwendung“.  Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
+3. Suchen Sie in „Ereignisse“ nach „Verwendung“.  Klicken Sie auf das „i“, um die Beschreibung zu überprüfen (es gibt keinen).
 
 ![Suche nach Verwendung in Ereignissen - keine Beschreibung angezeigt](assets/pre-work-search-usage-in-events.png)
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Keiner dieser Werte hat eine Beschreibung, sodass der Marketer einige Annahmen treffen und vermuten kann, dass er falsch liegt.
 >
@@ -41,6 +40,7 @@ Für diesen Anwendungsfall gibt es nicht viel Vorarbeit zu leisten. Wir haben im
 >- Empfohlen/bevorzugt in bestimmten Anwendungsfällen?
 >
 >Indem wir diese Informationen in Beschreibungen bereitstellen, können wir sie besser anleiten.
+
 > [!NOTE]
 >
 >Suchen Sie nach „Abrechnung“.  Beachten Sie, dass es nicht als Profilattribut angezeigt wird.  Sie wird als Ereignistyp-Karte zusammen mit dem Feld „Abrechnung der Datennutzung“ angezeigt.

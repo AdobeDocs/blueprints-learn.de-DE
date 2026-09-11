@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Zugriffstoken
 description: Generieren eines OAuth-Server-zu-Server-Zugriffstoken in Postman und Verstehen der erforderlichen Kopfzeilen zum Authentifizieren von AEP-API-Aufrufen.
 doc-type: article
 solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -29,7 +28,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}'
 
 >[!NOTE]
 >
->Weitere Informationen zum e2e-Prozess zum Erstellen des Entwicklerprojekts mithilfe von OAuth-Server-zu-Server-Anmeldeinformationen [&#x200B; Sie hier](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens). Für das Bootcamp werden wir diesen Schritt des Prozesses „per Hand winken“ 😄
+>Weitere Informationen zum e2e-Prozess zum Erstellen des Entwicklerprojekts mithilfe von OAuth-Server-zu-Server-Anmeldeinformationen [ Sie hier](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens). Für das Bootcamp werden wir diesen Schritt des Prozesses „per Hand winken“ 😄
 
 
 

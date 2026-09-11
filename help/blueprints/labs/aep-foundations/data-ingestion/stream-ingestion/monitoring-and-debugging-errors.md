@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Überwachung und Debugging von Fehlern
 description: Verwenden Sie das Dashboard für die Streaming-End-to-End-Überwachung, um Aufnahme-, DCVS- und MAPPER-Fehler in einem Streaming-Datenfluss zu identifizieren und zu interpretieren.
 doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -65,7 +64,7 @@ ht-degree: 0%
 
 1. Um die Fehler zu beheben, müssen Sie zu **Quellen->Datenflüsse->Datenflussname->Datenfluss aktualisieren** gehen und Ihre Zuordnungen korrigieren.
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Sie müssen die JSON-Beispieldatei erneut hochladen, indem Sie sie zuerst löschen und erneut hinzufügen, damit der Mapper jetzt zur Validierung mit einer neuen Kopie aktualisiert wird.
 

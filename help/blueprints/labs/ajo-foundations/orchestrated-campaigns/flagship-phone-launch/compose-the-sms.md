@@ -1,11 +1,10 @@
 ---
-hold: true
 title: SMS erstellen
 description: Erfahren Sie, wie Sie eine SMS-Nachricht in orchestrierten Kampagnen mit Telefon- und Modellattributen aus dem relationalen Speicher erstellen und personalisieren können.
 doc-type: article
 solution: Experience Platform
 exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -41,7 +40,7 @@ Schaltfläche ![Personalization zum Erstellen der SMS-Nachricht](assets/compose-
 
 
 
-&#x200B;2. Kopieren Sie den unten stehenden Text und fügen Sie ihn in den Textkörper der SMS-Nachricht ein.
+2. Kopieren Sie den unten stehenden Text und fügen Sie ihn in den Textkörper der SMS-Nachricht ein.
 
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
@@ -53,7 +52,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-&#x200B;3. Aktualisieren Sie die beiden unten stehenden Felder in der Nachricht **phone\_make** und **phone\_model** mithilfe der Option **Target-Attribute** in der linken Leiste.  Wenn Sie fertig sind, sollte Ihre Nachricht mit dem Screenshot übereinstimmen.
+3. Aktualisieren Sie die beiden unten stehenden Felder in der Nachricht **phone\_make** und **phone\_model** mithilfe der Option **Target-Attribute** in der linken Leiste.  Wenn Sie fertig sind, sollte Ihre Nachricht mit dem Screenshot übereinstimmen.
 
 ![Abschließende SMS-Nachricht mit Telefon Make und Modell personalisiert](assets/compose-the-sms-final-message-text.png)
 
@@ -63,13 +62,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-&#x200B;4. Klicken Sie im Editor **Validieren**, stellen Sie sicher, dass keine Validierungsfehler vorliegen, und klicken Sie ggf. auf die Schaltfläche **Speichern**
+4. Klicken Sie im Editor **Validieren**, stellen Sie sicher, dass keine Validierungsfehler vorliegen, und klicken Sie ggf. auf die Schaltfläche **Speichern**
 
 ![Schaltflächen „Validieren“ und „Speichern“ im Nachrichteneditor](assets/compose-the-sms-validate-and-save.png)
 
 
 
-&#x200B;5. Klicken Sie auf den **Rückwärtspfeil (\&lt;-)**, um zur Workflow-Arbeitsfläche zurückzukehren.
+5. Klicken Sie auf den **Rückwärtspfeil (\&lt;-)**, um zur Workflow-Arbeitsfläche zurückzukehren.
 
 ![Rückwärtspfeil, um zur Workflow-Arbeitsfläche zurückzukehren](assets/compose-the-sms-return-to-canvas.png)
 

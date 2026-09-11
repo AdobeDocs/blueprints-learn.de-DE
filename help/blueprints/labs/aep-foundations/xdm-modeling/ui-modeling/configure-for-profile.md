@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Für Profil konfigurieren
 description: Markieren Sie die Felder für die primäre Identität und die Identität der Person, erstellen Sie eine Schemabeziehung, aktivieren Sie ein Schema für das Echtzeit-Kundenprofil und überprüfen Sie das Profilvereinigungsschema.
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -141,6 +140,7 @@ Durchsuchen Sie die Klasse XDM Individual Profile und nehmen Sie sich dann einen
 >[!NOTE]
 >
 >Beachten Sie, dass das angezeigte Schema eine aggregierte zusammengeführte Ansicht aller profilaktivierten Schemas in Ihrer Sandbox ist. Ähnliche Felder innerhalb der hierarchischen XDM-Struktur werden zusammengeführt, während Felder mit unterschiedlichen Namen und/oder Hierarchien zur Gesamtansicht hinzugefügt werden.
+
 > [!NOTE]
 >
 >Nur die auf XDM Individual Profile basierende Klasse führt Zusammenführungen zwischen Feldern mit ähnlichen Namen durch.

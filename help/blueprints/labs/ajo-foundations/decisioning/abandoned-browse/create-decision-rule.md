@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Entscheidungsregel erstellen
 description: Erstellen Sie eine Entscheidungsregel, die die Berechtigung für Premium-Telefonangebote auf Kunden mit höherrangigen Plänen beschränkt.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -32,14 +31,14 @@ Da die Eignung einer der wichtigsten Bausteine eines Angebots ist, besteht der e
 
 ![Seite „Entscheidungsregeln“ mit der Schaltfläche „Regel erstellen“](assets/create-decision-rule-create-rule-button.png)
 
-&#x200B;4. Dadurch wird ein Bildschirm geöffnet, der der Segment Builder-Benutzeroberfläche ähnelt. Fügen Sie das Attribut Plan-ID zur Arbeitsfläche für Regeln hinzu, indem Sie auf **Individuelles XDM-Profil > DEP >** klicken und dann das Attribut **Plan-ID** auf die Arbeitsfläche ziehen.
-&#x200B;5. Ändern Sie die Dropdown-Liste von gleich in **enthält.**
-&#x200B;6. Geben Sie den Text **2** in das Feld ein, drücken Sie die **Tab**-Taste, um den Wert 2 zu akzeptieren, und geben Sie dann einen **3 ein.** drücken Sie **Tab** erneut, sodass die Regel nach Plan-IDs sucht, die eine 2 oder 3 enthalten
-&#x200B;7. Verwenden Sie das **Name** in der rechten Leiste, um die Entscheidungsregel zu benennen **Upper Tier Plans**. Fügen Sie eine Beschreibung hinzu, wenn Sie möchten. Nach Abschluss sollte Ihre Entscheidungsregel wie folgt aussehen:
+4. Dadurch wird ein Bildschirm geöffnet, der der Segment Builder-Benutzeroberfläche ähnelt. Fügen Sie das Attribut Plan-ID zur Arbeitsfläche für Regeln hinzu, indem Sie auf **Individuelles XDM-Profil > DEP >** klicken und dann das Attribut **Plan-ID** auf die Arbeitsfläche ziehen.
+5. Ändern Sie die Dropdown-Liste von gleich in **enthält.**
+6. Geben Sie den Text **2** in das Feld ein, drücken Sie die **Tab**-Taste, um den Wert 2 zu akzeptieren, und geben Sie dann einen **3 ein.** drücken Sie **Tab** erneut, sodass die Regel nach Plan-IDs sucht, die eine 2 oder 3 enthalten
+7. Verwenden Sie das **Name** in der rechten Leiste, um die Entscheidungsregel zu benennen **Upper Tier Plans**. Fügen Sie eine Beschreibung hinzu, wenn Sie möchten. Nach Abschluss sollte Ihre Entscheidungsregel wie folgt aussehen:
 
 ![Entscheidungsregel für abgeschlossene Pläne der oberen Ebene mit Plan-ID mit 2 oder 3](assets/create-decision-rule-upper-tier-plans-finished.png "Entscheidungsregel für abgeschlossene Pläne der oberen Ebene mit Plan-ID mit 2 oder 3")
 
-&#x200B;8. Sobald die Regel korrekt ist, klicken Sie auf die blaue Schaltfläche **Erstellen** in der oberen rechten Ecke und Sie werden zur Seite „Strategie einrichten“ zurückgeleitet, auf der die soeben erstellte Entscheidungsregel als einzige Entscheidungsregel aufgeführt ist.
+8. Sobald die Regel korrekt ist, klicken Sie auf die blaue Schaltfläche **Erstellen** in der oberen rechten Ecke und Sie werden zur Seite „Strategie einrichten“ zurückgeleitet, auf der die soeben erstellte Entscheidungsregel als einzige Entscheidungsregel aufgeführt ist.
 
 >[!NOTE]
 >

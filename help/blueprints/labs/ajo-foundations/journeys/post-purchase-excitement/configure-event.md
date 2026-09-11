@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Ereignis konfigurieren
 description: Erstellen und konfigurieren Sie ein unitäres Versandereignis für Bestellungen, einschließlich der Einstellungen für Identity-Namespaces, das als Trigger zum Eintritt in eine Journey dient.
 doc-type: article
 solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -35,11 +34,11 @@ Um eine Journey zu erstellen, die ein unitäres Ereignis verwendet, müssen wir 
 
 ![Schaltfläche „Verwalten“ auf der Kachel „Ereignisse“ unter „Konfigurationen“](assets/configure-event-open-events-manage.png)
 
-&#x200B;2. Klicken Sie oben rechts auf die Schaltfläche **Ereignis erstellen**
+2. Klicken Sie oben rechts auf die Schaltfläche **Ereignis erstellen**
 
 ![Schaltfläche „Ereignis erstellen“ oben rechts](assets/configure-event-click-create-event-button.png)
 
-&#x200B;3. Aktualisieren Sie die Einstellungen des Ereignisses wie folgt:
+3. Aktualisieren Sie die Einstellungen des Ereignisses wie folgt:
    - **name** = `orderShipped`
    - **type** = `Unitary`
    - **Ereignis-ID-Typ** = `Rule based`
@@ -47,11 +46,11 @@ Um eine Journey zu erstellen, die ein unitäres Ereignis verwendet, müssen wir 
 
 ![orderShipped-Ereignis, das mit Unitärem Typ und Dep konfiguriert wurde: Orders v.1-Schema](assets/configure-event-set-name-type-schema.png)
 
-&#x200B;4. Klicken Sie im `Fields` Eingabefeld auf das **Bleistiftsymbol**
+4. Klicken Sie im `Fields` Eingabefeld auf das **Bleistiftsymbol**
 
 ![Bleistiftsymbol im Eingabefeld Felder](assets/configure-event-click-fields-pencil-icon.png)
 
-&#x200B;5. Wählen Sie die folgenden Felder aus, die zum Ereignis hinzugefügt werden sollen, und klicken Sie abschließend auf die Schaltfläche **OK**.
+5. Wählen Sie die folgenden Felder aus, die zum Ereignis hinzugefügt werden sollen, und klicken Sie abschließend auf die Schaltfläche **OK**.
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
@@ -63,19 +62,19 @@ Um eine Journey zu erstellen, die ein unitäres Ereignis verwendet, müssen wir 
 
 
 
-&#x200B;6. Klicken Sie in der `Event Id condition input` auf das **Bleistiftsymbol**
+6. Klicken Sie in der `Event Id condition input` auf das **Bleistiftsymbol**
 
 ![Bleistiftsymbol in der Eingabe der Ereignis-ID-Bedingung](assets/configure-event-click-event-id-condition-pencil.png)
 
-&#x200B;7. **Ziehen** Sie das `Event Type` Feld auf die Arbeitsfläche
+7. **Ziehen** Sie das `Event Type` Feld auf die Arbeitsfläche
 
 ![Ziehen Sie das Feld Ereignistyp auf die Arbeitsfläche „Bedingung“](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-&#x200B;8. Suchen Sie im angezeigten Auswahlfeld nach dem Wert und überprüfen Sie ihn mit dem Titel **orders.shipped.** Klicken Sie dann auf **OK**-Schaltfläche.
+8. Suchen Sie im angezeigten Auswahlfeld nach dem Wert und überprüfen Sie ihn mit dem Titel **orders.shipped.** Klicken Sie dann auf **OK**-Schaltfläche.
 
 ![Orders.Shipped Wert im Auswahlfeld aktiviert](assets/configure-event-select-orders-shipped-value.png)
 
-&#x200B;9. Aktualisieren Sie als Nächstes die letzten beiden Werte von Namespace und Profilkennung mit den unten angezeigten Werten:
+9. Aktualisieren Sie als Nächstes die letzten beiden Werte von Namespace und Profilkennung mit den unten angezeigten Werten:
    - **namespace** —> `Email`
    - **Profilkennung** —> `personalEmail`
 

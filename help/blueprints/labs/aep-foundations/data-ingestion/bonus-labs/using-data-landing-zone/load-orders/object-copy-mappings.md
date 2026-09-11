@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Objektkopie-Zuordnungen
 description: Konfigurieren Sie Objektkopie-Zuordnungen für ein Produkt-Array und fügen Sie dann Überschreibungen auf Feldebene über der Standardkopie hinzu bzw. entfernen Sie diese.
 doc-type: article
 solution: Experience Platform
 exl-id: 762d0e19-ed1c-4f4d-91ec-a962bd6277a7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

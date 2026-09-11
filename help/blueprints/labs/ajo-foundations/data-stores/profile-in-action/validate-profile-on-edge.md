@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Profil auf Edge validieren
 description: Erfahren Sie, wie Sie auf der Registerkarte "Edge-Profilspeicher“ und „Zielgruppenmitgliedschaft“ den Profilstatus im Edge-Netzwerk überprüfen.
 doc-type: article
 solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -31,7 +30,7 @@ Vergewissern Sie sich, dass das Profil nicht im Edge-Netzwerkprofilspeicher vorh
 
 
 
-&#x200B;2. Klicken Sie auf die Registerkarte Zielgruppenmitgliedschaft .  Es wird **leer**.
+2. Klicken Sie auf die Registerkarte Zielgruppenmitgliedschaft .  Es wird **leer**.
 
 ![Registerkarte „Zielgruppenmitgliedschaft leeren“ im Edge-Profil](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

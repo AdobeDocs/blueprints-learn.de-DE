@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Konfigurieren einer benutzerdefinierten Aktion
 description: Konfigurieren Sie eine wiederverwendbare benutzerdefinierte Aktion in Adobe Journey Optimizer, die einen Drittanbieter-Endpunkt aufruft, um Versand-ETA- und -Tracking-Details abzurufen.
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -35,7 +34,7 @@ Klicken Sie in der linken Leiste unter dem Menü Administration auf **Konfigurat
 
 ![Erstellen einer Aktionsschaltfläche oben rechts](assets/configure-custom-action-click-create-action-button.png)
 
-&#x200B;2. Aktualisieren Sie im angezeigten Konfigurationsbedienfeld die folgenden grundlegenden Werte wie unten dargestellt:
+2. Aktualisieren Sie im angezeigten Konfigurationsbedienfeld die folgenden grundlegenden Werte wie unten dargestellt:
    - **Name**: `GetShippingDetails`
    - **Beschreibung**: `Call third party to get Shipping ETA and Tracking Number`
    - **Aktionstyp**: `Custom`
@@ -80,7 +79,7 @@ Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, w
 
 
 
-&#x200B;2. **Kopieren Sie** nachstehende Payload und fügen Sie sie in das Feld Payload ein.
+2. **Kopieren Sie** nachstehende Payload und fügen Sie sie in das Feld Payload ein.
 
 ```json
 {
@@ -94,7 +93,7 @@ Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, w
 >Dies ist dieselbe JSON-Struktur, die der obige Mockaroo-Endpunkt zurückgeben sollte:
 
 
-&#x200B;3. Die Antwort-Payload wird angezeigt. Klicken Sie auf **Speichern**.
+3. Die Antwort-Payload wird angezeigt. Klicken Sie auf **Speichern**.
 
 ![Antwort-Payload mit der Schaltfläche Speichern angezeigt](assets/configure-custom-action-save-response-payload.png)
 
@@ -112,13 +111,13 @@ Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, w
 
 
 
-&#x200B;2. Klicken Sie auf die **Abfrageparameter** und aktualisieren Sie den Wert für `orderId` auf **123**
+2. Klicken Sie auf die **Abfrageparameter** und aktualisieren Sie den Wert für `orderId` auf **123**
 
 ![Registerkarte „Abfrageparameter“ mit dem Wert „orderId“ auf 123 festgelegt](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-&#x200B;3. Klicken Sie auf **Senden** und wenn alles gut funktioniert, sollten Sie einen Antwort-Code von 200 und eine Vorschau der Payload sehen, wie unten gezeigt…
+3. Klicken Sie auf **Senden** und wenn alles gut funktioniert, sollten Sie einen Antwort-Code von 200 und eine Vorschau der Payload sehen, wie unten gezeigt…
 
 ![Antwort-Code 200 und Payload-Vorschau nach dem Senden der Testanfrage](assets/configure-custom-action-response-200-preview.png)
 
@@ -137,7 +136,7 @@ Vorschau
 
 
 
-&#x200B;4. Klicken Sie auf **Abbrechen**, um zum Aktionsbildschirm zurückzukehren, und blättern Sie dann in der oberen rechten Leiste zurück und klicken Sie auf die Schaltfläche **Speichern**
+4. Klicken Sie auf **Abbrechen**, um zum Aktionsbildschirm zurückzukehren, und blättern Sie dann in der oberen rechten Leiste zurück und klicken Sie auf die Schaltfläche **Speichern**
 
 >[!TIP]
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Erstellen von Inhaltsfragmenten
 description: Erfahren Sie, wie Sie einen E-Mail-Entwurf in wiederverwendbare Fragmente unterteilen, z. B. einen Kopfzeilenblock, die in allen Vorlagen in Adobe Journey Optimizer konsistent bleiben.
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -87,19 +86,19 @@ Erstellen Sie zunächst ein Header-Fragment. Richten Sie jedoch vor dem Erstelle
 
 ![Abschnitt „Content-Management“ mit der Option &quot;Assets&quot; im linken Navigationsbereich](assets/building-content-fragments-content-management-assets-nav.png)
 
-&#x200B;2. Klicken Sie im Abschnitt &quot;Assets-**&quot; auf** Assets.
+2. Klicken Sie im Abschnitt &quot;Assets-**&quot; auf** Assets.
 
 ![Assets-Option im Abschnitt &quot;Assets-Verwaltung“](assets/building-content-fragments-assets-under-assets-management.png)
 
-&#x200B;3. Erstellen Sie einen Ordner, indem Sie auf **Schaltfläche „Ordner erstellen** klicken.
+3. Erstellen Sie einen Ordner, indem Sie auf **Schaltfläche „Ordner erstellen** klicken.
 
 ![Schaltfläche „Ordner erstellen“ im Bereich &quot;Assets&quot;](assets/building-content-fragments-click-create-folder-button.png)
 
-&#x200B;4. Geben Sie einen Namen wie Ihren Vor- und Nachnamen an. Beispiel: Nish\_Pithia\_LabAssets (Etwas, an das Sie sich erinnern können)
+4. Geben Sie einen Namen wie Ihren Vor- und Nachnamen an. Beispiel: Nish\_Pithia\_LabAssets (Etwas, an das Sie sich erinnern können)
 
 ![Benennung des neuen Asset-Ordners mit Vor- und Nachnamen](assets/building-content-fragments-name-asset-folder.png)
 
-&#x200B;5. **Neues Fragment erstellen:** Klicken Sie unter „Content-Management“ auf **Fragmente** und erstellen Sie ein neues Fragment.
+5. **Neues Fragment erstellen:** Klicken Sie unter „Content-Management“ auf **Fragmente** und erstellen Sie ein neues Fragment.
 
    ![Option „Fragmente“ unter „Content-Management“, um ein neues Fragment zu erstellen](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -113,35 +112,35 @@ Erstellen Sie zunächst ein Header-Fragment. Richten Sie jedoch vor dem Erstelle
 
    ![Felder für Kopfzeilenfragmentnamen, Beschreibung und Typ des visuellen Fragments](assets/building-content-fragments-fragment-name-type-details.png)
 
-&#x200B;6. Klicken Sie oben **auf** Schaltfläche „Erstellen“.
+6. Klicken Sie oben **auf** Schaltfläche „Erstellen“.
 
 ![Erstellen-Schaltfläche oben rechts im Dialogfeld Neues Fragment](assets/building-content-fragments-click-create-button-top-right.png)
 
 Dadurch wird ein leerer Bildschirm zur Fragmenterstellung geöffnet.
 
-&#x200B;7. Klicken Sie unter Strukturen auf 1:1 Spalten und ziehen Sie wie unten dargestellt auf die Arbeitsfläche. (Bitte klicken Sie auf das Bild unten, um eine animierte Grafik zu sehen)
+7. Klicken Sie unter Strukturen auf 1:1 Spalten und ziehen Sie wie unten dargestellt auf die Arbeitsfläche. (Bitte klicken Sie auf das Bild unten, um eine animierte Grafik zu sehen)
 
 ![Animierte Demo zum Ziehen einer 1:1-Spaltenstruktur auf die Fragment-Arbeitsfläche](assets/building-content-fragments-drag-1-1-columns-structure.gif)
 
-&#x200B;8. Ziehen Sie als Nächstes &quot;**image** auf die gerade hinzugefügte Zeile 1:1 .
+8. Ziehen Sie als Nächstes &quot;**image** auf die gerade hinzugefügte Zeile 1:1 .
 
 ![Ziehen einer Bildkomponente auf die 1:1-Zeile](assets/building-content-fragments-drag-image-onto-row.png)
 
-&#x200B;9. Laden Sie das bereitgestellte Logo-Bild hoch. Klicken Sie auf **Schaltfläche „Medien importieren“**
+9. Laden Sie das bereitgestellte Logo-Bild hoch. Klicken Sie auf **Schaltfläche „Medien importieren“**
 
 ![Schaltfläche „Medien importieren“, um das Logo-Bild hochzuladen](assets/building-content-fragments-click-import-media-button.png)
 
-&#x200B;10. **Logo hochladen:** Laden Sie das Logo (*C5G-Logo.png*) aus dem Toolkit-Ordner mit Bildern hoch und klicken Sie auf Weiter.
+10. **Logo hochladen:** Laden Sie das Logo (*C5G-Logo.png*) aus dem Toolkit-Ordner mit Bildern hoch und klicken Sie auf Weiter.
 
 ![Auswählen von C5G-Logo.png aus dem Toolkit-Ordner zum Hochladen](assets/building-content-fragments-upload-logo-select-file.png)
 
 ![Klicken Sie auf Weiter , nachdem Sie den Logo-Upload ausgewählt haben](assets/building-content-fragments-upload-logo-click-next.png)
 
-&#x200B;11. Wählen Sie den **Asset-Ordner** aus, den Sie erstellt haben, und klicken Sie dann auf **Importieren**. Die Datei wird im Ordner gespeichert.
+11. Wählen Sie den **Asset-Ordner** aus, den Sie erstellt haben, und klicken Sie dann auf **Importieren**. Die Datei wird im Ordner gespeichert.
 
 ![Auswählen des erstellten Asset-Ordners und Klicken auf „Importieren“](assets/building-content-fragments-select-asset-folder-import.png)
 
-&#x200B;12. Das Logo ist korrekt platziert, aber es ist zu groß und muss in der Größe verändert werden. Um die Größe des Logos zu ändern, aktualisieren Sie seine Eigenschaften. Klicken Sie auf **Registerkarte Stil** und legen Sie die Breite auf 40 % fest, indem Sie den Schieberegler ziehen, wie unten dargestellt.
+12. Das Logo ist korrekt platziert, aber es ist zu groß und muss in der Größe verändert werden. Um die Größe des Logos zu ändern, aktualisieren Sie seine Eigenschaften. Klicken Sie auf **Registerkarte Stil** und legen Sie die Breite auf 40 % fest, indem Sie den Schieberegler ziehen, wie unten dargestellt.
 
 >[!NOTE]
 >
@@ -151,15 +150,15 @@ Dadurch wird ein leerer Bildschirm zur Fragmenterstellung geöffnet.
 
 ![Der Regler für die Breite der Registerkarte „Stil“ ist auf 40 Prozent eingestellt, um die Größe des Logos zu ändern](assets/building-content-fragments-resize-logo-width-slider.png)
 
-&#x200B;13. Klicken Sie auf **Speichern** und Ihr Fragment wird gespeichert. Bei der Bestätigung wird eine Benachrichtigung mit einem grünen Balken angezeigt.
+13. Klicken Sie auf **Speichern** und Ihr Fragment wird gespeichert. Bei der Bestätigung wird eine Benachrichtigung mit einem grünen Balken angezeigt.
 
 ![Grüne Bestätigungsleiste nach dem Speichern des Fragments](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;14. Das Fragment wird im Entwurfsmodus gespeichert. Bevor Sie sie verwenden, müssen Sie sie veröffentlichen. Klicken Sie auf die Schaltfläche **Zurück**.
+14. Das Fragment wird im Entwurfsmodus gespeichert. Bevor Sie sie verwenden, müssen Sie sie veröffentlichen. Klicken Sie auf die Schaltfläche **Zurück**.
 
 ![Schaltfläche „Zurück“, um den Fragmententwurf vor der Veröffentlichung zu verlassen](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;15. Klicken Sie auf **Schaltfläche „Veröffentlichen**. Es wird die Meldung „Fragment wird veröffentlicht, dies kann einige Zeit dauern. Wir benachrichtigen Sie, sobald dies geschehen ist.“ Bei Bestätigung. Ihr Fragment ist bereit für die Vorlagenerstellung.
+15. Klicken Sie auf **Schaltfläche „Veröffentlichen**. Es wird die Meldung „Fragment wird veröffentlicht, dies kann einige Zeit dauern. Wir benachrichtigen Sie, sobald dies geschehen ist.“ Bei Bestätigung. Ihr Fragment ist bereit für die Vorlagenerstellung.
 
 ![Schaltfläche „Veröffentlichen“ und Bestätigungsmeldung zum Veröffentlichen des Fragments](assets/building-content-fragments-click-publish-fragment-button.png)
 

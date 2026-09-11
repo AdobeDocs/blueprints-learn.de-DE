@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Laborübung
 description: Erstellen Sie eine druckbare Arbeitsmappe, die drei Anwendungsfälle für die 5G-Verbindung den richtigen AJO-Architekturkomponenten und der richtigen Orchestrierungs-Engine zuordnet.
 doc-type: article
 solution: Experience Platform
 exl-id: 9e8f24a4-f206-41fe-8107-7184c0761698
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%

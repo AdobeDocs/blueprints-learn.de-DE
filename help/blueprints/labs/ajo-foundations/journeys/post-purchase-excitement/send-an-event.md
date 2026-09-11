@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Ereignis senden
 description: Verwenden Sie Postman, um ein simuliertes Versandereignis einer Bestellung direkt zum Hub zu streamen und die Journey zum Trigger bereitzustellen, anstatt sie an die Edge zu senden.
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,7 +41,7 @@ Erfassen Sie zunächst die folgenden Werte:
 1. Navigieren Sie **linken Leiste zu** Quellen“ und klicken Sie dann **oberen Navigationsbereich auf** Konten“
 1. Suchen Sie nach **dep: HTTP API \[raw]** markieren Sie die Zeile und kopieren und speichern Sie den Wert des **Streaming-Endpunkts** an einen anderen Ort, auf den Sie später verweisen können
 
-![dep: HTTP-API [Roh] Kontozeile mit hervorgehobenem Streaming-Endpunktwert &#x200B;](assets/send-an-event-streaming-endpoint-account-row.png "dep: HTTP-API \[Roh]")
+![dep: HTTP-API [Roh] Kontozeile mit hervorgehobenem Streaming-Endpunktwert ](assets/send-an-event-streaming-endpoint-account-row.png "dep: HTTP-API \[Roh]")
 
 
 ### Datenfluss-ID suchen
@@ -51,7 +50,7 @@ Erfassen Sie zunächst die folgenden Werte:
 1. Suchen Sie den Datensatz für **dep: Orders (Stream)** klicken Sie auf den Link Datenflüsse .
 1. Kopieren Sie in der rechten Leiste die Werte **Datenfluss-ID** an eine Stelle, auf die Sie später verweisen können
 
-&#x200B;> [!WARNING]
+> [!WARNING]
 >
 >Klicken Sie in ein leeres Feld in der Zeile.  Klicken Sie NICHT auf die blauen Links!
 
@@ -80,7 +79,7 @@ Starten Sie Postman auf Ihrem Computer und navigieren Sie zum folgenden API-Aufr
    - **grün** —> `Dataflow ID`
      - Wert sieht wie eine GUID aus (beginnt nicht mit http)
 
-&#x200B;> [!CAUTION]
+> [!CAUTION]
 >
 >NOCH NICHT AUSFÜHREN!
 

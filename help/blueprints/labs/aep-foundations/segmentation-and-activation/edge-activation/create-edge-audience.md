@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge-Zielgruppe erstellen
 description: Erstellen und veröffentlichen Sie eine von Edge ausgewertete Zielgruppe zusammen mit einer Batch-Entsprechung, um zu vergleichen, wie jede auf eingehende Echtzeit-Ereignisse reagiert.
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%

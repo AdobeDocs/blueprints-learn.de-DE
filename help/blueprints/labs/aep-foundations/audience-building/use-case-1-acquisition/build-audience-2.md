@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Zielgruppen-#2 erstellen
 description: Erstellen Sie eine Zielgruppe von Profilen ohne aktive iPhone 14-Zeile und konvertieren Sie sie dann mithilfe eines profilbasierten Felds von einer Batch- in eine Streaming-Auswertung.
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -104,7 +103,7 @@ Marketing betrat heute und gab uns die Anforderung, dieses Streaming zu haben, u
 
 
 
-&#x200B;3. Aktualisieren Sie Beschreibung, Name und Auswertungsmethode auf Streaming in der rechten unteren Ecke und klicken Sie dann auf das Ordnersymbol neben der Auswertungsmethode. Sie sollten Folgendes sehen:
+3. Aktualisieren Sie Beschreibung, Name und Auswertungsmethode auf Streaming in der rechten unteren Ecke und klicken Sie dann auf das Ordnersymbol neben der Auswertungsmethode. Sie sollten Folgendes sehen:
 
 ![Auswertungsmethode nach dem Klicken auf das Ordnersymbol auf Streaming festgelegt](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
 
@@ -124,7 +123,7 @@ Der Grund dafür ist zwar nicht offensichtlich, aber wir verwenden den Produktna
 
 
 
-&#x200B;4. Ersetzen Sie den vorhandenen Wert für den Produktnamen, der jetzt aus dem Schema Individuelles XDM-Profil stammt.
+4. Ersetzen Sie den vorhandenen Wert für den Produktnamen, der jetzt aus dem Schema Individuelles XDM-Profil stammt.
 
 Ersetzen Sie den folgenden Pfad:
 
@@ -140,13 +139,13 @@ Fügen Sie den neuen Pfad hinzu:
 
 
 
-&#x200B;5. Ändern Sie die Auswertungsmethode in Streaming und klicken Sie auf das Ordnersymbol
+5. Ändern Sie die Auswertungsmethode in Streaming und klicken Sie auf das Ordnersymbol
 
 ![Ändern Sie die Auswertungsmethode in Streaming und klicken Sie auf das Ordnersymbol](assets/build-audience-2-change-evaluation-method-to-streaming.png)
 
 
 
-&#x200B;6. Geben Sie für Ihre neue für Streaming geeignete Zielgruppe eine Beschreibung ein.
+6. Geben Sie für Ihre neue für Streaming geeignete Zielgruppe eine Beschreibung ein.
 
 - Speichern Sie die Zielgruppe als Zielgruppe &quot;*gehört iPhone 14*&quot;.
 - Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
@@ -155,15 +154,15 @@ Fügen Sie den neuen Pfad hinzu:
 
 
 
-&#x200B;7. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf **Weiter**
+7. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf **Weiter**
 
-&#x200B;8. Klicken Sie auf **Weiter** und **Beenden**
+8. Klicken Sie auf **Weiter** und **Beenden**
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Überlegungen zur Auswahl von Batch vs. Streaming oder Edge:
 >
->Neueste Leitplanken: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+>Neueste Leitplanken: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 
 >[!TIP]
 >

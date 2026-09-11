@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Aktivität „Verzweigung hinzufügen“
 description: Erfahren Sie, wie Sie einer orchestrierten Kampagne eine Aktivität Verzweigung hinzufügen, um zwei identische Verzweigungen von Zielgruppendaten zu erstellen.
 doc-type: article
 solution: Experience Platform
 exl-id: f4055087-29ea-4277-b2eb-4b42cbb65c06
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -33,4 +32,4 @@ Die Arbeitsfläche mit dem konfigurierten **Zielgruppe aufbauen** wird angezeigt
 
 Sie haben jetzt gesehen, wie einfach es ist, die Aktivität Verzweigung auf der Kampagnen-Arbeitsfläche zu verwenden, um identische Verzweigungen derselben Daten zu erstellen, die in fließen. Die Verzweigungen der Aktivität Verzweigung werden im nächsten Schritt verwendet.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) wenn Sie Interesse haben.

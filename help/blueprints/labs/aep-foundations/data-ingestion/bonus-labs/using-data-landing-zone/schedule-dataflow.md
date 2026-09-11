@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Datenfluss planen
 description: Konfigurieren Sie einen wiederkehrenden 15-minütigen Datenflusszeitplan mit aktivierter Aufstockung und verstehen Sie, wie sich UTC-Startzeiten auf Ausführungen auswirken.
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -47,7 +46,7 @@ Nachdem Sie auf **Beenden** geklickt haben, gelangen Sie zurück zum Bildschirm 
 
 ![Datenflussbildschirm, der den neuen Datenfluss mit dem Status „Keine Ausführungen“ anzeigt](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Datenflussquellen-Bildschirm")
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Sie müssen die Seite kontinuierlich aktualisieren, um die Statusaktualisierung anzuzeigen, da das Backend keine Aktualisierungen an die Benutzeroberfläche sendet.
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Postman-Installation
 description: Installieren Sie Postman und machen Sie sich mit seinen Sammlungen, Umgebungen und der Arbeitsbereich-Oberfläche vertraut, bevor Sie API-Aufrufe in späteren Labs durchführen.
 doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 Am Ende dieses Labors können Sie Postman installieren, einen einfachen Arbeitsbereich und eine Umgebung konfigurieren, damit Sie nachfolgende API-Aufrufe durchführen können, die von zukünftigen Labs benötigt werden.
 
-&#x200B;> [!IMPORTANT]
+> [!IMPORTANT]
 >
 >Postman ist für verschiedene Labore in diesem Kurs erforderlich.  Selbst wenn Sie Postman bereits installiert haben, müssen Sie dieses Lab abschließen, um sicherzustellen, dass die Umgebungsdateien und die API-Sammlung installiert und ordnungsgemäß eingerichtet sind.
 
@@ -41,7 +40,7 @@ Wenn Sie *bereits mit Postman vertraut* und es installiert haben, waren Sie wahr
 
 Öffnen Sie Postman und machen Sie sich schnell mit einigen Bereichen des Programms vertraut. Um mit Experience Platform arbeiten zu können, müssen wir uns wirklich nur auf einige Schlüsselbereiche der Anwendung konzentrieren.
 
-![Übersicht über die Postman-Benutzeroberfläche mit Seitenleiste, Kopfzeile und Hauptarbeitsbereich mit der Bezeichnung &#x200B;](assets/postman-installation-interface-overview.png "Postman-Benutzeroberfläche")
+![Übersicht über die Postman-Benutzeroberfläche mit Seitenleiste, Kopfzeile und Hauptarbeitsbereich mit der Bezeichnung ](assets/postman-installation-interface-overview.png "Postman-Benutzeroberfläche")
 
 ## Randleiste
 

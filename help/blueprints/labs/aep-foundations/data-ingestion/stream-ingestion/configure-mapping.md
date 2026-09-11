@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Konfigurieren der Zuordnung
 description: Importieren Sie den Zuordnungssatz aus dem Batch-Aufnahme-Labor und aktualisieren Sie die berechneten Datumsfelder entsprechend dem Datumsformat der Streaming-Quelle.
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurieren der Zuordnung
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Befolgen Sie diesen Abschnitt nur, wenn Sie das Labor zur Batch-Aufnahme erfolgreich abgeschlossen haben.  Andernfalls führen Sie die Schritte [Zuordnungsdaten](../batch-ingestion/mapping-data/overview.md) im Labor zur Batch-Aufnahme aus.
 

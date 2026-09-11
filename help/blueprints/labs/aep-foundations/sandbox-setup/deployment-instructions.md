@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Bereitstellungsanweisungen
 description: Verwenden Sie die DEP-CLI, um die Schemata, Datensätze, Datenflüsse und Beispielprofildaten des AEP Foundations Lab Pack in Ihrer Sandbox bereitzustellen.
 doc-type: article
 solution: Experience Platform
 exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 1%
@@ -15,7 +14,7 @@ ht-degree: 1%
 
 # Bereitstellungsanweisungen
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Dies ist nur erforderlich, wenn Sie die Labore in Ihrem eigenen Tempo bearbeiten. Wenn Sie sich an einem Live-Schulungskurs oder einer Live-Veranstaltung beteiligen, wurde Ihre Sandbox bereits für Sie bereitgestellt.
 
@@ -38,7 +37,7 @@ Das AEP Foundations Lab Pack wird mithilfe der DEP-CLI, einem Befehlszeilen-Tool
 ## Voraussetzungen
 
 - **Lizenzberechtigungen.** Administratorrechte für eine IMS-Organisation mit Real-Time CDP (mit Streaming-Segmentierung)
-- **Zugriffsrechte.** Eine Adobe Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldedaten, die Sie im Setup von [Developer Console erstellt &#x200B;](developer-console-setup.md).
+- **Zugriffsrechte.** Eine Adobe Experience Platform-Rolle mit allen Berechtigungen für die Ziel-Sandbox, einschließlich der API-Anmeldedaten, die Sie im Setup von [Developer Console erstellt ](developer-console-setup.md).
 - **Developer Console-Anmeldeinformationen.** Ein Projekt, das Adobe Experience Platform-APIs enthält. Wenn Sie diese noch nicht haben, befolgen Sie zuerst die Einrichtung von [Developer Console](developer-console-setup.md)
 - **Eine Sandbox.** Leer, vom Typ `dev` und mindestens 60 Minuten lang im Status „Bereit“, bevor Sie die Bereitstellung starten
 - **Node.js.** Jede neuere LTS-Version, unter Windows oder Mac
@@ -68,7 +67,7 @@ Die CLI wird in der Sandbox bereitgestellt, auf die Ihre Umgebungsdatei verweist
 | `SCOPES` | Muss Experience Platform-API-Bereiche enthalten (openid, session, Adobe ID, read_organizations, additional_info.projectedProductContext) |
 | `SANDBOX_NAME` | Die Sandbox, die Sie anvisieren, muss leer sein und vom Typ `dev` sein |
 
-&#x200B;3. Speichern und schließen Sie die Datei
+3. Speichern und schließen Sie die Datei
 
 >[!NOTE]
 >
@@ -90,7 +89,7 @@ Wählen Sie im Hauptmenü **AEP Foundations** aus. Es gibt drei Schritte, und si
 
 Schritt 1 dauert etwa 2 Minuten, Schritt 2 etwa 6 Minuten, und Schritt 3 ist eine schnelle Validierung ohne eigene Wartezeit. Die 60- und 15-minütigen Lücken zwischen den Schritten bestehen darin, dass AEP die Daten hinter den Kulissen propagiert - das ist der Großteil Ihrer 2-Stunden-Zeitleiste.
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Die CLI prüft diese Wartezeiten automatisch. Wenn man einen Schritt zu früh startet, blockiert er und sagt einem, wie viele Minuten noch übrig sind — man muss die Zeit nicht selbst nachverfolgen.
 

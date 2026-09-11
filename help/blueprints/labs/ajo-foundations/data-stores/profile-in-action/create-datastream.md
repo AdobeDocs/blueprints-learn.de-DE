@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Erstellen eines Datenstroms
 description: Erfahren Sie, wie Sie mit Adobe Experience Platform-, Offer Decisioning- und Journey Optimizer-Services einen Datenstrom erstellen und konfigurieren, um die Edge-Ereignisverarbeitung zu aktivieren.
 doc-type: article
 solution: Experience Platform
 exl-id: 37873340-476a-4303-886d-de4835bba8df
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -61,13 +60,13 @@ Auf diese Weise können Sie Daten an den Hub senden und für Daten, die von dies
 
 ![Schaltfläche „Service hinzufügen“ im Bildschirm zur Datenstromkonfiguration](assets/create-datastream-add-service-button.png)
 
-&#x200B;2. Konfigurieren Sie die folgenden Elemente:
+2. Konfigurieren Sie die folgenden Elemente:
    - **Service** -> `Adobe Experience Platform`
    - **Ereignisdatensatz** -> `dep: Web`
    - **Profildatensatz** -> `dep: Customer Account`
    - **Kontrollkästchen auswählen** -> `Offer Decisioning`
    - **Kontrollkästchen auswählen** -> `Adobe Journey Optimizer`
-&#x200B;3. Klicken Sie abschließend auf **Speichern**
+3. Klicken Sie abschließend auf **Speichern**
 
 ![Dialogfeld für die Konfiguration des Adobe Experience Platform-Services mit Ereignis- und Profildatensatzfeldern](assets/create-datastream-configure-aep-service.png)
 

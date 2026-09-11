@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Automatisieren mit APIs
 description: Führen Sie eine Postman-Sammlung aus, die die Erstellung von Schemata, Feldergruppen, Identitäts- und Beziehungsdeskriptoren und Datensätzen in einem Schritt automatisiert.
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -65,6 +64,6 @@ Um zu sehen, wie Sie Bereitstellungen mithilfe von APIs automatisieren können, 
 
 ![Zwei mit dem Postman erstellte Datensätze: Präfix, das mit den automatisierten Schemata/](assets/automate-with-apis-datasets-created-in-ui.png "-Datensätzen übereinstimmt")
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >Herzlichen Glückwunsch!  Sie haben gerade die Bereitstellung von Identity-Namespaces, Feldergruppen, Schemata, Identitäts-/Beziehungsdeskriptoren automatisiert und ein Schema für ein Profil aktiviert und einen Datensatz mithilfe des Schemas generiert

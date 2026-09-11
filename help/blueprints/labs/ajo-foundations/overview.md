@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Übersicht
 description: Erkunden Sie die Architektur von Adobe Journey Optimizer, die Journey-Orchestrierung, orchestrierte Kampagnen, Entscheidungen und Echtzeit-Kundenprofile in praxisnahen Labs.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 1%

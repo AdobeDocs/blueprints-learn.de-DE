@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Zusammenfassung
 description: Informieren Sie sich über wichtige Erkenntnisse und eine Checkliste für den Abschluss, um in Adobe Journey Optimizer personalisierte, markenkonforme Kampagnen mit Fragmenten, KI-Tools und Simulationen zu erstellen.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -36,7 +35,7 @@ In diesem Kurs haben Sie die vollständige Journey der Erstellung personalisiert
 
 
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**WENN SIE DAS LESEN, BEDEUTET DAS, DASS SIE AM ENDE DES LABORS SIND.**
 >

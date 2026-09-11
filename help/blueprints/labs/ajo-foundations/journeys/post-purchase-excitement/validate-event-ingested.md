@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Validieren des erfassten Ereignisses
 description: Vergewissern Sie sich, dass ein versendetes Ereignis der Bestellung in ein Profil aufgenommen wurde und qualifiziert es für die erwarteten Zielgruppen.
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -39,7 +38,7 @@ Vergewissern Sie sich, dass das Ereignis erfolgreich in Adobe Experience Platfor
 
 
 
-&#x200B;3. Überprüfen Sie, ob sich das Profil für **Zielgruppen“** hat (dies kann einige Minuten dauern).
+3. Überprüfen Sie, ob sich das Profil für **Zielgruppen“** hat (dies kann einige Minuten dauern).
    - Beliebige Event Edge (innerhalb von 15 Minuten)
    - Beliebiges Ereignis-Streaming (innerhalb von 15 Minuten)
 
@@ -56,8 +55,8 @@ Nachdem Sie nun die Anmeldung des Profils validiert haben, senden Sie einige ver
 
 ![E-Mail-Adresse wurde im Postman-Anfrageinhalt geändert](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-&#x200B;3. **Speichern** und klicken Sie auf **Senden**.
-&#x200B;4. Gehen Sie zurück zu den Schritten 1-3 und validieren Sie mithilfe Ihrer E-Mail-Adresse.
+3. **Speichern** und klicken Sie auf **Senden**.
+4. Gehen Sie zurück zu den Schritten 1-3 und validieren Sie mithilfe Ihrer E-Mail-Adresse.
 
 ## Zusammenfassung
 

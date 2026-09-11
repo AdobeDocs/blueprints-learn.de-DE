@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Momentaufnahme des Profils validieren
 description: Erfahren Sie, wie Sie den Profil-Schnappschuss-Datensatz abfragen und verstehen, warum eine neu gestreamte Profilaktualisierung erst beim nächsten täglichen Batch-Vorgang angezeigt wird.
 doc-type: article
 solution: Experience Platform
 exl-id: 1e7befcf-d952-47a2-86d9-33ef71eec57a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -25,9 +24,9 @@ Vergewissern Sie sich, dass das Profil noch nicht im Profil-Snapshot-Datensatz a
 
 ![Registerkarte Durchsuchen von Datensätzen im Abschnitt Daten-Management](assets/validate-profile-snapshot-datasets-browse-tab.png)
 
-&#x200B;2. Geben Sie in das **Suchfeld** den Wert `profile` ein, klicken **auf die** mit dem Titel „Profil-Momentaufnahme…“ und kopieren Sie in der rechten Leiste **kopieren Sie den Tabellennamen** und fügen Sie ihn an eine Stelle ein, auf die Sie im nächsten Schritt verweisen können.
+2. Geben Sie in das **Suchfeld** den Wert `profile` ein, klicken **auf die** mit dem Titel „Profil-Momentaufnahme…“ und kopieren Sie in der rechten Leiste **kopieren Sie den Tabellennamen** und fügen Sie ihn an eine Stelle ein, auf die Sie im nächsten Schritt verweisen können.
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Möglicherweise müssen Sie alle Filter löschen, wenn Sie „Profil-Momentaufnahme…“ nicht sehen Datensatz.
 
@@ -35,7 +34,7 @@ Vergewissern Sie sich, dass das Profil noch nicht im Profil-Snapshot-Datensatz a
 
 ![Suchergebnisse für den Profil-Schnappschuss-Datensatz](assets/validate-profile-snapshot-dataset-search.png)
 
-&#x200B;3. Navigieren Sie zurück zum Abfrage-Editor und kopieren Sie die unten stehende SQL in den Editor
+3. Navigieren Sie zurück zum Abfrage-Editor und kopieren Sie die unten stehende SQL in den Editor
 
 ```sql
 select
@@ -60,15 +59,15 @@ from
   limit 50
 ```
 
-&#x200B;4. Aktualisieren Sie den Tabellennamen und die E-Mail-Adresse wie unten beschrieben:
+4. Aktualisieren Sie den Tabellennamen und die E-Mail-Adresse wie unten beschrieben:
    - **Tabellenname:** Kopieren Sie in Zeile 14 den Tabellennamen, den Sie für die Tabelle Profil-Momentaufnahme haben, und fügen Sie ihn zwischen dem `from` und dem `where` ein
    - **E-Mail-Adresse:** Geben Sie vorerst in Zeile 19 die gleiche E-Mail-Adresse ein, die Sie für den Versand Ihres Web-Ereignisses verwendet haben (wir haben Henry.creel\@emailsim.io verwendet, es sei denn, Sie haben sie geändert).
      - Im Moment haben wir dies auskommentiert (lassen Sie es so). Wenn die Abfrage ausgeführt wird und Sie nach Henry suchen, finden Sie ihn nicht.
 
 ![Abfrage-Editor mit dem Namen der Profilschnappschuss-Tabelle und der zu aktualisierenden E-Mail-Adresse](assets/validate-profile-snapshot-update-query-table-name.png)
 
-&#x200B;5. **Führen Sie** Abfrage aus, indem Sie auf den Pfeil oben links klicken.
-&#x200B;6. Die Ergebnisse sind wie unten (aber wenn Sie nach Henry suchen, finden Sie ihn nicht)
+5. **Führen Sie** Abfrage aus, indem Sie auf den Pfeil oben links klicken.
+6. Die Ergebnisse sind wie unten (aber wenn Sie nach Henry suchen, finden Sie ihn nicht)
 
 ![Abfrageergebnisse, die keine Übereinstimmung für das gestreamte Profil in der Momentaufnahme zeigen](assets/validate-profile-snapshot-query-results-no-match.png)
 

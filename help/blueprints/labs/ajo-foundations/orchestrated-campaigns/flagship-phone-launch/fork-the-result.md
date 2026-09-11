@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Ergebnis verzweigen
 description: Erfahren Sie, wie Sie einer orchestrierten Kampagne eine Aktivität Verzweigung hinzufügen, um ein Ergebnis zum Speichern einer Audience und zum Senden von SMS-Nachrichten zu verzweigen.
 doc-type: article
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -26,13 +25,13 @@ Dieser Schritt ist einfach, da Sie nur eine Aktivität Verzweigung hinzufügen m
 
 ## Verzweigung erstellen
 
-1. Klicken Sie auf der Workflow-Arbeitsfläche auf das Symbol **+** **&#x200B;**&#x200B;nach der Aktivität Zielgruppe aufbauen und wählen Sie die Aktivität **Verzweigung**
+1. Klicken Sie auf der Workflow-Arbeitsfläche auf das Symbol **+** **** nach der Aktivität Zielgruppe aufbauen und wählen Sie die Aktivität **Verzweigung**
 
 ![Fügen Sie nach der Aktivität „Zielgruppe aufbauen“ die Aktivität „Verzweigung“ hinzu](assets/fork-the-result-add-fork-activity.png)
 
 
 
-&#x200B;2. Aktualisieren Sie die Namen der einzelnen Transitionen im Formular, indem Sie auf die Transition klicken und dann die Namen wie unten beschrieben zuweisen:
+2. Aktualisieren Sie die Namen der einzelnen Transitionen im Formular, indem Sie auf die Transition klicken und dann die Namen wie unten beschrieben zuweisen:
    - **Oben** —> `Save Audience`
    - **Bottom** —> `SMS`
 
@@ -50,7 +49,7 @@ Wenn Sie fertig sind, sollte Ihre Arbeitsfläche nun wie folgt aussehen…
 
 
 
-&#x200B;3. Klicken **oben** der Workflow-Arbeitsfläche auf „Speichern“.
+3. Klicken **oben** der Workflow-Arbeitsfläche auf „Speichern“.
 
 ![Schaltfläche „Speichern“ in der Symbolleiste der Workflow-Arbeitsfläche](assets/fork-the-result-click-save.png)
 

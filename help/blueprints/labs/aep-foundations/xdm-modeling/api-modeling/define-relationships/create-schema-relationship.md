@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Erstellen einer Schemabeziehung
 description: Verwenden Sie die Schema Registry-API, um einen Eins-zu-eins-Beziehungsdeskriptor zu erstellen, der das Kundenkontenschema mit einem Lookup-Plan-Schema verknüpft.
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. Aktualisieren Sie die folgenden Eigenschaften im Hauptteil des API-Aufrufs.
+2. Aktualisieren Sie die folgenden Eigenschaften im Hauptteil des API-Aufrufs.
 
 - Legen Sie den Wert der Eigenschaft `xdm:sourceSchema` auf den `$id` des Kundenkontenschemas fest, das Sie im Laborschritt [Schema erstellen](../build-schema/create-schema.md) gespeichert haben
 - Legen Sie den Wert der `xdm:sourceProperty` auf den Pfad des `planID` aus dem Kundenkontenschema fest.
@@ -58,9 +57,9 @@ NUR BEISPIEL
 
 
 
-&#x200B;3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
+3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
 
-&#x200B;4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
+4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
 
 Es sollte jetzt eine `201 Created` Antwort wie unten angezeigt werden
 

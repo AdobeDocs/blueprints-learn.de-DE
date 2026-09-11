@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Zusammenführungsrichtlinien
 description: Erstellen Sie eine Zusammenführungsrichtlinie ohne Identitätszuordnung und vergleichen Sie Profilsuchen nach E-Mail, Kunden-ID und GAID, um zu sehen, wie Identitätsdiagramme die Profilassembly formen.
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -30,7 +29,7 @@ Eine Zusammenführungsrichtlinie hat zwei Aufgaben:
    - Zeitstempelpriorität - Verwenden Sie den neuesten Datensatz aus allen Datensätzen als Wahrheitsset und lassen Sie alle anderen Datensätze die Lücken füllen, in der Reihenfolge von „Zuletzt verwendet“ bis „Zuletzt verwendet“
    - Datensatzpriorität : Wählen Sie aus, welche XDM-Einzelprofildatensätze zum Erstellen des Profils verwendet werden dürfen und in welcher Reihenfolge sie zusammengestellt werden sollen
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Wenn die Zusammenführungsmethode Datensatzpriorität ausgewählt ist, können Sie auswählen, welche XDM-Kontaktprofil- und XDM-Erlebnisereignis-Datensätze bei der Profilerstellung verwendet werden dürfen.
 >
@@ -65,7 +64,7 @@ Erstellen Sie eine Zusammenführungsrichtlinie, die nicht das ID-Diagramm verwen
 1. Klicken Sie **oberen Navigationsbereich auf &quot;**&quot;
 1. Klicken Sie **ganz rechts** Bildschirm auf Zusammenführungsrichtlinie erstellen .
 
-![Klicken Sie oben rechts im Bildschirm „Zusammenführungsrichtlinien“ auf Zusammenführungsrichtlinie erstellen &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
+![Klicken Sie oben rechts im Bildschirm „Zusammenführungsrichtlinien“ auf Zusammenführungsrichtlinie erstellen ](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## Konfigurieren
 
@@ -198,7 +197,7 @@ Wenn das Identitätsdiagramm mit dem Profilspeicher verwendet wird, können Sie 
 
 Ohne das Identitätsdiagramm kann der Profilspeicher nur Profilfragmente mit einer einzigen Kennung (d. h. primäre Identität) abrufen
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**Haben Sie etwas mehr Zeit und möchten experimentieren…:**
 >

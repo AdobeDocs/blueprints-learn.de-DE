@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Endgültigen Zuordnungssatz überprüfen
 description: Vergleichen Sie Ihre einfachen und berechneten Feldzuordnungen für das Kundenkontenschema mit dem erwarteten endgültigen Zuordnungssatz.
 doc-type: article
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Endgültigen Zuordnungssatz überprüfen
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Wenn Sie vom Streaming-Aufnahme-Labor kommen, klicken Sie auf den folgenden Link, um mit dem nächsten Schritt in diesem Labor fortzufahren:
 >
@@ -52,7 +51,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren.
 
@@ -66,6 +65,6 @@ ht-degree: 0%
 | concat(date\_part(„month“, date(born\_date,„M/d/yyyy„)).toString(), &quot;-&quot;, date\_part(„day“, date(born\_date,„M/d/yyyy„)).toString()) | person.bornDayAndMonth |
 | date\_part(„jjjj“,date(Geburtsdatum,„M/TT/jjjj„)) | person.BirthYear |
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >Stellen Sie sicher, dass Ihre endgültige Zuordnung mit der unten gezeigten übereinstimmt, bevor Sie fortfahren

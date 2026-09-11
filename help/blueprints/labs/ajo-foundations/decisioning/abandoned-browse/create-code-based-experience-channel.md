@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Erstellen eines Code-basierten Erlebniskanals
 description: Konfigurieren Sie einen Code-basierten Erlebniskanal in Adobe Journey Optimizer, der JSON-Angebotsdaten an jedes Web-, Mobil- oder IoT-System zurückgibt, das eine Entscheidung anfordert.
 doc-type: article
 solution: Experience Platform
 exl-id: c3353d3d-cd97-46b7-8ef8-c72fa9e7dfe5
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -45,7 +44,7 @@ Denken Sie daran, dass die Geschäftsanforderungen darin bestehen, dass jedes de
 
 ![Code-basierte Konfiguration des Erlebniskanals mit ausgewähltem JSON-Format wurde abgeschlossen](assets/create-code-based-experience-channel-completed-config.png)
 
-&#x200B;9. Sobald alles korrekt aussieht, klicken Sie auf die blaue **Senden**-Schaltfläche in der oberen rechten Ecke.
+9. Sobald alles korrekt aussieht, klicken Sie auf die blaue **Senden**-Schaltfläche in der oberen rechten Ecke.
 
 >[!TIP]
 >

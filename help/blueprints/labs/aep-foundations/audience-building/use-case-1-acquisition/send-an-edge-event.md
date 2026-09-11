@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge-Ereignis senden
 description: Senden Sie über Postman ein nicht authentifiziertes Web-Ereignis an die Edge und verfolgen Sie es über Ereignisweiterleitung, Profilaufnahme, Zielgruppenqualifizierung und Zielaktivierung.
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
@@ -143,13 +142,13 @@ Suchen Sie in Adobe Experience Platform das Profil, das Sie gerade von dem Ereig
 
 
 
-&#x200B;3. Klicken Sie **oberen Navigationsbereich auf** Ereignisse“, um das gerade gesendete Ereignis anzuzeigen
+3. Klicken Sie **oberen Navigationsbereich auf** Ereignisse“, um das gerade gesendete Ereignis anzuzeigen
 
 ![Das Ereignis wird auf der Registerkarte Ereignisse des Profils angezeigt](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. Überprüfen Sie, ob sich das Profil für die Zielgruppen qualifiziert hat, indem Sie die Registerkarte Zielgruppenmitgliedschaft im oberen Navigationsbereich aufrufen.  Sie sollten Folgendes sehen:
+4. Überprüfen Sie, ob sich das Profil für die Zielgruppen qualifiziert hat, indem Sie die Registerkarte Zielgruppenmitgliedschaft im oberen Navigationsbereich aufrufen.  Sie sollten Folgendes sehen:
 
 - Beliebige Event Edge (innerhalb der letzten 15 Minuten)
 - Beliebiges Ereignis-Streaming (innerhalb der letzten Stunde)

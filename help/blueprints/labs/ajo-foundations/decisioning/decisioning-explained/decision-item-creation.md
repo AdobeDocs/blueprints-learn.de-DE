@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Erstellung von Entscheidungselementen
 description: Erfahren Sie, wie sich die Attribute von Entscheidungselementen von den Eignungseinstellungen unterscheiden, und lernen Sie außerdem die Leitplanke auf Organisationsebene für Entscheidungselemente und Impressions im Vergleich zu Entscheidungsereignissen kennen.
 doc-type: article
 solution: Experience Platform
 exl-id: 28752ac1-118c-41d9-af6a-9907f854df1e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

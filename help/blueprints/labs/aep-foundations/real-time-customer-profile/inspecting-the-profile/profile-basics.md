@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Profilgrundlagen
 description: Erkunden Sie das Profilvereinigungsschema, suchen Sie ein Profil in der Benutzeroberfläche und überprüfen Sie seine Attribute, Identitätszuordnung und Identitätsdiagramm-Beziehungen.
 doc-type: article
 solution: Experience Platform
 exl-id: 5be38b40-47ef-42ce-8829-39fa09394716
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 0%
@@ -36,7 +35,7 @@ Sie können das Vereinigungsschema des Profils wie folgt anzeigen:
 
 Klicken Sie auf **Konto** Objekt und beachten Sie, was in der rechten Leiste des Bildschirms angezeigt wird. Sie können jetzt die Details zum Objekt sehen, welche Schemas und Datensätze zu seiner Erstellung beigetragen haben sowie andere relevante Informationen.
 
-![Details in der rechten Leiste für das Kontoobjekt mit Details zu beitragenden Schemas und &#x200B;](assets/profile-basics-union-schema-account-object-details.png "/Profilvereinigungsschemakontos")
+![Details in der rechten Leiste für das Kontoobjekt mit Details zu beitragenden Schemas und ](assets/profile-basics-union-schema-account-object-details.png "/Profilvereinigungsschemakontos")
 
 >[!NOTE]
 >
@@ -236,7 +235,7 @@ Dies ist eine Darstellung aller übergebenen Identitäten, unabhängig davon, ob
 
 Navigieren Sie zurück zur Registerkarte **Detail** in der oberen Navigationsleiste und klicken Sie auf den **Identitätsdiagramm anzeigen** Link unten auf der Karte **Verknüpfte Identitäten** .
 
-![Link zum Identitätsdiagramm unten auf der Karte „Verknüpfte Identitäten“ auf der Registerkarte „Details“ &#x200B;](assets/profile-basics-view-identity-graph-link.png "Identitätsdiagramm anzeigen")
+![Link zum Identitätsdiagramm unten auf der Karte „Verknüpfte Identitäten“ auf der Registerkarte „Details“ ](assets/profile-basics-view-identity-graph-link.png "Identitätsdiagramm anzeigen")
 
 Dieser Bildschirm sollte nun angezeigt werden.
 
@@ -263,7 +262,7 @@ Zeigen Sie stattdessen das Identitätsdiagramm von Depeche Mode mit der customer
 1. Fügen Sie den Wert **customerID** ein, den Sie im vorherigen Schritt gespeichert haben.
 1. Klicken Sie auf **Ansicht**, um das Identitätsdiagramm anzuzeigen, das diese Identität enthält, indem Sie den neuen Identitätswert verwenden
 
-![Identitätsdiagramm-Ansicht, die dasselbe Diagramm nach der Suche nach der customerID anstelle der &#x200B;](assets/profile-basics-identity-graph-view-via-customerid.png "-Identitätsdiagramm-Ansicht über die customerID anzeigt")
+![Identitätsdiagramm-Ansicht, die dasselbe Diagramm nach der Suche nach der customerID anstelle der ](assets/profile-basics-identity-graph-view-via-customerid.png "-Identitätsdiagramm-Ansicht über die customerID anzeigt")
 
 >[!NOTE]
 >
@@ -285,7 +284,7 @@ Kehren Sie zum Profil-Viewer zurück und suchen Sie jetzt im Depeche-Modus mit d
 
 Sie sollten dasselbe Profil sehen, das Sie gerade angesehen haben!
 
-![Depeche-Modus-Profildetailseite nach dem Suchen nach „customerID“, die mit den früheren Profildetails &#x200B;](assets/profile-basics-depeche-mode-profile-details-via-customerid.png " E-Mail-Suche/Depeche-Modus übereinstimmt")
+![Depeche-Modus-Profildetailseite nach dem Suchen nach „customerID“, die mit den früheren Profildetails ](assets/profile-basics-depeche-mode-profile-details-via-customerid.png " E-Mail-Suche/Depeche-Modus übereinstimmt")
 
 >[!NOTE]
 >

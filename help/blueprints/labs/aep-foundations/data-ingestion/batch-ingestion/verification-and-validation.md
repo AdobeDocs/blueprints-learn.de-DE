@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Überprüfung und Validierung
 description: Zeigen Sie eine Vorschau eines aufgenommenen Datensatzes in der Benutzeroberfläche an und führen Sie SQL-Abfragen aus, um im Batch aufgenommene Datensätze und verschachtelte Schemafelder zu überprüfen.
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%

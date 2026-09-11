@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Beheben von Fehlern
 description: Korrigieren Sie einen berechneten Feldausdruck für einen Fehler bei der Datumsformatierung und bestätigen Sie dann den Erfolg mithilfe der Metriken zur Überwachung von Quellen, Identitäten und Profilen .
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -41,7 +40,7 @@ concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("
 
 Nach einigen Minuten sollte der Datenfluss ausgeführt werden und Sie sollten Erfolg sehen!
 
-![Datenflussausführungsstatus, der eine erfolgreiche Aufnahme &#x200B;](assets/fixing-errors-successful-customer-account-ingestion.png " Kundenkontos anzeigt")
+![Datenflussausführungsstatus, der eine erfolgreiche Aufnahme ](assets/fixing-errors-successful-customer-account-ingestion.png " Kundenkontos anzeigt")
 
 
 
@@ -54,7 +53,7 @@ Nach einigen Minuten sollte der Datenfluss ausgeführt werden und Sie sollten Er
    - **Fehlgeschlagene Datensätze:** Hier sollte eine 0 angezeigt werden. Dies stellt die Gesamtzahl der Aufnahme- und DCVS-Fehler dar. Die MAPPER-Warnungen werden ausgeschlossen.
    - **Aufnahmegeschwindigkeit:** Dies ist das Verhältnis zwischen den aufgenommenen und den empfangenen Datensätzen. 100 % der eingegangenen Datensätze wurden erfolgreich verarbeitet
 
-![Quellenkarte im Überwachungsbildschirm mit Metriken zur Aufnahme von Datensätzen, die empfangen, aufgenommen &#x200B;](assets/fixing-errors-sources-ingestion-metrics.png " fehlgeschlagen wurden")
+![Quellenkarte im Überwachungsbildschirm mit Metriken zur Aufnahme von Datensätzen, die empfangen, aufgenommen ](assets/fixing-errors-sources-ingestion-metrics.png " fehlgeschlagen wurden")
 
 >[!NOTE]
 >

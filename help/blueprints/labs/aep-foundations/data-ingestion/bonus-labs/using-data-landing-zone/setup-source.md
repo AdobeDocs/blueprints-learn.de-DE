@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Einrichten der Quelle
 description: Laden Sie eine Beispieldatei für das Kundenkonto in die Data Landing Zone hoch und konfigurieren Sie einen neuen Datenfluss aus der Cloud-Speicherquelle.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -20,7 +19,7 @@ ht-degree: 0%
 Sie müssen eine Beispieldatendatei über den Azure Storage Explorer in Ihre Data Landing Zone hochladen, damit Sie sie im Labor verwenden können.  Gehen Sie dazu wie folgt vor:
 
 1. Herunterladen der [Beispieldateien](../../sample-files.md)
-1. Ziehen Sie die Datei „Lab\_&#x200B;**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Data Landing Zone hoch, die Sie im vorherigen Schritt gespeichert haben.
+1. Ziehen Sie die Datei „Lab\_**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Data Landing Zone hoch, die Sie im vorherigen Schritt gespeichert haben.
 
 Nach dem Hochladen sollte Ihr Bildschirm wie im folgenden Screenshot aussehen.
 
@@ -59,7 +58,7 @@ Nach dem Hochladen sollte Ihr Bildschirm wie im folgenden Screenshot aussehen.
 
 
 
-![&#x200B; Felder „ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ werden in der Datei „PREVIEW](assets/setup-source-account-create-date-account-end-date.png "ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ angezeigt")
+![ Felder „ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ werden in der Datei „PREVIEW](assets/setup-source-account-create-date-account-end-date.png "ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ angezeigt")
 
 >[!NOTE]
 >

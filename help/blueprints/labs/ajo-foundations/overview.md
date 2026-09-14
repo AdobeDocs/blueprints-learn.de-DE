@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## Voraussetzungen
 
-Wenn Sie dieses Bootcamp in Ihrem eigenen Tempo durchlaufen, benötigen zwei Labs im Voraus arrangierte externe Konten: **E-Mail-Kanäle konfigurieren** benötigt eine Subdomain, die an Adobe delegiert ist, und **Flaggschiff-Telefonstart** benötigt SMS-Anmeldeinformationen. Einzelheiten finden [ unter ](setup.md).
+Wenn Sie dieses Bootcamp in Ihrem eigenen Tempo durchlaufen, benötigen zwei Labs im Voraus arrangierte externe Konten: **E-Mail-Kanäle konfigurieren** benötigt eine Subdomain, die an Adobe delegiert ist, und **Flaggschiff-Telefonstart** benötigt SMS-Anmeldeinformationen. Einzelheiten finden [&#x200B; unter &#x200B;](setup.md).
 
 
 ## Einführung

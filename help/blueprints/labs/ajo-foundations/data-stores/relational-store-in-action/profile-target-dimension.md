@@ -4,23 +4,21 @@ description: Erfahren Sie, wie Sie ein relationales Schemafeld als Identität ke
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 
 # Profil - Target Dimension
 
 ## Ziel
 
-Im nächsten Schritt navigieren Sie in der Benutzeroberfläche , um das Schema anzuzeigen und die Identität einzurichten. Als Nächstes richten Sie die Dimension Profilzielgruppe ein. Dies ist der Entitätstyp, auf den sich die Kampagne bezieht und der mit dem AEP-Profil für den Versand in Einklang steht.
+Im nächsten Schritt navigieren Sie in der Benutzeroberfläche , um das Schema anzuzeigen und die Identität einzurichten. Als Nächstes richten Sie die Zielgruppenprofil-Dimension ein. Dies ist der Entitätstyp, auf den sich die Kampagne bezieht und der mit dem AEP-Profil für den Versand in Einklang steht.
 
-## Warum das wichtig ist
+## Warum diese Konfiguration wichtig ist
 
-Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Daten zwischen dem Echtzeit-Kundenprofil und dem relationalen Speicher verbunden werden können. Die Bestandteile dieser Konfiguration sind wie folgt:
+Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Daten zwischen dem Echtzeit-Kundenprofil und dem relationalen Speicher verbunden werden können. Diese Konfiguration umfasst die folgenden Komponenten:
 
 - Ein relationales Schema
 - Ein einzelnes Feld aus dem relationalen Schema
@@ -28,7 +26,7 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 >[!CAUTION]
 >
->Ohne diese Konfiguration können keine Zielgruppen gelesen oder freigegeben werden, und es können auch keine Nachrichten aus orchestrierten Kampagnen gesendet werden
+>Diese Konfiguration muss vorhanden sein, bevor Sie Audiences lesen oder freigeben oder Nachrichten aus orchestrierten Kampagnen senden können
 
 ## Kennzeichnen der Identität
 
@@ -100,7 +98,7 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 >
 >Der Name des erstellten Datensatzes ist eine Verkettung aus dem Schemanamen *(dep-rel: Kundenkonto)* und dem Feld mit der *(customer\_id)*
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch! Damit ist der Erstellungsschritt von Profile Target Dimension im Labor abgeschlossen.
 
@@ -108,4 +106,4 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 Sie haben jetzt gesehen, wie einfach es ist, im Schema zu navigieren, ein Attribut als Identität zu markieren und die Profilzielgruppen-Dimension zu erstellen.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) wenn Sie Interesse haben.

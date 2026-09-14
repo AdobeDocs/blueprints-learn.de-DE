@@ -4,19 +4,21 @@ description: Konfigurieren Sie zwei E-Mail-Kanalkonfigurationen für orchestrier
 doc-type: overview-page
 solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '138'
 ht-degree: 0%
-
 ---
-
 
 # E-Mail-Kanäle konfigurieren
 
+>[!CAUTION]
+>
+>Dieses Lab erfordert eine Subdomain, die in Ihrer Sandbox an Adobe delegiert ist. Wenn Sie Ihr Tempo selbst bestimmt haben und noch keine eingerichtet haben, lesen Sie [Setup](../../setup.md), bevor Sie fortfahren. Dieser Schritt kann bis zu drei Stunden dauern.
+
 ## Labor-Übersicht
 
-In diesem Video erfahren Sie, wie Sie die beiden in diesem Labor verwendeten E-Mail-Kanalkonfigurationen erstellen - eine mit einem AEP-Profilattribut und eine mit einem relationalen Schemaattribut als Ausführungsadresse.
+In diesem Video erstellen Sie die beiden in diesem Labor verwendeten E-Mail-Kanalkonfigurationen: eine mit einem AEP-Profilattribut und eine mit einem relationalen Schemaattribut als Ausführungsadresse.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486540/)
 

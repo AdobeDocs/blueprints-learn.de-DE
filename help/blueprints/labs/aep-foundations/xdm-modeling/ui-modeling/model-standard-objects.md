@@ -4,13 +4,11 @@ description: Erstellen Sie ein Schema „Individuelles Profil“ in der Benutzer
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '990'
 ht-degree: 0%
-
 ---
-
 
 # Standardobjekte modellieren
 
@@ -52,7 +50,7 @@ ht-degree: 0%
 
 ## Benennen des Schemas
 
-Mit klassenbasierten XDM Individual Profile-Schemata können Sie Attribute über eine Person erfassen, die mit dem Profil verknüpft wird. Die Klasse selbst enthält Felder, die nicht bearbeitet werden können, *modifiedByBatchID*, *PersonID* usw.
+Mit klassenbasierten XDM Individual Profile-Schemata können Sie Attribute über eine Person erfassen, die mit dem Profil verknüpft sind. Die Klasse selbst enthält Felder, die nicht bearbeitet werden können, *modifiedByBatchID*, *PersonID* usw.
 
 1. Geben Sie Ihrem Schema einen Namen und eine Beschreibung.
    - **Anzeigename des Schemas** —> *Kundenkonto - \[Ihre Initialen]*
@@ -63,7 +61,7 @@ Mit klassenbasierten XDM Individual Profile-Schemata können Sie Attribute über
 
 ## Hinzufügen der Feldergruppe „Demografische Details“
 
-Es gibt viele Feldergruppen, die als Standard-XDM in Adobe Experience Platform vorhanden sind, die Sie Ihrem Schema hinzufügen und anpassen können.
+Es gibt viele Feldergruppen, die als Standard-XDM in Adobe Experience Platform vorhanden sind, sodass Sie sie Ihrem Schema hinzufügen und anpassen können.
 
 1. Klicken Sie auf **+ (Hinzufügen** in der linken Leiste im Abschnitt Feldergruppe .
 
@@ -73,7 +71,7 @@ Es gibt viele Feldergruppen, die als Standard-XDM in Adobe Experience Platform v
 
 1. Suchen Sie nach **Demografische Details** oder finden Sie sie in der Liste.
 
-   - Wenn Sie die Feldergruppe gefunden haben, klicken Sie auf die Lupe rechts neben der Feldergruppe, um deren Struktur anzuzeigen.  Dies ist eine nützliche Möglichkeit, eine Vorschau dessen anzuzeigen, was Sie Ihrem Schema hinzufügen möchten, ohne es tatsächlich hinzuzufügen.
+   - Wenn Sie die Feldergruppe gefunden haben, klicken Sie auf die Lupe rechts neben der Feldergruppe, um deren Struktur anzuzeigen.  Dieser Schritt ist nützlich, um eine Vorschau dessen anzuzeigen, was Sie Ihrem Schema hinzufügen möchten, ohne es hinzuzufügen.
    - Vorschau nach Überprüfung schließen
 
 
@@ -84,7 +82,7 @@ Es gibt viele Feldergruppen, die als Standard-XDM in Adobe Experience Platform v
 
 
 
-&#x200B;3. **Aktivieren** das Kontrollkästchen neben der Feldergruppe und klicken Sie dann auf die Schaltfläche **Feldergruppen hinzufügen**
+3. **Aktivieren** das Kontrollkästchen neben der Feldergruppe und klicken Sie dann auf die Schaltfläche **Feldergruppen hinzufügen**
 
 ![Wählen Sie die Feldergruppe Demografische Details aus, um sie zu Ihrem Schema hinzuzufügen](assets/model-standard-objects-select-demographic-details-field-group.png "Wählen Sie die Feldergruppe Demografische Details aus, um sie zu Ihrem Schema hinzuzufügen")
 
@@ -96,7 +94,7 @@ Sie müssen Ihrem Schema zusätzliche Standardfeldgruppen hinzufügen. Wiederhol
 - Persönliche Kontaktdaten
 - Details zu Einverständnis und Voreinstellungen
 
-Wenn Sie fertig sind, sollte Ihr Schema wie das folgende Bild aussehen, wenn Sie fertig sind. Klicken Sie unbedingt auf die Schaltfläche **Speichern** und speichern Sie Ihre Arbeit!
+Wenn Sie fertig sind, sieht Ihr Schema wie in der Abbildung unten aus. Klicken Sie unbedingt auf die Schaltfläche **Speichern** und speichern Sie Ihre Arbeit!
 
 ![Schema nach dem Hinzufügen von demografischen Details, persönlichen Kontaktdetails und Einverständnis- und Präferenzdetails](assets/model-standard-objects-final-schema-after-adding-field-groups.png "Endgültiges Schema nach dem Speichern von ")
 
@@ -120,7 +118,7 @@ Die Feldergruppe Demografische Details enthält viele Felder, aber basierend auf
 - person.bornDayAndMonth
 - person.BirthYear
 
-Zum Entfernen von Feldern aus einer Adobe-Standardfeldgruppe können Sie die Option **Verwandte Felder verwalten** verwenden. Mit „Verknüpfte Felder verwalten“ können Sie Standardfelder aus Ihrem Schema entfernen, sodass Sie nur die benötigten Felder behalten.
+Um Felder aus einer Adobe-Standardfeldgruppe zu entfernen, verwenden Sie die Option **Verwandte Felder verwalten**. Mit „Verknüpfte Felder verwalten“ können Sie Standardfelder aus Ihrem Schema entfernen, sodass nur die benötigten Felder verbleiben.
 
 1. Wählen Sie das **Person**-Objekt in Ihrem Schema aus
 1. Klicken Sie auf **Verknüpfte Felder verwalten** in der rechten Leiste
@@ -136,7 +134,7 @@ Zum Entfernen von Feldern aus einer Adobe-Standardfeldgruppe können Sie die Opt
    - person.bornDayAndMonth
    - person.BirthYear
 
-   Wenn Sie fertig sind, klicken Sie auf die **Bestätigen**-Schaltfläche in der oberen rechten Ecke.
+   Wenn Sie fertig sind, klicken Sie auf die Schaltfläche **Bestätigen** in der oberen rechten Ecke.
 
    ![Dialogfeld „Verknüpfte Felder verwalten“ mit ausgewählten Personenfeldern „Demografische Details](assets/model-standard-objects-demographic-details-person-fields-dialog.png " „Verknüpfte Felder des Personenobjekts „Demografische Details“ verwalten")
 
@@ -146,7 +144,7 @@ Zum Entfernen von Feldern aus einer Adobe-Standardfeldgruppe können Sie die Opt
 
 
 
-1. Wenn Sie fertig sind, sollte das Objekt Person in Ihrem Schema angezeigt werden, wie unten dargestellt. Wenn alles gut aussieht, klicken Sie auf die Schaltfläche **Speichern**, um Ihr Schema zu speichern.
+1. Wenn Sie fertig sind, sollte das Objekt Person in Ihrem Schema angezeigt werden, wie unten dargestellt. Um Ihr Schema zu speichern, klicken Sie auf die Schaltfläche **Speichern**, wenn alles gut aussieht.
 
 ![Endgültige demografische Details Personenobjekt mit nur den erforderlichen Feldern](assets/model-standard-objects-final-demographic-details-person-object.png "Endgültige demografische Details -Feldergruppe mit nur den erforderlichen Feldern")
 
@@ -168,10 +166,10 @@ Führen Sie dieselben Schritte wie zuvor aus, aber dieses Mal für die Feldergru
 
 
 
-Wenn Sie fertig sind, sollte Ihr endgültiges Schema jetzt wie folgt aussehen.  Klicken Sie unbedingt auf **Speichern**, bevor Sie fortfahren.
+Wenn Sie fertig sind, sieht Ihr endgültiges Schema jetzt wie folgt aus. Klicken Sie unbedingt auf **Speichern**, bevor Sie fortfahren.
 
 ![Schema nach der Verwaltung verwandter Felder für die Feldergruppe „Einverständnis“ und „Voreinstellungen](assets/model-standard-objects-final-consent-and-preferences-fields.png "Verwaltet verwandter Felder für die Feldergruppe „Einverständnis“ und „Voreinstellungen“")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Sie haben nun das Hinzufügen von Standardkomponenten zu Ihrem Schema abgeschlossen. Gut gemacht! Fahren Sie mit dem Erstellen einiger benutzerdefinierter Attribute für Ihr Schema fort.

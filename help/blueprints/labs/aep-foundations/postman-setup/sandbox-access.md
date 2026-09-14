@@ -4,17 +4,15 @@ description: Überprüfen Sie, ob Ihre Postman-Umgebung Ihre zugewiesene Experie
 doc-type: article
 solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
-
 ---
-
 
 # Sandbox-Zugriff
 
-Bevor Sie fortfahren, überprüfen Sie erneut, ob der Zugriff rechtmäßig ist. Führen Sie die folgenden Schritte aus:
+Bevor Sie fortfahren, überprüfen Sie erneut, ob Ihr Zugriff gültig ist. Führen Sie die folgenden Schritte aus:
 
 1. Öffnen Sie den Ordner mit dem Titel `Check Sandbox Access` und klicken Sie auf den Aufruf mit dem Titel `Retrieve Your Sandbox`
 1. Als Nächstes sehen Sie in der oberen rechten Ecke von Postman ein Dropdown-Feld Umgebung .  Wählen Sie unbedingt die `AEP Bootcamp` Umgebung aus
@@ -32,6 +30,6 @@ Eine erfolgreiche Antwort sieht wie folgt aus:
 >
 >Der **name**-Wert sollte mit der Variablen „sandbox\_name“ in Ihrer Postman-Umgebung übereinstimmen
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie können jetzt mit der Verwendung der Experience Platform-APIs beginnen

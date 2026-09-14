@@ -4,19 +4,17 @@ description: Importieren Sie die Postman-Umgebungsdatei und legen Sie globale Va
 doc-type: article
 solution: Experience Platform
 exl-id: a5d45656-e3f5-4207-823c-ad33d4ef26a4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 
 # Umgebungsdatei importieren
 
 ## Ziel
 
-Auf dieser Seite importieren Sie die Postman-Umgebungsdatei.  Diese Datei enthält eine Reihe globaler Variablen, die in verschiedenen API-Aufrufen verwendet werden, die Sie in anderen Labors im gesamten Bootcamp ausführen werden.
+Auf dieser Seite importieren Sie die Postman-Umgebungsdatei.  Diese Datei enthält eine Reihe globaler Variablen, die in verschiedenen API-Aufrufen verwendet werden, die Sie in anderen Labs im gesamten Bootcamp ausführen.
 
 ## Umgebungsdatei importieren
 
@@ -25,11 +23,11 @@ Auf dieser Seite importieren Sie die Postman-Umgebungsdatei.  Diese Datei enthä
    Datei herunterladen - [AJO Bootcamp.postman_environment.json](assets/ajo-bootcamp.postman_environment.json)
 
 2. Starten Sie Postman auf Ihrem lokalen Computer.
-3. Wechseln Sie ggf. zu der Workspace, die Sie für diese Labs verwenden (wenn Sie überhaupt eine Workspace verwenden), und klicken Sie auf die Schaltfläche **Importieren**.
+3. Wechseln Sie ggf. zu der Workspace, die Sie für diese Labs verwenden, und klicken Sie auf die Schaltfläche **Importieren**.
 
    ![Postman-Import beginnen](assets/import-environment-file-click-import-button.png)
 
-4. Fügen Sie die lokale URL der Datei **AJO Bootcamp.postman\_environment.json** in das Textfeld „Modal importieren“ ein oder legen Sie sie im Dialogfeld „Importieren“ ab.  Dadurch sollte ein automatischer Import Trigger werden
+4. Fügen Sie die lokale URL der Datei **AJO Bootcamp.postman\_environment.json** in das Textfeld „Modal importieren“ ein oder legen Sie sie im Dialogfeld „Importieren“ ab.  Diese Aktion Trigger einen automatischen Import
 
    ![Postman-Importdialogfeld mit Option zum Einfügen einer Datei-URL](assets/import-environment-file-import-button-overlay.png "Postman-Import über URL")
 
@@ -41,7 +39,7 @@ Auf dieser Seite importieren Sie die Postman-Umgebungsdatei.  Diese Datei enthä
 
 ## Festlegen von Umgebungsvariablen
 
-Postman wurde für Tests und die Interaktion mit APIs entwickelt. Wir verwenden sie jedoch zur Simulation von AEP Web SDK-Treffern über einen Browser oder für Server-seitige Echtzeit-Datenerfassungsaufrufe. Hierbei handelt es sich zwar noch um API-Aufrufe im strengsten Sinne des Begriffs, sie sind jedoch keine typischen API-Aufrufe, für die Dinge wie Autorisierungs-Token in der -Kopfzeile erforderlich sind. Die Umgebungsvariablen in diesen Labs werden hauptsächlich für Variablen in URL-Pfaden verwendet (wobei eine Variable in einer Kopfzeile verwendet wird).
+Postman wurde für Tests und die Interaktion mit APIs entwickelt. Dieses Labor verwendet sie jedoch zur Simulation von AEP Web SDK-Treffern über einen Browser oder für Server-seitige Echtzeit-Datenerfassungsaufrufe. Diese Anfragen sind zwar technisch gesehen API-Aufrufe, sie sind jedoch keine typischen API-Aufrufe, für die Dinge wie Autorisierungs-Token in der -Kopfzeile erforderlich sind. Die Umgebungsvariablen in diesen Labs werden hauptsächlich für Variablen in URL-Pfaden verwendet (wobei eine Variable in einer Kopfzeile verwendet wird).
 
 1. Klicken Sie ggf. auf die Registerkarte **Umgebungen** in der linken Seitenleiste von Postman
 2. Klicken Sie auf die Umgebungsdatei **AJO Bootcamp**. Es werden einige Werte angezeigt, die Sie ausfüllen müssen
@@ -60,16 +58,16 @@ Postman wurde für Tests und die Interaktion mit APIs entwickelt. Wir verwenden 
    | Japan | jpn3 |
    | Asien | spg3 |
 
-   Wenn Sie fertig sind, sollte Ihre Umgebungsdatei in etwa wie folgt aussehen:
+   Wenn Sie fertig sind, sieht Ihre Umgebungsdatei in etwa so aus:
 
 
 
    ![Überprüfen der Postman-Regionsvariablen](assets/import-environment-file-region-variable-set.png)
 
-5. Sie müssen jetzt Ihre Umgebungsvariablen speichern. Es gibt jedoch keine Schaltfläche zum Speichern in der Postman-Benutzeroberfläche. Verwenden Sie die Windows- oder Mac-Hotkeys zum Speichern (z. B. Strg+S unter Windows). Wenn unten rechts in der Benutzeroberfläche von Postman die Meldung **Änderungen gespeichert** angezeigt wird, ist ersichtlich, dass die Änderungen gespeichert wurden:
+5. Sie müssen jetzt Ihre Umgebungsvariablen speichern. Es gibt jedoch keine Schaltfläche zum Speichern in der Postman-Benutzeroberfläche. Verwenden Sie die Windows- oder Mac-Hotkeys zum Speichern (z. B. Strg+S unter Windows). Wenn unten rechts in der Benutzeroberfläche von Postman die Meldung **Änderungen gespeichert** angezeigt wird, wissen Sie, dass Ihre Änderungen gespeichert wurden:
 
 ![Überprüfen der gespeicherten Änderungen](assets/import-environment-file-changes-saved-confirmation.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch! Sie haben die Postman-Umgebungsdatei vervollständigt

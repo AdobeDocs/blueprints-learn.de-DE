@@ -4,23 +4,21 @@ description: Erfahren Sie, wie Sie eine orchestrierte Kampagne im Testmodus ausf
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 
 # Testen der Kampagne
 
 ## Ziel
 
-In den nächsten Schritten führen Sie die Kampagne im Testmodus aus, um die Kampagnenfunktionen vor der Veröffentlichung der Kampagne wie erwartet zu bestätigen. In diesem Fall sendet der Testmodus zwar keine E-Mails, hilft aber bei der Überprüfung des gesamten Flusses und der frühzeitigen Erkennung von Problemen.
+In den nächsten Schritten führen Sie die Kampagne im Testmodus aus, um die Kampagnenfunktionen vor der Veröffentlichung der Kampagne wie erwartet zu bestätigen. In diesem Fall sendet der Testmodus keine E-Mails, aber er hilft, den gesamten Fluss zu überprüfen und Probleme frühzeitig zu identifizieren.
 
 ## Starten des Workflows
 
-1. Nachdem die beiden E-Mail-Flüsse konfiguriert wurden, sieht die Kampagne wie folgt aus. Klicken Sie auf **Start**, um die Kampagne im **Testmodus“**
+1. Nachdem die beiden E-Mail-Flüsse konfiguriert wurden, sieht die Kampagne wie folgt aus. Klicken Sie auf **Start**, um die Kampagne im **Testmodus** auszuführen
 
    ![Klicken Sie auf Start , um die Kampagne im Testmodus auszuführen](assets/test-the-campaign-click-start-test-mode.png)
 
@@ -30,7 +28,7 @@ In den nächsten Schritten führen Sie die Kampagne im Testmodus aus, um die Kam
 
 
 
-2. Die Testausführung aller Kampagnenaktivitäten wird gestartet. Überprüfen Sie die Ergebnisse
+2. Die Testausführung aller Kampagnenaktivitäten wird gestartet. Überprüfen der Ergebnisse
 
 ![Testen der Ausführung von Kampagnenaktivitäten läuft](assets/test-the-campaign-verify-execution-results.png)
 
@@ -52,11 +50,11 @@ In den nächsten Schritten führen Sie die Kampagne im Testmodus aus, um die Kam
 
    >[!NOTE]
    >
-   >Möglicherweise müssen Sie die Seite einige Male aktualisieren, um das endgültige Testergebnis anzuzeigen.
+   >Aktualisieren Sie die Seite bei Bedarf einige Male, um das endgültige Testergebnis anzuzeigen.
 
 
 
-4. Sobald der E-Mail-Test abgeschlossen ist, werden die Ergebnisse angezeigt. Es gibt einen Prozentsatz von Fehlern. Klicken Sie auf **Mehr anzeigen** um den Grund zu erfahren.
+4. Sobald der E-Mail-Test abgeschlossen ist, werden die Ergebnisse angezeigt. Es gibt einen Prozentsatz von Fehlern. Klicken Sie auf **Mehr anzeigen**, um die Gründe dafür anzuzeigen.
 
    ![Fehlerrate mit Link „Mehr anzeigen“](assets/test-the-campaign-error-rate-view-more.png)
 
@@ -98,9 +96,9 @@ In den nächsten Schritten führen Sie die Kampagne im Testmodus aus, um die Kam
 
 ## Workflow anhalten
 
-Klicken Sie auf die **Stopp**-Schaltfläche, um den **Testmodus** für die Kampagne zu stoppen
+Um den **Testmodus) für** Kampagne zu stoppen, klicken Sie auf die Schaltfläche **Stoppen**
 
->[!TIP]
+>[!SUCCESS]
 >
 >Beide E-Mail-Kanalkonfigurationen wurden innerhalb derselben Kampagne getestet und es wurden Unterschiede zwischen der Verwendung eines AEP-Profilattributs und der Verwendung der Target-Dimension in der E-Mail-Kanalkonfiguration beobachtet.
 >
@@ -110,4 +108,4 @@ Klicken Sie auf die **Stopp**-Schaltfläche, um den **Testmodus** für die Kampa
 
 Sie haben nun gesehen, wie Sie die erstellte Kampagne testen können, um den Fluss und das Verhalten zu verstehen. Hier wurden die Feinheiten der Verwendung der verschiedenen Einstellungen für die E-Mail-Kanal-Konfiguration während der Ausführung des Testflusses gut verstanden.
 
-Weitere Informationen zum Testmodus der Kampagne finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), falls Sie Interesse haben.
+Weitere Informationen zum Testmodus der Kampagne [ Sie (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) wenn Sie Interesse haben.

@@ -4,13 +4,11 @@ description: Verwenden Sie die Schema Registry-API, um einen Referenz-Identität
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # Planreferenz-Identität erstellen
 
@@ -53,22 +51,22 @@ NUR BEISPIEL
 
 
 
-&#x200B;3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
+3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
 
-&#x200B;4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
+4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
 
-Es sollte jetzt eine `201 Created` Antwort wie unten angezeigt werden
+Jetzt wird eine `201 Created` Antwort wie unten angezeigt
 
 ![201 Antwort nach dem Erstellen des Identitätsdeskriptors „dep: Plan-Lookup-Referenz](assets/create-plan-reference-identity-dep-plan-descriptor-result.png "dep: Plan-Lookup-Referenz-Identitätsdeskriptor“")
 
 >[!NOTE]
 >
->Für das Suchschema (d. h. sourceSchema) wird immer ein Referenz-Identitätsdeskriptor definiert
+>Ein Referenz-Identitätsdeskriptor wird immer für das Suchschema definiert (d. h. sourceSchema)
 
 >[!NOTE]
 >
->Referenz-Identitätsdeskriptoren werden automatisch im Backend erstellt, wenn Sie Beziehungen über die Schema-Benutzeroberfläche erstellen. **Sie müssen sie nur explizit erstellen, wenn Sie die APIs zum Erstellen von Schemas verwenden**
+>Referenz-Identitätsdeskriptoren werden automatisch auf dem Server erstellt, wenn Sie Beziehungen über die Schema-Benutzeroberfläche erstellen. **Sie müssen sie nur explizit erstellen, wenn Sie die APIs zum Erstellen von Schemas verwenden**
 
->[!TIP]
+>[!SUCCESS]
 >
->Fantastisch! Sie haben soeben alle erforderlichen Deskriptoren erstellt, um das `dep: Lookup Plan` Schema mit dem `Customer Account` Schema zu verknüpfen, und seine Referenzierung während der Batch-Segmentierung aktiviert
+>Fantastisch! Um das `dep: Lookup Plan` Schema mit dem `Customer Account` Schema zu verknüpfen und seine Referenzierung während der Batch-Segmentierung zu ermöglichen, haben Sie alle erforderlichen Deskriptoren erstellt

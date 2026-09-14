@@ -4,13 +4,11 @@ description: Verwenden Sie Postman sowie den Streaming-Endpunkt und die Datenflu
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # Profil streamen
 
@@ -61,7 +59,7 @@ Einige wichtige Elemente, die in der obigen Aufforderung zu beachten sind:
 | Anfrage-URL (d. h. Speicherort) | - | Dies ist die URL des von Ihnen erstellten HTTP-API-Quellkontos, auf das die Streaming-Daten verweisen. **Es ist immer vom Typ POST** |
 | Kopfzeile &#39;Content-Type&#39; | * | Die Einstellung ist immer `application/json`, da die gesendeten Daten im JSON-Format vorliegen |
 | Kopfzeile „x-adobe-flow-id“ | - | Festgelegt auf die vom Quell-Connector erstellte Datenfluss-ID |
-| Header &#39;Authorization&#39; | * | Optionaler Wert, wird aber aus Sicherheitsgründen dringend empfohlen. Dies ist der gleiche `access_token`, den Sie während des [Postman-Setups erstellt &#x200B;](../../postman-setup/environment-file.md). |
+| Header &#39;Authorization&#39; | * | Optionaler Wert, wird aber aus Sicherheitsgründen dringend empfohlen. Dies ist der gleiche `access_token`, den Sie während des [Postman-Setups erstellt ](../../postman-setup/environment-file.md). |
 | Hauptteilinhalt | - | Enthält die Daten, die tatsächlich an Adobe Experience Platform gesendet werden sollen |
 
 >[!NOTE]
@@ -72,7 +70,7 @@ Einige wichtige Elemente, die in der obigen Aufforderung zu beachten sind:
 
 ## Sammeln erforderlicher Werte
 
-Bevor Sie Daten streamen können, müssen Sie einige der oben aufgeführten erforderlichen Werte erfassen (d. h. speziell die URL des Streaming-Endpunkts und die „Header“-Werte für den Hauptteil des Inhalts).
+Bevor Sie Daten streamen, erfassen Sie die oben aufgeführten erforderlichen Werte (insbesondere die URL des Streaming-Endpunkts und die „Header“-Werte des Textkörpers).
 
 Führen Sie die folgenden Schritte aus:
 
@@ -101,7 +99,7 @@ Führen Sie die folgenden Schritte aus:
 
 ## Aktualisieren der API-Anfrage
 
-Wechseln Sie zu Ihrer Postman-Anwendung und aktualisieren Sie die Anfrage „Kundenkonto erstellen“ mit den soeben erfassten Informationen.
+Wechseln Sie zu Ihrer Postman-Anwendung und aktualisieren Sie die Anfrage „Kundenkonto erstellen“ mit den erfassten Informationen.
 
 1. Öffnen Sie Postman und navigieren Sie zur **Datenaufnahme-Lab > Kundenkonto erstellen** API-Anfrage und öffnen Sie sie
 
@@ -136,7 +134,7 @@ Wechseln Sie zu Ihrer Postman-Anwendung und aktualisieren Sie die Anfrage „Kun
 
 
 
-1. Sie sollten eine `200 OK` erhalten, die angibt, dass sie erfolgreich vom Adobe Experience Platform empfangen wurde
+1. Sie erhalten eine `200 OK` Antwort, die angibt, dass die Adobe Experience Platform sie erfolgreich erhalten hat
 
 Beispielantwort 200 OK
 
@@ -151,8 +149,8 @@ Beispielantwort 200 OK
 
 >[!NOTE]
 >
->Beachten Sie die **xactionId** in der Antwort.  Wenn jemals ein Fehler auftritt, bei dem kein Datensatz aufgenommen wird, sollte dieser stets als Teil eines Support-Tickets bereitgestellt werden, da es sich dabei um einen Aufzählungszeichen handelt, das von unseren Support-Teams verwendet wird, um Umgebungsprobleme zu debuggen
+>Beachten Sie die **xactionId** in der Antwort.  Wenn jemals ein Fehler auftritt, bei dem kein Datensatz aufgenommen wird, sollte dieser stets als Teil eines Support-Tickets bereitgestellt werden, da dies eine wichtige Referenz ist, die von unseren Support-Teams verwendet wird, um Probleme in der Umgebung zu debuggen
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie haben einen Profildatensatz erfolgreich in Adobe Experience Platform gestreamt

@@ -4,19 +4,17 @@ description: Erfahren Sie, wie Sie einen E-Mail-Kanal mithilfe des E-Mail-Attrib
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 10%
-
+source-wordcount: '535'
+ht-degree: 3%
 ---
-
 
 # Konfigurieren von für relationale
 
 ## Ziel
 
-In den nächsten Schritten erstellen Sie eine E-Mail-Kanal-Konfiguration, die nur mit orchestrierten Kampagnen verwendet werden kann, indem Sie das Attribut `email` aus dem `dep-rel: Customer Account` Relationales Schema verwenden
+Im nächsten Schritt erstellen Sie eine E-Mail-Kanal-Konfiguration, die nur mit orchestrierten Kampagnen verwendet werden kann, indem Sie das Attribut `email` aus dem `dep-rel: Customer Account` Relationales Schema verwenden
 
 ## Kanalkonfiguration erstellen
 
@@ -52,6 +50,10 @@ Wählen Sie aus dem **Subdomain**-Dropdown **email.dep-labs.com**
 
 ![Subdomain-Dropdown mit email.dep-labs.com selected](assets/configure-for-profile-select-email-subdomain.png "configure Subdomain")
 
+>[!NOTE]
+>
+>Wenn Sie zum Selbststudium bereit sind und keine vorab bereitgestellte Subdomain haben, wählen Sie hier Ihre eigene Subdomain aus, die an Adobe delegiert wurde, anstatt `email.dep-labs.com`. Informationen [ Delegieren einer ](../../setup.md) finden Sie unter „Setup“.
+
 ## Konfigurieren von IP-Pool-Details
 
 Wählen Sie aus der Dropdown **Liste** IP-Pool“ **Marketing**
@@ -80,11 +82,11 @@ Wählen Sie aus der Dropdown **Liste** IP-Pool“ **Marketing**
 
 ## BCC-E-Mail konfigurieren
 
-Leer lassen
+Lassen Sie das Feld BCC-E-Mail leer
 
 >[!NOTE]
 >
->Eine Kopie der gesendeten E-Mails kann aufbewahrt werden, indem sie an einen BCC-Posteingang gesendet wird. Gewünschte E-Mail-Adresse eingeben, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Die Domain der BCC-Adresse muss sich von jeder an Adobe delegierten Subdomain unterscheiden. Diese Funktion ist optional. *Verwendung von BCC für E-Mails*
+>Um eine Kopie der gesendeten E-Mails zu behalten, senden Sie sie an einen BCC-Posteingang. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail auch an diese BCC-Adresse gesendet wird. Die Domain der BCC-Adresse muss sich von jeder an Adobe delegierten Subdomain unterscheiden. Diese Funktion ist optional. *Verwendung von BCC für E-Mails*
 
 ## Konfigurieren von E-Mail-Wiederholungsparametern
 
@@ -126,7 +128,7 @@ Mit den Standardeinstellungen verlassen
 
 >[!NOTE]
 >
->Bei orchestrierten Kampagnen sollten Sie das Kundenkonto mit einer E-Mail-Adresse ansprechen, sodass Sie nur eine Nachricht pro Target Dimension senden müssen.  Die verwendete Ausführungsadresse stammt aus der Target-Dimension selbst (d. h. was in der Tabelle **dep-rel: Kundenkonto** für **E-Mail** Adresse) gespeichert
+>Bei orchestrierten Kampagnen sollten Sie das Kundenkonto mit einer E-Mail-Adresse ansprechen, sodass Sie nur eine Nachricht pro Target Dimension senden müssen.  Die verwendete Ausführungsadresse stammt aus der Target-Dimension selbst (d. h., was in der Tabelle **dep-rel: Kundenkonto** für **E-Mail** Adresse) gespeichert
 
 
 ## Überprüfen und speichern

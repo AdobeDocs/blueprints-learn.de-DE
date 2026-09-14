@@ -1,9 +1,8 @@
 ---
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 5%
-
+source-wordcount: '475'
+ht-degree: 4%
 ---
 ﻿---
 title: Übersicht
@@ -26,9 +25,13 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 
 Wenn Sie diese Labs nicht abgeschlossen haben, tun Sie dies jetzt, bevor Sie fortfahren.
 
+>[!CAUTION]
+>
+>Dieses Lab erfordert eine Subdomain, die in Ihrer Sandbox an Adobe delegiert ist. Siehe [Setup](../setup.md), wenn Sie das Tempo selbst bestimmen und noch keine haben.
+
 ## Labor-Übersicht
 
-In diesem Video erfahren Sie, was Sie in den drei Akten dieses praktischen Labors erwarten können: Einrichten der Marke „Connection 5G“, Erstellen von Fragmenten, Vorlagen und einer KI-unterstützten E-Mail sowie deren Validierung durch Simulation und Testversand.
+In diesem Video erfahren Sie, was Sie in den drei Teilen dieses praktischen Labors erwarten können: Einrichten der Marke „Connection 5G“, Erstellen von Fragmenten und Vorlagen, Erstellen einer KI-unterstützten E-Mail und Validieren durch Simulation und Testversand.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
@@ -69,7 +72,7 @@ Markenrichtlinien definieren:
 - Schreibstil und -ton
 - Sprachregeln
 - Rechtliche Anforderungen
-- Visuelle Standards wie Farbe, Bilder und Ikonographie
+- Visuelle Standards (Farbe, Bild, Ikonografie)
 
 ### 3. Journeys
 
@@ -94,7 +97,7 @@ Vorlagen sind wiederverwendbare Strukturen für Kanäle, zum Beispiel:
 
 1. Öffnen Sie Adobe Journey Optimizer in Ihrem Browser.
 1. Melden Sie sich mit Ihren Anmeldedaten an.
-1. Sie landen auf dem Haupt-Dashboard.
+1. Das Haupt-Dashboard wird angezeigt.
 
 ### Suchen Sie das Hauptnavigationsmenü
 
@@ -114,7 +117,7 @@ Bevor Sie mit der Erstellung Ihrer Marke beginnen, werfen Sie einen kurzen Blick
 - Inhaltsvorlagen
 - Fragmente
 
-Klicken Sie auf jede dieser Optionen und machen Sie sich mit der Benutzeroberfläche vertraut. Dieses Labor geht jeden Abschnitt im Detail durch.
+Um sich mit der Benutzeroberfläche vertraut zu machen, wählen Sie jede aus. Dieses Labor geht jeden Abschnitt im Detail durch.
 
 ![Tools zur Inhaltserstellung einschließlich Assets, Inhaltsvorlagen und Fragmenten im Navigationsmenü](assets/overview-content-creation-tools-navigation-menu.png)
 

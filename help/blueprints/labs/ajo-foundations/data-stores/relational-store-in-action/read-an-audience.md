@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ mit ein
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
-
 ---
-
 
 # Zielgruppe lesen
 
@@ -108,7 +106,7 @@ Orchestrierte Kampagne verwendet das relationale Schema für alle Aktivitäten. 
 
    ![Menü Zielgruppenbestimmungsaktivitäten mit ausgewählter Aufspaltung](assets/read-an-audience-add-split-activity.png)
 
-6. Erweitern Sie im Detailbereich der Aktivität **Aufspaltung** die erste Aufspaltung namens „Teilmenge **&#x200B;**
+6. Erweitern Sie im Detailbereich der Aktivität **Aufspaltung** die erste Aufspaltung namens „Teilmenge ****
 
    ![Detailbereich der Aufspaltungsaktivität mit erweitertem Segment der Teilmenge](assets/read-an-audience-expand-subset-split.png)
 
@@ -128,11 +126,11 @@ Orchestrierte Kampagne verwendet das relationale Schema für alle Aktivitäten. 
 
 ![Aus den Spalten der Zielgruppendimension ausgewähltes Source-Attribut](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;11. Die unterschiedlichen Werte für die Source-Spalte sind in der Dropdown-Liste verfügbar. Wählen Sie für **Benutzerdefinierte Bedingung** aus der Dropdown-Liste die Option **„In Store“** und klicken Sie auf **Bestätigen**, um den Vorgang zu beenden
+11. Die unterschiedlichen Werte für die Source-Spalte sind in der Dropdown-Liste verfügbar. Wählen Sie für **Benutzerdefinierte Bedingung** aus der Dropdown-Liste die Option **„In Store“** und klicken Sie auf **Bestätigen**, um den Vorgang zu beenden
 
 ![Benutzerdefinierte Bedingung auf „In Store“ festgelegt](assets/read-an-audience-set-in-store-condition.png)
 
-&#x200B;12. Zurück im Detailbereich der Aktivität **Aufspaltung** sind die Einstellungen für die erste Aufspaltung abgeschlossen. Klicken Sie auf **Segment hinzufügen**, um die zweite Aufspaltung zu aktualisieren
+12. Zurück im Detailbereich der Aktivität **Aufspaltung** sind die Einstellungen für die erste Aufspaltung abgeschlossen. Klicken Sie auf **Segment hinzufügen**, um die zweite Aufspaltung zu aktualisieren
 
 ![Schaltfläche Segment hinzufügen im Detailbereich der Aufspaltungsaktivität](assets/read-an-audience-add-segment-button.png)
 
@@ -140,48 +138,48 @@ Ein neues Segment mit dem Namen **Ergebnis** wird erstellt
 
 ![Neues Segment mit dem Namen „Result“](assets/read-an-audience-new-result-segment.png)
 
-&#x200B;13. Benennen Sie &quot;**Ergebnis**&quot; in &quot;**Nicht im Speicher** um und klicken Sie auf **Filter erstellen**, um die Filterbedingung festzulegen
+13. Benennen Sie &quot;**Ergebnis**&quot; in &quot;**Nicht im Speicher** um und klicken Sie auf **Filter erstellen**, um die Filterbedingung festzulegen
 
 ![Segment wurde mit der Filteroption in „Nicht im Speicher“ umbenannt](assets/read-an-audience-rename-not-in-store-segment.png)
 
-&#x200B;14. Klicken Sie im **Filter erstellen** auf **Bedingung hinzufügen**. Folgen Sie demselben Ansatz wie oben, erweitern Sie die **Zielgruppendimension** indem Sie auf **>** klicken, wählen Sie dann `Source` aus der Liste aus und klicken Sie auf **Bestätigen**
+14. Klicken Sie im **Filter erstellen** auf **Bedingung hinzufügen**. Folgen Sie demselben Ansatz wie oben, erweitern Sie die **Zielgruppendimension** indem Sie auf **>** klicken, wählen Sie dann `Source` aus der Liste aus und klicken Sie auf **Bestätigen**
 
 ![Die Zielgruppendimension wurde erweitert, um relationale Speicherspalten anzuzeigen](assets/read-an-audience-expand-targeting-dimension.png)
 
 ![Aus den Spalten der Zielgruppendimension ausgewähltes Source-Attribut](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;15. Wählen Sie für **Benutzerdefinierte Bedingung** aus der Dropdown-Liste die Option **„In Store“** und wählen Sie für den Operator &quot;**ungleich**. Klicken Sie auf **Bestätigen**, um den Vorgang zu beenden
+15. Wählen Sie für **Benutzerdefinierte Bedingung** aus der Dropdown-Liste die Option **„In Store“** und wählen Sie für den Operator &quot;**ungleich**. Klicken Sie auf **Bestätigen**, um den Vorgang zu beenden
 
 ![Benutzerdefinierte Bedingung auf ungleich „In Store“ festgelegt](assets/read-an-audience-set-not-in-store-condition.png)
 
-&#x200B;16. Zurück im Detailbereich der Aktivität **Aufspaltung** sind die Einstellungen für die beiden Aufspaltungen abgeschlossen. Klicken Sie auf **Starten**, um die Kampagne im **Testmodus“**
+16. Zurück im Detailbereich der Aktivität **Aufspaltung** sind die Einstellungen für die beiden Aufspaltungen abgeschlossen. Klicken Sie auf **Starten**, um die Kampagne im **Testmodus“**
 
 ![Schaltfläche „Starten“ zum Ausführen der Kampagne im Testmodus nach der Konfiguration der Aufspaltung](assets/read-an-audience-start-test-mode-second-run.png)
 
-&#x200B;17. Die Testausführung beginnt, und die Ergebnisse werden nach Abschluss angezeigt. Da nur **7** übereinstimmende Zieldimensionen im relationalen Schema gefunden wurden, wird dieselbe Anzahl auch nach den Aufspaltungsvorgängen (**7** und **0**) beobachtet
+17. Die Testausführung beginnt, und die Ergebnisse werden nach Abschluss angezeigt. Da nur **7** übereinstimmende Zieldimensionen im relationalen Schema gefunden wurden, wird dieselbe Anzahl auch nach den Aufspaltungsvorgängen (**7** und **0**) beobachtet
 
 ![Ergebnisse der Aufspaltung mit Zahlen von 7 und 0](assets/read-an-audience-verify-split-counts.png)
 
-&#x200B;18. Klicken Sie auf jedes Ergebnisfeld und **Vorschau der Ergebnisse**, um die Ergebnisse anzuzeigen
+18. Klicken Sie auf jedes Ergebnisfeld und **Vorschau der Ergebnisse**, um die Ergebnisse anzuzeigen
 
 ![Option „Vorschau der Ergebnisse“ für jedes Teilungs-Ergebnisfeld](assets/read-an-audience-preview-split-results.png)
 
-&#x200B;19. Klicken Sie auf **Stoppen**, um den **Testmodus** der Kampagne zu stoppen
+19. Klicken Sie auf **Stoppen**, um den **Testmodus** der Kampagne zu stoppen
 
 ![Stopp-Taste zum Beenden des endgültigen Testmodus-Durchgangs](assets/read-an-audience-stop-test-mode-final.png)
 
 >[!NOTE]
 >
->Während beim Audience lesen **9** Profile angezeigt wurden. Da wir einen Filter für Source erstellt haben und das Feld &quot;Source&quot; im relationalen Speicher vorhanden ist, mussten wir den Profilspeicher mit dem relationalen Speicher verbinden, um ihn zu überprüfen. Als es über die Campaign Target Dimension mit dem relationalen Schema verbunden wurde, stimmten nur insgesamt **7** Profile überein. Diese **7** übereinstimmenden Kunden-IDs sind für die Verwendung in den folgenden Aktivitäten verfügbar, die versuchen, relationale Daten zu verwenden. Alle **7**-Kunden-IDs `Source` auf **„In Store“**, was durch die Aufspaltungsflüsse deutlich wurde.
+>Die Aktivität „Zielgruppe lesen“ zeigte **9** Profile. Da Sie einen Filter für Source erstellt haben und das Feld &quot;Source&quot; im relationalen Speicher vorhanden ist, mussten Sie den Profilspeicher mit dem relationalen Speicher verbinden, um ihn zu überprüfen. Beim Verbinden mit dem relationalen Schema über die Campaign Target-Dimension stimmten nur insgesamt **7** Profile überein. Diese **7** übereinstimmenden Kunden-IDs sind für die Verwendung in den folgenden Aktivitäten verfügbar, die versuchen, relationale Daten zu verwenden. Alle **7**-Kunden-IDs `Source` auf **„In Store“**, was durch die Aufspaltungsflüsse deutlich wurde.
 >
 >Daher ist die Gewährleistung der Datenkonsistenz von entscheidender Bedeutung, wenn AEP-Profile zusammen mit ihren relationalen Gegenstücken zur Anreicherung verwendet werden.
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch! Damit ist die Übung zur Verwendung der Aktivität „Zielgruppe lesen“ mit dem relationalen Schema abgeschlossen.
 
 ## Zusammenfassung
 
-Sie haben jetzt gesehen, wie einfach es ist, eine Kampagne zu erstellen, eine Aktivität „Zielgruppe lesen“ zusammen mit der Dimension „Profilzielgruppe“ durchzuführen, um das relationale Schema zu nutzen. Sie haben die Aufspaltungsaktivität verwendet, um die Zielgruppe basierend auf einer Bedingung aufzuteilen. Schließlich hat der Testmodus dabei geholfen zu verstehen, dass es wichtig ist, die Datenkonsistenz zwischen dem Profil und dem relationalen Schema zu gewährleisten.
+Sie haben jetzt gesehen, wie einfach es ist, eine Kampagne zu erstellen, eine Aktivität „Zielgruppe lesen“ zusammen mit der Dimension „Profilzielgruppe“ durchzuführen, um das relationale Schema zu verwenden. Sie haben die Aufspaltungsaktivität verwendet, um die Zielgruppe basierend auf einer Bedingung aufzuteilen. Schließlich hat der Testmodus dabei geholfen zu verstehen, dass es wichtig ist, die Datenkonsistenz zwischen dem Profil und dem relationalen Schema zu gewährleisten.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) wenn Sie Interesse haben.

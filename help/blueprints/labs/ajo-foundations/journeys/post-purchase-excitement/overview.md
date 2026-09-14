@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie eine ereignisgesteuerte Journey nach dem Kauf
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '326'
 ht-degree: 0%
-
 ---
-
 
 # Aufregung nach dem Kauf
 
@@ -20,17 +18,20 @@ ht-degree: 0%
 >
 >Die folgenden Laboratorien müssen vor Beginn dieses Labors abgeschlossen sein
 
-Diese Laboratorien müssen vor Beginn dieses Labors abgeschlossen sein:
-
+- **Postman-Setup** **—>** [Postman-Installation](../../postman-setup/postman-installation.md)
 - **Datenspeicher — Relationaler Speicher in Aktion** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Datenspeicher — E-Mail-Kanäle konfigurieren —>** Für Profil [konfigurieren](../../data-stores/configure-email-channels/configure-for-profile.md)
-  *(dieser Vorgang kann bis zu 3 Stunden dauern)*
+  *(Dieser Schritt dauert bis zu 3 Stunden)*
 
-Wenn Sie dies nicht getan haben, schließen Sie diese bitte jetzt ab.
+Wenn Sie dies nicht getan haben, schließen Sie diese jetzt ab
+
+>[!CAUTION]
+>
+>Dieses Lab erfordert eine Subdomain, die in Ihrer Sandbox an Adobe delegiert ist. Siehe [Setup](../../setup.md), wenn Sie das Tempo selbst bestimmen und noch keine haben.
 
 ## Labor-Übersicht
 
-In diesem Video erfahren Sie, wie der Anwendungsfall „Aufregung nach dem Kauf“ einer Journey zugeordnet wird. Sie lernen dabei die wichtigsten Fragen und die Architektur zum Senden einer personalisierten Versandbenachrichtigung nach der Bestellung kennen.
+In diesem Video erfahren Sie, wie der Anwendungsfall „Aufregung nach dem Kauf“ einem Journey zugeordnet wird. Sie lernen dabei die Fragen zum kritischen Denken und die Architektur zum Senden einer personalisierten Versandbenachrichtigung nach der Bestellung kennen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491146/)
 
@@ -51,9 +52,9 @@ Wenn ein Kunde eine Bestellung aufgibt, möchten Sie eine Bestätigungsnachricht
 
 **Wichtige Hinweise:**
 
-- Die anfängliche Bestellung wird in der Regel als Transaktionsnachricht implementiert, da die Personen nicht auf eine Bestätigung warten möchten, dass sie nur etwas bestellen.
+- Die anfängliche Bestellbestätigung wird in der Regel als Transaktionsnachricht implementiert, da Kunden nach der Bestellung nicht auf eine Bestätigung warten möchten.
 - Die Benachrichtigung über den Versand von Bestellungen kann auch mithilfe von Transaktionsnachrichten implementiert werden. Sie kann jedoch in einer Journey erstellt werden, sodass eine benutzerdefinierte Aktion zum Abrufen von Versandinformationen und zur Verbesserung der Kundenkommunikation möglich ist.
 
 >[!NOTE]
 >
->In diesem Labor erstellen Sie nur die Nachricht Versand der Bestellung und überspringen die Nachricht Bestellbestätigung .
+>In diesem Labor erstellen Sie nur die Nachricht Bestellung versendet und überspringen die Nachricht Bestellbestätigung .

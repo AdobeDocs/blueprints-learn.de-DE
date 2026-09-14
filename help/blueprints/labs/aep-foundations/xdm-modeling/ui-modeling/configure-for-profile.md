@@ -4,19 +4,17 @@ description: Markieren Sie die Felder für die primäre Identität und die Ident
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 
 # Für Profil konfigurieren
 
 ## Übersicht
 
-Um ein Schema für das Echtzeit-Kundenprofil verwenden zu können, müssen Sie zunächst sicherstellen, dass es ordnungsgemäß konfiguriert ist. Das bedeutet, dass Sie das, was Sie im LID-Labor als Primär-/Personen-Identitäten, Beziehungsidentitäten usw. identifiziert haben, mitnehmen und sicherstellen müssen, dass diese Konfigurationen für jedes Schema vorgenommen werden. Wenn alles erledigt ist, können Sie den Schalter umlegen und ein Schema zur Verwendung mit dem Profil aktivieren.
+Um ein Schema für das Echtzeit-Kundenprofil zu verwenden, müssen Sie zunächst sicherstellen, dass es ordnungsgemäß konfiguriert ist. Dieser Schritt bedeutet, dass Sie das, was Sie im LID-Labor als Primär-/Personen-Identitäten, Beziehungsidentitäten usw. identifiziert haben, übernehmen und sicherstellen, dass diese Konfigurationen für jedes Schema vorgenommen werden. Wenn alles erledigt ist, aktivieren Sie ein Schema zur Verwendung mit dem Profil.
 
 Wenn Sie sich das ERD der XDM-On-Paper-Verbindung 5G ansehen, sehen Sie die folgenden Informationen zum Kundenkonto-Schema.  Dies ist die Aufgabe, die bei der Verwendung des Schemas im Echtzeit-Kundenprofil verbleibt.
 
@@ -47,7 +45,7 @@ Jedes Schema erfordert ein primäres Identitätsfeld, wenn es mit dem Echtzeit-K
 
 >[!NOTE]
 >
->Beachten Sie außerdem, dass in der linken Leiste jetzt die folgenden Elemente angezeigt werden sollten. Identitäten (primär oder nicht primär) werden hier angezeigt, und **primären** Identitäten werden ebenfalls als Pflichtfelder markiert.
+>Beachten Sie außerdem, dass in der linken Leiste jetzt die folgenden Elemente angezeigt werden. Identitäten (primär oder nicht primär) werden hier angezeigt, und **primären** Identitäten werden ebenfalls als Pflichtfelder markiert.
 >
 >
 >
@@ -57,7 +55,7 @@ Jedes Schema erfordert ein primäres Identitätsfeld, wenn es mit dem Echtzeit-K
 
 ## Das/die Identitätsfeld(er) der Person markieren
 
-Denken Sie daran, dass jedes Schema, das mit dem Echtzeit-Kundenprofil verwendet werden soll **(optional**) Identitätsfelder für andere Personen enthalten kann. Um ein Feld als Personenidentität zu markieren, führen Sie die folgenden Aktionen für das zuvor erstellte Kundenkontenschema aus.
+Jedes Schema kann **optional) Identitätsfelder** anderen Person enthalten. Diese Regel gilt für jedes Schema, das mit dem Echtzeit-Kundenprofil verwendet wird. Um ein Feld als Personenidentität zu markieren, führen Sie die folgenden Aktionen für das zuvor erstellte Kundenkontenschema aus.
 
 1. Wählen Sie das Feld **personalEmail.address** aus
 1. Aktivieren Sie das **Identität** in der rechten Leiste
@@ -88,7 +86,7 @@ Um das Planschema mit dem Kundenkontenschema zu verknüpfen, wie im ERD beschrie
 ### Beziehung definieren
 
 1. Wählen Sie im Auswahlfeld Typ die Option **Eins-zu-eins** aus
-1. Wählen Sie im Auswahlfeld Referenzschema das Schema mit dem Namen **dep: Plan \[Lookup]** (dieses wurde für Sie vorerstellt)
+1. Wählen Sie im Auswahlfeld Referenzschema das Schema mit dem Namen **dep: Plan \[Lookup]** (dieses Schema wurde für Sie vorerstellt)
 1. Klicken Sie auf **Anwenden** und **Speichern**
 
 ![Eins-zu-eins-Beziehung zum tiefen Schema definieren: Plan [Lookup]Schema](assets/configure-for-profile-define-one-to-one-relationship.png)
@@ -119,7 +117,7 @@ Das Echtzeit-Kundenprofil führt Daten aus unterschiedlichen Quellen zusammen, u
 
 ![Schaltfläche „Aktivieren“ im modalen Fenster, das nach dem Umschalten zwischen Profilen angezeigt wird](assets/configure-for-profile-enable-profile-modal.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie haben soeben ein Schema erstellt, das mit dem Echtzeit-Kundenprofil verwendet werden soll.
 
@@ -127,11 +125,11 @@ Das Echtzeit-Kundenprofil führt Daten aus unterschiedlichen Quellen zusammen, u
 
 ## Überprüfen des Profilvereinigungsschemas
 
-Wie bereits erwähnt, besteht die Leistungsfähigkeit von XDM und dem Echtzeit-Kundenprofil in der Möglichkeit, eine Vielzahl von Fragmenten einer Person und deren Verhalten zusammenzustellen.  Dies wird als „Vereinigungsansicht“ des Kunden bezeichnet.  In den folgenden Schritten sehen Sie in der Vorschau, wie diese Vereinigung für jede XDM-Klasse aussieht, die für das Echtzeit-Kundenprofil konfiguriert ist
+Wie bereits erwähnt, besteht die Leistungsfähigkeit von XDM und dem Echtzeit-Kundenprofil in der Möglichkeit, eine Vielzahl von Fragmenten einer Person und deren Verhalten zusammenzustellen.  Diese Aggregation wird als „Vereinigungsansicht“ des Kunden bezeichnet.  In den folgenden Schritten sehen Sie in der Vorschau, wie diese Vereinigung für jede XDM-Klasse aussieht, die für das Echtzeit-Kundenprofil konfiguriert ist
 
 1. Navigieren Sie **der linken Leiste** Profile“
 1. Wählen Sie im oberen **die** „Vereinigungsschema“ aus
-1. Wählen Sie die Klasse **XDM Individual Profile** aus der Dropdown-Liste aus
+1. Wählen Sie die Klasse **XDM Individual Profile** aus dem Dropdown-Menü aus
 
 Durchsuchen Sie die Klasse XDM Individual Profile und nehmen Sie sich dann einen Moment Zeit, um andere Klassen wie XDM ExperienceEvent oder Planklassen zu überprüfen.
 
@@ -143,4 +141,4 @@ Durchsuchen Sie die Klasse XDM Individual Profile und nehmen Sie sich dann einen
 
 >[!NOTE]
 >
->Nur die auf XDM Individual Profile basierende Klasse führt Zusammenführungen zwischen Feldern mit ähnlichen Namen durch.
+>Nur die auf dem XDM-Individualprofil basierende Klasse führt Zusammenführungen zwischen Feldern mit ähnlichen Namen durch.

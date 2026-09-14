@@ -19,7 +19,7 @@ Angenommen, Sie müssen nach dem Erstellen des Schemas dem `plan`-Objekt ein zus
 Weitere Informationen zu JSON PATCH finden Sie unter den folgenden Links. Nehmen wir an, Sie haben für dieses Labor ein allgemeines Verständnis davon, wie es funktioniert.
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API-Grundlagen](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
+- [Experience League API-Grundlagen](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=de#json-patch)
 
 ![Diagramm zum Patchen eines fehlenden PlansDescription-Felds in ein vorhandenes Schema](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "Patchen in einer fehlenden Feldplanbeschreibung")
 

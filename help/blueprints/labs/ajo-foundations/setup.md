@@ -40,7 +40,7 @@ Zwei Labs später in diesem Bootcamp hängen von externen Konten ab, die nur Ler
 
 ### Delegierte Subdomain
 
-Für das [Konfigurieren von E](data-stores/configure-email-channels/overview.md)Mail-Kanälen - und alles, was davon abhängt ([Nachrichtenversand in Aktion](orchestrated-campaigns/message-delivery-in-action/overview.md), [Begeisterung nach dem Kauf](journeys/post-purchase-excitement/overview.md) und [AJO Brands](content-authoring-with-ai/overview.md)) - ist eine Subdomain erforderlich, die zum Senden von E-Mails an Adobe delegiert wurde. Wenn Sie noch keine Domain haben, registrieren Sie eine bei einer Domain-Registrierungsstelle (z. B. Namecheap). Um dann eine Subdomain davon (z. B. `email.yourdomain.com`) an Adobe zu delegieren, folgen Sie den Anweisungen [Subdomain-Delegierung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) von Adobe.
+Für das [Konfigurieren von E](data-stores/configure-email-channels/overview.md)Mail-Kanälen - und alles, was davon abhängt ([Nachrichtenversand in Aktion](orchestrated-campaigns/message-delivery-in-action/overview.md), [Begeisterung nach dem Kauf](journeys/post-purchase-excitement/overview.md) und [AJO Brands](content-authoring-with-ai/overview.md)) - ist eine Subdomain erforderlich, die zum Senden von E-Mails an Adobe delegiert wurde. Wenn Sie noch keine Domain haben, registrieren Sie eine bei einer Domain-Registrierungsstelle (z. B. Namecheap). Um dann eine Subdomain davon (z. B. `email.yourdomain.com`) an Adobe zu delegieren, folgen Sie den Anweisungen [Subdomain-Delegierung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) von Adobe.
 
 >[!NOTE]
 >

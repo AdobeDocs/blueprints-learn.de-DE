@@ -4,13 +4,11 @@ description: Zeigen Sie eine Vorschau eines aufgenommenen Datensatzes in der Ben
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 
 # Überprüfung und Validierung
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**Vorschau des Datensatzes** zeigt den letzten erfolgreichen Batch in diesem Datensatz an. Die vorherigen Batches werden nicht angezeigt. Komplexe Daten wie Arrays und Zuordnungen sind heute nicht mehr sichtbar und erscheinen als leere Spalten. Keine Panik! Um eine umfassendere Ansicht zu erhalten, müssen Sie SQL verwenden, um den Datensatz wie unten beschrieben zu untersuchen.
+>**Vorschau des Datensatzes** zeigt den letzten erfolgreichen Batch in diesem Datensatz an. Die vorherigen Batches werden nicht angezeigt. Komplexe Daten wie Arrays und Zuordnungen sind heute nicht mehr sichtbar und erscheinen als leere Spalten. Um eine umfassendere Ansicht zu erhalten, müssen Sie SQL verwenden, um den Datensatz wie unten beschrieben zu untersuchen.
 
 
 
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 1. **Vorschau** der Ergebnisse
 
-1. Führen Sie außerdem die folgende SQL-Abfrage aus, um das XDM-Schema zusammen mit den Daten abzurufen:
+1. Um das XDM-Schema zusammen mit den Daten abzurufen, führen Sie auch die folgende SQL-Abfrage aus:
 
 ```sql
 SELECT to_json(shippingAddress) FROM <table_name>
@@ -84,6 +82,6 @@ Um auf die Daten im Knoten `postalCode`**zuzugreifen** können Sie Folgendes ein
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie haben erfolgreich einen Beispielsatz von Echtzeit-Kundenprofilen aufgenommen und erstellt

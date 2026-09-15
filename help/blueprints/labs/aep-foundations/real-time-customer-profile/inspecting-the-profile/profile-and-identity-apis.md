@@ -4,21 +4,19 @@ description: Verwenden Sie die Profilentitäts-API und die Identity Service-Clus
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1143'
 ht-degree: 1%
-
 ---
-
 
 # Profil- und Identitäts-APIs
 
 ## Profilentitäts-API
 
-Die Verwendung der Profil-APIs ist für die Arbeit mit dem Echtzeit-Kundenprofil von entscheidender Bedeutung. Es erschließt die Möglichkeit zur schnellen Klassifizierung und Fehlerbehebung und setzt Sie gleichzeitig unendlichen Möglichkeiten der Systemintegration von Callcentern bis Kiosks aus.
+Die Verwendung der Profil-APIs ist für die Arbeit mit dem Echtzeit-Kundenprofil von entscheidender Bedeutung. Dadurch wird die Möglichkeit für eine schnelle Klassifizierung und Fehlerbehebung freigeschaltet, während Sie gleichzeitig für viele mögliche Systemintegrationen verfügbar sind, von Callcentern bis hin zu Kiosks.
 
-Eine der wichtigsten APIs ist die Profilentitäts-API.  Mit dieser API können Sie ein einzelnes Profil suchen (wie Sie es in der Benutzeroberfläche gesehen haben), verwenden jedoch Parameter, um anzugeben, ob Sie die Attribute oder Ereignisse des Profils sehen möchten.
+Eine der wichtigsten APIs ist die Profilentitäts-API. Mit dieser API können Sie ein einzelnes Profil suchen, wie Sie es in der Benutzeroberfläche gesehen haben. Sie verwendet Parameter, um anzugeben, ob die Attribute oder Ereignisse des Profils angezeigt werden sollen.
 
 Nachfolgend finden Sie die gesamte Spezifikation für die GET-Methode für die Profilentitäts-API
 
@@ -40,7 +38,7 @@ Diesen Parameter bei jeder Anfrage senden. Der Wert hängt davon ab, ob Sie die 
 
 ### Identifizieren der zu suchenden Entität
 
-Die meisten Anfragen verwenden `entityId` und `entityIdNS`, um die Entität anhand eines bekannten Identitätswerts zu identifizieren - z. B. einer E-Mail-Adresse, einer CRM-ID oder einer Treueprogramm-ID -, anstatt Sie aufzufordern, ihre XID bereits zu kennen. Eine XID ist eine base64-kodierte Kennung, die Identity Service intern generiert und zuweist, um eine Identität darzustellen, wobei sein Namespace und ID-Wert in einem einzigen kompakten Token konsolidiert werden (weitere Informationen finden Sie unter [Native &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=de)):
+Die meisten Anfragen verwenden `entityId` und `entityIdNS`, um die Entität anhand eines bekannten Identitätswerts zu identifizieren - z. B. anhand einer E-Mail-Adresse, einer CRM-ID oder einer Treueprogramm-ID -, anstatt die XID bereits zu kennen. Eine XID ist eine base64-kodierte Kennung, die Identity Service intern generiert und zuweist, um eine Identität darzustellen, wobei sein Namespace und ID-Wert in einem einzigen kompakten Token konsolidiert werden (weitere Informationen finden Sie unter [Native &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=de)):
 
 | Parameter | Typ | Beschreibung | Beispiel |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -89,7 +87,7 @@ Um ein Gefühl für die Entity Lookup-API zu erhalten, verwenden Sie das Depeche
    >
    >Wenn in einer Profilentitätsanfrage keine Zusammenführungsrichtlinie angegeben ist, wird standardmäßig die standardmäßige Zusammenführungsrichtlinie in der Sandbox verwendet
 
-   Mit der Entitäts-API gibt es eine Reihe von Abfrageparametern, mit denen Sie ändern können, was in der Antwort zurückgegeben wird.
+   Verwenden Sie bei der Entitäts-API die Abfrageparameter, um zu ändern, was als Antwort zurückgegeben wird.
 
 1. Klicken Sie in der Anfrage „Entitätssuche (Attribute)“ auf die Option **Parameter** für die Anfrage
 1. Aktivieren Sie das Kontrollkästchen neben **Schlüssel** namens **fields**
@@ -99,13 +97,13 @@ Um ein Gefühl für die Entity Lookup-API zu erhalten, verwenden Sie das Depeche
 
 >[!NOTE]
 >
->Beachten Sie, dass auch ein Parameter zum Angeben der `mergePolicyId` vorhanden ist.  Sie können den Wert dafür mithilfe anderer APIs finden oder die ID über die Benutzeroberfläche suchen.
+>Beachten Sie, dass auch ein Parameter zum Angeben der `mergePolicyId` vorhanden ist. Um den Wert dafür zu finden, verwenden Sie andere APIs oder suchen Sie die ID über die Benutzeroberfläche.
 
 Eine erfolgreiche Anfrage sollte mit einem `200 OK` antworten, und Sie sollten nur die Felder sehen, die in dem soeben aktivierten Parameterfilter angegeben sind: Vorname, Nachname und ein Array von aktiven Produkten.
 
 ![Gefilterte 200-OK-Antwort, die nur die Felder „Vorname“, „Nachname“ und „Aktive Produkte“ anzeigt](assets/profile-and-identity-apis-successful-filtered-attributes-response.png " API-Antwort für erfolgreiche Profilentitätssuche (Attribute) mit aktiviertem Filter")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie haben die Attribute eines Profils mithilfe der Profilentitäts-API erfolgreich nachgeschlagen
 
@@ -124,20 +122,20 @@ Eine erfolgreiche Anfrage sollte mit einem `200 OK` antworten, und Sie sollten e
 
 ![200 OK-Antwort mit allen Ereignissen für die API-Antwort &#x200B;](assets/profile-and-identity-apis-successful-events-api-response.png "Profilentitätssuche (Ereignisse) im Depeche-Modus")
 
-Genau wie bei der Suche nach Profilattributen verfügt die Entitäts-API über noch mehr Abfrageparameter, mit denen geändert werden kann, was in der Antwort zurückgegeben wird.
+Beim Nachschlagen von Profilattributen verfügt die Entitäts-API über noch mehr Abfrageparameter, die ändern, was als Antwort zurückgegeben wird.
 
-Sie können einige davon ausprobieren, indem Sie sie im Abschnitt Parameter aktivieren und die Anfrage ausführen.  Probieren Sie es aus und sehen Sie, wie es funktioniert!
+Probieren Sie einige davon aus, indem Sie sie im Abschnitt Parameter aktivieren und die Anfrage ausführen. Sehen Sie, wie es funktioniert!
 
 ![Anforderung „Entitätssuche (Ereignisse)“ mit aktivierten zusätzlichen Abfrageparametern im Abschnitt „Parameter](assets/profile-and-identity-apis-entity-lookup-events-query-params.png " Profilentitätssuche für Erlebnisereignisse")
 
 **Beispielhafte Abfrageparameterdefinitionen**
 
 | Schlüssel | Wert | Beschreibung |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mergePolicyId | \&lt;blank> | Sofern angegeben, können Sie die für die Suche verwendete Zusammenführungsrichtlinie wechseln. Wenn Sie das Feld leer lassen, wird die standardmäßige Zusammenführungsrichtlinie für Sandboxes verwendet |
-| Felder | eventType,timestamp,identityMap | Zeigt nur diese Felder aus jedem Ereignis an, unabhängig davon, ob das angegebene Feld einen Wert aufweist |
-| Eigenschaft | eventType=„order.apped“ | Filtert die Ereignisse des Profils nur nach Ereignissen vom Typ „order.apped“. |
-| orderby | +Zeitstempel | Sortiert die Ereignisse in absteigender Reihenfolge |
+| ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| mergePolicyId | \&lt;blank> | Wechselt die für die Suche verwendete Zusammenführungsrichtlinie. Wenn Sie das Feld leer lassen, wird die standardmäßige Zusammenführungsrichtlinie der Sandbox verwendet |
+| Felder | eventType,timestamp,identityMap | Zeigt nur diese Felder aus jedem Ereignis an, unabhängig davon, ob sie einen Wert aufweisen oder nicht |
+| Eigenschaft | eventType=„order.apped“ | Filtert Ereignisse nur nach Ereignissen des angegebenen Typs |
+| orderby | +Zeitstempel | Sortiert Ereignisse in aufsteigender Reihenfolge |
 | Grenze | 5 | Zeigt nur fünf Ereignisse in der Antwort |
 
 >[!NOTE]
@@ -157,7 +155,7 @@ Probieren Sie es selbst:
 
 >[!NOTE]
 >
->Beachten Sie, dass die Parameter in der Anfrage der Identity-Namespace und die ID (d. h. der Wert) sind
+>Beachten Sie, dass die Parameter in der Anfrage der Identity-Namespace und die ID sind (d. h. der Wert)
 
 
 

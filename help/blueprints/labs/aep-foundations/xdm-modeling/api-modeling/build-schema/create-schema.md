@@ -4,13 +4,11 @@ description: Verwenden Sie die Schema Registry-API, um ein Kundenschema aus eine
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 
 # Schema erstellen
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**Führen Sie den Aufruf noch nicht aus…**
+>**Führen Sie den Aufruf noch nicht aus**
 
 1. Klicken Sie im Ordner `XDM Schema Lab -> Create Schema` auf den `Step 4 - Create Customer Account Schema`-API-Aufruf.
 
@@ -33,7 +31,7 @@ ht-degree: 0%
    - Titel -> `Sample Customer Schema - <your sandbox number>`
    - Beschreibung -> `Sample Customer Schema - <your sandbox number>`
 
-4. Füllen Sie die `$ref` Felder mit den `$ids`, die Sie aus den vorherigen von Ihnen abgeschlossenen Lab-Abschnitten gespeichert haben: [Erstellen benutzerdefinierter Feldergruppen](./create-custom-field-groups.md) und [Profilklasse abrufen](./get-profile-class.md). Sie sollten $ids für jedes der folgenden Elemente haben:
+4. Füllen Sie die `$ref` Felder mit den `$ids`, die Sie aus den vorherigen von Ihnen abgeschlossenen Lab-Abschnitten gespeichert haben: [Erstellen benutzerdefinierter Feldergruppen](./create-custom-field-groups.md) und [Profilklasse abrufen](./get-profile-class.md). Sie haben $ids für jedes der folgenden Elemente:
 
    - Klasse -> Individuelles XDM-Profil
    - Feldergruppe -> Demografische Details
@@ -76,8 +74,8 @@ Eine erfolgreiche Antwort zum Erstellen des Schemas sollte zu einem `201 Created
 
 >[!WARNING]
 >
->Fahren Sie nicht fort, bis Sie die `$id` gespeichert und irgendwo `$meta:altId` haben.  Sie werden in zukünftigen Laborschritten erforderlich sein
+>Fahren Sie nicht fort, bis Sie die `$id` gespeichert und irgendwo `$meta:altId` haben.  Sie sind in zukünftigen Laborschritten erforderlich
 
->[!TIP]
+>[!SUCCESS]
 >
->**Herzlichen Glückwunsch! Sie haben soeben ein Schema nur mit den APIs erstellt**
+>**Herzlichen Glückwunsch! Sie haben ein Schema nur mit den APIs erstellt**

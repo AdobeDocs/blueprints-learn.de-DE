@@ -4,21 +4,19 @@ description: Verwenden Sie einen JSON PATCH-API-Aufruf, um einer bestehenden Man
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
 
 # Schema ändern - JSON-Patch
 
 ## Übersicht
 
-Angenommen, Sie müssen nach dem Erstellen des Schemas zurückkehren und ein zusätzliches Feld zum `plan`-Objekt namens `planDescription` hinzufügen, da Sie entweder beim Erstellen vergessen haben, es hinzuzufügen, oder es war eine Anfrage, die in Monaten später kam.  Um diese Aufgabe durchzuführen, können Sie einfach einen `PATCH` ausführen, der das Schema mit dem neuen Feld aktualisiert.
+Angenommen, Sie müssen nach dem Erstellen des Schemas dem `plan`-Objekt ein zusätzliches Feld namens `planDescription` hinzufügen. Diese Notwendigkeit kann auftreten, weil Sie beim Erstellen des Schemas vergessen haben, es hinzuzufügen, oder weil es eine Anfrage war, die in Monaten später kam. Um diese Aufgabe auszuführen, führen Sie einen `PATCH` aus, der das Schema mit dem neuen Feld aktualisiert.
 
-Sie können mehr über JSON PATCH unter den unten stehenden Links erfahren. Für dieses Labor gehen Sie jedoch davon aus, dass Sie ein Konzept dafür haben, wie dies 😄 funktioniert
+Weitere Informationen zu JSON PATCH finden Sie unter den folgenden Links. Nehmen wir an, Sie haben für dieses Labor ein allgemeines Verständnis davon, wie es funktioniert.
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
 - [Experience League API-Grundlagen](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=de#json-patch)
@@ -29,16 +27,16 @@ Sie können mehr über JSON PATCH unter den unten stehenden Links erfahren. Für
 >
 >Denken Sie an die folgenden Punkte:
 >
->- Ein Schema besteht aus einer (1) Klasse und einer (1) oder mehreren Feldergruppen
->- Es ist nicht möglich, neue Felder direkt zu einem Schema hinzuzufügen, ohne sie zuerst zu einer Feldergruppe hinzuzufügen. Dadurch wird die Wiederverwendbarkeit eines Felds über jedes Schema hinweg sichergestellt, das diese Feldergruppe verwendet.
+>- Ein Schema besteht aus einer Klasse und einer oder mehreren Feldergruppen
+>- Sie müssen einer Feldergruppe neue Felder hinzufügen, bevor Sie sie einem Schema hinzufügen. Diese Einschränkung stellt die Wiederverwendbarkeit eines Felds über jedes Schema hinweg sicher, das diese Feldergruppe verwendet.
 
 
 
-Um ein neues Feld zu einem Schema hinzuzufügen, müssen Sie die folgenden Vorgänge in der richtigen Reihenfolge ausführen.  Dies ist, was Sie in den folgenden Laborschritten tun.
+Um ein neues Feld zu einem Schema hinzuzufügen, müssen Sie die folgenden Vorgänge in der richtigen Reihenfolge ausführen. Dieser Prozess ist das, was Sie in den folgenden Laborschritten tun.
 
 - Identifizieren Sie die Feldergruppe, der Sie die neue Eigenschaft hinzufügen möchten
 - Erstellen eines JSON-PATCH-Aufrufs zum Aktualisieren der Feldergruppe
-- Führen Sie den JSON-PATCH-Aufruf aus, um die Feldergruppe zu aktualisieren (die das Schema erbt).
+- Ausführen des JSON-PATCH-Aufrufs zum Aktualisieren der Feldergruppe (die das Schema erbt)
 
 
 
@@ -51,23 +49,23 @@ Um ein neues Feld zu einem Schema hinzuzufügen, müssen Sie die folgenden Vorg�
 
    >[!NOTE]
    >
-   >Denken Sie daran, dass Sie das `plan`-Objekt innerhalb einer benutzerdefinierten Feldergruppe erstellt haben. Benutzerdefinierte erstellte Objekte in der XDM-Schemaregistrierung werden als „Mandant“ bezeichnet. Daher wird der API-Aufruf unter Verwendung des `/schemaregistry/tenant/mixins/`-Pfads ausgeführt.
+   >Denken Sie daran, dass Sie das `plan`-Objekt innerhalb einer benutzerdefinierten Feldergruppe erstellt haben. Benutzerdefinierte Objekte in der XDM-Schemaregistrierung werden als „Mandant“ bezeichnet. Daher wird der API-Aufruf unter Verwendung des `/schemaregistry/tenant/mixins/`-Pfads durchgeführt.
 
 
 
 1. Suchen Sie in der Antwort nach der Schema-ID für die benutzerdefinierte Feldergruppe, die Sie zuvor mit dem Titel `Customer Account Details - Sandbox <your number here> ` erstellt haben
 
-1. Kopieren Sie die `$meta:altId` und speichern Sie sie an einem sicheren Ort, da Sie sie für den nächsten Schritt benötigen werden
+1. Kopieren Sie die `$meta:altId` und speichern Sie sie an einem sicheren Ort, wie Sie sie für den nächsten Schritt benötigen
 
 ![Finden der benutzerdefinierten Feldergruppe „Kundenkontodetails“ in der API-Antwort](assets/modify-schema-json-patch-search-field-group-response.jpeg "Suchen Sie in der Antwort nach der Feldergruppe „Kundenkontodetails“")
 
 >[!CAUTION]
 >
->Stellen Sie sicher, dass Sie die richtige Feldergruppe zum Kopieren auswählen!  Es gibt einen, der ähnlich `dep: Customer Account Details` heißt und den Sie **nicht verwenden**
+>Stellen Sie sicher, dass Sie die richtige Feldergruppe zum Kopieren auswählen! Verwenden Sie nicht die Feldergruppe mit dem ähnlichen Namen `dep: Customer Account Details`
 
 >[!WARNING]
 >
->Fahren Sie nicht fort, bis Sie die `$meta:altId ` gespeichert haben.  Dies wird in zukünftigen Laborschritten erforderlich sein
+>Sie benötigen die `$meta:altId` für zukünftige Laborschritte, also speichern Sie sie irgendwo, bevor Sie fortfahren
 
 
 
@@ -119,7 +117,7 @@ Der vollständig erstellte Pfad sieht wie folgt aus:  Kopieren Sie diesen Pfad u
 ```
 
 - **op (Vorgang)** -> stellt eine Anweisung bereit, welche Aktion die PATCH durchführen soll
-- **Path** -> Dies ist der Pfad, den Sie erstellen, aktualisieren oder löschen möchten (d. h. dies ist der JSON-Zeiger auf den Speicherort des neuen Felds)
+- **Path** -> Dies ist der Pfad, den Sie erstellen, aktualisieren oder löschen möchten (d. h. der JSON-Zeiger auf den Speicherort des neuen Felds)
 - **Wert** -> Dies ist ein optionales Feld und wird nur beim Erstellen oder Ersetzen eines vorhandenen Felds verwendet
 
 
@@ -155,11 +153,11 @@ Der vollständig erstellte Pfad sieht wie folgt aus:  Kopieren Sie diesen Pfad u
 
 4. `Execute` des Aufrufs zum Ausführen der PATCH
 
-Es sollte eine &quot;`200 OK `&quot; angezeigt werden und das `planDescription` Feld sollte nun in Ihrer Feldergruppe wie folgt angezeigt werden:
+Es wird eine `200 OK` Antwort und das `planDescription` Feld in Ihrer Feldergruppe angezeigt, wie in diesem Beispiel:
 
 ![200 OK-Antwort nach erfolgreichem Patchen der Feldergruppe mit planBeschreibung](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "Schritt 3 - 200 OK Erfolgreiche PATCH")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch! Sie haben eine Feldergruppe/ein Schema mithilfe von JSON PATCH erfolgreich aktualisiert.
 
@@ -167,6 +165,6 @@ Es sollte eine &quot;`200 OK `&quot; angezeigt werden und das `planDescription` 
 
 ## Änderung in der Benutzeroberfläche anzeigen
 
-Durchsuchen Sie Ihr Schema über die Benutzeroberfläche und sehen Sie sich das neu hinzugefügte Feld an.  Ziemlich cool, was?
+Durchsuchen Sie Ihr Schema über die Benutzeroberfläche und zeigen Sie Ihr neu hinzugefügtes Feld an.
 
 ![Feld „Planbeschreibung“ wird im Schema nach dem JSON-Patch in der Experience Platform-Benutzeroberfläche angezeigt.](assets/modify-schema-json-patch-plan-description-added-to-field-group.png " Beschreibung des Plans zur Feldergruppe Kundenkontodetails - Sandbox \&lt;Ihre Nummer> hinzugefügt. Schema-JSON ändern")

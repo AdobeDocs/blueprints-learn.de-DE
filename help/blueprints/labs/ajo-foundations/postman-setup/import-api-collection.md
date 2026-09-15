@@ -4,13 +4,11 @@ description: Importieren Sie die Postman-API-Sammlung des Bootcamps und überpr�
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 
 # API-Sammlung importieren
 
@@ -32,7 +30,7 @@ In diesem Schritt importieren Sie die API-Sammlung, die alle verschiedenen Anfra
 
 ![Überprüfen des Imports der Postman-Sammlung](assets/import-api-collection-verify-collection-imported.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie haben die Postman-Sammlung des Bootcamps erfolgreich importiert
 
@@ -40,14 +38,14 @@ In diesem Schritt importieren Sie die API-Sammlung, die alle verschiedenen Anfra
 
 ## Validieren von Umgebungsvariablen
 
-Die Sammlung, die Sie importiert haben, enthält alle notwendigen API-Aufrufe, die Sie für Labs im gesamten Bootcamp benötigen.  Jedes Labor ist in einen bestimmten Ordner mit eigenen Anforderungen unterteilt.
+Die von Ihnen importierte Sammlung enthält alle API-Aufrufe, die Sie für Labs im gesamten Bootcamp benötigen.  Jedes Labor ist in einen bestimmten Ordner mit eigenen Anforderungen unterteilt.
 
-Details zu den einzelnen Ordnern finden Sie unten:
+Details zu den einzelnen Ordnern werden unten angezeigt:
 
 - **Profile &amp; Journey Labs** - Enthält eine Reihe von Anfragen zum Senden eines Web-Ereignisses und eines Ereignisses, das eine Versandbestätigung simuliert.
 - **Decisioning Labs** - Enthält Anfragen für drei Besuchende, die die Aufrufe der oberen und unteren Seite imitieren, die normalerweise auf einer mit AEP Web SDK-Tags versehenen Site zu finden sind.
 
-Um sicherzustellen, dass die Umgebung und die Sammlung korrekt funktionieren, führen Sie die folgenden Schritte aus.
+Gehen Sie wie folgt vor, um sicherzustellen, dass die Umgebung und die Sammlung ordnungsgemäß funktionieren.
 
 1. Klicken Sie ggf. in der linken Leiste auf **Sammlungen** und erweitern Sie dann den Ordner **Profile &amp; Journey Labs** .
 2. Klicken Sie auf die **Web-Ereignis erstellen**-Anfrage und Sie sehen, dass die Umgebungsvariablen **rot**

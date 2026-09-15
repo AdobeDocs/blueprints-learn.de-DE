@@ -4,13 +4,11 @@ description: Zeigen Sie eine Vorschau eines gestreamten Datensatzes in der Benut
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # Überprüfung und Validierung
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**Vorschau des Datensatzes** werden nur die ersten Zeilen des Datensatzes angezeigt. Array-Objekte können nicht angezeigt werden.
+>**Vorschau des**) zeigt nur die ersten Zeilen des Datensatzes an. Array-Objekte können nicht angezeigt werden.
 
 
 
@@ -56,7 +54,7 @@ ht-degree: 0%
 
 
 
-1. Schalten Sie für den erweiterten Abfrage **Editor um**
+1. Aktivieren Sie den **Erweiterter Abfrage-Editor** Umschalter
 
    ![Benutzeroberfläche des Abfrage-Editors mit aktiviertem Umschalter für den erweiterten Abfrage](assets/verification-and-validation-enhanced-query-editor-toggle.png "Editor")
 
@@ -82,12 +80,12 @@ ht-degree: 0%
 
 
 
-1. Um auf die Daten im Knoten `postalCode`**zuzugreifen** können Sie Folgendes eingeben:
+1. Geben Sie Folgendes ein, um auf die Daten im `postalCode`Knoten **zuzugreifen**:
 
 ```sql
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie haben erfolgreich einen Beispielsatz von Echtzeit-Kundenprofilen aufgenommen und erstellt

@@ -4,13 +4,11 @@ description: Generieren eines OAuth-Server-zu-Server-Zugriffstoken in Postman un
 doc-type: article
 solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '562'
 ht-degree: 0%
-
 ---
-
 
 # Zugriffstoken
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 
 
-Um eine sichere API-Verbindung zu einem Adobe-Produkt herzustellen, erstellt Adobe OAuth-Server-zu-Server-Anmeldedaten. Dazu müssen Sie zunächst ein Entwicklerprojekt in der Adobe Developer Console erstellen. Um Zugriff auf die Developer Console zu erhalten, benötigen Sie Entwicklerrechte in der Adobe Admin Console. Sobald Sie über diese Rechte verfügen, können Sie Entwicklerprojekte mit den verschiedenen produktbezogenen APIs von Adobe erstellen. Hier kommen die OAuth Server-zu-Server-Anmeldedaten ins Spiel. Um ein Zugriffs-Token zu generieren, müssen Sie einen bestimmten Anspruchssatz an den Identity Management Service (IMS) von Adobe übergeben. Bei OAuth-Server-zu-Server-Anmeldeinformationen würde ein Beispielaufruf wie folgt aussehen:
+Um eine sichere API-Verbindung zu einem Adobe-Produkt herzustellen, stellt Adobe die Erstellung einer OAuth-Server-zu-Server-Anmeldedaten bereit. Dazu müssen Sie zunächst ein Entwicklerprojekt in der Adobe Developer Console erstellen. Um Zugriff auf die Developer Console zu erhalten, benötigen Sie Entwicklerrechte in der Adobe Admin Console. Sobald Sie über diese Rechte verfügen, erstellen Sie Entwicklerprojekte, die verschiedene produktbezogene APIs von Adobe verwenden. Sie verwenden an dieser Stelle die OAuth Server-zu-Server-Anmeldedaten. Um ein Zugriffs-Token zu generieren, müssen Sie einen bestimmten Anspruchssatz an den Identity Management Service (IMS) von Adobe übergeben. Bei OAuth-Server-zu-Server-Anmeldeinformationen sieht ein Beispielaufruf wie folgt aus:
 
 ```curl
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}' \
@@ -28,13 +26,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}'
 
 >[!NOTE]
 >
->Weitere Informationen zum e2e-Prozess zum Erstellen des Entwicklerprojekts mithilfe von OAuth-Server-zu-Server-Anmeldeinformationen [&#x200B; Sie hier](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens). Für das Bootcamp werden wir diesen Schritt des Prozesses „per Hand winken“ 😄
+>Erfahren Sie mehr über den e2e-Prozess zum Erstellen des Entwicklerprojekts mit OAuth-Server-zu-Server-Anmeldeinformationen [hier](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens). Für das Bootcamp wird dieser Schritt absichtlich vereinfacht.
 
 
 
 ## Adobe Experience Platform + Adobe IMS
 
-Jede Anfrage an einen Adobe-Service muss das Zugriffstoken in der Autorisierungs-Kopfzeile zusammen mit dem Client-Geheimnis enthalten, das bei der Erstellung des Entwicklerprojekts generiert wurde. Darüber hinaus erfordern die Experience Platform und die zugehörigen Anwendungen, dass bei jeder Anfrage zwei weitere Header-Parameter vorhanden sind.
+Jede Anfrage an einen Adobe-Service muss das Zugriffstoken in der Autorisierungs-Kopfzeile zusammen mit dem Client-Geheimnis enthalten, das bei der Erstellung des Entwicklerprojekts generiert wurde. Darüber hinaus benötigen Experience Platform und die zugehörigen Programme bei jeder Anfrage zwei weitere Header-Parameter.
 
 - `x-gw-ims-org-id` - Dieser Parameter gibt den `IMS Org` an, zu dem die Anfrage gehört, und stellt sicher, dass die Verarbeitung der Anfragen in die entsprechende SaaS-Umgebung aufgelöst wird
 - `x-sandbox-name` - Dieser Parameter gibt an, welche Sandbox die Anfrage in der Experience Platform verarbeiten soll
@@ -43,11 +41,11 @@ Nachdem Sie nun ein wenig darüber wissen, wie Adobe seine APIs sichert und was 
 
 >[!CAUTION]
 >
->Wenn Sie den `x-sandbox-name` nicht angeben, schlägt die Anfrage nicht wie erwartet fehl. Stattdessen wird die zu verarbeitende Anfrage standardmäßig in die `default`-Sandbox übertragen, die automatisch mit jeder Experience Platform-Umgebung bereitgestellt wird
+>Wenn Sie den `x-sandbox-name` nicht angeben, schlägt die Anfrage nicht fehl. Stattdessen wird die Anfrage standardmäßig in die `default`-Sandbox übertragen, die automatisch mit jeder Experience Platform-Umgebung bereitgestellt wird
 
 >[!NOTE]
 >
->Im Rahmen dieses Bootcamps haben wir ein Entwicklerprojekt erstellt und Ihnen eine Postman-Umgebungsdatei mit allen notwendigen Werten zur Anfrage eines `access_token` zur Verfügung gestellt. Dies haben Sie in den vorherigen Schritten des Labors hochgeladen
+>Dieses Bootcamp enthält ein Entwicklerprojekt und eine Postman-Umgebungsdatei mit allen notwendigen Werten, um ein `access_token` anzufordern. Diese Umgebungsdatei haben Sie in den vorherigen Schritten des Labors hochgeladen
 
 ## Mit Postman authentifizieren
 
@@ -73,13 +71,13 @@ Erfolgreiche Antwort
 }
 ```
 
-`token_type` - immer vom Typ Träger
+`token_type` - ist immer vom Typ Träger
 
 `access_token` - Prüft die Autorisierung und ist in der Autorisierungskopfzeile aller API-Aufrufe erforderlich
 
-`expires_in` - Millisekunden, bis das Zugriffs-Token abläuft (heutiger Ablaufzeitraum von 24 Stunden)
+`expires_in` - Millisekunden, bis das Zugriffstoken abläuft (heute 24-stündiger Gültigkeitszeitraum)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch! Sie haben sich erfolgreich authentifiziert und Ihr Zugriffs-Token wird jetzt in Ihrer Umgebungsdatei gespeichert
 
@@ -89,7 +87,7 @@ Erfolgreiche Antwort
 
 ### Ungültiges Token
 
-Dies tritt auf, wenn die `private_key` in Ihrer Umgebungsdatei fehlerhaft oder nicht mehr gültig ist. Wenn diese Option angezeigt wird, stellen Sie sicher, dass Sie den gesamten Schlüssel einschließlich der Zeilenumbrüche kopiert haben
+Dieser Fehler tritt auf, wenn die `private_key` in Ihrer Umgebungsdatei fehlerhaft oder nicht mehr gültig ist. Wenn dieser Fehler angezeigt wird, müssen Sie den gesamten Schlüssel einschließlich der Zeilenumbrüche kopiert haben
 
 Beispiel:
 

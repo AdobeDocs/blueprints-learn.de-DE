@@ -4,19 +4,17 @@ description: Erfahren Sie, wie Sie einen Workflow für orchestrierte Kampagnen i
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '678'
 ht-degree: 0%
-
 ---
-
 
 # Workflow ausführen
 
 ## Ziel
 
-In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere Ihre SMS-Aktivität mit dem Testmodus testen können.
+In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und vor allem Ihre SMS-Aktivität mit dem Testmodus testen können.
 
 
 
@@ -26,17 +24,17 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
    ![Endgültige Workflow-Arbeitsfläche bereit zum Testen](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. Wenn Sie Ihren Workflow noch nicht angehalten haben, klicken Sie auf die Schaltfläche **Stoppen** oben rechts.
+2. Wenn Sie Ihren Workflow noch nicht angehalten haben, klicken Sie auf die **Stoppen**-Schaltfläche oben rechts.
 
    ![Schaltfläche „Anhalten“ oben rechts im Workflow](assets/run-the-workflow-click-stop-button.png)
 
    >[!NOTE]
    >
-   >Optional können Sie versuchen, auf die Schaltfläche Neu starten zu klicken, aber es ist wahrscheinlich, dass ein Fehler angezeigt wird, da Sie Aktivitäten hinzugefügt haben, nachdem der Workflow erstellt wurde, und sein Cache nicht mehr gültig ist.
+   >Klicken Sie optional auf die Schaltfläche Neu starten . Wahrscheinlich wird jedoch ein Fehler angezeigt, da Sie nach der Erstellung des Workflows Aktivitäten hinzugefügt haben und der zugehörige Cache nicht mehr gültig ist.
 
 
 
-3. Klicken Sie anschließend auf **Start**, um den Workflow durchgehend auszuführen und zu testen
+3. Klicken Sie anschließend auf **Start**, um den Workflow durchgängig auszuführen und zu testen
 
    ![Schaltfläche „Starten“ zum Ausführen des Workflow-Tests](assets/run-the-workflow-click-start-button.png)
 
@@ -50,7 +48,7 @@ In den nächsten Schritten erfahren Sie, wie Sie Ihren Workflow und insbesondere
 
 
 
-5. Es werden **33 Datensätze angezeigt** und die Zielgruppendimension entspricht der Kunden-ID (dem Join-Schlüssel, falls Sie dem Profil beitreten möchten)
+5. Es werden **33 Datensätze angezeigt** und die Zielgruppendimension entspricht der Kunden-ID (dem Join-Schlüssel zum Profil)
 
 ![33-Datensätze mit Zielgruppendimension, die mit Kunden-ID übereinstimmen](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -100,7 +98,7 @@ Folgendes ist passiert.
 
 - Sie hatten 33 Kundenzeilen, die eine SMS-Nachricht senden sollten
 - Nach der Dimensionsänderung hatte Aktivität 4 dieser Kundenzeilen kein Kundenkonto zugeordnet
-- Für die Verknüpfung mit dem Echtzeit-Kundenprofil ist eine Kunden-ID erforderlich. Da es in diesen vier Datensätzen keine gibt, gibt es keine Möglichkeit, ein Profil im laufenden Betrieb zu suchen oder ein neues zu erstellen
+- Für die Verknüpfung mit dem Echtzeit-Kundenprofil ist eine Kunden-ID erforderlich. Da es in diesen vier Datensätzen keine gibt, gibt es keine Möglichkeit, ein Profil zu suchen oder sofort ein neues zu erstellen
 
 Ergebnis —> Orchestrierte Kampagnen löscht diese vier Datensätze bei der Nachrichtenausführung
 
@@ -111,9 +109,9 @@ Ergebnis —> Orchestrierte Kampagnen löscht diese vier Datensätze bei der Nac
 >1. Sicherstellen, dass ein Ausschlussprotokoll für Datensätze erstellt wird, denen beim Versand eine Zielgruppendimension fehlt
 >2. Aktualisieren Sie die Aktivität Dimensionsänderung , um einen inneren Join im Vergleich zu einem externen Join durchzuführen, bei dem diese 4 Datensätze im Voraus abgelegt werden.
 
->[!TIP]
+>[!SUCCESS]
 >
->Herzlichen Glückwunsch! Sie sind jetzt offiziell zertifiziert, Ihre eigenen orchestrierten Kampagnen zu entfesseln und Nachrichten in die Welt zu senden - verantwortungsvoll, wie wir hoffen. Gehen Sie weiter und vermarkten Sie wie ein majestätischer digitaler Zauberer!
+>Herzlichen Glückwunsch! Sie sind jetzt offiziell zertifiziert, Ihre eigenen orchestrierten Kampagnen zu starten und Nachrichten verantwortungsvoll in die Welt zu senden. Jetzt können Sie mit Zuversicht vermarkten!
 
 
 
@@ -122,7 +120,7 @@ Ergebnis —> Orchestrierte Kampagnen löscht diese vier Datensätze bei der Nac
 Das machen Sie nicht im Labor, aber für den Kontext hier ist, was zum Zeitpunkt der Veröffentlichung passiert:
 
 1. Planung wird aktiviert, wenn für die Kampagne ein Zeitplan festgelegt wurde
-1. Audience-Aktivitäten speichern : Erstellen Sie die Audience Shell in im Audience Portal und die qualifizierten Profile beginnen mit der Aufnahme
+1. Audience-Aktivitäten speichern Erstellen Sie die Audience Shell im Audience Portal und die qualifizierten Profile beginnen mit der Aufnahme
 1. Die Ausführung der Nachricht beginnt für die erste Nachrichtenaktivität im Workflow
    - Profilsuchen erfolgen für die Momentaufnahme des Profils
      - Übereinstimmende Profile berücksichtigen die im Profil gefundene Zustimmung

@@ -2,17 +2,15 @@
 user-guide-title: Customer Experience Orchestration - Geschäftsziele, Anwendungsfälle, Architekturdiagramme und Blueprints
 breadcrumb-title: Anwendungsfälle und Blueprints
 user-guide-description: Informieren Sie sich über wichtige Geschäftsziele, Anwendungsfallmuster und branchenspezifische Anwendungsfälle für Adobe Experience Platform und Programme. Visuelle Architekturdiagramme und Blueprints bieten technische Referenzen für Systemintegration, Datenflüsse und Lösungsdesign und verbinden den geschäftlichen Nutzen mit der Implementierung.
-product: adobe experience platform
+product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1169'
 ht-degree: 15%
-
 ---
-
 
 # Blueprints zur Orchestrierung des Kundenerlebnisses {#architecture}
 
@@ -211,7 +209,6 @@ ht-degree: 15%
             + [Schema anzeigen](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/define-relationships/view-schema.md)
           + [Zusammenfassung](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/recap.md)
         + Bonus-Labs{#aep-xdm-bonus}
-          + [Übersicht](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/overview.md)
           + [Automatisieren mit APIs](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/automate-with-apis.md)
       + Datenaufnahme{#aep-ingestion}
         + [Vorlesungen](/help/blueprints/labs/aep-foundations/data-ingestion/lectures.md)
@@ -240,7 +237,6 @@ ht-degree: 15%
           + [Überwachen und Debuggen von Fehlern](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/monitoring-and-debugging-errors.md)
           + [Überprüfung und Validierung](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/verification-and-validation.md)
         + Bonus-Labs{#aep-ingestion-bonus}
-          + [Übersicht](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/overview.md)
           + [Beheben von MAPPER-Fehlern für CreateDate](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/fix-mapper-errors-for-createdate.md)
           + [Streamen eines Bestellereignisses](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/stream-an-order-event.md)
           + Verwenden der Data Landing Zone{#aep-ingestion-dlz}
@@ -287,7 +283,6 @@ ht-degree: 15%
           + [Build-Anwendungsfall 3](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/build-use-case-3.md)
           + [Kritische Denkprüfung](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/critical-thinking-review.md)
         + Bonus-Labs{#aep-audiences-bonus}
-          + [Übersicht](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/overview.md)
           + [Auftragsereignis an Hub senden](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-order-event-to-hub.md)
           + [Web-Ereignis an Hub senden](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-web-event-to-hub.md)
           + [Überwachen des Ereignisses](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/monitor-your-event.md)

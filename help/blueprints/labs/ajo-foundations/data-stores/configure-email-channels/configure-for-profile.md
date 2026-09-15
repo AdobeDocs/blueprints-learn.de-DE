@@ -4,19 +4,17 @@ description: Erfahren Sie, wie Sie einen E-Mail-Kanal mit dem Attribut personalE
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 8%
-
+source-wordcount: '656'
+ht-degree: 5%
 ---
-
 
 # Für Profil konfigurieren
 
 ## Ziel
 
-In den nächsten Schritten erstellen Sie eine E-Mail-Kanalkonfiguration mit Journey und koordinierten Kampagnen unter Verwendung des `personalEmail.address` AEP-Profilattributs
+Im nächsten Schritt erstellen Sie eine E-Mail-Kanalkonfiguration mit Journey und koordinierten Kampagnen unter Verwendung des `personalEmail.address` AEP-Profilattributs
 
 ## Kanalkonfiguration erstellen
 
@@ -48,6 +46,10 @@ Wählen Sie aus dem **Subdomain**-Dropdown **email.dep-labs.com**
 
 ![Subdomain-Dropdown mit email.dep-labs.com selected](assets/configure-for-profile-select-email-subdomain.png "configure Subdomain")
 
+>[!NOTE]
+>
+>Wenn Sie zum Selbststudium bereit sind und keine vorab bereitgestellte Subdomain haben, wählen Sie hier Ihre eigene Subdomain aus, die an Adobe delegiert wurde, anstatt `email.dep-labs.com`. Informationen [&#x200B; Delegieren einer &#x200B;](../../setup.md) finden Sie unter „Setup“.
+
 ## Konfigurieren von IP-Pool-Details
 
 Wählen Sie aus der Dropdown **Liste** IP-Pool“ **Marketing**
@@ -76,11 +78,11 @@ Wählen Sie aus der Dropdown **Liste** IP-Pool“ **Marketing**
 
 ## BCC-E-Mail konfigurieren
 
-Leer lassen
+Dieses Feld leer lassen
 
 >[!NOTE]
 >
->Eine Kopie der gesendeten E-Mails kann aufbewahrt werden, indem sie an einen BCC-Posteingang gesendet wird. Gewünschte E-Mail-Adresse eingeben, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Die Domain der BCC-Adresse muss sich von jeder an Adobe delegierten Subdomain unterscheiden. Diese Funktion ist optional. *Verwendung von BCC für E-Mails*
+>Eine Kopie der gesendeten E-Mails kann aufbewahrt werden, indem sie an einen BCC-Posteingang gesendet wird. Um jede gesendete E-Mail an diese BCC-Adresse zu kopieren, geben Sie die E-Mail-Adresse Ihrer Wahl ein. Die Domain der BCC-Adresse muss sich von jeder an Adobe delegierten Subdomain unterscheiden. Diese Funktion ist optional. *Verwendung von BCC für E-Mails*
 
 ## Konfigurieren von E-Mail-Wiederholungsparametern
 
@@ -138,7 +140,7 @@ Mit den Standardeinstellungen verlassen
 
 >[!NOTE]
 >
->Bei orchestrierten Kampagnen können Sie das Kundenkonto mit einer E-Mail ansprechen, sodass Sie nur (*Nachricht pro Profil)* müssen.  Die verwendete Ausführungsadresse stammt aus dem Profil selbst (d. h., sie wird im AEP-Profil unter dem Attribut **personalEmail.address** gespeichert)
+>Bei orchestrierten Kampagnen können Sie das Kundenkonto mit einer E-Mail ansprechen, sodass Sie nur (*Nachricht pro Profil)* müssen.  Die von Ihnen verwendete Ausführungsadresse stammt aus dem Profil selbst (insbesondere aus dem, was im AEP-Profil unter dem Attribut **personalEmail.address** gespeichert ist)
 
 
 ## Überprüfen und speichern
@@ -148,7 +150,7 @@ Mit den Standardeinstellungen verlassen
 
 >[!NOTE]
 >
->Die Verarbeitung der E-Mail-Kanal-Konfiguration dauerte bis zu 2 Stunden!  Oh je!
+>Die Verarbeitung der E-Mail-Kanal-Konfiguration dauerte bis zu 2 Stunden!
 >
 >Fahren Sie mit der nächsten Übung fort, während Sie warten, bis diese Kanalkonfiguration verarbeitet wird.
 

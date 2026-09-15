@@ -4,19 +4,17 @@ description: Erfahren Sie, wie Sie einen Twilio-basierten SMS-Kanal und seine Au
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 
 # SMS-Kanal konfigurieren
 
 ## Ziel
 
-In den nächsten Schritten werden Sie den SMS-Kanal konfigurieren. Dies ist erforderlich, damit Sie beim späteren Aufbau Ihrer Kampagne Nachrichten an einzelne Zeileninhaber senden können.
+Im nächsten Schritt konfigurieren Sie den SMS-Kanal. Dieser Schritt ist erforderlich, damit Sie beim späteren Aufbau Ihrer Kampagne Nachrichten an einzelne Zeileninhaber senden können.
 
 
 
@@ -32,7 +30,7 @@ In den nächsten Schritten werden Sie den SMS-Kanal konfigurieren. Dies ist erfo
 
 ## Definieren der SMS-API-Anmeldeinformationen
 
-Sie erstellen zunächst den API-Connector, den AJO zum Senden ausgehender SMS-Anfragen verwendet.
+Erstellen Sie zunächst den API-Connector, den AJO zum Senden ausgehender SMS-Anfragen verwendet.
 
 1. Wählen Sie unter SMS-Anbieter **Twilio**.
 1. Geben Sie die folgenden API-Zugangsdaten mithilfe Ihres eigenen [Twilio-Testkontos](https://www.twilio.com/try-twilio) ein:
@@ -43,7 +41,7 @@ Sie erstellen zunächst den API-Connector, den AJO zum Senden ausgehender SMS-An
 
 >[!NOTE]
 >
->Sie benötigen ein kostenloses Twilio-Testkonto mit einer verifizierten Telefonnummer, bevor Sie mit diesem Schritt beginnen. Melden Sie sich bei [twilio.com/try-twilio](https://www.twilio.com/try-twilio) an und suchen Sie dann Ihre Konto-SID und Ihr Authentifizierungs-Token im Twilio Console-Dashboard.
+>Sie benötigen ein kostenloses Twilio-Testkonto mit einer verifizierten Telefonnummer, bevor Sie mit diesem Schritt beginnen. Melden Sie sich bei [twilio.com/try-twilio](https://www.twilio.com/try-twilio) an und suchen Sie dann Ihre Konto-SID und Ihr Authentifizierungs-Token im Twilio Console-Dashboard. Eine ausführliche Anleitung finden Sie [&#x200B; Twilio-Handbuch &#x200B;](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) Erste Schritte .
 
 ![Felder mit den SMS-API-Anmeldeinformationen für den Twilio-Anbieter](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -113,7 +111,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
    >[!NOTE]
    >
-   >Dies bedeutet, dass orchestrierte Kampagnen beim Senden von Nachrichten eine Nachricht pro Datensatz senden sollten, die mit der Profil-Target-Dimension übereinstimmt.
+   >Mit dieser Einstellung teilen Sie Orchestered Campaign mit, dass beim Senden von Nachrichten pro Datensatz eine Nachricht gesendet werden soll, die der Dimension von Profile Target entspricht.
 
 
 
@@ -139,7 +137,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 ## Einreichen und Überprüfen
 
-1. Sie können auf die Schaltfläche **Senden** klicken, um die Konfiguration abzuschließen und eine Erfolgsmeldung anzuzeigen
+1. Klicken Sie auf **Senden**, um die Konfiguration abzuschließen und eine Erfolgsmeldung anzuzeigen
 
    ![Erfolgsmeldung nach Übermittlung der Kanalkonfiguration](assets/configure-sms-channel-submit-success-message.png)
 
@@ -151,7 +149,7 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
    >[!CAUTION]
    >
-   >Warten Sie, bis der Status **Aktiv** wechselt, da ansonsten zukünftige Laborschritte für Sie kläglich fehlschlagen
+   >Warten Sie, bis der Status **Aktiv** wechselt, da ansonsten zukünftige Laborschritte fehlschlagen.
 
 
 
@@ -165,6 +163,6 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 ## Zusammenfassung
 
-Sie haben jetzt gesehen, wie Sie einen SMS-Kanal erfolgreich konfigurieren können.  Beachten Sie, dass es sich um eine API-basierte SMS handelt, sodass sie je nach Anbieter alternative Authentifizierungsmethoden verwenden können.
+Sie haben jetzt gesehen, wie Sie einen SMS-Kanal erfolgreich konfigurieren können.  Beachten Sie, dass es sich bei dieser Konfiguration um eine API-basierte SMS handelt. Je nach Anbieter können sie daher alternative Authentifizierungsmethoden verwenden.
 
 Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.

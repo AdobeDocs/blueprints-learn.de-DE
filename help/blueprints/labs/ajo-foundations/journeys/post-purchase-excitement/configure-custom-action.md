@@ -4,19 +4,17 @@ description: Konfigurieren Sie eine wiederverwendbare benutzerdefinierte Aktion 
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 
 # Konfigurieren einer benutzerdefinierten Aktion
 
 ## Lernziel
 
-Erstellen Sie eine benutzerdefinierte Aktion, die definiert, wie die Journey mit einem externen Endpunkt oder Service kommuniziert, um eine ETA für den Zeitpunkt zu erhalten, zu dem das Paket ankommt.
+Erstellen Sie eine benutzerdefinierte Aktion, die definiert, wie die Journey mit einem externen Endpunkt oder Service kommuniziert, um eine ETA für den Zeitpunkt zu erhalten, zu dem das Paket eintrifft.
 
 ## Zu Aktionen navigieren
 
@@ -57,7 +55,7 @@ Geben Sie im Bereich Endpunktkonfiguration die folgenden Details an:
 
 >[!NOTE]
 >
->Eine Variable ermöglicht es uns, einen Wert während eines Journey zu übergeben, anstatt einen statischen Wert für alle Journey zu haben
+>Mit einer Variablen können Sie einen Wert während eines Journey übergeben, anstatt einen statischen Wert für alle Journey zu verwenden
 
 - **Authentifizierungstyp**: `No Authentication`
 
@@ -69,7 +67,7 @@ Geben Sie im Bereich Endpunktkonfiguration die folgenden Details an:
 
 ### Payload-Details der Antwort
 
-Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, wie die Antwort-Payload aussehen sollte.
+Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, wie die Antwort-Payload aussieht.
 
 1. Klicken Sie im Bereich Payloads auf das **Bleistiftsymbol**, um den Bildschirm Feldkonfiguration zu öffnen
 
@@ -105,7 +103,7 @@ Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, w
 
 ### Testen der Aktion
 
-1. Klicken Sie auf **Schaltfläche „Testanfrage senden** in der rechten unteren Leiste, um zu überprüfen, ob Sie 😀 etwas durcheinander gebracht haben
+1. Klicken Sie in der rechten unteren Leiste auf **Testanfrage senden**, um zu bestätigen, dass die Konfiguration korrekt funktioniert
 
    ![Schaltfläche „Testanfrage senden“ in der rechten unteren Leiste](assets/configure-custom-action-click-send-test-request.png)
 
@@ -132,13 +130,13 @@ Jetzt müssen Sie eine Beispiel-Payload bereitstellen, damit die Aktion weiß, w
 
    >[!WARNING]
    >
-   >Wenn keine 200-Antwort oder Vorschau angezeigt wird, fahren Sie nicht fort. Heben Sie Ihre ✋ an, um Hilfe zu erhalten.
+   >Wenn keine 200-Antwort oder Vorschau angezeigt wird, fahren Sie nicht fort. Bitten Sie Ihren Moderator um Hilfe.
 
 
 
 4. Klicken Sie auf **Abbrechen**, um zum Aktionsbildschirm zurückzukehren, und blättern Sie dann in der oberen rechten Leiste zurück und klicken Sie auf die Schaltfläche **Speichern**
 
->[!TIP]
+>[!SUCCESS]
 >
 >Glückwunsch! Ihre benutzerdefinierte Aktion ist dank Ihrer Fähigkeiten auf Expertenebene Strg+C, Strg+V live.
 

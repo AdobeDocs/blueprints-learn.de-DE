@@ -4,19 +4,17 @@ description: Erstellen Sie benutzerdefinierte Felder und Objekte für Konto, Pla
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '988'
 ht-degree: 0%
-
 ---
-
 
 # Modellieren benutzerdefinierter Objekte
 
 ## Hinzufügen benutzerdefinierter Felder
 
-Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfigurierten Feldergruppen oder Datentypen, die die benutzerdefinierten Felder des Kundenkontos modellieren.  Die folgenden Felder werden derzeit als benutzerdefiniert betrachtet und müssen innerhalb des XDM-Schemas modelliert werden.
+Wie in der Vorlesung besprochen, gibt es keine standardmäßigen vordefinierten Feldergruppen oder Datentypen, die die benutzerdefinierten Felder des Kundenkontos modellieren.  Die folgenden Felder werden derzeit als benutzerdefiniert betrachtet und müssen innerhalb des XDM-Schemas modelliert werden.
 
 - \_\&lt;tenant-name>.account.createDate
 - \_\&lt;tenant-name>.account.endDate
@@ -27,7 +25,7 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 >[!NOTE]
 >
->Beachten Sie, dass \&lt;tenant-name> spezifisch für die Umgebung ist, in der Sie arbeiten
+>Hinweis: \&lt;tenant-name> ist spezifisch für die Umgebung, in der Sie arbeiten
 
 
 
@@ -47,11 +45,11 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 | Feldname | Anzeigename | Typ | Einer neuen Feldergruppe zuweisen |
 | ---------- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| *Konto* | *Konto* | *Objekt* | *Kundenkontodetails - \[Ihre Initialen]*<br />*(geben Sie dies ein und wählen Sie die Dropdown-Liste aus oder drücken Sie die Eingabetaste)* |
+| *Konto* | *Konto* | *Objekt* | *Kundenkonto - \[Ihre Initialen]*<br />*(geben Sie dies ein und wählen Sie die Dropdown-Liste aus oder drücken Sie die Eingabetaste)* |
 
 >[!WARNING]
 >
->Ihre Feldnamen müssen einer bestimmten Groß-/Kleinschreibung entsprechen. Der Grund dafür ist, dass wir bereits dasselbe Schema vorab erstellt haben, das Sie erstellen. Wenn die Groß-/Kleinschreibung deaktiviert ist, führt dies zu einem Konflikt mit den Feldpfaden des bereits vorhandenen Schemas in Ihrer Sandbox
+>Ihre Feldnamen müssen einer bestimmten Groß-/Kleinschreibung entsprechen. Der Grund dafür ist, dass dasselbe Schema, das Sie erstellen, bereits vorerstellt wurde. Wenn die Groß-/Kleinschreibung deaktiviert ist, führt dies zu einem Konflikt mit den Feldpfaden des bereits vorhandenen Schemas in Ihrer Sandbox
 
 ![Kontoobjekt mit der zugewiesenen Feldergruppe hinzufügen](assets/model-custom-objects-adding-the-account-object.png "Kontoobjekt hinzufügen")
 
@@ -61,7 +59,7 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 >[!NOTE]
 >
->Beachten Sie, dass die neue benutzerdefinierte Feldergruppe in der linken Leiste unter dem `Field groups` ohne Sperrsymbol angezeigt wird.  Dies bedeutet, dass es sich um eine benutzerdefinierte Feldergruppe handelt.
+>Beachten Sie, dass die neue benutzerdefinierte Feldergruppe in der linken Leiste unter dem `Field groups` ohne Sperrsymbol angezeigt wird.  Dieses fehlende Sperrsymbol weist darauf hin, dass es sich um eine benutzerdefinierte Feldergruppe handelt.
 
 >[!WARNING]
 >
@@ -83,7 +81,7 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 
 
-1. Wenn Sie fertig sind, sollte Ihr Schemas-Kontoobjekt wie folgt aussehen. **Speichern** Ihr Schema!
+1. Wenn Sie fertig sind, sieht das Kontoobjekt Ihres Schemas wie folgt aus. **Speichern** Ihr Schema!
 
 
 
@@ -97,7 +95,7 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
    | ----------- | ----------------- | -------- | --------------------------------------- |
    | *acqSource* | *Erworbene Source* | *Zeichenfolge* | *web :: Web *<br />*inStore :: Im Store* |
 
-   Dieses Feld benötigt standardisierte Werte. Verwenden Sie daher die Option **Aufzählung und vorgeschlagene Werte** in den Feldeigenschaften. Wählen Sie **Optionsfeld** Aufzählung“ aus, um bei der Aufnahme eine Validierung für dieses Feld sowie benutzerfreundliche Kennzeichnungen hinzuzufügen. Fügen Sie die Aufzählungswerte wie folgt hinzu:
+   Dieses Feld benötigt standardisierte Werte. Verwenden Sie daher die Option **Aufzählung und vorgeschlagene Werte** in den Eigenschaften des Felds. Wählen Sie **Optionsfeld** Aufzählung“ aus, um bei der Aufnahme eine Validierung für dieses Feld sowie benutzerfreundliche Kennzeichnungen hinzuzufügen. Fügen Sie die Aufzählungswerte wie folgt hinzu:
 
    - *web :: Web*
    - *inStore :: Im Store*
@@ -116,7 +114,7 @@ Wie in der Vorlesung erläutert, gibt es keine standardmäßigen vorkonfiguriert
 
 1. **Speichern** Ihres Schemas
 
->[!TIP]
+>[!SUCCESS]
 >
 >Sie haben Ihr erstes benutzerdefiniertes Objekt und Ihre ersten Felder erfolgreich in der XDM-Schemaregistrierung erstellt!
 
@@ -163,7 +161,7 @@ Wenn Sie die Überprüfung abgeschlossen haben, stimmt Ihr Schema mit dem folgen
 
 Das Hinzufügen des Felds **customerID** als dieses Feld ist wichtig, da es sowohl als primäre Identität für das Schema als auch als allgemeines Feld für die Datenspeicherung dient.
 
-Führen Sie dieselben Schritte wie zuvor aus und verwenden Sie die nachstehende Tabelle für das Referenzieren der Metadaten für das Feld.
+Führen Sie dieselben Schritte wie zuvor aus und verwenden Sie die nachstehende Tabelle für den Verweis auf die Metadaten für das Feld.
 
 | Feldname | Anzeigename | Typ | Feldergruppe |
 | ------------ | ------------- | -------- | --------------------------------------------- |
@@ -171,13 +169,13 @@ Führen Sie dieselben Schritte wie zuvor aus und verwenden Sie die nachstehende 
 
 >[!NOTE]
 >
->Die `customerID` kann aus einer hierarchischen Perspektive an eine beliebige Stelle im Schema platziert werden. In diesem Labor haben wir ausgewählt, dass sie im Stammverzeichnis verbleibt und nicht in einem der zuvor erstellten benutzerdefinierten Objekte verschachtelt ist.  An dieser Stelle nimmt die Datenarchitektur Stellung
+>Die `customerID` kann aus einer hierarchischen Perspektive an eine beliebige Stelle im Schema platziert werden. In diesem Labor verbleibt das Feld customerID im Stammverzeichnis und wird nicht in einem der zuvor erstellten benutzerdefinierten Objekte verschachtelt.  An dieser Platzierung hat die Datenarchitektur Meinungen
 >
 >😄
 
 
 
-Ihr Endergebnis sollte nach Abschluss wie der folgende Screenshot aussehen
+Ihr Endergebnis sieht nach Abschluss wie der folgende Screenshot aus
 
 ![Kundenkontenschema mit dem Feld „customerID“ am Stamm hinzugefügt](assets/model-custom-objects-customerid-field-added.png)
 
@@ -189,6 +187,6 @@ Ihr Endergebnis sollte nach Abschluss wie der folgende Screenshot aussehen
 
 ![Endgültiges Schema mit allen benutzerdefinierten Objekten und Feldern hinzugefügt](assets/model-custom-objects-final-schema-with-custom-objects.jpeg "Endgültiges Schema mit benutzerdefinierten Objekten")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Sie haben Ihr erstes XDM-Schema erstellt! Im nächsten Abschnitt konfigurieren Sie das Schema für die Verwendung mit dem Echtzeit-Kundenprofil.

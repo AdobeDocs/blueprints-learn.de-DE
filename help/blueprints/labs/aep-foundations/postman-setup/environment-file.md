@@ -4,13 +4,11 @@ description: Importieren Sie die Postman-Umgebungsdatei und füllen Sie die Entw
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '472'
 ht-degree: 0%
-
 ---
-
 
 # Umgebungsdatei
 
@@ -25,7 +23,7 @@ Datei herunterladen - [AEP Bootcamp.postman_environment.json](assets/aep-bootcam
 1. Öffnen Sie die `Environment File` von oben in Ihrem Browser, indem Sie auf die Datei klicken
 1. URL der Datei in die Zwischenablage kopieren
 1. Starten Sie Postman auf Ihrem lokalen Computer und klicken Sie in Ihrem Arbeitsbereich auf die Schaltfläche `Import` .
-1. Fügen Sie die URL der `Environment File` in das Textfeld „Modal importieren“ auf der Überlagerung ein.  Dadurch sollte ein automatischer Import Trigger werden
+1. Fügen Sie die URL der `Environment File` in das Textfeld „Modal importieren“ auf der Überlagerung ein.  Diese Aktion Trigger einen automatischen Import
 
 ![Klicken auf die Schaltfläche Importieren in Postman Workspace, um die Umgebungsdatei zu importieren](assets/environment-file-click-import-button.png "Importschaltfläche")
 
@@ -35,7 +33,7 @@ Datei herunterladen - [AEP Bootcamp.postman_environment.json](assets/aep-bootcam
 
 
 
-Nach dem Import können Sie überprüfen, ob Ihre Umgebungsdatei vorhanden ist, indem Sie in der linken Seitenleiste auf die Registerkarte `Environments` klicken.  Sie sollten etwas Ähnliches wie unten sehen.
+Überprüfen Sie nach dem Import, ob Ihre Umgebungsdatei vorhanden ist, indem Sie in der linken Seitenleiste auf die Registerkarte `Environments` klicken.  Sie sehen etwas Ähnliches wie unten.
 
 ![AEP-Bootcamp-Umgebung aufgeführt auf der Registerkarte &quot;Postman-Umgebungen“ nach dem Import](assets/environment-file-aep-bootcamp-environment-listed.png "AEP-Bootcamp-Umgebung")
 
@@ -43,7 +41,7 @@ Nach dem Import können Sie überprüfen, ob Ihre Umgebungsdatei vorhanden ist, 
 
 ## Umgebungsvariablen
 
-Bevor Sie API-Aufrufe ausführen können, müssen Sie einige der Variablen in der soeben importierten Umgebungsdatei aktualisieren.  Diese Variablen werden in den API-Aufrufen referenziert, um sicherzustellen, dass sie korrekt ausgefüllt sind.  Die Variablen sind in zwei Gruppen unterteilt:
+Bevor Sie API-Aufrufe ausführen, müssen Sie einige Variablen in der soeben importierten Umgebungsdatei aktualisieren.  Diese Variablen werden in den API-Aufrufen referenziert, um sicherzustellen, dass sie korrekt ausgefüllt sind.  Die Variablen sind in zwei Gruppen unterteilt:
 
 - **Entwicklerprojektwerte** -> Dies sind die Standardvariablen, die aus dem Entwicklerprojekt generiert wurden, das in der Adobe Developer Console erstellt wurde
 - **Other Values** -> Hierbei handelt es sich um benutzerdefinierte Variablen, die normalerweise von einem Benutzer für die Arbeit mit den verschiedenen Experience Platform-APIs erstellt werden
@@ -64,7 +62,7 @@ Bevor Sie API-Aufrufe ausführen können, müssen Sie einige der Variablen in de
    - TECHNICAL\_ACCOUNT\_ID
    - IMS\_ORG
 
-Danach sollte Ihre Umgebungsdatei in etwa wie folgt aussehen:
+Wenn Sie fertig sind, sollte Ihre Umgebungsdatei diesem Bild ähneln:
 
 ![Umgebungsdatei nach der Aktualisierung der Werte „CLIENT_SECRET“, „CLIENT_ID“, „TECHNICAL_ACCOUNT_ID“ und „IMS_ORG](assets/environment-file-with-developer-project-values.png "Umgebungsdatei“ mit den Werten „Entwicklerprojekt“")
 
@@ -77,7 +75,7 @@ Die einzigen anderen Werte, die aktualisiert werden müssen, sind die Variable `
 
 >[!NOTE]
 >
->Wenn Sie diese Labs in Ihrem eigenen Tempo bearbeiten (anstelle eines Live-Trainings-Ereignisses mit einer sandbox-assignment.pdf), können Sie beide Werte, während Sie in Ihrer Sandbox angemeldet sind, über die URL der Adobe Experience Platform-Benutzeroberfläche finden, z. B.:
+>Wenn Sie diese Labs unabhängig durchlaufen, anstatt an einer Live-Schulung mit einer sandbox-assignment.pdf zu arbeiten, suchen Sie über die URL der Adobe Experience Platform-Benutzeroberfläche nach beiden Werten, während Sie bei Ihrer Sandbox angemeldet sind. Beispiel:
 >
 >`https://experience.adobe.com/#/@dep/sname:prod/platform/home`
 >
@@ -93,6 +91,6 @@ Wenn Sie fertig sind, sollte Ihre Umgebungsdatei wie folgt aussehen:
 
 ![Umgebungsdatei nach dem Aktualisieren der Werte „SANDBOX_NAME“ und „TENANT_NAME](assets/environment-file-with-sandbox-name-and-tenant-name.png "Umgebungsdatei“ mit „SANDBOX_NAME“")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch! Sie haben die Konfiguration Ihrer Postman-Umgebung abgeschlossen

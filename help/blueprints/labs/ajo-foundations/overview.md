@@ -4,20 +4,18 @@ description: Erkunden Sie die Architektur von Adobe Journey Optimizer, die Journ
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '272'
 ht-degree: 1%
-
 ---
-
 
 # Übersicht
 
-## Was Sie lernen werden
+## Was Sie lernen
 
 1. **Adobe Journey Optimizer-Architektur und -Funktionen:**
-   - Erfahren Sie, wie AJO nativ auf Adobe Experience Platform erstellt wird und wo es in den Personalisierungsstapel passt
+   - Erfahren Sie, wie AJO nativ auf Adobe Experience Platform aufbaut und seinen Platz unter den Personalisierungs-Tools einnimmt
    - Erfahren Sie mehr über die Kernfunktionen, die orchestrierte Echtzeit-Journey unterstützen
 1. **Datenspeicher:**
    - Zwischen dem Echtzeit-Kundenprofil und dem relationalen Speicher in AJO unterscheiden
@@ -51,8 +49,13 @@ ht-degree: 1%
 - Kontakt zu CDPs, Marketing-Automatisierung oder anderen Martech-Plattformen
 
 
+## Voraussetzungen
+
+Wenn Sie dieses Bootcamp in Ihrem eigenen Tempo durchlaufen, benötigen zwei Labs im Voraus arrangierte externe Konten: **E-Mail-Kanäle konfigurieren** benötigt eine Subdomain, die an Adobe delegiert ist, und **Flaggschiff-Telefonstart** benötigt SMS-Anmeldeinformationen. Einzelheiten finden [&#x200B; unter &#x200B;](setup.md).
+
+
 ## Einführung
 
-In diesem Video erfahren Sie, was Adobe Journey Optimizer unter Personalisierung in jedem Maßstab versteht, warum dies schwer zu erreichen ist und wie AJO - das nativ auf Adobe Experience Platform aufbaut - diese Herausforderungen bewältigt.
+In diesem Video erhalten Sie eine Einführung in Adobe Journey Optimizer und erfahren, was Personalisierung in großem Maßstab bedeutet, warum dies schwer zu erreichen ist und wie AJO diese Herausforderungen bewältigt. AJO basiert nativ auf Adobe Experience Platform.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486223/)

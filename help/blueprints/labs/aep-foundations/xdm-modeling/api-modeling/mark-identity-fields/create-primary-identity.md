@@ -4,13 +4,11 @@ description: Verwenden Sie die Schema Registry-API, um einen primären CustomerI
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 
 # Primäre Identität erstellen
 
@@ -50,10 +48,10 @@ ht-degree: 0%
 
 1. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
 
-1. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken. Es sollte jetzt eine `201 Created` Antwort wie unten angezeigt werden
+1. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken. Jetzt wird eine `201 Created` Antwort angezeigt, wie unten dargestellt
 
 ![201 Antwort nach erfolgreicher Erstellung des primären Identitätsdeskriptors erstellt](assets/create-primary-identity-201-created-response.png "Primärer Identitätsdeskriptor wurde erfolgreich erstellt")
 
->[!TIP]
+>[!SUCCESS]
 >
->Herzlichen Glückwunsch!  Sie haben soeben einen primären Identitätsdeskriptor in Ihrem Schema erstellt
+>Herzlichen Glückwunsch!  Sie haben einen primären Identitätsdeskriptor in Ihrem Schema erstellt

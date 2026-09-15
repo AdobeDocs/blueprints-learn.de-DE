@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie einen End-to-End-Entscheidungs-Workflow für 
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 
 # Abgebrochenes Durchsuchen
 
@@ -20,6 +18,7 @@ ht-degree: 0%
 >
 >Die folgenden Laboratorien müssen vor Beginn dieses Labors abgeschlossen sein
 
+- **Postman-Setup** **—>** [Postman-Installation](../../postman-setup/postman-installation.md)
 - **Datenspeicher — Profil in Aktion** **—>** [Datenstrom erstellen](../../data-stores/profile-in-action/create-datastream.md)
 
 Wenn Sie diese Labs nicht abgeschlossen haben, tun Sie dies jetzt, bevor Sie fortfahren.
@@ -32,13 +31,13 @@ In diesem Video erfahren Sie, wie die Beschreibung des Anwendungsfalls „Abgebr
 
 ## Geschäftsziele
 
-Der geschäftliche Anwendungsfall für dieses Labor ist, dass Connection 5G den Umsatz des neuen Apple Flaggschiff-Telefons, iPhone 17, steigern möchte, indem es sich an Kunden richtet, die die iPhone 17-Übersichtsseite durchsucht, aber noch nicht gekauft haben. Die wichtigsten Ziele der Kampagne sind:
+Für dieses Labor möchte Connection 5G den Umsatz des neuen Apple Flaggschiff-Telefons, iPhone 17, steigern, indem es sich an Kunden richtet, die die iPhone 17-Übersichtsseite besucht, aber noch nicht gekauft haben. Die wichtigsten Ziele der Kampagne sind:
 
 - **Identifizieren Sie Kunden mit hohen Absichten** indem Sie erkennen, wann ein Benutzer eine Flaggschiff-Telefonseite mehrmals aufruft, ohne einen Kauf abzuschließen.
 - **Trigger eines personalisierten Erlebnisses in Echtzeit** auf allen digitalen Oberflächen von Connection 5G, wenn dieses Verhalten auftritt.
 - **Bereitstellung kontextueller Angebote** basierend auf wichtigen Kundenattributen wie dem **Alter des Kontoinhabers** und seinem **aktuellen Mobilfunkplan**.
 - **Sicherstellen, dass die Angebotseignung durchgesetzt wird** sodass Kunden nur Telefonangebote sehen, die mit ihrem Plan kompatibel sind.
-- **Passen Sie die angebotene Telefonstufe dynamisch** (z. B. Basis, Pro, Ultra) basierend auf der Interaktion der Kundinnen und Kunden oder der Antwort auf frühere Angebote an.
+- **Dynamische Anpassung der angebotenen Telefonstufe** (z. B. Basis, Pro, Ultra) auf der Grundlage der Interaktion des Kunden oder der Reaktion auf frühere Angebote.
 - **Bieten Sie konsistente Personalisierung über alle Kanäle**, indem Sie eine zentralisierte Entscheidungslogik verwenden, um das beste Angebot in Echtzeit zu ermitteln.
 - **Erhöhen Sie die Konversionswahrscheinlichkeit** indem Sie jedem Kunden zum richtigen Zeitpunkt das relevanteste Flaggschiff-Telefonangebot unterbreiten.
 

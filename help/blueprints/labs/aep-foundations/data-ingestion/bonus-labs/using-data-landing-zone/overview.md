@@ -4,13 +4,11 @@ description: Installieren und konfigurieren Sie Azure Storage Explorer mit einer
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 
 # Verwenden der Data Landing Zone
 
@@ -21,14 +19,14 @@ Wenn Sie Azure Storage Explorer nicht heruntergeladen haben, tun Sie dies jetzt,
 [Herunterladen von Azure Storage Explorer](https://azure.microsoft.com/en-us/blog/microsoft-azure-data-lake-storage-adls-in-storage-explorer-public-preview/)
 
 1. Installieren des Programms
-1. Akzeptieren der Endbenutzer-Lizenzvereinbarung beim ersten Start
+1. Akzeptieren Sie beim ersten Öffnen der Anwendung die Endbenutzer-Lizenzvereinbarung
 
-![Bildschirm mit der Endbenutzer-Lizenzvereinbarung im Azure-](assets/overview-end-user-license-agreement-screen.png "-Bildschirm mit der Endbenutzer-Lizenzvereinbarung")
+![Bildschirm mit der Endbenutzer-Lizenzvereinbarung im Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png " Bildschirm mit der Endbenutzer-Lizenzvereinbarung")
 
 
 ## Konfigurieren von Azure Storage Explorer mit Experience Platform
 
-1. Öffnen Sie Azure Storage Explorer, klicken Sie auf das Symbol **Ressource auswählen** und wählen Sie dann **ADLS Gen 2-Container oder -Verzeichnis**
+1. Öffnen Sie Azure Storage Explorer, klicken Sie auf das Symbol **Ressource auswählen** und wählen Sie dann **ADLS Gen2-Container oder -Verzeichnis**
 
    ![Auswählen des ADLS Gen2-Containers oder -Verzeichnisses als Ressource im Azure Storage Explorer](assets/overview-choose-the-resource-as-shown-above.png)
 
@@ -85,6 +83,6 @@ Jetzt sollte ein Bildschirm angezeigt werden, der wie folgt aussieht
 
 ![Azure Storage Explorer zeigt das erfolgreich verbundene Data Landing Zone-Konto an](assets/overview-successfully-connected-account.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie haben Azure Storage Explorer erfolgreich konfiguriert

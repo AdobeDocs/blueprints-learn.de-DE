@@ -4,13 +4,11 @@ description: Führen Sie die erforderlichen Setup-Schritte für Sandbox und Post
 doc-type: article
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '124'
 ht-degree: 1%
-
 ---
-
 
 # Einrichtung
 
@@ -22,7 +20,7 @@ Bevor Sie die AEP Foundations-Labs starten, führen Sie die folgenden Einrichtun
 >
 >Wenn Sie an einem Live-Schulungskurs oder einer Live-Veranstaltung teilnehmen, wurde Ihre Sandbox bereits für Sie bereitgestellt. Überspringen Sie diesen Abschnitt und navigieren Sie direkt zur Postman-Einrichtung unten.
 
-Wenn Sie dieses Bootcamp in Ihrem eigenen Tempo durchführen und noch keine funktionierende Sandbox mit den bereitgestellten Lab-Assets haben, führen Sie zunächst die folgenden Schritte aus:
+Wenn Sie noch keine funktionierende Sandbox mit den bereitgestellten Lab-Assets haben, führen Sie die folgenden Schritte aus:
 
 - [Developer Console-Setup](sandbox-setup/developer-console-setup.md)
 - [Bereitstellungsanweisungen](sandbox-setup/deployment-instructions.md)

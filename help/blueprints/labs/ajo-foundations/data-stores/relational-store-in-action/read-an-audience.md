@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ mit ein
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
-
 ---
-
 
 # Zielgruppe lesen
 
@@ -172,16 +170,16 @@ Ein neues Segment mit dem Namen **Ergebnis** wird erstellt
 
 >[!NOTE]
 >
->Während beim Audience lesen **9** Profile angezeigt wurden. Da wir einen Filter für Source erstellt haben und das Feld &quot;Source&quot; im relationalen Speicher vorhanden ist, mussten wir den Profilspeicher mit dem relationalen Speicher verbinden, um ihn zu überprüfen. Als es über die Campaign Target Dimension mit dem relationalen Schema verbunden wurde, stimmten nur insgesamt **7** Profile überein. Diese **7** übereinstimmenden Kunden-IDs sind für die Verwendung in den folgenden Aktivitäten verfügbar, die versuchen, relationale Daten zu verwenden. Alle **7**-Kunden-IDs `Source` auf **„In Store“**, was durch die Aufspaltungsflüsse deutlich wurde.
+>Die Aktivität „Zielgruppe lesen“ zeigte **9** Profile. Da Sie einen Filter für Source erstellt haben und das Feld &quot;Source&quot; im relationalen Speicher vorhanden ist, mussten Sie den Profilspeicher mit dem relationalen Speicher verbinden, um ihn zu überprüfen. Beim Verbinden mit dem relationalen Schema über die Campaign Target-Dimension stimmten nur insgesamt **7** Profile überein. Diese **7** übereinstimmenden Kunden-IDs sind für die Verwendung in den folgenden Aktivitäten verfügbar, die versuchen, relationale Daten zu verwenden. Alle **7**-Kunden-IDs `Source` auf **„In Store“**, was durch die Aufspaltungsflüsse deutlich wurde.
 >
 >Daher ist die Gewährleistung der Datenkonsistenz von entscheidender Bedeutung, wenn AEP-Profile zusammen mit ihren relationalen Gegenstücken zur Anreicherung verwendet werden.
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch! Damit ist die Übung zur Verwendung der Aktivität „Zielgruppe lesen“ mit dem relationalen Schema abgeschlossen.
 
 ## Zusammenfassung
 
-Sie haben jetzt gesehen, wie einfach es ist, eine Kampagne zu erstellen, eine Aktivität „Zielgruppe lesen“ zusammen mit der Dimension „Profilzielgruppe“ durchzuführen, um das relationale Schema zu nutzen. Sie haben die Aufspaltungsaktivität verwendet, um die Zielgruppe basierend auf einer Bedingung aufzuteilen. Schließlich hat der Testmodus dabei geholfen zu verstehen, dass es wichtig ist, die Datenkonsistenz zwischen dem Profil und dem relationalen Schema zu gewährleisten.
+Sie haben jetzt gesehen, wie einfach es ist, eine Kampagne zu erstellen, eine Aktivität „Zielgruppe lesen“ zusammen mit der Dimension „Profilzielgruppe“ durchzuführen, um das relationale Schema zu verwenden. Sie haben die Aufspaltungsaktivität verwendet, um die Zielgruppe basierend auf einer Bedingung aufzuteilen. Schließlich hat der Testmodus dabei geholfen zu verstehen, dass es wichtig ist, die Datenkonsistenz zwischen dem Profil und dem relationalen Schema zu gewährleisten.
 
 Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) wenn Sie Interesse haben.

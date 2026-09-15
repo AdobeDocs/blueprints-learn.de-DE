@@ -4,13 +4,11 @@ description: Laden Sie die Postman-API-Sammlung von Bootcamp herunter und import
 doc-type: article
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '288'
 ht-degree: 0%
-
 ---
-
 
 # API-Sammlung
 
@@ -25,7 +23,7 @@ Datei herunterladen - [AEP Foundations Bootcamp (Labs).postman_collection.json](
 1. Öffnen Sie die `Postman API Collection File` von oben in Ihrem Browser, indem Sie auf die Datei klicken
 1. URL der Datei in die Zwischenablage kopieren
 1. Starten Sie Postman auf Ihrem lokalen Computer und klicken Sie in Ihrem Arbeitsbereich auf die Schaltfläche `Import` .
-1. Fügen Sie die URL der `Postman API Collection File` in das Textfeld „Modal importieren“ auf der Überlagerung ein.  Dadurch sollte ein automatischer Import Trigger werden
+1. Fügen Sie die URL der `Postman API Collection File` in das Textfeld „Modal importieren“ ein. Dadurch wird ein automatischer Import Trigger
 
 ![Klicken Sie im Postman-Arbeitsbereich auf die Schaltfläche „Importieren“, um die API-Sammlung/](assets/api-collection-click-import-button.png " zu importieren")
 
@@ -33,7 +31,7 @@ Datei herunterladen - [AEP Foundations Bootcamp (Labs).postman_collection.json](
 
 ![Einfügen der URL der API-Sammlungsdatei in das Textfeld „Modal importieren“ von Postman &#x200B;](assets/api-collection-import-modal-paste-url.png "modales Textfeld „Schaltfläche importieren“")
 
-Jetzt sollte unter der Registerkarte `Collections` der linken Seitenleiste eine Sammlung namens `AEP Foundations Bootcamp` angezeigt werden
+Jetzt wird in der linken Seitenleiste auf der Registerkarte &quot;`Collections`&quot; eine Sammlung namens &quot;`AEP Foundations Bootcamp`&quot; angezeigt
 
 
 
@@ -41,7 +39,7 @@ Jetzt sollte unter der Registerkarte `Collections` der linken Seitenleiste eine 
 
 ## Übersicht über die Bootcamp-Sammlung in AEP Foundations
 
-Die von Ihnen importierte API-Sammlung enthält alle erforderlichen API-Aufrufe, die Sie für Labs im gesamten Bootcamp benötigen.  Jedes Labor ist in einen bestimmten Ordner mit eigenen APIs unterteilt.  Bitte beachten Sie dies, wenn Sie diese Woche in Laboren arbeiten.
+Die von Ihnen importierte API-Sammlung enthält alle erforderlichen API-Aufrufe, die Sie für Labs im gesamten Bootcamp benötigen.  Jedes Labor ist in einen bestimmten Ordner mit eigenen APIs unterteilt.  Beachten Sie diese Ordnerstruktur, wenn Sie diese Woche Labs abschließen.
 
 Details zu den einzelnen Ordnern finden Sie unten:
 
@@ -50,6 +48,6 @@ Details zu den einzelnen Ordnern finden Sie unten:
 - **Datenaufnahme-Lab** - enthält eine Reihe von Anfragen für das Streaming von Daten an Experience Platform
 - **Profil-Lab** - Enthält eine Reihe von Anfragen zum Anzeigen der Eigenschaften und Verhaltensweisen des Echtzeit-Kundenprofils
 
->[!TIP]
+>[!SUCCESS]
 >
 >Herzlichen Glückwunsch!  Sie haben die Postman-Sammlung des Bootcamps erfolgreich importiert

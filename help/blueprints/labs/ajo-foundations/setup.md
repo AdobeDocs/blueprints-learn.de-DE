@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -34,13 +34,17 @@ Für die Labs in diesem Kurs ist Postman erforderlich, unabhängig davon, wie Ih
 - [Umgebungsdatei importieren](postman-setup/import-environment-file.md)
 - [API-Sammlung importieren](postman-setup/import-api-collection.md)
 
+## On-Demand-Bereitschaft
+
+Bevor Sie die Labs starten, schließen Sie die oben beschriebene Postman-Konfiguration ab. Lernende zum Selbststudium benötigen außerdem eine delegierte Subdomain für die E-Mail-abhängigen Labs und SMS-Anmeldeinformationen für das Startlabor des Flaggschifftelefons.
+
 ## Voraussetzungen für den Kanal
 
 Zwei Labs später in diesem Bootcamp hängen von externen Konten ab, die nur Lernende zum Selbststudium arrangieren müssen - wenn Sie sich in einem Live-Schulungskurs oder einer Veranstaltung befinden, sind diese bereits für Sie bereitgestellt.
 
 ### Delegierte Subdomain
 
-Für das [Konfigurieren von E](data-stores/configure-email-channels/overview.md)Mail-Kanälen - und alles, was davon abhängt ([Nachrichtenversand in Aktion](orchestrated-campaigns/message-delivery-in-action/overview.md), [Begeisterung nach dem Kauf](journeys/post-purchase-excitement/overview.md) und [AJO Brands](content-authoring-with-ai/overview.md)) - ist eine Subdomain erforderlich, die zum Senden von E-Mails an Adobe delegiert wurde. Wenn Sie noch keine Domain haben, registrieren Sie eine bei einer Domain-Registrierungsstelle (z. B. Namecheap). Um dann eine Subdomain davon (z. B. `email.yourdomain.com`) an Adobe zu delegieren, folgen Sie den Anweisungen [Subdomain-Delegierung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) von Adobe.
+Für das [Konfigurieren von E](data-stores/configure-email-channels/overview.md)Mail-Kanälen - und alles, was davon abhängt ([Nachrichtenversand in Aktion](orchestrated-campaigns/message-delivery-in-action/overview.md), [Begeisterung nach dem Kauf](journeys/post-purchase-excitement/overview.md) und [AJO Brands](content-authoring-with-ai/overview.md)) - ist eine Subdomain erforderlich, die zum Senden von E-Mails an Adobe delegiert wurde. Wenn Sie noch keine Domain haben, registrieren Sie eine bei einer Domain-Registrierungsstelle (z. B. Namecheap). Um dann eine Subdomain davon (z. B. `email.yourdomain.com`) an Adobe zu delegieren, folgen Sie den Anweisungen [Subdomain-Delegierung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) von Adobe.
 
 >[!NOTE]
 >

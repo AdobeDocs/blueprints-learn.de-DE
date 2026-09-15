@@ -1,16 +1,14 @@
 ---
-title: null
+title: Anwendungsfall #1 - Acquisition
 description: Definieren Sie einen Akquise-Anwendungsfall für iPhone mit 14 Seiten, die das Gerät nicht bestellt haben oder im Besitz des Geräts waren, und planen Sie den Ansatz zur Zielgruppenerstellung.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # #1 - Akquise
 
@@ -25,6 +23,10 @@ In diesem Video erfahren Sie, wie Sie die Erstellung der Zielgruppe für den Anw
 **Anwendungsfalldefinition**
 
 Aktivieren Sie alle Profile, die eine iPhone 14-Produktseite besucht haben und für iPhone 14 keine Bestellung vorhanden ist oder über keine aktive iPhone 14 verfügen.
+
+>[!IMPORTANT]
+>
+>Schließen Sie [die Postman-Einrichtung ab](../../setup.md) bevor Sie dieses Labor starten. Außerdem benötigen Sie Zugriff auf [webhook.site](https://webhook.site/), um die aktivierten Zielgruppendaten zu erfassen.
 
 
 

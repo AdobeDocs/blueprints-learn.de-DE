@@ -4,15 +4,17 @@ description: Erfahren Sie, wie Sie mit Postman ein Web-Ereignis direkt an den Hu
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
 
-
 # Web-Ereignis an Hub senden
+
+>[!IMPORTANT]
+>
+>Schließen Sie [die Postman-Einrichtung ab](../../postman-setup/postman-installation.md) bevor Sie dieses Labor starten. Sie benötigen auch Zugriff auf [webhook.site](https://webhook.site/) für den zugehörigen [Aktivierungs-Workflow für externe Ziele](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md).
 
 ## Postman öffnen
 
@@ -39,7 +41,7 @@ Erfassen Sie zunächst die folgenden Werte:
 1. Navigieren Sie **linken Leiste zu** Quellen“ und klicken Sie dann **oberen Navigationsbereich auf** Konten“
 1. Suchen Sie nach **dep: HTTP API \[raw]** markieren Sie die Zeile und kopieren und speichern Sie den Wert des **Streaming-Endpunkts** an einen anderen Ort, auf den Sie später verweisen können
 
-Konto  und seinen Streaming-Endpunkt kopieren&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png „dep: HTTP API \[raw]„)
+Konto  und seinen Streaming-Endpunkt kopieren](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png „dep: HTTP API \[raw]„)
 
 ## Web-Datenfluss-ID suchen
 
@@ -85,9 +87,8 @@ Ein erfolgreicher Aufruf sollte zu der folgenden Antwort führen…
    1. Beliebige Event Edge (innerhalb von 15 Minuten)
       1. Denken Sie daran: Alle mit einer Edge-Auswertung gespeicherten Zielgruppen werden auch im Hub ausgewertet, wenn Streaming-Daten eingehen
    2. Tiefe: Beliebiges Ereignis-Streaming (innerhalb einer Stunde)
-1. Möglicherweise wird an Ihrem Webhook nichts angezeigt, wenn Sie keine neuen Segmente haben.
-1. Die Ereignisweiterleitung sendet nichts.
-   1. Warum? Dieses Ereignis ging an den Hub, nicht an die Edge. Daher wird das Ereignis weder für die Ereignisweiterleitung zum Senden noch in Assurance als etwas angezeigt.
+1. Dieses Hub-Ereignis wird nicht an Ihren Webhook gesendet.
+   1. Die Ereignisweiterleitung verarbeitet Ereignisse, die an den Edge gesendet werden, nicht Ereignisse, die direkt an den Hub gesendet werden. Verwenden Sie den [Aktivierungs-Workflow für externe Ziele](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md), um ein Ereignis auf webhook.site zu erfassen.
 1. Nach mindestens 30 Minuten können Sie Ihren Datensatz sogar mit den folgenden Elementen überprüfen:
    1. Ändern Sie den unten stehenden Tabellennamen in den aus Ihrer Sandbox.  Um ihn zu finden, gehen Sie zu Ihrer Datensatzliste und filtern Sie nach &quot;`dest`&quot;, öffnen Sie den Datensatz und kopieren Sie den Tabellennamen in die rechte Leiste.
 

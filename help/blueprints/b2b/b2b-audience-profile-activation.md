@@ -54,10 +54,10 @@ Verschiedene B2B-Datenquellen können verwendet werden, um Account-, Lead-, Oppo
 
 Beachten Sie beim Entwerfen von B2B-Zielgruppen und Profilen die folgenden Leitplanken und die Dokumentation zur Eignung:
 
-- [Leitplanken für Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Anwendungsfälle für die Segmentierung für Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)
-- [Leitplanken für Profile und Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Aktualisierung der Eignungskriterien für Streaming-Segmentierung](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Leitplanken für Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Anwendungsfälle für die Segmentierung für Real-Time CDP B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/segmentation/b2b)
+- [Leitplanken für Profile und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails)
+- [Aktualisierung der Eignungskriterien für Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ### Unterstützung mehrerer Instanzen und IMS-Organisation
 
@@ -76,33 +76,33 @@ Im Folgenden werden die unterstützten Muster für die Zuordnung von Experience 
 
 #### Experience Platform-Profil und Segmentierungsleitplanken
 
-Die Experience Platform-Profil- und Segmentierungsleitplanken finden Sie hier: [Profil- und Segmentierungsleitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails).
+Die Experience Platform-Profil- und Segmentierungsleitplanken finden Sie hier: [Profil- und Segmentierungsleitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails).
 
 Segmente, die B2B-Entitäten wie Konten, Leads oder Opportunities enthalten, beruhen auf Beziehungen mit mehreren Entitäten und werden in &quot;**&quot;**. Im Gegensatz dazu wird **Streaming-Segmentierung** für Zielgruppen unterstützt, die auf Personen und Ereignisse beschränkt sind, die keine B2B-Entitäten enthalten. Bei B2B-Aktivierungsszenarien in nahezu Echtzeit sollten Sie Batch-bewertete B2B-Zielgruppen als Eingaben für Streaming- oder Edge-Zielgruppen verwenden, sofern unterstützt.
 
 #### Experience Platform - Marketo Engage Source Connector
 
-- Siehe die Dokumentation [hier](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+- Siehe die Dokumentation [hier](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
 
 #### Experience Platform - Marketo-Ziel-Connector
 
-- Siehe die Dokumentation [hier](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection).
+- Siehe die Dokumentation [hier](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection).
 
 #### Ziel-Leitlinien
 
-- Spezifische Anleitungen zu den einzelnen Zielen finden Sie in der Zieldokumentation: [Ziel-Leitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails).
+- Spezifische Anleitungen zu den einzelnen Zielen finden Sie in der Zieldokumentation: [Ziel-Leitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails).
 - Stellen Sie bei Werbezielen wie Facebook, Google Customer Match &amp; DV360, Microsoft Bing, The Trade Desk, Amazon Ads, Bombora, Demandbase und anderen sicher, dass die Kennungen, die Sie in Ihrem Schema und Ihrer Identitätsstrategie auswählen (E-Mail, mobile Werbe-IDs, Adressfelder, Konto-IDs), mit den Zuordnungsfunktionen und unterstützten Identitäten für diese Ziele übereinstimmen.
 
 ## Implementierungsschritte
 
-Anleitungen zur Implementierung und Konfiguration der B2B edition von Real-Time Customer Data Platform finden Sie in der Dokumentation zu Real-Time CDP B2B edition: [B2B edition von Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).
+Anleitungen zur Implementierung und Konfiguration der B2B edition von Real-Time Customer Data Platform finden Sie in der Dokumentation zu Real-Time CDP B2B edition: [B2B edition von Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).
 
 Zwei Implementierungsmuster sind häufig:
 
 - Nehmen Sie B2B-Daten und -Profile aus Marketo Engage (und dem zugehörigen CRM-System) in RTCDP B2B edition auf.
 - Nehmen Sie B2B-Daten direkt aus CRM- oder anderen B2B-Systemen über die entsprechenden Quell-Connectoren in RTCDP B2B edition auf.
 
-Im Rahmen der Upgrades der RTCDP B2B-Architektur werden einige zuvor verwendete Muster für B2B-Entitäten jetzt nicht mehr unterstützt. Weitere Informationen zu Datensätzen finden Sie in der detaillierten Dokumentation [hier](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade).
+Im Rahmen der Upgrades der RTCDP B2B-Architektur werden einige zuvor verwendete Muster für B2B-Entitäten jetzt nicht mehr unterstützt. Weitere Informationen zu Datensätzen finden Sie in der detaillierten Dokumentation [hier](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade).
 
 ## Überlegungen bei der Implementierung
 
@@ -116,13 +116,13 @@ Anleitung zu wichtigen Erwägungen und Konfigurationen der Blueprint.
 
 ## Verwandte Dokumentation
 
-- [B2B edition von Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-- [Erste Schritte mit Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
-- [Leitplanken für Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Schemata in Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Architekturupgrades auf Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform)
-- [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
-- [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Adobe Experience Platform - Marketo-Ziel-Connector](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
-- [Ziel-Leitlinien](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [B2B edition von Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+- [Erste Schritte mit Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
+- [Leitplanken für Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Schemata in Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b)
+- [Architekturupgrades auf Real-Time CDP B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform)
+- [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/home)
+- [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Adobe Experience Platform - Marketo-Ziel-Connector](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
+- [Ziel-Leitlinien](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/guardrails)

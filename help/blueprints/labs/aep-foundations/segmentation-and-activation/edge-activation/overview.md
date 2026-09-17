@@ -4,13 +4,11 @@ description: Erfahren Sie, wie sich die Aktivierungsgeschwindigkeiten für Edge,
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 
 # Edge Activation
 
@@ -23,6 +21,10 @@ Adobe verfügt über drei Aktivierungsgeschwindigkeiten, die auf unterschiedlich
 1. Batch
 
 Wir werden Ihnen zeigen, wie Sie Adobe Edge mit Ereignisweiterleitung, Edge-Zielgruppen und Edge Personalization aktivieren. Anschließend zeigen wir, wie Sie Streaming-Ziele vom Hub aus sowohl für die Edge als auch für ein externes Ziel verwenden.
+
+>[!IMPORTANT]
+>
+>Schließen Sie [die Postman-Einrichtung ab](../../setup.md) bevor Sie dieses Labor starten. Sie benötigen auch Zugriff auf [webhook.site](https://webhook.site/), um das an das externe Ziel gesendete Ereignis zu erfassen.
 
 >[!NOTE]
 >

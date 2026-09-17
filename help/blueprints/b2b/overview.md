@@ -7,20 +7,24 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 TQID: https://experienceleague.adobe.com/eCN6p4FgOY5k3JqjlMx55YJjYMChqTiwxH-LWagH7pk
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+    internal-label: Personalization
+source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 82%
-
+source-wordcount: '352'
+ht-degree: 67%
 ---
-
 # B2B-Analytics-, Aktivierungs- und Marketing-Blueprints
 
 Die Zielgruppen- und Profilaktivierung für B2B ist der Schlüssel zum Erfolg in der Welt des Data-driven Marketing. Allerdings orientieren sich viele Marken bei der Aktivierung noch immer zunächst am Kanal, was häufig in inkonsistenter Reichweite und Personalisierung endet.
@@ -31,6 +35,8 @@ Wenn der Kanal an erster Stelle steht, fungiert jeder Kanal als Silo, in dem Per
 |---|---|---|
 | **[B2B: Analysen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=de)** | <ul><li>Einbeziehen von B2B-Account-Informationen in die Customer-Journey-Analyse</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B: Zielgruppenaktivierung](b2bactivation.md)** | <ul><li>Sprechen Sie B2B-Zielgruppen auf Web-, E-Mail- und Werbe-Kanälen an</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul> |
+| **[B2B-Zielgruppe und Profilaktivierung](b2b-audience-profile-activation.md)** | <ul><li>Erstellen und Aktivieren von Personen und Account-Zielgruppen aus einheitlichen B2B-Profilen über Kanäle und Ziele hinweg</li></ul> | <ul><li>Adobe Real-Time Customer Data Platform B2B edition</li><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Customer Journey Analytics B2B edition</li></ul> |
+| **[B2B-Kontoaktivierung](b2b-account-activation.md)** | <ul><li>Aktivieren von Account-Zielgruppen für Werbeziele und Cloud-Speicher für Targeting, Verkaufsförderung und Analysen</li></ul> | <ul><li>Adobe Real-Time Customer Data Platform B2B edition</li></ul> |
 | **[Kaufen von gruppenbasiertem Marketing und Journey-Management](/help/blueprints/b2b/b2b-buying-group-journeys.md)** | <ul><li>Entwerfen und erstellen Sie eine Account-Journey, die Leads für eine Einkaufsgruppe qualifiziert, wodurch die Marketing-Aktivität bei der Qualifizierung von Leads zu Verkaufsmöglichkeiten effektiver wird.</li></ul> | <ul><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Real-time Customer Data Platform B2B Edition</li><li>Adobe Marketo Engage</li></ul> |
 | **[Übersicht über die Blueprint zur Integration von Marketo Engage und Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>Optimierung der Planung, Entwicklung und Ausführung von B2B-Marketingkampagnen</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
 | **[Blueprint zur Integration von Marketo Engage und Workfront: Aufnahme und Erstellung](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>Automatisieren der Anforderungsaufnahme von B2B-Marketing-Kampagnen zur Kampagnenentwicklung</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |

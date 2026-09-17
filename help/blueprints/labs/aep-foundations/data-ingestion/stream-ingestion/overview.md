@@ -4,13 +4,11 @@ description: Laden Sie Kundenkontendaten über eine Streaming-Quelle in den Data
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # Stream-Aufnahme
 
@@ -22,6 +20,10 @@ In dieser Übung laden wir die Kundenkontendaten aus einer Streaming-Quelle in d
 - Importieren eines Zuordnungssatzes aus einem anderen Datenfluss
 - Abrufen der Datenfluss-ID und Datensatz-ID aus der Benutzeroberfläche
 - Verwenden der REST-API zum Aufnehmen eines Ereignisses
+
+>[!IMPORTANT]
+>
+>Schließen Sie [die Postman-Einrichtung ab](../../setup.md) bevor Sie dieses Labor starten.
 
 >[!NOTE]
 >

@@ -2,14 +2,12 @@
 title: Konsolidierung und Modernisierung der Marketing-Technologie
 description: Erfahren Sie, wie Sie durch die Migration zu einheitlichen, skalierbaren Plattformen die Fragmentierung von Tools und die technische Verschuldung reduzieren können.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 5ab6071e-e1b3-488a-b7ed-3153c9bf6cdb
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 2%
-
+ht-degree: 4%
 ---
-
-
 # Konsolidierung und Modernisierung der Marketing-Technologie
 
 Reduzierung der Tool-Fragmentierung und der technischen Verschuldung durch Migration auf einheitliche, skalierbare Plattformen. Dieses Ziel konzentriert sich auf die Vereinfachung des Marketing-Technologie-Stacks durch die Konsolidierung von Einzellösungen in integrierten Plattformen, die Daten, Governance und Workflows gemeinsam nutzen.

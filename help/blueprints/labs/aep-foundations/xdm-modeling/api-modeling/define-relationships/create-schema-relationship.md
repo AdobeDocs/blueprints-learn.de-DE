@@ -4,13 +4,11 @@ description: Verwenden Sie die Schema Registry-API, um einen Eins-zu-eins-Bezieh
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen einer Schemabeziehung
 
@@ -57,9 +55,9 @@ NUR BEISPIEL
 
 
 
-&#x200B;3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
+1. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
 
-&#x200B;4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
+1. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
 
 Es sollte jetzt eine `201 Created` Antwort wie unten angezeigt werden
 

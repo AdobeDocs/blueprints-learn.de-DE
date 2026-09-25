@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie in Adobe Journey Optimizer eine markenspezifi
 doc-type: article
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
-
 ---
-
 
 # E-Mail erstellen
 
@@ -69,27 +67,27 @@ Dieser Schritt zeigt, wie Vorlagen in allen Journey wiederverwendet werden könn
 
 ![Option „E-Mail bearbeiten“ für die Kampagnen-E-Mail-Aktivität](assets/creating-the-email-click-edit-email.png)
 
-&#x200B;11. Klicken Sie auf die **Aktion** und wählen Sie **Ihre** E-Mail-Konfiguration aus. Ihre Sandbox zeigt dies möglicherweise als relationale E-Mail an. (Beliebig auswählen)
+1. Klicken Sie auf die **Aktion** und wählen Sie **Ihre** E-Mail-Konfiguration aus. Ihre Sandbox zeigt dies möglicherweise als relationale E-Mail an. (Beliebig auswählen)
 
-![Registerkarte „Aktion“ mit ausgewählter E-Mail-Konfiguration](assets/creating-the-email-action-tab-email-configuration.png)
+   ![Registerkarte „Aktion“ mit ausgewählter E-Mail-Konfiguration](assets/creating-the-email-action-tab-email-configuration.png)
 
-&#x200B;12. Klicken Sie auf **Registerkarte Inhalt**
+1. Klicken Sie auf **Registerkarte Inhalt**
 
-![Registerkarte „Inhalt“ im E-Mail-Editor](assets/creating-the-email-click-content-tab.png)
+   ![Registerkarte „Inhalt“ im E-Mail-Editor](assets/creating-the-email-click-content-tab.png)
 
-&#x200B;13. Klicken Sie auf **Inhaltsvorlage anwenden**
+1. Klicken Sie auf **Inhaltsvorlage anwenden**
 
-![Option „Inhaltsvorlage anwenden“ im E-Mail-Editor](assets/creating-the-email-click-apply-content-template.png)
+   ![Option „Inhaltsvorlage anwenden“ im E-Mail-Editor](assets/creating-the-email-click-apply-content-template.png)
 
-&#x200B;14. Wählen Sie die von Ihnen erstellte Vorlage **„Werbevorlage** aus und klicken Sie auf **Bestätigen**
+1. Wählen Sie die von Ihnen erstellte Vorlage **„Werbevorlage** aus und klicken Sie auf **Bestätigen**
 
-![Auswählen der Aktionsvorlage und Klicken auf „Bestätigen“](assets/creating-the-email-select-promotional-template-confirm.png)
+   ![Auswählen der Aktionsvorlage und Klicken auf „Bestätigen“](assets/creating-the-email-select-promotional-template-confirm.png)
 
-&#x200B;15. Klicken Sie auf **E-Mail-Textkörper bearbeiten**
+1. Klicken Sie auf **E-Mail-Textkörper bearbeiten**
 
-![Option „E-Mail-Textkörper bearbeiten“ nach dem Anwenden der Vorlage](assets/creating-the-email-click-edit-email-body.png)
+   ![Option „E-Mail-Textkörper bearbeiten“ nach dem Anwenden der Vorlage](assets/creating-the-email-click-edit-email-body.png)
 
-&#x200B;16. Bestätigen Sie, dass die neuen Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke korrekt angezeigt werden.
+1. Bestätigen Sie, dass die neuen Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke korrekt angezeigt werden.
 
 ![Kopfzeilen-, Helden-, Fußzeilen- und Inhaltsblöcke werden in der E-Mail korrekt angezeigt](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

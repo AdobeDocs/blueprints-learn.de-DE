@@ -1,15 +1,13 @@
 ---
 title: 'Blueprint: Benutzerdefinierte Datenwissenschaft zur Profilanreicherung'
-description: Erfahren Sie, wie datenwissenschaftsbasierte Einblicke in aufgenommen werden können [!DNL Experience Platform]  um das Echtzeit-Kundenprofil zu bereichern.
+description: Erfahren Sie, wie datenwissenschaftsbasierte Erkenntnisse in [!DNL Experience Platform] aufgenommen werden können, um das Echtzeit-Kundenprofil zu bereichern.
 solution: Data Collection
 kt: 7203
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 64%
-
+source-wordcount: '421'
+ht-degree: 63%
 ---
-
 # Benutzerdefinierte Datenwissenschaft für den Blueprint zur Profilanreicherung
 
 Der Blueprint Benutzerdefinierte Datenwissenschaft für die Profilanreicherung veranschaulicht, wie Daten zum Trainieren, Bereitstellen und Bewerten von Modellen verwendet werden können, um Einblicke in maschinelles Lernen in [!DNL Experience Platform] und die [!DNL Real-Time Customer Data Platform] aus Datenwissenschaft und Tools für maschinelles Lernen zu bieten.
@@ -22,13 +20,9 @@ Modellierte Einblicke können in [!DNL Experience Platform] aufgenommen werden, 
 * Anreichern des [!UICONTROL Echtzeit-Kundenprofils] mit modellgestützten Erkenntnissen und Attributen für detailliertere Personalisierung und Journey-Optimierung.
 * Trainieren und Bewerten von Modellen, um Kundenerkenntnisse wie Kunden-Lebenszeitwert, Konversions- oder Abwanderungsneigung, Produkt- und Content-Affinität und Interaktionswerte zu ermitteln.
 
-## Architektur
-
-<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="Referenzarchitektur für die Blueprint „Benutzerdefinierte Datenwissenschaft zur Profilanreicherung“" style="width:90%; border:1px solid #4a4a4a" />
-
 ## Leitlinien
 
-* Detaillierte Informationen zu Leitplanken und End-to-End-Latenzen bei der Aufnahme datenwissenschaftlicher Ergebnisse in [!DNL Experience Platform] und das Echtzeit-Kundenprofil finden Sie in den Leitplanken für die Datenaufnahme und im Latenzdiagramm, auf das im Dokument [Bereitstellungsleitplanken“ verwiesen &#x200B;](/help/blueprints/experience-platform/guardrails.md).
+* Detaillierte Informationen zu Leitplanken und End-to-End-Latenzen bei der Aufnahme datenwissenschaftlicher Ergebnisse in [!DNL Experience Platform] und das Echtzeit-Kundenprofil finden Sie in den Leitplanken für die Datenaufnahme und im Latenzdiagramm, auf das im Dokument [Bereitstellungsleitplanken“ verwiesen ](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md).
 
 ## Überlegungen bei der Implementierung
 

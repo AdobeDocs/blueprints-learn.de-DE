@@ -4,13 +4,11 @@ description: Überprüfen Sie die Journey-Ausführung anhand der Ein- und Aussti
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 
 # Journey validieren
 
@@ -55,7 +53,7 @@ Sie können auf den Umschalter oben klicken, um **Testereignisse ausschließen**
 
 3 externe Ereignisse
 
-&#x200B;5. Klicken Sie auf die **E-Mail**-Registerkarte (in der linken Leiste).
+1. Klicken Sie auf die **E-Mail**-Registerkarte (in der linken Leiste).
    - **E-Mail - Versandleistung**
      - Es werden einige Werte für **Zugestellt** und **Gesendet** angezeigt (die Anzahl hängt von der Anzahl der gesendeten Ereignisse ab, von Fehlern usw.)
      - Hoffentlich haben Sie keine Fehler (es sei denn, Sie sind früher auf Probleme gestoßen)
@@ -64,7 +62,7 @@ Sie können auf den Umschalter oben klicken, um **Testereignisse ausschließen**
 
    ![Registerkarte „E-Mail“ mit Versandleistung und Statistiken](assets/validate-journey-email-tab-sending-performance.png)
 
-&#x200B;6. Überprüfen Sie Ihren **E-Mail-Posteingang** und überprüfen Sie, ob Sie die E-Mail erhalten haben (sie sieht in etwa wie folgt aus)
+1. Überprüfen Sie Ihren **E-Mail-Posteingang** und überprüfen Sie, ob Sie die E-Mail erhalten haben (sie sieht in etwa wie folgt aus)
    - *,* Ihre Bestellung wurde an ETA versendet: *10/17/2026* Tracking-Nummer: *051009364*
 
    >[!NOTE]
@@ -81,7 +79,7 @@ Sie können auf den Umschalter oben klicken, um **Testereignisse ausschließen**
 
 
 
-&#x200B;7. *Nach 30-60 Minuten* können Sie Ihren Datensatz im Data Lake sogar mit folgenden Elementen überprüfen: **Abfragen** -> **Abfrage erstellen** -> **SQL kopieren/einfügen** -> **Ausführen**
+1. *Nach 30-60 Minuten* können Sie Ihren Datensatz im Data Lake sogar mit folgenden Elementen überprüfen: **Abfragen** -> **Abfrage erstellen** -> **SQL kopieren/einfügen** -> **Ausführen**
 
 >[!NOTE]
 >
@@ -119,7 +117,7 @@ Die Ergebnisse umfassen mehr als 100 Spalten und geben Ihnen einen Eindruck davo
 
 >[!NOTE]
 >
->Sie sind neugierig, was die einzelnen Felder bedeuten, schauen Sie sich das AJO-Schemawörterbuch an und ändern Sie die Dropdownliste in das Journey-Schrittereignisschema: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+>Sie sind neugierig, was die einzelnen Felder bedeuten, schauen Sie sich das AJO-Schemawörterbuch an und ändern Sie die Dropdownliste in das Journey-Schrittereignisschema: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
 
 
 

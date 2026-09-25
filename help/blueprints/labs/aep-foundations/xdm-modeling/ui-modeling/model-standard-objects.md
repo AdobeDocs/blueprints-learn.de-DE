@@ -4,7 +4,7 @@ description: Erstellen Sie ein Schema „Individuelles Profil“ in der Benutzer
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Es gibt viele Feldergruppen, die als Standard-XDM in Adobe Experience Platform v
 
 
 
-&#x200B;3. **Aktivieren** das Kontrollkästchen neben der Feldergruppe und klicken Sie dann auf die Schaltfläche **Feldergruppen hinzufügen**
+1. **Aktivieren** das Kontrollkästchen neben der Feldergruppe und klicken Sie dann auf die Schaltfläche **Feldergruppen hinzufügen**
 
 ![Wählen Sie die Feldergruppe Demografische Details aus, um sie zu Ihrem Schema hinzuzufügen](assets/model-standard-objects-select-demographic-details-field-group.png "Wählen Sie die Feldergruppe Demografische Details aus, um sie zu Ihrem Schema hinzuzufügen")
 

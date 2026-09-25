@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie einen E-Mail-Entwurf in wiederverwendbare Fra
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen von Inhaltsfragmenten
 
@@ -136,29 +134,29 @@ Erstellen Sie zunächst ein Header-Fragment. Richten Sie jedoch vor dem Erstelle
 
 ![Klicken Sie auf Weiter , nachdem Sie den Logo-Upload ausgewählt haben](assets/building-content-fragments-upload-logo-click-next.png)
 
-&#x200B;11. Wählen Sie den **Asset-Ordner** aus, den Sie erstellt haben, und klicken Sie dann auf **Importieren**. Die Datei wird im Ordner gespeichert.
+1. Wählen Sie den **Asset-Ordner** aus, den Sie erstellt haben, und klicken Sie dann auf **Importieren**. Die Datei wird im Ordner gespeichert.
 
-![Auswählen des erstellten Asset-Ordners und Klicken auf „Importieren“](assets/building-content-fragments-select-asset-folder-import.png)
+   ![Auswählen des erstellten Asset-Ordners und Klicken auf „Importieren“](assets/building-content-fragments-select-asset-folder-import.png)
 
-&#x200B;12. Das Logo ist korrekt platziert, aber es ist zu groß und muss in der Größe verändert werden. Um die Größe des Logos zu ändern, aktualisieren Sie seine Eigenschaften. Klicken Sie auf **Registerkarte Stil** und legen Sie die Breite auf 40 % fest, indem Sie den Schieberegler ziehen, wie unten dargestellt.
+1. Das Logo ist korrekt platziert, aber es ist zu groß und muss in der Größe verändert werden. Um die Größe des Logos zu ändern, aktualisieren Sie seine Eigenschaften. Klicken Sie auf **Registerkarte Stil** und legen Sie die Breite auf 40 % fest, indem Sie den Schieberegler ziehen, wie unten dargestellt.
 
->[!NOTE]
->
->Beachten Sie, dass, wenn die Umschalter-Schaltfläche aktiviert ist, die 40-Zahl für % und nicht für Pixel steht. Wenn Sie einen absoluten Wert für die perfekte Pixelanzahl wünschen, schalten Sie die Schaltfläche auf px um.
+   >[!NOTE]
+   >
+   >Beachten Sie, dass, wenn die Umschalter-Schaltfläche aktiviert ist, die 40-Zahl für % und nicht für Pixel steht. Wenn Sie einen absoluten Wert für die perfekte Pixelanzahl wünschen, schalten Sie die Schaltfläche auf px um.
 
 
 
-![Der Regler für die Breite der Registerkarte „Stil“ ist auf 40 Prozent eingestellt, um die Größe des Logos zu ändern](assets/building-content-fragments-resize-logo-width-slider.png)
+   ![Der Regler für die Breite der Registerkarte „Stil“ ist auf 40 Prozent eingestellt, um die Größe des Logos zu ändern](assets/building-content-fragments-resize-logo-width-slider.png)
 
-&#x200B;13. Klicken Sie auf **Speichern** und Ihr Fragment wird gespeichert. Bei der Bestätigung wird eine Benachrichtigung mit einem grünen Balken angezeigt.
+1. Klicken Sie auf **Speichern** und Ihr Fragment wird gespeichert. Bei der Bestätigung wird eine Benachrichtigung mit einem grünen Balken angezeigt.
 
-![Grüne Bestätigungsleiste nach dem Speichern des Fragments](assets/building-content-fragments-save-fragment-confirmation.png)
+   ![Grüne Bestätigungsleiste nach dem Speichern des Fragments](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;14. Das Fragment wird im Entwurfsmodus gespeichert. Bevor Sie sie verwenden, müssen Sie sie veröffentlichen. Klicken Sie auf die Schaltfläche **Zurück**.
+1. Das Fragment wird im Entwurfsmodus gespeichert. Bevor Sie sie verwenden, müssen Sie sie veröffentlichen. Klicken Sie auf die Schaltfläche **Zurück**.
 
-![Schaltfläche „Zurück“, um den Fragmententwurf vor der Veröffentlichung zu verlassen](assets/building-content-fragments-click-back-button-draft.png)
+   ![Schaltfläche „Zurück“, um den Fragmententwurf vor der Veröffentlichung zu verlassen](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;15. Klicken Sie auf **Schaltfläche „Veröffentlichen**. Es wird die Meldung „Fragment wird veröffentlicht, dies kann einige Zeit dauern. Wir benachrichtigen Sie, sobald dies geschehen ist.“ Bei Bestätigung. Ihr Fragment ist bereit für die Vorlagenerstellung.
+1. Klicken Sie auf **Schaltfläche „Veröffentlichen**. Es wird die Meldung „Fragment wird veröffentlicht, dies kann einige Zeit dauern. Wir benachrichtigen Sie, sobald dies geschehen ist.“ Bei Bestätigung. Ihr Fragment ist bereit für die Vorlagenerstellung.
 
 ![Schaltfläche „Veröffentlichen“ und Bestätigungsmeldung zum Veröffentlichen des Fragments](assets/building-content-fragments-click-publish-fragment-button.png)
 

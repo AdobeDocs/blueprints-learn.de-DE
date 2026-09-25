@@ -1,16 +1,14 @@
 ---
-title: Option
+title: Option #2 - use pre-aggregates
 description: Erstellen Sie eine vollständig gestreamte Zielgruppe, indem Sie vorab aggregierte Nutzungsattribute verwenden, die im Vorfeld berechnet wurden, anstatt Ereignisse innerhalb der Zielgruppenregel zu aggregieren.
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 
 # Option #2 - Verwenden von Pre-Aggregaten
 
@@ -36,15 +34,15 @@ Erstellen Sie eine Audience für alle Profile, deren Abrechnungsdatennutzung hoc
 
 
 
-&#x200B;3. Suchen Sie im Profil nach dem Plannamen und fügen Sie ihn hinzu (XDM-Kontaktprofil > DevBC > Plandetails > Planname). &quot;Ultimate&quot; auswählen
+1. Suchen Sie im Profil nach dem Plannamen und fügen Sie ihn hinzu (XDM-Kontaktprofil > DevBC > Plandetails > Planname). &quot;Ultimate&quot; auswählen
 
    ![Planname auswählen stimmt nicht mit Ultimate überein](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. Geben Sie eine Beschreibung ein.  Validieren Sie, ob die Auswertungsmethode Streaming ist.
+1. Geben Sie eine Beschreibung ein.  Validieren Sie, ob die Auswertungsmethode Streaming ist.
 
-&#x200B;5. Speichern Sie die Zielgruppe als &quot;*Abrechnung - Datennutzung hoch, aber kein Ultimate-Plan (AGG)*&quot;
+1. Speichern Sie die Zielgruppe als &quot;*Abrechnung - Datennutzung hoch, aber kein Ultimate-Plan (AGG)*&quot;
 
 >[!NOTE]
 >

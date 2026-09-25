@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3507'
 ht-degree: 7%
-
 ---
 # Blueprint-Prüfung und -Empfehlungen
 
@@ -16,6 +15,9 @@ Dies ist nur eine Prüfung - es wurde kein Inhalt verschoben. Der Migrationsrüc
 wird als gesonderter Folgeplan erstellt, sobald die Empfehlungen überprüft worden sind.
 
 ## Zusammenfassung
+
+Entscheidungs-Management und Campaign v7-Inhalte wurden eingestellt. Die historischen Zeilen unter bleiben unverändert
+Dokumentieren Sie diese Entscheidungen und ihre genehmigten Weiterleitungen.
 
 **Insgesamt geprüfte Dokumente:** 43
 
@@ -51,7 +53,7 @@ Wenn vollständig ausgefüllt, enthält die Kategorie **7 Muster**:
 | `b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md` | **Neu erstellen** | `use-case-patterns/b2b/campaign-intake-and-creation.md` |
 | `b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md` | **Neu erstellen** | `use-case-patterns/b2b/campaign-review-and-approval.md` |
 
-> **Anfänglicher Übergangsstatus — Writer-Coordination-Gate.** Die bestehende „B2B-Aktivierung und -Marketing“> Unterabschnitt im Bereich Architecture-Diagrams von [TOC.md](../help/blueprints/TOC.md) (Zeilen 95-106) **bleibt intakt> Während der Umstellung**. Jede Blueprint-Konversion und jedes Verschieben vorhandener Muster erfordert> Abnahme vom Eigentümer des Verfassers, bevor der Inhalt migriert wird. Das neue Anwendungsfallmuster für `b2b/`> Abschnitt ist neben dem vorhandenen Blueprint-Abschnitt vorhanden, während Migrationen Seite für Seite erfolgen, mit> Querverbindungen zwischen ihnen.
+> **B2B-Disposition abgeschlossen.** Die Auditempfehlungen wurden verwendet, um die Seiten der Zielgruppe/des Profils und der Kontoaktivierungsarchitektur beizubehalten, die verbleibenden B2B-Architekturseiten einzustellen und nicht mehr verwendete URLs zur B2B-Kategorieübersicht umzuleiten.
 
 Wenn die Verlagerungen und neuen Muster alle gelandet sind:
 
@@ -60,7 +62,7 @@ Unterabschnitt (Platzierung TBD mit dem Autor).
 - [use-case-patterns/overview.md](../help/blueprints/use-case-patterns/overview.md) erhält eine B2B-Kategorietabelle.
 - Die verschobenen Muster werden aus `audience-building-activation` entfernt.
   `campaign-management-orchestration` und `analysis` Übersichtstabellen; ihre alten URLs werden beibehalten
-Live über Weiterleitungen in [migration-redirects.csv](migration-redirects.csv).
+  Live über Weiterleitungen in [migration-redirects.csv](migration-redirects.csv).
 
 ### Identifizierte Duplikate (9)
 
@@ -79,7 +81,10 @@ Der Blueprint-Umfang wird bereits von einem vorhandenen Anwendungsfallmuster abg
 | `customer-journeys/decision-management/decision-management-edge.md` | `use-case-patterns/personalization/offer-decisioning.md` |
 | `customer-journeys/decision-management/decision-management-hub.md` | `use-case-patterns/personalization/offer-decisioning.md` |
 
-> Hinweis: `decision-management-edge.md` und `decision-management-hub.md` sind beide derselben Zuordnung zugeordnet> Vorhandenes `offer-decisioning.md`. Erwägen Sie, beide Blueprints zu einem einzigen zu konsolidieren> Bereitstellungsoptionendiagramm oder Erweiterung des vorhandenen Musters durch Edge-vs-Hub-Bereitstellung> Varianten. Flag für Autorenüberprüfung.
+> Hinweis: `decision-management-edge.md` und `decision-management-hub.md` sind beide derselben Zuordnung zugeordnet
+> Vorhandenes `offer-decisioning.md`. Erwägen Sie, beide Blueprints zu einem einzigen zu konsolidieren
+> Bereitstellungsoptionendiagramm oder Erweiterung des vorhandenen Musters durch Edge-vs-Hub-Bereitstellung
+> Varianten. Flag für Autorenüberprüfung.
 
 ### Muster für Autor (8 neue + 2 aus Aufspaltungen = insgesamt 10)
 
@@ -123,20 +128,20 @@ Vollständigkeit, wenn ein Blueprint vollständig eingestellt wurde:
 ```
 # Pattern blueprints — if deleted, redirect to the new pattern URL
 # (slugs are placeholders; finalize when each pattern is authored)
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/customer-activity → use-case-patterns/audience-building-activation/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/data-science → use-case-patterns/audience-building-activation/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/real-time-lookup → use-case-patterns/personalization-patterns/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-journeys-with-marketo → use-case-patterns/b2b-patterns/marketo-data-journeys
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/ajo-b2b-paid-media-controller → use-case-patterns/b2b-patterns/paid-media-orchestration
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/marketo-engage-and-workfront-integration-blueprint/intake-and-create → use-case-patterns/b2b-patterns/campaign-intake-and-creation
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint → use-case-patterns/b2b-patterns/campaign-review-and-approval
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/customer-activity → use-case-patterns/audience-building-activation/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/data-science → use-case-patterns/audience-building-activation/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/real-time-lookup → use-case-patterns/personalization-patterns/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-journeys-with-marketo → use-case-patterns/b2b-patterns/marketo-data-journeys
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/ajo-b2b-paid-media-controller → use-case-patterns/b2b-patterns/paid-media-orchestration
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration-blueprint/intake-and-create → use-case-patterns/b2b-patterns/campaign-intake-and-creation
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint → use-case-patterns/b2b-patterns/campaign-review-and-approval
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview → use-case-patterns/campaign-orchestration-patterns/<new-pattern-slug>
 
 # Duplicate blueprints — if deleted, redirect to the existing pattern URL
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/advertising-activation → use-case-patterns/audience-building-activation/audience-activation-to-destinations
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/segment-match → use-case-patterns/audience-building-activation/audience-collaboration-segment-match
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2bactivation → use-case-patterns/b2b-patterns/account-audience-activation  (after b2b/ relocation)
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-buying-group-journeys → use-case-patterns/b2b-patterns/buying-group-marketing  (after b2b/ relocation)
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/advertising-activation → use-case-patterns/audience-building-activation/audience-activation-to-destinations
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/segment-match → use-case-patterns/audience-building-activation/audience-collaboration-segment-match
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2bactivation → use-case-patterns/b2b-patterns/account-audience-activation  (after b2b/ relocation)
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-buying-group-journeys → use-case-patterns/b2b-patterns/buying-group-marketing  (after b2b/ relocation)
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/b2b-cja → use-case-patterns/b2b-patterns/account-analytics  (after b2b/ relocation)
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-journeys → use-case-patterns/campaign-orchestration-patterns/event-triggered-messaging
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-campaigns → use-case-patterns/campaign-orchestration-patterns/batch-outbound-message-activation
@@ -144,7 +149,7 @@ Vollständigkeit, wenn ein Blueprint vollständig eingestellt wurde:
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/decision-management/decision-management-hub → use-case-patterns/personalization-patterns/offer-decisioning
 
 # Optional one-off — if customer-journey-analytics/analysis.md is relocated to experience-platform/
-/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/analysis → architecture-diagrams/architecture-overview/analysis
+/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/analysis → architecture-diagrams/architecture-overviews/analysis
 ```
 
 Wenn Sie einen der oben genannten Werte in aktive Umleitungszeilen konvertieren, formatieren Sie ihn als kommagetrennte Zeilen `source,dest`
@@ -192,7 +197,7 @@ Sequenzierungsplan; die Sequenzierung erfolgt nach der Koordinierung in einem Fo
 | Pfad | Anrede | Zusammenfassung | dominanter_type | Empfehlung | recommended_pattern_category | recommended_pattern_title | recommended_diagram_title | duplicate_of | pattern_score | diagram_score | Notizen |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | help/blueprints/experience-platform/experience-cloud.md | Architekturdiagramme zu Adobe Experience Cloud | Unternehmensarchitektur, die zeigt, wie Experience Cloud-Programme und -Services in AEP Foundation integriert werden. | Diagramm | Diagramm |  |  | Überblick über die Experience Cloud-Architektur |  | 0 | 3 | Überschreibung 3 (kein Geschäftsziel). Drei komplementäre Diagramme (Marktarchitektur, Integration, Unternehmenslandschaft). Kontrollgruppe: erwartungsgemäß. |
-| help/blueprints/experience-platform/platform-applications.md | Architekturdiagramme für Adobe Experience Platform und Programme | Architekturdiagramme, die zeigen, wie Experience Platform mit anderen Experience Cloud-Anwendungen in Beziehung steht. | Diagramm | Diagramm |  |  | AEP- und Anwendungsarchitektur |  | 0 | 3 | Überschreiben Sie 3. Zwei Übersichts-/Detaildiagramme, keine Implementierungsanleitung. Verknüpfungen zu Integrationen - Erfahren Sie mehr über Dokumente. Kontrollgruppe: erwartungsgemäß. |
+| help/blueprints/experience-platform/platform-applications.md | Architekturdiagramme für Adobe Experience Platform und Programme | Architekturdiagramme, die die Beziehung von Experience Platform zu anderen Experience Cloud-Programmen zeigen. | Diagramm | Diagramm |  |  | AEP- und Anwendungsarchitektur |  | 0 | 3 | Überschreiben Sie 3. Zwei Übersichts-/Detaildiagramme, keine Implementierungsanleitung. Verknüpfungen zu Integrationen - Erfahren Sie mehr über Dokumente. Kontrollgruppe: erwartungsgemäß. |
 | help/blueprints/experience-platform/platform-data-flow.md | Architekturdiagramme zum Datenfluss in Adobe Experience Platform | Diagramm zur Datenflussarchitektur mit Aufnahme- und Ausgangspfaden in und aus Experience Platform. | Diagramm | Diagramm |  |  | AEP-Datenflussarchitektur |  | 0 | 3 | Überschreiben Sie 3. Einzelnes Datenflussdiagramm mit Verweis auf Datenerfassungsdokumente. Reines Architekturartefakt. Kontrollgruppe: erwartungsgemäß. |
 | help/blueprints/experience-platform/guardrails.md | Leitlinien für Experience Platform und Anwendungen | Systemeinschränkungen, Leistungserwartungen und Latenzwägelungen für AEP und Programme. | Diagramm | Diagramm |  |  | Leitplanken und Latenzen für AEP und Programme |  | 0 | 3 | Überschreiben Sie 3. Latenzdiagramm plus Referenztabellen. Architektenorientiert (Edge vs. Hub). Dokumentation zu Einschränkungen, keine Anleitung. Kontrollgruppe: erwartungsgemäß. |
 | help/blueprints/experience-platform/deployment/websdk.md | Architekturdiagramm für Experience Platform Web SDK und Edge Network | Bereitstellungsarchitektur von Web SDK und Edge Network mit Datenerfassungsflüssen. | Diagramm | Diagramm |  |  | Bereitstellung von Web SDK und Edge Network |  | 0 | 3 | Überschreiben Sie 3. Zwei Diagramme (Ablauf und Ablauf). Verweist auf Tutorials, aber keine Anleitungen im Dokument. Architektenorientiert. Kontrollgruppe: erwartungsgemäß. |
@@ -209,7 +214,7 @@ Sequenzierungsplan; die Sequenzierung erfolgt nach der Koordinierung in einem Fo
 | help/blueprints/b2b/b2bactivation.md | Blueprint: B2B – Aktivierung von Zielgruppen und Profilen | Aktivieren Sie Account-basierte B2B-Zielgruppen über Web-, E-Mail- und Werbekanäle mithilfe von Account- und Profildaten. | Muster | Duplizieren |  |  |  | help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md | 3 | 1 | Überschreibung 2: Entsprechendes Muster ist vorhanden. Blueprint ist eine auf die engere Architektur fokussierte Teilmenge. |
 | help/blueprints/b2b/b2b-account-activation.md | B2B-Kontoaktivierung für Advertising-Ziele und Dateiziele | Targeting von B2B-Konten über LinkedIn und Cloud-Speicher-Ziele mithilfe der Erstellung und Aktivierung von Konto-Audience. | Diagramm | Diagramm |  |  | B2B-Konto-Audience Activation |  | 1 | 2 | Minimales Business-Framing, keine KPIs, minimale Erzählung. Architekturdiagramm vorhanden; LinkedIn/Cloud-Speicher-Topologie beschrieben. Als Diagramm beibehalten. |
 | help/blueprints/b2b/b2b-buying-group-journeys.md | Kaufen von gruppenbasiertem Marketing und Journey-Management-Blueprint | Journey für das Konto entwerfen, die Leads zu Einkaufsgruppen mit definierten Rollen und Lösungsinteressen qualifizieren. | Muster | Duplizieren |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md | 5 | 2 | Überschreibung 2: Entsprechendes Muster ist vorhanden. Blueprint enthält umfangreiche Musterinhalte, das vorhandene Muster ist jedoch umfassender. |
-| help/blueprints/b2b/b2b-journeys-with-marketo.md | B2B-Journey, die Marketo Data Blueprint verwenden | Stellen Sie Journey Optimizer B2B edition mit Marketo-Daten bereit, um die Journey von Einkaufsgruppen und die Kontointeraktion zu orchestrieren. | Muster | Muster | B2B | B2B-Account-Journey mit Marketo-Datenintegration |  |  | 4 | 1 | Starkes Business-Framework. Aufgeführte KPIs; mehrere Implementierungsoptionen; umfassende Überlegungen (>30 Zeilen). Unterschieden von bestehenden Mustern durch die Marketo-Datenintegrationstiefe (XDM-Konfiguration, Identitätszuordnung, Feldblockierung). Routen zur neuen b2b/-Kategorie |
+| help/blueprints/b2b/b2b-journeys-with-marketo.md | B2B-Journey, die Marketo Data Blueprint verwenden | Stellen Sie Journey Optimizer B2B Edition mit Marketo-Daten bereit, um die Journey der Einkaufsgruppe und die Kontointeraktion zu orchestrieren. | Muster | Muster | B2B | B2B-Account-Journey mit Marketo-Datenintegration |  |  | 4 | 1 | Starkes Business-Framework. Aufgeführte KPIs; mehrere Implementierungsoptionen; umfassende Überlegungen (>30 Zeilen). Unterschieden von bestehenden Mustern durch die Marketo-Datenintegrationstiefe (XDM-Konfiguration, Identitätszuordnung, Feldblockierung). Routen zur neuen b2b/-Kategorie |
 | help/blueprints/b2b/ajo-b2b-paid-media-controller.md | AJO B2B - Account Journey Orchestration - Paid Media Controller | Orchestrieren Sie B2B-Kampagnen mit bezahlten Medien mithilfe der Wasserfalllogik, um Kampagnen Konten zuzuweisen und sie für Ziele zu aktivieren. | Muster | Muster | B2B | Orchestrierung bezahlter B2B-Medien über die Waterfall-Split-Path-Logik |  |  | 4 | 2 | Starkes Business-Framework. Explizite KPIs; mehrere Implementierungsoptionen; Voraussetzungen; Erzählung > 30 Zeilen. Anders als bei bestehenden Einkaufsgruppenmustern (konzentriert sich auf die Priorisierung bezahlter Medien, nicht auf die Pflege). Routen zur neuen b2b/-Kategorie |
 | help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md | Blueprint-Übersicht: Integration von Marketo Engage und Workfront | Überblick über die Kampagnenplanung bis zur Automatisierung der Ausführung mithilfe von Marketo Engage und Workfront mit Fusion. | Navigation | Navigation |  |  |  |  |  |  | Überschreibung 1: Datei mit dem Namen overview.md. Von der Migration ausgeschlossen. |
 | help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md | Blueprint: Annahme und Erstellung | Automatisieren Sie den Eingang von B2B-Marketing-Kampagnenanfragen zur Erstellung mithilfe von Workfront Forms- und Marketo Engage-Programmvorlagen. | Muster | Muster | B2B | Aufnahme von Kampagnenanfragen und automatisierte Programmerstellung |  |  | 4 | 1 | Starkes Business-Framework zur Kampagnengeschwindigkeit. Implizite KPIs (Fehler/Rework-Reduktion); Workflow-Schritte >30 Zeilen; Checkliste für die Bereitschaft. Routen zu neuen B2B-/-Kategorien (Marketo+Workfront-Ops sind überwiegend B2B). |
@@ -221,7 +226,7 @@ Sequenzierungsplan; die Sequenzierung erfolgt nach der Koordinierung in einem Fo
 | help/blueprints/customer-journey-analytics/cja-ajo.md | Customer Journey Analytics mit Journey Optimizer Blueprint | Analyse der Versand- und Interaktionsdaten von AJO in CJA; Veröffentlichung von CJA-Zielgruppen in AJO. | Diagramm | Diagramm |  |  | Integration und Analyse zwischen CJA und AJO |  | 1 | 3 | Starker Architekturfokus. Minimale Erzählung. Eindeutiger Inhalt: bidirektionales Datenfreigabemuster zwischen CJA und AJO. |
 | help/blueprints/customer-journey-analytics/analysis.md | Blueprint: Datenanalyse und Datenintelligenz | Verwenden Sie den Abfrage-Service von Experience Platform für die explorative Analyse der Data Lake-Daten. | Diagramm | Diagramm |  |  | Integration von Experience Platform Query Service und BI-Tool |  | 1 | 3 | Behandelt Query Service, NICHT CJA-spezifisch. im CJA-Ordner verlegt sein könnte; ziehen Sie einen Wechsel zu experience-platform/ in Betracht. Starke Architekturzielgruppe (PostgreSQL, BI-Tools). |
 | help/blueprints/customer-journeys/overview.md | Customer-Journey-Blueprints | Moderne Marketing-Plattformen unterstützen ereignisgesteuerte Journey und markeninitiierte Kampagnen kanalübergreifend. | Navigation | Navigation |  |  |  |  |  |  | Überschreibung 1: overview.md. Inhaltsverzeichnis für Journey-Unterkategorien; beschreibt die Positionierung von Journey Optimizer und Campaign. |
-| help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md | Journey Optimizer Blueprints | Ereignisgesteuerte 1::1-Orchestrierung und zielgruppenbasierte Markenkommunikation über verschiedene Kanäle hinweg. | Navigation | Navigation |  |  |  |  |  |  | Überschreibung 1: overview.md. Landingpage mit Anwendungsfall-Registerkarten und Integrationsmustern. |
+| help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md | Journey Optimizer Blueprints | Ereignisgesteuerte 1:1-Profilorchestrierung und zielgruppenbasierte Markenkommunikation über alle Kanäle hinweg. | Navigation | Navigation |  |  |  |  |  |  | Überschreibung 1: overview.md. Landingpage mit Anwendungsfall-Registerkarten und Integrationsmustern. |
 | help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md | Journey Optimizer - Ausgelöstes Messaging und Adobe Experience Platform Blueprint | Ereignisgesteuerte Workflows in Echtzeit, die basierend auf Kundenverhalten personalisierte mehrstufige Erlebnisse bieten. | Muster | Duplizieren |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md | 4 | 2 | 2 mit Einschränkung überschreiben: Agent wird als wahrscheinlich dupliziert, aber unsicher gekennzeichnet. Überprüfen Sie die Bereichsausrichtung vor dem Reduzieren. Überlegungen zur Architektur können einzigartig sein (Profilfrische, Zeitpunkt der Segmentqualifizierung) und sollten im Diagramm beibehalten werden. |
 | help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md | Journey Optimizer - Kampagnenorchestrierung | Geplante zielgruppenbasierte mehrstufige Kommunikation über ausgehende Kanäle: E-Mail, SMS, Push, Briefpost. | Muster | Duplizieren |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md | 3 | 2 | Überschreibung 2: Entsprechendes Muster. Diagramme mit mehreren Architekturen; als Diagramm beibehalten. Eindeutiger Inhalt: Details zur relationalen Datenbank-/Zielgruppenportal-/dünnen Profilarchitektur. |
 | help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md | Blueprint: Journey Optimizer - Drittanbieter-Messaging | Demonstriert die Integration von Journey Optimizer mit Messaging-Systemen von Drittanbietern für orchestrierte Kommunikation. | Gemischt | Aufspalten | campaign-management-orchestration | Integration von Drittanbieternachrichten mit Journey Optimizer | Messaging-Architektur von Drittanbietern |  | 2 | 2 | Gebundene Scores → aufgeteilt. Diagramm (System-zu-System-Topologie) plus Musterinhalt (Implementierungsschritte, Integrationsbeschränkungen: Bearer-Authentifizierung, keine statischen IPs, Ratenbeschränkungen). Beides ist es wert, erhalten zu werden. |

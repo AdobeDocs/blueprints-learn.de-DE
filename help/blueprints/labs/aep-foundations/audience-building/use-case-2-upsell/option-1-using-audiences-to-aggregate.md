@@ -1,16 +1,14 @@
 ---
-title: Option
+title: Option #1 - using Audiences to aggregate
 description: Erstellen Sie Zielgruppen, die die Aggregation der Summe und des Durchschnitts der in der Zielgruppe enthaltenen Abrechnungs-Nutzungsereignisse und denormalisierte Plandaten verwenden, um die Streaming-Auswertung zu ermöglichen.
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '813'
 ht-degree: 0%
-
 ---
-
 
 # Option #1 - Verwenden von Zielgruppen zum Aggregieren
 
@@ -108,15 +106,15 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;5. Klicken Sie auf Zielgruppen > Experience Platform. Ziehen Sie Abrechnungsnutzungssumme > 140 GB und Abrechnungsnutzungsdurchschnitt >= 20 GB neben Planname.
+1. Klicken Sie auf Zielgruppen > Experience Platform. Ziehen Sie Abrechnungsnutzungssumme > 140 GB und Abrechnungsnutzungsdurchschnitt >= 20 GB neben Planname.
 
    ![Ziehen Sie die Zielgruppen zur Abrechnungsnutzung neben Planname](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-&#x200B;6. Kopieren Sie den Pseudo-Code in die Beschreibung
+1. Kopieren Sie den Pseudo-Code in die Beschreibung
 
-&#x200B;7. Aktivieren Sie diese Option, wenn es sich um Streaming handelt. **Es kann nicht Streaming sein**. Nehmen Sie einige Änderungen vor:
+1. Aktivieren Sie diese Option, wenn es sich um Streaming handelt. **Es kann nicht Streaming sein**. Nehmen Sie einige Änderungen vor:
 
    >[!NOTE]
    >
@@ -126,9 +124,9 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;8. Ersetzen Sie **Planname (Planname)** durch: XDM-Kontaktprofil > Devbc > Plandetails > **Planname**
+1. Ersetzen Sie **Planname (Planname)** durch: XDM-Kontaktprofil > Devbc > Plandetails > **Planname**
 
-   ![Ersetzen Sie den Plannamen (Planname) durch das denormalisierte Feld Planname &#x200B;](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
+   ![Ersetzen Sie den Plannamen (Planname) durch das denormalisierte Feld Planname ](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
    >[!NOTE]
    >
@@ -142,7 +140,7 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 
 
-&#x200B;9. Überprüfen Sie, ob Sie dies jetzt als Streaming speichern können. Zielgruppe als &quot;*Abrechnung der Datennutzung hoch, aber kein Ultimate-Plan*&quot; speichern
+1. Überprüfen Sie, ob Sie dies jetzt als Streaming speichern können. Zielgruppe als &quot;*Abrechnung der Datennutzung hoch, aber kein Ultimate-Plan*&quot; speichern
 
 >[!NOTE]
 >

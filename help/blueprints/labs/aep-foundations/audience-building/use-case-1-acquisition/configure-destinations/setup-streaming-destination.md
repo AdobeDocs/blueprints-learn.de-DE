@@ -4,13 +4,11 @@ description: Konfigurieren Sie ein Streaming-Ziel der HTTP-API mit einem Webhook
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
-
 ---
-
 
 # Streaming-Ziel einrichten
 
@@ -62,7 +60,7 @@ Navigieren Sie in der Experience Platform-Benutzeroberfläche wie folgt zum Ziel
 
 
 
-&#x200B;3. Füllen Sie die Konfigurationsdetails Ihres Ziels wie folgt aus:
+1. Füllen Sie die Konfigurationsdetails Ihres Ziels wie folgt aus:
 
 - **Name** -> `Streaming DEP Webhook - [Your Initials]`
 - **Beschreibung** -> `[your webhook endpoint you copied above]`
@@ -91,7 +89,7 @@ Stellen Sie anschließend sicher, dass die Konfiguration mit der unten angezeigt
 >
 >Weitere Informationen zu Governance-Richtlinien finden Sie in Experience League
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## Audiences auswählen
 

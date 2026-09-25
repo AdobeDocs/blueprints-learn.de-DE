@@ -4,13 +4,11 @@ description: Erstellen Sie gestufte iPhone-Angebotselemente mit Prioritäten, Ei
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen von Angebotselementen
 
@@ -84,7 +82,7 @@ Das erste und einfachste von Ihnen erstellte Angebotselement ist das Fallback-An
 >
 >In der Praxis und bei komplexeren Angeboten sollte ein ordnungsgemäßer Genehmigungsprozess vorhanden sein, um sicherzustellen, dass die Angebotselemente korrekt erstellt wurden. Um in diesem Labor Zeit zu sparen, genehmigen Sie einfach jedes von Ihnen erstellte Angebotselement.
 
-&#x200B;12. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
+1. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
 
 ## Basismodellobjekt erstellen
 
@@ -150,7 +148,7 @@ Nachdem die allgemeinen und Basismodellangebote erstellt wurden, können Sie zu 
 
 ![Abgeschlossene Konfiguration für das Angebotselement der Ultra-Ebene](assets/create-offer-items-ultra-offer-final-config.png)
 
-&#x200B;11. Nachdem Sie sich vergewissert haben, dass alle Einstellungen korrekt sind, speichern und genehmigen Sie dieses Angebotselement. Jetzt werden alle vier Angebotselemente mit jeweils einer eindeutigen Priorität angezeigt.
+1. Nachdem Sie sich vergewissert haben, dass alle Einstellungen korrekt sind, speichern und genehmigen Sie dieses Angebotselement. Jetzt werden alle vier Angebotselemente mit jeweils einer eindeutigen Priorität angezeigt.
 
 ![Seite „Angebote“ mit allen vier Angebotselementen mit eindeutigen Prioritäten](assets/create-offer-items-all-four-offers-priority.png)
 

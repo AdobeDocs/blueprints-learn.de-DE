@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie in einer orchestrierten Kampagne zwei E-Mail-
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 
 # E-Mail-Aktivitäten hinzufügen
 
@@ -54,7 +52,7 @@ In den nächsten Schritten fügen Sie den beiden Verzweigungen der Aktivität Ve
 
 6. Es gibt viele Optionen. Wählen Sie für diesen Test die Option **Eigenen Code erstellen** HTML aus
 
-   ![Wählen Sie die Option Eigenen HTML codieren &#x200B;](assets/add-email-activities-code-your-own-html.png)
+   ![Wählen Sie die Option Eigenen HTML codieren ](assets/add-email-activities-code-your-own-html.png)
 
 7. Fügen Sie in **E-Mail-**-Designer&quot; die Testzeile „Upgrade-Angebot verfügbar!“ ein. direkt vor den `</body></html>` Tags wie abgebildet und klicken Sie auf **Speichern**
 
@@ -72,7 +70,7 @@ In den nächsten Schritten fügen Sie den beiden Verzweigungen der Aktivität Ve
 
 ![Bestätigungsdialogfeld mit der Schaltfläche Speichern und schließen](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. Überprüfen Sie die E-Mail-Eigenschaften und -Aktionen einschließlich des Texts, der zum E-Mail-Textkörper hinzugefügt wurde. Klicken Sie auf den **Pfeil nach links**, um zur Kampagnen-Arbeitsfläche zurückzukehren
+1. Überprüfen Sie die E-Mail-Eigenschaften und -Aktionen einschließlich des Texts, der zum E-Mail-Textkörper hinzugefügt wurde. Klicken Sie auf den **Pfeil nach links**, um zur Kampagnen-Arbeitsfläche zurückzukehren
 
 ![Zurück zur Campaign-Arbeitsfläche](assets/add-email-activities-back-to-campaign-canvas.png)
 

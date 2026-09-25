@@ -1,16 +1,14 @@
 ---
-title: Zielgruppen-#3 erstellen
+title: Zielgruppe erstellen #3
 description: Erstellen Sie eine Zielgruppe von iPhone 14-Produktseitenbesuchern und kombinieren Sie sie mit anderen Zielgruppen, indem Sie die Zielgruppenaktivierung verwenden, um die Streaming-Aktivierung zu ermöglichen.
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Zielgruppen-#3 erstellen
 
@@ -134,17 +132,17 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 
 
 
-&#x200B;5. Geben Sie eine Beschreibung ein.
+1. Geben Sie eine Beschreibung ein.
 
-&#x200B;6. Wechsel zu Streaming
+1. Wechsel zu Streaming
 
-&#x200B;7. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
+1. Speichern unter &quot;*iPhone 14-Seite besucht, aber nicht Inhaber/Bestellt*&quot;
 
-&#x200B;8. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
+1. Klicken Sie auf die blaue Schaltfläche **Zielgruppe aktivieren** zum Ziel
 
-&#x200B;9. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
+1. Wählen Sie das **Streaming-DEP-Webhook**-Ziel aus und klicken Sie auf Weiter
 
-&#x200B;10. Klicken Sie auf Weiter und beenden Sie
+1. Klicken Sie auf Weiter und beenden Sie
 
 >[!NOTE]
 >
@@ -158,7 +156,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 >
 >Wir haben aus einigen Gründen eine einfache Anforderung in viele Zielgruppen aufgeteilt. Die Anforderung gilt für ein Streaming, aber diese beiden Anforderungen machen unsere Zielgruppe zu Batch. Weitere Informationen zu den Streaming-Eignungsregeln finden Sie hier:
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
 
 >[!NOTE]
 >
@@ -168,7 +166,7 @@ Diese Zielgruppe sollte direkt sein.  Wir haben vielleicht mehrere Produktseiten
 >
 >Wir müssen wissen, dass AEP bei Verwendung einer Zielgruppe innerhalb einer Zielgruppe nach Möglichkeit versucht, eine Sequenz durchzuführen. Es gibt Randfälle, in denen dies nicht möglich ist, z. B. Wenn eine Zielgruppe verwendet wird, erfolgt alle 24 Stunden eine Profildisqualifizierung.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=de](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=de)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
 
 
 

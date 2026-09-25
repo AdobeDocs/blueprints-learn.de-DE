@@ -2,20 +2,18 @@
 title: Bezahlter AJO B2B-Medien-Controller
 description: Priorität von Kampagnen und Aktivierung von Konten für Paid-Media-Ziele
 solution: Journey Optimizer B2B Edition
-source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1499'
 ht-degree: 0%
-
 ---
-
 # AJO B2B - Account Journey Orchestration - Paid Media Controller
 
 ## Übersicht
 
 Marketing-Teams, die skalierte, bezahlte B2B-Medien betreiben, stehen vor einem wiederkehrenden Problem: **Konten landen gleichzeitig in mehreren Kampagnen** (Persona, Kategorieerkennung, lösungsgesteuert, Verfolgung), was das Messaging verwässert, zu Zielgruppenermüdung führt und manuelle Listenarbeit - Uploads, Ausschlüsse und Unterdrückung - über LinkedIn Account Match (Account-Ziel) erzwingt. Ohne **Wasserfallpriorisierung** und **automatisierte Kampagnenzuweisung** kann nicht an einer Stelle entschieden werden, welches Konto welche Nachricht erhält, und Vorgänge werden nicht skaliert.
 
-Der **Paid Media Controller** ist eine perfekte Lösung für dieses Problem. Sie verwendet **Adobe Journey Optimizer B2B edition (AJO B2B)** und **Adobe Experience Platform (AEP)** gemeinsam: Eine **Account-Journey** liest eine Zielgruppe mit qualifiziertem Account aus Real-Time CDP, wendet **Split-Path (Waterfall)-Logik** an, um jedes Account genau einer Kampagnenebene zuzuweisen, und **aktiviert jeden Pfad direkt** auf Paid-Media-Ziele (**z. B. LinkedIn Matched Audiences**) - ohne manuelle Listenübergaben. Das Ergebnis ist Präzisionskontrolle, weniger Überschneidungen und ein wiederholbares Muster für die Mehrkanal-Orchestrierung bezahlter B2B-Medien.
+Der **Paid Media Controller** ist eine perfekte Lösung für dieses Problem. Sie verwendet **Adobe Journey Optimizer B2B Edition (AJO B2B)** und **Adobe Experience Platform (AEP)** gemeinsam: Eine **Account-Journey** liest eine Zielgruppe mit qualifiziertem Konto aus Real-Time CDP, wendet **Split-Path (Waterfall)-Logik** an, um jedes Konto genau einer Kampagnenebene zuzuweisen, und **aktiviert jeden Pfad direkt** auf Paid-Media-Ziele (**z. B. LinkedIn Matched Audiences**) - ohne manuelle Listenübergaben. Das Ergebnis ist Präzisionskontrolle, weniger Überschneidungen und ein wiederholbares Muster für die Mehrkanal-Orchestrierung bezahlter B2B-Medien.
 
 ## Anwendungsfall: Eine Story für Marketing-Experten: Warum ein Controller wichtig ist
 
@@ -50,7 +48,7 @@ Die Controller-Journey **liest** eine Zielgruppe mit qualifiziertem Konto (integ
 
 Für die Lösung mit Schwerpunkt auf Kunden sind die folgenden Anwendungen und Services erforderlich:
 
-- **Adobe Journey Optimizer B2B edition** - Account-Journey, Split-Path-Logik (Wasserfall), Für Ziel aktivieren.
+- **Adobe Journey Optimizer B2B Edition** - Account-Journey, Split-Path-Logik (Wasserfall), Für Ziel aktivieren.
 - **Adobe Real-time Customer Data Platform (RTCDP) B2B edition** - Kontoprofile, Kontozielgruppen (z. B. qualifizierte Konten für bezahlte Medien).
 
 ## Architektur
@@ -61,20 +59,16 @@ Allgemeiner Fluss:
 2. **Orchestration** — AJO B2B-Account-Journey: **Zielgruppe lesen** (qualifizierte Konten) → **Aufspaltungspfad** (Wasserfall: z. B. Verfolgung → lösungsgeführtes → Persona → Category → Foundational) → **Für Ziel aktivieren** (pro Pfad zu LinkedIn oder anderen bezahlten Medien).
 3. **Ziele** - Bezahlte Medienkanäle (z. B. LinkedIn Matched Audiences) erhalten eine Aktivierung auf Kontoebene von jedem Journey-Pfad; keine manuellen Listen-Uploads.
 
-## Architekturdiagramm
-
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="Architektur mit bezahltem B2B-Medien-Controller in AJO" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ## Datenmodellierung in B2B-AEP
 
-Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig. Account- und Personenprofile in AEP/RTCDP müssen die in **Split-Path-Bedingungen** verwendeten Attribute enthalten (z. B. Verfolgungs-Flag, Lösungsinteresse, Persona, Absichtskategorie, Interaktionswert). B2B-Schemas (XDM Business Account, XDM Individual Profile, relationale) sollten Ihre Hierarchie und Datenquellen darstellen. Weitere Informationen finden Sie unter [RTCDP B2B-](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) und in der [Dokumentation zu Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/guide-overview).
+Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig. Account- und Personenprofile in AEP/RTCDP müssen die in **Split-Path-Bedingungen** verwendeten Attribute enthalten (z. B. Verfolgungs-Flag, Lösungsinteresse, Persona, Absichtskategorie, Interaktionswert). B2B-Schemas (XDM Business Account, XDM Individual Profile, relationale) sollten Ihre Hierarchie und Datenquellen darstellen. Weitere Informationen finden Sie unter [RTCDP B2B-](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) und in der [Journey Optimizer B2B Edition-Dokumentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Hinweis** Die Split-Path-Logik auf der Journey verwendet Profildaten und, sofern unterstützt, relationale Daten. Stellen Sie sicher, dass die Felder, die Sie für die Wasserfalllogik benötigen, auf der Journey verfügbar sind.
 
 ### Leitlinien
 
-- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
-- **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
+- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
+- **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
 
 ## Implementierung
 
@@ -107,10 +101,6 @@ Die folgenden Schritte enthalten Anleitungen für die Implementierung des Paid M
    - Bestätigen Sie, dass jedes Konto nur einen Pfad eingibt (die erste übereinstimmende Bedingung).
    - Überprüfen Sie die Aktivierung: Konten erscheinen im richtigen Ziel und werden wie vorgesehen von Kampagnen mit niedrigerer Priorität ausgeschlossen.
 
-## Implementierungsdiagramm
-
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Arbeitsfläche des bezahlten AJO B2B-Medien-Controllers" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ### Zielgruppenaktivierung
 
 1. **Für LinkedIn aktivieren (und andere Ziele).**
@@ -127,6 +117,5 @@ Der Blueprint **Paid Media Controller** zeigt, wie **AJO B2B und AEP** zusammena
 
 ## Verwandte Dokumentation
 
-- [Kaufen von Blueprint für gruppenbasiertes Marketing und Journey-Management](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Konto- und Kaufen von Journey-Gruppen in AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b) - Produktdokumentation.
+- [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) - Produktdokumentation.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - Kontozielgruppen und -aktivierung.

@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # Blueprint-Bewertungsthema
 
@@ -21,7 +20,7 @@ mögliche Ansätze und Überlegungen zur Umsetzung darzulegen, um dieses Ziel zu
 Kanonische Form: `.claude/skills/use-case-pattern-builder/references/pattern-template.md`.
 - **Architekturdiagramm** - Ein visuelles Diagramm, das die Funktionalität eines Systems darstellt, das
 -Integrationen und Datenflüsse. Minimale Erzählung; das Diagramm ist das Artefakt.
-Kanonisches Beispiel: [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md).
+Kanonisches Beispiel: [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md).
 
 ## Scoring
 
@@ -42,11 +41,11 @@ Nur ein kurzer Überblick.
 
 ### Diagrammsignale (je = +1 Diagramm)
 
-&#x200B;6. **Architektur/Datenflussbild vorhanden** — `.svg`, `.png` oder `.jpg` mit Systemtopologie,
+6. **Architektur/Datenflussbild vorhanden** — `.svg`, `.png` oder `.jpg` mit Systemtopologie,
 Datenfluss oder Integrationspfeile.
-&#x200B;7. **Topologie der System-zu-System-Integration, Bereitstellungsform oder Leitplanken** - beschreibt, wie
+7. **Topologie der System-zu-System-Integration, Bereitstellungsform oder Leitplanken** - beschreibt, wie
 Verbindungen zwischen Komponenten, in denen Daten leben, Bereitstellungsmodelle (Edge vs. Hub) oder Kapazitätsbeschränkungen.
-&#x200B;8. **Zielgruppe sind Lösungsarchitekten** - Framing verwendet Bereitstellung, SDK, Edge, Hub oder Ähnliches
+8. **Zielgruppe sind Lösungsarchitekten** - Framing verwendet Bereitstellung, SDK, Edge, Hub oder Ähnliches
 Architektenorientierte Terminologie statt marketerorientierter Framing (Kampagnen, Journey,
 Zielgruppen).
 
@@ -89,7 +88,7 @@ Für jede Blueprint-Markdown-Datei im Umfang:
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`, `conversational-experience` oder eine neue Kategorie mit der Bezeichnung `(new) <name>`.
    - `proposed_pattern_title` — Ein kurzer, aktionsorientierter Titel, der dem bestehenden Muster folgt
-Benennungsstil
+     Benennungsstil
 6. Für `Diagram` und `Split` Empfehlungen schlagen Sie vor:
    - `proposed_diagram_title` - Normalerweise der bestehende Titel, der beim Business-Framing gekürzt wurde.
 7. Erfassen Sie alle Duplikate, die gefunden werden, indem Sie den Umfang des Blueprints mit dem vorhandenen Musterkatalog vergleichen

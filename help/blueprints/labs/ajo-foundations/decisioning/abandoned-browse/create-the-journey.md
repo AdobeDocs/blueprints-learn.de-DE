@@ -4,13 +4,11 @@ description: Erstellen Sie eine Journey, die Trigger einer Code-basierten Erlebn
 doc-type: article
 solution: Experience Platform
 exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen der Journey
 
@@ -77,67 +75,67 @@ ht-degree: 0%
 >
 >Das Fallback-Angebot ist optional, da es nur anwendbar wäre, wenn Endbenutzer für keines der Angebote infrage kommen (oder ungeeignet werden). In unserem Fall war unsere Auswahlstrategie für alle Besucher, und die einzigen Personen, die den CBE-Knoten erreichen würden, waren diejenigen, die die Journey betreten haben. Die Authentifizierung ist eine Voraussetzung für den Journey-Eintritt (der auf der Journey festgelegte Namespace ist einer, den sie nur hätten, wenn sie authentifiziert wären). Wir haben auch ein Fallback-Angebot in unsere Rangfolgenformel integriert, sodass es in unserem Fall nicht erforderlich ist, dieses Fallback-Angebot festzulegen.
 
-&#x200B;11. Klicken Sie auf die blaue **Weiter**-Schaltfläche, um die Entscheidungsrichtlinie zu überprüfen.
+1. Klicken Sie auf die blaue **Weiter**-Schaltfläche, um die Entscheidungsrichtlinie zu überprüfen.
 
-![Überprüfen Sie den Schritt für die Entscheidungsrichtlinie, bevor Sie sie erstellen](assets/create-the-journey-review-decision-policy.png)
+   ![Überprüfen Sie den Schritt für die Entscheidungsrichtlinie, bevor Sie sie erstellen](assets/create-the-journey-review-decision-policy.png)
 
-&#x200B;12. Sobald alles korrekt aussieht, klicken Sie auf die blaue Schaltfläche **Erstellen**. Nach der Erstellung kehren Sie zur Seite des Ausdruckseditors zurück.
-&#x200B;13. Es sollte ein Bildschirm ähnlich dem folgenden angezeigt werden. Wenn nicht, klicken Sie erneut auf **Entscheidungsrichtlinie** und Sie sehen, dass Ihre Entscheidungsrichtlinie angezeigt wird.
+1. Sobald alles korrekt aussieht, klicken Sie auf die blaue Schaltfläche **Erstellen**. Nach der Erstellung kehren Sie zur Seite des Ausdruckseditors zurück.
+1. Es sollte ein Bildschirm ähnlich dem folgenden angezeigt werden. Wenn nicht, klicken Sie erneut auf **Entscheidungsrichtlinie** und Sie sehen, dass Ihre Entscheidungsrichtlinie angezeigt wird.
 
-![Ausdruckseditor, der anzeigt, dass die Entscheidungsrichtlinie zum Einfügen bereit ist](assets/create-the-journey-decision-policy-ready.png)
+   ![Ausdruckseditor, der anzeigt, dass die Entscheidungsrichtlinie zum Einfügen bereit ist](assets/create-the-journey-decision-policy-ready.png)
 
-&#x200B;14. Klicken Sie auf die Schaltfläche **+ Richtlinie einfügen** und Sie sehen, dass im Code-Editor eine ForEach-Schleife angezeigt wird:
+1. Klicken Sie auf die Schaltfläche **+ Richtlinie einfügen** und Sie sehen, dass im Code-Editor eine ForEach-Schleife angezeigt wird:
 
-![ForEach-Schleife, die nach dem Einfügen der Entscheidungsrichtlinie in den Code-Editor eingefügt wird](assets/create-the-journey-foreach-loop-inserted.png)
+   ![ForEach-Schleife, die nach dem Einfügen der Entscheidungsrichtlinie in den Code-Editor eingefügt wird](assets/create-the-journey-foreach-loop-inserted.png)
 
->[!NOTE]
->
->Warum eine für jede Schleife? In unserem Fall geben wir nur ein einziges Angebot zurück. Beachten Sie jedoch die vorherigen Schritte, bei denen wir mehrere Angebote zurückgeben können. Bei der Betrachtung der Funktionalität ist der Schleifenmechanismus hier sinnvoll.
+   >[!NOTE]
+   >
+   >Warum eine für jede Schleife? In unserem Fall geben wir nur ein einziges Angebot zurück. Beachten Sie jedoch die vorherigen Schritte, bei denen wir mehrere Angebote zurückgeben können. Bei der Betrachtung der Funktionalität ist der Schleifenmechanismus hier sinnvoll.
 
-&#x200B;15. Fügen Sie innerhalb der Grenzen der Schleife gültige JSON-Dateien hinzu, um Marke, Modell und Ebene des Smartphones zurückzugeben, das dem Endbenutzer angeboten werden soll. Da die Frequenzlimitierung ebenfalls vorhanden ist, muss der Antwort ein TrackingToken hinzugefügt werden. Weitere Informationen hierzu finden Sie weiter unten in den Anweisungen. Um Zeit zu sparen, kopieren Sie einfach diese Codezeilen und fügen Sie sie in den Code-Editor innerhalb der For Each-Schleife ein:
+1. Fügen Sie innerhalb der Grenzen der Schleife gültige JSON-Dateien hinzu, um Marke, Modell und Ebene des Smartphones zurückzugeben, das dem Endbenutzer angeboten werden soll. Da die Frequenzlimitierung ebenfalls vorhanden ist, muss der Antwort ein TrackingToken hinzugefügt werden. Weitere Informationen hierzu finden Sie weiter unten in den Anweisungen. Um Zeit zu sparen, kopieren Sie einfach diese Codezeilen und fügen Sie sie in den Code-Editor innerhalb der For Each-Schleife ein:
 
-```javascript
-{
-     "make":"",
-     "model":"",
-     "tier":"",
-     "trackingToken":""
- },
-```
+   ```javascript
+   {
+        "make":"",
+        "model":"",
+        "tier":"",
+        "trackingToken":""
+    },
+   ```
 
-![Anfängliches JSON mit den Feldern „make“, „model“, „tier“ und „trackingToken“ in der ForEach-Schleife](assets/create-the-journey-initial-json-in-loop.png)
+   ![Anfängliches JSON mit den Feldern „make“, „model“, „tier“ und „trackingToken“ in der ForEach-Schleife](assets/create-the-journey-initial-json-in-loop.png)
 
->[!NOTE]
->
->Denken Sie daran, dass Sie dem standardmäßigen Angebots-XDM-Schema Attribute hinzugefügt haben, insbesondere die Marke, das Modell und die Ebene. Sie haben diese Attribute dann beim Erstellen der Angebote ausgefüllt. Sie fügen diese Attribute jetzt als Variablen hinzu, die mit Werten aus dem ausgewählten Angebot gefüllt werden. Das Feld trackingToken ist ein systemgenerierter Wert, der zum Tracking von Klicks und Impressionen verwendet wird.
+   >[!NOTE]
+   >
+   >Denken Sie daran, dass Sie dem standardmäßigen Angebots-XDM-Schema Attribute hinzugefügt haben, insbesondere die Marke, das Modell und die Ebene. Sie haben diese Attribute dann beim Erstellen der Angebote ausgefüllt. Sie fügen diese Attribute jetzt als Variablen hinzu, die mit Werten aus dem ausgewählten Angebot gefüllt werden. Das Feld trackingToken ist ein systemgenerierter Wert, der zum Tracking von Klicks und Impressionen verwendet wird.
 
-&#x200B;16. Platzieren Sie den Cursor zwischen den **&quot;**&quot; des „make“-Knotens. Fügen Sie den Marker des Angebots ein, indem Sie im Menü Entscheidungsrichtlinie zum Knoten **\_dep > Gerät >** navigieren.  Klicken Sie auf das Symbol **+** im Element **Make** und Sie sehen, dass es im Editor angezeigt wird.
+1. Platzieren Sie den Cursor zwischen den **&quot;**&quot; des „make“-Knotens. Fügen Sie den Marker des Angebots ein, indem Sie im Menü Entscheidungsrichtlinie zum Knoten **\_dep > Gerät >** navigieren.  Klicken Sie auf das Symbol **+** im Element **Make** und Sie sehen, dass es im Editor angezeigt wird.
 
-![Erstellen Sie ein Attribut aus der Entscheidungsrichtlinie, die in den JSON-Editor gefüllt wird](assets/create-the-journey-populate-make-attribute.png)
+   ![Erstellen Sie ein Attribut aus der Entscheidungsrichtlinie, die in den JSON-Editor gefüllt wird](assets/create-the-journey-populate-make-attribute.png)
 
-&#x200B;17. Fügen Sie **Attribute** Modell“ und **Ebene** auf ähnliche Weise hinzu.
-&#x200B;18. Klicken Sie **der Attributnavigation auf** Entscheidungsrichtlinie“, um zur Stammebene zurückzukehren.
-&#x200B;19. Füllen Sie das Attribut trackingToken, indem Sie über den Pfad **\_experience > decisioning > decisionitem > Tracking Token zum Wert** TrackingToken navigieren.
-&#x200B;20. Schließen Sie abschließend den gesamten Code in eine eckige Klammer ein (**\[]**). Ihr endgültiger JSON-Code sollte wie folgt aussehen:
+1. Fügen Sie **Attribute** Modell“ und **Ebene** auf ähnliche Weise hinzu.
+1. Klicken Sie **der Attributnavigation auf** Entscheidungsrichtlinie“, um zur Stammebene zurückzukehren.
+1. Füllen Sie das Attribut trackingToken, indem Sie über den Pfad **\_experience > decisioning > decisionitem > Tracking Token zum Wert** TrackingToken navigieren.
+1. Schließen Sie abschließend den gesamten Code in eine eckige Klammer ein (**\[]**). Ihr endgültiger JSON-Code sollte wie folgt aussehen:
 
-![Endgültiger JSON-Code in eckigen Klammern für die CBE-Antwort](assets/create-the-journey-final-json-code.png)
+   ![Endgültiger JSON-Code in eckigen Klammern für die CBE-Antwort](assets/create-the-journey-final-json-code.png)
 
->[!WARNING]
->
->Stellen Sie sicher, dass Sie die &quot;\[ ]&quot;-Klammern um das gesamte Entscheidungselement eingefügt haben. Verwirrt? Siehe Schritt #20 erneut.
+   >[!WARNING]
+   >
+   >Stellen Sie sicher, dass Sie die &quot;\[ ]&quot;-Klammern um das gesamte Entscheidungselement eingefügt haben. Verwirrt? Siehe Schritt #20 erneut.
 
 
 
-&#x200B;21. Sobald alles im obigen Screenshot dargestellt ist, klicken Sie auf **Speichern und schließen** oben rechts, um Ihren Code zu speichern. Anschließend werden Sie zur Seite für das Code-basierte Erlebnis zurückgeleitet.
-&#x200B;22. Klicken Sie auf den Rückwärtspfeil **\&lt;** neben dem Journey-Namen, und Sie gelangen zur Arbeitsfläche zurück.
+1. Sobald alles im obigen Screenshot dargestellt ist, klicken Sie auf **Speichern und schließen** oben rechts, um Ihren Code zu speichern. Anschließend werden Sie zur Seite für das Code-basierte Erlebnis zurückgeleitet.
+1. Klicken Sie auf den Rückwärtspfeil **\&lt;** neben dem Journey-Namen, und Sie gelangen zur Arbeitsfläche zurück.
 
-![Journey-Arbeitsfläche nach der Rückkehr aus dem Code-basierten Erlebnis-Editor](assets/create-the-journey-return-to-canvas.png)
+   ![Journey-Arbeitsfläche nach der Rückkehr aus dem Code-basierten Erlebnis-Editor](assets/create-the-journey-return-to-canvas.png)
 
-&#x200B;23. Klicken Sie auf die blaue **Speichern**-Schaltfläche, um den CBE-Aktionsknoten zu speichern. Ihr Journey sieht nun wie folgt aus:
+1. Klicken Sie auf die blaue **Speichern**-Schaltfläche, um den CBE-Aktionsknoten zu speichern. Ihr Journey sieht nun wie folgt aus:
 
-![Journey-Arbeitsfläche mit dem abgeschlossenen CBE-Aktionsknoten](assets/create-the-journey-completed-canvas.png)
+   ![Journey-Arbeitsfläche mit dem abgeschlossenen CBE-Aktionsknoten](assets/create-the-journey-completed-canvas.png)
 
-&#x200B;24. Klicken Sie nach Abschluss des Journey oben rechts auf die blaue Schaltfläche **Veröffentlichen** und **Veröffentlichen** wenn das Bestätigungsfeld angezeigt wird. Nach ein oder zwei Augenblicken sehen Sie, dass Ihre Journey jetzt live ist!
+1. Klicken Sie nach Abschluss des Journey oben rechts auf die blaue Schaltfläche **Veröffentlichen** und **Veröffentlichen** wenn das Bestätigungsfeld angezeigt wird. Nach ein oder zwei Augenblicken sehen Sie, dass Ihre Journey jetzt live ist!
 
 ![Veröffentlicht und live iPhone 17 Journey abbrechen](assets/create-the-journey-published-live.png)
 

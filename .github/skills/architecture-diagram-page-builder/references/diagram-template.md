@@ -1,14 +1,14 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '230'
 ht-degree: 0%
 ---
 # Architekturdiagramm-Seitenvorlage
 
 Dies ist die vollständige Markdown-Vorlage für eine Architekturdiagrammseite. Ersetzen Sie alle `{placeholder}` durch den Wert, der in Phase 1 des Qualifikations-Workflows erfasst wurde. Entfernen Sie alle optionalen Abschnitte, die nicht anwendbar sind (z. B. den `>[!MORELIKETHIS]` Block) - lassen Sie keine leeren Platzhalter in der generierten Datei.
 
-&#x200B;---
+---
 
 ```markdown
 ---
@@ -28,13 +28,13 @@ solution: {Comma-separated Adobe solutions, e.g. Experience Platform, Journey Op
 
 {1-2 sentence explanation of what the diagram shows and why it matters.}
 
-<img src="assets/{filename-1}" alt="{Alt text for diagram 1}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 1}](assets/{filename-1}){width="1000" zoomable="yes"}
 
 ## {Diagram 2 section title}
 
 {1-2 sentence explanation.}
 
-<img src="assets/{filename-2}" alt="{Alt text for diagram 2}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 2}](assets/{filename-2}){width="1000" zoomable="yes"}
 
 ## Primary data flows and integration points
 
@@ -59,7 +59,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
-&#x200B;---
+---
 
 ## Regeln der Frontend-Materie
 
@@ -70,11 +70,11 @@ The architecture above supports the following use case patterns:
 
 - **One H1** - der Seitentitel. Genau mit der `title`-Schriftart übereinstimmen.
 - **Ein H2 pro Diagramm.** Keine H3 innerhalb der Diagrammabschnitte; halten Sie sie zu einem 1-2 Satz Intro plus Bild.
-- **`<img>`Einbetten** - Der Inline-Stil und die `class="modal-image"` sind erforderlich. Sie steuern die Experience League-Modal-Zoom-Interaktion.
+- **Markdown image embed** - Geben Sie einen beschreibenden ALT-Text an und verwenden Sie `{width="1000" zoomable="yes"}` für Diagramme.
 - **Bildpfad** - Immer `assets/{filename}` (relativ zum Themenordner der Seite). Verwenden Sie keine absoluten Pfade.
 - **Adobe-Produktnamen** - `[!DNL ...]` in Textkörper und Aufzählungszeichen einschließen. Beispiel: `[!DNL Real-Time CDP]`, `[!DNL Journey Optimizer]`, `[!DNL Experience Platform]`.
 - **Links für Anwendungsfälle** - Verwenden Sie immer das absolute `/help/blueprints/use-case-patterns/{category}/{file}.md` Formular, damit der Link von jeder Seite aufgelöst wird, die diesen Inhalt enthält.
-- **Experience League-Links** - absolute URLs, die mit `https://experienceleague.adobe.com/de` beginnen. Die kanonische Dokument-URL einer lokalisierten Variante vorziehen.
+- **Experience League-Links** - absolute URLs, die mit `https://experienceleague.adobe.com/` beginnen. Die kanonische Dokument-URL einer lokalisierten Variante vorziehen.
 
 ## Abschnittsreihenfolge
 

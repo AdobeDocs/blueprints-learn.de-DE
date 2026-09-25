@@ -59,6 +59,6 @@ für Voraussetzungen, Leitplanken und Implementierungshandbücher.
 
 * [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 * [Dokumentation zu Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
-* [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
-* [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+* [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)
+* [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=de)
 * [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)

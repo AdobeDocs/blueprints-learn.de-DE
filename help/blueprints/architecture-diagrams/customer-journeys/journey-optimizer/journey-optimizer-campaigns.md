@@ -34,7 +34,7 @@ ht-degree: 6%
 # [!DNL Journey Optimizer] - Kampagnenorchestrierung
 
 >[!TIP]
->Diese Architektur wird auch als Anwendungsfallmuster [ Kampagnenverwaltung ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Orchestrierung dokumentiert.
+>Diese Architektur wird auch als Anwendungsfallmuster [&#x200B; Kampagnenverwaltung &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Orchestrierung dokumentiert.
 
 Mit AJO Campaign Orchestration können Marketing-Experten geplante, zielgruppenbasierte, mehrstufige Kommunikationen über ausgehende Kanäle wie E-Mail, SMS, Push und Briefpost entwerfen und ausführen. Im Gegensatz zu AJO Journey, die auf individuelles Kundenverhalten mit Echtzeitdaten aus dem Echtzeit-Kundenprofil reagieren, sind Kampagnen koordinierte Marketing-Maßnahmen, die Zielgruppen in geplanten Intervallen ansprechen. Gemeinsam bieten Kampagnen und Journey einander ergänzende Ansätze.„Kampagnen fördern die Interaktionsstrategien für Marken, während Journey personalisierte, responsive Erlebnisse bereitstellen.
 

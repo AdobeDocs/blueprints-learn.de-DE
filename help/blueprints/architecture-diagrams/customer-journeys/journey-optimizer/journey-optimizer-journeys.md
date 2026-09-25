@@ -36,7 +36,7 @@ ht-degree: 12%
 # [!DNL Journey Optimizer] - Journey
 
 >[!TIP]
->Diese Architektur wird auch als Anwendungsfallmuster [ Kampagnenverwaltung ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) Orchestrierung dokumentiert.
+>Diese Architektur wird auch als Anwendungsfallmuster [&#x200B; Kampagnenverwaltung &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) Orchestrierung dokumentiert.
 
 Adobe Journey Optimizer-Journey sind ereignisgesteuerte Echtzeit-Workflows, die auf der Grundlage individueller Kundenverhaltensweisen personalisierte, mehrstufige Erlebnisse bereitstellen. Sie unterstützen eine breite Palette von Kanälen, einschließlich E-Mail, SMS, Push-Benachrichtigungen, In-App-Messaging, Code-basierte Erlebnisse und benutzerdefinierte API-basierte Integrationen, die es Marken ermöglichen, Kunden über ihre bevorzugten Touchpoints kontextuell anzusprechen.
 

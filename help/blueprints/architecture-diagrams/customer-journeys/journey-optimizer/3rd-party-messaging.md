@@ -37,7 +37,7 @@ ht-degree: 15%
 # Nachrichten von Drittanbietern
 
 >[!TIP]
->Diese Architektur wird auch als Anwendungsfallmuster [ Kampagnenverwaltung ](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md) Orchestrierung dokumentiert.
+>Diese Architektur wird auch als Anwendungsfallmuster [&#x200B; Kampagnenverwaltung &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md) Orchestrierung dokumentiert.
 
 Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanbietern verwendet werden kann, um personalisierte Nachrichten zu senden.
 
@@ -50,7 +50,7 @@ Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanb
 <br>
 
 Die Topologie zeigt [!DNL Journey Optimizer] Senden von Transaktions-Payloads an einen Drittanbieter
-Messaging-Anwendung über eine benutzerdefinierte Aktion oder REST-API-Integration. Verwenden [ Anwendungsfallmusters für Messaging von Drittanbietern](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
+Messaging-Anwendung über eine benutzerdefinierte Aktion oder REST-API-Integration. Verwenden [&#x200B; Anwendungsfallmusters für Messaging von Drittanbietern](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
 für Voraussetzungen, Leitplanken und Implementierungshandbücher.
 
 <br>

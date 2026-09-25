@@ -41,7 +41,7 @@ ht-degree: 8%
 # Echtzeit-Zugriff auf Edge-Profile
 
 >[!TIP]
->Diese Architektur wird auch als Anwendungsfallmuster [ Personalization ](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md).
+>Diese Architektur wird auch als Anwendungsfallmuster [&#x200B; Personalization &#x200B;](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md).
 
 Dieses Diagramm zeigt, wie Web- und Mobile-Apps sofort auf das [!UICONTROL Echtzeit-Kundenprofil] von Adobe Experience Platform zugreifen können, um Personalisierungen mit hohem Durchsatz und geringer Latenz zu ermöglichen.
 

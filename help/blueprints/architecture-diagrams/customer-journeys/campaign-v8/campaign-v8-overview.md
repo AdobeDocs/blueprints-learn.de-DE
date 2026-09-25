@@ -46,7 +46,7 @@ ht-degree: 29%
 # Campaign v8
 
 >[!TIP]
->Diese Architektur wird auch als Anwendungsfallmuster [ Kampagnenverwaltung ](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md) Orchestrierung dokumentiert.
+>Diese Architektur wird auch als Anwendungsfallmuster [&#x200B; Kampagnenverwaltung &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md) Orchestrierung dokumentiert.
 
 Adobe Campaign v8 ist eine Kampagnenverwaltungsplattform der nächsten Generation, die für herkömmliche Marketing-Kanäle wie E-Mail und Briefpost entwickelt wurde. Er bietet stabile ETL- und Daten-Management-Funktionen zur Unterstützung komplexer Segmentierung und Zielgruppen-Targeting sowie eine leistungsstarke Orchestrierungs-Engine zum Erstellen von Batch-basierten Multi-Touch-Marketing-Programmen.
 

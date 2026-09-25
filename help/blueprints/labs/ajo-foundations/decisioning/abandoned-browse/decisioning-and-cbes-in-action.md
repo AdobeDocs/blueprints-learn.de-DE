@@ -4,13 +4,11 @@ description: Verwenden Sie Postman, um Erlebnisereignisse für Testprofile zu se
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
-
 ---
-
 
 # Decisioning und CBEs in Aktion
 
@@ -102,34 +100,34 @@ Beginne mit Bobs Profil.
 
 ![Edge-Ansicht von Bobs Profil, die noch keine Zielgruppenzugehörigkeit anzeigt](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. Navigieren Sie in einer neuen Browser-Registerkarte zur erstellten Journey und klicken Sie darauf. Sie sehen, dass ein Profil auf die Journey zugegriffen hat und sich jetzt auf dem CBE-Knoten befindet.
+1. Navigieren Sie in einer neuen Browser-Registerkarte zur erstellten Journey und klicken Sie darauf. Sie sehen, dass ein Profil auf die Journey zugegriffen hat und sich jetzt auf dem CBE-Knoten befindet.
 
-![Journey-Arbeitsfläche mit dem Eintritt von Bobs Profil und dem CBE-Knoten](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+   ![Journey-Arbeitsfläche mit dem Eintritt von Bobs Profil und dem CBE-Knoten](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
-Zu diesem Zeitpunkt hat Bob die Journey betreten und die Edge-Projektion stellt derzeit eine Projektion zusammen, die Bobs Profil auf der Edge aktualisiert.
+   Zu diesem Zeitpunkt hat Bob die Journey betreten und die Edge-Projektion stellt derzeit eine Projektion zusammen, die Bobs Profil auf der Edge aktualisiert.
 
-&#x200B;12. Wechseln Sie zurück zu Postman und klicken Sie auf die Sekunde von Bobs Erlebnisereignis-Aufrufen, **Bob - Page Top Fetch.**
-&#x200B;13. Klicken Sie **Senden**. Was soll passieren?
-    - Wenn Bobs Edge-Profil noch nicht aktualisiert wurde, erhalten Sie eine sehr ähnliche Antwort wie beim Datenerfassungsaufruf. Warten Sie in diesem Fall noch ein bis zwei Minuten und versuchen Sie dann erneut, Bobs Aufruf „Seitenanfang abrufen“ zu senden.
-    - Wenn Bobs Edge-Profil aktualisiert wurde, erhalten Sie eine Antwort mit der zuvor konfigurierten JSON sowie zusätzliche Informationen, die für das Reporting verwendet werden. Aber bevor wir weitermachen, welches Angebot von iPhone 17 sollte Bob unterbreitet werden?
+1. Wechseln Sie zurück zu Postman und klicken Sie auf die Sekunde von Bobs Erlebnisereignis-Aufrufen, **Bob - Page Top Fetch.**
+1. Klicken Sie **Senden**. Was soll passieren?
+   - Wenn Bobs Edge-Profil noch nicht aktualisiert wurde, erhalten Sie eine sehr ähnliche Antwort wie beim Datenerfassungsaufruf. Warten Sie in diesem Fall noch ein bis zwei Minuten und versuchen Sie dann erneut, Bobs Aufruf „Seitenanfang abrufen“ zu senden.
+   - Wenn Bobs Edge-Profil aktualisiert wurde, erhalten Sie eine Antwort mit der zuvor konfigurierten JSON sowie zusätzliche Informationen, die für das Reporting verwendet werden. Aber bevor wir weitermachen, welches Angebot von iPhone 17 sollte Bob unterbreitet werden?
 
-      Bob wurde 1974 geboren, was größer ist als 1966, also hätte er sich für das zweite Ranking-Formel-Kriterium qualifiziert, und seine Generic-, Base- und Pro-Angebot-Prioritätswerte wären mit 100 multipliziert worden, was diesen Angeboten Werte von 100, 200 bzw. 300 gegeben hätte. Bob Basic hat jedoch eine Plan-ID 1, sodass er dank der Entscheidungsregel nicht für die Ultra- oder Pro-Tier-Angebote infrage kommt. Daher wird das Angebot der Basisebene mit der Bewertung 200 angezeigt. Dies ist in der Antwort zu sehen (Sie müssen wahrscheinlich nach unten scrollen):
+     Bob wurde 1974 geboren, was größer ist als 1966, also hätte er sich für das zweite Ranking-Formel-Kriterium qualifiziert, und seine Generic-, Base- und Pro-Angebot-Prioritätswerte wären mit 100 multipliziert worden, was diesen Angeboten Werte von 100, 200 bzw. 300 gegeben hätte. Bob Basic hat jedoch eine Plan-ID 1, sodass er dank der Entscheidungsregel nicht für die Ultra- oder Pro-Tier-Angebote infrage kommt. Daher wird das Angebot der Basisebene mit der Bewertung 200 angezeigt. Dies ist in der Antwort zu sehen (Sie müssen wahrscheinlich nach unten scrollen):
 
-![Postman-Antwort, die das für Bob zurückgegebene Basisstufenangebot anzeigt](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
+   ![Postman-Antwort, die das für Bob zurückgegebene Basisstufenangebot anzeigt](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-&#x200B;14. Beachten Sie, dass diese Postman-Anfrage automatisch eine Anzeigebenachrichtigung für dieses Angebot sendet. AJO hat daher bereits mindestens eine Impression für dieses Angebot aufgezeichnet. Klicken Sie **erneut** Senden“, um eine zweite Impression zu senden. Überprüfen, ob das Basisangebot erneut zurückgegeben wurde.
-&#x200B;15. Denken Sie daran, dass für die Modelle der Ebenen Base, Pro und Ultra eine Häufigkeitsbegrenzung von 3 Impressionen gilt. Klicken Sie **3** Mal auf „Senden“, um eine dritte Antwort mit der Basisebene zu erhalten und eine weitere Impression aufzuzeichnen.
-&#x200B;16. Klicken Sie **viertes** auf „Senden“, und was sollte passieren? Die Häufigkeitsbegrenzung für das Basisstufenangebot ist erreicht, und Sie erhalten in der Antwort das generische Angebot:
+1. Beachten Sie, dass diese Postman-Anfrage automatisch eine Anzeigebenachrichtigung für dieses Angebot sendet. AJO hat daher bereits mindestens eine Impression für dieses Angebot aufgezeichnet. Klicken Sie **erneut** Senden“, um eine zweite Impression zu senden. Überprüfen, ob das Basisangebot erneut zurückgegeben wurde.
+1. Denken Sie daran, dass für die Modelle der Ebenen Base, Pro und Ultra eine Häufigkeitsbegrenzung von 3 Impressionen gilt. Klicken Sie **3** Mal auf „Senden“, um eine dritte Antwort mit der Basisebene zu erhalten und eine weitere Impression aufzuzeichnen.
+1. Klicken Sie **viertes** auf „Senden“, und was sollte passieren? Die Häufigkeitsbegrenzung für das Basisstufenangebot ist erreicht, und Sie erhalten in der Antwort das generische Angebot:
 
-![Postman-Antwort, die das generische Angebot anzeigt, das zurückgegeben wird, nachdem die Häufigkeitsbegrenzung erreicht wurde](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
+   ![Postman-Antwort, die das generische Angebot anzeigt, das zurückgegeben wird, nachdem die Häufigkeitsbegrenzung erreicht wurde](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. Klicken Sie **erneut auf** Senden“, und Sie sehen das Angebot der generischen Ebene. Sie können 100 weitere Male auf „Senden“ klicken und Sie erhalten dasselbe Angebot bis zum nächsten Tag zurück, an dem die Frequenzlimitierung zurückgesetzt wird.
+1. Klicken Sie **erneut auf** Senden“, und Sie sehen das Angebot der generischen Ebene. Sie können 100 weitere Male auf „Senden“ klicken und Sie erhalten dasselbe Angebot bis zum nächsten Tag zurück, an dem die Frequenzlimitierung zurückgesetzt wird.
 
->[!WARNING]
->
->Denken Sie daran, dass in AJO der Tag um Mitternacht GMT zurückgeht. Wenn Sie nach Mitternacht GMT einen weiteren Fetch-Aufruf senden würden, würde stattdessen die Angebotsrückgabe auf der Basisebene angezeigt.
+   >[!WARNING]
+   >
+   >Denken Sie daran, dass in AJO der Tag um Mitternacht GMT zurückgeht. Wenn Sie nach Mitternacht GMT einen weiteren Fetch-Aufruf senden würden, würde stattdessen die Angebotsrückgabe auf der Basisebene angezeigt.
 
-&#x200B;18. Kehren Sie zur Journey Orchestration-Benutzeroberfläche zurück und klicken Sie auf die von Ihnen erstellte Journey mit dem **&#x200B;**&#x200B;iPhone 17 Abbruch Durchsuchen. Da die Journey live und veröffentlicht ist, werden Statistiken angezeigt. Sie sehen, dass 1 Profil auf die Journey zugegriffen hat und sich derzeit im CBE-Knoten befindet.
+1. Kehren Sie zur Journey Orchestration-Benutzeroberfläche zurück und klicken Sie auf die von Ihnen erstellte Journey mit dem **&#x200B;**&#x200B;iPhone 17 Abbruch Durchsuchen. Da die Journey live und veröffentlicht ist, werden Statistiken angezeigt. Sie sehen, dass 1 Profil auf die Journey zugegriffen hat und sich derzeit im CBE-Knoten befindet.
 
 ![Journey-Berichte, die ein Profil zeigen, das sich derzeit im CBE-Knoten befindet](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 

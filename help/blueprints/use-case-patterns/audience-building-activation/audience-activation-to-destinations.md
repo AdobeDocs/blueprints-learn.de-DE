@@ -3,13 +3,11 @@ title: Zielgruppenaktivierung für Ziele
 description: Erfahren Sie, wie Sie Zielgruppensegmente mithilfe von Adobe Real-Time CDP für das Targeting oder die Unterdrückung auswerten und für externe Ziele veröffentlichen können.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1363'
 ht-degree: 4%
-
 ---
-
 # Zielgruppenaktivierung für Ziele
 
 In diesem Handbuch wird das Anwendungsfallmuster für die Zielgruppenaktivierung für Ziele beschrieben, das Zielgruppensegmente in Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP) auswertet und auf Anzeigenplattformen, Cloud-Speichern, CRM-Systemen oder Datenpartnern veröffentlicht, um sie für Targeting, Unterdrückung, Lookalike-Modellierung oder Analytics-Anreicherung zu verwenden. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.
@@ -92,7 +90,7 @@ Verbessern Sie den ROI Ihrer Marketing-Investitionen durch bessere Zielgruppenbe
 
 Die folgende Referenzarchitektur veranschaulicht, wie Zielgruppen- und Profildaten von Real-Time CDP zu Unternehmenszielen fließen, einschließlich Cloud-Speicher, Streaming-Endpunkten und SaaS-Programmen.
 
-![Referenzarchitektur für Zielgruppen- und Profilaktivierung für Unternehmensziele](/help/blueprints/audience-activation/assets/known_activation.png)
+![Referenzarchitektur für die Adobe Real-Time CDP-Aktivierung](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
 
 ## Verwandte Dokumentation
 

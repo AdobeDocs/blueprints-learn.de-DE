@@ -3,20 +3,18 @@ title: B2B-Anwendungsfälle
 description: Erfahren Sie, wie B2B-Unternehmen Adobe Experience Platform verwenden, um die Pipeline zu beschleunigen, die Lead-Qualität zu verbessern und die Kundenexpansion zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
-
 ---
-
 # B2B-Anwendungsfälle
 
 Business-to-Business-Unternehmen verwenden Adobe Experience Platform zur Vereinheitlichung von Account- und Personendaten, sodass Marketing- und Vertriebsteams in allen Phasen des Journey-Kaufs koordinierte, relevante Erlebnisse bereitstellen können. Von der Pipeline-Beschleunigung bis zur Kundenerweiterung zeigen diese Anwendungsfälle, wie B2B-Teams komplexe Daten in messbare Geschäftsergebnisse umwandeln.
 
 >[!NOTE]
 >
->Blueprints für die B2B-spezifische Architektur, einschließlich kontobasierter Aktivierung und Einkaufsgruppenverwaltung, finden Sie unter [B2B-Aktivierung und Marketing-Blueprints](/help/blueprints/b2b/overview.md).
+>Blueprints für die B2B-spezifische Architektur, einschließlich kontobasierter Aktivierung und Einkaufsgruppenverwaltung, finden Sie unter [B2B-Aktivierung und Marketing-Blueprints](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md).
 
 ## Account-Based Marketing Personalization
 

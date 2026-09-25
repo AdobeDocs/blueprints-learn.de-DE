@@ -1,9 +1,8 @@
 ---
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
 # Blueprint-Dokumentreferenz — Detailliertes Handbuch
 
@@ -122,9 +121,9 @@ Beispiel:
 
 ## Beispielverweise in diesem Repository
 
-- **Szenario-Blueprint (lange Form)**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **Übersicht/Hub mit Registerkarten und Tabellen**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **Leitplanken-fokussiert**: `help/blueprints/experience-platform/guardrails.md`
+- **Szenario-Blueprint (lange Form)**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **Übersicht/Hub mit Registerkarten und Tabellen**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **Leitplanken-fokussiert**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **Navigation**: `help/blueprints/TOC.md`, `help/blueprints/overview.md`
 
 Verwenden Sie diese als Muster für die Abschnittsreihenfolge, die Schriftart, die Diagrammplatzierung und die Verwendung von Experience League-Links.

@@ -4,13 +4,11 @@ description: Erstellen Sie eine einheitliche Journey, die auf ein Bestellversand
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Build-Journey
 
@@ -159,8 +157,8 @@ Für den Inhalt werden Sie die Dinge einfach halten. Wie dumm, einfach.
 
    ```json
    {{profile.person.name.firstName}}, your order has shipped
-   ETA: 
-   Tracking Number: 
+   ETA:
+   Tracking Number:
    ```
 
 8. Fügen Sie die Personalisierungsfelder wie folgt hinzu (**klicken Sie auf das Pluszeichen &quot;+&quot; neben dem Feld in der linken Leiste**):
@@ -188,7 +186,7 @@ Für den Inhalt werden Sie die Dinge einfach halten. Wie dumm, einfach.
 
 ![Schaltfläche „Speichern“ und der Pfeil „Zurück“ oben rechts und oben links](assets/build-journey-save-and-back-arrow.png)
 
-&#x200B;12. Klicken Sie schließlich oben links auf das Symbol **\&lt; Zurück**, um zur Journey-Arbeitsfläche zurückzukehren
+1. Klicken Sie schließlich oben links auf das Symbol **\&lt; Zurück**, um zur Journey-Arbeitsfläche zurückzukehren
 
 ![Zurück-Symbol oben links, um zur Journey-Arbeitsfläche zurückzukehren](assets/build-journey-back-icon-to-journey-canvas.png)
 

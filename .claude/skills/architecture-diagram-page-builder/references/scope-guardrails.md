@@ -1,13 +1,12 @@
 ---
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
-
 ---
 # Leitplanken für Umfang: Architekturseite vs. Anwendungsfall-Musterseite
 
-Die Blueprints-Site trennt **Architekturdiagrammseiten** von **Anwendungsfall-Musterseiten** da sie unterschiedlichen Leseranforderungen dienen. In diesem Dokument wird definiert, was wo hingehört und wie Inhalte verarbeitet werden, die über die Grenze hinweg driften.
+Diese Site trennt **Architekturdiagrammseiten** von **Anwendungsfall-Musterseiten** da sie unterschiedlichen Leseranforderungen entsprechen. In diesem Dokument wird definiert, was wo hingehört und wie Inhalte verarbeitet werden, die über die Grenze hinweg driften.
 
 ## Die Hauptunterscheidung
 
@@ -18,7 +17,7 @@ Die Blueprints-Site trennt **Architekturdiagrammseiten** von **Anwendungsfall-Mu
 
 | Kategorie | Beispiele |
 | --- | --- |
-| Architektur der obersten Ebene | Übersichtsdiagramme von AEP und Anwendungen, Experience Cloud-Marktektur, Hub und Edge-Topologie |
+| Architektur der obersten Ebene | Übersichtsdiagramme von AEP und Programmen, Experience Cloud-Marketing, Hub und Edge-Topologie |
 | Systemdatenfluss | Echtzeit- vs. Batch-Aufnahme-Pfade, Profilsynchronisierung zwischen Hub und Edge, Lookup vs. Aktivierungsflüsse |
 | Integrationspunkte | Hierbei integriert sich AEP mit AJO, CJA, Target, Campaign, Marketo, Workfront; SDK-Grenzen; API-Oberflächen |
 | Bereitstellungstopologie | Web SDK im Vergleich zur mobilen SDK-Bereitstellung, Server-seitige Weiterleitung, Platzierung von Edge-Knoten |

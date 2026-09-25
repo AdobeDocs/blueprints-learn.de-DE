@@ -4,13 +4,11 @@ description: Verwenden Sie Adobe Experience Platform Assurance, um eine Debug-Si
 doc-type: article
 solution: Experience Platform
 exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
-
 ---
-
 
 # Überwachen des Ereignisses
 
@@ -39,21 +37,21 @@ ht-degree: 1%
 
    ![Klicken Sie auf Weiter , nachdem Sie den Sitzungsnamen und die URL eingegeben haben](assets/monitor-your-event-click-next-button.png)
 
-&#x200B;4. Kopieren Sie den Link an eine Stelle, auf die Sie später verweisen können.
+1. Kopieren Sie den Link an eine Stelle, auf die Sie später verweisen können.
 
-&#x200B;5. Klicken Sie auf **Fertig**-Schaltfläche
+1. Klicken Sie auf **Fertig**-Schaltfläche
 
    ![Kopieren Sie den Link Assurance-Sitzung und klicken Sie auf Fertig](assets/monitor-your-event-copy-link.png)
 
 
 
-&#x200B;6. Navigieren Sie zu **Einstellungen**
+1. Navigieren Sie zu **Einstellungen**
 
    ![Navigieren Sie in der Assurance-Sitzung zur Registerkarte Einstellungen &#x200B;](assets/monitor-your-event-navigate-to-settings.png " klicken Sie auf Einstellungen")
 
 
 
-&#x200B;7. Aktivieren Sie **Ereignistransaktionen** und **Edge Delivery**, indem Sie auf die Schaltfläche **+** und dann **Fertig**
+1. Aktivieren Sie **Ereignistransaktionen** und **Edge Delivery**, indem Sie auf die Schaltfläche **+** und dann **Fertig**
 
 ![Ereignistransaktionen und Edge Delivery aktivieren und dann auf „Fertig“ klicken](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
 
@@ -69,7 +67,7 @@ Wechseln Sie zu Postman -> Web-Ereignis-Edge erstellen (keine Authentifizierung)
 
 
 
-&#x200B;3. Speichern und führen Sie in Postman die Anfrage **Web-Ereignis-Edge erstellen (keine Authentifizierung)** aus
+1. Speichern und führen Sie in Postman die Anfrage **Web-Ereignis-Edge erstellen (keine Authentifizierung)** aus
 
 
 

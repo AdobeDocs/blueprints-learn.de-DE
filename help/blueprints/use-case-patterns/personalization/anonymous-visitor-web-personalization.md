@@ -3,13 +3,11 @@ title: Web-Personalization für anonyme Besucher
 description: Erfahren Sie, wie Sie nicht identifizierten Besuchern auf der Grundlage von Verhaltenssignalen während der Sitzung personalisierte Webinhalte bereitstellen können.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1706'
 ht-degree: 4%
-
 ---
-
 # Web-Personalisierung für anonyme Besucher
 
 In diesem Handbuch wird das Anwendungsfallmuster für die Web-Personalisierung anonymer Besucher beschrieben, bei dem [!DNL Adobe Journey Optimizer] (AJO), [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) und [!DNL Adobe Experience Platform] (AEP) verwendet werden, um anonymen (nicht identifizierten) Besuchern personalisierte Web-Inhalte auf der Grundlage von Verhaltenssignalen während der Sitzung bereitzustellen. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.
@@ -101,12 +99,6 @@ Die folgenden Anwendungen werden in diesem Anwendungsfallmuster verwendet.
 - **[!DNL Adobe Journey Optimizer] (AJO)** - Konfiguration der Web-Kanaloberfläche, Inhaltserstellung (Web- und Code-basierte Erlebnisse), Kampagnenausführung, Inhaltsexperimente (A/B-Tests), Entscheidungsfindung (dynamische Inhaltsauswahl) und Reporting
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** - Edge-Segmentierung für die Echtzeit-Zielgruppenbewertung auf der Grundlage von Verhaltenssignalen in der Sitzung; Verwaltung anonymer Edge-Profile
 - **[!DNL Adobe Experience Platform] (AEP)** - [!DNL Web SDK] für die Erfassung von Verhaltenssignalen, [!DNL Edge Network] für das Echtzeit-Datenrouting und die Bereitstellung von Personalisierung, Konfiguration des Datenstroms
-
-## Architektur
-
-Die folgende Referenzarchitektur veranschaulicht, wie anonyme Besuchersignale am Edge gesammelt, anhand von Zielgruppenregeln bewertet und zur Bereitstellung personalisierter Inhalte verwendet werden.
-
-![Referenzarchitektur für die Aktivierung und Personalisierung anonymer Zielgruppen](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## Verwandte Dokumentation
 

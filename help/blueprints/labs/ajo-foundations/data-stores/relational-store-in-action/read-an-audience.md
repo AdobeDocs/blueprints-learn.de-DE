@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ mit ein
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -126,45 +126,45 @@ Orchestrierte Kampagne verwendet das relationale Schema für alle Aktivitäten. 
 
 ![Aus den Spalten der Zielgruppendimension ausgewähltes Source-Attribut](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;11. Die unterschiedlichen Werte für die Source-Spalte sind in der Dropdown-Liste verfügbar. Wählen Sie für **Benutzerdefinierte Bedingung** aus der Dropdown-Liste die Option **„In Store“** und klicken Sie auf **Bestätigen**, um den Vorgang zu beenden
+1. Die unterschiedlichen Werte für die Source-Spalte sind in der Dropdown-Liste verfügbar. Wählen Sie für **Benutzerdefinierte Bedingung** aus der Dropdown-Liste die Option **„In Store“** und klicken Sie auf **Bestätigen**, um den Vorgang zu beenden
 
-![Benutzerdefinierte Bedingung auf „In Store“ festgelegt](assets/read-an-audience-set-in-store-condition.png)
+   ![Benutzerdefinierte Bedingung auf „In Store“ festgelegt](assets/read-an-audience-set-in-store-condition.png)
 
-&#x200B;12. Zurück im Detailbereich der Aktivität **Aufspaltung** sind die Einstellungen für die erste Aufspaltung abgeschlossen. Klicken Sie auf **Segment hinzufügen**, um die zweite Aufspaltung zu aktualisieren
+1. Zurück im Detailbereich der Aktivität **Aufspaltung** sind die Einstellungen für die erste Aufspaltung abgeschlossen. Klicken Sie auf **Segment hinzufügen**, um die zweite Aufspaltung zu aktualisieren
 
-![Schaltfläche Segment hinzufügen im Detailbereich der Aufspaltungsaktivität](assets/read-an-audience-add-segment-button.png)
+   ![Schaltfläche Segment hinzufügen im Detailbereich der Aufspaltungsaktivität](assets/read-an-audience-add-segment-button.png)
 
-Ein neues Segment mit dem Namen **Ergebnis** wird erstellt
+   Ein neues Segment mit dem Namen **Ergebnis** wird erstellt
 
-![Neues Segment mit dem Namen „Result“](assets/read-an-audience-new-result-segment.png)
+   ![Neues Segment mit dem Namen „Result“](assets/read-an-audience-new-result-segment.png)
 
-&#x200B;13. Benennen Sie &quot;**Ergebnis**&quot; in &quot;**Nicht im Speicher** um und klicken Sie auf **Filter erstellen**, um die Filterbedingung festzulegen
+1. Benennen Sie &quot;**Ergebnis**&quot; in &quot;**Nicht im Speicher** um und klicken Sie auf **Filter erstellen**, um die Filterbedingung festzulegen
 
-![Segment wurde mit der Filteroption in „Nicht im Speicher“ umbenannt](assets/read-an-audience-rename-not-in-store-segment.png)
+   ![Segment wurde mit der Filteroption in „Nicht im Speicher“ umbenannt](assets/read-an-audience-rename-not-in-store-segment.png)
 
-&#x200B;14. Klicken Sie im **Filter erstellen** auf **Bedingung hinzufügen**. Folgen Sie demselben Ansatz wie oben, erweitern Sie die **Zielgruppendimension** indem Sie auf **>** klicken, wählen Sie dann `Source` aus der Liste aus und klicken Sie auf **Bestätigen**
+1. Klicken Sie im **Filter erstellen** auf **Bedingung hinzufügen**. Folgen Sie demselben Ansatz wie oben, erweitern Sie die **Zielgruppendimension** indem Sie auf **>** klicken, wählen Sie dann `Source` aus der Liste aus und klicken Sie auf **Bestätigen**
 
-![Die Zielgruppendimension wurde erweitert, um relationale Speicherspalten anzuzeigen](assets/read-an-audience-expand-targeting-dimension.png)
+   ![Die Zielgruppendimension wurde erweitert, um relationale Speicherspalten anzuzeigen](assets/read-an-audience-expand-targeting-dimension.png)
 
-![Aus den Spalten der Zielgruppendimension ausgewähltes Source-Attribut](assets/read-an-audience-select-source-attribute.png)
+   ![Aus den Spalten der Zielgruppendimension ausgewähltes Source-Attribut](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;15. Wählen Sie für **Benutzerdefinierte Bedingung** aus der Dropdown-Liste die Option **„In Store“** und wählen Sie für den Operator &quot;**ungleich**. Klicken Sie auf **Bestätigen**, um den Vorgang zu beenden
+1. Wählen Sie für **Benutzerdefinierte Bedingung** aus der Dropdown-Liste die Option **„In Store“** und wählen Sie für den Operator &quot;**ungleich**. Klicken Sie auf **Bestätigen**, um den Vorgang zu beenden
 
-![Benutzerdefinierte Bedingung auf ungleich „In Store“ festgelegt](assets/read-an-audience-set-not-in-store-condition.png)
+   ![Benutzerdefinierte Bedingung auf ungleich „In Store“ festgelegt](assets/read-an-audience-set-not-in-store-condition.png)
 
-&#x200B;16. Zurück im Detailbereich der Aktivität **Aufspaltung** sind die Einstellungen für die beiden Aufspaltungen abgeschlossen. Klicken Sie auf **Starten**, um die Kampagne im **Testmodus“**
+1. Zurück im Detailbereich der Aktivität **Aufspaltung** sind die Einstellungen für die beiden Aufspaltungen abgeschlossen. Klicken Sie auf **Starten**, um die Kampagne im **Testmodus“**
 
-![Schaltfläche „Starten“ zum Ausführen der Kampagne im Testmodus nach der Konfiguration der Aufspaltung](assets/read-an-audience-start-test-mode-second-run.png)
+   ![Schaltfläche „Starten“ zum Ausführen der Kampagne im Testmodus nach der Konfiguration der Aufspaltung](assets/read-an-audience-start-test-mode-second-run.png)
 
-&#x200B;17. Die Testausführung beginnt, und die Ergebnisse werden nach Abschluss angezeigt. Da nur **7** übereinstimmende Zieldimensionen im relationalen Schema gefunden wurden, wird dieselbe Anzahl auch nach den Aufspaltungsvorgängen (**7** und **0**) beobachtet
+1. Die Testausführung beginnt, und die Ergebnisse werden nach Abschluss angezeigt. Da nur **7** übereinstimmende Zieldimensionen im relationalen Schema gefunden wurden, wird dieselbe Anzahl auch nach den Aufspaltungsvorgängen (**7** und **0**) beobachtet
 
-![Ergebnisse der Aufspaltung mit Zahlen von 7 und 0](assets/read-an-audience-verify-split-counts.png)
+   ![Ergebnisse der Aufspaltung mit Zahlen von 7 und 0](assets/read-an-audience-verify-split-counts.png)
 
-&#x200B;18. Klicken Sie auf jedes Ergebnisfeld und **Vorschau der Ergebnisse**, um die Ergebnisse anzuzeigen
+1. Klicken Sie auf jedes Ergebnisfeld und **Vorschau der Ergebnisse**, um die Ergebnisse anzuzeigen
 
-![Option „Vorschau der Ergebnisse“ für jedes Teilungs-Ergebnisfeld](assets/read-an-audience-preview-split-results.png)
+   ![Option „Vorschau der Ergebnisse“ für jedes Teilungs-Ergebnisfeld](assets/read-an-audience-preview-split-results.png)
 
-&#x200B;19. Klicken Sie auf **Stoppen**, um den **Testmodus** der Kampagne zu stoppen
+1. Klicken Sie auf **Stoppen**, um den **Testmodus** der Kampagne zu stoppen
 
 ![Stopp-Taste zum Beenden des endgültigen Testmodus-Durchgangs](assets/read-an-audience-stop-test-mode-final.png)
 

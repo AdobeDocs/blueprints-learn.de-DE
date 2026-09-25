@@ -4,7 +4,7 @@ description: Verwenden Sie die Schema Registry-API, um einen Referenz-Identität
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -51,9 +51,9 @@ NUR BEISPIEL
 
 
 
-&#x200B;3. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
+1. Speichern Sie Ihre Anfrage, bevor Sie die Schaltfläche `Save` verwenden
 
-&#x200B;4. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
+1. Führen Sie die API aus, indem Sie auf die Schaltfläche `Send` klicken
 
 Jetzt wird eine `201 Created` Antwort wie unten angezeigt
 

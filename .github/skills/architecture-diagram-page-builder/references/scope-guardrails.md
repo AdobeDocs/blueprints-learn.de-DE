@@ -1,12 +1,12 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 ---
 # Leitplanken für Umfang: Architekturseite vs. Anwendungsfall-Musterseite
 
-Die Blueprints-Site trennt **Architekturdiagrammseiten** von **Anwendungsfall-Musterseiten** da sie unterschiedlichen Leseranforderungen dienen. In diesem Dokument wird definiert, was wo hingehört und wie Inhalte verarbeitet werden, die über die Grenze hinweg driften.
+Diese Site trennt **Architekturdiagrammseiten** von **Anwendungsfall-Musterseiten** da sie unterschiedlichen Leseranforderungen entsprechen. In diesem Dokument wird definiert, was wo hingehört und wie Inhalte verarbeitet werden, die über die Grenze hinweg driften.
 
 ## Die Hauptunterscheidung
 

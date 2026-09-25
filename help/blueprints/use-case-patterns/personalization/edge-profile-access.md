@@ -3,13 +3,11 @@ title: Echtzeit-Edge-Profilzugriff für Web- und Mobile-Personalization
 description: '[!UICONTROL Echtzeit-Kundenprofil] Zugriff am Edge, um Kontext für die Echtzeit-Personalisierung im Web und auf Mobilgeräten bereitzustellen.'
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1933'
 ht-degree: 11%
-
 ---
-
 # Echtzeit-Edge-Profilzugriff für Web- und Mobile-Personalization
 
 Der Blueprint „Echtzeit-Edge-Profilzugriff für Web und Mobile Personalization&quot; zeigt, wie Web- und mobile Anwendungen [!UICONTROL &#x200B; Echtzeit-Kundenprofil von Adobe Experience Platform &#x200B;] können, um Personalisierung mit hohem Durchsatz und geringer Latenz zu ermöglichen.
@@ -50,7 +48,7 @@ Dieser Blueprint erfordert die Verwendung einer der folgenden Datenerfassungsmet
 
 ## Architekturdiagramm
 
-<img src="/help/blueprints/audience-activation/assets/real-time-edge-lookup.svg" alt="Referenzarchitektur für den Edge-Profilzugriff für Web- und Mobile-Personalization" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_edge_profile_access.png" alt="Referenzarchitektur für den Zugriff auf Edge-Profile in Echtzeit" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Leitlinien
 
@@ -69,7 +67,7 @@ Die Edge-Personalisierung kann mit dem Ziel [Benutzerdefinierte Personalization-
 * Dieser Ansatz bietet niedrige Latenz und beste Leistung für die Edge-Personalisierung basierend auf Zielgruppenmitgliedschaften.
 * Für die Echtzeit-Edge-Segmentierung ist die Implementierung von Web/Mobile SDK erforderlich.
 * Web SDK und Mobile SDK **unterstützen nur Personalisierung basierend auf der Zielgruppenzugehörigkeit**.
-* [&#x200B; Informationen zur SDK-basierten Implementierung finden Sie &#x200B;](/help/blueprints/experience-platform/deployment/websdk.md) Experience Platform Web and Mobile SDK Blueprint .
+* [&#x200B; Informationen zur SDK-basierten Implementierung finden Sie &#x200B;](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md) Experience Platform Web and Mobile SDK Blueprint .
 * Für die Implementierung von Mobile SDK muss die Erweiterung [Adobe Journey Optimizer - Decisioning](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) in der Mobile SDK installiert werden.
 
 ### Muster 2: Attributbasierte Personalisierung mit Edge Network Server-API (erforderlich für Profilattribute)

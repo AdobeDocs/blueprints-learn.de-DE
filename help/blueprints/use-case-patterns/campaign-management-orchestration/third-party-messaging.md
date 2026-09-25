@@ -1,15 +1,13 @@
 ---
-title: 'Blueprint: Journey Optimizer - Drittanbieter-Messaging'
+title: Journey Optimizer - Blueprint für Messaging von Drittanbietern
 description: Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanbietern verwendet werden kann, um personalisierte Nachrichten zu senden.
 solution: Journey Optimizer
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 62%
-
+ht-degree: 58%
 ---
-
-# Blueprint: Drittanbieter-Messaging
+# Blueprint für Messaging von Drittanbietern
 
 Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanbietern verwendet werden kann, um personalisierte Nachrichten zu senden.
 
@@ -17,7 +15,7 @@ Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanb
 
 ## Architektur
 
-<img src="/help/blueprints/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-third-party-messaging.png" alt="Referenzarchitektur für die Blueprint „Journey Optimizer“" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -71,9 +69,9 @@ Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanb
 1. Konfigurieren Sie Ihre Experience Platform-Datenquelle und bestimmen Sie, welche Felder als Teil des Journey zwischengespeichert werden sollen
 1. Streaming-Daten, die zum Initiieren einer Kunden-Journey verwendet werden, müssen zuerst konfiguriert werden, um eine Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID wird dann dem Entwickler bereitgestellt, um sie während der Aufnahme zu verwenden
 1. Konfigurieren Sie externe Datenquellen
-1. Konfigurieren Sie benutzerdefinierte Aktionen für ein Drittanbieterprogramme
+1. Konfigurieren von benutzerdefinierten Aktionen für Anwendungen von Drittanbietern
 
-### Mobilgeräte-Push-Konfiguration (optional, da Drittanbieter möglicherweise Token sammelt)
+### Mobile Push-Konfiguration (optional, da Drittanbieter Token erfassen kann)
 
 1. Implementieren Sie das Experience Platform Mobile SDK zum Sammeln von Push-Tokens und Login-Informationen zum Abgleich mit Kundenprofilen
 1. Nutzen Sie Adobe Tags und erstellen Sie eine Mobile-Präsenz mit der folgenden Erweiterung:

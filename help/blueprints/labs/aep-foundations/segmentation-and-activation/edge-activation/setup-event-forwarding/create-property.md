@@ -4,13 +4,11 @@ description: Erstellen Sie eine Ereignisweiterleitungseigenschaft mit einem Date
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
-
 ---
-
 
 # Eigenschaft erstellen
 
@@ -208,7 +206,7 @@ Wenn Sie fertig sind, überprüfen Sie, ob Ihr Bildschirm ähnlich wie unten aus
 
 
 
-&#x200B;4. Wenn Sie fertig sind, sollte Ihre Aktion zu Ihrer Regel hinzugefügt werden. Klicken Sie auf **Speichern**, um fortzufahren.
+1. Wenn Sie fertig sind, sollte Ihre Aktion zu Ihrer Regel hinzugefügt werden. Klicken Sie auf **Speichern**, um fortzufahren.
 
 ![Regeleditor mit der konfigurierten Aktion und hervorgehobener Schaltfläche „Speichern](assets/create-property-save-rule-button.png " Regel speichern")
 

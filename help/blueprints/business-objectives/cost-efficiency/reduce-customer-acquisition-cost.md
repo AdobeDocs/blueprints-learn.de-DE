@@ -2,14 +2,12 @@
 title: Reduzierung der Kosten für die Kundenakquise
 description: Erfahren Sie, wie Sie die Targeting-Effizienz verbessern, Bestandskunden von Akquise-Kampagnen unterdrücken und die Medienausgaben optimieren können.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 2e913e53-a4f8-4d03-bfd6-f82de5104516
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
-
 # Reduzierung der Kosten für die Kundenakquise
 
 Verbessern Sie die Targeting-Effizienz, unterdrücken Sie Bestandskunden von Akquise-Kampagnen und optimieren Sie die Medienausgaben. Dieses Ziel konzentriert sich auf die Maximierung der Rendite aus Akquisitionsinvestitionen, indem sichergestellt wird, dass Marketing-Dollars durch präzises Audience-Targeting und intelligente Unterdrückung wirklich neue Perspektiven erreichen.

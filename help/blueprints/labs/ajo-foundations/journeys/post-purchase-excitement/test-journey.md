@@ -4,13 +4,11 @@ description: Verwenden Sie den Journey-Testmodussimulator, um ein im Lieferumfan
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 
 # Test-Journey
 
@@ -105,16 +103,16 @@ Im Protokoll sollte ein ähnliches Element angezeigt werden:
 
 
 
-&#x200B;8. **Schließen** die Browser-**Registerkarte**
-&#x200B;9. **Testmodus schließen** oben rechts
+1. **Schließen** die Browser-**Registerkarte**
+1. **Testmodus schließen** oben rechts
 
    ![Test-Modus schließen oben rechts](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. Klicken Sie oben **auf** Veröffentlichen“.
+1. Klicken Sie oben **auf** Veröffentlichen“.
 
-![Schaltfläche „Veröffentlichen“ für die Journey oben rechts](assets/test-journey-publish-journey.png)
+   ![Schaltfläche „Veröffentlichen“ für die Journey oben rechts](assets/test-journey-publish-journey.png)
 
-&#x200B;11. **Schließen** Sie die **Journey**, indem Sie auf den Pfeil \&lt;- oben links klicken
+1. **Schließen** Sie die **Journey**, indem Sie auf den Pfeil \&lt;- oben links klicken
 
 ![Pfeil nach hinten oben links zum Schließen der Journey](assets/test-journey-close-journey-back-arrow.png)
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '407'
 ht-degree: 0%
 ---
 # TOC.md-Platzierungsreferenz
@@ -12,18 +12,19 @@ Wenn die Kenntnis eine neue Architekturdiagrammseite generiert, muss sie einen E
 
 Alle Seiten des Architekturdiagramms sind im Abschnitt `+ Architecture Diagrams and Blueprints{#architecture-diagrams}` der obersten Ebene in TOC.md verfügbar. In diesem Abschnitt werden Seiten in mehreren Unterabschnitten nach Thema gruppiert.
 
+Ordnernamen, Inhaltsverzeichnisanker und Inhaltsverzeichnisbeschriftungen für diese Unterabschnitte müssen der Benennungsregel in `../../architecture-diagram-category-builder/references/naming-conventions.md` entsprechen. Sehen Sie sich diese Datei an, wenn Sie jemals eine neue Kategorie benötigen (verwenden Sie dazu die `architecture-diagram-category-builder` Kenntnisse, nicht diese).
+
 ## Unterabschnitt-Zuordnung
 
 Wählen Sie den Unterabschnitt aus, der dem Themenordner der neuen Seite entspricht:
 
 | Themenordner | Überschrift Unterabschnitt Inhaltsverzeichnis |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` (ein innerhalb von `Architecture overviews` verschachtelter Unterabschnitt) |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 Wenn der/die Benutzende einen Themenordner vorschlägt, der nicht in dieser Tabelle enthalten ist, behandeln Sie diesen als neuen Unterabschnitt auf oberster Ebene und halten Sie an - fragen Sie den/die Benutzende(n), ob er/sie ihn erstellen soll. Erfinden Sie keinen neuen Unterabschnitt im Hintergrund.
 
@@ -42,63 +43,57 @@ Regeln:
 
 ## Verschachtelte Unterabschnitte
 
-`+ Architecture overviews{#architecture-overview}` enthält einen verschachtelten `+ Deployment{#deployment}` für SDK-Seiten. Wenn sich die neue Seite unter `experience-platform/deployment/` befindet, platzieren Sie den Eintrag in `Deployment` mit **sechs** Einzügen:
-
-```
-      + [{Page title}](/help/blueprints/experience-platform/deployment/{filename}.md)
-```
-
-Andere Unterabschnitte (`Audience & Profile Activation`, `B2B activation & marketing` usw.) Kann auch verschachtelte Gruppierungen enthalten - Überprüfen Sie den Abschnitt, bevor Sie den Eintrag platzieren. Wenn eine verschachtelte Gruppierung vorhanden ist und die neue Seite dazu gehört, ziehen Sie zwei zusätzliche Leerzeichen ein. Andernfalls platzieren Sie den Eintrag auf der obersten Ebene des Unterabschnitts.
+`+ Architecture overviews{#architecture-overviews}` hat keine verschachtelten Gruppierungen. Alle Seiten unter `architecture-diagrams/architecture-overviews/` (einschließlich der SDK-Bereitstellungsseiten, z. B. `websdk.md`, `appsdk.md`) befinden sich auf derselben Einzugsebene mit vier Leerzeichen. Andere Unterabschnitte (`Audience & Profile Activation`, `B2B activation & marketing` usw.) Kann noch verschachtelte Gruppierungen enthalten - Überprüfen Sie den Abschnitt , bevor Sie den Eintrag platzieren. Wenn eine verschachtelte Gruppierung vorhanden ist und die neue Seite dazu gehört, ziehen Sie zwei zusätzliche Leerzeichen ein. Andernfalls platzieren Sie den Eintrag auf der obersten Ebene des Unterabschnitts.
 
 ## Beispiele für Bearbeitung
 
 ### Beispiel 1: AEP-Seite der obersten Ebene
 
-- Themenordner: `experience-platform/`
+- Themenordner: `architecture-diagrams/architecture-overviews/`
 - Dateiname: `mix-modeler-integration.md`
 - Seitentitel: `Adobe Mix Modeler integration with Experience Platform`
 
 Eintritt:
 
 ```
-    + [Adobe Mix Modeler integration with Experience Platform](/help/blueprints/experience-platform/mix-modeler-integration.md)
+    + [Adobe Mix Modeler integration with Experience Platform](/help/blueprints/architecture-diagrams/architecture-overviews/mix-modeler-integration.md)
 ```
 
-Platziert unter `+ Architecture overviews{#architecture-overview}`.
+Platziert unter `+ Architecture overviews{#architecture-overviews}`.
 
 ### Beispiel 2 - AJO Journey-Architektur
 
-- Themenordner: `customer-journeys/`
+- Themenordner: `architecture-diagrams/customer-journeys/`
 - Dateiname: `cross-channel-journey-architecture.md`
 - Seitentitel: `Cross-channel journey architecture`
 
 Eintritt:
 
 ```
-    + [Cross-channel journey architecture](/help/blueprints/customer-journeys/cross-channel-journey-architecture.md)
+    + [Cross-channel journey architecture](/help/blueprints/architecture-diagrams/customer-journeys/cross-channel-journey-architecture.md)
 ```
 
 Platziert unter `+ Customer journeys{#customer-journeys}`.
 
-### Beispiel 3: Seite &quot;SDK-Bereitstellung“
+### Beispiel 3: SDK-Bereitstellungsseite
 
-- Themenordner: `experience-platform/deployment/`
+- Themenordner: `architecture-diagrams/architecture-overviews/`
 - Dateiname: `mobile-sdk-architecture.md`
 - Seitentitel: `Mobile SDK deployment architecture`
 
-Eingabe (beachten Sie den sechseckigen Einzug):
+Eintrag (gleicher vierzeiliger Einzug wie bei anderen Übersichtsseiten zur Architektur):
 
 ```
-      + [Mobile SDK deployment architecture](/help/blueprints/experience-platform/deployment/mobile-sdk-architecture.md)
+    + [Mobile SDK deployment architecture](/help/blueprints/architecture-diagrams/architecture-overviews/mobile-sdk-architecture.md)
 ```
 
-Platziert unter `+ Deployment{#deployment}` in `+ Architecture overviews{#architecture-overview}`.
+Platziert unter `+ Architecture overviews{#architecture-overviews}`.
 
 ## Verifizierung
 
 Lesen Sie nach der Bearbeitung von TOC.md den betroffenen Unterabschnitt erneut durch und bestätigen Sie:
 
-1. Der neue Eintrag verwendet genau vier Leerzeichen (oder sechs, wenn unter `Deployment` verschachtelt).
+1. Der neue Eintrag verwendet genau vier Leerzeichen im Einzug (oder sechs, wenn sie unter einer unterabschnittsspezifischen Gruppierung verschachtelt sind, z. B. der RTCDP-Gruppierung von `Audience & Profile Activation`).
 2. Das Link-Ziel stimmt mit dem Dateipfad auf der Festplatte überein - einschließlich der `.md`.
 3. Der Eintrag ist innerhalb des richtigen Unterabschnitts gruppiert - er kann nicht zwischen Unterabschnitten verschoben werden.
 4. Es wurden keine vorhandenen Einträge neu angeordnet oder geändert.

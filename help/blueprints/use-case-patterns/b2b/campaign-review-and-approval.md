@@ -1,14 +1,12 @@
 ---
-title: Blueprint überprüfen und genehmigen
-description: Blueprint überprüfen und genehmigen – Marketo Engage- und Workfront-Integrations-Blueprint
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+title: Überprüfen und genehmigen
+description: Überprüfen und genehmigen - Integration von Marketo Engage und Workfront
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1253'
 ht-degree: 83%
-
 ---
-
-# Blueprint überprüfen und genehmigen {#review-and-approve-blueprint}
+# Überprüfen und genehmigen {#review-and-approve}
 
 Sicherzustellen, dass Marketing-Assets und -Kampagnen die Erwartungen und Standards eines Unternehmens erfüllen, geht über das Bereitstellen der richtigen Inhalte und Nachrichten an die richtige Zielgruppe hinaus. Unternehmen tragen auch die Verantwortung dafür, interne Politiken, Branchenvorschriften und sogar rechtliche Voraussetzungen bei der Einleitung neuer Marketing-Initiativen einzuhalten. Durch die Integration von Überprüfungs- und Genehmigungsschritten in den Kampagnenentwicklungsprozess können Marketing-Teams sicherstellen, dass Inhalte und Nachrichten korrekt sind und den Branchenstandards entsprechen, insbesondere für Branchen wie Finanzdienstleistungen, Gesundheitswesen und Arzneimittel.
 
@@ -61,15 +59,11 @@ Nehmen Sie in Ihre Projektvorlage in Workfront Aufgaben für die Überprüfung v
 
 Wenn Sie eine neue E-Mail-Kampagne starten möchten, sollten Sie über eine Projektvorlage verfügen, die eine Aufgabe zur Überprüfung der E-Mail sowie einen Genehmigungsprozess enthält, um sicherzustellen, dass die E-Mail vom richtigen Stakeholder genehmigt wird, bevor sie gesendet werden kann.
 
-![Aufgabenbildschirm](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-1.png){zoomable="yes"}
-
 ### Auslösen der Synchronisierung einer Marketo Engage-E-Mail mit Workfront bei Änderung des Aufgabenstatus {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
 Im Rahmen des Überprüfungsprozesses sollten Sie E-Mails mit Ihrem Workfront-Projekt synchronisieren können, sobald sie für die Überprüfung durch Ihr Marketing-Team bereit sind. Zu diesem Zweck empfehlen wir, eine Aufgabe „Bereit zur Überprüfung“ mit einem [Aufgabenstatus“ einzurichten, der &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html?lang=de){target="_blank"}, wann die E-Mail bereit zur Überprüfung ist. In unserem Beispiel haben wir unserer Aufgabe den Status „Marketo-E-Mail überprüfen“ hinzugefügt, der ausgewählt werden kann, wenn der E-Mail-Entwurf zur Überprüfung durch Stakeholder bereit ist.
 
 Wenn dieser Status in Ihrem Workfront-Projekt vorhanden ist, können Sie Ihr Workfront Fusion-Szenario so konfigurieren, dass auf die Aufgabe „Bereit zur Überprüfung“, die auf „Marketo-E-Mail überprüfen“ aktualisiert werden soll, gewartet wird. Nach der Aktualisierung kann Ihr Szenario die Marketo Engage-E-Mail als HTML-Datei abrufen, sie komprimieren und eine Kopie davon in den zu überprüfenden Workfront-Projektdokumenten speichern.
-
-![Bereit für den Überprüfungsbildschirm](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-2.png){zoomable="yes"}
 
 ### Konvertieren einer Marketo Engage-E-Mail in einen überprüfbaren Testversand in Workfront {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
 
@@ -78,8 +72,6 @@ Sobald Ihre Aufgabe „Bereit zur Überprüfung“ in den Status „Marketo-E-Ma
 ### Verwenden des Workfront-Proofings zur Zusammenarbeit über Kommentare und Anmerkungen {#use-workfront-proofing-to-collaborate}
 
 Mit den Proofing[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=de){target="_blank"}-Funktionen von Workfront kann Ihr Marketing-Team ein neues Asset wie ein Bild oder eine E-Mail aufnehmen und über Kommentare und Anmerkungen zusammenarbeiten. Sobald ein Korrekturabzug bereit für die Live-Schaltung ist, können Entscheidungsträger das Asset über das Proofing-Tool genehmigen.
-
-![E-Mail-Bildschirm konvertieren](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 
 ### Asset-Genehmigung für Workfront Proof und Trigger in Marketo Engage genehmigen, Aufgabe als abgeschlossen markieren {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
 
@@ -95,12 +87,8 @@ Um die Entwicklung von Überprüfungs- und Genehmigungs-Workflows in Ihrer eigen
 
 Das nachstehende Fusion-Szenario führt Sie durch die erste Hälfte des Überprüfungs- und Genehmigungsflusses, in dem der E-Mail-Entwurf von Marketo Engage abgerufen und als Testversand in Workfront gespeichert werden kann. Sobald er als Testversand in den Workfront-Projektdokumenten gespeichert ist, kann er von den Marketing-Stakeholdern geprüft, kommentiert und mit Anmerkungen versehen werden, was Teil des Prüfungsprozesses ist.
 
-![Fluss zur Überprüfung und Genehmigung des Fusionsszenarios](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-4.png){zoomable="yes"}
-
 ### Genehmigung einer E-Mail in Workfront, die die Genehmigung des Assets in Marketo Engage auslöst {#approve-an-email-in-workfront-that-triggers-approval}
 
 Das nachstehende Fusion-Szenario kann verwendet werden, um festzustellen, wann ein Testversand in Workfront genehmigt wurde, und es kann diese Genehmigung an Marketo Engage weiterleiten, um den E-Mail-Entwurf zu aktualisieren, damit er live ist und in einem Marketo Engage-Programm verwendet werden kann.
-
-![Testversand-Genehmigung für Fusionsszenario](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-5.png){zoomable="yes"}
 
 Gemeinsam können diese beiden Szenarien verwendet werden, um einen bidirektionalen Pfad zu erstellen, über den Marketing-Assets von Marketo Engage in die stabilen Überprüfungs- und Genehmigungs-Workflows von Workfront gezogen und Genehmigungen von Workfront zurück an Marketo Engage übertragen werden.

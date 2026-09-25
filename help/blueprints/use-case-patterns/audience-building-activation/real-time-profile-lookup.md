@@ -3,13 +3,11 @@ title: Echtzeit-Profilzugriff für Support- und Vertriebsszenarien
 description: Suchvorgänge im [!UICONTROL Echtzeit-Kundenprofil] bieten Kontext für mitarbeitergestützten Support und Vertrieb.
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # Echtzeit-Profilzugriff für Support- und Vertriebsszenarien
 
 Der Blueprint „Echtzeit-Profilzugriff für Support- und Vertriebsszenarien“ zeigt, wie externe Anwendungen auf das Echtzeit[!UICONTROL Kundenprofil von Adobe Experience Platform zugreifen &#x200B;].
@@ -25,10 +23,6 @@ Mit dieser Funktion können Sie auf umfangreichen Kontext zugreifen, wenn ein Ku
 ## Anwendungsfälle
 
 * Besserer Verbraucherkontext für mitarbeitergestützte Interaktionen wie Support- und Vertriebserlebnisse. Dank der Profilsuche in Experience Platform erhalten Mitarbeiter Kontext zum Verbraucher wie kürzlich durchgeführte Käufe, Kampagneninteraktionen, Neigungen, Zielgruppenzugehörigkeiten und andere Attribute sowie Erkenntnisse, die im Echtzeit-Kundenprofil gespeichert sind.
-
-## Architektur
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="Referenzarchitektur für die Blueprint „Customer Activity Hub“" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Leitlinien
 

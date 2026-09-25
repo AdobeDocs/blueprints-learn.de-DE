@@ -2,14 +2,12 @@
 title: Marketing-Ausgaben und -ROI optimieren
 description: Erfahren Sie, wie Sie die Rendite aus Marketing-Investitionen durch bessere Zielgruppenbestimmung, Attribution, Unterdrückung von Zielgruppen und Budgetzuweisung verbessern können.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
-
 # Marketing-Ausgaben und -ROI optimieren
 
 Verbessern Sie den ROI Ihrer Marketing-Investitionen durch bessere Zielgruppenbestimmung, Attribution, Unterdrückung von Zielgruppen und Budgetzuweisung. Dieses Ziel umfasst den gesamten Zyklus der Optimierung der Marketing-Ausgaben, von der Präzision der Zielgruppe über die Leistungsmessung und die kontinuierliche Neuzuweisung zu Kanälen und Taktiken mit der besten Leistung.

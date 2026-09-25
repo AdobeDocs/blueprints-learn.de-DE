@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Handbuch zur Erstellung neuer Architekturdiagrammseiten für das Adobe Experience Platform Blueprints-Repository. Verwenden Sie diese Fähigkeit, wenn Sie ein neues Architekturdiagramm der obersten Ebene, eine Seite zur Integrationsarchitektur oder eine Übersicht über die Anwendungsarchitektur hinzufügen. Architekturseiten behandeln AEP- und Anwendungsarchitekturen der obersten Ebene und primäre Integrationspunkte - keine detaillierten Anwendungsfälle (diese gehören zum Anwendungsfall-Muster-Builder). Übernimmt den gesamten Workflow: das Erfassen von Seiteninformationen, das Generieren der Markdown-Datei, das Platzieren im richtigen Themenordner und das Aktualisieren von TOC.md.'
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1568'
 ht-degree: 1%
 ---
 
@@ -119,8 +119,8 @@ Verwenden Sie `./references/diagram-template.md` als Quellvorlage. Füllen Sie a
    - 1-2 Sätze, die den Zweck des Diagramms erklären
    - Die Bildeinbettung erfolgt gemäß der Standardkonvention:
 
-     ```html
-     <img src="assets/{filename}" alt="{Alt Text}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+     ```markdown
+     ![{Alt Text}](assets/{filename}){width="1000" zoomable="yes"}
      ```
 
 6. **`## Use case patterns supported`** — Aufzählungsliste. Jede Aufzählung:
@@ -147,12 +147,11 @@ Lesen Sie `./references/toc-placement.md` für die vollständige Unterabschnitt-
 
 | Themenordner | Inhaltsverzeichnis-Unterabschnitt |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` (Unterabschnitt „Architekturübersichten„) |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 Eingabeformat (4-Leerzeichen-Einzug + `+`):
 
@@ -186,6 +185,6 @@ Beheben Sie etwaige Validierungsprobleme, bevor Sie die Aufgabe als abgeschlosse
 
 - Verwenden Sie immer `[!DNL ...]` Syntax für Adobe-Produktnamen im Textkörper und in Aufzählungszeichen, entsprechend der Konvention vorhandener Seiten.
 - Architekturdiagramme sind in der Regel SVG (bevorzugt für Schärfe und Skalierung), PNG ist jedoch für Rasterquellen-Grafiken akzeptabel.
-- Die `<img>`-Einbettungs-Inline-Styling-Zeichenfolge (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) und die `class="modal-image"` sind erforderlich - sie ermöglichen die Experience League-Interaktion mit modalem Zoom.
-- Wenn der/die Benutzende eine Seite für einen brandneuen Themenordner erstellt, der noch nicht vorhanden ist, warnt er/sie, dass TOC.md einen neuen Unterabschnitt auf oberster Ebene unter `+ Architecture Diagrams and Blueprints{#architecture-diagrams}` benötigt. Behandeln Sie dies als separaten Schritt mit der expliziten Genehmigung des Benutzers.
+- Verwenden Sie ein Markdown-Bild mit beschreibendem ALT-Text, einem relativen `assets/{filename}` und `{width="1000" zoomable="yes"}` für den Diagrammzoom.
+- Wenn der/die Benutzende eine Seite für einen brandneuen Themenordner erstellt, der noch nicht vorhanden ist, stoppen Sie und verwenden Sie stattdessen die `architecture-diagram-category-builder` Kenntnisse . Diese Kenntnisse umfassen die Durchsetzung der Namenskonvention, die Erstellung von Inhaltsverzeichnissen.md-Unterabschnitten, die `overview.md` und das Kartenraster für die Einstiegsseite. Erstellen Sie in dieser Qualifikation keinen neuen Themenordner.
 - Wenn das Architekturdiagramm einen *-Anwendungsfall vollständig dokumentiert (mit*, Geschäftszielen, Funktionen), leiten Sie den Benutzer zu `use-case-pattern-builder` weiter - dies ist keine Architekturseite.

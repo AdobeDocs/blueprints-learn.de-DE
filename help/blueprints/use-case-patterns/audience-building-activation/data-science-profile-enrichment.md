@@ -22,7 +22,7 @@ Modellierte Einblicke können in [!DNL Experience Platform] aufgenommen werden, 
 
 ## Leitlinien
 
-* Detaillierte Informationen zu Leitplanken und End-to-End-Latenzen bei der Aufnahme datenwissenschaftlicher Ergebnisse in [!DNL Experience Platform] und das Echtzeit-Kundenprofil finden Sie in den Leitplanken für die Datenaufnahme und im Latenzdiagramm, auf das im Dokument [Bereitstellungsleitplanken“ verwiesen ](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md).
+* Detaillierte Informationen zu Leitplanken und End-to-End-Latenzen bei der Aufnahme datenwissenschaftlicher Ergebnisse in [!DNL Experience Platform] und das Echtzeit-Kundenprofil finden Sie in den Leitplanken für die Datenaufnahme und im Latenzdiagramm, auf das im Dokument [Bereitstellungsleitplanken“ verwiesen &#x200B;](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md).
 
 ## Überlegungen bei der Implementierung
 

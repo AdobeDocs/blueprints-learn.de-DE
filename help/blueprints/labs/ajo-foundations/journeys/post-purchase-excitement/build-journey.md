@@ -216,7 +216,7 @@ Stellen Sie auf der Haupt-Journey-Arbeitsfläche im E-Mail-Knoten sicher, dass S
 
 
 
-3. Klicken Sie oben rechts auf **Speichern** und anschließend auf den **Rückwärtspfeil** \&lt;- oben links, um die Journey zu ****
+3. Klicken Sie oben rechts auf **Speichern** und anschließend auf den **Rückwärtspfeil** \&lt;- oben links, um die Journey zu **&#x200B;**
 
 ![Speichern-Taste und Rückwärtspfeil zum Schließen der Journey](assets/build-journey-save-and-close-journey.png)
 

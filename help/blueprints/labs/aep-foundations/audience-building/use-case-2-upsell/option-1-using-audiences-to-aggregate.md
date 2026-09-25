@@ -126,7 +126,7 @@ In diesem Zielgruppen-Build bestimmen Sie die gesamte Nutzung der Abrechnungsdat
 
 1. Ersetzen Sie **Planname (Planname)** durch: XDM-Kontaktprofil > Devbc > Plandetails > **Planname**
 
-   ![Ersetzen Sie den Plannamen (Planname) durch das denormalisierte Feld Planname ](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
+   ![Ersetzen Sie den Plannamen (Planname) durch das denormalisierte Feld Planname &#x200B;](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
    >[!NOTE]
    >

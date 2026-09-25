@@ -112,10 +112,10 @@ sind nur historische Daten und sollten die verbleibenden Migrationsarbeiten nich
 
 ## Offene Fragen noch ungelöst (aus Prüfung)
 
-2. **`journey-optimizer-journeys.md`** â€&quot; als unsicheres Duplikat von `event-triggered-messaging` gekennzeichnet; Umfang vor dem Zuschneiden überprüfen.
-3. **`customer-journey-analytics/analysis.md`** â€&quot;-Inhalt handelt von Experience Platform Query Service, nicht von CJA. Ziehen Sie einen Umzug nach `experience-platform/` in Betracht.
-4. **`customer-success-stories.md`** â€&quot; nur-Links-Seite; Bestätigung der Navigationsklassifizierung.
-5. Historische TOC-Anker-Frage durch die abgeschlossene B2B-Architektur-Disposition ersetzt.
+&#x200B;2. **`journey-optimizer-journeys.md`** â€&quot; als unsicheres Duplikat von `event-triggered-messaging` gekennzeichnet; Umfang vor dem Zuschneiden überprüfen.
+&#x200B;3. **`customer-journey-analytics/analysis.md`** â€&quot;-Inhalt handelt von Experience Platform Query Service, nicht von CJA. Ziehen Sie einen Umzug nach `experience-platform/` in Betracht.
+&#x200B;4. **`customer-success-stories.md`** â€&quot; nur-Links-Seite; Bestätigung der Navigationsklassifizierung.
+&#x200B;5. Historische TOC-Anker-Frage durch die abgeschlossene B2B-Architektur-Disposition ersetzt.
 
 ## Fortsetzen
 

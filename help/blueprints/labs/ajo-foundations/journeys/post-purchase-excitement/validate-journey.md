@@ -120,7 +120,7 @@ Die Ergebnisse umfassen mehr als 100 Spalten und geben Ihnen einen Eindruck davo
 
 >[!NOTE]
 >
->Sie sind neugierig, was die einzelnen Felder bedeuten, schauen Sie sich das AJO-Schemawörterbuch an und ändern Sie die Dropdownliste in das Journey-Schrittereignisschema: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
+>Sie sind neugierig, was die einzelnen Felder bedeuten, schauen Sie sich das AJO-Schemawörterbuch an und ändern Sie die Dropdownliste in das Journey-Schrittereignisschema: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
 
 
 

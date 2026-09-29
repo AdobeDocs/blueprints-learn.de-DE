@@ -109,7 +109,7 @@ Wie in der Vorlesung besprochen, gibt es keine standardmäßigen vordefinierten 
 
    >[!NOTE]
    >
-   >Das Ziel von Aufzählung und empfohlenen Werten besteht darin, die Segmentierung für den Endbenutzer zu vereinfachen. Auflistungen erzwingen die Validierung zum Zeitpunkt der Datenaufnahme, vorgeschlagene Werte dagegen nicht. Weitere Informationen zu dieser Funktion finden Sie in der Dokumentation hier -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+   >Das Ziel von Aufzählung und empfohlenen Werten besteht darin, die Segmentierung für den Endbenutzer zu vereinfachen. Auflistungen erzwingen die Validierung zum Zeitpunkt der Datenaufnahme, vorgeschlagene Werte dagegen nicht. Weitere Informationen zu dieser Funktion finden Sie in der Dokumentation hier -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=de#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=de#enums-and-suggested-values)
 
 
 

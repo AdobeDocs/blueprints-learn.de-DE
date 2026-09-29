@@ -39,6 +39,6 @@ Die obige Architektur unterstützt die folgenden Anwendungsfallmuster:
 
 ## Weitere Informationen
 
-- [Adobe Real-Time CDP-Ziele](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Zielgruppen für Ziele aktivieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Adobe Real-Time CDP-Leitplanken](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
+- [Adobe Real-Time CDP-Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home)
+- [Zielgruppen für Ziele aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Adobe Real-Time CDP-Leitplanken](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/guardrails/overview)

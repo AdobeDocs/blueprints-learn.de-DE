@@ -70,4 +70,4 @@ Gehen Sie folgendermaßen vor:
 
 Sie haben jetzt gesehen, wie einfach die Navigation in der Benutzeroberfläche für Schemas und Beziehungen ist.  Sie können bestimmte Schemata auswählen und zu den Beziehungen navigieren, um die Daten in der Kampagnenorchestrierung besser zu verstehen und zu verwenden.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas) wenn Sie Interesse haben.
+Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/data-management/get-started-schemas) wenn Sie Interesse haben.

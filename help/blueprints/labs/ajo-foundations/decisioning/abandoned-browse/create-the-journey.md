@@ -7,7 +7,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -39,21 +39,21 @@ ht-degree: 0%
 ## Konfigurieren von CBE und Entscheidungsrichtlinie
 
 1. Erweitern Sie das Akkordeon **Aktionen** direkt links von der Arbeitsfläche, ziehen Sie das Element **Aktion** auf die Arbeitsfläche und verbinden Sie es mit dem ersten Knoten.
-2. Wenn die Überlagerung „Aktionstyp auswählen“ angezeigt wird, wählen Sie die Aktion **Code-basiertes Erlebnis** und klicken Sie auf die blaue Schaltfläche **Hinzufügen**.
-3. Klicken Sie in den nun angezeigten Eigenschaften des „Aktion“-Code-basierten Erlebnisses auf die Schaltfläche **Aktion konfigurieren**.
+1. Wenn die Überlagerung „Aktionstyp auswählen“ angezeigt wird, wählen Sie die Aktion **Code-basiertes Erlebnis** und klicken Sie auf die blaue Schaltfläche **Hinzufügen**.
+1. Klicken Sie in den nun angezeigten Eigenschaften des „Aktion“-Code-basierten Erlebnisses auf die Schaltfläche **Aktion konfigurieren**.
 
    ![Eigenschaften der Code-basierten Erlebnisaktion mit der Schaltfläche „Aktion konfigurieren“](assets/create-the-journey-configure-action-button.png)
 
-4. Ändern Sie das Dropdown **Menü „Code-**-Konfiguration“ in den **jsonOffer\_cbe**-cbe, den Sie im letzten Abschnitt erstellt haben.
+1. Ändern Sie das Dropdown **Menü „Code-**-Konfiguration“ in den **jsonOffer\_cbe**-cbe, den Sie im letzten Abschnitt erstellt haben.
 
    ![Code-basierte Konfigurations-Dropdown-Liste auf den Kanal jsonOffer_cbe eingestellt](assets/create-the-journey-select-jsonoffer-cbe.png)
 
-5. Klicken Sie auf **Inhalt bearbeiten** direkt über der Dropdown-Liste „Code-basierte Konfiguration“.
-6. Klicken Sie im daraufhin angezeigten Code-basierten Erlebnis-Editor auf die Schaltfläche **Code bearbeiten**. Im daraufhin angezeigten Bildschirm fügen Sie die JSON-Datei hinzu, die den Erlebnisereignis-Anfragen zurückgegeben wird
+1. Klicken Sie auf **Inhalt bearbeiten** direkt über der Dropdown-Liste „Code-basierte Konfiguration“.
+1. Klicken Sie im daraufhin angezeigten Code-basierten Erlebnis-Editor auf die Schaltfläche **Code bearbeiten**. Im daraufhin angezeigten Bildschirm fügen Sie die JSON-Datei hinzu, die den Erlebnisereignis-Anfragen zurückgegeben wird
 
    ![Bildschirm „Code bearbeiten“ für den Code-basierten Erlebnis-Editor](assets/create-the-journey-edit-code-screen.png)
 
-7. Klicken Sie ganz links im Code-Editor auf das Menüelement **Entscheidungsrichtlinie** , gefolgt von einem Klick auf die Schaltfläche **Entscheidungsrichtlinie hinzufügen** im Menü Neu .
+1. Klicken Sie ganz links im Code-Editor auf das Menüelement **Entscheidungsrichtlinie** , gefolgt von einem Klick auf die Schaltfläche **Entscheidungsrichtlinie hinzufügen** im Menü Neu .
 
    ![Menü „Entscheidungsrichtlinie“ mit der Schaltfläche „Entscheidungsrichtlinie hinzufügen“](assets/create-the-journey-add-decision-policy-button.png)
 
@@ -61,22 +61,22 @@ ht-degree: 0%
    >
    >Wenn Sie bei einer Auswahlstrategie eine Angebotssammlung mit einer Rangfolgenmethode verknüpfen (und die Eignung auf Strategieebene anwenden), gilt eine Entscheidungsrichtlinie, wenn Sie eine Auswahlstrategie mit einem bestimmten Versand eines Kanals verknüpfen.
 
-8. Nennen Sie diese Entscheidungsrichtlinie **iPhone 17 DP** und lassen Sie die Anzahl der Elemente auf 1 gesetzt.
+1. Nennen Sie diese Entscheidungsrichtlinie **iPhone 17 DP** und lassen Sie die Anzahl der Elemente auf 1 gesetzt.
 
    >[!NOTE]
    >
    >Bis zu diesem Zeitpunkt haben Sie die Angebote und ihre Bestellung konfiguriert, aber nicht die Anzahl der Rücksendungen. Hier können Sie konfigurieren, wie viele Angebote zurückgegeben werden sollen.
 
-9. Klicken Sie auf die blaue Schaltfläche **Weiter**. Hier fügen Sie die Auswahlstrategie hinzu. Klicken Sie auf die Schaltfläche **+Hinzufügen** (möglicherweise müssen Sie nach unten scrollen, um sie zu sehen) und wählen Sie **Auswahlstrategie**.
-10. Aktivieren Sie das Kontrollkästchen neben der einzigen Auswahlstrategie, die Sie haben sollten (**iPhone 17-**), und klicken Sie auf **Speichern**. Wenn Sie fertig sind, sehen Sie Folgendes:
+1. Klicken Sie auf die blaue Schaltfläche **Weiter**. Hier fügen Sie die Auswahlstrategie hinzu. Klicken Sie auf die Schaltfläche **+Hinzufügen** (möglicherweise müssen Sie nach unten scrollen, um sie zu sehen) und wählen Sie **Auswahlstrategie**.
+1. Aktivieren Sie das Kontrollkästchen neben der einzigen Auswahlstrategie, die Sie haben sollten (**iPhone 17-**), und klicken Sie auf **Speichern**. Wenn Sie fertig sind, sehen Sie Folgendes:
 
-![Auswahlstrategie für iPhone 17 für die Entscheidungsrichtlinie ausgewählt](assets/create-the-journey-selection-strategy-selected.png)
+   ![Auswahlstrategie für iPhone 17 für die Entscheidungsrichtlinie ausgewählt](assets/create-the-journey-selection-strategy-selected.png)
 
->[!NOTE]
->
->Beachten Sie, wie Sie mehrere Auswahlstrategien hinzufügen oder einfach die Entscheidungselemente selbst hinzufügen können. Wann würden Sie mehrere Auswahlstrategien verwenden? Stellen Sie sich vor, Sie haben ein 4 x 4-Raster mit Empfehlungen für eine Ihrer digitalen Eigenschaften. Sie möchten alle mit 16 Angeboten ausfüllen. Möglicherweise sind diese Angebote auf mehrere Sammlungen verteilt, oder die ersten beiden Zeilen erfordern möglicherweise eine Auswahlstrategie, während die beiden unteren Zeilen eine andere Strategie benötigen. Im vorherigen Bildschirm hätten Sie 16 ausgewählt und dann diesen Bildschirm verwendet, um so viele Auswahlstrategien oder Angebote hinzuzufügen, wie erforderlich sind, um 16 zu erreichen.
->
->Das Fallback-Angebot ist optional, da es nur anwendbar wäre, wenn Endbenutzer für keines der Angebote infrage kommen (oder ungeeignet werden). In unserem Fall war unsere Auswahlstrategie für alle Besucher, und die einzigen Personen, die den CBE-Knoten erreichen würden, waren diejenigen, die die Journey betreten haben. Die Authentifizierung ist eine Voraussetzung für den Journey-Eintritt (der auf der Journey festgelegte Namespace ist einer, den sie nur hätten, wenn sie authentifiziert wären). Wir haben auch ein Fallback-Angebot in unsere Rangfolgenformel integriert, sodass es in unserem Fall nicht erforderlich ist, dieses Fallback-Angebot festzulegen.
+   >[!NOTE]
+   >
+   >Beachten Sie, wie Sie mehrere Auswahlstrategien hinzufügen oder einfach die Entscheidungselemente selbst hinzufügen können. Wann würden Sie mehrere Auswahlstrategien verwenden? Stellen Sie sich vor, Sie haben ein 4 x 4-Raster mit Empfehlungen für eine Ihrer digitalen Eigenschaften. Sie möchten alle mit 16 Angeboten ausfüllen. Möglicherweise sind diese Angebote auf mehrere Sammlungen verteilt, oder die ersten beiden Zeilen erfordern möglicherweise eine Auswahlstrategie, während die beiden unteren Zeilen eine andere Strategie benötigen. Im vorherigen Bildschirm hätten Sie 16 ausgewählt und dann diesen Bildschirm verwendet, um so viele Auswahlstrategien oder Angebote hinzuzufügen, wie erforderlich sind, um 16 zu erreichen.
+   >
+   >Das Fallback-Angebot ist optional, da es nur anwendbar wäre, wenn Endbenutzer für keines der Angebote infrage kommen (oder ungeeignet werden). In unserem Fall war unsere Auswahlstrategie für alle Besucher, und die einzigen Personen, die den CBE-Knoten erreichen würden, waren diejenigen, die die Journey betreten haben. Die Authentifizierung ist eine Voraussetzung für den Journey-Eintritt (der auf der Journey festgelegte Namespace ist einer, den sie nur hätten, wenn sie authentifiziert wären). Wir haben auch ein Fallback-Angebot in unsere Rangfolgenformel integriert, sodass es in unserem Fall nicht erforderlich ist, dieses Fallback-Angebot festzulegen.
 
 1. Klicken Sie auf die blaue **Weiter**-Schaltfläche, um die Entscheidungsrichtlinie zu überprüfen.
 

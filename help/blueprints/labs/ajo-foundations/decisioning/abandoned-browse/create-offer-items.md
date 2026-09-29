@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -34,24 +34,25 @@ Und schließlich würde Connection 5G, wenn alles gleich ist, lieber die Ultra-S
 Das erste und einfachste von Ihnen erstellte Angebotselement ist das Fallback-Angebot, das jeder für unbegrenzte Zeit anzeigen kann.
 
 1. Erweitern Sie bei Bedarf **Decisioning** in der linken Leiste und klicken Sie auf **Kataloge**
-2. Eine leere Seite mit Angeboten wird angezeigt:
+1. Eine leere Seite mit Angeboten wird angezeigt:
 
    ![Leere Seite mit dem Angebotskatalog, bevor Angebotselemente erstellt werden](assets/create-offer-items-empty-offers-page.png)
 
-3. Klicken Sie auf die blaue Schaltfläche **Element erstellen**. Dadurch wird die Seite „Angebotselement erstellen“ geöffnet.
-4. Geben Sie im Feld „Angebotsname“ den Text ein **iphone:17\:generic**. Geben Sie bei Bedarf eine Beschreibung ein.
+1. Klicken Sie auf die blaue Schaltfläche **Element erstellen**. Dadurch wird die Seite „Angebotselement erstellen“ geöffnet.
+1. Geben Sie im Feld „Angebotsname“ den Text ein **iphone:17\:generic**. Geben Sie bei Bedarf eine Beschreibung ein.
 
    >[!NOTE]
    >
    >Die Namenskonvention in nur Kleinbuchstaben und mit Doppelpunkt getrennt ist nur eines unserer eigenen Designs, das für einen echten Kunden als eines dienen könnte. In der Praxis können Sie eine andere Benennungsstrategie für Ihre Angebotselemente entwickeln. Vergewissern Sie sich, dass er dokumentiert und konsistent ist, bevor Sie Angebotselemente erstellen. Dadurch wird sichergestellt, dass Angebotselemente einfach zu finden und in Sammlungen gruppiert werden können. Mehr dazu später.
 
-5. Da dies das Angebotselement mit der niedrigsten Priorität/dem Standard ist, belassen Sie die Standardpriorität bei 1.
+1. Da dies das Angebotselement mit der niedrigsten Priorität/dem Standard ist, belassen Sie die Standardpriorität bei 1.
 
    >[!NOTE]
    >
    >Bei der Entscheidungsfindung gilt: Je niedriger die Zahl, desto niedriger die Priorität. Beispielsweise wird ein Angebotselement mit der Priorität 100 vor einem Angebotselement mit der Priorität 1 angezeigt
 
-6. Erweitern Sie das **Gerät** im Bereich „Benutzerdefinierte Attribute“ und geben Sie dann die folgenden Informationen in die Textfelder ein:
+1. Erweitern Sie das **Gerät** im Bereich „Benutzerdefinierte Attribute“ und geben Sie dann die folgenden Informationen in die Textfelder ein:
+
    - Ebene: **generisch**
    - Modell: **17**
    - Marke: **iPhone**
@@ -70,20 +71,20 @@ Das erste und einfachste von Ihnen erstellte Angebotselement ist das Fallback-An
    >
    >Im vorherigen Abschnitt wurde die Notwendigkeit erwähnt, beim Hinzufügen benutzerdefinierter Attribute zum systemgenerierten Schema „Personalisierte Angebotselemente - Erlebnisentscheidung“ große Vorsicht walten zu lassen. Jeder zusätzliche benutzerdefinierte Knoten wird künftig für jedes Angebotselement als mögliches Feld angezeigt. Das Erstellen unnötiger oder kampagnenspezifischer Attribute überlastet die Benutzeroberfläche zur Erstellung von Angebotselementen und kann Verwirrung stiften.
 
-7. Klicken Sie auf die blaue **Weiter**-Schaltfläche in der oberen rechten Ecke, um mit dem nächsten Schritt fortzufahren.
-8. Dieses Angebot sollte für alle/alle Besucher verfügbar sein und keine Frequenzlimitierung aufweisen, sodass keine Änderungen an den Abschnitten „Eignung“ oder „Begrenzung“ vorgenommen werden müssen. Klicken Sie erneut auf **blaue Schaltfläche** Weiter“, um mit dem letzten Schritt fortzufahren.
-9. Überprüfen Sie im Schritt „Überprüfen“, ob alle Daten korrekt sind:
+1. Klicken Sie auf die blaue **Weiter**-Schaltfläche in der oberen rechten Ecke, um mit dem nächsten Schritt fortzufahren.
+1. Dieses Angebot sollte für alle/alle Besucher verfügbar sein und keine Frequenzlimitierung aufweisen, sodass keine Änderungen an den Abschnitten „Eignung“ oder „Begrenzung“ vorgenommen werden müssen. Klicken Sie erneut auf **blaue Schaltfläche** Weiter“, um mit dem letzten Schritt fortzufahren.
+1. Überprüfen Sie im Schritt „Überprüfen“, ob alle Daten korrekt sind:
 
    ![Überprüfungsschritt, der die Details des allgemeinen Angebotsartikels vor dem Speichern bestätigt](assets/create-offer-items-generic-offer-review-step.png "Überprüfungsschritt, der die Details des allgemeinen Angebotsartikels vor dem Speichern bestätigt")
 
-10. Nehmen Sie die erforderlichen Änderungen vor. Wenn Sie bereit sind, klicken Sie auf die blaue Schaltfläche **Speichern**.
-11. Nach dem Speichern wird eine weiße Schaltfläche „Genehmigen“ angezeigt, wo sich früher die Schaltfläche „Speichern“ befand. Klicken Sie auf die weiße Schaltfläche **Genehmigen**, um dieses Angebotselement zu genehmigen. Unter dem Titel des Angebotsartikels wird ein grüner Indikator „Genehmigt“ angezeigt:
+1. Nehmen Sie die erforderlichen Änderungen vor. Wenn Sie bereit sind, klicken Sie auf die blaue Schaltfläche **Speichern**.
+1. Nach dem Speichern wird eine weiße Schaltfläche „Genehmigen“ angezeigt, wo sich früher die Schaltfläche „Speichern“ befand. Klicken Sie auf die weiße Schaltfläche **Genehmigen**, um dieses Angebotselement zu genehmigen. Unter dem Titel des Angebotsartikels wird ein grüner Indikator „Genehmigt“ angezeigt:
 
-![Grüner Indikator für „Genehmigt“ im allgemeinen Angebotselement](assets/create-offer-items-generic-offer-approved.png)
+   ![Grüner Indikator für „Genehmigt“ im allgemeinen Angebotselement](assets/create-offer-items-generic-offer-approved.png)
 
->[!NOTE]
->
->In der Praxis und bei komplexeren Angeboten sollte ein ordnungsgemäßer Genehmigungsprozess vorhanden sein, um sicherzustellen, dass die Angebotselemente korrekt erstellt wurden. Um in diesem Labor Zeit zu sparen, genehmigen Sie einfach jedes von Ihnen erstellte Angebotselement.
+   >[!NOTE]
+   >
+   >In der Praxis und bei komplexeren Angeboten sollte ein ordnungsgemäßer Genehmigungsprozess vorhanden sein, um sicherzustellen, dass die Angebotselemente korrekt erstellt wurden. Um in diesem Labor Zeit zu sparen, genehmigen Sie einfach jedes von Ihnen erstellte Angebotselement.
 
 1. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
 

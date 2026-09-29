@@ -24,7 +24,7 @@ In diesem Abschnitt fügen Sie dem Standard-XDM-Schema des Angebots benutzerdefi
 1. Erweitern Sie bei Bedarf das **Decisioning**-Menüelement in der linken Leiste und klicken Sie auf **Catalogs.**
 2. Standardmäßig wird die Seite „Angebote“ angezeigt. Klicken Sie auf **Schema bearbeiten** in der oberen rechten Ecke.
 
-   ![Schaltfläche Schema bearbeiten auf der Seite Angebotskatalog ](assets/create-offer-attributes-edit-schema-button.png)
+   ![Schaltfläche Schema bearbeiten auf der Seite Angebotskatalog &#x200B;](assets/create-offer-attributes-edit-schema-button.png)
 
    >[!TIP]
    >

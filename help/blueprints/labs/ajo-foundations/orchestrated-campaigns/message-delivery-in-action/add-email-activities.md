@@ -55,7 +55,7 @@ In den nächsten Schritten fügen Sie den beiden Verzweigungen der Aktivität Ve
 
 6. Es gibt viele Optionen. Wählen Sie für diesen Test die Option **Eigenen Code erstellen** HTML aus
 
-   ![Wählen Sie die Option Eigenen HTML codieren ](assets/add-email-activities-code-your-own-html.png)
+   ![Wählen Sie die Option Eigenen HTML codieren &#x200B;](assets/add-email-activities-code-your-own-html.png)
 
 7. Fügen Sie in **E-Mail-**-Designer&quot; die Testzeile „Upgrade-Angebot verfügbar!“ ein. direkt vor den `</body></html>` Tags wie abgebildet und klicken Sie auf **Speichern**
 

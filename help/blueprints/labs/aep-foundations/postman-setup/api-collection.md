@@ -32,7 +32,7 @@ Datei herunterladen - [AEP Foundations Bootcamp (Labs).postman_collection.json](
 
 
 
-![Einfügen der URL der API-Sammlungsdatei in das Textfeld „Modal importieren“ von Postman ](assets/api-collection-import-modal-paste-url.png "modales Textfeld „Schaltfläche importieren“")
+![Einfügen der URL der API-Sammlungsdatei in das Textfeld „Modal importieren“ von Postman &#x200B;](assets/api-collection-import-modal-paste-url.png "modales Textfeld „Schaltfläche importieren“")
 
 Jetzt wird in der linken Seitenleiste auf der Registerkarte &quot;`Collections`&quot; eine Sammlung namens &quot;`AEP Foundations Bootcamp`&quot; angezeigt
 

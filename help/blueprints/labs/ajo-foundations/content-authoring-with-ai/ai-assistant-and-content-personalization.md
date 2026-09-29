@@ -97,7 +97,7 @@ Für diese Übung verbessern Sie die E-Mail, die Sie mit dem KI-Assistenten erst
 
 7. Klicken Sie auf die **Generieren**-Schaltfläche
 8. Überprüfen und wählen Sie die beste Version aus,
-9. Wenn Ihr Text lang ist, verwenden Sie den Schieberegler, um „kürzeren Text“ zu **** und den Text neu zu generieren.
+9. Wenn Ihr Text lang ist, verwenden Sie den Schieberegler, um „kürzeren Text“ zu **&#x200B;**&#x200B;und den Text neu zu generieren.
 
 
 

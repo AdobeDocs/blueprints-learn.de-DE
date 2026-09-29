@@ -23,7 +23,7 @@ In den nächsten Schritten speichern Sie die von Ihnen erstellte Zielgruppe wied
 
 ## Ändern der Dimension
 
-1. Klicken Sie auf der Workflow-Arbeitsfläche auf das Symbol **+** **** in der Verzweigung **Audience speichern** und wählen Sie in der Liste der Aktivitäten die Aktivität **Dimensionsänderung** aus
+1. Klicken Sie auf der Workflow-Arbeitsfläche auf das Symbol **+** **&#x200B;**&#x200B;in der Verzweigung **Audience speichern** und wählen Sie in der Liste der Aktivitäten die Aktivität **Dimensionsänderung** aus
 
    ![Fügen Sie die Aktivität Dimensionsänderung in der Verzweigung Zielgruppe speichern hinzu](assets/save-the-audience-add-change-dimension.png)
 
@@ -155,7 +155,7 @@ Standardmäßig wird der Primärschlüssel der Zielgruppendimension (d. h. Kunde
 
 Was passiert, wenn Sie die Zielgruppe vor dem Speichern nicht deduplizieren?  Werden alle 65 Datensätze oder nur die 46 gespeichert?
 
-![Szenario „Zielgruppen-Challenge ohne Deduplizierung vorher speichern“ „Zielgruppe mit Deduplizierungsaktivität vorher ](assets/save-the-audience-challenge-without-dedup.png "„Zielgruppe mit Deduplizierungsaktivität vorher speichern")
+![Szenario „Zielgruppen-Challenge ohne Deduplizierung vorher speichern“ „Zielgruppe mit Deduplizierungsaktivität vorher &#x200B;](assets/save-the-audience-challenge-without-dedup.png "„Zielgruppe mit Deduplizierungsaktivität vorher speichern")
 
 
 

@@ -44,7 +44,7 @@ Erstellen Sie zunächst den API-Connector, den AJO zum Senden ausgehender SMS-An
 
 >[!NOTE]
 >
->Sie benötigen ein kostenloses Twilio-Testkonto mit einer verifizierten Telefonnummer, bevor Sie mit diesem Schritt beginnen. Melden Sie sich bei [twilio.com/try-twilio](https://www.twilio.com/try-twilio) an und suchen Sie dann Ihre Konto-SID und Ihr Authentifizierungs-Token im Twilio Console-Dashboard. Eine ausführliche Anleitung finden Sie [ Twilio-Handbuch ](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) Erste Schritte .
+>Sie benötigen ein kostenloses Twilio-Testkonto mit einer verifizierten Telefonnummer, bevor Sie mit diesem Schritt beginnen. Melden Sie sich bei [twilio.com/try-twilio](https://www.twilio.com/try-twilio) an und suchen Sie dann Ihre Konto-SID und Ihr Authentifizierungs-Token im Twilio Console-Dashboard. Eine ausführliche Anleitung finden Sie [&#x200B; Twilio-Handbuch &#x200B;](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) Erste Schritte .
 
 ![Felder mit den SMS-API-Anmeldeinformationen für den Twilio-Anbieter](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -168,4 +168,4 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 Sie haben jetzt gesehen, wie Sie einen SMS-Kanal erfolgreich konfigurieren können.  Beachten Sie, dass es sich bei dieser Konfiguration um eine API-basierte SMS handelt. Je nach Anbieter können sie daher alternative Authentifizierungsmethoden verwenden.
 
-Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.
+Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.

@@ -51,13 +51,13 @@ Wählen Sie aus dem **Subdomain**-Dropdown **email.dep-labs.com**
 
 >[!NOTE]
 >
->Wenn Sie zum Selbststudium bereit sind und keine vorab bereitgestellte Subdomain haben, wählen Sie hier Ihre eigene Subdomain aus, die an Adobe delegiert wurde, anstatt `email.dep-labs.com`. Informationen [ Delegieren einer ](../../setup.md) finden Sie unter „Setup“.
+>Wenn Sie zum Selbststudium bereit sind und keine vorab bereitgestellte Subdomain haben, wählen Sie hier Ihre eigene Subdomain aus, die an Adobe delegiert wurde, anstatt `email.dep-labs.com`. Informationen [&#x200B; Delegieren einer &#x200B;](../../setup.md) finden Sie unter „Setup“.
 
 ## Konfigurieren von IP-Pool-Details
 
 Wählen Sie aus der Dropdown **Liste** IP-Pool“ **Marketing**
 
-![Dropdown-Liste „IP-Pool“ mit ](assets/configure-for-profile-select-marketing-ip-pool.png " Details zum Marketing-IP-Pool")
+![Dropdown-Liste „IP-Pool“ mit &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png " Details zum Marketing-IP-Pool")
 
 ## Abmeldeliste konfigurieren
 

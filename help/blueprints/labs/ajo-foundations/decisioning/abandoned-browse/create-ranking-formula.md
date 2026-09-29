@@ -78,7 +78,7 @@ Eine Möglichkeit, über Prioritätsanpassungsregeln nachzudenken, besteht darin
 
 3. Lassen Sie den Operator auf „Gleich“ gesetzt und geben Sie im restlichen Textfeld den Namen des Angebotselements der Ultra-Ebene ein, nämlich **iphone:17\:ultra**. Nach der Eingabe des Textes wird die Benutzeroberfläche aktualisiert und zeigt an, dass die entsprechende Bedingung akzeptiert wurde.
 4. Klicken Sie auf **+Bedingung hinzufügen** und dann in das **neue angezeigte Textfeld** (es enthält den Text *Klicken, um ein Entscheidungselement zu erstellen…*)
-5. Klicken Sie auf die jetzt verfügbare **Attribut auswählen** Option**.**
+5. Klicken Sie auf die jetzt verfügbare **Attribut auswählen** Option&#x200B;**.**
 6. Wenn das Dialogfeld &#39;Attribut auswählen&#39; geöffnet wird, klicken Sie auf **Profilattribute > Person** (Sie müssen wahrscheinlich nach unten scrollen) **> Geburtsjahr**. Klicken Sie nach der Auswahl auf **Speichern.**
 
    >[!NOTE]

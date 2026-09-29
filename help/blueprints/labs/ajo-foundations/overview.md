@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## Voraussetzungen
 
-Wenn Sie dieses Bootcamp in Ihrem eigenen Tempo durcharbeiten, schließen Sie [Postman-Setup ab](setup.md#postman-setup) bevor Sie die Labs starten. **Konfigurieren von E-**-Kanälen und den abhängigen Labors muss eine Subdomain an Adobe delegiert werden und **Flaggschiff-Telefonstart** benötigt SMS-Anmeldeinformationen. Einzelheiten finden [ unter ](setup.md).
+Wenn Sie dieses Bootcamp in Ihrem eigenen Tempo durcharbeiten, schließen Sie [Postman-Setup ab](setup.md#postman-setup) bevor Sie die Labs starten. **Konfigurieren von E-**-Kanälen und den abhängigen Labors muss eine Subdomain an Adobe delegiert werden und **Flaggschiff-Telefonstart** benötigt SMS-Anmeldeinformationen. Einzelheiten finden [&#x200B; unter &#x200B;](setup.md).
 
 
 ## Einführung

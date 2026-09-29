@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 # Architekturdiagramme
 
-Architekturdiagramme sind visuelle, technische Referenzen, die zeigen, wie Adobe Experience Platform und Anwendungen zusammenpassen - Systemintegrationspunkte, Daten- und Inhaltsflüsse und Abläufe. Verwenden Sie sie, um den Lösungsentwurf zu verstehen, bevor Sie sich mit der schrittweisen Anleitung in [Anwendungsfallmustern“ ](/help/blueprints/use-case-patterns/overview.md).
+Architekturdiagramme sind visuelle, technische Referenzen, die zeigen, wie Adobe Experience Platform und Anwendungen zusammenpassen - Systemintegrationspunkte, Daten- und Inhaltsflüsse und Abläufe. Verwenden Sie sie, um den Lösungsentwurf zu verstehen, bevor Sie sich mit der schrittweisen Anleitung in [Anwendungsfallmustern“ &#x200B;](/help/blueprints/use-case-patterns/overview.md).
 
 Die Diagramme sind in die folgenden Kategorien unterteilt. Wählen Sie eine Karte aus, um zur Landingpage oder zum Lead-Diagramm dieser Kategorie zu springen - verwenden Sie die linke Navigation, um jedes Diagramm innerhalb einer Kategorie zu durchsuchen.
 

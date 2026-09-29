@@ -23,7 +23,7 @@ In den nächsten Schritten beginnen Sie mit der Erstellung einer orchestrierten 
 
 1. Klicken Sie in der linken Seitenleiste auf **Kampagnen**
 
-   ![Klicken Sie in der linken Seitenleiste auf Kampagnen ](assets/create-a-campaign-click-campaigns.png)
+   ![Klicken Sie in der linken Seitenleiste auf Kampagnen &#x200B;](assets/create-a-campaign-click-campaigns.png)
 
 2. Klicken Sie auf **Kampagne erstellen**
 

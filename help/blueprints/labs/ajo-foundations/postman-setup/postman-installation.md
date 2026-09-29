@@ -41,7 +41,7 @@ Wenn Sie *bereits mit Postman vertraut* und es installiert haben, waren Sie wahr
 
 Öffnen Sie Postman und machen Sie sich schnell mit einigen Bereichen des Programms vertraut. Um mit Experience Platform arbeiten zu können, müssen wir uns wirklich nur auf einige Schlüsselbereiche der Anwendung konzentrieren.
 
-![Übersicht über die Postman-Benutzeroberfläche mit Seitenleiste, Kopfzeile und Hauptarbeitsbereich mit der Bezeichnung ](assets/postman-installation-interface-overview.png "Postman-Benutzeroberfläche")
+![Übersicht über die Postman-Benutzeroberfläche mit Seitenleiste, Kopfzeile und Hauptarbeitsbereich mit der Bezeichnung &#x200B;](assets/postman-installation-interface-overview.png "Postman-Benutzeroberfläche")
 
 ## Randleiste
 

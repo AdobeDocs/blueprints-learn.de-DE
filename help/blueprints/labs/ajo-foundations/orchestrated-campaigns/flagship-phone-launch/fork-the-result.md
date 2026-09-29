@@ -26,7 +26,7 @@ Dieser Schritt ist einfach, da Sie nur eine Aktivität Verzweigung hinzufügen m
 
 ## Verzweigung erstellen
 
-1. Klicken Sie auf der Workflow-Arbeitsfläche auf das Symbol **+** **** nach der Aktivität Zielgruppe aufbauen und wählen Sie die Aktivität **Verzweigung**
+1. Klicken Sie auf der Workflow-Arbeitsfläche auf das Symbol **+** **&#x200B;**&#x200B;nach der Aktivität Zielgruppe aufbauen und wählen Sie die Aktivität **Verzweigung**
 
    ![Fügen Sie nach der Aktivität „Zielgruppe aufbauen“ die Aktivität „Verzweigung“ hinzu](assets/fork-the-result-add-fork-activity.png)
 

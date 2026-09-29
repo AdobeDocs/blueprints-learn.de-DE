@@ -2,7 +2,10 @@
 title: Bezahlter AJO B2B-Medien-Controller
 description: Priorität von Kampagnen und Aktivierung von Konten für Paid-Media-Ziele
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1499'
 ht-degree: 0%
@@ -67,7 +70,7 @@ Bei jeder datengesteuerten Orchestrierung ist der Entwurf eines Schemas wichtig.
 
 ### Leitlinien
 
-- **Journey Optimizer B2B edition** - In der [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
+- **Journey Optimizer B2B Edition** - In der [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html) finden Sie Informationen zu Journey-Beschränkungen, Knotenbeschränkungen und Ziel-Unterstützung.
 - **Real-Time CDP** - Siehe [RTCDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/guardrails/overview)Leitplanken für Segmentierungs- und Aktivierungsbeschränkungen.
 
 ## Implementierung

@@ -3,13 +3,16 @@ title: Ereignisausgelöstes Messaging
 description: Erfahren Sie, wie Sie kontextbezogene Echtzeit-Nachrichten als Reaktion auf Verhaltens- oder Systemereignisse versenden können.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1955'
 ht-degree: 5%
-
 ---
-
 # Ereignisausgelöstes Messaging
 
 In diesem Handbuch wird das Anwendungsfallmuster für ereignisgesteuertes Messaging beschrieben, bei dem [!DNL Adobe Journey Optimizer] (AJO), [!DNL Real-Time Customer Data Platform] (RT-CDP) und [!DNL Adobe Experience Platform] (AEP) verwendet werden, um kontextuelle Echtzeitnachrichten als Reaktion auf Verhaltens- oder Systemereignisse bereitzustellen. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.

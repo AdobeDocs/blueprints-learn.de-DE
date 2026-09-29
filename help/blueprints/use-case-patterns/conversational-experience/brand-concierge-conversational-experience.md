@@ -3,13 +3,16 @@ title: Brand Concierge - Gesprächserlebnis
 description: Erfahren Sie, wie Sie digitale Eigenschaften in KI-gestützte, markensichere Gesprächserlebnisse umwandeln können, die die Kundenfindung leiten.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 1%
-
 ---
-
 # Brand Concierge-Gesprächserlebnis
 
 Dieses Handbuch bietet einen Überblick über KI-gestützte Konversationserlebnisse unter Verwendung von [!DNL Adobe Brand Concierge], integriert in [!DNL Adobe Experience Platform] (AEP) und [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Sie wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die markensichere Agenten für digitale Eigenschaften bereitstellen müssen.

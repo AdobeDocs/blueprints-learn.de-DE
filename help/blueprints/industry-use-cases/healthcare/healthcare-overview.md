@@ -3,13 +3,18 @@ title: Anwendungsfälle für das Gesundheitswesen
 description: Erfahren Sie, wie Unternehmen im Gesundheitswesen Adobe Experience Platform verwenden, um die Interaktion mit Patienten zu verbessern, die Koordinierung der Pflege zu optimieren und bessere Ergebnisse im Gesundheitswesen zu erzielen.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3589'
 ht-degree: 0%
-
 ---
-
 # Anwendungsfälle für das Gesundheitswesen
 
 Gesundheitseinrichtungen verwenden Adobe Experience Platform, um einheitliche Patientenprofile zu erstellen und personalisierte, zeitnahe Kommunikation über jeden Touchpoint bereitzustellen. Durch die Verbindung von klinischen Daten, Verhaltens- und Präferenzdaten an einem Ort können Betreuungsteams Patienten effektiver einbinden und dabei die höchsten Standards in Bezug auf Datenschutz und Compliance beibehalten.

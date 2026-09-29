@@ -3,13 +3,18 @@ title: Anwendungsfälle für Finanzdienstleistungen
 description: Erfahren Sie, wie Finanzdienstleister Adobe Experience Platform verwenden, um Produktangebote zu personalisieren, Abwanderungen zu verhindern und die Kundenbeziehungen zu vertiefen.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 1f22d684-11bd-473d-8b10-5f88cb0cd088
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 0%
-
 ---
-
 # Anwendungsfälle für Finanzdienstleistungen
 
 Finanzdienstleister verlassen sich auf Adobe Experience Platform, um Kundendaten über Bank-, Kredit- und Investitionskanäle hinweg zu vereinheitlichen und so personalisierte Erlebnisse zu ermöglichen, die Beziehungen stärken und das Wachstum fördern. Durch die Kombination von Kontoaktivität, Transaktionsverlauf und Verhaltenssignalen können diese Unternehmen das richtige Angebot zum richtigen Zeitpunkt bereitstellen und gleichzeitig das Vertrauen und die Compliance aufrechterhalten, die ihre Kunden erwarten.

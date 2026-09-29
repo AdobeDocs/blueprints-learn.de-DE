@@ -3,13 +3,14 @@ title: B2B-Audience Activation
 description: Erfahren Sie, wie Sie Account-basierte B2B-Zielgruppen über Web-, E-Mail- und Werbekanäle aktivieren.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
-
 ---
-
 # B2B-Zielgruppenaktivierung
 
 In diesem Handbuch wird das Anwendungsfallmuster für die B2B-Zielgruppenaktivierung beschrieben, bei dem [!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP]) B2B edition verwendet wird, um Zielgruppen auf Kontoebene über Web-, E-Mail-, Werbe- und CRM-Kanäle zu erstellen, zu bewerten und zu aktivieren. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.

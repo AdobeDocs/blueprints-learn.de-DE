@@ -3,13 +3,16 @@ title: Verhaltensempfehlung
 description: Erfahren Sie, wie Sie Element- und Inhaltsempfehlungen mithilfe von Auswahlstrategien und Rangfolgemodellen generieren.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 5%
-
 ---
-
 # Verhaltensempfehlung
 
 In diesem Handbuch wird das Anwendungsfallmuster für Verhaltensempfehlungen beschrieben, bei dem [!DNL Adobe Journey Optimizer] (AJO) Decisioning, [!DNL Real-Time Customer Data Platform] (RT-CDP) und [!DNL Adobe Experience Platform] (AEP) verwendet werden, um personalisierte Empfehlungserlebnisse über Web-, Mobile App- und E-Mail-Kanäle bereitzustellen. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.

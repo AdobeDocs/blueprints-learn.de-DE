@@ -3,13 +3,14 @@ title: Anwendungsfallkatalog
 description: Durchsuchen Sie branchenspezifische Anwendungsfälle nach Vertikalen, um den richtigen Ausgangspunkt für Ihre Adobe Experience Platform- und Anwendungs-Journey mit Links zu Implementierungsmustern und Geschäftszielen zu finden.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4157'
 ht-degree: 30%
-
 ---
-
 # Anwendungsfallkatalog
 
 Anwendungsfälle aus der Branche zeigen, wie Unternehmen in bestimmten Branchen Adobe Experience Platform und Anwendungen einsetzen, um messbare Geschäftsergebnisse zu erzielen. Jeder Anwendungsfall beschreibt ein konkretes Geschäftsszenario, dessen erwartete Auswirkungen und Links zum Anwendungsfallmuster[&#x200B; das &#x200B;](/help/blueprints/use-case-patterns/overview.md) Implementierungshandbücher bietet.

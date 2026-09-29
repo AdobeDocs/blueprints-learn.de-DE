@@ -3,13 +3,16 @@ title: Web-/App-Personalization für bekannte Besucher
 description: Erfahren Sie, wie Sie auf der Grundlage von Echtzeit-Profil- und Segmentzugehörigkeit personalisierte Inhalte, Angebote oder Promotions für identifizierte Besucher bereitstellen können.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 4%
-
 ---
-
 # Web-/App-Personalisierung für bekannte Besucher
 
 In diesem Handbuch wird das Anwendungsfallmuster für die Web-/App-Personalisierung beschrieben, bei dem [!DNL Adobe Journey Optimizer] (AJO) und [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) verwendet werden, um identifizierten Besuchern personalisierte Inhalte über digitale Oberflächen hinweg bereitzustellen. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.
@@ -105,7 +108,7 @@ Die folgenden Ressourcen enthalten weitere Details zu den Technologien und Konfi
 ### In-App- und Inhaltskarten-Kanäle
 
 - [In-App-Kanal - Übersicht](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
-- [Voraussetzungen für In-App-Kanal](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
+- [Voraussetzungen für In-App-Kanal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
 - [Erstellen von In-App-Nachrichten](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/in-app/create-in-app)
 - [Inhaltskarten-Kanal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/get-started-content-card)
 - [Konfiguration der Inhaltskarte](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/content-card-configuration)

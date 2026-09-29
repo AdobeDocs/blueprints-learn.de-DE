@@ -2,7 +2,10 @@
 title: B2B-Journey, die Marketo Data Blueprint verwenden
 description: Blueprint für die schnelle Bereitstellung von Journey Optimizer B2B Edition mithilfe von Marketo Engage-Daten.
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 2%
@@ -202,7 +205,7 @@ Die Leitplanken für B2B-Journey mit Marketo Engage finden Sie in der folgenden 
 
 * [Adobe Journey Optimizer B2B Edition - Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Enthält spezifische Leitplanken und Nutzungsparameter für Journey Optimizer B2B Edition.
-* Leitplanken für die Bereitstellung von [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* Leitplanken für die Bereitstellung von [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Behandelt allgemeine Leitplanken für die Architektur und Bereitstellung in allen Adobe Experience Platform-Lösungen.
 * [Adobe Marketo Engage - Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 Details zu Leistungs- und Nutzungsschutzmechanismen für Marketo Engage, einschließlich Überlegungen zur Aktivierung und CRM-Synchronisierung.

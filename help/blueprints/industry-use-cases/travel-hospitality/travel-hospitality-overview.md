@@ -3,13 +3,18 @@ title: Anwendungsfälle für Reisen und Gastgewerbe
 description: Erfahren Sie, wie Reise- und Gastgewerbeunternehmen Adobe Experience Platform verwenden, um Buchungen zu personalisieren, abgebrochene Reservierungen wiederherzustellen und die Kundentreue der Gäste zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3744'
 ht-degree: 0%
-
 ---
-
 # Anwendungsfälle für Reisen und Gastgewerbe
 
 Reise- und Gastgewerbeunternehmen verwenden Adobe Experience Platform, um Gastdaten aus Buchungs-Engines, Treueprogrammen, Immobilienverwaltungssystemen und digitalen Touchpoints in einer zentralen Ansicht für jeden Reisenden zusammenzuführen. Diese einheitliche Grundlage ermöglicht personalisierte Erlebnisse, die zu Buchungen inspirieren, verlassene Reservierungen wiederherstellen und die Art von Gastloyalität aufbauen, die zu wiederholten Besuchen führt.

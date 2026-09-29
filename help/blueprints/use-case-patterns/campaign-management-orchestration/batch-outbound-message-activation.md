@@ -3,13 +3,16 @@ title: Batch-Aktivierung ausgehender Nachrichten
 description: Erfahren Sie, wie Sie eine Audience auswerten und eine geplante ausgehende Nachricht in einer einzigen Batch-Ausführung versenden.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 4%
-
 ---
-
 # Batch-Aktivierung ausgehender Nachrichten
 
 In diesem Handbuch wird das Anwendungsfallmuster für die Aktivierung von Batch-ausgehenden Nachrichten beschrieben, bei dem [!DNL Adobe Journey Optimizer] (AJO) und [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) verwendet werden, um geplante ausgehende Nachrichten an definierte Zielgruppensegmente zu senden. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.

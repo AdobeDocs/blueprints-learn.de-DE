@@ -3,13 +3,16 @@ title: Cross-Channel-Journey mit Decisioning
 description: Erfahren Sie, wie Sie eine mehrstufige Journey mit Echtzeit-Entscheidungsfindung orchestrieren können, um optimale Kanäle, Inhalte oder Angebote auszuwählen.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '2070'
 ht-degree: 5%
-
 ---
-
 # Cross-Channel-Journey mit Decisioning
 
 In diesem Handbuch wird das Anwendungsfallmuster „Cross-Channel Journey with Decisioning“ beschrieben, das mithilfe von [!DNL Adobe Journey Optimizer] und [!DNL Adobe Real-Time Customer Data Platform] mehrstufige Multi-Channel-Journeys orchestriert, die Echtzeit-Entscheidungsfindung auf einem oder mehreren Journey-Knoten beinhalten. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.
@@ -50,7 +53,7 @@ Die folgenden Geschäftsziele werden durch dieses Anwendungsfallmuster unterstü
 Passen Sie Inhalte, Angebote und Nachrichten an individuelle Voreinstellungen, Verhaltensweisen und Lebenszyklusphasen an.
 **KPIs:** Interaktion, Konversionsraten, Kundenzufriedenheit (CSAT)
 
-**[Steigerung der Kundentreue und des Lebenszeitwerts](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
+**[Steigerung der Kundentreue und des Werts während der gesamten Lebensdauer](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 Vertiefung der Kundenbeziehungen und Maximierung des langfristigen Nutzens durch Treueprogramme, Prämien und personalisierte Interaktion.
 **KPIs:** Kundenlebenszeitwert, Kundenbindung, Upsell/Crosssell %
 

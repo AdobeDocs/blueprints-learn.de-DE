@@ -3,13 +3,18 @@ title: Anwendungsfälle für Versicherungen
 description: Erfahren Sie, wie Versicherungsunternehmen Adobe Experience Platform verwenden, um die Richtlinienverwaltung zu personalisieren, die Schadenerfahrung zu verbessern und die Kundenbindung zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2543'
 ht-degree: 0%
-
 ---
-
 # Anwendungsfälle für Versicherungen
 
 Versicherungsunternehmen verwenden Adobe Experience Platform, um Daten über Policenmanagement-, Schadenersatzansprüche- und Interaktionssysteme hinweg zu vereinheitlichen und in jeder Phase der Kundenbeziehung personalisierte Mitteilungen bereitzustellen. Durch die Verbindung von Verhaltenssignalen mit Policys und Schadeninformationen können Versicherer Kunden proaktiv mit relevanten Angeboten, zeitnahen Service-Updates und aussagekräftigem Support ansprechen, der die Kundenbindung und den Wert während der gesamten Lebensdauer steigert.

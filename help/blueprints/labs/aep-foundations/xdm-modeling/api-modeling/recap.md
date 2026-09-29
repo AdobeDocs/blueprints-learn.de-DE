@@ -4,7 +4,10 @@ description: Gehen Sie die Schritte des API-Modellierungslabors von der Erstellu
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -31,7 +34,7 @@ Sie haben das Schema erstellt, indem Sie sowohl die in Adobe erstellten Feldergr
 
 ## JSON-gepatchte des Kundenkontenschemas
 
-Sie haben die JSON Patch-Methode verwendet, um das Schema des Kundenkontos zu ändern und dem Planobjekt ein neues Feld hinzuzufügen. Patchen Sie hierzu die `$ref` benutzerdefinierte Feldergruppe namens `Customer Account Details` , die Sie unter &quot;[&#x200B; benutzerdefinierter Feldergruppen“ definiert haben](build-schema/create-custom-field-groups.md), anstatt das Schema selbst zu patchen.
+Sie haben die JSON Patch-Methode verwendet, um das Schema des Kundenkontos zu ändern und dem Planobjekt ein neues Feld hinzuzufügen. Patchen Sie hierzu die `$ref` benutzerdefinierte Feldergruppe namens `Customer Account Details` , die Sie unter &quot;[ benutzerdefinierter Feldergruppen“ definiert haben](build-schema/create-custom-field-groups.md), anstatt das Schema selbst zu patchen.
 
 ![JSON Patch-Anfrage Hinzufügen eines Felds „planDescription“ zur Feldergruppe „Kundenkontodetails“](assets/recap-json-patch-plan-description-field.png "JSON Patch von planDescription“")
 
@@ -43,7 +46,7 @@ Um `Identity Descriptors` für die Felder `_devbc.customerID` und `personalEmail
 1. Das Feld `_devbc.customerID` wurde als &quot;**&quot;**
 1. Das Feld `personalEmail.address` wurde **nicht festgelegt** als primäres Feld
 
-![Kundenkontenschema mit primären und nicht primären Identitätsdeskriptoren/Identitätsfeldern &#x200B;](assets/recap-marked-identity-fields.png " Kundenkontenschemas")
+![Kundenkontenschema mit primären und nicht primären Identitätsdeskriptoren/Identitätsfeldern ](assets/recap-marked-identity-fields.png " Kundenkontenschemas")
 
 ## Lookup-Beziehung erstellt
 

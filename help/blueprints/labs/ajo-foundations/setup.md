@@ -2,10 +2,12 @@
 title: Einrichtung
 description: Führen Sie die erforderlichen Konfigurationsschritte für die Sandbox-Bereitstellung und die Postman aus, bevor Sie AJO Foundations Labs starten.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 1%
@@ -44,7 +46,7 @@ Zwei Labs später in diesem Bootcamp hängen von externen Konten ab, die nur Ler
 
 ### Delegierte Subdomain
 
-Für das [Konfigurieren von E](data-stores/configure-email-channels/overview.md)Mail-Kanälen - und alles, was davon abhängt ([Nachrichtenversand in Aktion](orchestrated-campaigns/message-delivery-in-action/overview.md), [Begeisterung nach dem Kauf](journeys/post-purchase-excitement/overview.md) und [AJO Brands](content-authoring-with-ai/overview.md)) - ist eine Subdomain erforderlich, die zum Senden von E-Mails an Adobe delegiert wurde. Wenn Sie noch keine Domain haben, registrieren Sie eine bei einer Domain-Registrierungsstelle (z. B. Namecheap). Um dann eine Subdomain davon (z. B. `email.yourdomain.com`) an Adobe zu delegieren, folgen Sie den Anweisungen [Subdomain-Delegierung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) von Adobe.
+Für das [Konfigurieren von E](data-stores/configure-email-channels/overview.md)Mail-Kanälen - und alles, was davon abhängt ([Nachrichtenversand in Aktion](orchestrated-campaigns/message-delivery-in-action/overview.md), [Begeisterung nach dem Kauf](journeys/post-purchase-excitement/overview.md) und [AJO Brands](content-authoring-with-ai/overview.md)) - ist eine Subdomain erforderlich, die zum Senden von E-Mails an Adobe delegiert wurde. Wenn Sie noch keine Domain haben, registrieren Sie eine bei einer Domain-Registrierungsstelle (z. B. Namecheap). Um dann eine Subdomain davon (z. B. `email.yourdomain.com`) an Adobe zu delegieren, folgen Sie den Anweisungen [Subdomain-Delegierung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) von Adobe.
 
 >[!NOTE]
 >

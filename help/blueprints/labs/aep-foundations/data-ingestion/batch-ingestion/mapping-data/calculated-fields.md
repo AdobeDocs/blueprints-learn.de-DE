@@ -4,13 +4,14 @@ description: Erstellen Sie berechnete Feldausdrücke, um fehlende SMS-Einverstä
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 
 # Berechnete Felder
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Das Feld „sms_optIn“ ist ein Pflichtfeld im Kundenkontenschema. Das Problem ist, dass das Feld „sms\_optIn“ in unserer Streaming-Quelle *null*-Werte senden kann, sodass ein berechnetes Feld erforderlich ist, um dies zu beheben. Andernfalls werden diese Datensätze bei der Aufnahme übersprungen, was einen Verlust darstellt.
 
-![Das Feld consents.marketing.sms.val , wie im Feld &#x200B;](assets/calculated-fields-consents-marketing-sms-val-schema-field.png ".consents.marketing.sms.val gezeigt, wie im Schema dargestellt")
+![Das Feld consents.marketing.sms.val , wie im Feld ](assets/calculated-fields-consents-marketing-sms-val-schema-field.png ".consents.marketing.sms.val gezeigt, wie im Schema dargestellt")
 
 
 

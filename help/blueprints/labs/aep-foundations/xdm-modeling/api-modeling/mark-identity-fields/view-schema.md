@@ -4,13 +4,14 @@ description: Zeigen Sie die Identitätsdeskriptoren eines Schemas über die Benu
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
-
 ---
-
 
 # Schema anzeigen
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 1. Suchen nach dem Schema **Kundenkonto**
 1. Beachten Sie, dass die Identitäten zum Schema hinzugefügt werden
 
-![Ansicht zum Durchsuchen von Schemata mit Identitäten, die zur Ansicht &#x200B;](assets/view-schema-schema-ui-with-identities.png " Schema-Benutzeroberfläche mit Identitäten hinzugefügt wurden")
+![Ansicht zum Durchsuchen von Schemata mit Identitäten, die zur Ansicht ](assets/view-schema-schema-ui-with-identities.png " Schema-Benutzeroberfläche mit Identitäten hinzugefügt wurden")
 
 
 ## Über die API anzeigen
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 1. Ersetzen Sie in der URL der Anfrage die `<replace me>` durch die `$meta:altId`, die Sie im vorherigen Abschnitt (Schema erstellen) bis zum Ende des Aufrufs gespeichert haben, wie unten dargestellt
 
-   ![Endgültige Schritt-5-Anfrage mit Alt-ID, die an die URL/Endgültige &#x200B;](assets/view-schema-final-step-5-request.png "-5-Anfrage angehängt ist")
+   ![Endgültige Schritt-5-Anfrage mit Alt-ID, die an die URL/Endgültige ](assets/view-schema-final-step-5-request.png "-5-Anfrage angehängt ist")
 
 
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 Es sollte jetzt eine `200 OK` Antwort angezeigt werden und Sie sollten das von Ihnen erstellte Schema durch die Linse der XDM-JSON-Struktur durchsuchen können
 
-![Hauptteil der API-Antwort, die die XDM-JSON-Struktur &#x200B;](assets/view-schema-body-of-the-api-response.png " Schemas der API-Antwort anzeigt")
+![Hauptteil der API-Antwort, die die XDM-JSON-Struktur ](assets/view-schema-body-of-the-api-response.png " Schemas der API-Antwort anzeigt")
 
 
 
@@ -56,11 +57,11 @@ Navigieren Sie weiter unten in der API-Antwort, um die von Ihnen erstellten Iden
 
 Beachten Sie die **Accept**-Kopfzeile, die in der Anfrage verwendet wird. Dieser Header teilt der XDM-Schemaregistrierung mit, dass sie die nicht aufgelösten `$refs` des Schemas (d. h. die minimal erforderlichen Informationen anzeigen) zusammen mit den zugehörigen Deskriptoren in der API-Antwort zurückgeben soll.  Adobe bietet weitere **Accept**-Kopfzeilen, mit denen Sie Details zum Schema erhalten können.
 
-![Accept-Header-Feld in Schritt 3 Abrufen des Kundenkontenschemas - &#x200B;](assets/view-schema-accept-header.png " 3 - Abrufen des Kundenkontenschemas - Accept-Header")
+![Accept-Header-Feld in Schritt 3 Abrufen des Kundenkontenschemas - ](assets/view-schema-accept-header.png " 3 - Abrufen des Kundenkontenschemas - Accept-Header")
 
 >[!NOTE]
 >
->Weitere Informationen zu den verschiedenen Accept-Kopfzeilen finden Sie hier -> [Experience League Schema API-Endpunkt](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=de#lookup)
+>Weitere Informationen zu den verschiedenen Accept-Kopfzeilen finden Sie hier -> [Experience League Schema API-Endpunkt](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 

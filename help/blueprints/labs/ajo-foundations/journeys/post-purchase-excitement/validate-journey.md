@@ -4,7 +4,10 @@ description: Überprüfen Sie die Journey-Ausführung anhand der Ein- und Aussti
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -117,7 +120,7 @@ Die Ergebnisse umfassen mehr als 100 Spalten und geben Ihnen einen Eindruck davo
 
 >[!NOTE]
 >
->Sie sind neugierig, was die einzelnen Felder bedeuten, schauen Sie sich das AJO-Schemawörterbuch an und ändern Sie die Dropdownliste in das Journey-Schrittereignisschema: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+>Sie sind neugierig, was die einzelnen Felder bedeuten, schauen Sie sich das AJO-Schemawörterbuch an und ändern Sie die Dropdownliste in das Journey-Schrittereignisschema: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
 
 
 

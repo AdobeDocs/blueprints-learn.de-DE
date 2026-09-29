@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie im Echtzeit-Kundenprofil-Hub nach einem Profi
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 
 # Profil im Hub validieren
 
@@ -74,7 +75,7 @@ Suchen Sie in Adobe Experience Platform das Profil, das Sie gerade von dem Ereig
 >
 >**Wie liest man segmentMembership?**
 >
->[https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** Dies ist der Zuordnungsschlüssel für verschiedene Arten von Zielgruppen, die von AEP unterstützt werden.  Der UPS-Schlüssel enthält Zielgruppen , die vom Regel-Builder erstellt wurden.  Andere Zielgruppen sind in anderen Schlüsseln enthalten (z. B. AAM).
 >

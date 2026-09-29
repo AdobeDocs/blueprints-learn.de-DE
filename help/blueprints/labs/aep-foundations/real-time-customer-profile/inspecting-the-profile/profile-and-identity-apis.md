@@ -4,7 +4,10 @@ description: Verwenden Sie die Profilentitäts-API und die Identity Service-Clus
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -42,7 +45,7 @@ Diesen Parameter bei jeder Anfrage senden. Der Wert hängt davon ab, ob Sie die 
 
 ### Identifizieren der zu suchenden Entität
 
-Die meisten Anfragen verwenden `entityId` und `entityIdNS`, um die Entität anhand eines bekannten Identitätswerts zu identifizieren - z. B. anhand einer E-Mail-Adresse, einer CRM-ID oder einer Treueprogramm-ID -, anstatt die XID bereits zu kennen. Eine XID ist eine base64-kodierte Kennung, die Identity Service intern generiert und zuweist, um eine Identität darzustellen, wobei sein Namespace und ID-Wert in einem einzigen kompakten Token konsolidiert werden (weitere Informationen finden Sie unter [Native &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=de)):
+Die meisten Anfragen verwenden `entityId` und `entityIdNS`, um die Entität anhand eines bekannten Identitätswerts zu identifizieren - z. B. anhand einer E-Mail-Adresse, einer CRM-ID oder einer Treueprogramm-ID -, anstatt die XID bereits zu kennen. Eine XID ist eine base64-kodierte Kennung, die Identity Service intern generiert und zuweist, um eine Identität darzustellen, wobei sein Namespace und ID-Wert in einem einzigen kompakten Token konsolidiert werden (weitere Informationen finden Sie unter [Native ](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=de)):
 
 | Parameter | Typ | Beschreibung | Beispiel |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -81,7 +84,7 @@ Um ein Gefühl für die Entity Lookup-API zu erhalten, verwenden Sie das Depeche
 1. Klicken Sie auf die Anfrage **Entitätssuche (Attribute)**, um sie zu öffnen
 1. Führen Sie den Aufruf durch Klicken auf die Schaltfläche **Senden** aus
 
-   ![Postman-Anfragebereich für den Aufruf der Entitätssuche (Attribute) vor der API der &#x200B;](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "-Profilentitätssuche (Attribute)")
+   ![Postman-Anfragebereich für den Aufruf der Entitätssuche (Attribute) vor der API der ](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "-Profilentitätssuche (Attribute)")
 
    Eine erfolgreiche Anfrage sollte mit einem `200 OK` antworten, und Sie sollten ein Ergebnis sehen, das alle Attribute für das Depeche Mode-Profil enthält.
 
@@ -124,7 +127,7 @@ Eine erfolgreiche Anfrage sollte mit einem `200 OK` antworten, und Sie sollten e
 
 
 
-![200 OK-Antwort mit allen Ereignissen für die API-Antwort &#x200B;](assets/profile-and-identity-apis-successful-events-api-response.png "Profilentitätssuche (Ereignisse) im Depeche-Modus")
+![200 OK-Antwort mit allen Ereignissen für die API-Antwort ](assets/profile-and-identity-apis-successful-events-api-response.png "Profilentitätssuche (Ereignisse) im Depeche-Modus")
 
 Beim Nachschlagen von Profilattributen verfügt die Entitäts-API über noch mehr Abfrageparameter, die ändern, was als Antwort zurückgegeben wird.
 
@@ -163,7 +166,7 @@ Probieren Sie es selbst:
 
 
 
-![Postman-Anfragebereich für den Aufruf „Verknüpfte Identitäten auflisten“ vor dem Senden/Auflisten &#x200B;](assets/profile-and-identity-apis-list-linked-identities-request.png " API für verknüpfte Identitäten")
+![Postman-Anfragebereich für den Aufruf „Verknüpfte Identitäten auflisten“ vor dem Senden/Auflisten ](assets/profile-and-identity-apis-list-linked-identities-request.png " API für verknüpfte Identitäten")
 
 Eine erfolgreiche Antwort sollte wie im Folgenden aussehen
 

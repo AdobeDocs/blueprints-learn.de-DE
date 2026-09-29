@@ -2,7 +2,10 @@
 title: Journey Optimizer - Blueprint für Messaging von Drittanbietern
 description: Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanbietern verwendet werden kann, um personalisierte Nachrichten zu senden.
 solution: Journey Optimizer
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 58%
@@ -35,9 +38,9 @@ Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanb
 
 ## Leitlinien
 
-[Produkt-Link zu Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=de)
+[Produkt-Link zu Journey Optimizer-Leitplanken](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=de)
+[Leitplanken und Leitlinien für End-to-End-Latenzen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -47,7 +50,7 @@ Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanb
 
 #### Schema/Datensätze
 
-1. [Konfigurieren von &#x200B;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=de) in Experience Platform auf der Grundlage von Kundendaten.
+1. [Konfigurieren von ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=de) in Experience Platform auf der Grundlage von Kundendaten.
 1. [Erstellen Sie Datensätze](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=de) in Experience Platform für die aufzunehmenden Daten.
 1. [Fügen Sie dem Datensatz in Experience Platform Datennutzungskennzeichnungen hinzu](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=de), um ordnungsgemäße Governance zu gewährleisten.
 1. [Erstellen Sie Richtlinien](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=de), um die Governance an den Zielen umzusetzen.
@@ -88,6 +91,6 @@ Veranschaulicht, wie Adobe Journey Optimizer mit Messaging-Systemen von Drittanb
 
 * [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 * [Dokumentation zu Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
-* [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de)
-* [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=de)
+* [Dokumentation zu Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
+* [Dokumentation zu Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 * [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html)

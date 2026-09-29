@@ -4,13 +4,14 @@ description: Wenden Sie die Denormalisierungsregeln der LID-Methodik an, um Brid
 doc-type: article
 solution: Experience Platform
 exl-id: c98c9f58-03bc-4b28-becb-f84f3de04300
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
-
 ---
-
 
 # denormalisieren
 
@@ -41,7 +42,7 @@ Denken Sie beim Erstellen des Datenmodells immer daran, die Anwendungsfälle fü
 - Die Streaming-Segmentierung hat zum Zeitpunkt der Auswertung keinen Zugriff auf Lookup-Tabellen
 - Für die Personalisierung von Inhalten sind nur die Eigenschaften und Segmentzugehörigkeiten eines Profils verfügbar
 
-![Bei der Anwendung der Denormalisierung für Personalisierung berücksichtigte Anwendungsfälle für die Verbindung &#x200B;](assets/denormalize-connection-5g-use-cases.png " 5G")
+![Bei der Anwendung der Denormalisierung für Personalisierung berücksichtigte Anwendungsfälle für die Verbindung ](assets/denormalize-connection-5g-use-cases.png " 5G")
 
 >[!NOTE]
 >
@@ -65,7 +66,7 @@ Denken Sie beim Erstellen des Datenmodells immer daran, die Anwendungsfälle fü
 
 ## Schritt 3: Ausfüllen der Lookup-Tabellen
 
-1. Schreiben Sie die Felder, die wieder denormalisiert werden müssen, aus allen zugehörigen „B **&#x200B;**&quot;- oder &quot;**D**-Tabellen zurück in die Produktsuchtabelle
+1. Schreiben Sie die Felder, die wieder denormalisiert werden müssen, aus allen zugehörigen „B ****&quot;- oder &quot;**D**-Tabellen zurück in die Produktsuchtabelle
 1. Welche zusätzlichen Felder sind erforderlich, um die Streaming-Segmentierung und/oder Personalisierung zu unterstützen, sollten die oben genannten Anwendungsfälle geprüft werden? Fügen Sie diese Felder zur Tabelle hinzu
 
 

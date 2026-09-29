@@ -4,7 +4,10 @@ description: Verwenden Sie Postman, um Erlebnisereignisse für Testprofile zu se
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
@@ -34,7 +37,7 @@ Suchen dieser Profile in AEP
    Suchen Sie die entsprechenden Erlebnisereignisse für jedes Profil in der Postman-Sammlung
 
 1. Öffnen Sie bei Bedarf Postman
-1. Stellen Sie sicher, dass die Umgebungsvariablen &lbrace;0 **EDGE\_REGION** und **DATASTREAM\_CONFIG) weiterhin festgelegt sind.** Wenn sie erneut festgelegt werden müssen, überprüfen Sie die Schritte im Labor „Umgebung und Sammlung importieren“.
+1. Stellen Sie sicher, dass die Umgebungsvariablen {0 **EDGE\_REGION** und **DATASTREAM\_CONFIG) weiterhin festgelegt sind.** Wenn sie erneut festgelegt werden müssen, überprüfen Sie die Schritte im Labor „Umgebung und Sammlung importieren“.
 1. Erweitern Sie den Ordner **Decisioning Lab**. Für jedes Profil werden zwei Erlebnisereignisse angezeigt:
 
 ![Postman Decisioning Lab-Ordner mit zwei Erlebnisereignissen pro Profil](assets/decisioning-and-cbes-in-action-postman-collection-folder.png)
@@ -127,7 +130,7 @@ Beginne mit Bobs Profil.
    >
    >Denken Sie daran, dass in AJO der Tag um Mitternacht GMT zurückgeht. Wenn Sie nach Mitternacht GMT einen weiteren Fetch-Aufruf senden würden, würde stattdessen die Angebotsrückgabe auf der Basisebene angezeigt.
 
-1. Kehren Sie zur Journey Orchestration-Benutzeroberfläche zurück und klicken Sie auf die von Ihnen erstellte Journey mit dem **&#x200B;**&#x200B;iPhone 17 Abbruch Durchsuchen. Da die Journey live und veröffentlicht ist, werden Statistiken angezeigt. Sie sehen, dass 1 Profil auf die Journey zugegriffen hat und sich derzeit im CBE-Knoten befindet.
+1. Kehren Sie zur Journey Orchestration-Benutzeroberfläche zurück und klicken Sie auf die von Ihnen erstellte Journey mit dem **** iPhone 17 Abbruch Durchsuchen. Da die Journey live und veröffentlicht ist, werden Statistiken angezeigt. Sie sehen, dass 1 Profil auf die Journey zugegriffen hat und sich derzeit im CBE-Knoten befindet.
 
 ![Journey-Berichte, die ein Profil zeigen, das sich derzeit im CBE-Knoten befindet](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 

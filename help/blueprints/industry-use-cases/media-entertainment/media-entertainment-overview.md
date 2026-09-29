@@ -3,13 +3,18 @@ title: Anwendungsfälle für Medien und Unterhaltung
 description: Erfahren Sie, wie Medien- und Unterhaltungsunternehmen Adobe Experience Platform verwenden, um die Inhaltssuche zu personalisieren, die Abwanderung von Abonnenten zu reduzieren und die Interaktion mit Zielgruppen zu steigern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 0%
-
 ---
-
 # Anwendungsfälle für Medien und Unterhaltung
 
 Medien- und Unterhaltungsunternehmen verwenden Adobe Experience Platform, um Zielgruppendaten von Streaming-Plattformen, Inhaltsbibliotheken und Abonnentenkonten in einer einzigen Ansicht jedes Viewers oder Listeners zu vereinheitlichen. Diese Grundlage ermöglicht personalisierte Inhaltsfindung, proaktive Abonnementbindung und Interaktionsstrategien, mit denen die Zielgruppen immer wiederkommen und mehr erhalten.
@@ -224,7 +229,7 @@ Personalisierte Premium-Upsell-Kampagnen steigern die Akzeptanz von Premium-Funk
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um die Nutzungsmuster jedes Abonnenten zu bewerten und das relevanteste Premium-Angebot zum richtigen Zeitpunkt auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Einschränkungen für Nutzungsmuster und Eignungsregeln der Premium-Ebene berücksichtigt werden müssen - Einschränkungen, für die eine geregelte Entscheidungslogik erforderlich ist, anstatt nur das Ranking der Affinität mit dem Verhalten zu berücksichtigen.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um die Nutzungsmuster jedes Abonnenten zu bewerten und das relevanteste Premium-Angebot zum richtigen Zeitpunkt auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Einschränkungen für Nutzungsmuster und Eignungsregeln der Premium-Ebene berücksichtigt werden müssen - Einschränkungen, für die eine geregelte Entscheidungslogik erforderlich ist, anstatt nur das Ranking der Affinität mit dem Verhalten zu berücksichtigen.
 
 ### Technische Überlegungen
 

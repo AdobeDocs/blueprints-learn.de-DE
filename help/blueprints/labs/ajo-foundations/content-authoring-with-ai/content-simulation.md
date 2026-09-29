@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie das Simulationstool von Adobe Journey Optimiz
 doc-type: article
 solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
-
 ---
-
 
 # Inhaltsimulation
 
@@ -67,7 +68,7 @@ AJO zeigt beide Varianten basierend auf den hochgeladenen Profilen nebeneinander
 
 - **Alex** → sieht **Variante 1** (Alter über 40)
 
-![Alex-Profil-Rendering-Variante 1 für Kinder über 40 &#x200B;](assets/content-simulation-variant-1-age-above-40.png)
+![Alex-Profil-Rendering-Variante 1 für Kinder über 40 ](assets/content-simulation-variant-1-age-above-40.png)
 
 Wenn Sie nach oben scrollen, sehen Sie auch personalisierte Felder mit dem Namen jetzt, wie Sie unten sehen können.
 
@@ -75,7 +76,7 @@ Wenn Sie nach oben scrollen, sehen Sie auch personalisierte Felder mit dem Namen
 
 - **Jason** → sieht **Variante 2** (Alter unter 40)
 
-![Jason-Profil-Rendering-Variante 2 für Kinder unter 40 &#x200B;](assets/content-simulation-variant-2-age-below-40.png)
+![Jason-Profil-Rendering-Variante 2 für Kinder unter 40 ](assets/content-simulation-variant-2-age-below-40.png)
 
 Mit Jasons vollem Namen auch. Wie cool ist das denn!
 

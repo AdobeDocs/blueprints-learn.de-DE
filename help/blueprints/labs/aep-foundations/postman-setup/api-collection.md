@@ -4,7 +4,10 @@ description: Laden Sie die Postman-API-Sammlung von Bootcamp herunter und import
 doc-type: article
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -29,7 +32,7 @@ Datei herunterladen - [AEP Foundations Bootcamp (Labs).postman_collection.json](
 
 
 
-![Einfügen der URL der API-Sammlungsdatei in das Textfeld „Modal importieren“ von Postman &#x200B;](assets/api-collection-import-modal-paste-url.png "modales Textfeld „Schaltfläche importieren“")
+![Einfügen der URL der API-Sammlungsdatei in das Textfeld „Modal importieren“ von Postman ](assets/api-collection-import-modal-paste-url.png "modales Textfeld „Schaltfläche importieren“")
 
 Jetzt wird in der linken Seitenleiste auf der Registerkarte &quot;`Collections`&quot; eine Sammlung namens &quot;`AEP Foundations Bootcamp`&quot; angezeigt
 

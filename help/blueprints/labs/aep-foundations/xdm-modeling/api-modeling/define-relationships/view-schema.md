@@ -4,13 +4,14 @@ description: Zeigen Sie die Lookup-Beziehung des Kundenkontenschemas zum Plansch
 doc-type: article
 solution: Experience Platform
 exl-id: dae48ef4-f762-4173-8564-c1ad40c0109b
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 
 # Schema anzeigen
 
@@ -45,7 +46,7 @@ Sie sollten jetzt eine `200 OK` Antwort sehen und zum Ende des von Ihnen erstell
 
 
 
-![Beziehungsdeskriptor, der im Kundenkontenschema-JSON-Beziehungsdeskriptor &#x200B;](assets/view-schema-relationship-descriptor.png " ist")
+![Beziehungsdeskriptor, der im Kundenkontenschema-JSON-Beziehungsdeskriptor ](assets/view-schema-relationship-descriptor.png " ist")
 
 
 

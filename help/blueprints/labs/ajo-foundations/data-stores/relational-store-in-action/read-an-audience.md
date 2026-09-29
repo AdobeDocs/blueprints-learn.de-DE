@@ -4,7 +4,10 @@ description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ mit ein
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -106,7 +109,7 @@ Orchestrierte Kampagne verwendet das relationale Schema für alle Aktivitäten. 
 
    ![Menü Zielgruppenbestimmungsaktivitäten mit ausgewählter Aufspaltung](assets/read-an-audience-add-split-activity.png)
 
-6. Erweitern Sie im Detailbereich der Aktivität **Aufspaltung** die erste Aufspaltung namens „Teilmenge **&#x200B;**
+6. Erweitern Sie im Detailbereich der Aktivität **Aufspaltung** die erste Aufspaltung namens „Teilmenge ****
 
    ![Detailbereich der Aufspaltungsaktivität mit erweitertem Segment der Teilmenge](assets/read-an-audience-expand-subset-split.png)
 
@@ -182,4 +185,4 @@ Orchestrierte Kampagne verwendet das relationale Schema für alle Aktivitäten. 
 
 Sie haben jetzt gesehen, wie einfach es ist, eine Kampagne zu erstellen, eine Aktivität „Zielgruppe lesen“ zusammen mit der Dimension „Profilzielgruppe“ durchzuführen, um das relationale Schema zu verwenden. Sie haben die Aufspaltungsaktivität verwendet, um die Zielgruppe basierend auf einer Bedingung aufzuteilen. Schließlich hat der Testmodus dabei geholfen zu verstehen, dass es wichtig ist, die Datenkonsistenz zwischen dem Profil und dem relationalen Schema zu gewährleisten.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) wenn Sie Interesse haben.

@@ -3,13 +3,18 @@ title: Anwendungsfälle für Reisen und Gastgewerbe
 description: Erfahren Sie, wie Reise- und Gastgewerbeunternehmen Adobe Experience Platform verwenden, um Buchungen zu personalisieren, abgebrochene Reservierungen wiederherzustellen und die Kundentreue der Gäste zu fördern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3744'
 ht-degree: 0%
-
 ---
-
 # Anwendungsfälle für Reisen und Gastgewerbe
 
 Reise- und Gastgewerbeunternehmen verwenden Adobe Experience Platform, um Gastdaten aus Buchungs-Engines, Treueprogrammen, Immobilienverwaltungssystemen und digitalen Touchpoints in einer zentralen Ansicht für jeden Reisenden zusammenzuführen. Diese einheitliche Grundlage ermöglicht personalisierte Erlebnisse, die zu Buchungen inspirieren, verlassene Reservierungen wiederherstellen und die Art von Gastloyalität aufbauen, die zu wiederholten Besuchen führt.
@@ -144,7 +149,7 @@ Mit Exitintent-Modalen mit personalisierten Reiseangeboten werden aussagekräfti
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl die Eignung für die Treuestufe und geschäftliche Einschränkungen im Zusammenhang mit der Frequenzlimitierung berücksichtigt werden müssen - Einschränkungen, für die eine gesteuerte Entscheidungslogik anstelle einer einfachen Verhaltensempfehlung oder einer einzelnen ausgelösten Nachricht erforderlich ist.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz nutzt eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und basierend auf ihrem Sitzungsverhalten und ihren Profildaten das für den abreisenden Besucher relevanteste Angebot auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl die Eignung für die Treuestufe und geschäftliche Einschränkungen im Zusammenhang mit der Frequenzlimitierung berücksichtigt werden müssen - Einschränkungen, für die eine gesteuerte Entscheidungslogik anstelle einer einfachen Verhaltensempfehlung oder einer einzelnen ausgelösten Nachricht erforderlich ist.
 
 ### Technische Überlegungen
 
@@ -204,7 +209,7 @@ Saisonale personalisierte Kampagnen steigern die saisonale Buchungsumrechnung un
 
 ### Implementieren
 
-Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden. Dies ist das richtige Muster, wenn die Zielgruppe groß ist und durch den saisonalen Buchungsverlauf vordefiniert, der Versandzeitpunkt auf der Grundlage saisonaler Planungsfenster und nicht ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
+Verwenden Sie das [Aktivierungsmuster für ausgehende Nachrichten ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) Batch. Dieser Ansatz liefert personalisierte saisonale Kampagnennachrichten an ein großes Publikum auf geplanter Basis, wobei die Kunden nach ihren saisonalen Reisemustern und -präferenzen segmentiert werden. Dies ist das richtige Muster, wenn die Zielgruppe groß ist und durch den saisonalen Buchungsverlauf vordefiniert, der Versandzeitpunkt auf der Grundlage saisonaler Planungsfenster und nicht ereignisgesteuert geplant wird und keine Verzweigung oder Entscheidung in Echtzeit erforderlich ist.
 
 ### Technische Überlegungen
 

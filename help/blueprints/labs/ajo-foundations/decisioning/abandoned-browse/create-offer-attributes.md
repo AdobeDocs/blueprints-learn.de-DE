@@ -4,13 +4,14 @@ description: Fügen Sie benutzerdefinierte Geräteattribute wie Marke, Modell un
 doc-type: article
 solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 
 # Angebotsattribute erstellen
 
@@ -23,7 +24,7 @@ In diesem Abschnitt fügen Sie dem Standard-XDM-Schema des Angebots benutzerdefi
 1. Erweitern Sie bei Bedarf das **Decisioning**-Menüelement in der linken Leiste und klicken Sie auf **Catalogs.**
 2. Standardmäßig wird die Seite „Angebote“ angezeigt. Klicken Sie auf **Schema bearbeiten** in der oberen rechten Ecke.
 
-   ![Schaltfläche Schema bearbeiten auf der Seite Angebotskatalog &#x200B;](assets/create-offer-attributes-edit-schema-button.png)
+   ![Schaltfläche Schema bearbeiten auf der Seite Angebotskatalog ](assets/create-offer-attributes-edit-schema-button.png)
 
    >[!TIP]
    >

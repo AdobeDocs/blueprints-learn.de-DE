@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie die Grundeinstellungen einer neuen orchestrie
 doc-type: article
 solution: Experience Platform
 exl-id: 5602b0ba-95e2-455f-affd-081df540c999
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 4%
-
 ---
-
 
 # Erstellen einer Kampagne
 
@@ -22,7 +23,7 @@ In den nächsten Schritten beginnen Sie mit der Erstellung einer orchestrierten 
 
 1. Klicken Sie in der linken Seitenleiste auf **Kampagnen**
 
-   ![Klicken Sie in der linken Seitenleiste auf Kampagnen &#x200B;](assets/create-a-campaign-click-campaigns.png)
+   ![Klicken Sie in der linken Seitenleiste auf Kampagnen ](assets/create-a-campaign-click-campaigns.png)
 
 2. Klicken Sie auf **Kampagne erstellen**
 

@@ -3,13 +3,18 @@ title: Anwendungsfälle für den Einzelhandel
 description: Erfahren Sie, wie Einzelhandelsunternehmen Adobe Experience Platform verwenden, um Einkaufserlebnisse zu personalisieren, Transaktionsabbrüche zu beheben und die Kundentreue zu steigern.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # Anwendungsfälle für den Einzelhandel
 
 Einzelhandelsunternehmen verwenden Adobe Experience Platform, um Kundendaten aus Online-Shops, physischen Standorten und Treueprogrammen in einer einzigen Ansicht jedes Kunden zu vereinheitlichen. Diese Grundlage ermöglicht personalisierte Einkaufserlebnisse, zeitnahe Kontaktaufnahme, die entgangene Umsätze wieder hereinbringt, und Treuestrategien, die dafür sorgen, dass die Kunden immer wieder zurückkommen.
@@ -63,7 +68,7 @@ Gut ausgeführte Crosssell- und Upsell-Strategien erhöhen den durchschnittliche
 
 ### Implementieren
 
-Verwenden Sie das Muster {0[&#128279;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. Dieser Ansatz verwendet eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und die beste Crosssell- oder Upsell-Option für jeden Kunden und Kontext auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Gewinnspannen, Lagerverfügbarkeit und Produktbeziehungsregeln berücksichtigt werden müssen - geschäftliche Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der verhaltensbezogenen Affinität zu erstellen.
+Verwenden Sie das Muster {0](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)Offer Decisioning}. [Dieser Ansatz verwendet eine zentralisierte Entscheidungslogik, um alle verfügbaren Angebote zu bewerten und die beste Crosssell- oder Upsell-Option für jeden Kunden und Kontext auszuwählen. Dies ist das richtige Muster, wenn bei der Angebotsauswahl Gewinnspannen, Lagerverfügbarkeit und Produktbeziehungsregeln berücksichtigt werden müssen - geschäftliche Einschränkungen, die eine geregelte Entscheidungslogik erfordern, anstatt nur eine Rangliste der verhaltensbezogenen Affinität zu erstellen.
 
 ### Technische Überlegungen
 

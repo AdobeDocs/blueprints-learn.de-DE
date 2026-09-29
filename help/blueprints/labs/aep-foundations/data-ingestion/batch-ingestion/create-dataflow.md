@@ -4,13 +4,14 @@ description: Konfigurieren Sie einen Batch-Quelldatenfluss mit einem neuen Daten
 doc-type: article
 solution: Experience Platform
 exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
-
 ---
-
 
 # Datenfluss erstellen
 
@@ -53,7 +54,7 @@ ht-degree: 0%
 ## Beispieldatei hochladen
 
 1. Laden Sie die Beispieldateien aus dem [Beispieldateien](../sample-files.md) zur Verwendung mit diesem Labor herunter
-1. Ziehen Sie die Datei „Lab\_&#x200B;**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Benutzeroberfläche hoch.  Danach sollte der Bildschirm wie folgt aussehen.
+1. Ziehen Sie die Datei „Lab\_**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Benutzeroberfläche hoch.  Danach sollte der Bildschirm wie folgt aussehen.
 
    ![Vorschau der hochgeladenen CSV-Datei des Kundenkontos im Quelldatenbildschirm](assets/create-dataflow-uploaded-csv-preview.png "Zugriff auf die Azure Storage Explorer-Dateien in Adobe Experience Platform")
 

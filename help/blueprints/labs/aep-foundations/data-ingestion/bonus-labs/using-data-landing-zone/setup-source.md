@@ -4,13 +4,14 @@ description: Laden Sie eine Beispieldatei für das Kundenkonto in die Data Landi
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
-
 ---
-
 
 # Einrichten der Quelle
 
@@ -19,7 +20,7 @@ ht-degree: 0%
 Sie müssen eine Beispieldatendatei über den Azure Storage Explorer in Ihre Data Landing Zone hochladen, damit Sie sie im Labor verwenden können.  Gehen Sie dazu wie folgt vor:
 
 1. Herunterladen der [Beispieldateien](../../sample-files.md)
-1. Ziehen Sie die Datei „Lab\_&#x200B;**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Data Landing Zone hoch, die Sie im vorherigen Schritt gespeichert haben.
+1. Ziehen Sie die Datei „Lab\_**\_Account.csv“ per Drag-and-Drop**/oder laden Sie sie in die Data Landing Zone hoch, die Sie im vorherigen Schritt gespeichert haben.
 
 Nach dem Hochladen sollte Ihr Bildschirm wie im folgenden Screenshot aussehen.
 
@@ -58,7 +59,7 @@ Nach dem Hochladen sollte Ihr Bildschirm wie im folgenden Screenshot aussehen.
 
 
 
-   ![&#x200B; Felder „ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ werden in der Datei „PREVIEW](assets/setup-source-account-create-date-account-end-date.png "ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ angezeigt")
+   ![ Felder „ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ werden in der Datei „PREVIEW](assets/setup-source-account-create-date-account-end-date.png "ACCOUNT_CREATE_DATE“ und „ACCOUNT_END_DATE“ angezeigt")
 
    >[!NOTE]
    >

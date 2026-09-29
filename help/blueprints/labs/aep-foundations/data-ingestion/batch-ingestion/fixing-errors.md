@@ -4,13 +4,14 @@ description: Korrigieren Sie einen berechneten Feldausdruck für einen Fehler be
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 
 # Beheben von Fehlern
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 Nach einigen Minuten sollte der Datenfluss ausgeführt werden und Sie sollten Erfolg sehen!
 
-![Datenflussausführungsstatus, der eine erfolgreiche Aufnahme &#x200B;](assets/fixing-errors-successful-customer-account-ingestion.png " Kundenkontos anzeigt")
+![Datenflussausführungsstatus, der eine erfolgreiche Aufnahme ](assets/fixing-errors-successful-customer-account-ingestion.png " Kundenkontos anzeigt")
 
 
 
@@ -53,7 +54,7 @@ Nach einigen Minuten sollte der Datenfluss ausgeführt werden und Sie sollten Er
    - **Fehlgeschlagene Datensätze:** Hier sollte eine 0 angezeigt werden. Dies stellt die Gesamtzahl der Aufnahme- und DCVS-Fehler dar. Die MAPPER-Warnungen werden ausgeschlossen.
    - **Aufnahmegeschwindigkeit:** Dies ist das Verhältnis zwischen den aufgenommenen und den empfangenen Datensätzen. 100 % der eingegangenen Datensätze wurden erfolgreich verarbeitet
 
-![Quellenkarte im Überwachungsbildschirm mit Metriken zur Aufnahme von Datensätzen, die empfangen, aufgenommen &#x200B;](assets/fixing-errors-sources-ingestion-metrics.png " fehlgeschlagen wurden")
+![Quellenkarte im Überwachungsbildschirm mit Metriken zur Aufnahme von Datensätzen, die empfangen, aufgenommen ](assets/fixing-errors-sources-ingestion-metrics.png " fehlgeschlagen wurden")
 
 >[!NOTE]
 >

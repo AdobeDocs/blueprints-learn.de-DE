@@ -4,16 +4,21 @@ description: Erfahren Sie mehr über die wichtigsten Geschäftsziele, die Untern
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: ebebdf85-3ca0-4d8d-a14e-3808dfe43382
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
-
 ---
-
 # Wichtige Geschäftsziele
 
-Die wichtigsten Geschäftsziele definieren die strategischen Ergebnisse, die Unternehmen durch ihre Initiativen für digitale Erlebnisse erreichen möchten. Jedes Ziel ist einem oder mehreren Anwendungsfallmustern zugeordnet[&#x200B; in &#x200B;](/help/blueprints/use-case-patterns/overview.md) beschrieben wird, wie Adobe Experience Platform und Anwendungen implementiert werden, um diese Ergebnisse zu erzielen.
+Die wichtigsten Geschäftsziele definieren die strategischen Ergebnisse, die Unternehmen durch ihre Initiativen für digitale Erlebnisse erreichen möchten. Jedes Ziel ist einem oder mehreren Anwendungsfallmustern zugeordnet[ in ](/help/blueprints/use-case-patterns/overview.md) beschrieben wird, wie Adobe Experience Platform und Anwendungen implementiert werden, um diese Ergebnisse zu erzielen.
 
 Verwenden Sie die folgenden Tabellen, um die für Ihr Unternehmen wichtigsten Geschäftsziele zu identifizieren, und folgen Sie dann den Links, um zu erfahren, welche Anwendungsfallmuster, KPIs und Implementierungsansätze die einzelnen Ziele unterstützen.
 
@@ -68,7 +73,7 @@ Die folgenden Ziele konzentrieren sich auf die Verbesserung von Messung, Reporti
 | --- | --- | --- |
 | [Verbesserung von Analyse und Reporting](analytics-insights/improve-analytics-reporting.md) | Verbessern Sie die Reporting-Funktionen für schnellere, umsetzbarere Marketing-Einblicke durch einheitliche Dashboards und Self-Service-Tools. | Effizienz, Produktivität |
 | [Datengestützte Entscheidungsfindung aktivieren](analytics-insights/enable-data-driven-decision-making.md) | Ermöglichen Sie Teams durch Self-Service-Analysen, Echtzeit-Kundeneinblicke und KI-gestützte Prognosen eine Strategie. | Effizienz, Produktivität |
-| [Marketing-Attribution &#x200B;](analytics-insights/improve-marketing-attribution.md) | Die Auswirkungen von Marketing-Touchpoints, Kanälen und Kampagnen auf Konversions- und Umsatzergebnisse genau messen. | Effizienz, inkrementeller Umsatz |
+| [Marketing-Attribution ](analytics-insights/improve-marketing-attribution.md) | Die Auswirkungen von Marketing-Touchpoints, Kanälen und Kampagnen auf Konversions- und Umsatzergebnisse genau messen. | Effizienz, inkrementeller Umsatz |
 
 ## Qualifizierung und Vertrieb (B2B)
 

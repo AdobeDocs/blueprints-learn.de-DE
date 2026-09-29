@@ -4,7 +4,10 @@ description: Erfahren Sie, wie Sie einen Twilio-basierten SMS-Kanal und seine Au
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -41,7 +44,7 @@ Erstellen Sie zunächst den API-Connector, den AJO zum Senden ausgehender SMS-An
 
 >[!NOTE]
 >
->Sie benötigen ein kostenloses Twilio-Testkonto mit einer verifizierten Telefonnummer, bevor Sie mit diesem Schritt beginnen. Melden Sie sich bei [twilio.com/try-twilio](https://www.twilio.com/try-twilio) an und suchen Sie dann Ihre Konto-SID und Ihr Authentifizierungs-Token im Twilio Console-Dashboard. Eine ausführliche Anleitung finden Sie [&#x200B; Twilio-Handbuch &#x200B;](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) Erste Schritte .
+>Sie benötigen ein kostenloses Twilio-Testkonto mit einer verifizierten Telefonnummer, bevor Sie mit diesem Schritt beginnen. Melden Sie sich bei [twilio.com/try-twilio](https://www.twilio.com/try-twilio) an und suchen Sie dann Ihre Konto-SID und Ihr Authentifizierungs-Token im Twilio Console-Dashboard. Eine ausführliche Anleitung finden Sie [ Twilio-Handbuch ](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) Erste Schritte .
 
 ![Felder mit den SMS-API-Anmeldeinformationen für den Twilio-Anbieter](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -165,4 +168,4 @@ Bei Auswahl von Kanal als mobile Nachricht wird ein neuer Abschnitt mit dem Name
 
 Sie haben jetzt gesehen, wie Sie einen SMS-Kanal erfolgreich konfigurieren können.  Beachten Sie, dass es sich bei dieser Konfiguration um eine API-basierte SMS handelt. Je nach Anbieter können sie daher alternative Authentifizierungsmethoden verwenden.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) wenn Sie Interesse haben.

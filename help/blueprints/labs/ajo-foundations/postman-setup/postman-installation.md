@@ -4,13 +4,14 @@ description: Installieren Sie Postman und machen Sie sich mit seinen Sammlungen,
 doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
-
 ---
-
 
 # Postman-Installation
 
@@ -40,7 +41,7 @@ Wenn Sie *bereits mit Postman vertraut* und es installiert haben, waren Sie wahr
 
 Öffnen Sie Postman und machen Sie sich schnell mit einigen Bereichen des Programms vertraut. Um mit Experience Platform arbeiten zu können, müssen wir uns wirklich nur auf einige Schlüsselbereiche der Anwendung konzentrieren.
 
-![Übersicht über die Postman-Benutzeroberfläche mit Seitenleiste, Kopfzeile und Hauptarbeitsbereich mit der Bezeichnung &#x200B;](assets/postman-installation-interface-overview.png "Postman-Benutzeroberfläche")
+![Übersicht über die Postman-Benutzeroberfläche mit Seitenleiste, Kopfzeile und Hauptarbeitsbereich mit der Bezeichnung ](assets/postman-installation-interface-overview.png "Postman-Benutzeroberfläche")
 
 ## Randleiste
 

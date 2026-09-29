@@ -4,7 +4,10 @@ description: Erfahren Sie, wie Sie einen E-Mail-Kanal mit dem Attribut personalE
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 5%
@@ -48,13 +51,13 @@ Wählen Sie aus dem **Subdomain**-Dropdown **email.dep-labs.com**
 
 >[!NOTE]
 >
->Wenn Sie zum Selbststudium bereit sind und keine vorab bereitgestellte Subdomain haben, wählen Sie hier Ihre eigene Subdomain aus, die an Adobe delegiert wurde, anstatt `email.dep-labs.com`. Informationen [&#x200B; Delegieren einer &#x200B;](../../setup.md) finden Sie unter „Setup“.
+>Wenn Sie zum Selbststudium bereit sind und keine vorab bereitgestellte Subdomain haben, wählen Sie hier Ihre eigene Subdomain aus, die an Adobe delegiert wurde, anstatt `email.dep-labs.com`. Informationen [ Delegieren einer ](../../setup.md) finden Sie unter „Setup“.
 
 ## Konfigurieren von IP-Pool-Details
 
 Wählen Sie aus der Dropdown **Liste** IP-Pool“ **Marketing**
 
-![Dropdown-Liste „IP-Pool“ mit &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png " Details zum Marketing-IP-Pool")
+![Dropdown-Liste „IP-Pool“ mit ](assets/configure-for-profile-select-marketing-ip-pool.png " Details zum Marketing-IP-Pool")
 
 ## Abmeldeliste konfigurieren
 

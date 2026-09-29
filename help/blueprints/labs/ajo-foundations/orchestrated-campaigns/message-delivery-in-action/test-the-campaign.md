@@ -4,7 +4,10 @@ description: Erfahren Sie, wie Sie eine orchestrierte Kampagne im Testmodus ausf
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -108,4 +111,4 @@ Um den **Testmodus) für** Kampagne zu stoppen, klicken Sie auf die Schaltfläch
 
 Sie haben nun gesehen, wie Sie die erstellte Kampagne testen können, um den Fluss und das Verhalten zu verstehen. Hier wurden die Feinheiten der Verwendung der verschiedenen Einstellungen für die E-Mail-Kanal-Konfiguration während der Ausführung des Testflusses gut verstanden.
 
-Weitere Informationen zum Testmodus der Kampagne [&#x200B; Sie (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) wenn Sie Interesse haben.
+Weitere Informationen zum Testmodus der Kampagne [ Sie (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) wenn Sie Interesse haben.

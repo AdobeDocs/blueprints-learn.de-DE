@@ -4,7 +4,10 @@ description: Installieren und konfigurieren Sie Azure Storage Explorer mit einer
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -55,7 +58,7 @@ Wenn Sie Azure Storage Explorer nicht heruntergeladen haben, tun Sie dies jetzt,
    - Suchen Sie als Nächstes die Karte **Data Landing Zone** .
    - Klicken Sie auf die Karte Data Landing Zone und dann auf **Anmeldedaten anzeigen** in der rechten Leiste
 
-   ![Quellkarte der Data Landing Zone mit der Option Anmeldedaten anzeigen in der Source-Karte der &#x200B;](assets/overview-data-landing-zone-view-credentials.png " Data Landing Zone von Adobe Experience PlatformAccess in Adobe Experience Platform")
+   ![Quellkarte der Data Landing Zone mit der Option Anmeldedaten anzeigen in der Source-Karte der ](assets/overview-data-landing-zone-view-credentials.png " Data Landing Zone von Adobe Experience PlatformAccess in Adobe Experience Platform")
 
 
 

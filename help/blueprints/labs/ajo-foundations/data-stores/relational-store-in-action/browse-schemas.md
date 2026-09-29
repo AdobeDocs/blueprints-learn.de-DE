@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie relationale Schemata durchsuchen und Entität
 doc-type: article
 solution: Experience Platform
 exl-id: ac0e6743-4a83-4a8b-9bc6-f012b636312e
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 
 # Durchsuchen von Schemata
 
@@ -69,4 +70,4 @@ Gehen Sie folgendermaßen vor:
 
 Sie haben jetzt gesehen, wie einfach die Navigation in der Benutzeroberfläche für Schemas und Beziehungen ist.  Sie können bestimmte Schemata auswählen und zu den Beziehungen navigieren, um die Daten in der Kampagnenorchestrierung besser zu verstehen und zu verwenden.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/data-management/get-started-schemas) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas) wenn Sie Interesse haben.

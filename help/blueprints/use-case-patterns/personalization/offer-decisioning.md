@@ -3,13 +3,16 @@ title: Offer Decisioning
 description: Erfahren Sie, wie Sie mit zentralisierter Entscheidungslogik das nächstbeste Angebot oder den nächstbesten Inhalt für ein Profil kanalübergreifend auswählen können.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 8fd511b3-0200-41bf-aff1-e3f2a00a578e
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1707'
 ht-degree: 5%
-
 ---
-
 # Offer Decisioning
 
 In diesem Handbuch wird das Anwendungsfallmuster für Offer Decisioning beschrieben, das mithilfe von [!DNL Adobe Journey Optimizer] (AJO) Decisioning und [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) eine zentralisierte Angebotsauswahllogik implementiert, die kanalübergreifend das nächstbeste Angebot für jedes Kundenprofil bestimmt. Er wurde für Lösungsarchitekten, Marketing-Techniker und Implementierungstechniker entwickelt, die verstehen müssen, was dieses Muster bewirkt, welche Geschäftsziele es unterstützt, welche taktischen Anwendungsfälle es ermöglicht und welche Adobe-Anwendungen beteiligt sind.
@@ -46,7 +49,7 @@ Passen Sie Inhalte, Angebote und Nachrichten an individuelle Voreinstellungen, V
 Werben Sie für ergänzende und Premium-Produkte oder -Services für bestehende Kunden auf der Grundlage des Verhaltens und der Kaufhistorie.
 **KPIs:** Upsell/Crosssell %, Inkrementeller Umsatz, Kundenlebenszeitwert
 
-**[Steigerung der Kundentreue und des Lebenszeitwerts](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
+**[Steigerung der Kundentreue und des Werts während der gesamten Lebensdauer](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 Vertiefung der Kundenbeziehungen und Maximierung des langfristigen Nutzens durch Treueprogramme, Prämien und personalisierte Interaktion.
 **KPIs:** Kundenlebenszeitwert, Kundenbindung, Upsell/Crosssell %
 

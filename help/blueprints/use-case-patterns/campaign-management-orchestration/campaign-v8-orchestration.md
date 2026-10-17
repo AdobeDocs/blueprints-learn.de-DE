@@ -49,7 +49,7 @@ Sie enthält außerdem einen skalierbaren Echtzeit-Messaging-Server, der Transak
 
 ## Architekturdiagramme
 
-Weitere Informationen zu [Bereitstellungsmodellen für Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Weitere Informationen zu [Bereitstellungsmodellen für Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=de#ac-deployment){target="_blank"}.
 
 ### Bereitstellung von Campaign Enterprise (FFDA)
 

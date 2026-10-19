@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Das erste und einfachste von Ihnen erstellte Angebotselement ist das Fallback-An
    >
    >In der Praxis und bei komplexeren Angeboten sollte ein ordnungsgemäßer Genehmigungsprozess vorhanden sein, um sicherzustellen, dass die Angebotselemente korrekt erstellt wurden. Um in diesem Labor Zeit zu sparen, genehmigen Sie einfach jedes von Ihnen erstellte Angebotselement.
 
-1. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
+12. Klicken Sie auf den **Pfeil nach links** neben dem Titel des Angebotselements, um zur Seite „Angebote“ zurückzukehren, und Sie sehen Ihr iPhone:17\:generisches Angebot aufgeführt.
 
 ## Basismodellobjekt erstellen
 

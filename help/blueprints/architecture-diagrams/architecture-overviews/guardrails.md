@@ -54,7 +54,7 @@ Die folgenden Seiten enthalten Informationen zu Leitplanken für Funktionen, Ser
 **Experience Platform-Services**
 
 * [Leitplanken für die Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=de)
-* [[!DNL Edge Network] API-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] API-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=de)
 * [Leitplanken für Echtzeit-Kundenprofil und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
 * [Identitäts-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=de)
 * [Leitplanken für den Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=de)

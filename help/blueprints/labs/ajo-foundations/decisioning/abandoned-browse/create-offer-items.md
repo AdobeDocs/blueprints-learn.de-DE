@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: 08b695f42c2652edba7d3119734b7e8a7b3235e2
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -93,8 +93,8 @@ Das erste und einfachste von Ihnen erstellte Angebotselement ist das Fallback-An
 Nachdem das generische Angebotselement erstellt wurde, können Sie das nächste Prioritätsangebotselement für das Basismodell von iPhone 17 erstellen.
 
 1. Klicken Sie erneut auf **blaue Schaltfläche** Element erstellen“ und benennen Sie das Angebot **iphone:17\:base**
-2. Da dies das nächstniedrigste Angebotselement mit Priorität ist, erhöhen Sie das Feld **Priorität** auf **2**
-3. Erweitern Sie den Bereich **Gerät** und geben Sie den Feldern diese Werte:
+1. Da dies das nächstniedrigste Angebotselement mit Priorität ist, erhöhen Sie das Feld **Priorität** auf **2**
+1. Erweitern Sie den Bereich **Gerät** und geben Sie den Feldern diese Werte:
    - Ebene: **base**
    - Modell: **17**
    - Marke: **iPhone**
@@ -105,9 +105,9 @@ Nachdem das generische Angebotselement erstellt wurde, können Sie das nächste 
 
    Wenn alles korrekt ist, klicken Sie auf die blaue **Weiter**-Schaltfläche, um mit dem nächsten Schritt fortzufahren.
 
-4. Dieses Angebotselement sollte für alle verfügbar sein, sodass keine Eignungsanforderung besteht. Es sollte jedoch auf 3 Impressionen pro Tag begrenzt werden. Klicken Sie auf die Schaltfläche &quot;**+ Begrenzung erstellen**.
-5. Ändern Sie in der neuen Begrenzungsregel das **Begrenzungsereignis auswählen** in **Impression.**
-6. Ändern Sie die **Begrenzungsereignisanzahl** auf **3**. Nach Abschluss sieht Ihre Begrenzungsregel wie folgt aus:
+1. Dieses Angebotselement sollte für alle verfügbar sein, sodass keine Eignungsanforderung besteht. Es sollte jedoch auf 3 Impressionen pro Tag begrenzt werden. Klicken Sie auf die Schaltfläche &quot;**+ Begrenzung erstellen**.
+1. Ändern Sie in der neuen Begrenzungsregel das **Begrenzungsereignis auswählen** in **Impression.**
+1. Ändern Sie die **Begrenzungsereignisanzahl** auf **3**. Nach Abschluss sieht Ihre Begrenzungsregel wie folgt aus:
 
    ![Begrenzungsregel für das Basisangebot auf 3 Impressionen festgelegt](assets/create-offer-items-base-offer-capping-rule.png)
 
@@ -123,9 +123,9 @@ Nachdem das generische Angebotselement erstellt wurde, können Sie das nächste 
    >
    >Die in den Regeln zur Frequenzlimitierung erwähnten „Tage“ beziehen sich auf Tage in der GMT-Zeitzone.  Frequenzlimitierung mit Tagen in der Logik wird um Mitternacht (GMT) zurückgesetzt.
 
-7. Klicken Sie **Weiter**, um mit dem Überprüfungsschritt fortzufahren.
-8. Stellen Sie sicher, dass alles erwartungsgemäß angezeigt wird, und klicken Sie auf die Schaltfläche **Speichern**. Klicken Sie nach dem Speichern auf **Genehmigen.**
-9. Klicken Sie nach der Genehmigung auf den Pfeil nach links neben dem Titel und kehren Sie zur Seite Angebote zurück. Es werden jetzt zwei Angebote mit jeweils der entsprechenden Priorität angezeigt.
+1. Klicken Sie **Weiter**, um mit dem Überprüfungsschritt fortzufahren.
+1. Stellen Sie sicher, dass alles erwartungsgemäß angezeigt wird, und klicken Sie auf die Schaltfläche **Speichern**. Klicken Sie nach dem Speichern auf **Genehmigen.**
+1. Klicken Sie nach der Genehmigung auf den Pfeil nach links neben dem Titel und kehren Sie zur Seite Angebote zurück. Es werden jetzt zwei Angebote mit jeweils der entsprechenden Priorität angezeigt.
 
 ![Seite „Angebote“, auf der die allgemeinen und grundlegenden Angebotselemente mit ihren Prioritäten aufgelistet sind](assets/create-offer-items-first-two-offers-priority.png)
 
@@ -134,23 +134,23 @@ Nachdem das generische Angebotselement erstellt wurde, können Sie das nächste 
 Nachdem die allgemeinen und Basismodellangebote erstellt wurden, können Sie zu den Angebotselementen für die Modelle Pro und Ultra wechseln. Diese Angebotselemente müssen auch ein Element der Eignung enthalten, da nur Mitglieder mit einer bestimmten Planebene diese Angebote sehen sollten.
 
 1. Erstellen Sie entsprechend den Schritten und Benennungsmustern in den obigen Abschnitten ein neues Angebot mit dem Namen **iphone:17\:pro** und setzen Sie seine Priorität auf **3.**
-2. Legen Sie das **Tier**-Attribut auf **Pro** und die anderen benutzerdefinierten Attribute fest, wie Sie es in den anderen Angeboten getan haben.
-3. Wählen Sie im Schritt „Eignung“ das Optionsfeld **Nach Regel** aus.
-4. In der linken Leiste wird nur eine Entscheidungsregel angezeigt, die zuvor erstellte Entscheidungsregel heißt „Pläne der oberen Ebene“. Klicken Sie auf das Symbol **+** neben dieser Regel, um sie der Arbeitsfläche hinzuzufügen.
-5. Wie bereits erwähnt, hat das Unternehmen erklärt, dass Nicht-Fallback-Angebote eine Häufigkeitsbegrenzung von 3 Anzeigen (oder Impressions) pro Tag haben sollten. Gehen Sie wie im vorherigen Abschnitt beschrieben vor, um eine Begrenzungsregel für drei Impressions pro Tag zu erstellen. Wenn Sie fertig sind, sieht Ihre Seite wie folgt aus:
+1. Legen Sie das **Tier**-Attribut auf **Pro** und die anderen benutzerdefinierten Attribute fest, wie Sie es in den anderen Angeboten getan haben.
+1. Wählen Sie im Schritt „Eignung“ das Optionsfeld **Nach Regel** aus.
+1. In der linken Leiste wird nur eine Entscheidungsregel angezeigt, die zuvor erstellte Entscheidungsregel heißt „Pläne der oberen Ebene“. Klicken Sie auf das Symbol **+** neben dieser Regel, um sie der Arbeitsfläche hinzuzufügen.
+1. Wie bereits erwähnt, hat das Unternehmen erklärt, dass Nicht-Fallback-Angebote eine Häufigkeitsbegrenzung von 3 Anzeigen (oder Impressions) pro Tag haben sollten. Gehen Sie wie im vorherigen Abschnitt beschrieben vor, um eine Begrenzungsregel für drei Impressions pro Tag zu erstellen. Wenn Sie fertig sind, sieht Ihre Seite wie folgt aus:
 
    ![Pro Angebotseignung und Begrenzungskonfiguration für 3 Impressionen pro Tag](assets/create-offer-items-pro-offer-eligibility-capping.png)
 
-6. Nachdem Sie überprüft haben, dass alles korrekt ist, klicken Sie auf **Weiter**. Die endgültige Konfiguration des Angebotselements sieht wie folgt aus:
+1. Nachdem Sie überprüft haben, dass alles korrekt ist, klicken Sie auf **Weiter**. Die endgültige Konfiguration des Angebotselements sieht wie folgt aus:
 
    ![Abgeschlossene Konfiguration für das Pro-Tier-Angebotselement](assets/create-offer-items-pro-offer-final-config.png)
 
-7. Sobald alles korrekt aussieht, **Sie das** „Speichern **und** Genehmigen“.
-8. Kehren Sie zur Seite Angebote zurück und stellen Sie sicher, dass die drei Angebote vorhanden sind und dass sie jeweils die richtige Priorität haben.
-9. Erstellen Sie das endgültige Angebotselement und benennen Sie es **iphone:17\:ultra**, geben Sie ihm eine Priorität von **4,** und setzen Sie die anderen benutzerdefinierten Attribute mit denselben Werten wie die anderen Angebote.
-10. Legen Sie wie beim letzten Angebotselement die Eignung auf die Entscheidungsregel „Pläne der oberen Ebene“ fest und legen Sie eine Häufigkeitsbegrenzung von 3 Impressionen pro Tag fest. Wenn Sie fertig sind, sieht Ihr Angebotselement wie folgt aus:
+1. Sobald alles korrekt aussieht, **Sie das** „Speichern **und** Genehmigen“.
+1. Kehren Sie zur Seite Angebote zurück und stellen Sie sicher, dass die drei Angebote vorhanden sind und dass sie jeweils die richtige Priorität haben.
+1. Erstellen Sie das endgültige Angebotselement und benennen Sie es **iphone:17\:ultra**, geben Sie ihm eine Priorität von **4,** und setzen Sie die anderen benutzerdefinierten Attribute mit denselben Werten wie die anderen Angebote.
+1. Legen Sie wie beim letzten Angebotselement die Eignung auf die Entscheidungsregel „Pläne der oberen Ebene“ fest und legen Sie eine Häufigkeitsbegrenzung von 3 Impressionen pro Tag fest. Wenn Sie fertig sind, sieht Ihr Angebotselement wie folgt aus:
 
-![Abgeschlossene Konfiguration für das Angebotselement der Ultra-Ebene](assets/create-offer-items-ultra-offer-final-config.png)
+   ![Abgeschlossene Konfiguration für das Angebotselement der Ultra-Ebene](assets/create-offer-items-ultra-offer-final-config.png)
 
 1. Nachdem Sie sich vergewissert haben, dass alle Einstellungen korrekt sind, speichern und genehmigen Sie dieses Angebotselement. Jetzt werden alle vier Angebotselemente mit jeweils einer eindeutigen Priorität angezeigt.
 

@@ -7,7 +7,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 ## Benennen und definieren Sie Eintrittskriterien
 
 1. Falls erforderlich, erweitern Sie das Menüelement **Journey-** in der linken Leiste und klicken Sie auf **Journey**. Sie landen auf der Seite &quot;Journey&quot;.
-2. Klicken Sie auf die blaue Schaltfläche **Journey erstellen**.
-3. Wenn die Überlagerung &quot;Journey erstellen“ angezeigt wird, wählen Sie **Neu erstellen** und klicken Sie auf **Bestätigen**
-4. Benennen Sie in der rechten Leiste die Journey **iPhone 17 Abbrechen Durchsuchen** und klicken Sie auf die blaue Schaltfläche **Speichern**, damit Sie Aktionen zur Journey-Arbeitsfläche hinzufügen können.
-5. Ziehen Sie das **Zielgruppen-Qualifizierung**-Ereignis auf die Arbeitsfläche.
-6. Klicken Sie in der rechten Leiste auf das Symbol **Bleistift**, um die Zielgruppe für dieses Ereignis auszuwählen.
-7. Wählen Sie die Zielgruppe **dep: Interested in iPhone 17** aus.
-8. Stellen Sie sicher **dass die Dropdown** Liste „Namespace“ auf &quot;**.** An dieser Stelle sieht Ihr Journey wie folgt aus:
+1. Klicken Sie auf die blaue Schaltfläche **Journey erstellen**.
+1. Wenn die Überlagerung &quot;Journey erstellen“ angezeigt wird, wählen Sie **Neu erstellen** und klicken Sie auf **Bestätigen**
+1. Benennen Sie in der rechten Leiste die Journey **iPhone 17 Abbrechen Durchsuchen** und klicken Sie auf die blaue Schaltfläche **Speichern**, damit Sie Aktionen zur Journey-Arbeitsfläche hinzufügen können.
+1. Ziehen Sie das **Zielgruppen-Qualifizierung**-Ereignis auf die Arbeitsfläche.
+1. Klicken Sie in der rechten Leiste auf das Symbol **Bleistift**, um die Zielgruppe für dieses Ereignis auszuwählen.
+1. Wählen Sie die Zielgruppe **dep: Interested in iPhone 17** aus.
+1. Stellen Sie sicher **dass die Dropdown** Liste „Namespace“ auf &quot;**.** An dieser Stelle sieht Ihr Journey wie folgt aus:
 
    ![Journey-Arbeitsfläche mit hinzugefügtem Zielgruppen-Qualifizierungsereignis und auf customerID festgelegtem Namespace](assets/create-the-journey-audience-qualification-event.png)
 
-9. Sobald alle Angaben korrekt sind, klicken Sie auf die blaue Schaltfläche **Speichern**, um Ihren Fortschritt zu speichern.
+1. Sobald alle Angaben korrekt sind, klicken Sie auf die blaue Schaltfläche **Speichern**, um Ihren Fortschritt zu speichern.
 
 >[!NOTE]
 >

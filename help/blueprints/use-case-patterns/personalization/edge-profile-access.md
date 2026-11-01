@@ -56,7 +56,7 @@ Dieser Blueprint erfordert die Verwendung einer der folgenden Datenerfassungsmet
 ## Leitlinien
 
 * [Leitplanken für [!UICONTROL Echtzeit-])](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
-* [Edge Network-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Edge Network-Leitplanken](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=de)
 * Edge-Profile haben eine TTL (Time-to-Live) von 14 Tagen. Wenn ein Benutzer seit 14 Tagen nicht am Edge aktiv ist, kann das Edge-Profil ablaufen und muss vom Hub abgerufen werden, was sich auf die Personalisierung der ersten Seite auswirken kann.
 * Die Edge-Personalisierung unterstützt die Evaluierung der Zielgruppenzugehörigkeit in Echtzeit für Zielgruppen, die Edge-Segmentierungskriterien erfüllen. Batch- und Streaming-Zielgruppen vom Hub sind auch am Edge mit entsprechender Konfiguration verfügbar.
 

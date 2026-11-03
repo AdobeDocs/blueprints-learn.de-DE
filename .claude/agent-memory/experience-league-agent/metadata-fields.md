@@ -12,7 +12,7 @@ ht-degree: 8%
 
 *Abgerufen vom Adobe ExL Authoring Guide (crawlen im Februar 2026) + Repo Analysis of blueprints-learn.de*
 
----
+&#x200B;---
 
 ## Metadaten-Hierarchie
 
@@ -21,7 +21,7 @@ Metadaten-Kaskaden in dieser Reihenfolge (Artikel überschreibt Inhaltsverzeichn
 2. TOC.md im Benutzerhandbuch
 3. metadata.md im Repository-Stamm (niedrigste Priorität)
 
----
+&#x200B;---
 
 ## Felder auf Artikelebene
 
@@ -72,7 +72,7 @@ Metadaten-Kaskaden in dieser Reihenfolge (Artikel überschreibt Inhaltsverzeichn
 | `source-git-url` | Source-Repository-URL. | Vollständige GitHub-URL |
 | `cloud` | Überschreiben der Cloud-Kategorie auf Artikelebene. | Title case; muss mit cloud.yml übereinstimmen |
 
----
+&#x200B;---
 
 ## TOC.md-Felder
 
@@ -86,7 +86,7 @@ Metadaten-Kaskaden in dieser Reihenfolge (Artikel überschreibt Inhaltsverzeichn
 | `role` | Standard-Zielgruppenrolle für den Guide. | Gleiche Werte wie Artikel `role`; durch Komma getrennt |
 | `index` | Gibt an, ob der Guide indiziert ist. | `yes`/`no` |
 
----
+&#x200B;---
 
 ## Metadaten.md-Felder auf Repo-Ebene
 
@@ -101,7 +101,7 @@ Metadaten-Kaskaden in dieser Reihenfolge (Artikel überschreibt Inhaltsverzeichn
 | `git-repo` | GitHub-Repo-URL; aktiviert die Schaltflächen „Diese Seite bearbeiten“ und „Problem protokollieren“ |
 | `index` | Standardeinstellung für Index |
 
----
+&#x200B;---
 
 ## Gültige Lösungswerte (unter Berücksichtigung von Groß- und Kleinschreibung)
 
@@ -126,7 +126,7 @@ In diesem Repository verwendete allgemeine Werte:
 
 Mehrere Werte: durch Komma getrennt, z. B. `Real-Time Customer Data Platform, Campaign`
 
----
+&#x200B;---
 
 ## Gültige Produktwerte (für `product` Feld - Analytics-Tracking)
 
@@ -140,7 +140,7 @@ Siehe Systemaufforderung für vollständige Liste. Schlüsselwerte:
 - `adobe campaign` / `campaign` / `ac`
 - `adobe target` / `target` / `at`
 
----
+&#x200B;---
 
 ## Gültige Rollenwerte
 
@@ -152,7 +152,7 @@ Siehe Systemaufforderung für vollständige Liste. Schlüsselwerte:
 - `Leader`
 - `User`
 
----
+&#x200B;---
 
 ## Wichtige Validierungsregeln
 

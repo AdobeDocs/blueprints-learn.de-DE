@@ -2,13 +2,14 @@
 name: Adobe Experience League Authoring Guidelines
 description: Vollständige Referenz für Adobe Experience League Markdown-Authoring-Regeln, crawlen im offiziellen Authoring-Handbuch im März 2026.
 type: reference
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
-
 ---
-
 
 # Authoring-Richtlinien für Adobe Experience League
 
@@ -178,7 +179,7 @@ SEO-Titel, SEO-Beschreibung, Zielgruppe, Schwierigkeit, UUID (aus dem Migrations
 >[!SUCCESS]
 ```
 
-- KRITISCH: Kein Abstand zwischen `>` und `[ !` — `>[!NOTE]` NICHT `> [!NOTE]`
+- KRITISCH: Kein Abstand zwischen `>` und `[!` — `>[!NOTE]` NICHT `> [!NOTE]`
 - Leerzeile zwischen `>[!NOTE]` und Textzeile des Textkörpers hinzufügen
 
 ### Registerkarten
@@ -362,7 +363,7 @@ Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (gr
 - Hierarchie der sequenziellen Überschriften (h1 → h2 → h3, Ebenen nie überspringen)
 - Schlüsselwörter in H1, Textkörper und Metadaten einschließen (nicht das `keywords` Meta-Tag - Google ignoriert es)
 - Keyword-Stopfen vermeiden (Intent > Häufigkeit)
-- Titel: max. 50-60 Zeichen; System hängt &quot;| Adobe ProductName“ automatisch
+- Titel: max. 50-60 Zeichen; System hängt &quot;| Adobe ProductName“ automatisch an
 - Beschreibung: 150-160 Zeichen; sollte eine call to action sein, keine Inhaltswiederholung
 - Allen Bildern beschreibenden Alternativtext hinzufügen
 - Videotranskripte einschließen (Suchmaschinen können nur Text lesen)
@@ -408,7 +409,7 @@ Typen: `Informative` (blau), `Positive` (grün), `Negative` (rot), `Neutral` (gr
 
 - Fehlende oder leere `title` oder `description` Metadaten
 - `description` nicht mit „Weitere Informationen…“ oder „Learn how to…“
-- Leerzeichen zwischen `>` und `[ !` in der Callout-Syntax (`> [!NOTE]` statt `>[!NOTE]`)
+- Leerzeichen zwischen `>` und `[!` in der Callout-Syntax (`> [!NOTE]` statt `>[!NOTE]`)
 - Leerzeichen in fett gedruckten Markierungen: `**text **` (Leerzeichen am Ende werden fett umbrochen)
 - Markdown-Syntax in HTML-Tabellen (Callouts funktionieren dort z. B. nicht)
 - Doppelte Anker-IDs für Überschriften in einem Dokument

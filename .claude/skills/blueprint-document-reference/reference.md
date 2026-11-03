@@ -1,9 +1,13 @@
 ---
-source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 4%
 ---
+
 # Blueprint-Dokumentreferenz — Detailliertes Handbuch
 
 ## Dokumenttypen
@@ -14,7 +18,7 @@ ht-degree: 4%
 | **Szenario-Blueprint** | Einzelner Anwendungsfall: Architektur, Schritte, Leitplanken | e.g. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **TOC** | Navigation; nicht als Inhaltsvorlage verwenden | `help/blueprints/TOC.md` |
 
-&#x200B;---
+---
 
 ## Vollständiger Abschnitt
 
@@ -45,7 +49,7 @@ ht-degree: 4%
 - **Blueprint-Szenarien** oder **Integrationsmuster**: Tabelle mit Szenarionamen, Kurzbeschreibung und Link zur Szenario-Blueprint.
 - **Voraussetzungen**, **Leitplanken**, **Verwandte Dokumentation**: Wie oben; kurz halten.
 
-&#x200B;---
+---
 
 ## Adobe Experience League - Agenten-Anleitungen
 
@@ -64,7 +68,7 @@ Fügen Sie keine langen Vorgänge aus Experience League in den Blueprint ein. Zu
 | Inhaltstyp | Basis-URL | Beispielpfad |
 |--------------|----------|--------------|
 | Experience Platform-Dokumente | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League (en) | `https://experienceleague.adobe.com/de/docs/` | Gleiche Struktur wie oben bei `/en/`. |
+| Experience League (en) | `https://experienceleague.adobe.com/en/docs/` | Gleiche Struktur wie oben bei `/en/`. |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | Web SDK | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | Edge Network Server-API | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -76,7 +80,7 @@ Verwenden Sie den kanonischen Pfad, der mit der aktuellen Experience League-Site
 
 ### Link-Formatierung im Markdown
 
-- **Text des beschreibenden Links**: `[Create schemas](https://experienceleague.adobe.com/de...)` „hier klicken“.
+- **Text des beschreibenden Links**: `[Create schemas](https://experienceleague.adobe.com/...)` „hier klicken“.
 - **Produktnamen im Text**: Verwenden Sie `[!DNL Product Name]` nach Adobe-Stil (z. B. `[!DNL Real-time Customer Profile]`).
 - **Externe Links**: Fügen Sie `{target="_blank"}` nur hinzu, wenn die Vorlage oder Pipeline dies erfordert (überprüfen Sie vorhandene Blueprints im Repository).
 
@@ -97,19 +101,19 @@ Beispiel:
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=de)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
-&#x200B;---
+---
 
 ## Repository und Inhaltsverzeichnis
 
@@ -117,7 +121,7 @@ Beispiel:
 - **Assets**: Verwenden Sie die Blueprint (z. B. `assets/`, `images/`) oder einen freigegebenen Ordner (z. B. `experience-platform/assets/`).
 - **TOC**: `help/blueprints/TOC.md` beim Hinzufügen, Umbenennen oder Verschieben von Blueprint-Seiten bearbeiten. Bewahren Sie die Frontansicht (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) und die `+` Hierarchie auf.
 
-&#x200B;---
+---
 
 ## Beispielverweise in diesem Repository
 

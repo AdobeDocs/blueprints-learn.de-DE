@@ -1,9 +1,13 @@
 ---
-source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 1%
 ---
+
 # Blueprint-Bewertungsthema
 
 Diese Rubrik wird auf alle Dokumente im Abschnitt „Architekturdiagramme und Blueprints“ angewendet
@@ -41,11 +45,11 @@ Nur ein kurzer Überblick.
 
 ### Diagrammsignale (je = +1 Diagramm)
 
-&#x200B;6. **Architektur/Datenflussbild vorhanden** — `.svg`, `.png` oder `.jpg` mit Systemtopologie,
+6. **Architektur/Datenflussbild vorhanden** — `.svg`, `.png` oder `.jpg` mit Systemtopologie,
 Datenfluss oder Integrationspfeile.
-&#x200B;7. **Topologie der System-zu-System-Integration, Bereitstellungsform oder Leitplanken** - beschreibt, wie
+7. **Topologie der System-zu-System-Integration, Bereitstellungsform oder Leitplanken** - beschreibt, wie
 Verbindungen zwischen Komponenten, in denen Daten leben, Bereitstellungsmodelle (Edge vs. Hub) oder Kapazitätsbeschränkungen.
-&#x200B;8. **Zielgruppe sind Lösungsarchitekten** - Framing verwendet Bereitstellung, SDK, Edge, Hub oder Ähnliches
+8. **Zielgruppe sind Lösungsarchitekten** - Framing verwendet Bereitstellung, SDK, Edge, Hub oder Ähnliches
 Architektenorientierte Terminologie statt marketerorientierter Framing (Kampagnen, Journey,
 Zielgruppen).
 

@@ -1,13 +1,14 @@
 ---
 name: blueprint-document-reference
 description: Referenz zum Erstellen und Bearbeiten von Adobe Digital Experience Blueprint-Dokumenten. Wird verwendet, wenn neue Blueprints erstellt, Blueprint-Seiten hinzugefügt oder Fragen zur Blueprint-Struktur, zu Abschnitten, Vorlagen oder zum Verweisen auf Adobe Experience League gestellt werden.
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
-
 ---
-
 
 # Blueprint-Dokumentreferenz
 
@@ -98,8 +99,8 @@ Verwenden Sie für Übersichts- oder Hub-Seiten eine kürzere Struktur: Einführ
 ## Verweisen auf Adobe Experience League
 
 - **Wann eine Verknüpfung erstellt**: Verknüpfung zu Experience League für Produktdokumentation, API-Referenzen, Leitplanken, Tutorials und Konfigurationsschritte. Keine langwierigen Verfahren duplizieren; zusammenfassen und verknüpfen.
-- **URL-**: Verwenden Sie vollständige URLs. Bevorzugen Sie `https://experienceleague.adobe.com/docs/?lang=de...` oder `https://experienceleague.adobe.com/de/docs/...`. Für Entwicklerdokumente ist `https://developer.adobe.com/...` ebenfalls gültig.
-- **Verknüpfungstext**: Verwenden Sie einen beschreibenden Text (z. B. &quot;[Schemata erstellen] (url) und nicht „Hier klicken„). Für Produktnamen im Link-Text verwenden Sie gegebenenfalls `[!DNL Product Name]`.
+- **URL-**: Verwenden Sie vollständige URLs. Bevorzugen Sie `https://experienceleague.adobe.com/docs/...` oder `https://experienceleague.adobe.com/en/docs/...`. Für Entwicklerdokumente ist `https://developer.adobe.com/...` ebenfalls gültig.
+- **Verknüpfungstext**: Verwenden Sie einen beschreibenden Text (z. B. &quot;[Schemata erstellen](url) und nicht „Hier klicken„). Für Produktnamen im Link-Text verwenden Sie gegebenenfalls `[!DNL Product Name]`.
 - **Abschnitt zur zugehörigen Dokumentation**: Beenden Sie Blueprints mit dem Abschnitt „Verwandte Dokumentation“, in dem Links nach Kategorie gruppiert sind (z. B. Zielkonfigurationen, SDK-Dokumentation, Profil und Segmentierung, Tutorials).
 
 Ausführliche URL-Muster, Linkgruppierung und Beispiele finden Sie unter [reference.md](reference.md).

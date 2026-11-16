@@ -19,7 +19,7 @@ Verwenden Sie **Real-Time Customer Data Platform B2B edition**, um Account-, Opp
 
 - Erstellen Sie Zielgruppen von Personen für das kanalübergreifende Targeting und die Personalisierung basierend auf B2B-Daten, einschließlich Konten, Chancen und Leads.
 - Erstellen Sie Audiences mit mehreren Entitäten, die Attribute auf Konto- und Opportunity-Ebene mit dem Verhalten auf Personenebene kombinieren, indem Sie einen **Segment-of-Segments**-Ansatz verwenden (z. B. „Personen, die die Preisfindungsseite in den letzten 3 Tagen besucht haben und Entscheidungsträger bei Opportunitys in Phase X für Accounts in Branche Y sind„).
-- Aktivieren Sie Personen-Zielgruppen für unterstützte Experience Platform-Ziele für Targeting und Personalisierung sowie Konto-Zielgruppen für unterstützte Werbe- und Cloud-Speicher-Ziele für Targeting, Verkaufsförderung und Analysen. Die Unterstützung für Ziele unterscheidet sich je nach Zielgruppentyp. Informationen zur Kontoaktivierung finden [ unter &quot;](#account-audience-destinations)-Ziele“.
+- Aktivieren Sie Personen-Zielgruppen für unterstützte Experience Platform-Ziele für Targeting und Personalisierung sowie Konto-Zielgruppen für unterstützte Werbe- und Cloud-Speicher-Ziele für Targeting, Verkaufsförderung und Analysen. Die Unterstützung für Ziele unterscheidet sich je nach Zielgruppentyp. Informationen zur Kontoaktivierung finden [&#x200B; unter &quot;](#account-audience-destinations)-Ziele“.
 
 ### Account-basierte Anwendungsfälle
 
@@ -150,7 +150,7 @@ Anleitung zu wichtigen Erwägungen und Konfigurationen der Blueprint.
 
 - **Mindest-Zielgruppengröße für abgeglichene LinkedIn-Zielgruppen**
 
-  Für abgeglichene LinkedIn-Zielgruppen ist eine Mindestgröße für die Zielgruppe erforderlich (z. B. 300 übereinstimmende Mitglieder). Wenn eine aktivierte Konto-Zielgruppe die Anforderung nicht erfüllt, erweitern Sie die Zielgruppendefinition, um die übereinstimmende Zielgruppengröße zu erhöhen, bevor Sie eine Kampagne starten. Aktuelle Anforderungen finden Sie in [ Dokumentation ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en) LinkedIn-Ziel .
+  Für abgeglichene LinkedIn-Zielgruppen ist eine Mindestgröße für die Zielgruppe erforderlich (z. B. 300 übereinstimmende Mitglieder). Wenn eine aktivierte Konto-Zielgruppe die Anforderung nicht erfüllt, erweitern Sie die Zielgruppendefinition, um die übereinstimmende Zielgruppengröße zu erhöhen, bevor Sie eine Kampagne starten. Aktuelle Anforderungen finden Sie in [&#x200B; Dokumentation &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en) LinkedIn-Ziel .
 
 ## Verwandte Dokumentation
 

@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie mit der Aktivität „Zielgruppe aufbauen“ 
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 9a38e7016b9fdca00bc49be00fe03a0e8e5ed26d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen einer Zielgruppe
 
@@ -34,17 +32,17 @@ In den nächsten Schritten erstellen Sie eine Audience aus dem relationalen Sche
 
 4. Nachdem die **Zielgruppendimension** konfiguriert wurde, klicken Sie auf Zielgruppe erstellen , um den Prozess der Erstellung der Zielgruppe aus dem relationalen Schema zu starten
 
-   ![Klicken Sie auf die Schaltfläche Zielgruppe erstellen &#x200B;](assets/build-an-audience-create-audience-button.png)
+   ![Klicken Sie auf die Schaltfläche Zielgruppe erstellen ](assets/build-an-audience-create-audience-button.png)
 
 5. Der Bereich Details der Zielgruppe erstellen wird geöffnet. Klicken Sie auf **Bedingung hinzufügen**
 
    ![Klicken Sie im Bereich „Zielgruppe erstellen“ auf „Bedingung hinzufügen“](assets/build-an-audience-add-condition.png)
 
-6. Scrollen Sie nach unten und erweitern Sie die `dep-rel: Plan Lookup`, indem Sie neben **>** klicken
+6. Scrollen Sie nach unten und erweitern Sie die `dep-rel: Plan [Lookup]`, indem Sie neben **>** klicken
 
    ![Dep-rel erweitern: Plansuche](assets/build-an-audience-expand-plan-lookup.png)
 
-7. Wählen Sie `dep-rel: Plan Name` und klicken Sie auf **Bestätigen**
+7. Wählen Sie `Plan Name` und klicken Sie auf **Bestätigen**
 
    ![Wählen Sie Dep-rel: Planname](assets/build-an-audience-select-plan-name.png)
 
@@ -80,4 +78,4 @@ In den nächsten Schritten erstellen Sie eine Audience aus dem relationalen Sche
 
 Sie haben jetzt gesehen, wie einfach es ist, die Aktivität Zielgruppe aufbauen in der Kampagne zu verwenden, indem Sie die richtige Zielgruppendimension aus dem relationalen Schema auswählen. Anschließend haben Sie eine Bedingung hinzugefügt, um die Kriterien für die Zielgruppenerstellung zu verfeinern, und die Option „Aktualisieren“ verwendet, um die erwartete Anzahl von Zeilen zu überprüfen.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) wenn Sie Interesse haben.

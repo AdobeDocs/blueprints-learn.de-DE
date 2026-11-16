@@ -5,10 +5,10 @@ solution: Real-Time Customer Data Platform
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 5%
+source-wordcount: '1745'
+ht-degree: 4%
 ---
 
 # B2B-Zielgruppe und Profilaktivierung
@@ -19,7 +19,13 @@ Verwenden Sie **Real-Time Customer Data Platform B2B edition**, um Account-, Opp
 
 - Erstellen Sie Zielgruppen von Personen für das kanalübergreifende Targeting und die Personalisierung basierend auf B2B-Daten, einschließlich Konten, Chancen und Leads.
 - Erstellen Sie Audiences mit mehreren Entitäten, die Attribute auf Konto- und Opportunity-Ebene mit dem Verhalten auf Personenebene kombinieren, indem Sie einen **Segment-of-Segments**-Ansatz verwenden (z. B. „Personen, die die Preisfindungsseite in den letzten 3 Tagen besucht haben und Entscheidungsträger bei Opportunitys in Phase X für Accounts in Branche Y sind„).
-- Aktivieren Sie Personen- und Account-Zielgruppen für Experience Platform- und Cloud-Speicher-Ziele - wie Marketo Engage, LinkedIn Matched Audiences, Google Customer Match, DV360, The Trade Desk, Amazon Ads, Bombora und Demandbase - für Targeting, Personalisierung, Verkaufskontakte und Analysen.
+- Aktivieren Sie Personen-Zielgruppen für unterstützte Experience Platform-Ziele für Targeting und Personalisierung sowie Konto-Zielgruppen für unterstützte Werbe- und Cloud-Speicher-Ziele für Targeting, Verkaufsförderung und Analysen. Die Unterstützung für Ziele unterscheidet sich je nach Zielgruppentyp. Informationen zur Kontoaktivierung finden [&#x200B; unter &quot;](#account-audience-destinations)-Ziele“.
+
+### Account-basierte Anwendungsfälle
+
+- **Lücken in der Einkaufsgruppe schließen** Erstellen Sie eine Zielgruppe von Accounts ohne Kontakte in Rollen wie CMO oder CIO. Aktivieren Sie es für abgeglichene LinkedIn-Zielgruppen oder ein anderes unterstütztes Werbeziel und verwenden Sie dann das Jobtitel-Targeting des Ziels, um neue Kontakte in diesen Rollen zu erreichen.
+- **Upsell oder Crosssell an andere Abteilungen eines bestehenden Kunden:** Erstellen Sie eine Account-Zielgruppe, die Produkt X vor 3 bis 9 Monaten gekauft hat, aber noch nicht das Produkt Y besitzt. Aktivieren Sie es für unterstützte Werbeziele oder exportieren Sie es in den Cloud-Speicher, um Verkauf und Marketing zu erreichen.
+- **Targeting von Unternehmen, die konkurrierende Produkte verwenden** Verwenden Sie Partner- oder Absichtsdaten, um Konten zu identifizieren, die das Produkt eines Mitbewerbers verwenden, selbst wenn keine Kontakte bekannt sind. Aktivieren Sie das Zielgruppenkonto für unterstützte Werbeziele, um Kontakte bei diesen Unternehmen zu erreichen.
 
 ## Programme
 
@@ -33,7 +39,7 @@ Typische B2B-Integrationsmuster für diesen Blueprint sind:
 
 - **B2B-Interaktion und CRM-Quellen → RTCDP B2B-→-Ziele**
 
-  B2B-Interaktion und CRM-Systeme wie Marketo Engage, Salesforce und Microsoft Dynamics senden Leads/Kontakte, Konten und Opportunities mithilfe der standardmäßigen B2B-**in** Real-Time CDP B2B edition. Von dort aus werden Zielgruppen von Personen und Konten für Ziele aktiviert, darunter:
+  B2B-Interaktion und CRM-Systeme wie Marketo Engage, Salesforce und Microsoft Dynamics senden Leads/Kontakte, Konten und Opportunities mithilfe der standardmäßigen B2B-Schemata und -**in** Real-Time CDP B2B edition. Von dort aus werden Personen-Zielgruppen für unterstützte Ziele aktiviert, darunter:
 
   - Marketo Engage
   - Abgestimmte LinkedIn-/LinkedIn-Zielgruppen
@@ -43,9 +49,11 @@ Typische B2B-Integrationsmuster für diesen Blueprint sind:
   - Trade Desk CRM, Criteo, Bing und andere Werbeplattformen
   - Cloud-Speicher-Ziele wie Amazon S3, ADLS und Snowflake für die nachgelagerte Verwendung
 
+  Account-Zielgruppen verwenden dasselbe einheitliche B2B-Datenmodell und werden separat für unterstützte Werbe- und Datei-Ziele aktiviert, die unter [Account-Zielgruppenziele](#account-audience-destinations) aufgeführt sind.
+
 - **B2B-Absicht und Ereignisquellen → RTCDP B2B-→-Zielgruppen → -Ziele**
 
-  B2B-Absicht und Ereignisquellen wie Bombora Intent, Demandbase Intent, PathFactory und RainFocus streamen Absichts- und Interaktionsereignisse in RTCDP B2B. Diese Ereignisse werden standardmäßigen B2B-Schemata zugeordnet und verwendet, um Personen- und Account-Zielgruppen zu erstellen, die für Werbe- und Marketing-Ziele aktiviert werden können.
+  B2B-Absicht und Ereignisquellen wie Bombora Intent, Demandbase Intent, PathFactory und RainFocus streamen Absichts- und Interaktionsereignisse in RTCDP B2B. Diese Ereignisse werden standardmäßigen B2B-Schemata zugeordnet und verwendet, um Personen- und Account-Zielgruppen zu erstellen, die für Werbe- und Marketing-Ziele aktiviert werden können. So können beispielsweise Accounts, die Absichten auf Themen von Mitbewerbern zeigen, für unterstützte Account-Ziele wie Bombora und Demandbase aktiviert werden.
 
 Verschiedene B2B-Datenquellen können verwendet werden, um Account-, Lead-, Opportunity- und Personendaten mithilfe der standardmäßigen B2B **Schemata und -Beziehungen der B2B edition von Real-Time Customer Data Platform**.
 
@@ -53,11 +61,28 @@ Verschiedene B2B-Datenquellen können verwendet werden, um Account-, Lead-, Oppo
 
 ![Referenzarchitektur für den Blueprint „B2B-Zielgruppe“ und „Profilaktivierung“](assets/b2b-audience-profile-activation.png){width="1000" zoomable="yes"}
 
+## Konten-Audience-Ziele
+
+Account-Zielgruppen können für die folgenden Werbe- und Cloud-Speicher-Ziele aktiviert werden:
+
+- Abgestimmte LinkedIn-Zielgruppen
+- Bombora
+- Demandbase
+- Azure Data Lake Storage Gen2
+- Data Landing Zone
+- SFTP
+- Azure Blob
+- AWS S3
+
+Unter [Kontozielgruppen aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) finden Sie die neuesten unterstützten Ziele und erforderlichen Zuordnungen. Die in den Integrationsmustern aufgelisteten Personen-Zielgruppen-Ziele unterstützen nicht unbedingt Konto-Zielgruppen.
+
 ## Leitlinien
 
 Beachten Sie beim Entwerfen von B2B-Zielgruppen und Profilen die folgenden Leitplanken und die Dokumentation zur Eignung:
 
 - [Leitplanken für Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Konto-Zielgruppen aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
 - [Anwendungsfälle für die Segmentierung für Real-Time CDP B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/segmentation/b2b)
 - [Leitplanken für Profile und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails)
 - [Aktualisierung der Eignungskriterien für Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/eligibility-criteria-update)
@@ -107,6 +132,12 @@ Zwei Implementierungsmuster sind häufig:
 
 Im Rahmen der Upgrades der RTCDP B2B-Architektur werden einige zuvor verwendete Muster für B2B-Entitäten jetzt nicht mehr unterstützt. Weitere Informationen zu Datensätzen finden Sie in der detaillierten Dokumentation [hier](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade).
 
+Informationen zur Erstellung und Aktivierung von Konto-Audience finden Sie unter:
+
+- [Konto-Zielgruppen erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
+- [Kontozielgruppen aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en).
+- [Erforderliche Zuordnungen für abgeglichene LinkedIn-Zielgruppen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
+
 ## Überlegungen bei der Implementierung
 
 Anleitung zu wichtigen Erwägungen und Konfigurationen der Blueprint.
@@ -117,10 +148,18 @@ Anleitung zu wichtigen Erwägungen und Konfigurationen der Blueprint.
   - Wenn es zusätzliche CRM-Tabellen oder -Attribute gibt, die nicht über Marketo übergeben werden (z. B. benutzerdefinierte Objekte oder zusätzliche Felder), verbinden Sie die CRM-Quelle mithilfe der CRM-Quell-Connectoren direkt mit Experience Platform und ordnen Sie diese Tabellen den standardmäßigen B2B-Schemata und -Beziehungen zu.
   - Entwerfen Sie die Aufnahme in CRM und Marketo gemeinsam, um doppelte oder widersprüchliche Darstellungen von B2B-Entitäten in RTCDP B2B zu vermeiden und sicherzustellen, dass alle B2B-Entitäten den Standardschemata entsprechen.
 
+- **Mindest-Zielgruppengröße für abgeglichene LinkedIn-Zielgruppen**
+
+  Für abgeglichene LinkedIn-Zielgruppen ist eine Mindestgröße für die Zielgruppe erforderlich (z. B. 300 übereinstimmende Mitglieder). Wenn eine aktivierte Konto-Zielgruppe die Anforderung nicht erfüllt, erweitern Sie die Zielgruppendefinition, um die übereinstimmende Zielgruppengröße zu erhöhen, bevor Sie eine Kampagne starten. Aktuelle Anforderungen finden Sie in [&#x200B; Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin?lang=en) LinkedIn-Ziel .
+
 ## Verwandte Dokumentation
 
 - [B2B edition von Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 - [Erste Schritte mit Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
+- [Tutorial zum Erstellen und Aktivieren von Konto-Zielgruppen](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [Konto-Zielgruppen erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Konto-Zielgruppen aktivieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [LinkedIn-Ziel-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
 - [Leitplanken für Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
 - [Schemata in Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b)
 - [Architekturupgrades auf Real-Time CDP B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)

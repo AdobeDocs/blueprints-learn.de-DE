@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie die Aktivität Zielgruppe aufbauen in einer o
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 44d25df10492b3df80fe3887f75ab71e1ebf4743
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen einer Zielgruppe
 
@@ -165,6 +163,6 @@ Es ist null. Weißt du, warum?
 
 ## Zusammenfassung
 
-Sie haben Ihre erste Zielgruppe erfolgreich erstellt und sollten jetzt sehen, wie einfach es ist, Ihre Zahlen innerhalb der Aktivität Zielgruppe aufbauen zu entwickeln und zu validieren.
+Sie haben eine Zielgruppe erfolgreich erstellt und sollten jetzt sehen, wie einfach es ist, Ihre Zahlen innerhalb der Aktivität Zielgruppe aufbauen zu entwickeln und zu validieren.
 
 ![Die Aktivität „Zielgruppe aufbauen“ wurde nach der Zusammenfassung abgeschlossen](assets/build-an-audience-recap-completed-audience.png)

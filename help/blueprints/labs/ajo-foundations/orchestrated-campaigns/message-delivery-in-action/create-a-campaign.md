@@ -7,9 +7,9 @@ exl-id: 5602b0ba-95e2-455f-affd-081df540c999
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 5ddc029828ce7ecc167555ed900a136690b10677
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '131'
 ht-degree: 4%
 ---
 
@@ -23,15 +23,15 @@ In den nächsten Schritten beginnen Sie mit der Erstellung einer orchestrierten 
 
 1. Klicken Sie in der linken Seitenleiste auf **Kampagnen**
 
-   ![Klicken Sie in der linken Seitenleiste auf Kampagnen &#x200B;](assets/create-a-campaign-click-campaigns.png)
+   ![Klicken Sie in der linken Seitenleiste auf Kampagnen ](assets/create-a-campaign-click-campaigns.png)
 
 2. Klicken Sie auf **Kampagne erstellen**
 
    ![Klicken Sie auf die Schaltfläche Kampagne erstellen](assets/create-a-campaign-click-create-campaign.png)
 
-3. Wählen Sie **Orchestrierung - Marketing** und klicken Sie auf **Bestätigen**
+3. Wählen Sie **Orchestrierung Marketing und Transaktion** und klicken Sie auf **Bestätigen**
 
-   ![Wählen Sie Orchestrierung - Marketing aus und klicken Sie auf Bestätigen](assets/create-a-campaign-select-orchestration-marketing.png)
+   ![Wählen Sie Orchestrierung Marketing und Transaktion aus und klicken Sie dann auf Bestätigen](assets/create-a-campaign-select-orchestration-marketing.png)
 
 4. Geben Sie unten Kampagnendetails an und klicken Sie dann auf **Speichern** wenn Sie fertig sind
    - **name:** `OC-MDL-Campaign-Test`

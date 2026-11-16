@@ -7,7 +7,7 @@ exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 9750fa1d2fe4054d4c9efd76f5f58210a4d99adc
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 
 
-6. Klicken Sie auf **Speichern**, um die Profilzielgruppen-Dimension zu erstellen. Dann wird der Datensatz angezeigt.
+6. Klicken Sie auf **Erstellen**, um die Profilzielgruppen-Dimension zu erstellen. Dann wird der Datensatz angezeigt.
 
 ![Target Dimension-Eintrag für Profil in Liste gespeichert](assets/profile-target-dimension-saved-record.png)
 
@@ -109,4 +109,4 @@ Mit der Profil-Target-Dimension wird Adobe Journey Optimizer mitgeteilt, wie Dat
 
 Sie haben jetzt gesehen, wie einfach es ist, im Schema zu navigieren, ein Attribut als Identität zu markieren und die Profilzielgruppen-Dimension zu erstellen.
 
-Weitere Informationen finden [&#x200B; (hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) wenn Sie Interesse haben.
+Weitere Informationen finden [ (hier](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) wenn Sie Interesse haben.

@@ -4,9 +4,9 @@ description: Erstellen Sie eine einheitliche Journey, die auf ein Bestellversand
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: 93fba2a4818790431306801b43a791508451f344
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ Erstellen Sie eine einheitliche Journey, die mit dem konfigurierten Ereignis Bes
 
 ## Journey erstellen
 
-Wechseln Sie zu **Journey** und klicken Sie auf **Journey erstellen - Von Grund auf neu erstellen**
+Wechseln Sie zu **Journey** und klicken Sie auf **Journey erstellen**
 
 ![Erstellen einer Journey - Erstellen von neuen Inhalten im Adobe Journey Optimizer-Bildschirm](assets/build-journey-create-journey-from-scratch.png)
 
@@ -29,7 +29,7 @@ Wechseln Sie zu **Journey** und klicken Sie auf **Journey erstellen - Von Grund 
 1. Aktualisieren Sie die Journey-Eigenschaften in der rechten Leiste wie folgt:
    - **Name**: `Order Shipped Journey`
    - **Beschreibung**: `Notify customer that order has shipped. Include shipping details.`
-   - **Tags**: `Default`
+   - **Tags**: *leer lassen*
    - **Journey-Metriken**: *leer lassen*
 
      >[!NOTE]
@@ -69,7 +69,7 @@ Wechseln Sie zu **Journey** und klicken Sie auf **Journey erstellen - Von Grund 
 
 ### Unitäres Ereignis hinzufügen
 
-Ziehen Sie aus dem linken Bereich unter dem Menü **Ereignisse** das Ereignis **orderShipped** wie unten dargestellt auf die Arbeitsfläche
+Klicken Sie auf ein Pluszeichen, navigieren Sie zu **Benutzerspezifische Ereignisse** und wählen Sie das **orderShipped**-Ereignis aus, wie unten dargestellt
 
 ![Ziehen Sie das orderShipped-Ereignis aus dem Menü Ereignisse auf die Journey-Arbeitsfläche](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
@@ -83,7 +83,7 @@ Ziehen Sie aus dem linken Bereich unter dem Menü **Ereignisse** das Ereignis **
 
 ### Hinzufügen einer benutzerdefinierten Aktion
 
-1. Wenn der linke Bereich das **Menü Aktionen** erweitert und dann die von Ihnen erstellte Aktion mit dem Namen „GetShippingDetails **nach dem** „orderShipped“ auf die Arbeitsfläche zieht
+1. Klicken Sie auf ein Pluszeichen, navigieren Sie zu **Benutzerdefinierte Aktionen** und wählen Sie die von Ihnen erstellte Aktion **GetShippingDetails** aus, damit sie nach dem orderShipped-Ereignis angezeigt wird
 
    ![Ziehen Sie die benutzerdefinierte Aktion GetShippingDetails nach dem orderShipped-Ereignis auf die Arbeitsfläche](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
@@ -107,7 +107,7 @@ Ziehen Sie aus dem linken Bereich unter dem Menü **Ereignisse** das Ereignis **
 
 ### E-Mail-Aktion hinzufügen
 
-1. Ziehen Sie im Menü Aktionen die Aktion **Aktion** nach der Aktion GetShippingDetails auf die Arbeitsfläche
+1. Klicken Sie auf das Pluszeichen nach Ihrem benutzerdefinierten GetShippingDetails-Ereignis und wählen Sie **Aktion** aus.
 
    ![Ziehen Sie den Knoten Aktion nach der Aktion GetShippingDetails auf die Arbeitsfläche](assets/build-journey-drag-email-action-onto-canvas.png)
 
@@ -137,11 +137,11 @@ Für den Inhalt werden Sie die Dinge einfach halten. Wie dumm, einfach.
 
    ![Erstellen von neuen Inhalten in der oberen Leiste](assets/build-journey-click-design-from-scratch.png)
 
-3. Ziehen Sie aus der linken Leiste unter dem Struktur-Container die Spalte **1:1)** die Arbeitsfläche
+3. In der linken Leiste gehen Sie zur Registerkarte Komponenten und ziehen Sie aus unter dem Struktur-Container die Spalte **1:1** die Arbeitsfläche
 
    ![Ziehen Sie das 1:1-Spaltenstrukturelement auf die E-Mail-Arbeitsfläche](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-4. Ziehen Sie dann unter dem Inhalts-Container die Komponente **Text** in Ihre **1:1-Spalte**
+4. Ziehen Sie dann aus dem Inhalts-Container die Komponente **Text** in Ihre **1:1-Spalte**
 
    ![Ziehen Sie die Textkomponente in die 1:1-Spalte](assets/build-journey-drag-text-component-into-column.png)
 
@@ -206,7 +206,8 @@ Stellen Sie auf der Haupt-Journey-Arbeitsfläche im E-Mail-Knoten sicher, dass S
 
    ![Symbol „Parameterüberschreibungen aktivieren“ unter „E-Mail-Parameter“](assets/build-journey-enable-parameter-override.png)
 
-2. Klicken Sie in das leere Textfeld und gehen Sie dann in der linken Leiste nach unten zu **Kontext** -> **orderShipped** -> **\_dep** und klicken Sie auf das Feld **personalEmail**.  Klicken Sie dann auf **OK**
+2. Klicken Sie in das leere Textfeld und gehen Sie dann in der linken Leiste nach unten zu **Kontext** -> **orderShipped** -> **\_dep** und klicken Sie auf das Feld **personalEmail**.  Klicken Sie anschließend auf die Schaltfläche **OK“**
+(Beachten Sie, dass der Mandantenname, der mit einem Unterstrich beginnt, für Ihre Umgebung unterschiedlich sein kann. In diesem Beispiel lautet er _dep.)
 
    ![Wählen Sie das Feld personalEmail unter orderShipped context _dep](assets/build-journey-select-personalemail-context-field.png)
 
@@ -216,7 +217,7 @@ Stellen Sie auf der Haupt-Journey-Arbeitsfläche im E-Mail-Knoten sicher, dass S
 
 
 
-3. Klicken Sie oben rechts auf **Speichern** und anschließend auf den **Rückwärtspfeil** \&lt;- oben links, um die Journey zu **&#x200B;**
+3. Klicken Sie oben rechts auf **Speichern** und anschließend auf den **Rückwärtspfeil** \&lt;- oben links, um die Journey zu ****
 
 ![Speichern-Taste und Rückwärtspfeil zum Schließen der Journey](assets/build-journey-save-and-close-journey.png)
 
